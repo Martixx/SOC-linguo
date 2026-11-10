@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "collectionVersion": "2026.11.10",
+  "name": "SOC-linguo official collection",
+  "updated": "2026-11-10",
+  "totalBatteries": 32,
+  "totalQuestions": 1810,
+  "categories": {
+    "normal": {
+      "batteries": 24,
+      "questions": 1010
+    },
+    "natural": {
+      "batteries": 8,
+      "questions": 800
+    }
+  },
+  "batteries": [
+    {"number": 1, "path": "normal/01_cybersecurity_verb_forms.json", "category": "normal", "questions": 30},
+    {"number": 2, "path": "normal/02_present_simple_vs_present_continuous.json", "category": "normal", "questions": 30},
+    {"number": 3, "path": "normal/03_past_simple.json", "category": "normal", "questions": 30},
+    {"number": 4, "path": "normal/04_present_perfect.json", "category": "normal", "questions": 30},
+    {"number": 5, "path": "normal/05_present_perfect_continuous.json", "category": "normal", "questions": 30},
+    {"number": 6, "path": "normal/06_past_simple_vs_present_perfect.json", "category": "normal", "questions": 30},
+    {"number": 7, "path": "normal/07_past_perfect.json", "category": "normal", "questions": 60},
+    {"number": 8, "path": "normal/08_past_perfect_vs_past_simple.json", "category": "normal", "questions": 30},
+    {"number": 9, "path": "normal/09_past_continuous.json", "category": "normal", "questions": 30},
+    {"number": 10, "path": "normal/10_past_simple_vs_past_continuous.json", "category": "normal", "questions": 30},
+    {"number": 11, "path": "normal/11_future_simple_with_will.json", "category": "normal", "questions": 30},
+    {"number": 12, "path": "normal/12_will_vs_be_going_to_vs_present_continuous.json", "category": "normal", "questions": 30},
+    {"number": 13, "path": "natural-english/13_presenting_an_incident_clearly.json", "category": "natural", "questions": 100},
+    {"number": 14, "path": "natural-english/14_explaining_evidence_and_uncertainty.json", "category": "natural", "questions": 100},
+    {"number": 15, "path": "natural-english/15_giving_recommendations_and_explaining_risk.json", "category": "natural", "questions": 100},
+    {"number": 16, "path": "natural-english/16_explaining_metrics_and_trends.json", "category": "natural", "questions": 100},
+    {"number": 17, "path": "natural-english/17_handling_questions_and_disagreements.json", "category": "natural", "questions": 100},
+    {"number": 18, "path": "natural-english/18_explaining_detections_and_soc_processes.json", "category": "natural", "questions": 100},
+    {"number": 19, "path": "natural-english/19_connectors_and_signposting_for_soc_presentations.json", "category": "natural", "questions": 100},
+    {"number": 20, "path": "natural-english/20_explaining_processes_and_next_steps.json", "category": "natural", "questions": 100},
+    {"number": 21, "path": "normal/21_modal_verbs.json", "category": "normal", "questions": 50},
+    {"number": 22, "path": "normal/22_infinitive_gerund_or_base_form.json", "category": "normal", "questions": 50},
+    {"number": 23, "path": "normal/23_conditionals.json", "category": "normal", "questions": 50},
+    {"number": 24, "path": "normal/24_articles.json", "category": "normal", "questions": 40},
+    {"number": 25, "path": "normal/25_countable_and_uncountable_nouns.json", "category": "normal", "questions": 40},
+    {"number": 26, "path": "normal/26_prepositions_and_dependent_prepositions.json", "category": "normal", "questions": 50},
+    {"number": 27, "path": "normal/27_relative_clauses.json", "category": "normal", "questions": 40},
+    {"number": 28, "path": "normal/28_passive_voice.json", "category": "normal", "questions": 50},
+    {"number": 29, "path": "normal/29_reported_speech.json", "category": "normal", "questions": 40},
+    {"number": 30, "path": "normal/30_common_soc_collocations.json", "category": "normal", "questions": 60},
+    {"number": 31, "path": "normal/31_question_forms.json", "category": "normal", "questions": 50},
+    {"number": 32, "path": "normal/32_mixed_grammar_review.json", "category": "normal", "questions": 100}
+  ]
+}
