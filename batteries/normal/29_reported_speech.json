@@ -1,0 +1,568 @@
+{
+  "name": "29 · Reported speech · Normal",
+  "description": "40 preguntas normales sobre reported speech en contextos SOC y de comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b29-q001",
+      "topic": "Reported statements and backshift",
+      "question": "Yesterday the team said, “We are reviewing the new evidence now.” Today we report: The team said that they ___ the new evidence then.",
+      "options": [
+        "are reviewing",
+        "had reviewed",
+        "were reviewing",
+        "reviewed now"
+      ],
+      "correct": 2,
+      "explanation": "Tras said en pasado, el present continuous suele retroceder a past continuous; now cambia a then.",
+      "translation": "El equipo dijo que estaba revisando las nuevas pruebas en ese momento."
+    },
+    {
+      "id": "b29-q002",
+      "topic": "Reported statements and backshift",
+      "question": "On Monday Elena said, “I sent the summary on Friday.” Elena said that she ___ the summary the previous Friday.",
+      "options": [
+        "sent tomorrow",
+        "has sent",
+        "would send",
+        "had sent"
+      ],
+      "correct": 3,
+      "explanation": "La acción de enviar es anterior al momento pasado de said, por eso usamos past perfect: had sent.",
+      "translation": "Elena dijo que había enviado el resumen el viernes anterior."
+    },
+    {
+      "id": "b29-q003",
+      "topic": "Reported statements and backshift",
+      "question": "At noon the analyst said, “We haven’t received the attachment.” The analyst said that they ___ the attachment by noon.",
+      "options": [
+        "hadn’t received",
+        "haven’t received",
+        "didn’t received",
+        "wouldn’t receive"
+      ],
+      "correct": 0,
+      "explanation": "El present perfect suele retroceder a past perfect después de un verbo introductor en pasado.",
+      "translation": "El analista dijo que no habían recibido el archivo adjunto para el mediodía."
+    },
+    {
+      "id": "b29-q004",
+      "topic": "Reported statements and backshift",
+      "question": "The coordinator said, “I will call the customer after lunch.” She said that she ___ the customer after lunch.",
+      "options": [
+        "will call",
+        "would call",
+        "called before lunch",
+        "would called"
+      ],
+      "correct": 1,
+      "explanation": "En estilo indirecto tras said, will normalmente cambia a would.",
+      "translation": "La coordinadora dijo que llamaría al cliente después de comer."
+    },
+    {
+      "id": "b29-q005",
+      "topic": "Reported statements and backshift",
+      "question": "Marco said, “I can join the briefing at four.” Marco said that he ___ the briefing at four.",
+      "options": [
+        "can joined",
+        "can join",
+        "could joined",
+        "could join"
+      ],
+      "correct": 3,
+      "explanation": "Can suele cambiar a could en estilo indirecto; después de could usamos la forma base join.",
+      "translation": "Marco dijo que podía unirse a la reunión informativa a las cuatro."
+    },
+    {
+      "id": "b29-q006",
+      "topic": "Reported statements and backshift",
+      "question": "The lead said, “We may need another review.” The lead said that they ___ another review.",
+      "options": [
+        "may needed",
+        "must need",
+        "might need",
+        "might needed"
+      ],
+      "correct": 2,
+      "explanation": "May suele retroceder a might; el modal va seguido de la forma base need.",
+      "translation": "La responsable dijo que quizá necesitarían otra revisión."
+    },
+    {
+      "id": "b29-q007",
+      "topic": "Reported statements and backshift",
+      "question": "At 17:55 Sara said, “I must leave now because my shift ends at six.” Sara said that she ___ then.",
+      "options": [
+        "must to leave",
+        "had to leave",
+        "has to left",
+        "had leave"
+      ],
+      "correct": 1,
+      "explanation": "Para una obligación situada en ese momento pasado, must suele pasar a had to.",
+      "translation": "Sara dijo que tenía que marcharse en ese momento."
+    },
+    {
+      "id": "b29-q008",
+      "topic": "Reported statements and backshift",
+      "question": "The coordinator says, “The customer update is ready.” The coordinator says that the customer update ___ ready.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "correct": 2,
+      "explanation": "Con un verbo introductor en presente, says, no es necesario retroceder el tiempo: is permanece en presente.",
+      "translation": "La coordinadora dice que la actualización para el cliente está lista."
+    },
+    {
+      "id": "b29-q009",
+      "topic": "Pronouns and time or place references",
+      "question": "Laura said, “I will review my notes.” Laura said that ___ would review ___ notes.",
+      "options": [
+        "I / my",
+        "she / my",
+        "her / she",
+        "she / her"
+      ],
+      "correct": 3,
+      "explanation": "Al cambiar de hablante, I pasa a she y my pasa a her.",
+      "translation": "Laura dijo que revisaría sus notas."
+    },
+    {
+      "id": "b29-q010",
+      "topic": "Pronouns and time or place references",
+      "question": "On Tuesday Ben said, “I am meeting the client today.” Ben said that he was meeting the client ___.",
+      "options": [
+        "that day",
+        "today",
+        "this day tomorrow",
+        "the next yesterday"
+      ],
+      "correct": 0,
+      "explanation": "Cuando se informa más tarde, today suele cambiar a that day.",
+      "translation": "Ben dijo que se reunía con el cliente ese día."
+    },
+    {
+      "id": "b29-q011",
+      "topic": "Pronouns and time or place references",
+      "question": "On Wednesday the client said, “We will reply tomorrow.” The client said that they would reply ___.",
+      "options": [
+        "tomorrow",
+        "the day before",
+        "yesterday",
+        "the following day"
+      ],
+      "correct": 3,
+      "explanation": "Tomorrow cambia normalmente a the following day o the next day en estilo indirecto.",
+      "translation": "El cliente dijo que respondería al día siguiente."
+    },
+    {
+      "id": "b29-q012",
+      "topic": "Pronouns and time or place references",
+      "question": "On Friday the analyst said, “The alert appeared yesterday.” The analyst said that the alert had appeared ___.",
+      "options": [
+        "tomorrow",
+        "that day after",
+        "the day before",
+        "next day"
+      ],
+      "correct": 2,
+      "explanation": "Yesterday suele convertirse en the day before o the previous day.",
+      "translation": "El analista dijo que la alerta había aparecido el día anterior."
+    },
+    {
+      "id": "b29-q013",
+      "topic": "Pronouns and time or place references",
+      "question": "The manager said, “We will test the new format next week.” The manager said that they would test it ___.",
+      "options": [
+        "the following week",
+        "last week",
+        "this week before",
+        "the previous week"
+      ],
+      "correct": 0,
+      "explanation": "Next week cambia a the following week cuando desplazamos la referencia temporal.",
+      "translation": "El responsable dijo que probarían el nuevo formato la semana siguiente."
+    },
+    {
+      "id": "b29-q014",
+      "topic": "Pronouns and time or place references",
+      "question": "This morning Ana said, “I finished the draft last night.” Ana said that she had finished the draft ___.",
+      "options": [
+        "tonight",
+        "the night before",
+        "next night",
+        "the following night"
+      ],
+      "correct": 1,
+      "explanation": "Last night se transforma normalmente en the night before.",
+      "translation": "Ana dijo que había terminado el borrador la noche anterior."
+    },
+    {
+      "id": "b29-q015",
+      "topic": "Pronouns and time or place references",
+      "question": "During the site visit the customer said, “We keep the printed procedures here.” Later we reported that they kept them ___.",
+      "options": [
+        "here",
+        "then day",
+        "there",
+        "these"
+      ],
+      "correct": 2,
+      "explanation": "Here cambia a there cuando quien informa ya no está en el mismo lugar.",
+      "translation": "El cliente dijo que guardaban allí los procedimientos impresos."
+    },
+    {
+      "id": "b29-q016",
+      "topic": "Pronouns and time or place references",
+      "question": "Nora held up two pages and said, “These are the revised sections.” Nora said that ___ were the revised sections.",
+      "options": [
+        "those",
+        "these",
+        "this",
+        "that"
+      ],
+      "correct": 0,
+      "explanation": "These suele cambiar a those al alejarse del contexto original.",
+      "translation": "Nora dijo que aquellas eran las secciones revisadas."
+    },
+    {
+      "id": "b29-q017",
+      "topic": "Reported questions",
+      "question": "The customer asked, “Is the report ready?” The customer asked ___ the report was ready.",
+      "options": [
+        "did",
+        "whether",
+        "that",
+        "was"
+      ],
+      "correct": 1,
+      "explanation": "Las preguntas de sí o no se introducen con if o whether y mantienen orden afirmativo.",
+      "translation": "El cliente preguntó si el informe estaba listo."
+    },
+    {
+      "id": "b29-q018",
+      "topic": "Reported questions",
+      "question": "The lead asked, “Where are the latest notes?” The lead asked where the latest notes ___.",
+      "options": [
+        "are they",
+        "were they",
+        "were",
+        "did be"
+      ],
+      "correct": 2,
+      "explanation": "En una pregunta indirecta no hay inversión: where + sujeto + verbo.",
+      "translation": "La responsable preguntó dónde estaban las últimas notas."
+    },
+    {
+      "id": "b29-q019",
+      "topic": "Reported questions",
+      "question": "The client asked me, “Why did the call end early?” The client asked me why the call ___.",
+      "options": [
+        "did end early",
+        "had ended early",
+        "had early ended?",
+        "has ended early"
+      ],
+      "correct": 1,
+      "explanation": "En estilo indirecto eliminamos did y usamos orden afirmativo; el past simple puede retroceder a past perfect.",
+      "translation": "El cliente me preguntó por qué la llamada había terminado antes de tiempo."
+    },
+    {
+      "id": "b29-q020",
+      "topic": "Reported questions",
+      "question": "The coordinator asked, “Did you send the invitation?” She asked us whether we ___ the invitation.",
+      "options": [
+        "did send",
+        "have send",
+        "had send",
+        "had sent"
+      ],
+      "correct": 3,
+      "explanation": "Una pregunta en past simple pasa a whether + sujeto + past perfect, sin auxiliar did.",
+      "translation": "La coordinadora nos preguntó si habíamos enviado la invitación."
+    },
+    {
+      "id": "b29-q021",
+      "topic": "Reported questions",
+      "question": "The customer asked, “When will the next call start?” The customer asked when the next call ___.",
+      "options": [
+        "will it start",
+        "would it start",
+        "would start",
+        "started will"
+      ],
+      "correct": 2,
+      "explanation": "En la pregunta indirecta usamos orden afirmativo y will cambia a would.",
+      "translation": "El cliente preguntó cuándo empezaría la siguiente llamada."
+    },
+    {
+      "id": "b29-q022",
+      "topic": "Reported questions",
+      "question": "The auditor asked, “Who approved this exception?” The auditor asked who ___ that exception.",
+      "options": [
+        "did approve",
+        "had they approved",
+        "was approve",
+        "had approved"
+      ],
+      "correct": 3,
+      "explanation": "Who ya es el sujeto de la pregunta; en estilo indirecto no añadimos did ni invertimos el orden.",
+      "translation": "El auditor preguntó quién había aprobado esa excepción."
+    },
+    {
+      "id": "b29-q023",
+      "topic": "Reported questions",
+      "question": "The analyst asked, “How many users are on the call?” The analyst asked how many users ___ on the call.",
+      "options": [
+        "were they",
+        "did be",
+        "were",
+        "are they"
+      ],
+      "correct": 2,
+      "explanation": "Las preguntas indirectas usan orden de oración afirmativa: how many users were...",
+      "translation": "El analista preguntó cuántos usuarios había en la llamada."
+    },
+    {
+      "id": "b29-q024",
+      "topic": "Reported questions",
+      "question": "Choose the correct reported version of “What does this message mean?”",
+      "options": [
+        "She asked what that message meant.",
+        "She asked what did that message mean.",
+        "She asked what that message did mean?",
+        "She asked that what this message meant."
+      ],
+      "correct": 0,
+      "explanation": "Eliminamos does, usamos orden afirmativo y, con asked en pasado, mean pasa a meant.",
+      "translation": "Preguntó qué significaba aquel mensaje."
+    },
+    {
+      "id": "b29-q025",
+      "topic": "Reported commands, requests and advice",
+      "question": "The client said to me, “Please send the summary before noon.” The client asked me ___ the summary before noon.",
+      "options": [
+        "sending",
+        "that I sent",
+        "send",
+        "to send"
+      ],
+      "correct": 3,
+      "explanation": "Las peticiones se expresan con ask + persona + to-infinitive.",
+      "translation": "El cliente me pidió que enviara el resumen antes del mediodía."
+    },
+    {
+      "id": "b29-q026",
+      "topic": "Reported commands, requests and advice",
+      "question": "The manager said, “Don’t forward this email.” The manager told us ___ that email.",
+      "options": [
+        "to not forwarded",
+        "not to forward",
+        "don’t forward",
+        "not forwarding"
+      ],
+      "correct": 1,
+      "explanation": "Las órdenes negativas se forman con tell + persona + not to + verbo.",
+      "translation": "El responsable nos dijo que no reenviáramos ese correo."
+    },
+    {
+      "id": "b29-q027",
+      "topic": "Reported commands, requests and advice",
+      "question": "The coordinator said to Leo, “Could you check the attendee list?” The coordinator asked Leo ___ the attendee list.",
+      "options": [
+        "to check",
+        "if he checks",
+        "checking",
+        "that check"
+      ],
+      "correct": 0,
+      "explanation": "Una petición con Could you...? puede pasar a ask + persona + to-infinitive.",
+      "translation": "La coordinadora pidió a Leo que comprobara la lista de asistentes."
+    },
+    {
+      "id": "b29-q028",
+      "topic": "Reported commands, requests and advice",
+      "question": "The lead said, “You should wait for written approval.” The lead advised us ___ for written approval.",
+      "options": [
+        "waiting",
+        "that wait",
+        "waited",
+        "to wait"
+      ],
+      "correct": 3,
+      "explanation": "Advise puede construirse con persona + to-infinitive: advised us to wait.",
+      "translation": "La responsable nos aconsejó esperar la aprobación por escrito."
+    },
+    {
+      "id": "b29-q029",
+      "topic": "Reported commands, requests and advice",
+      "question": "Marta said, “Let’s schedule a short follow-up.” Marta suggested ___ a short follow-up.",
+      "options": [
+        "to schedule",
+        "scheduling",
+        "schedule",
+        "scheduled"
+      ],
+      "correct": 1,
+      "explanation": "Suggest va seguido de gerundio o de una cláusula con that; no usamos suggest to do.",
+      "translation": "Marta propuso programar una breve reunión de seguimiento."
+    },
+    {
+      "id": "b29-q030",
+      "topic": "Reported commands, requests and advice",
+      "question": "The analyst said, “Remember to attach the timeline.” The analyst reminded me ___ the timeline.",
+      "options": [
+        "attaching",
+        "that attach",
+        "attach",
+        "to attach"
+      ],
+      "correct": 3,
+      "explanation": "Remind + persona + to-infinitive se usa para recordar a alguien que haga algo.",
+      "translation": "El analista me recordó que adjuntara la cronología."
+    },
+    {
+      "id": "b29-q031",
+      "topic": "Reported commands, requests and advice",
+      "question": "The coordinator said, “Don’t forget to invite the customer.” She reminded him ___ the customer.",
+      "options": [
+        "not to invite",
+        "to invite",
+        "inviting",
+        "that invited"
+      ],
+      "correct": 1,
+      "explanation": "Don’t forget to do se transmite como remind someone to do; la acción que debe recordar es invitar.",
+      "translation": "La coordinadora le recordó que invitara al cliente."
+    },
+    {
+      "id": "b29-q032",
+      "topic": "Reported commands, requests and advice",
+      "question": "The notice said, “You must not share the recording externally.” The notice warned us ___ the recording externally.",
+      "options": [
+        "to not shared",
+        "against share",
+        "not sharing to",
+        "not to share"
+      ],
+      "correct": 3,
+      "explanation": "Warn + persona + not to + verbo transmite una advertencia negativa.",
+      "translation": "El aviso nos advirtió de que no compartiéramos la grabación fuera de la organización."
+    },
+    {
+      "id": "b29-q033",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "The analyst said, “Yes, I deleted the duplicate draft.” The analyst admitted ___ the duplicate draft.",
+      "options": [
+        "deleting",
+        "to delete",
+        "delete",
+        "deleted to"
+      ],
+      "correct": 0,
+      "explanation": "Admit va seguido de gerundio: admitted deleting.",
+      "translation": "El analista admitió haber eliminado el borrador duplicado."
+    },
+    {
+      "id": "b29-q034",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "The user said, “I didn’t change the notification settings.” The user denied ___ the notification settings.",
+      "options": [
+        "to change",
+        "changing",
+        "change",
+        "to changing"
+      ],
+      "correct": 1,
+      "explanation": "Deny va seguido de gerundio: denied changing.",
+      "translation": "El usuario negó haber cambiado la configuración de las notificaciones."
+    },
+    {
+      "id": "b29-q035",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "The coordinator said, “I’ll send the agenda by five.” The coordinator promised ___ the agenda by five.",
+      "options": [
+        "to send",
+        "sending",
+        "that send",
+        "send"
+      ],
+      "correct": 0,
+      "explanation": "Promise puede ir seguido de to-infinitive cuando el sujeto promete realizar la acción.",
+      "translation": "La coordinadora prometió enviar el orden del día antes de las cinco."
+    },
+    {
+      "id": "b29-q036",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "The specialist said, “I can explain the chart if you like.” The specialist offered ___ the chart.",
+      "options": [
+        "explaining",
+        "that explained",
+        "to explain",
+        "explain to"
+      ],
+      "correct": 2,
+      "explanation": "Offer va seguido de to-infinitive cuando alguien se ofrece a hacer algo.",
+      "translation": "El especialista se ofreció a explicar el gráfico."
+    },
+    {
+      "id": "b29-q037",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "Rita said, “I’m sorry I missed the briefing.” Rita apologized for ___ the briefing.",
+      "options": [
+        "missing",
+        "to miss",
+        "miss",
+        "having miss"
+      ],
+      "correct": 0,
+      "explanation": "Apologize for va seguido de sustantivo o gerundio: apologized for missing.",
+      "translation": "Rita se disculpó por haberse perdido la reunión informativa."
+    },
+    {
+      "id": "b29-q038",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "The manager said, “Well done—you completed the review on time.” The manager congratulated us on ___ the review on time.",
+      "options": [
+        "to complete",
+        "completing",
+        "complete",
+        "completed to"
+      ],
+      "correct": 1,
+      "explanation": "Congratulate someone on va seguido de sustantivo o gerundio.",
+      "translation": "El responsable nos felicitó por completar la revisión a tiempo."
+    },
+    {
+      "id": "b29-q039",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "The reviewer said to Tom, “You copied the old wording.” The reviewer accused Tom of ___ the old wording.",
+      "options": [
+        "copying",
+        "to copy",
+        "copy",
+        "copied"
+      ],
+      "correct": 0,
+      "explanation": "Accuse someone of va seguido de gerundio: accused Tom of copying.",
+      "translation": "La revisora acusó a Tom de haber copiado la redacción anterior."
+    },
+    {
+      "id": "b29-q040",
+      "topic": "Reporting verbs and verb patterns",
+      "question": "The client said, “I want to review every change personally.” The client insisted on ___ every change personally.",
+      "options": [
+        "to review",
+        "review",
+        "reviewing",
+        "reviewed"
+      ],
+      "correct": 2,
+      "explanation": "Insist on va seguido de sustantivo o gerundio: insisted on reviewing.",
+      "translation": "El cliente insistió en revisar personalmente cada cambio."
+    }
+  ]
+}

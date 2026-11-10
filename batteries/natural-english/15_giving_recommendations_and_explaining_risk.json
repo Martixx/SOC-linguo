@@ -1,0 +1,1408 @@
+{
+  "name": "15 · Giving recommendations and explaining risk · Natural English",
+  "description": "100 preguntas revisadas para priorizar acciones, justificar reducción de riesgo, proponer controles proporcionados, explicar probabilidad e impacto, gobernar riesgo residual y defender hojas de ruta con inglés natural para clientes.",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b15-v2-recommendations-risk-001",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "The compromised administrator account is still active. What should lead your recommendation on the live response call?",
+      "options": [
+        "Preserve the account for ten minutes while exporting its configuration, then disable it and review the active sessions.",
+        "Disable the account now, but leave its active sessions in place until the initial access method has been confirmed. The analyst would capture the remaining session details during that interval.",
+        "The immediate priority is to disable the account and revoke its active sessions. We can investigate the root cause once access has been contained.",
+        "Revoke the active sessions first, then wait for the application owner before deciding whether to disable the administrator account."
+      ],
+      "correct": 2,
+      "explanation": "The immediate priority marca una acción urgente y concreta; once access has been contained ordena contención antes que análisis profundo. En cambio, las demás retrasan la contención o sustituyen una medida inmediata por una revisión estratégica.",
+      "translation": "La prioridad inmediata es deshabilitar la cuenta y revocar sus sesiones activas. Podremos investigar la causa raíz una vez contenido el acceso."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-002",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "Ransomware is still encrypting a file share while responders are on the call. What would you recommend first?",
+      "options": [
+        "Isolate the file server after confirming which business processes would be interrupted and completing a rapid scope check.",
+        "Keep the systems connected for a few more minutes so responders can observe whether encryption reaches another file share. Network telemetry would be retained throughout that observation window.",
+        "Start rebuilding the most affected host while the network team prepares isolation for the remaining systems.",
+        "Given that encryption is still in progress, I recommend isolating the affected hosts now rather than waiting for the full scope assessment."
+      ],
+      "correct": 3,
+      "explanation": "Given that encryption is still in progress vincula la urgencia con el riesgo observado e isolating... now propone una contención proporcionada. Por contraste, las otras opciones esperan mientras continúa el daño o saltan prematuramente a la reconstrucción.",
+      "translation": "Dado que el cifrado sigue en curso, recomiendo aislar ahora los equipos afectados en lugar de esperar a completar la evaluación del alcance."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-003",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "A malicious mailbox rule is forwarding invoices externally. Put the response into the clearest order for the customer.",
+      "options": [
+        "Remove the forwarding rule, preserve its configuration, and review mailbox activity before blocking the external destination.",
+        "Disable external forwarding for the affected mailbox, then review whether the rule sent any messages outside the organization. The payment-process owner would receive the review findings afterward.",
+        "Block the destination first, retain the rule for evidence, and remove it after the mailbox review is complete.",
+        "First, remove the forwarding rule and block the destination. Then review the mailbox activity to determine what may have been exposed."
+      ],
+      "correct": 3,
+      "explanation": "El contraste clave está en «First, remove the forwarding rule and block the destination». First... Then... presenta una secuencia clara: detener la fuga y después medir la exposición. Las opciones restantes posponen la contención o aplican cambios generales que no son proporcionales al escenario.",
+      "translation": "Primero, eliminad la regla de reenvío y bloquead el destino. Después, revisad la actividad del buzón para determinar qué información puede haber quedado expuesta."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-004",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "Confirmed exploitation of a critical internet-facing vulnerability has been reported in the wild, although none is visible internally. What should you say?",
+      "options": [
+        "Complete the internal exposure review first, then apply the vendor mitigation only if suspicious activity is found. The mitigation would remain ready if the assessment changed.",
+        "We recommend applying the vendor mitigation as a priority while checking the exposed servers for signs of exploitation.",
+        "Take the exposed servers offline until a full patch is available, because exploitation has been confirmed elsewhere.",
+        "Schedule the vendor mitigation in the normal change cycle while monitoring the servers for known indicators."
+      ],
+      "correct": 1,
+      "explanation": "Applying the vendor mitigation as a priority responde a una amenaza activa sin afirmar que el cliente ya esté comprometido; checking... for signs añade verificación. En cambio, las demás minimizan el riesgo, exageran la respuesta o esperan sin una protección temporal.",
+      "translation": "Recomendamos aplicar de forma prioritaria la mitigación del fabricante mientras se revisan los servidores expuestos en busca de indicios de explotación."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-005",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "Several users approved unexpected MFA prompts. Complete the response in two horizons: current exposure first, broader improvement second.",
+      "options": [
+        "Begin the phishing-resistant MFA project this week, and revoke the affected sessions when the replacement method is ready.",
+        "Reset the affected passwords today, then monitor existing sessions and authentication methods for further suspicious prompts.",
+        "Revoke the affected sessions and reset the users’ authentication methods today. After that, review number matching and phishing-resistant MFA as longer-term improvements.",
+        "Revoke every session for the affected users, then move the whole workforce to number matching during the same change window. The change would be coordinated as an urgent identity action."
+      ],
+      "correct": 2,
+      "explanation": "Revoke... and reset... today trata primero la exposición actual; After that diferencia la mejora estructural. Por contraste, las otras confunden estrategia con contención, amplían el cambio sin criterio o dependen solo del comportamiento del usuario.",
+      "translation": "Revocad hoy las sesiones afectadas y restableced los métodos de autenticación de esos usuarios. Después, revisad la coincidencia de números y el MFA resistente al phishing como mejoras a más largo plazo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-006",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "An endpoint is beaconing to confirmed command-and-control infrastructure, but isolation may disrupt the business. What response balances those risks?",
+      "options": [
+        "Keep the endpoint online for a short capture period, provided the owner confirms that the business process cannot fail over. The capture would be limited to a predefined five-minute window.",
+        "Isolate the affected endpoint and the adjacent subnet, then restore connectivity once the process owner confirms the impact.",
+        "Restrict the endpoint’s outbound traffic to known services while the owner prepares a maintenance window for full isolation.",
+        "Because the connection is ongoing, isolating this endpoint is justified despite the short-term disruption. We should coordinate with the owner to preserve any critical process."
+      ],
+      "correct": 3,
+      "explanation": "Because the connection is ongoing explica por qué la contención no debe esperar, y coordinate with the owner reconoce el impacto operativo. Las opciones restantes priorizan continuidad sobre una conexión maliciosa activa o amplían el aislamiento sin necesidad.",
+      "translation": "Como la conexión sigue activa, está justificado aislar este equipo pese a la interrupción a corto plazo. Debemos coordinarnos con el responsable para preservar cualquier proceso crítico."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-007",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "A cloud key is public, but no misuse is visible. How do you explain why the exposure itself is enough to act?",
+      "options": [
+        "Rotate the exposed key immediately and review its recent use. The absence of observed misuse should not delay the rotation.",
+        "Remove the key from the repository, monitor its use closely, and rotate it if the review identifies suspicious access. The repository history would remain available to support attribution.",
+        "Disable the key temporarily, confirm the deployment dependency, and restore it with additional monitoring if no misuse appears.",
+        "Rotate the key after preserving the repository history and completing a review of the applications that still use it."
+      ],
+      "correct": 0,
+      "explanation": "La expresión exacta «Rotate the exposed key immediately» aporta el criterio decisivo. Rotate... immediately elimina una credencial públicamente expuesta; review its recent use conserva la investigación sin retrasar la acción. En cambio, las demás esperan una señal de abuso, mantienen el secreto comprometido o proponen una rotación masiva sin indicios relacionados.",
+      "translation": "Rotad de inmediato la clave expuesta y revisad su uso reciente. La ausencia de abuso observado no debería retrasar la rotación."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-008",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "A third-party remote access account was used from an unusual country and remains enabled. What is the strongest opening for your recommendation?",
+      "options": [
+        "Until the supplier confirms the activity, we recommend suspending the account and preserving the relevant access logs.",
+        "Suspend all supplier accounts briefly while each provider confirms whether its recent activity was legitimate.",
+        "Keep the account enabled with enhanced monitoring until the supplier confirms whether the unusual sign-in was expected.",
+        "Disable the account permanently and preserve the logs, because access from an unusual country indicates compromise."
+      ],
+      "correct": 0,
+      "explanation": "Until the supplier confirms the activity calibra la incertidumbre, mientras suspending the account contiene el riesgo y preserving... logs protege la evidencia. Por contraste, las otras dan por probado el compromiso, no contienen o eliminan datos necesarios.",
+      "translation": "Hasta que el proveedor confirme la actividad, recomendamos suspender la cuenta y conservar los registros de acceso pertinentes."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-009",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "A privileged service account uses an obsolete protocol, but an untested change could stop production. How should the next steps be prioritized?",
+      "options": [
+        "Disable the obsolete protocol on the service account now, with a rollback plan if production becomes unavailable.",
+        "Treat the account as a priority: restrict where it can sign in now, then test protocol changes with the application owner before disabling the legacy method.",
+        "Restrict the account to the production application and defer the protocol change to the next scheduled platform upgrade.",
+        "Move the service account to a new password and test the obsolete protocol in a staging environment before changing production. The test result would then guide the production change."
+      ],
+      "correct": 1,
+      "explanation": "Restrict where it can sign in now reduce la exposición inmediata y then test... antes de deshabilitar gestiona la dependencia. Las opciones restantes aceptan un corte no evaluado, posponen todo el tratamiento o debilitan aún más el control.",
+      "translation": "Tratad la cuenta como prioritaria: restringid ahora dónde puede iniciar sesión y, después, probad los cambios de protocolo con el responsable de la aplicación antes de deshabilitar el método heredado."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-010",
+      "topic": "Recommendations and risk · Immediate priorities",
+      "question": "Your slide mixes one action that closes active persistence with four hygiene improvements. How should the slide guide the decision?",
+      "options": [
+        "Present the five actions in technical order, but mark the persistence removal as the first item for the engineering team. Engineering would use the same list for subsequent tracking.",
+        "Rank the hardening measures by effort, then place persistence removal in the first available emergency change window.",
+        "Show one combined priority list, with persistence removal first and the general hardening measures immediately behind it.",
+        "I would separate the actions into two groups: remove the active persistence today, then schedule the hardening measures according to risk and effort."
+      ],
+      "correct": 3,
+      "explanation": "La expresión exacta «separate the actions into two groups» aporta el criterio decisivo. Separate... into two groups distingue contención urgente de mejora planificada y da al cliente una secuencia utilizable. En cambio, las demás diluyen la urgencia, invierten la prioridad o retrasan la decisión por falta de fechas completas.",
+      "translation": "Separaría las acciones en dos grupos: eliminar hoy la persistencia activa y, después, planificar las medidas de refuerzo según el riesgo y el esfuerzo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-011",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "No incident has used legacy authentication here. How would you explain the preventive value of disabling it?",
+      "options": [
+        "Disabling legacy authentication removes a common access path, although modern authentication can still be targeted in other ways. The team would track any policy exceptions separately.",
+        "It should be disabled because older protocols receive less vendor attention and create avoidable support complexity.",
+        "Disabling it reduces the chance of an account bypassing modern authentication controls. This is preventive, not a response to a confirmed compromise.",
+        "The change reduces the number of authentication methods, making sign-in activity easier for the SOC to review."
+      ],
+      "correct": 2,
+      "explanation": "La redacción final se apoya en «Disabling it reduces the chance». Reduces the chance explica el efecto sin prometer riesgo cero, y preventive aclara el contexto. Por contraste, las otras garantizan imposibles, justifican por antigüedad sin mecanismo o no conectan la acción con el riesgo.",
+      "translation": "Deshabilitarlo reduce la posibilidad de que una cuenta eluda los controles de autenticación modernos. Es una medida preventiva, no una respuesta a un compromiso confirmado."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-012",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "Finish the executive sentence with the benefit segmentation can realistically provide: “We recommend network segmentation because…”",
+      "options": [
+        "…it prevents a compromise in one segment from affecting any system outside that segment.",
+        "…it reduces the monitoring effort required once sensitive systems are placed in separate zones.",
+        "…it makes unauthorized movement easier to detect by forcing all internal traffic through the same path.",
+        "…it limits how far an attacker can move if one part of the environment is compromised."
+      ],
+      "correct": 3,
+      "explanation": "Limits how far describe de forma sencilla la reducción del impacto potencial. Las opciones restantes presentan garantías absolutas, sustituyen controles complementarios o atribuyen el beneficio a la complejidad en lugar del aislamiento.",
+      "translation": "…limita hasta dónde puede desplazarse un atacante si una parte del entorno se ve comprometida."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-013",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "Process command-line telemetry is proposed as a new data source. What rationale connects it to a concrete detection risk?",
+      "options": [
+        "This telemetry would classify more administrative activity automatically, reducing the amount of analyst review needed.",
+        "This telemetry would help us distinguish routine administration from suspicious tool execution, reducing the chance that malicious activity goes undetected.",
+        "This telemetry would improve visibility into launched processes, although endpoint context would still be needed for most investigations.",
+        "This telemetry would give investigations a more complete process history and allow older endpoint logs to be retained for less time."
+      ],
+      "correct": 1,
+      "explanation": "La expresión exacta «help us distinguish routine administration from suspicious tool execution» aporta el criterio decisivo. Help us distinguish... reducing the chance conecta visibilidad con un riesgo concreto y usa un grado realista. En cambio, las demás prometen clasificación perfecta, confunden volumen con calidad o presentan la telemetría como sustituto de la investigación.",
+      "translation": "Esta telemetría nos ayudaría a distinguir la administración rutinaria de la ejecución de herramientas sospechosas, reduciendo la posibilidad de que una actividad maliciosa pase inadvertida."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-014",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "During the review, the customer challenges the recommendation to rotate secrets stored in a deployment script. Give the best rationale.",
+      "options": [
+        "Rotation is appropriate because storing secrets in scripts is prohibited, even when repository access is tightly controlled.",
+        "Anyone who obtained the script may also have obtained the secrets, so rotation removes the value of any copies we cannot recover.",
+        "Deleting the script stops future exposure, while monitoring the current secrets is sufficient for any copies already made. The team would retain access logs for later review.",
+        "Moving the script to a private repository reduces the exposure enough to postpone rotation until the next deployment."
+      ],
+      "correct": 1,
+      "explanation": "May also have obtained mantiene la incertidumbre y removes the value explica por qué borrar el archivo no basta. Por contraste, las otras convierten exposición en abuso confirmado, atribuyen efectos inexistentes al borrado o dan una razón secundaria.",
+      "translation": "Quien haya obtenido el script también podría haber obtenido los secretos, por lo que rotarlos anula el valor de cualquier copia que no podamos recuperar."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-015",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "You recommend tamper protection on security agents. How should you describe the benefit without overselling it?",
+      "options": [
+        "Tamper protection makes it harder for an attacker to disable the agent, although it does not prevent every form of endpoint evasion.",
+        "Tamper protection blocks unauthorized configuration changes, provided the attacker has not already gained local administrator access.",
+        "The feature reduces accidental and malicious changes, so separate monitoring of agent health becomes a lower priority. Analysts would investigate only devices that stop reporting.",
+        "Enabling the feature strengthens the agent against interference and prevents most attempts to evade endpoint monitoring."
+      ],
+      "correct": 0,
+      "explanation": "El contraste clave está en «makes it harder for an attacker to disable the agent». Makes it harder describe una reducción de probabilidad y although... no evita vender el control como absoluto. Las opciones restantes prometen protección total, eliminan controles operativos necesarios o confunden una carencia con evidencia de compromiso.",
+      "translation": "La protección contra manipulaciones dificulta que un atacante deshabilite el agente, aunque no evita todas las formas de evasión en los equipos."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-016",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "The slide says, “Patch the VPN to fix the risk.” Replace it with the version that separates future protection from historical exposure.",
+      "options": [
+        "Patching closes the known VPN vulnerability, so the investigation can focus on activity that occurred after the update. Existing sessions would be reviewed through current monitoring.",
+        "The patch prevents new exploitation of this flaw, while existing sessions should be monitored until they expire naturally.",
+        "Patch the VPN first; a review of historical access is necessary only if current indicators suggest active compromise.",
+        "Patching the VPN closes the known vulnerability. We should also check for prior exploitation because the patch cannot undo earlier access."
+      ],
+      "correct": 3,
+      "explanation": "Closes the known vulnerability define el efecto real del parche y cannot undo earlier access explica la necesidad de revisar el pasado. En cambio, las demás confunden remediación con erradicación o condicionan la protección a confirmar explotación.",
+      "translation": "Aplicar el parche a la VPN corrige la vulnerabilidad conocida. También debemos comprobar si hubo explotación previa, porque el parche no puede deshacer un acceso anterior."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-017",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "The SOC recommends reducing the number of global administrators. What risk statement is most useful to the customer?",
+      "options": [
+        "Fewer standing administrators reduce the number of accounts needing enhanced monitoring and simplify emergency access reviews.",
+        "Reducing the group limits routine privileged activity, making unusual administrative changes easier to identify.",
+        "Removing unused administrator roles lowers operational complexity, although it does not change the impact of a compromised account.",
+        "Fewer standing administrators means fewer high-impact accounts that an attacker could abuse."
+      ],
+      "correct": 3,
+      "explanation": "“Fewer high-impact accounts that an attacker could abuse” conecta la reducción de privilegios con exposición e impacto. A y B se centran en ventajas operativas o de detección; C niega precisamente el efecto de reducir cuentas privilegiadas.",
+      "translation": "Tener menos administradores permanentes implica menos cuentas cuyo compromiso podría tener un impacto generalizado."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-018",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "Application allowlisting is proposed for a high-value server zone. How would you explain its risk-reduction value?",
+      "options": [
+        "Allowlisting reduces the opportunity to run unapproved tools on those servers, which can limit both malware execution and attacker activity.",
+        "Allowlisting blocks software outside the approved catalogue, making endpoint detection less important for that server zone.",
+        "The control narrows the executable set, provided every approved application is reviewed for potential abuse before deployment.",
+        "Its main benefit is to stop users installing unauthorized software, rather than limiting attacker execution on the servers. The same policy would apply across the high-value zone."
+      ],
+      "correct": 0,
+      "explanation": "El contraste clave está en «Allowlisting reduces the opportunity». Reduces the opportunity y can limit expresan mitigación, no garantía. Las opciones restantes confían ciegamente en aplicaciones aprobadas, presentan el control como sustituto del SOC o describen fricción sin explicar la reducción del riesgo.",
+      "translation": "Las listas de aplicaciones permitidas reducen la posibilidad de ejecutar herramientas no aprobadas en esos servidores, lo que puede limitar tanto la ejecución de malware como la actividad del atacante."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-019",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "After a malware incident, the customer asks why outbound filtering matters. What answer makes the risk link clearest?",
+      "options": [
+        "Outbound filtering can block known malicious destinations, although encrypted traffic will still require separate inspection.",
+        "The control limits external connections from affected hosts, so malware has fewer opportunities to reach internal systems. The endpoint team would maintain the relevant exception list.",
+        "Restricting unnecessary outbound connections can make command-and-control and data transfer more difficult, even if malware reaches a host.",
+        "Filtering reduces internet exposure and lets analysts treat any remaining external connection as suspicious."
+      ],
+      "correct": 2,
+      "explanation": "Can make... more difficult explica defensa en profundidad y no atribuye al control una capacidad preventiva que no tiene. En cambio, las demás bloquean supuestamente todo malware, prohíben tráfico legítimo o eliminan la necesidad de investigación.",
+      "translation": "Restringir las conexiones salientes innecesarias puede dificultar el mando y control y la transferencia de datos, incluso si el malware llega a un equipo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-020",
+      "topic": "Recommendations and risk · Rationale and risk reduction",
+      "question": "Finish the rationale while keeping the claim limited to what retention changes: “Longer authentication-log retention…”",
+      "options": [
+        "Longer retention gives us a better chance of reconstructing activity that is discovered weeks after it happened.",
+        "Longer retention provides a fuller historical record, allowing most authentication incidents to be resolved without endpoint data.",
+        "Longer retention improves investigation quality by preserving old events that would otherwise require recovery from backups.",
+        "Longer retention helps us compare current sign-ins with historical patterns and makes recent alerts more reliable."
+      ],
+      "correct": 0,
+      "explanation": "Gives us a better chance describe correctamente el beneficio investigativo sin garantía; discovered weeks after conecta la retención con el problema. Por contraste, las otras prometen reconstrucción total, confunden detección con prevención o inventan una ventaja de precisión.",
+      "translation": "Una retención más larga nos da más posibilidades de reconstruir actividades que se descubren semanas después de haberse producido."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-021",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "One employee clicked a phishing link, but the browser blocked the download and no credentials were entered. What response is proportionate?",
+      "options": [
+        "Reset the user’s password and revoke sessions, because any interaction with phishing creates a credible credential risk.",
+        "Review the browser logs and endpoint telemetry, but avoid contacting the user unless another suspicious event appears.",
+        "Rebuild the device as a precaution, then use the result to decide whether wider user awareness is needed. The endpoint team would verify the rebuild before restoring access.",
+        "Review the user’s recent sign-ins and reinforce the reporting guidance. A company-wide password reset is not justified by the evidence we have."
+      ],
+      "correct": 3,
+      "explanation": "El contraste clave está en «A company-wide password reset is not justified». Review... and reinforce responde a la exposición posible, mientras not justified by the evidence evita una medida masiva. Las opciones restantes exageran el alcance, interpretan el bloqueo como riesgo cero o reconstruyen sin señal de ejecución.",
+      "translation": "Revisad los inicios de sesión recientes del usuario y reforzad las pautas de notificación; las evidencias disponibles no justifican un restablecimiento de contraseñas en toda la empresa."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-022",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "A low-risk finding affects an internal test server with no sensitive data. What makes the response proportionate?",
+      "options": [
+        "Remediate the finding this week because even internal test systems can become paths into production environments.",
+        "Record the finding as accepted while the server remains isolated, then reassess it if the server’s purpose changes.",
+        "Add the fix to the normal remediation cycle and confirm that the server remains isolated from production.",
+        "Validate whether production shares the issue, then use the same remediation deadline for the test and production systems."
+      ],
+      "correct": 2,
+      "explanation": "Normal remediation cycle ajusta la urgencia al riesgo, y confirm... isolated verifica el supuesto que lo mantiene bajo. En cambio, las demás escalan en exceso, aceptan el riesgo sin revisión o cambian producción sin confirmar alcance.",
+      "translation": "Incluid la corrección en el ciclo normal de remediación y confirmad que el servidor sigue aislado de producción."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-023",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "Threat intelligence rates an IP as low confidence after it contacted two endpoints. A temporary block has low operational impact. What reversible recommendation should lead while local evidence is reviewed?",
+      "options": [
+        "Block the IP temporarily if operational impact is low, and use endpoint evidence to decide whether broader containment is needed.",
+        "Block the IP at the endpoint layer, then isolate both contacted devices until threat intelligence raises or lowers its confidence.",
+        "Monitor the IP while collecting endpoint evidence, and block it only if local activity supports the external assessment.",
+        "Apply a temporary network block and review all devices that communicated with the same hosting provider during the period."
+      ],
+      "correct": 0,
+      "explanation": "Block... temporarily if operational impact is low es una respuesta reversible, y use endpoint evidence condiciona acciones mayores a evidencia local. Por contraste, las otras convierten un indicador débil en certeza, lo descartan o amplían el bloqueo sin análisis.",
+      "translation": "Bloquead temporalmente la IP si el impacto operativo es bajo y utilizad la evidencia de los equipos para decidir si hace falta una contención más amplia."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-024",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "An executive proposes a 24-hour deadline for every medium finding. Respond with the decision principle that is missing.",
+      "options": [
+        "A single deadline may divert effort from higher-risk issues. I suggest prioritizing by exposure, exploitability, and business impact, with exceptions for urgent cases.",
+        "A 24-hour target is useful for consistency, but teams should be allowed to extend it when remediation requires a maintenance window. Overdue cases would be escalated through the existing process.",
+        "The proposal would be more practical if medium findings had a seven-day target and high findings kept the 24-hour deadline.",
+        "Use 24 hours as an escalation point rather than a remediation deadline, and let each team decide the final priority."
+      ],
+      "correct": 0,
+      "explanation": "May divert effort explica el coste de oportunidad y propone criterios concretos, conservando excepciones urgentes. Las opciones restantes rechazan sin alternativa, tratan la etiqueta como contexto completo o priorizan una métrica cosmética.",
+      "translation": "Un único plazo puede desviar esfuerzos de problemas de mayor riesgo. Sugiero priorizar según exposición, explotabilidad e impacto empresarial, con excepciones para los casos urgentes."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-025",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "A dormant, unprivileged account has not been used for two years. What scope would you recommend?",
+      "options": [
+        "Disable this account, then review every inactive account using the same two-year threshold before changing the policy.",
+        "Disable the account after the owner confirms it is no longer needed, and prioritize a broader review of privileged inactivity. The identity team would track progress through its normal review.",
+        "Disable this account and establish a regular review for other inactive accounts, starting with those that have access to sensitive systems.",
+        "Remove the account’s access to sensitive systems now, but leave it enabled until the next scheduled identity certification."
+      ],
+      "correct": 2,
+      "explanation": "Disable this account trata el caso confirmado y starting with... sensitive systems amplía la mejora con prioridad basada en riesgo. En cambio, las demás aplican un umbral arbitrario, confunden inactividad con seguridad o recomiendan una acción sin relación.",
+      "translation": "Deshabilitad esta cuenta y estableced una revisión periódica de otras cuentas inactivas, empezando por las que acceden a sistemas sensibles."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-026",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "A strict control breaks an essential integration. Complete the advice with protection, governance, and a route back to the target control.",
+      "options": [
+        "Use the strict control for new integrations now, and give the existing integration a permanent exclusion from the policy. The integration owner would retain responsibility for the exception.",
+        "Keep the current design until the integration is replaced, while recording the control as not applicable to this service.",
+        "Apply the strict control outside business hours and roll it back only if the essential integration stops working.",
+        "Use a narrower compensating control for the integration, document the exception, and set a date to retest the stricter control."
+      ],
+      "correct": 3,
+      "explanation": "Compensating control, document the exception y set a date ofrecen protección, gobernanza y revisión sin ignorar la dependencia. Por contraste, las otras imponen una interrupción no coordinada o convierten una limitación temporal en aceptación permanente.",
+      "translation": "Aplicad un control compensatorio más específico para la integración, documentad la excepción y fijad una fecha para volver a probar el control más estricto."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-027",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "One laptop lacks an optional hardening setting; there is no active threat, and the fleet rollout is next week. How should it be handled?",
+      "options": [
+        "Apply the setting through an emergency change on this laptop, then include the rest of the fleet in next week’s rollout. The change record would include a standard rollback plan.",
+        "Leave the laptop unchanged until the rollout, because its existing endpoint controls make the optional setting unnecessary.",
+        "Isolate the laptop from sensitive systems this week, even though the missing setting has no known exploitation path.",
+        "Confirm that the laptop is covered by the existing endpoint controls and include it in next week’s rollout rather than creating an emergency change."
+      ],
+      "correct": 3,
+      "explanation": "El contraste clave está en «include it in next week’s rollout». Confirm... existing controls verifica la protección actual e include it... rollout mantiene una remediación proporcionada. Las opciones restantes convierten una carencia no explotada en emergencia o la dejan fuera sin motivo.",
+      "translation": "Confirmad que el portátil está cubierto por los controles actuales de endpoint e incluidlo en el despliegue de la próxima semana en lugar de crear un cambio de emergencia."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-028",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "One address is generating failed sign-ins against many users, with no visible success. What response contains, verifies, and anticipates adaptation?",
+      "options": [
+        "Block the source, reset the most frequently targeted accounts, and review whether any successful sign-ins used the same passwords. The identity team would notify users before the resets begin.",
+        "Block or rate-limit the source, verify that no success events were missed, and monitor for the activity moving to other addresses.",
+        "Rate-limit authentication from the source and notify targeted users, without expanding the review unless a success event appears.",
+        "Monitor the source for another hour to confirm persistence, then block it and review only accounts with repeated failures."
+      ],
+      "correct": 1,
+      "explanation": "Block or rate-limit contiene el patrón observado, verify comprueba una limitación y monitor amplía la vigilancia. En cambio, las demás infieren credenciales conocidas, descartan riesgo o interrumpen a toda la organización.",
+      "translation": "Bloquead o limitad la tasa del origen, comprobad que no se hayan omitido eventos exitosos y vigilad si la actividad se desplaza a otras direcciones."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-029",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "A vulnerability scan reports thousands of informational findings. How should the recommendation be framed?",
+      "options": [
+        "Review the informational backlog quarterly and remediate items that can be fixed without affecting higher-severity work.",
+        "Use the count as an asset-hygiene metric, but close all informational findings so they do not compete with actionable risk.",
+        "Sample the findings for scanner quality, then assign a standard deadline to every item that remains valid.",
+        "Use the findings to improve asset hygiene, but keep remediation effort focused on issues that materially change exposure or impact."
+      ],
+      "correct": 3,
+      "explanation": "Improve asset hygiene reconoce el valor de los hallazgos, mientras keep... focused prioriza riesgo material. Por contraste, las otras equiparan volumen con urgencia, ocultan información o invierten la prioridad.",
+      "translation": "Utilizad los hallazgos para mejorar la higiene de activos, pero mantened el esfuerzo de remediación centrado en los problemas que cambien de forma material la exposición o el impacto."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-030",
+      "topic": "Recommendations and risk · Proportionate controls",
+      "question": "Only one business unit uses a risky sharing feature. Choose the control whose scope can expand later if evidence supports it.",
+      "options": [
+        "Restrict the feature for that unit first, validate the business effect, and then decide whether a wider policy is warranted.",
+        "Apply a company-wide restriction in monitor-only mode, then enforce it first for the business unit where the risk was observed.",
+        "Restrict external sharing for the unit and for any other unit that handles data of comparable sensitivity.",
+        "Keep the feature available, but require the affected unit to review every external share until a global policy is ready."
+      ],
+      "correct": 0,
+      "explanation": "For that unit first dirige el control al alcance observado, y validate... before wider permite ampliar con evidencia. Las opciones restantes afectan a toda la empresa sin análisis, evitan actuar por uniformidad o retiran capacidades legítimas completas.",
+      "translation": "Restringid primero la función en esa unidad, validando el efecto empresarial, y decidid después si está justificada una política más amplia."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-031",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "An internet-facing component requires authentication and holds no sensitive data. How should its risk be described while preserving a remediation priority?",
+      "options": [
+        "Authentication lowers the exploitation likelihood, while the lack of sensitive data limits only the direct confidentiality impact. The rating would be reviewed after the next exposure test.",
+        "Internet exposure keeps likelihood high, although authentication and limited data reduce the expected business impact.",
+        "The component should be treated as medium risk until testing shows whether authentication can be bypassed.",
+        "The likelihood is reduced by the authentication requirement, and the direct impact appears limited. Remediation is still needed because the service is internet-facing."
+      ],
+      "correct": 3,
+      "explanation": "Likelihood is reduced y impact appears limited valoran por separado probabilidad e impacto; still needed conserva la acción por exposición. En cambio, las demás usan absolutos o ignoran posibles usos del servidor más allá de sus datos.",
+      "translation": "El requisito de autenticación reduce la probabilidad y el impacto directo parece limitado; aun así, hace falta remediar porque el servicio está expuesto a Internet."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-032",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "Read-only access to payroll records was possible through a stolen token for three hours. Explain the risk accurately.",
+      "options": [
+        "The token was valid for only three hours, so the main risk is whether it could be refreshed beyond that period. The token configuration would be reviewed before closure.",
+        "Read-only permissions reduce integrity risk, although any confirmed access would still create a confidentiality incident.",
+        "The access was time-limited, which reduces the window of opportunity, but the potential confidentiality impact remains high because payroll data was accessible.",
+        "The potential impact is high because payroll data was exposed, even though the short window makes actual access unlikely."
+      ],
+      "correct": 2,
+      "explanation": "Time-limited reduce la oportunidad, pero confidentiality impact remains high incorpora la sensibilidad del activo. Por contraste, las otras dejan que un único factor determine todo el riesgo o convierten acceso posible en fuga confirmada.",
+      "translation": "El acceso estuvo limitado en el tiempo, lo que reduce la ventana de oportunidad, pero el posible impacto sobre la confidencialidad sigue siendo alto porque los datos de nóminas estaban accesibles."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-033",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "You are comparing two findings: an easily exploited flaw on a kiosk and a complex flaw on a domain controller. Select the best decision principle.",
+      "options": [
+        "Assess both exploitability and business impact. The easier exploit is not automatically the higher overall risk.",
+        "Prioritize the kiosk first because an easier exploit creates more immediate exposure, then address the domain controller.",
+        "Prioritize the domain controller first because asset criticality should outweigh any difference in exploit complexity.",
+        "Compare technical severity and remediation effort, using business impact only if those factors produce the same priority."
+      ],
+      "correct": 0,
+      "explanation": "Both exploitability and business impact expresa que el riesgo combina factores y evita una regla automática. Las opciones restantes reducen la decisión a severidad técnica, probabilidad o criticidad del activo por separado.",
+      "translation": "Evaluad tanto la explotabilidad como el impacto empresarial; el fallo más fácil de explotar no es automáticamente el de mayor riesgo global."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-034",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "An attack path needs three uncommon conditions, yet the register says “high likelihood.” Ask the question that directly tests that rating.",
+      "options": [
+        "What evidence supports the high-likelihood rating, and how often do those three conditions occur together in this environment?",
+        "Are all three conditions under the same team’s control, and could one change make the attack path significantly easier?",
+        "Has the attack path been demonstrated elsewhere, and do we have evidence that each condition exists in this environment?",
+        "Would the business impact justify keeping the high rating even if those three conditions occur together only rarely?"
+      ],
+      "correct": 0,
+      "explanation": "What evidence... and how often pide base observable y frecuencia conjunta, justo lo necesario para validar la probabilidad. En cambio, las demás manipulan la etiqueta, eliminan una dimensión del riesgo o confunden posibilidad con frecuencia.",
+      "translation": "¿Qué evidencia respalda la valoración de probabilidad alta y con qué frecuencia coinciden esas tres condiciones en este entorno?"
+    },
+    {
+      "id": "b15-v2-recommendations-risk-035",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "Phishing email volume rose by ten percent. The customer asks whether risk rose by the same amount. How do you answer?",
+      "options": [
+        "A ten-percent volume increase raises exposure, but the risk increase depends mainly on whether the messages reached user inboxes. Delivery metrics would be monitored through the existing dashboard.",
+        "The volume trend is useful, although control effectiveness and user behavior determine whether the change is material.",
+        "We should compare successful deliveries and reported clicks before deciding whether the risk rating needs to change.",
+        "Not necessarily. Message volume is one input, but risk also depends on delivery, user interaction, control effectiveness, and potential impact."
+      ],
+      "correct": 3,
+      "explanation": "La redacción final se apoya en «Message volume is one input». Not necessarily evita una equivalencia falsa y enumera los factores que conectan volumen con riesgo real. Por contraste, las otras suponen proporcionalidad exacta, niegan toda relación o limitan el riesgo a incidentes consumados.",
+      "translation": "No necesariamente. El volumen de mensajes es un factor, pero el riesgo también depende de la entrega, la interacción del usuario, la eficacia de los controles y el posible impacto."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-036",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "An internal database is reachable only through a managed jump host. Select the statement that recognizes both mitigation and dependency.",
+      "options": [
+        "The managed jump host reduces direct access, provided its privileged sessions are recorded and reviewed for unusual behavior.",
+        "The access path lowers exposure enough to rate the database separately from the security of the jump host.",
+        "The jump host lowers exposure, but its security becomes a key dependency. Compromise there could still provide a path to the database.",
+        "The control concentrates database access, so the overall risk depends primarily on how often administrators use the jump host. The jump-host team would own the resulting risk treatment."
+      ],
+      "correct": 2,
+      "explanation": "Lowers exposure reconoce la mitigación y key dependency muestra el riesgo concentrado. Las opciones restantes convierten el control en riesgo cero, penalizan la arquitectura sin mecanismo o ignoran por completo la probabilidad.",
+      "translation": "El servidor de salto reduce la exposición, pero su seguridad se convierte en una dependencia clave; si se compromete, aún podría abrir un camino hacia la base de datos."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-037",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "Backups are encrypted and tested quarterly, but the latest restore test failed for one critical application. How should this affect the assessment?",
+      "options": [
+        "The failed restore test increases recovery risk across the backup programme until every critical application has been tested again. The next programme test would include the affected application.",
+        "Quarterly testing remains an effective control, but this application should be excluded from recovery targets until the next cycle.",
+        "The application’s recovery risk is unknown because a failed test does not show whether the backup itself is usable.",
+        "The backup program reduces ransomware impact overall, but recovery risk is elevated for this application until a successful restore is demonstrated."
+      ],
+      "correct": 3,
+      "explanation": "Reduces... overall mantiene el beneficio general y elevated for this application limita el aumento de riesgo al alcance demostrado. En cambio, las demás ignoran la prueba, generalizan un fallo o convierten una prueba fallida en pérdida confirmada.",
+      "translation": "El programa de copias reduce en general el impacto del ransomware, pero el riesgo de recuperación es mayor para esta aplicación hasta que se demuestre una restauración correcta."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-038",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "A flaw is easy to exploit but affects a disposable training environment rebuilt daily. What is the sound risk conclusion?",
+      "options": [
+        "Likelihood may be high, but the short asset life and limited business value reduce impact. The main concern is whether the environment provides a path elsewhere.",
+        "The short rebuild cycle reduces persistence, but easy exploitation still makes the training environment a high-priority asset.",
+        "Limited business value lowers impact enough to accept the flaw, provided the environment is rebuilt successfully each day.",
+        "The finding is low risk because the asset is disposable, although network access should be reviewed during the next architecture assessment. The environment owner would document that assumption."
+      ],
+      "correct": 0,
+      "explanation": "Likelihood may be high separa probabilidad de impacto, y main concern... path elsewhere identifica la condición que podría cambiar la valoración. Por contraste, las otras dejan que un solo factor decida o asumen aislamiento sin comprobarlo.",
+      "translation": "La probabilidad puede ser alta, pero la corta vida del activo y su limitado valor empresarial reducen el impacto; la principal cuestión es si el entorno ofrece una vía hacia otros sistemas."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-039",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "You need one natural line for a low-frequency, high-impact event. Choose the version that leads to proportionate preparation.",
+      "options": [
+        "It is unlikely, but the severity of the possible outcome justifies treating the event as a current priority.",
+        "Frequency is low, so we should keep a response plan only if preparation can be completed with limited effort.",
+        "It is unlikely, but the potential impact is severe enough that we should maintain a tested response plan.",
+        "The event does not need preventive controls, but its impact means senior leaders should be informed if it occurs."
+      ],
+      "correct": 2,
+      "explanation": "Unlikely... but potential impact is severe presenta las dos dimensiones y maintain a tested response plan propone una respuesta proporcionada. Las opciones restantes descartan la preparación o alteran la probabilidad para reflejar el impacto.",
+      "translation": "Es poco probable, pero el posible impacto es lo bastante grave como para que mantengamos un plan de respuesta probado."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-040",
+      "topic": "Recommendations and risk · Likelihood and impact",
+      "question": "A threat actor has targeted organizations in the same sector, but there is no activity against this customer. What is the best wording?",
+      "options": [
+        "Sector targeting makes an attempted attack more likely, so the customer should assume its internet-facing systems are being tested.",
+        "Sector targeting raises the relevance of the threat, not the certainty of an attack. We should use it to review preparedness and exposure.",
+        "The reporting supports a higher inherent-risk rating, although no immediate control change is needed without customer-specific activity.",
+        "The threat should remain on the watchlist while the SOC checks whether the actor’s known indicators appear in customer telemetry. The watchlist entry would remain active for thirty days."
+      ],
+      "correct": 1,
+      "explanation": "La expresión exacta «raises the relevance of the threat, not the certainty» aporta el criterio decisivo. Raises the relevance... not the certainty calibra el aumento de probabilidad y use it to review convierte inteligencia externa en acción preventiva. En cambio, las demás confirman un ataque inexistente, ignoran señales útiles o predicen fallo de controles sin evidencia.",
+      "translation": "Los ataques al sector aumentan la relevancia de la amenaza, no la certeza de que vaya a producirse un ataque. Debemos aprovecharlo para revisar la preparación y la exposición."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-041",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "Privileged access has fallen from 40 standing accounts to 5 emergency accounts. Describe the residual risk.",
+      "options": [
+        "The reduction removes most standing exposure, while the five emergency accounts create a smaller and more controllable residual risk.",
+        "Residual risk is limited to misuse during emergencies, provided the five accounts are disabled at all other times.",
+        "The exposure has moved from account compromise to monitoring failure because only emergency accounts now remain.",
+        "The exposure is substantially lower, but residual risk remains because the emergency accounts still require strong protection and monitoring."
+      ],
+      "correct": 3,
+      "explanation": "Substantially lower reconoce la mejora y residual risk remains identifica qué debe seguir controlándose. Por contraste, las otras declaran riesgo cero, eximen cuentas críticas o afirman un aumento sin valorar las protecciones.",
+      "translation": "La exposición es sustancialmente menor, pero sigue existiendo riesgo residual porque las cuentas de emergencia aún necesitan una protección y supervisión sólidas."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-042",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "The unsupported system cannot be replaced this quarter. Identify the four elements needed to make the exception governable.",
+      "options": [
+        "Record the replacement plan, the quarter requested for funding, and the technical owner who will deliver the new system.",
+        "Record the specific risk, the temporary safeguards, the accountable owner, and the date when the exception must be reviewed.",
+        "Document the unsupported status and safeguards, then close the risk until the replacement quarter begins.",
+        "Keep the risk open with the SOC until the business owner can provide a funded replacement date."
+      ],
+      "correct": 1,
+      "explanation": "Specific risk, safeguards, owner y review date convierten una limitación en una aceptación gobernada y temporal. Las opciones restantes cierran un riesgo abierto, evitan trazabilidad o asignan la decisión a quien no posee el impacto empresarial.",
+      "translation": "Registrad el riesgo concreto, las salvaguardas temporales, el responsable y la fecha en que debe revisarse la excepción."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-043",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "The customer says, “We enabled MFA, so we can close the account-takeover risk.” How would you respond?",
+      "options": [
+        "MFA is the main preventive control, so the risk can close once policy coverage and enrollment are independently verified. The owner would confirm coverage before closure.",
+        "MFA reduces the risk significantly, but we should still consider token theft, recovery processes, and accounts that are outside the policy.",
+        "The risk should remain open until phishing-resistant MFA replaces every weaker method, including all recovery options.",
+        "MFA lowers password-based compromise, while monitoring and user training cover the residual account-takeover risk."
+      ],
+      "correct": 1,
+      "explanation": "Reduces... significantly reconoce el control y still consider identifica riesgo residual concreto. En cambio, las demás presentan eficacia total, utilidad cero o un criterio de cierre absoluto e innecesario.",
+      "translation": "El MFA reduce el riesgo de forma significativa, pero aún debemos considerar el robo de tokens, los procesos de recuperación y las cuentas que quedan fuera de la política."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-044",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "A firewall exception is needed for a six-week migration. Complete the condition with minimum scope, visibility, and automatic closure.",
+      "options": [
+        "Approve the narrowest rule needed, monitor its use, and set it to expire automatically at the end of the migration.",
+        "Approve the required ports for six weeks, with a manual review at the end to decide whether the rule can be removed.",
+        "Create a temporary rule for the migration team, then convert it to a permanent rule if no alerts occur during use.",
+        "Allow the migration traffic from approved sources, logging only denied connections to reduce monitoring noise."
+      ],
+      "correct": 0,
+      "explanation": "Narrowest rule, monitor y expire automatically limitan alcance, dan visibilidad y evitan que una excepción temporal se perpetúe. Por contraste, las otras amplían de forma permanente, niegan cualquier gestión de excepciones o eliminan supervisión.",
+      "translation": "Aprobad la regla más limitada que sea necesaria, supervisad su uso y configuradla para que caduque automáticamente al finalizar la migración."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-045",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "Treatment is complete except for one low-impact legacy dependency. What closure wording is accurate?",
+      "options": [
+        "The treatment is complete, and the service owner has recorded the legacy dependency as a low-impact operational issue. The dependency would remain visible on the service roadmap.",
+        "The finding can close because all planned controls are implemented, while the dependency remains on the service roadmap.",
+        "The residual dependency is outside the agreed treatment scope and will be reconsidered during the annual risk review.",
+        "The planned actions are complete. The remaining dependency has been accepted by the service owner and will be reviewed in six months."
+      ],
+      "correct": 3,
+      "explanation": "Planned actions are complete distingue ejecución de riesgo residual, y accepted by the service owner... reviewed establece autoridad y seguimiento. Las opciones restantes confunden mayoría con eliminación, impiden toda aceptación o asignan la decisión al SOC.",
+      "translation": "Las acciones previstas están completadas. El responsable del servicio ha aceptado la dependencia restante y se revisará dentro de seis meses."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-046",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "An application owner accepts risk verbally on the call. What turns that statement into a usable governance decision?",
+      "options": [
+        "Send the owner a written summary and close the finding unless they challenge the recorded scope within five business days.",
+        "Ask the owner to confirm the acceptance by email, then attach the message to the finding as the complete risk record.",
+        "Confirm the scope, rationale, safeguards, and review date in the risk record so the acceptance is explicit and traceable.",
+        "Record the verbal decision and planned safeguards now, then obtain formal approval at the next risk committee meeting."
+      ],
+      "correct": 2,
+      "explanation": "Confirm... in the risk record transforma una conversación en una decisión explícita y trazable. En cambio, las demás cierran sin condiciones, confunden asesoramiento técnico con propiedad empresarial u ocultan el riesgo.",
+      "translation": "Confirmad el alcance, la justificación, las salvaguardas y la fecha de revisión en el registro de riesgos para que la aceptación sea explícita y trazable."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-047",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "Compensating controls lower the likelihood of exploiting an old protocol, but the owner has not assessed residual risk. How should the update distinguish treatment from acceptance?",
+      "options": [
+        "The controls reduce exposure for now, but the weakness remains. The risk owner still needs to decide whether the residual risk is acceptable while replacement is planned.",
+        "The controls make exploitation unlikely enough to treat the old protocol as accepted until the replacement project begins.",
+        "The controls reduce likelihood rather than impact, so security can approve continued use of the protocol for a limited period. Security would document the proposed approval period.",
+        "The weakness remains open, but a successful monitoring test would allow the risk to close before protocol replacement."
+      ],
+      "correct": 0,
+      "explanation": "La redacción final se apoya en «risk owner still needs to decide». La opción A distingue reducción de exposición, debilidad subyacente y autoridad de aceptación. B presupone que el riesgo ya es aceptable; C atribuye esa decisión a seguridad; D confunde una prueba de detección con el cierre de la vulnerabilidad.",
+      "translation": "Los controles reducen por ahora la exposición, pero la debilidad permanece. El responsable del riesgo aún debe decidir si el riesgo residual es aceptable mientras se planifica la sustitución."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-048",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "“Remediation is expensive” is not enough to accept a risk. Ask the follow-up that covers authority and proportionality.",
+      "options": [
+        "What is the verified remediation cost, and would a phased treatment reduce enough exposure to remain within tolerance? A phased option would then be presented to the risk owner.",
+        "What loss scenarios support the current rating, and how would the residual risk change after the proposed treatment?",
+        "Who owns the affected process, and has finance confirmed that the remediation estimate includes ongoing operating cost?",
+        "Who has authority to accept the potential business impact, and is the treatment cost proportionate to expected loss, risk tolerance, and the residual risk?"
+      ],
+      "correct": 3,
+      "explanation": "El contraste clave está en «authority to accept the potential business impact». La opción D reúne las dos condiciones decisivas: quién tiene autoridad y si el coste es proporcional a pérdida esperada, tolerancia y riesgo residual. A–C aportan datos útiles, pero ninguna cubre ambas dimensiones de la decisión.",
+      "translation": "¿Quién tiene autoridad para aceptar el posible impacto empresarial y es el coste del tratamiento proporcional a la pérdida esperada, la tolerancia al riesgo y el riesgo residual?"
+    },
+    {
+      "id": "b15-v2-recommendations-risk-049",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "A temporary monitoring control has been added while a vulnerability remains open. How should success be measured?",
+      "options": [
+        "Confirm that the monitoring rule is enabled, review alert volume monthly, and close the vulnerability once stable coverage is achieved. The rule would remain in place during the next review cycle.",
+        "Define what activity the control must detect, test that coverage, and track the vulnerability separately until it is remediated or formally accepted.",
+        "Use a simulation to confirm the alert fires, then record the monitoring control as the current treatment for the vulnerability.",
+        "Measure success through analyst response time and absence of missed alerts, while the application team schedules remediation."
+      ],
+      "correct": 1,
+      "explanation": "La expresión exacta «track the vulnerability separately» aporta el criterio decisivo. Define... test... and track separately establece criterios verificables y no confunde detección con corrección. En cambio, las demás cierran por una alerta, por simple activación o interpretan silencio como ausencia de riesgo.",
+      "translation": "Definid qué actividad debe detectar el control, probad esa cobertura y seguid la vulnerabilidad por separado hasta que se remedie o se acepte formalmente."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-050",
+      "topic": "Recommendations and risk · Residual risk and acceptance",
+      "question": "The owner accepted residual exposure for a limited period, with the next review in March. What wording acknowledges that without sounding complacent?",
+      "options": [
+        "We are retaining the current safeguards because they keep the exposure within our tolerance until the next review in March. The owner would reconfirm tolerance at that review.",
+        "We are accepting the remaining exposure for this period, with the current safeguards in place and a review scheduled for March.",
+        "The owner has approved the residual exposure through March, when security will decide whether further treatment is necessary.",
+        "The risk remains accepted while the safeguards are effective, and March is the target date for permanent closure."
+      ],
+      "correct": 1,
+      "explanation": "“Accepting the remaining exposure for this period” limita la decisión; “with the current safeguards” y “a review scheduled for March” muestran control y seguimiento. A convierte tolerancia en hecho no dado; C cambia la autoridad en la revisión; D promete un cierre permanente que el escenario no establece.",
+      "translation": "Aceptamos la exposición restante durante este periodo, con las salvaguardas actuales y una revisión programada para marzo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-051",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "After a business email compromise, choose the recommendation that separates immediate response from structural improvement.",
+      "options": [
+        "Today, revoke sessions and remove the malicious rules. Over the next quarter, strengthen payment verification and move high-risk users to phishing-resistant MFA.",
+        "Today, revoke sessions and reset credentials. Once the investigation closes, decide whether payment verification or stronger MFA should come next. The decision would be added to the post-incident plan.",
+        "Remove the malicious rules now, then complete the phishing-resistant MFA rollout before making changes to payment verification.",
+        "Contain the mailbox today and begin a quarterly programme that treats identity controls before any payment-process change."
+      ],
+      "correct": 0,
+      "explanation": "Today y Over the next quarter crean dos horizontes claros: contención y mejora de proceso/control. Las opciones restantes retrasan la respuesta, confunden contención con solución completa o proponen una sustitución desproporcionada.",
+      "translation": "Hoy, revocad las sesiones y eliminad las reglas maliciosas. Durante el próximo trimestre, reforzad la verificación de pagos y migrad a los usuarios de alto riesgo a un MFA resistente al phishing."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-052",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "The patch window is at the weekend. Complete the interim plan so waiting does not mean leaving the exposure unmanaged.",
+      "options": [
+        "Until the maintenance window, restrict access and increase monitoring; prepare the patch only after the application owner confirms availability. The owner would approve the preparation step separately.",
+        "Move the server behind an additional firewall rule and accept the exposure until the approved weekend maintenance window.",
+        "Until the maintenance window, restrict access to the server, increase monitoring, and prepare the patch so the exposure is not left unmanaged.",
+        "Prepare the patch and a rollback plan now, but avoid temporary access changes that could complicate the weekend deployment."
+      ],
+      "correct": 2,
+      "explanation": "La expresión exacta «so the exposure is not left unmanaged» aporta el criterio decisivo. Until... restrict... monitor... prepare muestra cómo gestionar la exposición durante la espera. En cambio, las demás dejan el riesgo sin tratamiento, amplían el impacto sin necesidad o confunden planificación con remediación.",
+      "translation": "Hasta la ventana de mantenimiento, restringid el acceso al servidor, aumentad la supervisión y preparad el parche para que la exposición no quede sin gestionar."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-053",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "Credential stuffing keeps recurring. What layered response deals with the current campaign and the underlying exposure?",
+      "options": [
+        "Block current sources and add stricter rate limits now; longer term, focus on password resets for repeatedly targeted accounts. The team would review account lockouts before applying changes.",
+        "In the short term, tune rate limits and block abusive sources. Longer term, reduce reliance on passwords and improve detection of distributed attempts.",
+        "Use rate limits as the permanent preventive control, while detection rules identify any campaign that moves across many sources.",
+        "Accelerate the passwordless programme first, then tune current protections if credential stuffing continues during the transition."
+      ],
+      "correct": 1,
+      "explanation": "Short term... Longer term combina alivio operativo con reducción estructural del vector. Por contraste, las otras tratan indicadores cambiantes como solución permanente, esperan sin protección o eliminan el servicio.",
+      "translation": "A corto plazo, ajustad los límites de tasa y bloquead los orígenes abusivos. A más largo plazo, reducid la dependencia de las contraseñas y mejorad la detección de intentos distribuidos."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-054",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "An incident exposed inconsistent asset ownership. Select the recommendation that unblocks this week and also fixes the process.",
+      "options": [
+        "Assign an interim owner to each affected asset this week, then update the onboarding process so ownership is captured and maintained by default.",
+        "Ask each technical team to claim its affected assets this week, then use unresolved items to design a future ownership process. Governance would assign any assets still unclaimed after that exercise.",
+        "Create a central asset-owner role for the current incident, then distribute ownership after the asset-management programme is redesigned.",
+        "Record the affected assets in the risk register and ask the governance team to assign permanent owners within the next quarter."
+      ],
+      "correct": 0,
+      "explanation": "Interim owner... this week resuelve el bloqueo actual y then update... corrige el proceso. Las opciones restantes esperan una transformación completa, asignan propiedad al equipo equivocado o solo registran el problema.",
+      "translation": "Asignad esta semana un responsable provisional a cada activo afectado y, después, actualizad el proceso de alta para que la propiedad quede registrada y se mantenga de forma predeterminada."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-055",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "Logging is missing from a critical SaaS platform. What roadmap balances speed and completeness?",
+      "options": [
+        "Enable all available audit events now, but delay alert creation until data quality and retention requirements are fully defined.",
+        "Cover the highest-risk event types through manual exports first, then replace them with the native audit feed after validation.",
+        "Enable the available audit feed and monitor its quality for a month before deciding which security events deserve coverage.",
+        "Enable the available audit feed now, cover the highest-risk events first, and expand use cases as data quality is validated."
+      ],
+      "correct": 0,
+      "explanation": "La expresión exacta «cover the highest-risk events first» aporta el criterio decisivo. Enable... now, highest-risk first y expand... as validated permite valor temprano y crecimiento controlado. En cambio, las demás esperan perfección, confunden ingestión con alertado o mantienen un proceso manual insuficiente.",
+      "translation": "Habilitad ahora el flujo de auditoría disponible, cubrid primero los eventos de mayor riesgo y ampliad los casos de uso a medida que se valide la calidad de los datos."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-056",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "The organization uses shared administrator accounts. How would you make the transition practical?",
+      "options": [
+        "Stop creating shared accounts, move existing credentials to a managed vault, and migrate only privileged users to named accounts. The identity team would preserve checkout records during the migration.",
+        "Keep shared accounts for legacy services, but require administrators to record each use until a full migration is funded.",
+        "Stop creating new shared accounts, add stronger monitoring to the existing ones, and migrate administrators to named accounts in phases.",
+        "Create named accounts for new administrators first, then review whether monitoring makes migration of existing users necessary."
+      ],
+      "correct": 2,
+      "explanation": "Stop creating, monitor existing y migrate in phases evita ampliar la deuda, reduce riesgo inmediato y define el destino. Por contraste, las otras provocan posibles fallos, aceptan la debilidad o cambian solo la etiqueta.",
+      "translation": "Dejad de crear cuentas compartidas, reforzad la supervisión de las existentes y migrad gradualmente a los administradores a cuentas nominativas."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-057",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "A high-risk detection creates too many false positives. Finish the two-stage plan without sacrificing coverage or automating too soon.",
+      "options": [
+        "Keep the rule enabled in alert-only mode, remove the noisiest conditions, and automate response once alert volume reaches the target.",
+        "Keep the rule enabled in alert-only mode while tuning its noisiest conditions, then validate coverage before automating any response.",
+        "Move the rule to a pilot group, tune false positives there, and restore full coverage once analysts confirm the revised logic.",
+        "Keep the current rule visible, but suppress repeated entities automatically while analysts redesign the high-risk conditions."
+      ],
+      "correct": 1,
+      "explanation": "“Enabled in alert-only mode” conserva visibilidad sin acción automática; después, “validate coverage” exige comprobar el ajuste antes de automatizar. A usa solo un objetivo de volumen, C reduce el alcance durante el ajuste y D suprime señales sin validar el efecto.",
+      "translation": "Mantened la regla habilitada en modo de solo alerta mientras ajustáis las condiciones más ruidosas y, después, validáis la cobertura antes de automatizar cualquier respuesta."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-058",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "This year’s constraints rule out a full network redesign. What short-term action best supports the long-term segmentation goal?",
+      "options": [
+        "Map critical communication paths and restrict unnecessary administrative traffic now, using that evidence to design the future segments.",
+        "Create temporary firewall zones for critical systems now, then use operational exceptions to shape the full redesign next year.",
+        "Document current network flows this year and postpone restrictions until the target segmentation architecture is approved.",
+        "Restrict administrative traffic at the endpoints, then remove network segmentation from the roadmap if the control proves effective."
+      ],
+      "correct": 2,
+      "explanation": "La expresión exacta «using that evidence to design the future segments» aporta el criterio decisivo. Map... and restrict... now genera una reducción inmediata y evidencia para el diseño futuro. En cambio, las demás esperan sin tratar el riesgo, cambian sin conocer dependencias o sustituyen un control por otro no equivalente.",
+      "translation": "Mapead las rutas de comunicación críticas y restringid ahora el tráfico administrativo innecesario, utilizando esa evidencia para diseñar los futuros segmentos."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-059",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "There is no formal privileged-access review. What phased approach creates a sustainable process before automation?",
+      "options": [
+        "Begin with a monthly review of all privileged roles, then reduce the scope once identity-governance automation becomes available.",
+        "Start quarterly certification for the most powerful roles, increasing frequency if the first review identifies excessive access.",
+        "Start with a monthly review of the most powerful roles, then automate certification as the identity-governance capability matures.",
+        "Run an immediate one-time review of powerful roles, then wait for automation before establishing a recurring certification cycle."
+      ],
+      "correct": 2,
+      "explanation": "Start with... most powerful roles ofrece un control viable basado en riesgo y then automate define evolución. Por contraste, las otras esperan herramienta, diseñan una frecuencia insostenible o confunden una campaña con un proceso.",
+      "translation": "Empezad con una revisión mensual de los roles más potentes y automatizad después la certificación a medida que madure la capacidad de gobierno de identidades."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-060",
+      "topic": "Recommendations and risk · Short-term and long-term actions",
+      "question": "A deployment template exposed a cloud storage bucket. What response fixes both the instance and the source?",
+      "options": [
+        "Restrict the bucket now, preserve its access logs, and correct the template after checking whether other deployments use it.",
+        "Review access during the exposure window first, then restrict the bucket and correct the template if unauthorized use is found.",
+        "Correct the template immediately and redeploy the bucket, using the new instance to replace the exposed configuration and logs.",
+        "Restrict the bucket immediately, review access during the exposure window, and correct the template so the setting is not recreated."
+      ],
+      "correct": 3,
+      "explanation": "Restrict immediately contiene, review access evalúa impacto y correct the template evita recurrencia. Las opciones restantes dejan abierta la instancia o la causa, o destruyen el recurso antes de investigar.",
+      "translation": "Restringid el bucket de inmediato, revisad los accesos durante la ventana de exposición y corregid la plantilla para que la configuración no vuelva a crearse."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-061",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "A stricter mail policy may block a key supplier. Complete the change approach without granting a broad exception in advance.",
+      "options": [
+        "Apply the policy in audit mode, confirm the supplier pattern, and enforce it once every legitimate sending service is documented. A rollback point would be agreed before enforcement.",
+        "Pilot the policy with monitoring, confirm the supplier’s legitimate sending pattern, and define a narrow exception if the business case is valid.",
+        "Create a supplier exception before the pilot, then narrow it if monitoring shows that only some messages need different handling.",
+        "Pilot the rule with the supplier excluded, measure the operational effect, and include the domain after the policy is stable."
+      ],
+      "correct": 1,
+      "explanation": "Pilot, confirm y narrow exception gestionan el cambio y limitan la excepción. En cambio, las demás aceptan una interrupción sin medirla, crean una exclusión demasiado amplia o evitan toda mejora por posible fricción.",
+      "translation": "Pilotad la política con supervisión, confirmad el patrón legítimo de envío del proveedor y definid una excepción limitada si el caso de negocio es válido."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-062",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "Older devices show increased CPU use with a recommended EDR setting. What is the most balanced next step?",
+      "options": [
+        "Pilot the setting on older devices, compare CPU use with the rest of the fleet, and delay deployment if the difference is material.",
+        "Use a reduced configuration for all older devices, then test whether selected models can sustain the full setting.",
+        "Test the setting on representative older devices, measure the impact, and use a reduced configuration only where the full setting is not sustainable.",
+        "Enable the full setting with performance monitoring, allowing device owners to request a reduced configuration after deployment."
+      ],
+      "correct": 2,
+      "explanation": "Test... measure... and use a reduced configuration convierte la preocupación en evidencia y limita el compromiso a donde sea necesario. Por contraste, las otras generalizan, ignoran el impacto o exigen sustitución antes de validar.",
+      "translation": "Probad la configuración en dispositivos antiguos representativos, medid el impacto y utilizad una configuración reducida solo donde la completa no sea sostenible."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-063",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "The patch depends on an untested database upgrade. Choose the plan that mitigates now, coordinates testing, and keeps the real exposure visible.",
+      "options": [
+        "Apply the vendor mitigation now, schedule upgrade testing, and close the vulnerability once the application team approves the patch plan.",
+        "Keep the vulnerability open and tracked, but wait for database testing before changing either the service or its network exposure.",
+        "Restrict access until the application team completes testing, then deploy the patch and remove the vendor mitigation during the same change. The service owner would approve removal of the temporary mitigation.",
+        "Use the vendor mitigation now, schedule upgrade testing with the application team, and keep the vulnerability open and tracked until the patch has been deployed."
+      ],
+      "correct": 3,
+      "explanation": "“Vendor mitigation now” reduce la exposición; “schedule upgrade testing” trata la dependencia; “keep the vulnerability open and tracked” evita confundir una medida temporal con el parche. A cerraría demasiado pronto, B espera sin mitigar y C puede retirar la protección antes de verificar el resultado.",
+      "translation": "Aplicad ahora la mitigación del fabricante, programad las pruebas de actualización con el equipo de la aplicación y mantened la vulnerabilidad abierta y bajo seguimiento hasta completar el despliegue del parche."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-064",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "One malicious PowerShell use triggers a proposal for an estate-wide block. Select the response that manages both abuse and legitimate administration.",
+      "options": [
+        "Keep PowerShell available for signed administrative scripts, while blocking interactive use on servers where it is not required. The server team would review the restriction after deployment.",
+        "A temporary global block is justified after malicious use, provided approved administrators receive an alternative tool.",
+        "A blanket block may disrupt legitimate administration. We should restrict high-risk use, strengthen logging, and allow approved workflows through controlled paths.",
+        "Prioritize better PowerShell logging first, then decide whether execution restrictions are needed after reviewing legitimate use."
+      ],
+      "correct": 2,
+      "explanation": "Blanket block may disrupt reconoce el coste, mientras restrict, log y allow controlled paths combina prevención y operación. En cambio, las demás eligen libertad total, bloqueo total o visibilidad sin reducción de exposición.",
+      "translation": "Un bloqueo general puede interrumpir tareas administrativas legítimas. Debemos restringir el uso de alto riesgo, reforzar el registro y permitir los flujos aprobados mediante rutas controladas."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-065",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "Centralizing logs will increase storage costs. How should you frame the decision?",
+      "options": [
+        "Collect high-risk sources centrally for the longest period and retain lower-value sources only where storage remains available.",
+        "Prioritize privileged and identity logs, using the same retention period so investigators have a consistent timeline.",
+        "Set a storage budget first, then allocate retention equally across sources to avoid gaps in any one investigation type. Storage use would be reviewed against the budget each month.",
+        "Prioritize the sources needed for high-risk investigations and define retention by use case, rather than collecting everything for the same period."
+      ],
+      "correct": 3,
+      "explanation": "Prioritize... by high-risk investigations y retention by use case vincula coste a valor. Por contraste, las otras maximizan volumen sin criterio, eliminan fuentes críticas o aplican uniformidad sin considerar necesidades.",
+      "translation": "Priorizad las fuentes necesarias para investigaciones de alto riesgo y definid la retención según el caso de uso, en lugar de conservarlo todo durante el mismo periodo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-066",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "Network segmentation could interrupt a safety-critical manufacturing process. How should the change be planned?",
+      "options": [
+        "Map and test the required flows in a controlled environment, agree a rollback plan, and deploy during a window with operational specialists present.",
+        "Deploy segmentation to a passive monitoring mode first, then enforce it after the manufacturing team confirms every observed flow. Enforcement would start only after that confirmation.",
+        "Use a maintenance window with rollback, but let the network team define required flows so operational staff remain independent.",
+        "Create a permanent exception for the safety-critical process, while segmenting less critical manufacturing systems first."
+      ],
+      "correct": 0,
+      "explanation": "Map, test, rollback y specialists present integran seguridad cibernética, continuidad y seguridad operacional. Las opciones restantes enfrentan los riesgos como absolutos o excluyen a los responsables necesarios.",
+      "translation": "Mapead y probad los flujos necesarios en un entorno controlado, acordad un plan de reversión y desplegad durante una ventana con especialistas operativos presentes."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-067",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "The supplier supports only shared credentials today and SSO next year. Pick the interim package that also prevents “temporary” from becoming permanent.",
+      "options": [
+        "Limit the account’s privileges, rotate its password after each supplier visit, monitor use, and revisit SSO when the vendor roadmap is confirmed. The supplier owner would document any delay to the roadmap.",
+        "Move the shared credential to a managed vault and require supplier approval for each checkout until SSO becomes available.",
+        "Create named local accounts for supplier staff now, while keeping the shared account available for emergency support.",
+        "Limit the shared account’s privileges, store the credential in a managed vault, monitor its use, and set a firm target date for the SSO migration."
+      ],
+      "correct": 3,
+      "explanation": "La expresión exacta «set a firm target date for the SSO migration» aporta el criterio decisivo. La opción D combina mínimo privilegio, custodia, supervisión y una fecha firme para la migración. A deja el objetivo sin compromiso; B mejora trazabilidad, pero no limita privilegios ni fija la transición; C mantiene dos vías de acceso.",
+      "translation": "Limitad los privilegios de la cuenta compartida, guardad la credencial en una caja fuerte gestionada, supervisad su uso y fijad una fecha objetivo firme para la migración a SSO."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-068",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "A stricter conditional-access rule may exclude emergency responders on unmanaged devices. What design preserves both control and emergency access?",
+      "options": [
+        "Apply the rule to managed devices first, then design a separate policy for emergency staff who require unmanaged access. Operations would review the separate policy each quarter.",
+        "Apply the rule broadly, create a tightly controlled emergency path, and review every use of that path after the event.",
+        "Exclude a small emergency-response group, with quarterly reviews to confirm that membership and devices remain appropriate.",
+        "Allow emergency bypass from approved locations, with the SOC responsible for closing access when the event ends."
+      ],
+      "correct": 1,
+      "explanation": "Apply broadly mantiene el control; tightly controlled path y review every use gestionan una excepción crítica. Por contraste, las otras crean exclusiones amplias, ignoran continuidad o permiten un bypass sin gobierno.",
+      "translation": "Aplicad la regla de forma general, cread una vía de emergencia estrictamente controlada y revisad cada uso de esa vía después del evento."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-069",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "The SOC wants automated account disabling, but identity ownership data contains occasional errors. What sequence fits that dependency?",
+      "options": [
+        "Correct ownership data for critical accounts first, then automate disabling across the remaining population with post-action review. The identity team would review incorrect actions after each batch.",
+        "Automate only accounts with a confirmed manager, keeping every other disable request in the current manual workflow.",
+        "Improve the identity data and automate low-risk cases first, while keeping analyst approval for decisions that could disable critical accounts.",
+        "Use confidence scores to automate most decisions, with service owners able to restore incorrectly disabled critical accounts."
+      ],
+      "correct": 2,
+      "explanation": "Improve data, low-risk first y analyst approval para cuentas críticas adapta la automatización a la calidad y al impacto. Las opciones restantes automatizan sin salvaguardas, abandonan toda mejora o empiezan por los casos de mayor daño potencial.",
+      "translation": "Mejorad los datos de identidad y automatizad primero los casos de bajo riesgo, manteniendo la aprobación de un analista para decisiones que puedan deshabilitar cuentas críticas."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-070",
+      "topic": "Recommendations and risk · Dependencies and trade-offs",
+      "question": "A control adds ten minutes to a monthly process, and the unit asks for a permanent exception. Choose the response that tests the trade-off first.",
+      "options": [
+        "Approve a time-limited exception while the business measures whether the ten-minute delay creates a material process impact. The owner would make a final decision after the measurement period.",
+        "Let’s compare the delay with the risk reduction and see whether the workflow can be improved before considering a permanent exception.",
+        "Keep the control unchanged unless the unit demonstrates that the monthly delay has a measurable financial consequence.",
+        "Offer a narrower control immediately, then decide whether the original requirement should remain in the global policy."
+      ],
+      "correct": 1,
+      "explanation": "Compare... with risk reduction plantea el intercambio y improve workflow busca una solución antes de aceptar exposición permanente. En cambio, las demás dejan que un solo criterio domine o amplían la excepción.",
+      "translation": "Comparemos el retraso con la reducción de riesgo y veamos si puede mejorarse el flujo de trabajo antes de considerar una excepción permanente."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-071",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "Replace “Improve monitoring” with the line that names the owner, deadline, deliverable, and proof of completion.",
+      "options": [
+        "SOC engineering will improve monitoring of privileged-role changes by 30 November and report whether alert volume is acceptable.",
+        "The identity team will send privileged-role events to the SOC by 30 November, after which analysts will design suitable detection logic. The handoff would be documented in the shared action plan.",
+        "The SOC engineering team will add privileged-role changes to the alerting pipeline by 30 November and validate the rule with a test event.",
+        "Security operations will review current role-change coverage this month and agree a target for improving the alerting pipeline."
+      ],
+      "correct": 2,
+      "explanation": "La redacción final se apoya en «validate the rule with a test event». La opción C concreta responsable, plazo —a más tardar el 30 de noviembre—, entregable y prueba. A no define la prueba funcional; B divide el trabajo sin cerrar la detección; D sigue siendo una actividad de revisión sin resultado verificable.",
+      "translation": "El equipo de ingeniería del SOC añadirá los cambios de roles privilegiados al flujo de alertas a más tardar el 30 de noviembre y validará la regla con un evento de prueba."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-072",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "The application team owns the fix, while the SOC can verify the result. How should responsibility be divided?",
+      "options": [
+        "The application team will implement the configuration change, while the SOC will review the closure evidence it provides.",
+        "The application team and SOC will agree the change, after which the service owner will confirm that the behavior has stopped.",
+        "The application team will implement and test the change; the SOC will close the finding when its ticket is complete.",
+        "The application team will implement the configuration change. The SOC will confirm through telemetry that the risky behavior has stopped."
+      ],
+      "correct": 3,
+      "explanation": "Will implement frente a will confirm separa ejecución y verificación según capacidad real. Las opciones restantes asignan la remediación al detector, diluyen responsabilidad o eliminan la comprobación.",
+      "translation": "El equipo de la aplicación implementará el cambio de configuración; el SOC confirmará mediante telemetría que el comportamiento de riesgo ha cesado."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-073",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "Procurement is a dependency for critical remediation. Complete the action-plan entry so delay does not leave the exposure unmanaged.",
+      "options": [
+        "Record the business owner and final date, with procurement responsible for escalating any delay in the purchase milestone.",
+        "Assign procurement a milestone and the technical team an interim safeguard, leaving the business owner to approve the final change.",
+        "Name the business owner, the procurement milestone, an interim safeguard, and an escalation point if the date slips.",
+        "Set a provisional delivery date and document procurement as the reason the technical team cannot yet commit to remediation."
+      ],
+      "correct": 2,
+      "explanation": "La expresión exacta «an escalation point if the date slips» aporta el criterio decisivo. Owner, milestone, safeguard y escalation hacen visible la dependencia sin dejar el riesgo pasivo. En cambio, las demás ocultan condicionantes, confunden apoyo con propiedad o eliminan seguimiento.",
+      "translation": "Incluid al responsable de negocio, el hito de compras, una salvaguarda provisional y un punto de escalado si la fecha se retrasa."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-074",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "The customer wants a deadline before engineering has estimated the work. How do you respond professionally?",
+      "options": [
+        "I can confirm the containment action for today. For the permanent fix, the engineering team will provide an estimate by Thursday, and we will then agree the delivery date.",
+        "Containment will finish today, and Thursday is our provisional delivery date for the permanent fix pending engineering review.",
+        "We cannot commit to the fix yet, but I will ask engineering for an estimate and return with a date as soon as possible. The customer would receive a progress update before the next meeting.",
+        "Today’s containment is confirmed. Engineering owns the permanent fix and will agree its target date directly with the customer."
+      ],
+      "correct": 0,
+      "explanation": "La redacción final se apoya en «provide an estimate by Thursday». Confirm... today da certeza donde existe y estimate by Thursday crea un compromiso intermedio antes de acordar la entrega. Por contraste, las otras inventan una fecha, evitan toda planificación o fragmentan la responsabilidad ante el cliente.",
+      "translation": "Puedo confirmar la acción de contención para hoy. Para la corrección permanente, el equipo de ingeniería dará una estimación antes del jueves y después acordaremos la fecha de entrega."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-075",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "A remediation date has slipped twice. Select the escalation that asks for a decision, not simply another date.",
+      "options": [
+        "The exposure remains open, so the technical owner must provide a third date and weekly progress updates until completion. The risk owner would receive the weekly status.",
+        "The exposure remains open, and the revised date is no longer reliable. We need the risk owner to confirm resources or approve an alternative treatment by Friday.",
+        "Because delivery has slipped twice, we should escalate ownership from the technical team to the risk committee immediately.",
+        "The date is unreliable; the action should stay overdue while the owner decides whether more resources are available."
+      ],
+      "correct": 1,
+      "explanation": "Exposure remains open describe el hecho, no longer reliable explica el escalado y confirm resources or alternative treatment pide una decisión. Las opciones restantes cierran sin resolver, normalizan el retraso o infieren prioridades subjetivas.",
+      "translation": "La exposición sigue abierta y la fecha revisada ya no es fiable. Necesitamos que el responsable del riesgo confirme los recursos o apruebe un tratamiento alternativo antes del viernes."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-076",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "Several teams must contribute to a hardening action. What avoids the phrase “everyone owns it”?",
+      "options": [
+        "Assign one accountable owner for the outcome, then list each contributing team’s deliverable and due date.",
+        "Name a lead team for coordination, while keeping every contributing team jointly accountable for the final result.",
+        "Assign one owner to approve the plan and let each team manage its deliverables without separate dates.",
+        "Make the programme manager accountable for delivery, with technical teams responsible only for reporting progress."
+      ],
+      "correct": 0,
+      "explanation": "One accountable owner evita responsabilidad difusa y each deliverable and due date conserva contribuciones claras. En cambio, las demás reparten rendición de cuentas sin liderazgo o asignan a alguien sin autoridad.",
+      "translation": "Asignad un único responsable del resultado y detallad después el entregable y la fecha de cada equipo colaborador."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-077",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "You are defining closure for a new detection control. Select the criterion that verifies both in-scope deployment and the expected detection result.",
+      "options": [
+        "The detection control is complete when the implementation ticket shows that every in-scope system received the configuration.",
+        "The detection control is complete when it is enabled on all in-scope systems and a test confirms that the expected event is detected.",
+        "The detection control is complete when test events generate alerts on a representative sample of the in-scope systems. Coverage would expand later if the sample remained stable.",
+        "The detection control is complete when analysts confirm that its alerts contain enough context for routine investigation."
+      ],
+      "correct": 1,
+      "explanation": "La redacción final se apoya en «enabled on all in-scope systems». La opción B comprueba dos resultados: despliegue en todo el alcance y detección mediante una prueba. A solo acredita instalación; C prueba una muestra, no toda la cobertura; D valida utilidad analítica, pero no despliegue ni funcionamiento extremo a extremo.",
+      "translation": "La acción estará completada cuando el control esté habilitado en todos los sistemas incluidos en el alcance y una prueba confirme que se detecta el evento esperado."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-078",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "The risk owner will be on leave when an exception expires. What governance step keeps the decision timely and authorized?",
+      "options": [
+        "Nominate an authorized delegate before the leave and provide the evidence needed to renew, change, or end the exception on time.",
+        "Ask the risk committee to extend the exception through the owner’s leave, then hold the full review on their return. The extension would preserve service continuity during the absence.",
+        "Prepare a recommendation for the SOC manager, who can make the temporary decision if the original owner is unavailable.",
+        "Let the exception expire as planned, but give operations advance notice so they can request emergency access if required."
+      ],
+      "correct": 0,
+      "explanation": "Authorized delegate y evidence mantienen una decisión válida y puntual. Las opciones restantes prolongan sin revisión, dejan caducar sin coordinación o trasladan aceptación a quien no posee el riesgo.",
+      "translation": "Nombrad a un delegado autorizado antes de la ausencia y facilitadle la evidencia necesaria para renovar, cambiar o finalizar la excepción a tiempo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-079",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "A programme runs for twelve months. Choose the first milestone that measures readiness and initial delivery, not meeting activity.",
+      "options": [
+        "Set a ninety-day milestone for inventory and design approval, with coverage targets for the first implementation wave.",
+        "Commit to inventory completion in ninety days, leaving design approval and coverage targets for the annual programme review.",
+        "Use monthly status reports for the first quarter, with each workstream describing progress against its own internal plan.",
+        "Select the first implementation wave now and use its completion date as the only milestone before the twelve-month target."
+      ],
+      "correct": 0,
+      "explanation": "Ninety-day milestone, inventory, design approval y coverage targets crean avance medible sin prometer despliegue desconocido. En cambio, las demás carecen de hitos, inventan capacidad o miden actividad en vez de resultados.",
+      "translation": "Fijad un hito de noventa días para el inventario y la aprobación del diseño, con objetivos de cobertura para la primera oleada de implantación."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-080",
+      "topic": "Recommendations and risk · Ownership and timeframes",
+      "question": "A payment-process weakness creates business risk. Who should decide whether the residual exposure is acceptable?",
+      "options": [
+        "The payment-process owner should accept the risk after security confirms that the technical controls cannot be improved further. The decision would be recorded in the payment-process risk register.",
+        "Security can explain the exposure and treatment options, but the business owner accountable for the payment process should decide whether the remaining risk is acceptable.",
+        "The application owner should accept the risk because the weakness exists in a system supporting the payment process.",
+        "Security and finance should jointly accept the risk so technical and business consequences receive equal approval."
+      ],
+      "correct": 1,
+      "explanation": "La redacción final se apoya en «business owner accountable for the payment process». La opción B separa asesoramiento de autoridad y sitúa la decisión en el responsable empresarial del proceso afectado. A condiciona aceptación a agotar controles, C confunde sistema con proceso y D diluye la rendición de cuentas.",
+      "translation": "Seguridad puede explicar la exposición y las opciones de tratamiento, pero el responsable de negocio que responde por el proceso de pagos debe decidir si el riesgo empresarial restante es aceptable."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-081",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "The customer says, “This has never happened to us, so why invest now?” What reply keeps the discussion constructive?",
+      "options": [
+        "Past experience supports the current rating, but sector incidents suggest we should still implement the control as a precaution.",
+        "Past experience is useful, but it does not remove future exposure. Let’s compare the cost of the control with the likelihood and impact it is designed to reduce.",
+        "The absence of previous incidents lowers likelihood, while the potential impact means the investment should still be approved.",
+        "Let’s use industry frequency alone to decide whether the control is worth funding this year, then review the impact separately. The business case would record the sector examples considered."
+      ],
+      "correct": 1,
+      "explanation": "Past experience is useful evita descalificar al cliente y compare cost with likelihood and impact centra la decisión. Las opciones restantes confunden ausencia histórica con seguridad, aseguran un incidente futuro o ignoran el coste.",
+      "translation": "La experiencia pasada es útil, pero no elimina la exposición futura. Comparemos el coste del control con la probabilidad y el impacto que pretende reducir."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-082",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "An executive asks, “Can you guarantee this will stop ransomware?” How do you answer without evading the question?",
+      "options": [
+        "No single control can guarantee that; this measure is worthwhile because it blocks the most common ransomware entry path. The executive would receive a separate summary of supporting controls.",
+        "The measure cannot guarantee prevention, but with current backups it should stop ransomware from causing material disruption.",
+        "No single control can guarantee that. This measure reduces one important attack path and works best alongside tested backups, monitoring, and response procedures.",
+        "A guarantee is not possible, so we should judge the recommendation by whether it lowers overall ransomware likelihood."
+      ],
+      "correct": 2,
+      "explanation": "No single control can guarantee evita una promesa falsa, y reduces one path... alongside explica defensa en profundidad. En cambio, las demás ofrecen certeza total, utilidad cero o trasladan toda eficacia al usuario.",
+      "translation": "Ningún control por sí solo puede garantizarlo. Esta medida reduce una vía de ataque importante y funciona mejor junto con copias probadas, supervisión y procedimientos de respuesta."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-083",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "The business challenges a high-risk rating because no data loss is confirmed. What clarification preserves the distinction between risk and outcome?",
+      "options": [
+        "The rating reflects the sensitivity of the data that could have been reached, even though no transfer has been confirmed.",
+        "The rating reflects potential impact and the level of access obtained, not a claim that data loss has already occurred.",
+        "High risk describes the worst credible outcome, while the investigation separately determines whether that outcome occurred.",
+        "The absence of confirmed loss affects the impact assessment, but the privileged access alone keeps the rating high."
+      ],
+      "correct": 1,
+      "explanation": "Reflects potential impact and access obtained aclara el criterio sin convertir posibilidad en hecho. Por contraste, las otras equiparan riesgo con impacto ocurrido o eligen etiquetas por rutina.",
+      "translation": "La valoración refleja el impacto potencial y el nivel de acceso obtenido, no afirma que ya se haya producido una pérdida de datos."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-084",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "Implementation is difficult, and the customer asks to remove the recommendation. Select the response that allows a different treatment without erasing the risk.",
+      "options": [
+        "We can replace the recommendation with a compensating control, provided security confirms that it reduces risk by the same amount. The owner would document the basis for equivalence.",
+        "We can revise the treatment if the original action is not feasible, but the underlying risk remains and needs an alternative control or explicit acceptance.",
+        "The implementation difficulty should be recorded as a dependency, while the original action remains mandatory until completed.",
+        "We can defer the recommendation to the roadmap and keep monitoring the risk until resources become available."
+      ],
+      "correct": 1,
+      "explanation": "Revise the treatment reconoce flexibilidad, mientras underlying risk remains mantiene la obligación de decidir. Las opciones restantes borran la exposición, ignoran restricciones o asignan aceptación automática.",
+      "translation": "Podemos revisar el tratamiento si la acción original no es viable, pero el riesgo subyacente permanece y necesita un control alternativo o una aceptación explícita."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-085",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "The plan places a medium risk before a high one. The medium fix is ready and closes an immediate exposure today; the high risk already has an escalated project. Explain the order.",
+      "options": [
+        "The medium risk has a ready-to-implement, low-effort fix that closes an immediate exposure today. The high risk is already being escalated as a coordinated project.",
+        "The medium risk comes first because its fix is faster, while the high-risk project will begin after the current action closes.",
+        "The order reflects implementation effort, not severity; the high risk will remain on the roadmap until resources are available.",
+        "The medium action provides a quick win today, and the high risk will be reviewed by the steering group at its next meeting. The meeting minutes would record that sequence."
+      ],
+      "correct": 0,
+      "explanation": "La expresión exacta «ready-to-implement, low-effort fix» aporta el criterio decisivo. La opción A usa exactamente los datos del escenario: una corrección lista y de poco esfuerzo hoy, mientras el riesgo alto ya está escalado. B retrasa el proyecto, C lo deja sin recursos y D sustituye el escalado activo por una revisión futura.",
+      "translation": "El riesgo medio tiene una corrección lista para implantar y de poco esfuerzo que cierra hoy una exposición inmediata. El riesgo alto ya se está escalando como un proyecto coordinado."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-086",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "“We already have a firewall.” Respond without dismissing the investment or assuming its current rules provide segmentation.",
+      "options": [
+        "The firewall is valuable, but segmentation requires a separate control that blocks all traffic between sensitive areas by default. The architecture team would document any required rule changes.",
+        "The current firewall protects the boundary; this recommendation adds internal firewalls so compromised systems cannot communicate laterally.",
+        "The firewall is valuable. The recommendation focuses on whether its current rules limit movement between sensitive areas if an internal system is compromised.",
+        "Existing firewall rules reduce the need for segmentation, but we should confirm whether sensitive networks have dedicated policies."
+      ],
+      "correct": 2,
+      "explanation": "The firewall is valuable reconoce la inversión y focuses on current rules concreta la brecha funcional. Por contraste, las otras desprecian el control, suponen cobertura o cambian de producto sin necesidad.",
+      "translation": "El firewall aporta valor. La recomendación se centra en comprobar si sus reglas actuales limitan el movimiento entre áreas sensibles cuando se compromete un sistema interno."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-087",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "The service owner asks, “Why can’t we just monitor the weakness?” How do you distinguish an interim safeguard from final treatment?",
+      "options": [
+        "Monitoring can reduce response time after exploitation, so it is a suitable treatment if preventive remediation is too disruptive.",
+        "Monitoring may tell us that exploitation is happening, but it does not prevent the initial access. If remediation must wait, monitoring should be an interim safeguard, not the final treatment.",
+        "Monitoring is valuable only when it triggers an automated response quickly enough to stop exploitation before access is established.",
+        "Monitoring and remediation reduce different parts of the risk, so the owner can choose either one based on implementation cost. The selected option would be reviewed at the next risk meeting."
+      ],
+      "correct": 1,
+      "explanation": "May tell... but does not prevent distingue detección de prevención y interim safeguard sitúa el control en su horizonte correcto. Las opciones restantes lo convierten en prevención, niegan su valor o lo hacen permanente.",
+      "translation": "La supervisión puede indicarnos que se está produciendo una explotación, pero no evita el acceso inicial. Si la remediación debe esperar, debería ser una salvaguarda provisional, no el tratamiento definitivo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-088",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "The customer asks for “the cheapest option.” Choose the clarifying question that broadens cost without presuming a preferred control.",
+      "options": [
+        "Should we optimize for the initial purchase price, or include support effort and disruption over the control’s expected life? We can then compare the options on a consistent basis.",
+        "Would you like us to compare the lowest-cost option with the control that produces the greatest measurable risk reduction?",
+        "Do you mean the lowest upfront cost, or the lowest total cost once implementation effort, residual risk, and potential disruption are included?",
+        "Should cost include the expected loss if the cheapest option leaves more exposure than the organization can tolerate?"
+      ],
+      "correct": 2,
+      "explanation": "Lowest upfront frente a lowest total cost aclara el criterio e incluye esfuerzo, riesgo residual e interrupción. En cambio, las demás reducen coste a licencia, equiparan precio con calidad o proponen aceptación general.",
+      "translation": "¿Se refiere al menor coste inicial o al menor coste total incluyendo el esfuerzo de implantación, el riesgo residual y la posible interrupción?"
+    },
+    {
+      "id": "b15-v2-recommendations-risk-089",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "After the top recommendation is complete, a director asks whether the organization is now “safe.” What reply acknowledges progress without overpromising?",
+      "options": [
+        "This action closes the top priority, so the organization’s security posture now depends mainly on maintaining the new control. The dashboard would continue reporting the remaining findings.",
+        "This action addresses the most urgent exposure. It materially improves the organization’s security posture, but the remaining risks and next priorities still need to be managed.",
+        "The organization is safer against this scenario, although we cannot measure the improvement until the remaining findings are closed.",
+        "The main exposure is resolved; the lower-ranked risks can now move into the normal improvement programme."
+      ],
+      "correct": 1,
+      "explanation": "La opción B reconoce el avance concreto y utiliza “security posture” para situarlo sin declarar seguridad absoluta; además mantiene visibles los riesgos restantes. A concentra demasiado la postura en un control, C niega una mejora ya observable y D rebaja prioridades sin evaluación.",
+      "translation": "Esta acción aborda la exposición más urgente. Mejora de forma material la postura de seguridad de la organización, pero aún hay que gestionar los riesgos restantes y las siguientes prioridades."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-090",
+      "topic": "Recommendations and risk · Customer questions and pushback",
+      "question": "A stakeholder calls the recommendation alarmist. How do you reset the tone by separating fact from the scenario being prevented?",
+      "options": [
+        "Let me separate the control gap from the risk rating: the gap is confirmed, while likelihood and impact remain under review. We would then review whether the current rating still fits.",
+        "Let me separate the observed issue from the possible outcome: the control gap is confirmed, while the business impact is a scenario we are trying to prevent.",
+        "I can make the wording more neutral by describing only the confirmed control gap and moving the impact to an appendix.",
+        "The wording reflects a severe potential impact, but I can lower the tone if the customer accepts the residual risk."
+      ],
+      "correct": 1,
+      "explanation": "Separate observed issue from possible outcome distingue hecho y escenario, reduciendo alarma sin ocultar el motivo. Las opciones restantes usan miedo, eliminan contexto o convierten impacto potencial en certeza.",
+      "translation": "Permíteme separar el problema observado del posible resultado: la carencia de control está confirmada, mientras que el impacto empresarial es el escenario que intentamos evitar."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-091",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Three technical recommendations need a one-sentence executive summary. What outcome-based version works best?",
+      "options": [
+        "The plan strengthens identity controls, improves alert quality, and removes the remaining legacy protocol dependency this quarter.",
+        "The plan reduces immediate account exposure, improves our ability to detect misuse, and removes the legacy access path over the next quarter.",
+        "The three actions reduce identity risk now and will complete the transition to modern access controls during the quarter.",
+        "The roadmap combines preventive, detective, and corrective controls to improve account security over the next quarter."
+      ],
+      "correct": 2,
+      "explanation": "La expresión exacta «reduces immediate account exposure» aporta el criterio decisivo. Reduces exposure, improves detection y removes legacy path resume resultados y horizonte, no solo tareas. En cambio, las demás se pierden en componentes, prometen eliminación total o carecen de impacto concreto.",
+      "translation": "El plan reduce la exposición inmediata de las cuentas, mejora nuestra capacidad para detectar usos indebidos y elimina la vía de acceso heredada durante el próximo trimestre."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-092",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Twenty actions cannot compete for attention on the opening roadmap slide. Pick the structure that communicates purpose, horizon, ownership, and outcome.",
+      "options": [
+        "Group them by technical owner, and place the highest-severity action first within each team’s section of the roadmap.",
+        "Show the five actions with the greatest risk reduction, then move the remaining fifteen into a supporting appendix.",
+        "Organize actions into a ninety-day plan and a twelve-month plan, with each item showing status and implementation cost.",
+        "Group them into immediate containment, near-term risk reduction, and strategic improvement, with an owner and target outcome for each group."
+      ],
+      "correct": 0,
+      "explanation": "La redacción final se apoya en «immediate containment, near-term risk reduction, and strategic improvement». Containment, near-term y strategic improvement crean una jerarquía temporal y owner/outcome hacen cada grupo accionable. Por contraste, las otras usan orden incidental, ocultan urgencias o eliminan la priorización.",
+      "translation": "Agrupad las acciones en contención inmediata, reducción de riesgo a corto plazo y mejora estratégica, con un responsable y un resultado objetivo para cada grupo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-093",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Risk falls after several controls but does not reach zero. What headline fits the slide?",
+      "options": [
+        "Controls reduce the current exposure; the remaining actions focus on sustaining that reduction across the environment.",
+        "Risk declines after control implementation, with further improvement expected as the roadmap reaches full coverage.",
+        "Controls materially reduce the exposure, while targeted follow-up is still needed for the remaining risk.",
+        "Treatment is effective, although complete risk removal depends on closing every open action in the programme."
+      ],
+      "correct": 2,
+      "explanation": "Materially reduce reconoce el beneficio y targeted follow-up... remaining risk evita un cierre absoluto. Las opciones restantes presentan éxito total, fracaso total o una condición imposible.",
+      "translation": "Los controles reducen de forma material la exposición, aunque todavía hace falta un seguimiento específico del riesgo restante."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-094",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Critical systems have a known privileged-access gap, and the funding decision is whether to treat it now. Choose the executive wording that connects delay to exposure.",
+      "options": [
+        "The investment closes a known privileged-access gap affecting our critical systems. Delaying it extends the period in which one compromised account could have broad impact.",
+        "The investment reduces privileged-account exposure on critical systems and gives the programme a measurable control outcome this year. The steering group would receive quarterly delivery updates.",
+        "Funding will improve control over privileged accounts, although implementation timing depends on the broader identity roadmap.",
+        "The investment addresses an audit finding on critical systems and aligns privileged access with the target security architecture."
+      ],
+      "correct": 0,
+      "explanation": "La expresión exacta «Delaying it extends the period» aporta el criterio decisivo. La opción A se apoya en los hechos dados —carencia conocida y sistemas críticos— y explica la consecuencia de retrasar sin predecir un incidente. B–D describen beneficios o contexto, pero no hacen tan transparente la exposición que la decisión prolongaría.",
+      "translation": "La inversión corrige una carencia conocida de acceso privilegiado que afecta a sistemas críticos; retrasarla prolonga el periodo en el que una sola cuenta comprometida podría tener un impacto amplio."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-095",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Delivery is behind schedule, but the highest-risk systems are complete. How should the status be reported fairly?",
+      "options": [
+        "Delivery is behind plan, but the completed high-risk scope means the programme has achieved its main risk-reduction objective.",
+        "High-risk coverage is complete; lower-risk delivery is delayed and should be rephased without adding more capacity.",
+        "Overall delivery is behind plan, and the next report will show whether delayed lower-risk systems require a revised target. The revised target would be agreed before the next report.",
+        "Overall delivery is behind plan, although coverage is complete for the highest-risk systems. The next decision is whether to add capacity or rephase the lower-risk scope."
+      ],
+      "correct": 3,
+      "explanation": "Behind plan reconoce calendario, although coverage... reconoce valor y next decision propone opciones. Por contraste, las otras ocultan una dimensión, califican todo como fracaso o omiten información material.",
+      "translation": "La entrega global va retrasada respecto al plan, aunque la cobertura de los sistemas de mayor riesgo está completa. La siguiente decisión es si añadir capacidad o reprogramar el alcance de menor riesgo."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-096",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Close the recommendation meeting with a spoken summary that gives horizons and one shared tracking action.",
+      "options": [
+        "To recap, this week’s two actions have owners, and next month’s design decision will be added once its sponsor is confirmed.",
+        "We have two actions this week and one decision next month; I’ll circulate the meeting notes so each team can track its own item. The same notes would record decisions and blockers.",
+        "To recap, there are two actions for this week and one design decision for next month. I’ll send the owners and dates today so we can track them from the same plan.",
+        "The plan now contains three priorities across two timeframes, and I’ll follow up separately with the teams responsible for each."
+      ],
+      "correct": 2,
+      "explanation": "El contraste clave está en «owners and dates today». Two actions... one decision resume por horizonte e I’ll send owners and dates crea seguimiento concreto. Las opciones restantes son vagas, posponen propiedad o dan por terminado el gobierno.",
+      "translation": "En resumen, hay dos acciones para esta semana y una decisión de diseño para el próximo mes. Hoy enviaré los responsables y las fechas para que podamos seguirlo todo desde el mismo plan."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-097",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Implemented controls have moved several risks from high to medium. Present the change without treating “medium” as closure.",
+      "options": [
+        "The applied controls have lowered the ratings from high to medium, but medium does not mean resolved. The remaining treatments are shown on the next slide.",
+        "The heat map now shows medium risk because control implementation reduced the expected impact of each scenario.",
+        "The controls have moved the risks into tolerance, although their open actions remain on the roadmap for maturity improvement.",
+        "The ratings are lower after treatment, and the next slide shows the controls that must remain effective to sustain them. The roadmap would show each control’s maintenance owner."
+      ],
+      "correct": 0,
+      "explanation": "La expresión exacta «medium does not mean resolved» aporta el criterio decisivo. La opción A atribuye la bajada a controles aplicados, conserva la distinción entre reducción y resolución, y enlaza con tratamientos pendientes. B inventa que solo cambió el impacto, C afirma tolerancia no dada y D habla de mantenimiento, no de las acciones abiertas.",
+      "translation": "Los controles aplicados han reducido las valoraciones de alto a medio, pero que un riesgo pase a ser medio no significa que esté resuelto. Los tratamientos restantes aparecen en la siguiente diapositiva."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-098",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "The board asks why privileged identities are the top recommendation. What answer makes all three decision criteria explicit?",
+      "options": [
+        "Secure privileged identities first because they affect broad access and the treatment can deliver meaningful coverage within ninety days. The identity team would coordinate delivery through the change plan.",
+        "Prioritize privileged identities because their potential impact is highest, even though the treatment will require coordination beyond ninety days.",
+        "Choose privileged identities because the risk rating and implementation effort are both higher than for the other recommendations.",
+        "Our top recommendation is to secure privileged identities first because they combine broad access, current control gaps, and a feasible ninety-day treatment plan."
+      ],
+      "correct": 3,
+      "explanation": "Because they combine access, gaps y feasible plan muestra criterios de impacto, exposición y ejecutabilidad. Por contraste, las otras usan el orden del documento, solo coste o evitan priorizar.",
+      "translation": "Nuestra principal recomendación es asegurar primero las identidades privilegiadas porque combinan un acceso amplio, carencias de control actuales y un plan de tratamiento viable en noventa días."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-099",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "In the final report, distinguish mandatory remediation from optional maturity improvements. Pick the clearest structure.",
+      "options": [
+        "Separate mandatory and optional actions, then explain the residual-risk effect of deferring any item in either group. The owner would decide which optional items remain on the roadmap.",
+        "Label actions as required risk treatment or recommended enhancement, and explain the consequences of leaving each required action incomplete.",
+        "Mark actions as required, recommended, or optional, with a target date only for the required risk treatments.",
+        "Place required treatments in the main report and move maturity improvements to an appendix without implementation tracking."
+      ],
+      "correct": 1,
+      "explanation": "El contraste clave está en «consequences of leaving each required action incomplete». La opción B distingue tratamiento obligatorio de mejora y explica la consecuencia decisoria de no completar cada acción requerida. A trata también mejoras opcionales como riesgo residual; C deja mejoras sin horizonte; D elimina su seguimiento.",
+      "translation": "Etiquetad las acciones como tratamiento de riesgo obligatorio o mejora recomendada y explicad las consecuencias de dejar incompleta cada acción obligatoria."
+    },
+    {
+      "id": "b15-v2-recommendations-risk-100",
+      "topic": "Recommendations and risk · Executive summaries and roadmaps",
+      "question": "Containment is complete, three long-term actions remain, and control tests are scheduled for January. Choose the closing line that states progress, open work, and reassessment.",
+      "options": [
+        "Containment is complete, and the three remaining actions will close before the January tests confirm the target controls.",
+        "The immediate exposure has been contained; January testing will show whether the three open actions have reduced residual risk enough. The review outcome would update the risk register.",
+        "Three longer-term actions remain after containment, and their completion will allow the residual risk to close following January testing.",
+        "The immediate exposure has been contained, three longer-term actions remain open, and we will reassess the residual risk after the January control tests."
+      ],
+      "correct": 3,
+      "explanation": "La expresión exacta «reassess the residual risk after the January control tests» aporta el criterio decisivo. La opción D reproduce los tres hechos sin añadir que las acciones estarán cerradas ni que el riesgo será aceptable: contención, tres acciones abiertas y reevaluación tras las pruebas. A–C convierten hitos futuros en resultados o criterios de cierre no confirmados.",
+      "translation": "La exposición inmediata ha sido contenida, quedan abiertas tres acciones a más largo plazo y volveremos a evaluar el riesgo residual después de las pruebas de control de enero."
+    }
+  ],
+  "category": "natural"
+}

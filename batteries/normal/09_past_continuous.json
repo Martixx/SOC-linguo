@@ -1,0 +1,428 @@
+{
+  "name": "09 · Past continuous · Normal",
+  "description": "30 preguntas para describir actividades que estaban en curso, acciones simultáneas, preguntas, negativas y procesos SOC en desarrollo.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b09-pc-001",
+      "topic": "Past continuous · Action in progress at a past time",
+      "question": "At 09:30, we ___ the proxy logs for signs of data exfiltration.",
+      "options": [
+        "were analyzing",
+        "analyzed",
+        "was analyzing",
+        "have analyzed"
+      ],
+      "correct": 0,
+      "explanation": "At 09:30 señala un momento concreto del pasado y la acción estaba en curso. Con we usamos were + verbo en -ing: were analyzing.",
+      "translation": "A las 09:30 estábamos analizando los logs del proxy en busca de señales de exfiltración de datos."
+    },
+    {
+      "id": "b09-pc-002",
+      "topic": "Past continuous · Affirmative form",
+      "question": "At 01:00, the sensor ___ repeated DNS requests, and the activity was continuing.",
+      "options": [
+        "were reporting",
+        "was reporting",
+        "reported",
+        "was report"
+      ],
+      "correct": 1,
+      "explanation": "La actividad seguía en curso a la 01:00. The sensor es singular, así que la estructura correcta es was + reporting.",
+      "translation": "A la 01:00, el sensor estaba registrando solicitudes DNS repetidas y la actividad continuaba."
+    },
+    {
+      "id": "b09-pc-003",
+      "topic": "Past continuous · Simultaneous actions with while",
+      "question": "While I ___ the client, my colleague was checking the affected endpoints.",
+      "options": [
+        "briefed",
+        "were briefing",
+        "was briefing",
+        "was brief"
+      ],
+      "correct": 2,
+      "explanation": "Las dos acciones estaban ocurriendo al mismo tiempo. Con I usamos was briefing; while suele introducir una acción en desarrollo.",
+      "translation": "Mientras yo informaba al cliente, mi compañera estaba comprobando los endpoints afectados."
+    },
+    {
+      "id": "b09-pc-004",
+      "topic": "Past continuous · Negative form",
+      "question": "The service ___, so we warned the client about the temporary impact.",
+      "options": [
+        "did not responding",
+        "were not responding",
+        "was not respond",
+        "was not responding"
+      ],
+      "correct": 3,
+      "explanation": "La negativa del past continuous se forma con was/were not + verbo en -ing. Service es singular: was not responding.",
+      "translation": "El servicio no estaba respondiendo, así que avisamos al cliente del impacto temporal."
+    },
+    {
+      "id": "b09-pc-005",
+      "topic": "Past continuous · Questions",
+      "question": "___ you ___ the privileged account when the unusual login occurred?",
+      "options": [
+        "Were / monitoring",
+        "Did / monitoring",
+        "Was / monitoring",
+        "Were / monitor"
+      ],
+      "correct": 0,
+      "explanation": "Las preguntas en past continuous invierten were y el sujeto: Were you monitoring...?",
+      "translation": "¿Estabas monitorizando la cuenta privilegiada cuando se produjo el inicio de sesión inusual?"
+    },
+    {
+      "id": "b09-pc-006",
+      "topic": "Past continuous · Questions",
+      "question": "What ___ the attacker ___ while the account was still active?",
+      "options": [
+        "did / doing",
+        "was / doing",
+        "were / doing",
+        "was / do"
+      ],
+      "correct": 1,
+      "explanation": "Con el sujeto singular the attacker usamos was. Después debe aparecer la forma -ing: What was the attacker doing...?",
+      "translation": "¿Qué estaba haciendo el atacante mientras la cuenta seguía activa?"
+    },
+    {
+      "id": "b09-pc-007",
+      "topic": "Past continuous · Action in progress at a past time",
+      "question": "At that point, the response team ___ the threat and preserving evidence.",
+      "options": [
+        "contained",
+        "were containing",
+        "was containing",
+        "was contained"
+      ],
+      "correct": 2,
+      "explanation": "At that point presenta una acción en curso en un momento pasado. Response team se trata aquí como singular: was containing.",
+      "translation": "En ese momento, el equipo de respuesta estaba conteniendo la amenaza y preservando las evidencias."
+    },
+    {
+      "id": "b09-pc-008",
+      "topic": "Past continuous · Client communication",
+      "question": "We ___ for your approval before isolating the production server.",
+      "options": [
+        "waited already",
+        "was waiting",
+        "were waited",
+        "were waiting"
+      ],
+      "correct": 3,
+      "explanation": "La frase describe una espera que estaba en curso. Con we usamos were waiting.",
+      "translation": "Estábamos esperando su aprobación antes de aislar el servidor de producción."
+    },
+    {
+      "id": "b09-pc-009",
+      "topic": "Past continuous · Negative form",
+      "question": "I ___ the email logs; I was checking the firewall traffic instead.",
+      "options": [
+        "was not reviewing",
+        "did not reviewing",
+        "were not reviewing",
+        "was not review"
+      ],
+      "correct": 0,
+      "explanation": "La acción que no estaba en curso se expresa con was not + -ing: I was not reviewing.",
+      "translation": "No estaba revisando los logs del correo; estaba comprobando el tráfico del firewall."
+    },
+    {
+      "id": "b09-pc-010",
+      "topic": "Past continuous · Questions",
+      "question": "___ the malware ___ with the external server at midnight?",
+      "options": [
+        "Did / communicating",
+        "Was / communicating",
+        "Were / communicating",
+        "Was / communicate"
+      ],
+      "correct": 1,
+      "explanation": "Malware es singular. Para preguntar por una actividad en curso a medianoche usamos Was + sujeto + verbo en -ing.",
+      "translation": "¿Se estaba comunicando el malware con el servidor externo a medianoche?"
+    },
+    {
+      "id": "b09-pc-011",
+      "topic": "Past continuous · Passive action in progress",
+      "question": "The affected accounts ___ overnight for further suspicious activity.",
+      "options": [
+        "were monitoring",
+        "was being monitored",
+        "were being monitored",
+        "were been monitored"
+      ],
+      "correct": 2,
+      "explanation": "Las cuentas recibían la acción y esta estaba en curso. La pasiva continua es were being + participio: were being monitored.",
+      "translation": "Las cuentas afectadas estaban siendo monitorizadas durante la noche para detectar más actividad sospechosa."
+    },
+    {
+      "id": "b09-pc-012",
+      "topic": "Past continuous · Passive action in progress",
+      "question": "A new detection rule ___ when the SIEM became unavailable.",
+      "options": [
+        "was deploying",
+        "were being deployed",
+        "was been deployed",
+        "was being deployed"
+      ],
+      "correct": 3,
+      "explanation": "La regla recibía la acción de despliegue y el proceso aún estaba en curso: was being deployed.",
+      "translation": "Se estaba desplegando una nueva regla de detección cuando el SIEM dejó de estar disponible."
+    },
+    {
+      "id": "b09-pc-013",
+      "topic": "Past continuous · Temporary activity",
+      "question": "Users ___ phishing messages throughout the afternoon.",
+      "options": [
+        "were still receiving",
+        "still received once",
+        "was still receiving",
+        "were still receive"
+      ],
+      "correct": 0,
+      "explanation": "Throughout the afternoon presenta una actividad temporal que continuaba durante ese periodo. Con users usamos were still receiving.",
+      "translation": "Los usuarios seguían recibiendo mensajes de phishing durante toda la tarde."
+    },
+    {
+      "id": "b09-pc-014",
+      "topic": "Past continuous · Temporary activity",
+      "question": "At 02:00, we ___ several related alerts, and the review was still in progress.",
+      "options": [
+        "investigated",
+        "were investigating",
+        "was investigating",
+        "were investigate"
+      ],
+      "correct": 1,
+      "explanation": "La revisión todavía estaba en curso a las 02:00; por eso usamos were investigating.",
+      "translation": "A las 02:00 estábamos investigando varias alertas relacionadas y la revisión seguía en curso."
+    },
+    {
+      "id": "b09-pc-015",
+      "topic": "Past continuous · Questions",
+      "question": "Why ___ the endpoint ___ so many outbound connections?",
+      "options": [
+        "did / making",
+        "were / making",
+        "was / making",
+        "was / make"
+      ],
+      "correct": 2,
+      "explanation": "Endpoint es singular. La pregunta sobre una actividad en curso se forma con Why was the endpoint making...?",
+      "translation": "¿Por qué estaba realizando el endpoint tantas conexiones salientes?"
+    },
+    {
+      "id": "b09-pc-016",
+      "topic": "Past continuous · Client communication",
+      "question": "The analyst ___ the incident summary while the client was asking questions.",
+      "options": [
+        "presented and finished",
+        "were presenting",
+        "was present",
+        "was presenting"
+      ],
+      "correct": 3,
+      "explanation": "La presentación estaba en curso al mismo tiempo que las preguntas del cliente: was presenting.",
+      "translation": "La analista estaba presentando el resumen del incidente mientras el cliente hacía preguntas."
+    },
+    {
+      "id": "b09-pc-017",
+      "topic": "Past continuous · Activity over a period",
+      "question": "At that point, the threat actor ___ different passwords and had not stopped.",
+      "options": [
+        "was trying",
+        "tried",
+        "were trying",
+        "was try"
+      ],
+      "correct": 0,
+      "explanation": "Had not stopped confirma que la actividad seguía en curso en ese momento: was trying.",
+      "translation": "En ese momento, el actor de la amenaza estaba probando distintas contraseñas y no se había detenido."
+    },
+    {
+      "id": "b09-pc-018",
+      "topic": "Past continuous · Simultaneous actions with while",
+      "question": "The backups ___ while we were validating the recovery plan.",
+      "options": [
+        "ran and finished",
+        "were running",
+        "was running",
+        "were run"
+      ],
+      "correct": 1,
+      "explanation": "Las copias y la validación estaban en curso simultáneamente. Backups es plural: were running.",
+      "translation": "Las copias de seguridad se estaban ejecutando mientras validábamos el plan de recuperación."
+    },
+    {
+      "id": "b09-pc-019",
+      "topic": "Past continuous · Simultaneous actions with while",
+      "question": "The client was requesting updates, and we ___ the containment steps.",
+      "options": [
+        "explained once",
+        "was explaining",
+        "were explaining",
+        "were explained"
+      ],
+      "correct": 2,
+      "explanation": "Las dos actividades se desarrollaban al mismo tiempo. Con we usamos were explaining.",
+      "translation": "El cliente estaba solicitando actualizaciones y nosotros estábamos explicando los pasos de contención."
+    },
+    {
+      "id": "b09-pc-020",
+      "topic": "Past continuous · Negative form",
+      "question": "At 18:00, the SOC ___ any new alerts from the affected tenant.",
+      "options": [
+        "did not receiving",
+        "were not receiving",
+        "was not receive",
+        "was not receiving"
+      ],
+      "correct": 3,
+      "explanation": "La ausencia de actividad en curso a las 18:00 se expresa con was not receiving.",
+      "translation": "A las 18:00, el SOC no estaba recibiendo nuevas alertas del tenant afectado."
+    },
+    {
+      "id": "b09-pc-021",
+      "topic": "Past continuous · Error recognition",
+      "question": "Choose the correct sentence for an activity that was in progress.",
+      "options": [
+        "We were analyzing the memory dump.",
+        "We was analyzing the memory dump.",
+        "We were analyze the memory dump.",
+        "We were analyzed the memory dump."
+      ],
+      "correct": 0,
+      "explanation": "Con we usamos were y el verbo principal debe terminar en -ing: We were analyzing.",
+      "translation": "Estábamos analizando el volcado de memoria."
+    },
+    {
+      "id": "b09-pc-022",
+      "topic": "Past continuous · Action in progress at a past time",
+      "question": "At 02:00, outbound traffic ___ rapidly from the compromised host.",
+      "options": [
+        "increased and stopped",
+        "was increasing",
+        "were increasing",
+        "was increase"
+      ],
+      "correct": 1,
+      "explanation": "La frase describe una tendencia que estaba en curso a una hora concreta. Traffic es singular e incontable: was increasing.",
+      "translation": "A las 02:00, el tráfico saliente estaba aumentando rápidamente desde el host comprometido."
+    },
+    {
+      "id": "b09-pc-023",
+      "topic": "Past continuous · Questions",
+      "question": "___ the engineers ___ the emergency patch during the call?",
+      "options": [
+        "Did / applying",
+        "Was / applying",
+        "Were / applying",
+        "Were / apply"
+      ],
+      "correct": 2,
+      "explanation": "Engineers es plural. La pregunta en past continuous se forma con Were the engineers applying...?",
+      "translation": "¿Estaban aplicando los ingenieros el parche de emergencia durante la llamada?"
+    },
+    {
+      "id": "b09-pc-024",
+      "topic": "Past continuous · Simultaneous actions with while",
+      "question": "I ___ my screen while the client was describing the business impact.",
+      "options": [
+        "shared and stopped",
+        "were sharing",
+        "was share",
+        "was sharing"
+      ],
+      "correct": 3,
+      "explanation": "Las dos acciones estaban en curso a la vez. Con I usamos was sharing.",
+      "translation": "Yo estaba compartiendo la pantalla mientras el cliente describía el impacto en el negocio."
+    },
+    {
+      "id": "b09-pc-025",
+      "topic": "Past continuous · Client communication",
+      "question": "The investigation ___ as planned, and we were keeping the client informed.",
+      "options": [
+        "was progressing",
+        "progressed at 11:00",
+        "were progressing",
+        "was progress"
+      ],
+      "correct": 0,
+      "explanation": "La frase describe el desarrollo temporal de la investigación: was progressing.",
+      "translation": "La investigación estaba avanzando según lo previsto y manteníamos informado al cliente."
+    },
+    {
+      "id": "b09-pc-026",
+      "topic": "Past continuous · Activity over a period",
+      "question": "At 03:00, the SIEM ___ a large backlog of events; processing was still underway.",
+      "options": [
+        "processed",
+        "was processing",
+        "were processing",
+        "was process"
+      ],
+      "correct": 1,
+      "explanation": "Processing was still underway indica que la acción estaba en curso a las 03:00. SIEM es singular: was processing.",
+      "translation": "A las 03:00, el SIEM estaba procesando una gran acumulación de eventos; el procesamiento seguía en curso."
+    },
+    {
+      "id": "b09-pc-027",
+      "topic": "Past continuous · Temporary activity",
+      "question": "Logs ___ late because the collector was under heavy load.",
+      "options": [
+        "arrived once",
+        "was arriving",
+        "were arriving",
+        "were arrive"
+      ],
+      "correct": 2,
+      "explanation": "La llegada tardía era una situación temporal y repetida. Logs es plural: were arriving.",
+      "translation": "Los logs estaban llegando con retraso porque el colector soportaba una carga elevada."
+    },
+    {
+      "id": "b09-pc-028",
+      "topic": "Past continuous · Questions",
+      "question": "Who ___ the response activities while the incident manager was unavailable?",
+      "options": [
+        "did coordinating",
+        "were coordinating",
+        "was coordinate",
+        "was coordinating"
+      ],
+      "correct": 3,
+      "explanation": "Who funciona aquí como sujeto singular. La forma correcta es Who was coordinating...?",
+      "translation": "¿Quién estaba coordinando las actividades de respuesta mientras el responsable del incidente no estaba disponible?"
+    },
+    {
+      "id": "b09-pc-029",
+      "topic": "Past continuous · Simultaneous actions with while",
+      "question": "Two analysts ___ on the case while another analyst was documenting the timeline.",
+      "options": [
+        "were working",
+        "worked and finished",
+        "was working",
+        "were work"
+      ],
+      "correct": 0,
+      "explanation": "Two analysts es plural y la actividad estaba en curso al mismo tiempo que la documentación: were working.",
+      "translation": "Dos analistas estaban trabajando en el caso mientras otra analista documentaba la cronología."
+    },
+    {
+      "id": "b09-pc-030",
+      "topic": "Past continuous · Stative verbs",
+      "question": "We ___ that the source IP belonged to the client before the call started.",
+      "options": [
+        "were knowing",
+        "knew",
+        "was knowing",
+        "were knew"
+      ],
+      "correct": 1,
+      "explanation": "Know es un verbo de estado y normalmente no se usa en forma continua. Aunque esta batería practica el past continuous, aquí la forma natural es el past simple: knew.",
+      "translation": "Sabíamos que la dirección IP pertenecía al cliente antes de que empezara la llamada."
+    }
+  ],
+  "category": "normal"
+}

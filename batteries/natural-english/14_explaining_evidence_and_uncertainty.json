@@ -1,0 +1,1408 @@
+{
+  "name": "14 · Explaining evidence and uncertainty · Natural English",
+  "description": "100 preguntas revisadas para separar hechos, evaluaciones e hipótesis; calibrar la confianza; explicar carencias de evidencia; responder a clientes; y decidir con incertidumbre. Incluye ejercicios orales variados, distractores plausibles y criterios inequívocos.",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b14-v2-evidence-uncertainty-001",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "During a briefing, an EDR alert shows PowerShell launching an encoded command. Select the version that separates observation from interpretation.",
+      "options": [
+        "The telemetry confirms that PowerShell concealed a malicious script by using an encoded command.",
+        "PowerShell ran an encoded command, which is a common sign that the host has been compromised.",
+        "We observed suspicious PowerShell activity, although the command's purpose has not yet been established.",
+        "The telemetry shows an encoded PowerShell command. This may indicate an attempt to conceal its purpose."
+      ],
+      "correct": 3,
+      "explanation": "The telemetry shows introduce el hecho observable y may indicate presenta la interpretación como posibilidad. Las alternativas confirman malicia sin base, convierten una señal en compromiso o pierden el detalle que sustenta la evaluación.",
+      "translation": "La telemetría muestra que PowerShell ejecutó un comando codificado; esto puede indicar un intento de ocultar la finalidad del script."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-002",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "You have confirmed that a mailbox rule forwarded selected invoices externally, but not who created it. Deliver the most precise update.",
+      "options": [
+        "We confirmed that the forwarding rule was created. We have not yet established who created it.",
+        "We confirmed that the attacker created a forwarding rule, although the account activity is still being reviewed.",
+        "A forwarding rule was created by an unknown user, and attribution remains under investigation.",
+        "The evidence confirms unauthorized forwarding, but it does not identify the person responsible."
+      ],
+      "correct": 0,
+      "explanation": "We confirmed... but we have not yet established... distingue un hecho de una cuestión abierta. Las otras atribuyen la regla a un atacante, suponen un usuario humano o califican el reenvío como no autorizado antes de demostrarlo.",
+      "translation": "Confirmamos que se creó la regla de reenvío, pero todavía no hemos determinado quién la creó."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-003",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "Complete this briefing point without turning a successful sign-in into proof of compromise.",
+      "options": [
+        "The sign-in is confirmed. We are still checking whether it was performed by the legitimate user.",
+        "The successful sign-in shows that valid credentials were used, so the account should be treated as compromised.",
+        "We know someone accessed the account, although we do not yet know who that person was.",
+        "The sign-in may have been legitimate, so it should not be used as evidence in the compromise assessment."
+      ],
+      "correct": 0,
+      "explanation": "La opción A separa el evento confirmado de la identidad todavía no resuelta. B convierte el uso de credenciales válidas en compromiso; C presupone una persona y acceso a la cuenta; D descarta por completo el valor del evento.",
+      "translation": "El inicio de sesión está confirmado. Todavía estamos comprobando si lo realizó el usuario legítimo."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-004",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "The customer asks what is known about a new local administrator account. You know the account exists, not why it was created. Choose the clearest spoken answer.",
+      "options": [
+        "The account was created to maintain privileged access, although we do not yet know by whom.",
+        "We found a new administrator account that appears to have been created for persistence.",
+        "What we can confirm is that a local administrator account was created. We still don't know why it was created.",
+        "The account creation is confirmed, and both its purpose and the responsible user are suspicious."
+      ],
+      "correct": 2,
+      "explanation": "What we can confirm is that delimita el hecho observable; We still don't know why it was created expresa la cuestión abierta con naturalidad. A y B atribuyen intención; D califica como sospechosas cuestiones aún no resueltas.",
+      "translation": "Lo que podemos confirmar es que se creó una cuenta de administrador local. Todavía no sabemos por qué se creó."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-005",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "Proxy logs record a connection to a newly registered domain, but no payload was captured. Choose wording that stays within the evidence.",
+      "options": [
+        "The logs confirm a connection to the domain. They do not show what data, if any, was exchanged.",
+        "The endpoint contacted a suspicious domain, but the transferred content could not be recovered.",
+        "The connection is confirmed, although the logs cannot determine whether the domain delivered malware.",
+        "We observed communication with the domain, but there is no evidence that the connection was successful."
+      ],
+      "correct": 0,
+      "explanation": "Do not show what data, if any, was exchanged describe exactamente la limitación. Las alternativas califican el dominio, reducen el análisis a malware o cuestionan el éxito de una conexión que sí aparece en los logs.",
+      "translation": "Los logs confirman una conexión con el dominio, pero no muestran qué datos, si los hubo, se intercambiaron."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-006",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "Two distant sign-ins triggered an impossible-travel alert; the second used the corporate VPN. Give the most evidence-led conclusion.",
+      "options": [
+        "The alert is a false positive because the second sign-in came through the corporate VPN.",
+        "Both sign-ins are confirmed. The corporate VPN may explain the location difference.",
+        "The VPN explains the impossible travel, so the account activity can be considered legitimate.",
+        "The geographic anomaly is not reliable evidence of compromise when a corporate VPN is in use."
+      ],
+      "correct": 1,
+      "explanation": "Can be explained by expresa una explicación plausible sin cerrar el caso. Las alternativas declaran falso positivo o legitimidad de toda la actividad, o invalidan de forma general una señal que aún puede requerir revisión.",
+      "translation": "Los dos inicios de sesión están confirmados, pero la diferencia de ubicación puede explicarse por la VPN corporativa."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-007",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "In the timeline, a service installation appears shortly before a reboot. The link has not been established. Select the most disciplined wording.",
+      "options": [
+        "The service installation triggered the reboot, although the exact mechanism remains unknown.",
+        "The reboot followed the service installation, which suggests that the new service caused it.",
+        "The service was installed before the reboot. At present, the evidence does not link the two events.",
+        "The timing makes a relationship likely, although operational causes should still be checked."
+      ],
+      "correct": 2,
+      "explanation": "La opción C informa del orden y declara que el vínculo no está demostrado. A afirma causa; B la sugiere a partir del orden; D presenta la relación como probable sin evidencia técnica.",
+      "translation": "El servicio se instaló antes del reinicio. Por ahora, la evidencia no vincula ambos eventos."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-008",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "The hash matches a public malware report, yet there is no execution evidence. Report the finding accurately.",
+      "options": [
+        "We identified known malware on the host, although execution could not be confirmed.",
+        "The file matches a known malware sample. We found no evidence that it executed on the host.",
+        "The matching hash confirms the malware family but not whether the infection was successful.",
+        "A known malicious file was present, and the lack of execution logs limits our assessment of impact."
+      ],
+      "correct": 1,
+      "explanation": "Matches a known malware sample identifica el artefacto; no evidence that it executed limita la conclusión. Las otras hablan de infección, impacto o presencia en el host con más seguridad de la permitida.",
+      "translation": "El archivo coincide con una muestra de malware conocida, pero no encontramos pruebas de que se ejecutara en el equipo."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-009",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "Your analyst writes, ‘The user downloaded the attachment, so the phishing campaign succeeded.’ Select the best correction.",
+      "options": [
+        "The user downloaded the attachment, which means the delivery stage of the campaign was successful.",
+        "The download confirms user interaction, but the available evidence does not show a complete compromise.",
+        "The attachment was downloaded. Whether it was opened or triggered more activity is still being checked.",
+        "The campaign reached the user and resulted in a download, although its final outcome remains uncertain."
+      ],
+      "correct": 2,
+      "explanation": "Downloaded es el único hecho confirmado. Still checking whether... separa descarga, apertura y actividad posterior. Las otras valoran éxito, interacción humana o alcance de la campaña más allá de lo demostrado.",
+      "translation": "El archivo adjunto se descargó; todavía estamos comprobando si se abrió o provocó alguna actividad posterior."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-010",
+      "topic": "Explaining evidence and uncertainty · Facts and assessments",
+      "question": "Introduce a slide that contains both telemetry and analyst judgment so the audience can tell them apart.",
+      "options": [
+        "Let me explain the evidence first and then give you our most likely conclusion.",
+        "I'll distinguish the technical facts from the assumptions we needed to make.",
+        "I'll show you what happened and then explain why we believe it is malicious.",
+        "Let me separate what the logs show from our assessment of what it means."
+      ],
+      "correct": 3,
+      "explanation": "What the logs show frente a our current assessment marca claramente observación e interpretación. Las alternativas anuncian una conclusión, llaman assumptions a la evaluación o anticipan malicia.",
+      "translation": "Permítanme separar lo que muestran los logs de nuestra evaluación actual de lo que significa."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-011",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "Three independent sources support credential theft, although the original phishing page is unavailable. Complete a high-confidence assessment without claiming certainty.",
+      "options": [
+        "The evidence confirms credential theft, even though the phishing page is no longer available.",
+        "We are almost certain that credentials were stolen, but one primary artifact is missing.",
+        "Credential theft is the likely explanation because the available sources point in the same direction.",
+        "The evidence strongly supports credential theft, although the original phishing page cannot be verified."
+      ],
+      "correct": 3,
+      "explanation": "Strongly supports comunica confianza alta sin convertir la evaluación en certeza, y la segunda parte identifica la limitación concreta. A usa confirms; B introduce una casi certeza sin escala; C omite la carencia que impide confirmar.",
+      "translation": "La evidencia respalda firmemente el robo de credenciales, aunque no se puede verificar la página de phishing original."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-012",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "The process tree resembles a known intrusion pattern, while benign administration remains possible. Give the best current assessment.",
+      "options": [
+        "The process tree is probably malicious, although an administrator could have produced the same pattern.",
+        "We assess the activity as malicious with moderate confidence because the process tree is unusual.",
+        "We currently consider malicious activity more likely than administration. Both explanations remain possible.",
+        "The activity is consistent with an intrusion pattern, but it could still be legitimate administration."
+      ],
+      "correct": 2,
+      "explanation": "More likely... but both explanations remain possible compara hipótesis y conserva la alternativa. Las otras usan probably sin explicar el balance, asignan moderate confidence con una sola señal o no expresan cuál explicación pesa más.",
+      "translation": "Nuestra evaluación actual es que la actividad tiene más probabilidades de ser maliciosa que administrativa, pero ambas explicaciones siguen siendo posibles."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-013",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "Only one low-quality indicator links the activity to a threat actor. Select the attribution statement with a defensible confidence level.",
+      "options": [
+        "We have low confidence in the attribution because it relies on a single, non-unique indicator.",
+        "The activity may be linked to the actor, but the attribution is based on limited evidence.",
+        "We tentatively attribute the activity to the actor based on one weak indicator.",
+        "The indicator points to the actor, although it is not distinctive enough for firm attribution."
+      ],
+      "correct": 0,
+      "explanation": "Low confidence ofrece una etiqueta calibrada y because explica su fundamento. Las demás son prudentes, pero may, tentatively o points to no hacen tan explícito el nivel y la razón metodológica.",
+      "translation": "Tenemos una confianza baja en la atribución porque se basa en un único indicador no exclusivo."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-014",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "Strong evidence shows data staging, but network visibility is missing for the relevant hour. Calibrate the exfiltration hypothesis.",
+      "options": [
+        "The staging activity makes exfiltration likely, although the missing network data prevents confirmation.",
+        "We have moderate confidence that the data was staged for possible exfiltration. We cannot determine whether any transfer occurred.",
+        "We assess with high confidence that the attacker prepared the data for exfiltration.",
+        "Exfiltration was probably attempted, but its success cannot be determined from the available logs."
+      ],
+      "correct": 1,
+      "explanation": "La opción B calibra como moderada una evaluación basada en staging y separa preparación de transferencia. A y D elevan la hipótesis de exfiltración; C asigna confianza alta a una intención no demostrada.",
+      "translation": "Tenemos una confianza moderada en que los datos se prepararon para una posible exfiltración. No podemos determinar si se produjo alguna transferencia."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-015",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "During the briefing, an executive asks, ‘Are you certain this was ransomware?’ Encryption is confirmed, but no ransom note was recovered. Respond precisely.",
+      "options": [
+        "We are confident it was ransomware because the encryption behavior is not consistent with normal administration.",
+        "We are confident that malicious encryption occurred. We cannot yet confirm an extortion motive.",
+        "The activity is almost certainly ransomware, although the ransom note has not been found.",
+        "We can confirm destructive encryption; whether the objective was ransom or disruption remains uncertain."
+      ],
+      "correct": 1,
+      "explanation": "Confident delimita la conducta probada y cannot yet confirm reserva la intención. Las otras nombran ransomware, usan almost certainly sin una escala o cambian malicious encryption por destructive encryption.",
+      "translation": "Confiamos en que la actividad incluyó cifrado malicioso, pero todavía no podemos confirmar la intención de extorsión del operador."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-016",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "Turn a persuasive but incomplete persistence finding into natural language for a customer call.",
+      "options": [
+        "Persistence is strongly indicated, subject to the remaining evidentiary limitations.",
+        "We believe persistence was established, but the evidence is not complete enough to prove it.",
+        "The evidence points strongly to persistence. I wouldn't call it confirmed yet.",
+        "The available evidence makes persistence highly probable, although confirmation remains pending."
+      ],
+      "correct": 2,
+      "explanation": "The evidence points strongly to persistence expresa confianza alta de forma oral; I wouldn't call it confirmed yet fija el límite con claridad. A y D suenan más redactadas; B usa prove como un estándar absoluto.",
+      "translation": "La evidencia apunta con fuerza a persistencia. Aun así, todavía no la consideraría confirmada."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-017",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "Two explanations fit, but one requires fewer unsupported assumptions. Select the statement that makes that reasoning explicit.",
+      "options": [
+        "The first explanation is more likely because it accounts for most of the observed activity.",
+        "We favor the first explanation, while keeping the second open as an alternative hypothesis.",
+        "Either explanation could be correct, but the first currently appears more plausible.",
+        "Both explanations fit the evidence. The first is our leading assessment because it requires fewer unsupported assumptions."
+      ],
+      "correct": 3,
+      "explanation": "La opción D hace explícito el criterio solicitado: ambas encajan, pero una exige menos supuestos no respaldados. A usa un criterio distinto; B no explica la preferencia; C solo repite que una parece más plausible.",
+      "translation": "Ambas explicaciones encajan con la evidencia. La primera es nuestra evaluación principal porque requiere menos supuestos no respaldados."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-018",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "Replace an unsupported ‘70% chance’ with the team’s non-numeric confidence language.",
+      "options": [
+        "We have medium-to-high confidence that the account was compromised after reviewing the sign-in pattern.",
+        "We assess that the account was likely compromised, based on the sign-ins and later mailbox activity.",
+        "The account was probably compromised, with the mailbox activity providing additional support.",
+        "It is more likely than not that the account was compromised, although we cannot assign a precise probability."
+      ],
+      "correct": 1,
+      "explanation": "Likely sustituye una cifra no fundamentada y based on aporta la razón. Las otras inventan una categoría híbrida, usan probably de forma menos formal o explican la ausencia de probabilidad en lugar de comunicar la evaluación.",
+      "translation": "Evaluamos que es probable que la cuenta estuviera comprometida, basándonos en el patrón de inicio de sesión y la actividad posterior del buzón."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-019",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "New endpoint telemetry has moved the assessment from low to moderate confidence. Choose the update that explains why.",
+      "options": [
+        "Endpoint telemetry corroborated the authentication logs, raising our confidence from low to moderate.",
+        "We now assess the compromise with moderate confidence following the endpoint review.",
+        "The new endpoint evidence raises our confidence in the compromise assessment.",
+        "Our assessment is now moderately confident, as two data sources support the same conclusion."
+      ],
+      "correct": 0,
+      "explanation": "Endpoint telemetry corroborated the authentication logs identifica la nueva evidencia, y raising our confidence from low to moderate explica tanto el punto de partida como el nivel final. Las otras opciones omiten uno de esos elementos o usan una construcción menos natural.",
+      "translation": "La telemetría del endpoint corroboró los logs de autenticación, lo que elevó nuestra confianza de baja a moderada."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-020",
+      "topic": "Explaining evidence and uncertainty · Calibrated confidence",
+      "question": "The customer hears ‘possible’ as ‘likely.’ Clarify the distinction concisely and tactfully.",
+      "options": [
+        "By 'possible,' I only mean that the explanation cannot be ruled out at this stage.",
+        "By 'possible,' I mean the evidence allows that explanation, not that it is the most likely one.",
+        "In our confidence scale, 'possible' is a lower judgment than 'likely.'",
+        "We have kept that scenario open, but the evidence currently favors other explanations."
+      ],
+      "correct": 1,
+      "explanation": "La opción B define possible en relación con la evidencia y corrige la inferencia sin confrontar al cliente. A lo reduce a no descartado; C describe una escala en abstracto; D añade que otras explicaciones son preferibles, dato no proporcionado.",
+      "translation": "Cuando digo «posible», quiero decir que la evidencia permite esa explicación, no que sea la más probable."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-021",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Firewall retention includes allow events but not blocked traffic. Explain exactly how that limits the review.",
+      "options": [
+        "The firewall data confirms the successful connections but provides no visibility into unsuccessful attempts.",
+        "Because denied events were not retained, the logs present an incomplete view of network activity.",
+        "We can analyze allowed traffic reliably, although blocked connections fall outside the available dataset.",
+        "The firewall logs show permitted connections. They do not show what other traffic may have been blocked."
+      ],
+      "correct": 3,
+      "explanation": "Cannot tell us what additional traffic may have been blocked concreta qué pregunta queda sin respuesta. Las otras equiparan allowed con successful, son más generales o llaman dataset a una limitación operativa.",
+      "translation": "Los logs del firewall muestran las conexiones permitidas, pero no pueden indicarnos qué tráfico adicional pudo haberse bloqueado."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-022",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Endpoint telemetry is missing for six hours during the suspected intrusion. State the limitation transparently without sounding defensive.",
+      "options": [
+        "A six-hour endpoint-telemetry gap leaves our reconstruction of that period incomplete.",
+        "The endpoint stopped reporting for six hours, which prevents us from determining what happened on the host.",
+        "We have complete telemetry before and after the gap, but limited visibility into the intrusion itself.",
+        "A collection issue affected six hours of endpoint data, although the surrounding evidence remains available."
+      ],
+      "correct": 0,
+      "explanation": "Leaves our reconstruction... incomplete explica el efecto exacto sin afirmar visibilidad cero. Las otras dicen prevents, asumen que la brecha coincide con toda la intrusión o priorizan tranquilizar en vez de declarar el límite.",
+      "translation": "Hay un intervalo de seis horas sin telemetría del endpoint, por lo que nuestra reconstrucción de la actividad durante ese periodo está incompleta."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-023",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "The packet capture began after the suspicious connection ended and recorded no further traffic. Complete the update without extrapolating backwards.",
+      "options": [
+        "The packet capture found no malicious traffic, but it began too late to cover the suspicious connection.",
+        "The absence of later connections shows that the earlier session did not continue.",
+        "The capture shows no further traffic after monitoring began. It cannot show what happened during the earlier connection.",
+        "The monitored period was clean, so any suspicious activity must have ended before capture started."
+      ],
+      "correct": 2,
+      "explanation": "La opción C informa del resultado realmente observado y limita su alcance temporal. A redefine el resultado como no malicious traffic; B infiere continuidad de una sesión; D usa clean y convierte el límite de captura en conclusión.",
+      "translation": "La captura no muestra más tráfico después de iniciar la monitorización. No puede mostrar qué ocurrió durante la conexión anterior."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-024",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Your only evidence is a user-supplied screenshot with no timestamp or original message. Assess its value.",
+      "options": [
+        "The screenshot indicates that the message existed, although its date and authenticity cannot be verified.",
+        "The screenshot is a useful lead. The missing timestamp and source message limit its evidential value.",
+        "We can use the screenshot to guide the investigation, but not as standalone proof of the event.",
+        "The user-provided image supports the report, subject to verification against the original mailbox data."
+      ],
+      "correct": 1,
+      "explanation": "Useful as an initial lead reconoce utilidad; limit its evidential value explica por qué no basta. Las otras afirman existencia, usan proof de forma absoluta o presuponen que habrá datos originales disponibles.",
+      "translation": "La captura de pantalla es útil como pista inicial, pero la ausencia de fecha y del mensaje original limita su valor probatorio."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-025",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Audit logs retain seven days, while the suspected activity may have begun ten days ago. Brief the customer without overstating what was lost.",
+      "options": [
+        "Because of the seven-day retention period, we cannot investigate how the incident began ten days ago.",
+        "The audit trail is incomplete for the suspected start of the incident, although recent activity remains available.",
+        "We have lost the first three days of logs, which limits our ability to identify the initial access method.",
+        "The logs cover seven days. Activity from the first three days of the suspected period may no longer be recoverable."
+      ],
+      "correct": 3,
+      "explanation": "May no longer be recoverable es preciso: describe cobertura y evita declarar pérdida absoluta. Las otras cierran toda investigación, son menos concretas o asumen que el acceso inicial ocurrió en esos tres días.",
+      "translation": "Los logs de auditoría disponibles cubren los últimos siete días, por lo que la actividad de los tres primeros días del periodo sospechoso quizá ya no pueda recuperarse."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-026",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Identity logs contain the result and IP address, but no device identifier. Select the limitation you should explain.",
+      "options": [
+        "The logs identify the source location, although they do not show whether the device was managed.",
+        "We know the sign-in IP, but the endpoint can be inferred from the user assignment.",
+        "The identity data confirms the physical source, while device attribution requires another telemetry source.",
+        "We can confirm the apparent sign-in origin, but these logs alone cannot tie it to a specific device."
+      ],
+      "correct": 3,
+      "explanation": "Apparent sign-in origin evita equiparar IP con ubicación física, y cannot tie it to a specific device expresa exactamente la limitación. A habla de gestión; B propone una inferencia no fiable; C convierte la fuente física en certeza.",
+      "translation": "Podemos confirmar el origen aparente del inicio de sesión, pero solo con estos logs no podemos vincularlo a un dispositivo concreto."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-027",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Halfway through the month, a detection-rule change expanded coverage and alert volume rose. Add the right caveat to the month-to-month comparison.",
+      "options": [
+        "The alert increase is partly explained by the rule update, so it does not represent a comparable rise in threats.",
+        "The new rule generated more alerts, which makes the previous month's baseline unreliable.",
+        "The increase should be interpreted cautiously because the rule change expanded what the detection captures.",
+        "Alert volume increased after coverage was expanded, but the underlying threat level may not have changed."
+      ],
+      "correct": 2,
+      "explanation": "Should be interpreted cautiously presenta la advertencia y because explica el sesgo de medición. Las otras cuantifican partly sin datos, llaman unreliable a la base anterior o sugieren que no cambió la amenaza.",
+      "translation": "El aumento debe interpretarse con cautela porque el cambio de regla amplió lo que detecta."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-028",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Cloud events are available, but their timestamps use two time zones. Give an accurate status update while normalization is pending.",
+      "options": [
+        "We have the relevant events. Their exact order remains provisional until the timestamps are normalized.",
+        "The timeline is probably inaccurate because the cloud events were recorded in different time zones.",
+        "The events are complete, so converting the timestamps is an administrative step that will not affect the sequence.",
+        "The evidence is complete, but both time zones must be aligned before any event can be interpreted."
+      ],
+      "correct": 0,
+      "explanation": "La opción A separa disponibilidad de eventos y orden provisional. B califica toda la línea temporal como probablemente incorrecta; C minimiza un cambio potencial de secuencia; D llama completa a toda la evidencia y paraliza la interpretación.",
+      "translation": "Tenemos los eventos relevantes. Su orden exacto sigue siendo provisional hasta que se normalicen las marcas de tiempo."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-029",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "The vendor reports a threat-intelligence match without sharing the underlying indicators. Present the claim with the right source attribution.",
+      "options": [
+        "The vendor intelligence links the activity to the campaign, although the supporting indicators are confidential.",
+        "We are treating the vendor match as credible, pending access to the underlying evidence.",
+        "A third-party assessment supports the campaign link, but we cannot validate its methodology.",
+        "The vendor reports a match. We have not independently verified the indicators behind that assessment."
+      ],
+      "correct": 3,
+      "explanation": "Reports a match atribuye la afirmación a la fuente; not independently verified declara el límite. Las otras aceptan el vínculo, valoran credibilidad o cuestionan metodología que quizá sí se conoce.",
+      "translation": "El proveedor informa de una coincidencia, pero no hemos verificado de forma independiente los indicadores en los que se basa esa evaluación."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-030",
+      "topic": "Explaining evidence and uncertainty · Evidence gaps and quality",
+      "question": "Only part of a deleted artifact was recovered. Choose the sentence that does not describe the fragment as the complete file.",
+      "options": [
+        "The recovered file contains a suspicious command, although some surrounding content is missing.",
+        "We recovered a file fragment containing the suspicious command, but cannot reconstruct the full contents.",
+        "A partial recovery confirms that the deleted file was used to run the suspicious command.",
+        "The fragment shows the command, but the rest of the script could not be recovered."
+      ],
+      "correct": 1,
+      "explanation": "A fragment of the file nombra correctamente el objeto; cannot reconstruct limita el alcance. Las otras lo llaman recovered file, afirman ejecución o lo identifican como script completo.",
+      "translation": "Recuperamos un fragmento del archivo que contiene el comando sospechoso, pero no podemos reconstruir todo su contenido."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-031",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "Repeated failed sign-ins could be password spraying or a misconfigured application. Keep both hypotheses genuinely open.",
+      "options": [
+        "The failures suggest password spraying, unless an application is repeatedly using an outdated password.",
+        "We are investigating the pattern as possible password spraying while checking for configuration issues.",
+        "The pattern is consistent with password spraying. A misconfigured application could cause similar failures.",
+        "Password spraying is the leading hypothesis, although an application error has not been ruled out."
+      ],
+      "correct": 2,
+      "explanation": "Consistent with... but... could produce similar failures compara directamente la señal con una alternativa. Las otras condicionan, describen el proceso o elevan una hipótesis a leading sin evidencia adicional.",
+      "translation": "El patrón es coherente con un ataque de password spraying, pero una aplicación mal configurada podría producir fallos similares."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-032",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "On a server, a large archive could be exfiltration staging or a scheduled backup. State the first analytical update.",
+      "options": [
+        "The server created an unusually large archive that may have been prepared for exfiltration.",
+        "The archive could be a backup, but its size and timing make staging more likely.",
+        "We found possible data staging and are validating whether an authorized backup explains it.",
+        "The archive is unusual for this server. We are checking whether it is a backup or staged data."
+      ],
+      "correct": 3,
+      "explanation": "Are checking whether... or... presenta hipótesis simétricas antes de priorizar. Las otras favorecen exfiltración o etiquetan el hallazgo como possible data staging demasiado pronto.",
+      "translation": "La creación del archivo comprimido es inusual en este servidor; estamos comprobando si está relacionada con una copia de seguridad o con la preparación de datos."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-033",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "Two countries appear in the sign-in history within an hour, and VPN use is possible. Choose the follow-up that best tests both explanations.",
+      "options": [
+        "We should ask the user whether a VPN explains the location change before escalating the alert.",
+        "Before classification, compare the IPs with known VPN infrastructure and confirm the user's activity.",
+        "The next step is to verify the second IP and determine whether the user recognizes both sessions.",
+        "We need device and VPN data to decide whether the travel pattern is malicious or expected."
+      ],
+      "correct": 1,
+      "explanation": "Compare... and confirm... propone dos comprobaciones independientes sin depender solo del recuerdo del usuario. Las otras retrasan escalado, verifican menos contexto o formulan malicious/expected como única dicotomía.",
+      "translation": "Debemos comparar las direcciones IP con la infraestructura VPN conocida y confirmar la actividad del usuario antes de clasificar los inicios de sesión."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-034",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "At 02:00, a scheduled task launches a script. To distinguish persistence from routine automation, select the most discriminating observation.",
+      "options": [
+        "Whether the script made an outbound connection immediately after it started.",
+        "Whether the task was created by an account with administrative privileges.",
+        "Whether similar tasks have previously generated alerts on other endpoints.",
+        "Whether the task, script, and execution time match an approved process."
+      ],
+      "correct": 3,
+      "explanation": "Match an approved administrative process contrasta directamente rutina autorizada y persistencia. Conexión, privilegios o alertas previas aportan contexto, pero no resuelven por sí solos si la tarea estaba aprobada.",
+      "translation": "Si la tarea, el script y la hora de ejecución coinciden con un proceso administrativo aprobado."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-035",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "The user denies sending a message found in Sent Items. Respond without assuming deception or compromise.",
+      "options": [
+        "The user's denial suggests that someone else accessed the mailbox to send the message.",
+        "The message is in Sent Items. Its sender could be the user, an application, or another party with access.",
+        "The email was sent from the account, although the responsible person has not been identified.",
+        "We cannot rely on the user's recollection, so the mailbox evidence should take priority."
+      ],
+      "correct": 1,
+      "explanation": "User, application, or another party enumera explicaciones compatibles con el dato. Las otras convierten la negación en señal, equiparan cuenta con persona o enfrentan testimonio y logs innecesariamente.",
+      "translation": "El mensaje aparece en Elementos enviados, pero todavía debemos determinar si lo envió el usuario, una aplicación u otra persona con acceso."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-036",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "Logging stopped shortly before suspicious activity began. Choose wording that does not imply deliberate tampering.",
+      "options": [
+        "Logging stopped before the activity. The interruption may be related or coincidental.",
+        "The logging interruption may have been an attempt to hide the subsequent activity.",
+        "The timing suggests the attacker disabled logging before beginning the activity.",
+        "Logs became unavailable at a critical point, although an operational failure is also possible."
+      ],
+      "correct": 0,
+      "explanation": "Related or coincidental mantiene dos explicaciones sin atribuir intención. Las otras introducen hide, attacker o califican critical point desde una lectura retrospectiva.",
+      "translation": "El registro de logs se detuvo antes de la actividad sospechosa, pero todavía no sabemos si la interrupción estaba relacionada o fue una coincidencia."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-037",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "Several files gained a new extension. Ransomware and a failed migration are both plausible. Give the best interim description.",
+      "options": [
+        "The renaming behavior resembles ransomware, although a migration failure could explain the extension change.",
+        "We observed mass file renaming. Possible explanations include ransomware and a failed migration.",
+        "The files were modified in a way consistent with encryption, but we have not confirmed ransomware.",
+        "Possible ransomware activity affected multiple files, pending validation of the migration process."
+      ],
+      "correct": 1,
+      "explanation": "Observed mass file renaming conserva el hecho; possible explanations mantiene abiertas las hipótesis de ransomware y migración. Las otras hablan de resembles, encryption o etiquetan el caso como ransomware.",
+      "translation": "Observamos un renombrado masivo de archivos; el ransomware es una posibilidad, pero también se está investigando un fallo del proceso de migración."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-038",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "Under a service account, a privileged command ran. Select the question that best separates misuse from expected automation.",
+      "options": [
+        "Did the service account have permission to run the command on the affected host?",
+        "Was the command expected for that service account, on that host, at that time?",
+        "Has the same command ever been executed successfully by the service account?",
+        "Was the command launched automatically rather than by an interactive user?"
+      ],
+      "correct": 1,
+      "explanation": "Expected... on that host, at that time combina identidad, activo y contexto temporal. Tener permiso, precedentes o ejecución automática no distingue por sí solo abuso de automatización autorizada.",
+      "translation": "¿Se esperaba que esa cuenta de servicio ejecutara ese comando, en ese equipo y a esa hora?"
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-039",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "DNS requests to an algorithmically generated domain could come from malware or a poorly designed application. Give a balanced update and name the evidence needed next.",
+      "options": [
+        "The generated domain strongly suggests malware, although some applications use similar naming patterns.",
+        "We cannot classify the traffic until the domain has been blocked and analyzed.",
+        "The requests may be malicious or application-related, so we should wait for more alerts before deciding.",
+        "The pattern is suspicious. We need to identify the requesting process and check who owns the domain before classifying the traffic."
+      ],
+      "correct": 3,
+      "explanation": "La opción D reconoce la señal y propone dos comprobaciones discriminantes: proceso solicitante y propiedad del dominio. A pesa demasiado malware; B exige bloqueo y análisis sin necesidad; C mantiene hipótesis abiertas pero no pide la evidencia más útil.",
+      "translation": "El patrón es sospechoso. Tenemos que identificar el proceso que hizo las solicitudes y comprobar quién es el propietario del dominio antes de clasificar el tráfico."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-040",
+      "topic": "Explaining evidence and uncertainty · Alternative explanations",
+      "question": "Two hosts contacted the same external IP. Report the overlap without prematurely merging the investigations.",
+      "options": [
+        "Both hosts contacted the same IP, which may indicate a common command-and-control channel.",
+        "The matching destination connects the events, although each host should still be investigated separately.",
+        "The shared indicator suggests a common compromise, but the relationship still needs confirmation.",
+        "The shared destination is a useful link. We need more context before treating the two hosts as related."
+      ],
+      "correct": 3,
+      "explanation": "La opción D conserva la coincidencia como vínculo analítico sin convertirla en incidente común. A introduce C2; B afirma que los eventos están conectados; C ya sugiere un compromiso común.",
+      "translation": "El destino compartido es un vínculo útil. Necesitamos más contexto antes de considerar relacionados los dos equipos."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-041",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "The completed endpoint scan found no malware. Choose the conclusion that remains within the scan’s limits.",
+      "options": [
+        "The endpoint scan was clean, so there is no evidence of compromise on the device.",
+        "We found no malware, although the endpoint may still have been compromised by another technique.",
+        "The scan found no malware. This reduces concern but does not rule out prior or fileless activity.",
+        "The scan result suggests that malicious code is not currently present on the endpoint."
+      ],
+      "correct": 2,
+      "explanation": "Did not identify describe el resultado; does not rule out define dos límites concretos. Las otras llaman clean al equipo, mezclan malware y compromiso o infieren ausencia actual más allá de la cobertura del escaneo.",
+      "translation": "El análisis no identificó malware en el endpoint; esto reduce la preocupación, pero no descarta actividad anterior o sin archivos."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-042",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "Using a 100 MB threshold, the network search returned no outbound transfers. State only what that result supports.",
+      "options": [
+        "There is no evidence of large-scale exfiltration, although smaller transfers may not have triggered the search.",
+        "We found no transfers above 100 MB in the available data. Smaller or unmonitored transfers remain possible.",
+        "The network data rules out any single transfer larger than 100 MB during the review period.",
+        "No significant data transfer was observed, but the search threshold limits that conclusion."
+      ],
+      "correct": 1,
+      "explanation": "In the available network data y remain possible fijan fuente y umbral. Las otras redefinen large-scale, usan rules out de forma absoluta o califican significant sin criterio acordado.",
+      "translation": "No encontramos transferencias superiores a 100 MB en los datos de red disponibles; siguen siendo posibles transferencias menores o no monitorizadas."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-043",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "No activity from a second administrator account appears in the reviewed data. Report the negative finding without turning it into proof of non-use.",
+      "options": [
+        "We found no activity from the second administrator account in the data reviewed so far.",
+        "The second administrator account does not appear to have been used during the incident.",
+        "There is currently no indication that the second administrator account was involved.",
+        "Our review confirms that activity was limited to the first administrator account."
+      ],
+      "correct": 0,
+      "explanation": "In the data reviewed so far limita la afirmación a búsqueda y alcance. Las otras infieren no uso, hablan de involvement más amplio o confirman exclusividad.",
+      "translation": "Hasta ahora no hemos identificado actividad de la segunda cuenta de administrador en los datos revisados."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-044",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "Email tracing found no delivery to other employees. Select the statement that preserves the search boundaries.",
+      "options": [
+        "The phishing email was delivered only to the original recipient.",
+        "We found no evidence that any other employee received the message.",
+        "The trace shows no other deliveries within the period and mailboxes searched.",
+        "The campaign did not reach additional internal mailboxes during the incident window."
+      ],
+      "correct": 2,
+      "explanation": "Within the period and mailboxes covered expresa las fronteras del resultado negativo. Las otras convierten la búsqueda en exclusividad global o amplían message a campaign.",
+      "translation": "El rastreo no muestra entregas adicionales dentro del periodo y los buzones cubiertos por la búsqueda."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-045",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "File-access logs show no access to personal data, but database query logs are unavailable. Answer the customer’s impact question.",
+      "options": [
+        "There is no evidence that personal data was accessed, although database activity could not be reviewed.",
+        "The available logs do not show personal-data access, but our conclusion is incomplete.",
+        "File logs show no personal-data access. Without database logs, we cannot reach an environment-wide conclusion.",
+        "We can rule out file-based access, while database access remains unknown."
+      ],
+      "correct": 2,
+      "explanation": "No... in the file logs acota la evidencia; prevent us from ruling it out across the whole environment hace explícita la consecuencia. Las otras generalizan, son vagas o usan rule out para una fuente quizá incompleta.",
+      "translation": "No encontramos acceso a datos personales en los logs de archivos, pero la ausencia de logs de base de datos nos impide descartarlo en todo el entorno."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-046",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "Post-remediation checks found no persistence. Report the current state without claiming that persistence never existed.",
+      "options": [
+        "Post-remediation checks found no active persistence on the systems reviewed.",
+        "We found no evidence that the attacker established persistence in the environment.",
+        "All identified persistence has been removed, and no additional mechanisms are present.",
+        "The environment is currently clear of persistence based on the validation checks."
+      ],
+      "correct": 0,
+      "explanation": "Post-remediation, active y systems reviewed delimitan tiempo, estado y alcance. Las otras hablan de historia, totalidad o environment completo.",
+      "translation": "Las comprobaciones posteriores a la remediación no encontraron mecanismos de persistencia activos en los sistemas revisados."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-047",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "Your threat-hunting query returned zero matches. Choose the most useful way to report both result and coverage.",
+      "options": [
+        "The hunt found no related activity, so the indicator does not appear elsewhere in the environment.",
+        "No matches were detected, although the result depends on the quality of the query and the available data.",
+        "The query found no matches in the selected scope. We are checking whether its coverage is broad enough.",
+        "The initial hunt was negative, and we will expand it if additional indicators become available."
+      ],
+      "correct": 2,
+      "explanation": "Selected data sources and time range define alcance; reviewing... broader coverage examina la sensibilidad. Las otras generalizan a todo el entorno, son metodológicas pero vagas o condicionan ampliar a nuevos IOC.",
+      "translation": "La consulta no devolvió coincidencias en las fuentes de datos y el intervalo seleccionados; estamos revisando si la lógica de búsqueda necesita una cobertura más amplia."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-048",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "No alerts came from the affected server while its sensor was in maintenance mode. Prevent a misleading reassurance.",
+      "options": [
+        "No alerts were generated, although maintenance may have slightly reduced detection coverage.",
+        "The absence of alerts is inconclusive because the sensor was in maintenance mode.",
+        "We should discard the entire alert history because the sensor was not fully operational.",
+        "The server produced no alerts, but that result is reassuring once maintenance is taken into account."
+      ],
+      "correct": 1,
+      "explanation": "La opción B vincula directamente el resultado negativo con la pérdida de cobertura y lo declara inconcluso. A minimiza el efecto; C descarta más datos de los justificados; D presenta tranquilidad sin base.",
+      "translation": "La ausencia de alertas no es concluyente porque el sensor estaba en modo de mantenimiento."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-049",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "The customer asks, ‘So nothing left the network?’ No exfiltration is confirmed, and visibility has gaps. Give the most accurate reply.",
+      "options": [
+        "We found no evidence of exfiltration, but we cannot provide an absolute guarantee.",
+        "Exfiltration is unconfirmed. Visibility gaps mean we cannot rule out data leaving the network.",
+        "There is no confirmed data loss, although some network traffic was not logged.",
+        "We cannot confirm that data left the network, and we also cannot completely exclude it."
+      ],
+      "correct": 1,
+      "explanation": "Have not confirmed evita convertir el resultado en ausencia; visibility gaps explica el límite. Las otras hablan de guarantee, cambian exfiltration por data loss o usan completely exclude sin concretar el motivo.",
+      "translation": "No hemos confirmado ninguna exfiltración; sin embargo, las carencias de visibilidad impiden afirmar que ningún dato salió de la red."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-050",
+      "topic": "Explaining evidence and uncertainty · Negative findings",
+      "question": "On the regional chart, one area shows zero detections, but onboarding there is incomplete. Add the caveat the audience needs.",
+      "options": [
+        "The zero reflects currently onboarded data, not an absence of threats in that region.",
+        "No detections were recorded, but regional coverage is still being completed.",
+        "The region currently shows no detected threats because some data sources are not connected.",
+        "The chart reports zero alerts; once onboarding is complete, that figure may increase."
+      ],
+      "correct": 0,
+      "explanation": "The zero reflects currently onboarded data separa la métrica de la realidad; not an absence of threats bloquea la interpretación errónea. Las alternativas son menos directas o especulan sobre cómo cambiará la cifra.",
+      "translation": "El valor cero refleja los datos incorporados actualmente, no una ausencia de amenazas en esa región."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-051",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "Three workstations are confirmed affected, and twenty more share the same vulnerable software. How should you describe the current scope?",
+      "options": [
+        "The incident currently affects three workstations, with twenty more at risk because they run the same software.",
+        "The confirmed scope is three workstations. The additional twenty are potentially exposed and are being checked.",
+        "We have three confirmed systems and twenty suspected systems within the broader exposure group.",
+        "Three workstations are compromised, while twenty others remain in scope for validation."
+      ],
+      "correct": 1,
+      "explanation": "Confirmed scope y potentially exposed separan afectación demostrada de exposición. Las otras usan affects/at risk, llaman suspected a los equipos o cambian affected por compromised.",
+      "translation": "El alcance confirmado es de tres estaciones de trabajo; las otras veinte están potencialmente expuestas y se están comprobando."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-052",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "A database account was used, but query-level auditing is disabled. Which impact statement is supportable?",
+      "options": [
+        "The database was accessed, although there is no evidence that records were modified.",
+        "The account activity may have exposed database content, but the affected records cannot be identified.",
+        "We know the account was used successfully, but the impact on the underlying data remains unknown.",
+        "We confirmed use of the database account. Query-level auditing is disabled, so we cannot determine which records were viewed or changed."
+      ],
+      "correct": 3,
+      "explanation": "Confirmed access to the database account evita afirmar acceso a datos; cannot determine viewed or changed concreta el vacío. Las otras confunden ausencia y no visibilidad, sugieren exposición o son menos específicas.",
+      "translation": "Confirmamos el uso de la cuenta de base de datos, pero no podemos determinar qué registros se consultaron o modificaron."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-053",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "An attacker reached a file share but opened only one visible document. Which statement distinguishes confirmed from potential exposure?",
+      "options": [
+        "One document was accessed, while the remaining files were exposed through the same share permissions.",
+        "The attacker could access the file share, but only one document appears to have been viewed.",
+        "We confirmed access to one document. Other files were accessible, but we found no evidence they were opened.",
+        "The confirmed impact is limited to one document, although the entire share was within reach."
+      ],
+      "correct": 2,
+      "explanation": "Confirmed access identifica impacto; potentially accessible describe oportunidad; no evidence they were opened evita equipararlas. Las otras llaman exposed al resto, usan appears o limited sin explicitar el límite de logs.",
+      "translation": "Confirmamos el acceso a un documento; otros archivos del recurso compartido eran potencialmente accesibles, pero no encontramos pruebas de que se abrieran."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-054",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "A cloud token had permissions across five applications, but activity appears in only one. How do you state blast radius?",
+      "options": [
+        "The potential blast radius covers five applications, although only one shows signs of access.",
+        "The token could access five applications. So far, confirmed activity is limited to one.",
+        "Five applications were exposed by the token, with observed activity confined to a single application.",
+        "The compromised token affected one application and placed four others at potential risk."
+      ],
+      "correct": 1,
+      "explanation": "Could access describe capacidad; confirmed activity... one delimita uso observado. Las otras usan blast radius/exposed/affected con significados más fuertes o presupone token comprometido.",
+      "translation": "El token podía acceder a cinco aplicaciones, pero la actividad confirmada se limita actualmente a una."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-055",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "A payment process was unavailable for two hours, but the cause is still being analyzed. Which impact update is properly separated from causation?",
+      "options": [
+        "The incident coincided with the two-hour outage, making it the leading explanation while technical checks continue.",
+        "The payment process was disrupted for two hours during the incident window.",
+        "We observed a two-hour outage that may have resulted from the suspicious activity.",
+        "The payment process was down for two hours. Its link to the incident remains under investigation."
+      ],
+      "correct": 3,
+      "explanation": "La primera proposición confirma impacto operativo y la segunda mantiene la causa abierta. Coincided introduce relación temporal útil pero no pedida; during puede sugerir relación; may have resulted favorece la hipótesis del incidente.",
+      "translation": "El proceso de pagos no estuvo disponible durante dos horas; todavía se está investigando si el incidente causó la interrupción."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-056",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "A compromised vendor account could view project metadata but not file contents. What is the clearest impact statement?",
+      "options": [
+        "The exposure was limited to project metadata because the account did not have file permissions.",
+        "Project information may have been viewed, although the underlying documents were not accessible.",
+        "The account could see project details but had no access to sensitive file content.",
+        "The account could access project metadata, including names and owners, but not the project files."
+      ],
+      "correct": 3,
+      "explanation": "Nombra ejemplos de metadata y contrasta project files themselves sin evaluar sensibilidad. Las otras dicen exposure limitada, convierten capacidad en posible visualización o califican contenido como sensitive.",
+      "translation": "La cuenta tenía acceso a metadatos del proyecto, como nombres y responsables, pero no a los archivos del proyecto."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-057",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "The encryption count is 1,200, but backups may duplicate some files. Present the metric in natural spoken English.",
+      "options": [
+        "We recorded 1,200 encrypted files, but that count includes backups, so the number of unique files may be lower.",
+        "Approximately 1,200 unique files were encrypted, including some backup copies.",
+        "The current impact is 1,200 files, subject to a later adjustment for duplicated backups.",
+        "Encryption affected no more than 1,200 files, although the exact count is unknown."
+      ],
+      "correct": 0,
+      "explanation": "La opción A nombra el recuento observado y explica de forma natural por qué el total único puede ser menor. B llama únicos a elementos duplicados; C presenta el recuento bruto como impacto; D convierte el dato en un máximo y dice que el conteo es desconocido.",
+      "translation": "Registramos 1.200 archivos cifrados, pero el recuento incluye copias de seguridad, por lo que el número de archivos únicos puede ser menor."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-058",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "A security control blocked the payload after the user opened the attachment. Which summary captures both exposure and prevention?",
+      "options": [
+        "The phishing attempt reached the user but was prevented before it could compromise the endpoint.",
+        "The attachment was opened successfully, although the malicious payload was contained.",
+        "The user opened the attachment. The security control blocked the payload before it executed.",
+        "The endpoint was exposed to the attachment, but execution was stopped by the security control."
+      ],
+      "correct": 2,
+      "explanation": "Opened y blocked before it executed describen secuencia observable. Las otras califican phishing/compromise, usan contained de forma vaga o llaman exposed al endpoint.",
+      "translation": "El usuario abrió el archivo adjunto, pero el control de seguridad bloqueó la carga antes de que se ejecutara."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-059",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "Relevant customer data may sit in a third-party system whose logs are not yet available. State the investigation scope transparently.",
+      "options": [
+        "Our findings cover the systems we could access. We haven't assessed the third-party environment yet because we don't have its logs.",
+        "The investigation excludes the third-party system, so it cannot affect the current conclusions.",
+        "We cannot assess any customer impact until the third party provides all audit data.",
+        "The third-party environment is outside the confirmed scope and is assumed unaffected for now."
+      ],
+      "correct": 0,
+      "explanation": "La opción A define lo cubierto y deja claro que el entorno del tercero no está evaluado por falta de logs. B y D convierten no revisado en irrelevante o no afectado; C bloquea toda la evaluación de impacto.",
+      "translation": "Nuestros hallazgos cubren los sistemas a los que pudimos acceder. Todavía no hemos evaluado el entorno del tercero porque no disponemos de sus logs."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-060",
+      "topic": "Explaining evidence and uncertainty · Scope and impact",
+      "question": "There was no observed operational disruption, although privileged credentials were exposed. Balance actual impact with potential risk.",
+      "options": [
+        "The actual impact was low, although the credential exposure made the incident high risk.",
+        "Operations were unaffected, but the compromised privileges would probably have caused a serious outage.",
+        "The incident caused no disruption, so its severity depends entirely on whether the credentials are later used.",
+        "No disruption was observed. Even so, the exposed privileged credentials left the organization at significant risk of further impact."
+      ],
+      "correct": 3,
+      "explanation": "La opción D mantiene separado el impacto observado del riesgo potencial. A asigna low/high sin escala; B presupone un resultado probable; C reduce la severidad a uso futuro y omite la exposición ya existente.",
+      "translation": "No se observaron interrupciones. Aun así, las credenciales privilegiadas expuestas dejaron a la organización ante un riesgo significativo de impacto adicional."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-061",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "The malware family is used by multiple groups. Which statement prevents family identification from becoming actor attribution?",
+      "options": [
+        "The malware is associated with several threat groups, so attribution remains broad at this stage.",
+        "We can attribute the tooling but not the operator behind this intrusion.",
+        "The family provides a useful attribution lead, although it is not unique to one group.",
+        "We identified the malware family, but its use by several groups does not support specific attribution on its own."
+      ],
+      "correct": 3,
+      "explanation": "We identified the malware family confirma el artefacto; its use by several groups does not support specific attribution on its own explica por qué la familia no basta para atribuir. Las alternativas convierten la herramienta en una atribución amplia o en una pista más fuerte de lo justificado.",
+      "translation": "Identificamos la familia de malware, pero el hecho de que la utilicen varios grupos impide atribuir la actividad a un actor concreto basándonos únicamente en ella."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-062",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "Reporting about a named group mentions an IP that also appears in the case, but the address is shared hosting. State its attribution value.",
+      "options": [
+        "The infrastructure is linked to the group, although the shared IP reduces our confidence.",
+        "The IP suggests possible involvement by the group, but other tenants also use the host.",
+        "The IP has been mentioned in reporting about that group, but shared hosting makes it a weak attribution indicator.",
+        "We noted an overlap with the group's infrastructure, so attribution remains plausible but unconfirmed."
+      ],
+      "correct": 2,
+      "explanation": "Has been mentioned in reporting atribuye correctamente la relación a fuentes externas; weak attribution indicator explica el efecto del alojamiento compartido. A llama vinculada a la infraestructura; B sugiere implicación; D eleva la atribución a plausible.",
+      "translation": "La IP se ha mencionado en informes sobre ese grupo, pero el alojamiento compartido hace que sea un indicador de atribución débil."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-063",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "A command deletes backups before encryption begins. Which statement discusses likely intent without claiming access to the attacker's mind?",
+      "options": [
+        "The attacker deleted the backups so the organization would be forced to pay.",
+        "The backup deletion was intended to prevent recovery from the encryption event.",
+        "The sequence suggests an attempt to limit recovery before encryption.",
+        "The activity is consistent with an effort to make the encryption more disruptive."
+      ],
+      "correct": 2,
+      "explanation": "Suggests an attempt to expresa inferencia basada en secuencia y evita motivo de pago. Las otras afirman intención o describen consistencia de forma válida pero menos directa sobre el orden observado.",
+      "translation": "La secuencia sugiere un intento de limitar la recuperación antes del cifrado."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-064",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "A mailbox search targeted finance terms. What can you infer about intent?",
+      "options": [
+        "The terms suggest interest in financial information, but not the operator's ultimate objective.",
+        "The operator was looking for financial data, most likely to support payment fraud.",
+        "The searches indicate financial targeting, although the intended use of the information is unknown.",
+        "The mailbox activity appears financially motivated, but the next stage of the plan is unclear."
+      ],
+      "correct": 0,
+      "explanation": "Suggest an interest separa interés observado de objetivo final. Las otras añaden payment fraud, usan targeting como conclusión o hablan de financially motivated con demasiada seguridad.",
+      "translation": "Los términos de búsqueda sugieren interés por información financiera, pero no revelan el objetivo final del operador."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-065",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "The same unusual user agent appears in two incidents. Which conclusion is defensible?",
+      "options": [
+        "The matching user agent suggests that the same tool or operator may be involved.",
+        "The shared user agent is a similarity, but not distinctive enough to establish a common actor.",
+        "The incidents are technically linked through an uncommon user-agent string.",
+        "The overlap supports a possible relationship, pending comparison of stronger indicators."
+      ],
+      "correct": 1,
+      "explanation": "Point of similarity reconoce la coincidencia; not distinctive enough limita atribución. Las otras sugieren herramienta/actor, dicen linked o convierten la coincidencia en soporte de relación.",
+      "translation": "El agente de usuario compartido es un punto de similitud, pero no es lo bastante distintivo para establecer un actor común."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-066",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "The lure used the company name and also reached hundreds of organizations. Answer the customer’s question about targeting.",
+      "options": [
+        "The lure used the company name, but its broad distribution suggests a large-scale campaign rather than one uniquely targeting this organization.",
+        "The company was individually targeted with a customized lure as part of a wider campaign.",
+        "The message was personalized, which shows prior research despite the campaign's broad distribution.",
+        "This was opportunistic activity, because targeted campaigns are never sent to multiple organizations."
+      ],
+      "correct": 0,
+      "explanation": "La opción A reconoce la personalización y usa la distribución amplia para limitar la afirmación de targeting exclusivo. B mantiene una selección individual no demostrada; C infiere investigación; D usa una regla absoluta falsa.",
+      "translation": "El señuelo usó el nombre de la empresa, pero su amplia distribución sugiere una campaña a gran escala y no una dirigida de forma exclusiva a esta organización."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-067",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "A ransom note claims data theft, but no corroborating evidence exists. How should you report the claim?",
+      "options": [
+        "The attacker confirms that data was stolen, although our investigation has not confirmed the same conclusion.",
+        "The extortion claim is false unless the operator provides a sample of the stolen data.",
+        "Data theft is likely because the ransom note explicitly references exfiltration.",
+        "The note claims that data was stolen. We have not independently verified that claim."
+      ],
+      "correct": 3,
+      "explanation": "La opción D separa la afirmación de la nota de la validación independiente. A llama confirma a una declaración interesada; B la trata como falsa sin evidencia; C eleva el robo a likely basándose solo en la amenaza.",
+      "translation": "La nota afirma que se robaron datos. No hemos verificado esa afirmación de forma independiente."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-068",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "The same tool is used by penetration testers and attackers. Describe the finding without inferring user or purpose from the tool alone.",
+      "options": [
+        "Because the tool has legitimate and malicious uses, its presence alone doesn't tell us who used it or why.",
+        "The tool was probably used by an attacker, although authorized testing remains possible.",
+        "We found an offensive-security tool, which indicates intent even if the user is unknown.",
+        "The tool is suspicious unless the customer proves that a penetration test was authorized."
+      ],
+      "correct": 0,
+      "explanation": "La opción A expresa en lenguaje oral que una herramienta de doble uso no identifica por sí sola al usuario ni la finalidad. B prioriza atacante; C infiere intención; D desplaza la carga de la prueba y llama sospechosa a la herramienta por defecto.",
+      "translation": "Como la herramienta tiene usos legítimos y maliciosos, su mera presencia no nos dice quién la utilizó ni por qué."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-069",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "The operation occurred during local business hours. Which attribution inference should be avoided?",
+      "options": [
+        "Inferring location from working hours alone. Schedules may be deliberate or automated.",
+        "Assuming the operator was in the same time zone as the victim organization.",
+        "Using activity timing as a supporting indicator without corroborating evidence.",
+        "Concluding that the operator understood the victim's normal business schedule."
+      ],
+      "correct": 0,
+      "explanation": "Location from working hours alone es la inferencia concreta y because explica dos factores de confusión. Las otras son ejemplos parciales o no distinguen uso débil de inferencia inválida.",
+      "translation": "Inferir la ubicación del operador solo por el horario de actividad, porque los horarios pueden elegirse deliberadamente o automatizarse."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-070",
+      "topic": "Explaining evidence and uncertainty · Attribution and intent",
+      "question": "A phishing page copied the organization's branding accurately. What can that support?",
+      "options": [
+        "The accurate branding suggests that the operator researched the organization before launching the campaign.",
+        "It shows access to public or previously collected branding material, not detailed knowledge of the organization.",
+        "The page demonstrates preparation and some familiarity with the organization's public identity.",
+        "The copied design supports targeted intent, although the source material may have been public."
+      ],
+      "correct": 1,
+      "explanation": "Public or previously collected ofrece fuentes posibles; does not... prove detailed knowledge fija el límite. Las otras infieren investigación, familiaridad o intención dirigida.",
+      "translation": "Muestra que el operador tuvo acceso a material de marca público o recopilado previamente; por sí solo no demuestra un conocimiento detallado de la organización."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-071",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "An alert fired two minutes after a software update. How should you discuss the relationship?",
+      "options": [
+        "The alert followed the update by two minutes, but timing alone does not show that the update caused it.",
+        "The alert was likely triggered by the software update because it occurred almost immediately afterward.",
+        "The update and alert are closely correlated in time, although the technical link is still being checked.",
+        "The update preceded the alert, making it a plausible cause that requires validation."
+      ],
+      "correct": 0,
+      "explanation": "Followed describe orden; timing alone does not show... evita post hoc. Las otras elevan likely/plausible cause o correlation sin demostrar una relación estadística.",
+      "translation": "La alerta se activó dos minutos después de la actualización, pero la proximidad temporal por sí sola no demuestra que la actualización la causara."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-072",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "Logs from two systems drift by four minutes. Which timeline statement is safe before clock correction?",
+      "options": [
+        "The two events happened within four minutes of each other, although the sequence may be reversed.",
+        "The current timeline is accurate to within four minutes across both systems.",
+        "We can place the events in the same period, but not determine which system acted first.",
+        "The events share a time window. Exact order is unconfirmed until clock drift is corrected."
+      ],
+      "correct": 3,
+      "explanation": "Same approximate window y exact order cannot be confirmed reflejan el efecto del drift. Las otras convierten cuatro minutos en distancia real, garantizan precisión o hablan de acted first como si fueran agentes.",
+      "translation": "Los eventos ocurrieron dentro de la misma ventana aproximada, pero no puede confirmarse el orden exacto hasta corregir la desviación de los relojes."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-073",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "A suspicious process ended before credentials were used from another host. What is the most accurate transition?",
+      "options": [
+        "The credentials were used after the process ended. Whether the events are connected remains open.",
+        "The process ended, and the attacker then used the stolen credentials on another host.",
+        "The subsequent credential use suggests that the process successfully harvested credentials.",
+        "Credential activity followed the process event, although the method of acquisition is unknown."
+      ],
+      "correct": 0,
+      "explanation": "The credentials were used after the process ended fija la secuencia; whether the events are connected remains open evita inferir robo o harvesting. Las alternativas introducen atacante, credenciales robadas o adquisición no demostrada.",
+      "translation": "Las credenciales se usaron después de que finalizara el proceso; todavía no se sabe si ambos eventos están relacionados."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-074",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "The first detected event may not be the initial access. Which briefing sentence makes that distinction?",
+      "options": [
+        "Our timeline begins with the first alert, so any earlier activity falls outside this incident.",
+        "The earliest confirmed event marks the actual beginning of the intrusion.",
+        "We first observed the actor at this point, which places initial access shortly before it.",
+        "This is the earliest activity visible in our logs, not necessarily the initial access point."
+      ],
+      "correct": 3,
+      "explanation": "La opción D distingue con precisión entre la primera actividad visible y el acceso inicial real. A excluye actividad previa; B equipara visibilidad y comienzo; C introduce actor y una inferencia temporal no demostrada.",
+      "translation": "Esta es la actividad más temprana visible en nuestros logs, no necesariamente el punto de acceso inicial."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-075",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "A containment action and the end of beaconing have the same timestamp. Which statement avoids claiming success caused the stop?",
+      "options": [
+        "Beaconing stopped when containment was applied, but more evidence is needed to establish causation.",
+        "Beaconing ceased when containment was applied, indicating that the action was effective.",
+        "The containment action appears to have stopped the beaconing at the recorded time.",
+        "Beaconing was no longer observed after containment, which supports the action's effectiveness."
+      ],
+      "correct": 0,
+      "explanation": "Beaconing stopped when containment was applied describe la coincidencia temporal; more evidence is needed to establish causation mantiene abierta la relación causal. Las otras opciones convierten esa coincidencia en eficacia demostrada.",
+      "translation": "El beaconing se detuvo cuando se aplicó la contención, pero se necesitan más pruebas para establecer una relación causal."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-076",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "A user reset their password, and failed sign-ins continued afterward. What can the sequence support?",
+      "options": [
+        "The attacker continued trying the old password after the user reset it.",
+        "Failed sign-ins after the reset suggest that the previous credentials were still being tested.",
+        "The failures persisted after the reset. They do not show whether the same party made them.",
+        "The password reset did not stop the authentication attempts, although none succeeded."
+      ],
+      "correct": 2,
+      "explanation": "The failures persisted after the reset describe el orden observable; they do not show whether the same party made them limita la atribución. Las otras opciones introducen atacante, contraseña anterior o ausencia de éxitos sin base en el escenario.",
+      "translation": "Los intentos fallidos continuaron después del cambio de contraseña, pero no sabemos si procedían de la misma parte."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-077",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "A script ran every hour, but one execution coincided with data deletion. How should you frame causality?",
+      "options": [
+        "The scheduled script coincided with deletion. Separate analysis is needed before linking them.",
+        "The hourly script may have caused the deletion during one of its scheduled executions.",
+        "Data was deleted while the script was running, but its role has not been confirmed.",
+        "The timing makes the script a likely cause, despite its otherwise regular schedule."
+      ],
+      "correct": 0,
+      "explanation": "Needs separate analysis before we can link it evita que una coincidencia única anule el patrón regular. Las otras favorecen causalidad con may, while o likely.",
+      "translation": "El script se ejecutaba de forma programada; la eliminación coincidente requiere un análisis separado antes de poder vincularla con esa ejecución."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-078",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "An email was delivered at 09:02 and a sign-in occurred at 09:04. Which statement is appropriate without proof the link was clicked?",
+      "options": [
+        "The timing suggests the email led to the sign-in, although click data is unavailable.",
+        "The sign-in followed delivery closely and may reflect successful credential phishing.",
+        "The sign-in followed delivery closely, but recipient interaction with the email is unconfirmed.",
+        "The recipient likely opened the message before the sign-in, but we cannot verify the click."
+      ],
+      "correct": 2,
+      "explanation": "The sign-in followed delivery closely informa de la proximidad; recipient interaction... is unconfirmed evita una cadena causal no demostrada. Las otras opciones sugieren que el correo provocó el acceso, phishing exitoso o apertura probable.",
+      "translation": "El inicio de sesión ocurrió poco después de la entrega, pero no se ha confirmado que el destinatario interactuara con el correo."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-079",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "The registry event appears before a process launch, but ingestion delay can reorder records. Add the right timeline caveat.",
+      "options": [
+        "The registry change probably occurred first, but delayed ingestion may have changed when it appeared in the SIEM.",
+        "The current timeline places the registry event first, so the process must have used that change.",
+        "We cannot use either event until all processing delays have been fully excluded.",
+        "The recorded order may reflect ingestion delay. We're checking the timestamps in the source logs before finalizing the sequence."
+      ],
+      "correct": 3,
+      "explanation": "La opción D distingue orden registrado y tiempo de origen, y explica la validación que se está realizando. A sigue favoreciendo un orden; B infiere uso causal; C impone un estándar innecesariamente absoluto.",
+      "translation": "El orden registrado puede reflejar un retraso de ingestión. Estamos comprobando las marcas de tiempo en los logs de origen antes de cerrar la secuencia."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-080",
+      "topic": "Explaining evidence and uncertainty · Timeline and causality",
+      "question": "You corrected a timestamp and the sequence changed. Which live update maintains trust?",
+      "options": [
+        "We corrected the timestamp using the source log, changing the event order but not our overall assessment.",
+        "A timestamp error affected the sequence, but the main conclusion remains valid.",
+        "The source log gives a different time, so we have updated the timeline accordingly.",
+        "Let me revise the sequence: these events occurred in the opposite order, although the finding is unchanged."
+      ],
+      "correct": 0,
+      "explanation": "Have corrected... using the source log explica base, alcance del cambio y efecto analítico. Las otras son vagas sobre origen, no explican impacto o pueden sonar improvisadas.",
+      "translation": "Hemos corregido la marca de tiempo utilizando el log de origen, lo que cambia el orden de estos dos eventos, pero no la evaluación general."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-081",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "Known malicious activity has been contained, but validation is still running. The customer asks, ‘Is the environment safe now?’ Choose a reassuring answer that does not overpromise.",
+      "options": [
+        "The environment is safe based on the checks completed so far, although validation is continuing.",
+        "Known malicious activity has been contained. Validation is still under way, so we are not treating the wider environment as fully cleared yet.",
+        "Current indicators show no active threat, and the remaining checks are only precautionary.",
+        "The immediate threat is contained. Validation continues to confirm that no related activity remains."
+      ],
+      "correct": 3,
+      "explanation": "La opción D comunica el estado positivo confirmado y mantiene abierta la validación sin usar safe ni guarantee. A llama seguro al entorno; B introduce wider environment fully cleared, un estándar distinto; C minimiza las comprobaciones restantes.",
+      "translation": "La amenaza inmediata está contenida. La validación continúa para confirmar que no queda actividad relacionada."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-082",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "An executive presses: 'Did they steal data, yes or no?' The evidence is inconclusive. What is the best spoken response?",
+      "options": [
+        "We do not know yet; there is evidence of staging but not enough to prove exfiltration.",
+        "The answer is probably no, because we have not identified an outbound transfer.",
+        "We cannot give a reliable yes or no: we found data preparation, but no confirmed transfer.",
+        "We cannot confirm data theft, although the staging activity means it remains likely."
+      ],
+      "correct": 2,
+      "explanation": "Cannot give a reliable yes-or-no answer reconoce la petición y explica dos estados distintos. Las otras suenan abruptas, convierten ausencia en probably no o califican likely sin base suficiente.",
+      "translation": "En este momento no podemos dar una respuesta fiable de sí o no: encontramos indicios de preparación de datos, pero ninguna transferencia confirmada."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-083",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "The customer asks what ‘likely’ means in your assessment. Give the clearest explanation.",
+      "options": [
+        "'Likely' means we have reasonable confidence, although some evidence is still missing.",
+        "Here, 'likely' means the evidence favors that explanation over the alternatives, but it is not confirmed.",
+        "'Likely' simply means the explanation has not been ruled out.",
+        "It is our leading assessment, and the term carries the same meaning as high confidence."
+      ],
+      "correct": 1,
+      "explanation": "La opción B define likely de forma comparativa y conserva la diferencia con confirmed. A usa reasonable sin criterio; C define possible, no likely; D equipara dos dimensiones que no son necesariamente idénticas.",
+      "translation": "En este caso, «probable» significa que la evidencia favorece esa explicación frente a las alternativas, pero no está confirmada."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-084",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "During slide review, a stakeholder wants every caveat removed. Push back constructively while still simplifying the message.",
+      "options": [
+        "The caveats must stay because every unresolved point belongs on an executive slide.",
+        "I can shorten the caveats, but removing any of them would always make the conclusion inaccurate.",
+        "We can simplify the wording, but we should keep any caveat that materially changes how the finding is interpreted.",
+        "We should preserve one uncertainty statement, regardless of which limitation is most relevant."
+      ],
+      "correct": 2,
+      "explanation": "La opción C acepta simplificar y conserva solo las salvedades materialmente relevantes. A pretende incluir todo; B trata todas las salvedades como igualmente necesarias; D usa una cantidad arbitraria en vez de relevancia.",
+      "translation": "Podemos simplificar la redacción, pero debemos mantener cualquier salvedad que cambie de forma material cómo se interpreta el hallazgo."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-085",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "A client asks whether a vendor is responsible before the vendor review is complete. Which reply is neutral?",
+      "options": [
+        "The evidence currently points to the vendor, although their review is still ongoing.",
+        "We are investigating whether the vendor connection contributed to the incident.",
+        "The vendor link is one line of inquiry, but evidence is insufficient to assign responsibility.",
+        "It would be premature to blame the vendor until all third-party evidence is available."
+      ],
+      "correct": 2,
+      "explanation": "One line of inquiry mantiene neutralidad; assign responsibility responde a la pregunta sin blame. Las otras apuntan al vendor, hablan solo de contributed o usan blame de forma confrontativa.",
+      "translation": "La conexión del proveedor es una línea de investigación, pero todavía no tenemos pruebas suficientes para atribuir responsabilidades."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-086",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "The customer asks why the SIEM did not detect the activity earlier. The cause is still unknown. Respond openly and naturally.",
+      "options": [
+        "The SIEM missed it because the relevant data source was not fully onboarded.",
+        "We're reviewing the rule logic, data coverage, and alert handling. We haven't yet confirmed the cause of the delay.",
+        "There are many possible reasons, so it is too early to discuss the detection delay.",
+        "No technical failure has been identified, which suggests the issue was probably operational."
+      ],
+      "correct": 1,
+      "explanation": "La opción B nombra las líneas de revisión y declara con naturalidad que la causa sigue sin confirmarse. A fija una causa; C evita una pregunta legítima; D convierte la ausencia de hallazgo en una inferencia operativa.",
+      "translation": "Estamos revisando la lógica de la regla, la cobertura de datos y la gestión de alertas. Todavía no hemos confirmado la causa del retraso."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-087",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "During Q&A, someone asks about a system that was not in the evidence set. Give a helpful answer without implying it was clean.",
+      "options": [
+        "We did not identify issues with that system, although it was outside the primary scope.",
+        "The main findings probably apply to that system even though it was not reviewed.",
+        "We didn't review that system, so I can't draw a conclusion about it yet. I'll confirm it separately.",
+        "There is no indication that the finding extends to that system based on the current scope."
+      ],
+      "correct": 2,
+      "explanation": "La opción C separa no revisado de sin problemas y ofrece un seguimiento concreto. A y D sugieren un resultado negativo fuera de alcance; B extrapola los hallazgos sin evidencia.",
+      "translation": "No revisamos ese sistema, así que todavía no puedo sacar una conclusión sobre él. Lo confirmaré por separado."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-088",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "In front of the customer, a manager asks for your ‘best guess.’ Replace guessing with a properly labeled professional assessment.",
+      "options": [
+        "If I had to guess, I would say phishing caused the compromise.",
+        "Our assessment favors credential theft. It remains an assessment rather than a confirmed fact.",
+        "The most likely scenario is credential theft, so that is what we should tell the customer happened.",
+        "Our best estimate is that phishing caused the compromise, pending further evidence."
+      ],
+      "correct": 1,
+      "explanation": "La opción B sustituye guess por una evaluación profesional y mantiene exactamente su grado de certeza. A y D aceptan adivinar y añaden phishing; C convierte una hipótesis principal en el relato de lo ocurrido.",
+      "translation": "Nuestra evaluación favorece el robo de credenciales. Sigue siendo una evaluación y no un hecho confirmado."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-089",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "A client challenges a finding: 'That IP belongs to our provider, so it cannot be malicious.' What is the best response?",
+      "options": [
+        "Ownership matters, but does not determine whether the activity was authorized or malicious.",
+        "Provider infrastructure can still be compromised, so the IP should remain under investigation.",
+        "The IP ownership lowers the risk, but we need the provider to validate the activity.",
+        "That may explain the connection, although we should confirm what service used the address."
+      ],
+      "correct": 0,
+      "explanation": "Ownership matters reconoce el contexto aportado por el cliente; does not determine whether the activity was authorized or malicious separa propiedad y conducta. Las otras opciones especulan sobre compromiso del proveedor, reducen el riesgo o aceptan una explicación antes de identificar el servicio.",
+      "translation": "La propiedad importa, pero no determina si la actividad estaba autorizada o era maliciosa."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-090",
+      "topic": "Explaining evidence and uncertainty · Customer questions",
+      "question": "You do not know the answer to a detailed briefing question. Respond with confidence, ownership, and a concrete follow-up.",
+      "options": [
+        "I can't answer that accurately right now. I'll verify it in the source data and include it in the next update.",
+        "I cannot answer at the moment, but someone on the investigation team may already know.",
+        "That detail is still being analyzed, so I would prefer not to discuss it.",
+        "Let me take that away and come back when every aspect has been confirmed."
+      ],
+      "correct": 0,
+      "explanation": "La opción A reconoce el límite, asume la acción y fija el canal de seguimiento. B desplaza responsabilidad; C no promete respuesta; D espera una confirmación total innecesaria y no concreta cuándo se informará.",
+      "translation": "Ahora mismo no puedo responder con precisión. Lo verificaré en los datos de origen y lo incluiré en la próxima actualización."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-091",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "You cannot confirm compromise, but the potential impact is high and password reset is low-cost. Which recommendation fits the uncertainty?",
+      "options": [
+        "The password should be reset because the account is likely compromised.",
+        "Although compromise is unconfirmed, resetting the password will remove the immediate risk.",
+        "We suggest a password reset to ensure that any stolen credentials can no longer be used.",
+        "We recommend resetting the password as a precaution while the investigation continues."
+      ],
+      "correct": 3,
+      "explanation": "As a precaution vincula acción proporcional con incertidumbre. Las otras declaran likely, prometen remove risk o presuponen stolen credentials.",
+      "translation": "Recomendamos restablecer la contraseña como medida de precaución mientras continúa la investigación."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-092",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "A server may be compromised, but isolating it would stop a critical service. Which next step is best framed?",
+      "options": [
+        "The server should remain online until compromise is confirmed, with enhanced monitoring in place.",
+        "We recommend delaying isolation because the evidence is not yet strong enough to justify disruption.",
+        "The safest option is to isolate the server, although the service owner must accept the operational impact.",
+        "Given the disruption risk, monitor immediately while the business owner and incident lead assess isolation."
+      ],
+      "correct": 3,
+      "explanation": "Given... reconoce trade-off; increasing monitoring es medida inmediata; business owner and incident lead asigna decisión. Las otras convierten confirmación en umbral, deciden retrasar o llaman safest sin balance.",
+      "translation": "Dado el impacto operativo del aislamiento, recomendamos aumentar de inmediato la monitorización mientras el responsable de negocio y el líder del incidente evalúan la decisión de aislar."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-093",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "The investigation cannot recover missing logs. Which next step reduces uncertainty rather than pretending to close it?",
+      "options": [
+        "Use the available logs to reach the most likely conclusion and record that some evidence was unavailable.",
+        "Document the gap, seek corroboration, and state the residual uncertainty in the final assessment.",
+        "Close the gap through interviews and threat intelligence where technical evidence is missing.",
+        "Complete the investigation with a qualified conclusion based on the remaining sources."
+      ],
+      "correct": 1,
+      "explanation": "Document, seek corroborating evidence y state residual uncertainty forman un proceso completo. Las otras fuerzan conclusión, prometen close the gap con fuentes indirectas o saltan a completion.",
+      "translation": "Documentar la carencia de visibilidad, buscar pruebas que la corroboren en otras fuentes e indicar la incertidumbre residual en la evaluación final."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-094",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "A hypothesis is plausible but has not produced a testable prediction. What should the team do?",
+      "options": [
+        "Gather more evidence until the hypothesis can be confirmed or rejected.",
+        "Keep the hypothesis open and compare it with any new indicators that emerge.",
+        "Define predicted evidence, then test for findings that could support or weaken the hypothesis.",
+        "Assign a provisional confidence level and revisit it after further analysis."
+      ],
+      "correct": 2,
+      "explanation": "Define predictions y design checks convierte una idea plausible en hipótesis comprobable. Las otras piden más evidencia sin dirección, esperan indicadores o puntúan antes de probar.",
+      "translation": "Definir qué pruebas predeciría la hipótesis y después diseñar comprobaciones que puedan reforzarla o debilitarla."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-095",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "Containment is complete, but the root cause remains uncertain. Choose the closure approach that keeps the unresolved work visible.",
+      "options": [
+        "Close the incident now and move root-cause analysis to an untracked follow-up if time allows.",
+        "Maintain containment, complete the root-cause work, and track the remaining uncertainty as an open action.",
+        "Keep the incident open until the root cause is proven beyond doubt and every possible risk is removed.",
+        "Close the incident once containment is validated, without carrying the uncertain root cause into closure records."
+      ],
+      "correct": 1,
+      "explanation": "La opción B separa contención de causa raíz y conserva la incertidumbre como acción trazable. A y D permiten que el punto abierto desaparezca; C exige una certeza y una eliminación total del riesgo poco realistas.",
+      "translation": "Mantener la contención, completar el análisis de causa raíz y registrar la incertidumbre restante como una acción abierta."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-096",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "A new log source could resolve a key question, but onboarding will take two weeks. How should you present the decision?",
+      "options": [
+        "We should wait for the new log source because it may provide the evidence needed for confirmation.",
+        "The source could reduce uncertainty. We should weigh that against a two-week delay to the final assessment.",
+        "Onboarding the source would improve confidence, although it would delay the investigation outcome.",
+        "The assessment can proceed now, with the new source used later to validate the conclusion."
+      ],
+      "correct": 1,
+      "explanation": "Could reduce uncertainty y weigh that against formula el trade-off sin decidirlo de antemano. Las otras ordenan esperar, describen impacto sin criterio o asumen que la nueva fuente validará una conclusión ya emitida.",
+      "translation": "La nueva fuente podría reducir la incertidumbre, pero debemos decidir si su valor esperado justifica retrasar dos semanas la evaluación final."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-097",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "You need to prioritize two open questions. One affects legal notification; the other is technically interesting but low impact. Which rationale is best?",
+      "options": [
+        "The legal question has higher priority because it may create regulatory exposure.",
+        "We should prioritize the question with the greatest potential impact, even if the technical issue is easier to solve.",
+        "We should address the notification question first because resolving it changes an immediate business decision.",
+        "The notification issue is time-sensitive, while the technical question can remain open for the final report."
+      ],
+      "correct": 2,
+      "explanation": "Changes an immediate business decision conecta investigación y decisión sin hacer valoración legal. Las otras presuponen exposición regulatoria, usan potential impact genérico o asignan el otro punto al informe sin conocer plazos.",
+      "translation": "Debemos abordar primero la cuestión de notificación porque resolverla cambia una decisión empresarial inmediata."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-098",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "Two root causes remain plausible and both call for the same control improvement. Recommend action without pretending the cause is settled.",
+      "options": [
+        "Recommend the shared control improvement now, while making clear that it addresses both plausible causes without confirming either one.",
+        "Delay remediation until one root cause is confirmed, so the control has a definitive justification.",
+        "Apply the control only to the cause the team currently prefers and close the alternative.",
+        "Implement the control because both hypotheses prove that the same weakness caused the incident."
+      ],
+      "correct": 0,
+      "explanation": "La opción A permite reducir riesgo ahora y conserva abiertas ambas causas. B aplaza una mejora común; C cierra una alternativa sin prueba; D convierte hipótesis en demostración y una mejora compartida en causa única.",
+      "translation": "Recomendar ahora la mejora de control común, dejando claro que aborda ambas causas plausibles sin confirmar ninguna de ellas."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-099",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "A detection has false positives but covers a high-impact technique. Which recommendation reflects uncertainty and operational cost?",
+      "options": [
+        "Tune the detection until false positives fall to an acceptable level without reducing coverage.",
+        "Maintain the rule because missing the high-impact technique would be a greater risk than alert noise.",
+        "Keep the detection enabled, refine it, and verify that fewer false positives do not remove meaningful coverage.",
+        "Run the detection in monitoring mode while the team determines its true-positive rate."
+      ],
+      "correct": 2,
+      "explanation": "Keep, refine, and measure propone ciclo verificable y no promete cobertura intacta. Las otras asumen que tuning no reduce cobertura, deciden trade-off sin datos o cambian modo sin explicar impacto.",
+      "translation": "Mantener la detección activa, ajustar la lógica y medir si la reducción de falsos positivos conserva una cobertura significativa."
+    },
+    {
+      "id": "b14-v2-evidence-uncertainty-100",
+      "topic": "Explaining evidence and uncertainty · Decisions and next steps",
+      "question": "The final report needs a conclusion despite missing proxy data. Select the closing statement that is clear, natural, and properly qualified.",
+      "options": [
+        "Credential theft was the access method, although missing proxy logs prevent us from proving every step.",
+        "We conclude that credential theft enabled access, subject to the general limitations in this report.",
+        "The access method remains unknown, so the report should avoid identifying a leading explanation.",
+        "The evidence favors credential theft as the access method. Without the proxy data, this remains an assessment rather than a confirmed fact."
+      ],
+      "correct": 3,
+      "explanation": "La opción D identifica la explicación mejor respaldada, nombra la carencia concreta y etiqueta el resultado como evaluación. A y B presentan la vía de acceso como conclusión; C oculta una evaluación útil pese a que la evidencia sí favorece una hipótesis.",
+      "translation": "La evidencia favorece el robo de credenciales como método de acceso. Sin los datos del proxy, esto sigue siendo una evaluación y no un hecho confirmado."
+    }
+  ],
+  "category": "natural"
+}

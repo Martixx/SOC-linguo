@@ -1,0 +1,1408 @@
+{
+  "name": "19 · Connectors and signposting for SOC presentations · Natural English",
+  "description": "100 microescenarios revisados para practicar conectores naturales y signposting al hablar con clientes y presentar información SOC. Las respuestas dependen de gramática, naturalidad, claridad, organización del discurso y tono profesional; el contexto técnico funciona únicamente como escenario.",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b19v2-signposting-001",
+      "topic": "Presentations · Opening and agenda",
+      "question": "You are opening a monthly SOC service review. Which sentence sounds most natural and professional?",
+      "options": [
+        "Thanks for your joining. I would start by a brief overview of this month's activity.",
+        "Thank you to join. First of all, an overview will be started about this month.",
+        "Thanks for joining. I like to start with a brief overview about this month's activity.",
+        "Thanks for joining. I'd like to start with a brief overview of this month's activity."
+      ],
+      "correct": 3,
+      "explanation": "«I'd like to start with...» es una apertura cortés y natural. Se dice «overview of», no «overview about», y «thanks for joining» evita construcciones poco idiomáticas.",
+      "translation": "Gracias por asistir. Me gustaría empezar con un breve resumen de la actividad de este mes."
+    },
+    {
+      "id": "b19v2-signposting-002",
+      "topic": "Presentations · Opening and agenda",
+      "question": "Complete the agenda preview: 'I'll begin with the incident summary, ___ the monitoring update, and finish with next steps.'",
+      "options": [
+        "then move on to",
+        "afterwards moving to",
+        "following with",
+        "then I will pass on"
+      ],
+      "correct": 0,
+      "explanation": "«Then move on to» presenta el siguiente bloque con claridad y mantiene la estructura paralela de la agenda. Las otras opciones no encajan de forma natural en la oración.",
+      "translation": "Empezaré con el resumen de incidentes, después pasaré a la actualización de monitorización y terminaré con los próximos pasos."
+    },
+    {
+      "id": "b19v2-signposting-003",
+      "topic": "Presentations · Opening and agenda",
+      "question": "The customer is new to the service. Choose the clearest way to provide context before showing charts.",
+      "options": [
+        "Before we get into the figures, let me briefly explain how the service is structured.",
+        "Before to see the figures, let me briefly explain how the service has structure.",
+        "Before entering into the figures, let me explain briefly how is structured the service.",
+        "Previous to getting into figures, I explain how the service structures itself."
+      ],
+      "correct": 0,
+      "explanation": "«Before we get into...» y «let me briefly explain...» son fórmulas naturales al hablar. La interrogativa indirecta conserva el orden «how the service is structured».",
+      "translation": "Antes de entrar en las cifras, permítanme explicar brevemente cómo está estructurado el servicio."
+    },
+    {
+      "id": "b19v2-signposting-004",
+      "topic": "Presentations · Opening and agenda",
+      "question": "Which objective statement works best at the start of a customer briefing?",
+      "options": [
+        "Today's session has as aim to review what changed and agreeing about next steps.",
+        "The objective for today consists to review changes and agree about the following steps.",
+        "The aim of today's session is reviewing what changed and to agree the next steps.",
+        "The aim of today's session is to review what changed and agree on the next steps."
+      ],
+      "correct": 3,
+      "explanation": "Tras «the aim ... is» resulta natural usar dos infinitivos paralelos: «to review» y «agree». La colocación correcta es «agree on the next steps».",
+      "translation": "El objetivo de la sesión de hoy es revisar qué ha cambiado y acordar los próximos pasos."
+    },
+    {
+      "id": "b19v2-signposting-005",
+      "topic": "Presentations · Opening and agenda",
+      "question": "You want to give the audience the background to an investigation. Which signpost sounds natural?",
+      "options": [
+        "To set the scene, the activity began with a small number of unusual sign-ins.",
+        "For setting the scene, the activity was beginning by a small number of unusual sign-ins.",
+        "For locating us in context, unusual sign-ins were the beginning of the activity.",
+        "To put the scenario, the activity started from a little quantity of unusual sign-ins."
+      ],
+      "correct": 0,
+      "explanation": "«To set the scene» es una expresión idiomática para introducir contexto. «A small number of» es natural con sustantivos contables como «sign-ins».",
+      "translation": "Para situarnos, la actividad comenzó con un pequeño número de inicios de sesión inusuales."
+    },
+    {
+      "id": "b19v2-signposting-006",
+      "topic": "Presentations · Opening and agenda",
+      "question": "A slide contains four sections. How would you introduce them without sounding overly formal?",
+      "options": [
+        "Here are the matters which I pretend to cover today: trends, actions, changes, and priorities.",
+        "These are the themes I have intention for covering today: trends, actions, changes, and priorities.",
+        "The following points are those that will be covered by myself in today's date.",
+        "Here's what I'd like to cover today: trends, open actions, service changes, and priorities."
+      ],
+      "correct": 3,
+      "explanation": "«Here's what I'd like to cover» es directo, cortés y propio del inglés hablado profesional. «Pretend» no significa «pretender» en este contexto y las demás opciones son recargadas.",
+      "translation": "Esto es lo que me gustaría tratar hoy: tendencias, acciones abiertas, cambios en el servicio y prioridades."
+    },
+    {
+      "id": "b19v2-signposting-007",
+      "topic": "Presentations · Opening and agenda",
+      "question": "Choose the most natural promise of value to the audience.",
+      "options": [
+        "By ending the session, a clear view about the current position and necessary decisions will be had.",
+        "For the session's end, you will dispose of a clear view of the position and decisions that we need to take.",
+        "At the end of the session, you will be having a clear vision about the actual position and needed decisions.",
+        "By the end of the session, you'll have a clear view of the current position and the decisions we need to make."
+      ],
+      "correct": 3,
+      "explanation": "«By the end of the session, you'll have...» comunica el resultado esperado de forma natural. «Current» significa «actual» y «a clear view of» es la colocación adecuada.",
+      "translation": "Al final de la sesión, tendrán una visión clara de la situación actual y de las decisiones que necesitamos."
+    },
+    {
+      "id": "b19v2-signposting-008",
+      "topic": "Presentations · Opening and agenda",
+      "question": "You are about to present a colleague who will cover threat trends. Which introduction sounds best?",
+      "options": [
+        "Before we begin, let me briefly introduce Sam, who'll take us through the threat trends later.",
+        "Previously to begin, I want to introduce to Sam, that later will pass us through the trends.",
+        "Before beginning, let me present briefly Sam, who will explain us the threat trends later.",
+        "Before we start, let me make a brief presentation of Sam, who'll expose the threat trends."
+      ],
+      "correct": 0,
+      "explanation": "Se usa «introduce Sam» sin «to» y «take us through» significa explicar algo paso a paso. «Explain us» y «expose the trends» no son naturales aquí.",
+      "translation": "Antes de empezar, permítanme presentar brevemente a Sam, que más tarde nos explicará las tendencias de amenazas."
+    },
+    {
+      "id": "b19v2-signposting-009",
+      "topic": "Presentations · Opening and agenda",
+      "question": "Which version introduces a three-part agenda most clearly?",
+      "options": [
+        "We have three items in the agenda: performance, recent cases, and improvements planned.",
+        "We have three items on the agenda: performance, recent cases, and planned improvements.",
+        "There are three points over today's agenda, being performance, cases, and planned improvements.",
+        "The agenda is composed by three items: performance, recent cases, and improvements."
+      ],
+      "correct": 1,
+      "explanation": "La colocación estándar es «on the agenda». La enumeración breve y paralela ayuda a la audiencia a anticipar la estructura.",
+      "translation": "Tenemos tres puntos en el orden del día: rendimiento, casos recientes y mejoras previstas."
+    },
+    {
+      "id": "b19v2-signposting-010",
+      "topic": "Presentations · Opening and agenda",
+      "question": "The room is ready and you want to begin collaboratively. What would you say?",
+      "options": [
+        "Do we start with a quick look to the general picture?",
+        "Shall we start with a quick look at the overall picture?",
+        "Are we starting by having a quick vision of the overall picture?",
+        "Shall we begin for seeing quickly the picture in general?"
+      ],
+      "correct": 1,
+      "explanation": "«Shall we start with...?» es una invitación natural y colaborativa. Se dice «a look at» y «the overall picture».",
+      "translation": "¿Empezamos con un vistazo rápido a la situación general?"
+    },
+    {
+      "id": "b19v2-signposting-011",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "You have finished the executive summary and want to introduce service performance. Choose the smoothest transition.",
+      "options": [
+        "Being the headline results covered, now we pass to see service performance deeply.",
+        "Now after covering headlines, it corresponds to look about performance in detail.",
+        "Now that we covered the headline results, let's look service performance with more detail.",
+        "Now that we've covered the headline results, let's look at service performance in more detail."
+      ],
+      "correct": 3,
+      "explanation": "«Now that we've covered...» conecta lo anterior con lo siguiente, y «look at ... in more detail» es la combinación idiomática.",
+      "translation": "Ahora que hemos visto los resultados principales, analicemos con más detalle el rendimiento del servicio."
+    },
+    {
+      "id": "b19v2-signposting-012",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "Complete the transition: 'We've discussed alert volumes. ___ how the team handled the most significant cases.'",
+      "options": [
+        "We are passing now at",
+        "Let's change now into",
+        "Let's turn now to",
+        "Let's go ahead about"
+      ],
+      "correct": 2,
+      "explanation": "«Let's turn now to...» es una señal clara y natural para cambiar de sección en una presentación.",
+      "translation": "Hemos hablado del volumen de alertas. Pasemos ahora a cómo gestionó el equipo los casos más relevantes."
+    },
+    {
+      "id": "b19v2-signposting-013",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "A presenter needs to link the discussion of risk to a slide on recommendations. Which phrase fits best?",
+      "options": [
+        "With this we are arriving at recommendations facing the next quarter.",
+        "This brings to us the recommendations for the following trimester.",
+        "This carries us until the recommendations of the next quarter.",
+        "This brings us to the recommendations for the next quarter."
+      ],
+      "correct": 3,
+      "explanation": "«This brings us to...» enlaza lógicamente una sección con la siguiente. «Recommendations for» es más natural que traducciones literales con «of» o «facing».",
+      "translation": "Esto nos lleva a las recomendaciones para el próximo trimestre."
+    },
+    {
+      "id": "b19v2-signposting-014",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "Which sentence moves to a new topic while acknowledging the change?",
+      "options": [
+        "Moving to another theme, I would like discussing about the reporting schedule.",
+        "Passing to a distinct topic, I like to discuss over the schedule of reports.",
+        "Changing of matter, the reporting schedule is what I would want to discuss.",
+        "Moving on to a different topic, I'd like to discuss the reporting schedule."
+      ],
+      "correct": 3,
+      "explanation": "«Moving on to a different topic» señala el cambio con suavidad. «Discuss» no lleva «about» y suele ir seguido directamente del objeto.",
+      "translation": "Pasando a otro tema, me gustaría hablar del calendario de informes."
+    },
+    {
+      "id": "b19v2-signposting-015",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "You need to explain one prerequisite before presenting the dashboard. Which order marker is clearest?",
+      "options": [
+        "Before that we look at the dashboard, there is a definition for clarifying.",
+        "Before we look at the dashboard, there is one definition we need to clarify.",
+        "Previous to see the dashboard, one definition needs that we clarify it.",
+        "Before looking the dashboard, there is one definition that we need clarify."
+      ],
+      "correct": 1,
+      "explanation": "«Before we look at...» anticipa un paso previo. «Look at» y «need to clarify» son las estructuras correctas.",
+      "translation": "Antes de ver el panel, hay una definición que debemos aclarar."
+    },
+    {
+      "id": "b19v2-signposting-016",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "Select the natural sequence for describing a review process.",
+      "options": [
+        "At first, information is validated; posteriorly, context is assessed; finally comes agreeing about action.",
+        "Firstly we validate, in second we assess, and in final we are agreeing the action.",
+        "First, we validate the information; next, we assess the context; finally, we agree on the action.",
+        "In first place, we validate information; after, we value the context; at last, we accord the action."
+      ],
+      "correct": 2,
+      "explanation": "«First, next, finally» crea una secuencia clara y equilibrada. También son naturales «assess the context» y «agree on the action».",
+      "translation": "Primero validamos la información; después evaluamos el contexto; por último acordamos la acción."
+    },
+    {
+      "id": "b19v2-signposting-017",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "The data quality section is complete. Choose the best sentence to introduce conclusions based on it.",
+      "options": [
+        "After having the data quality reviewed, we can consider what are telling us the figures.",
+        "Having reviewed about the data quality, now we can consider what tell us the figures.",
+        "Once reviewed data quality, we are now able for considering what the figures say us.",
+        "Having reviewed the data quality, we can now consider what the figures tell us."
+      ],
+      "correct": 3,
+      "explanation": "«Having reviewed...» indica que una fase ya terminó antes de la siguiente. La interrogativa indirecta mantiene «what the figures tell us».",
+      "translation": "Tras revisar la calidad de los datos, ya podemos considerar qué nos indican las cifras."
+    },
+    {
+      "id": "b19v2-signposting-018",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "During a live briefing, you need to pause the planned flow for an urgent update. What sounds most professional?",
+      "options": [
+        "Before continuing, I want to attend briefly the update arrived this morning.",
+        "Prior to continue, let me deal shortly about this morning's arrived update.",
+        "Before we follow, I would like addressing the update which entered this morning.",
+        "Before we continue, I'd like to briefly address the update that came in this morning."
+      ],
+      "correct": 3,
+      "explanation": "«Before we continue...» marca una pausa clara. «Address the update» y «came in this morning» son expresiones naturales en un contexto profesional.",
+      "translation": "Antes de continuar, me gustaría comentar brevemente la actualización que llegó esta mañana."
+    },
+    {
+      "id": "b19v2-signposting-019",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "Which transition signals that the presentation has reached a decision point?",
+      "options": [
+        "At this moment of the presentation, it is needed to decide what action goes firstly.",
+        "At this point, we need to decide which action should come first.",
+        "On this point, we must take a decision about which action comes in first place.",
+        "In this point, we need deciding which action should come the first."
+      ],
+      "correct": 1,
+      "explanation": "«At this point» sitúa a la audiencia en la estructura. «Decide which...» es directo; «take a decision» es posible en algunos dialectos, pero «make a decision» sería más natural.",
+      "translation": "Llegados a este punto, debemos decidir qué acción debe ir primero."
+    },
+    {
+      "id": "b19v2-signposting-020",
+      "topic": "Presentations · Sequencing and transitions",
+      "question": "You want to introduce the next issue without using 'next' twice. Choose the best wording.",
+      "options": [
+        "The following point I'd like to address is the handover between teams.",
+        "The following point I'd like to address about is the handover among teams.",
+        "The point that follows and I like to treat is the handover between teams.",
+        "The next following issue to be attended by me concerns about team handover."
+      ],
+      "correct": 0,
+      "explanation": "«The following point I'd like to address is...» evita la repetición y suena natural. «Address» no necesita «about».",
+      "translation": "El siguiente punto que me gustaría abordar es el traspaso entre equipos."
+    },
+    {
+      "id": "b19v2-signposting-021",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "A second benefit supports your recommendation. Choose the most natural addition.",
+      "options": [
+        "Additionally to this, the new format does the weekly update easier for scanning.",
+        "In addition, the new format makes the weekly update easier to scan.",
+        "In addition to, the new format makes easier to scan the weekly update.",
+        "As an addition, the weekly update results more easy to scan in the new format."
+      ],
+      "correct": 1,
+      "explanation": "«In addition,» funciona como conector independiente. La estructura natural es «make + object + adjective»: «makes the update easier».",
+      "translation": "Además, el nuevo formato hace que la actualización semanal sea más fácil de revisar rápidamente."
+    },
+    {
+      "id": "b19v2-signposting-022",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "You want to add a related observation during a customer call. What would you say?",
+      "options": [
+        "One more point worthy of mention about is the stability of response times.",
+        "Another point worth mentioning is that response times remained stable.",
+        "Another point worth to mention is that the response times kept stable.",
+        "Other point that deserves mentioning it is response times remained stables."
+      ],
+      "correct": 1,
+      "explanation": "La expresión fija es «worth mentioning», sin «to». «Remained stable» es una combinación natural y concisa.",
+      "translation": "Otro punto que merece la pena mencionar es que los tiempos de respuesta se mantuvieron estables."
+    },
+    {
+      "id": "b19v2-signposting-023",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "Complete the sentence: '___ improving clarity, the revised report reduces unnecessary detail.'",
+      "options": [
+        "In addition of",
+        "As well",
+        "As well as",
+        "Besides of"
+      ],
+      "correct": 2,
+      "explanation": "«As well as» puede ir seguido de gerundio: «as well as improving». «Besides of» e «in addition of» no son construcciones correctas.",
+      "translation": "Además de mejorar la claridad, el informe revisado reduce los detalles innecesarios."
+    },
+    {
+      "id": "b19v2-signposting-024",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "Which sentence uses a balanced structure to reinforce two benefits?",
+      "options": [
+        "The change not only shortens the report but makes also the conclusions more clear.",
+        "The change both not only shortens the report and also clarifies more the conclusions.",
+        "The change not only shortens the report but also makes the conclusions clearer.",
+        "Not only the change shortens the report, but also it makes clearer the conclusions."
+      ],
+      "correct": 2,
+      "explanation": "La pareja «not only ... but also ...» exige estructuras paralelas. «Shortens» y «makes» quedan correctamente equilibrados.",
+      "translation": "El cambio no solo acorta el informe, sino que también hace más claras las conclusiones."
+    },
+    {
+      "id": "b19v2-signposting-025",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "The audience already knows about one delay; you need to add another factor without sounding dramatic. Choose the best option.",
+      "options": [
+        "Also there is a dependency of the process of approval from the customer.",
+        "There is as well a dependence with the customer's process for approving.",
+        "Too, the customer's approval process supposes one dependency.",
+        "There is also a dependency on the customer's approval process."
+      ],
+      "correct": 3,
+      "explanation": "«There is also...» añade información de forma neutral. La colocación habitual es «a dependency on».",
+      "translation": "También existe una dependencia del proceso de aprobación del cliente."
+    },
+    {
+      "id": "b19v2-signposting-026",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "Choose the spoken signpost that adds a particularly useful detail.",
+      "options": [
+        "Even more, that same view can use itself during the weekly call.",
+        "What's more, the same view can be used in the weekly call.",
+        "What's moreover, the same view is usable in the call of every week.",
+        "What is more important, the same view can be used on the call weekly."
+      ],
+      "correct": 1,
+      "explanation": "«What's more,» añade y refuerza una idea en inglés hablado profesional. No debe confundirse con «what is more important», que cambia el significado.",
+      "translation": "Es más, la misma vista puede utilizarse en la llamada semanal."
+    },
+    {
+      "id": "b19v2-signposting-027",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "Two observations deserve the same level of attention. Which connector communicates that?",
+      "options": [
+        "In an equal important way, decisions need a consistent form to be registered by the team.",
+        "Same importantly, the team needs one consistent way of record the decisions.",
+        "Equally important, the team needs a consistent way to record decisions.",
+        "With equal importance, the team needs a consistent manner for registering decisions."
+      ],
+      "correct": 2,
+      "explanation": "«Equally important,» indica que la nueva idea tiene el mismo peso que la anterior. «A consistent way to record» es claro y natural.",
+      "translation": "Igualmente importante, el equipo necesita una forma coherente de registrar las decisiones."
+    },
+    {
+      "id": "b19v2-signposting-028",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "A presenter wants to add evidence without interrupting the flow. Which version is best?",
+      "options": [
+        "We saw also the same pattern on the reporting period previous.",
+        "We also saw the same pattern in the previous reporting period.",
+        "Also we have seen that equal pattern in the anterior period of reporting.",
+        "We as well did see the same pattern during the period before of reports."
+      ],
+      "correct": 1,
+      "explanation": "Con un verbo léxico, «also» suele ir antes del verbo principal: «also saw». «Previous reporting period» mantiene un orden nominal natural.",
+      "translation": "También observamos el mismo patrón en el periodo de informes anterior."
+    },
+    {
+      "id": "b19v2-signposting-029",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "You need to append a final supporting point to a recommendation. Choose the clearest sentence.",
+      "options": [
+        "On the top of that, the change does not require additional formation to the customer team.",
+        "At the top of this, the customer team requires no training in addition for the change.",
+        "On top of that, the change requires no additional training for the customer team.",
+        "Over that, no additional training is required by the change for the team of customer."
+      ],
+      "correct": 2,
+      "explanation": "«On top of that» es un conector hablado natural para añadir apoyo. La expresión es sin «the», y «training» suele ser incontable.",
+      "translation": "Además, el cambio no requiere formación adicional para el equipo del cliente."
+    },
+    {
+      "id": "b19v2-signposting-030",
+      "topic": "Presentations · Adding and reinforcing",
+      "question": "Which option adds a formal supporting point appropriately in a steering-committee presentation?",
+      "options": [
+        "Further, the proposed schedule is giving to both teams time enough to prepare.",
+        "Furthermore to this, the proposed schedule gives enough time to both teams for preparing themselves.",
+        "For furthermore, both teams have sufficient time of preparation with the schedule proposed.",
+        "Furthermore, the proposed schedule gives both teams enough time to prepare."
+      ],
+      "correct": 3,
+      "explanation": "«Furthermore,» puede introducir una idea adicional en un registro formal. «Gives both teams enough time to prepare» coloca los elementos de forma natural.",
+      "translation": "Además, el calendario propuesto da a ambos equipos tiempo suficiente para prepararse."
+    },
+    {
+      "id": "b19v2-signposting-031",
+      "topic": "Presentations · Contrast and concession",
+      "question": "The number of alerts fell, but the investigation workload did not. Which sentence expresses the contrast clearly?",
+      "options": [
+        "Alert volumes decreased, but however the investigation workload was remaining similar.",
+        "Alert volumes decreased; however, the investigation workload remained broadly unchanged.",
+        "Alert volumes decreased; although, the investigation workload remained broadly unchanged.",
+        "Alert volumes decreased; nevertheless of this, the investigation workload stayed widely unchanged."
+      ],
+      "correct": 1,
+      "explanation": "«However» puede conectar dos ideas completas y va bien tras punto y coma. «Although» necesita introducir una oración subordinada, no funciona solo como adverbio.",
+      "translation": "El volumen de alertas disminuyó; sin embargo, la carga de trabajo de investigación se mantuvo prácticamente sin cambios."
+    },
+    {
+      "id": "b19v2-signposting-032",
+      "topic": "Presentations · Contrast and concession",
+      "question": "You agree that the dashboard is useful, then want to mention a limitation. Choose the most natural transition.",
+      "options": [
+        "The dashboard is useful. With that being said it, each case's history is not full shown.",
+        "The dashboard is useful. Said that, it does not show the complete historic of each case.",
+        "The dashboard is useful. Having that said, it is not showing all the history for every case.",
+        "The dashboard is useful. That said, it does not show the full history of each case."
+      ],
+      "correct": 3,
+      "explanation": "«That said,» introduce una reserva después de reconocer un punto positivo. Es una fórmula natural y más concisa que las traducciones literales.",
+      "translation": "El panel es útil. Dicho esto, no muestra el historial completo de cada caso."
+    },
+    {
+      "id": "b19v2-signposting-033",
+      "topic": "Presentations · Contrast and concession",
+      "question": "Complete the balanced sentence: '___ the overall trend is positive, two areas still need attention.'",
+      "options": [
+        "However",
+        "In spite",
+        "Despite",
+        "While"
+      ],
+      "correct": 3,
+      "explanation": "«While» puede introducir una oración con sujeto y verbo para contrastarla con la principal. «Despite» e «in spite of» requieren un sintagma nominal o gerundio.",
+      "translation": "Aunque la tendencia general es positiva, todavía hay dos áreas que requieren atención."
+    },
+    {
+      "id": "b19v2-signposting-034",
+      "topic": "Presentations · Contrast and concession",
+      "question": "Which version acknowledges a constraint without weakening the conclusion unnecessarily?",
+      "options": [
+        "Even the sample being limited, yet it gives an useful indication on the trend.",
+        "Although the sample is limited, it still provides a useful indication of the trend.",
+        "Although of the limited sample, it still provides a useful indication about the tendency.",
+        "Despite the sample is limited, it provides still one useful indication of the trend."
+      ],
+      "correct": 1,
+      "explanation": "«Although» va seguido de una oración completa. «A useful indication of the trend» y la posición de «still» resultan naturales.",
+      "translation": "Aunque la muestra es limitada, sigue ofreciendo una indicación útil de la tendencia."
+    },
+    {
+      "id": "b19v2-signposting-035",
+      "topic": "Presentations · Contrast and concession",
+      "question": "You are comparing two reporting approaches, with no implication that one is always better. Choose the neutral contrast.",
+      "options": [
+        "The weekly report gives more detail. On the other hand, the dashboard is easier to explore interactively.",
+        "The weekly report gives more detail. In the other hand, the dashboard is easier for exploring interactively.",
+        "The weekly report gives more detail. On another hand, the dashboard is more easy to explore interactively.",
+        "The weekly report gives more detail. By the other side, the dashboard explores more easily in an interactive way."
+      ],
+      "correct": 0,
+      "explanation": "La expresión fija es «on the other hand». Presenta una perspectiva alternativa sin convertirla necesariamente en una contradicción.",
+      "translation": "El informe semanal ofrece más detalle. Por otro lado, el panel es más fácil de explorar de forma interactiva."
+    },
+    {
+      "id": "b19v2-signposting-036",
+      "topic": "Presentations · Contrast and concession",
+      "question": "Two customer groups behaved differently. Which sentence highlights the contrast most directly?",
+      "options": [
+        "The first group requested detail. On contrast, a summary shorter was preferred from the second.",
+        "The first group requested more detail. In contrast to, the second preferred a more short summary.",
+        "The first group asked more detail. By contrary, the second was preferring a shorter resume.",
+        "The first group requested more detail. By contrast, the second preferred a shorter summary."
+      ],
+      "correct": 3,
+      "explanation": "«By contrast,» compara resultados claramente diferentes. «Prefer» se construye directamente con el objeto: «preferred a shorter summary».",
+      "translation": "El primer grupo solicitó más detalle. En cambio, el segundo prefirió un resumen más breve."
+    },
+    {
+      "id": "b19v2-signposting-037",
+      "topic": "Presentations · Contrast and concession",
+      "question": "Complete the sentence correctly: '___ the short notice, both teams were able to attend.'",
+      "options": [
+        "Even though of",
+        "However",
+        "Despite",
+        "Although"
+      ],
+      "correct": 2,
+      "explanation": "«Despite» va seguido de un sintagma nominal: «the short notice». «Although» y «even though» necesitarían una oración con verbo.",
+      "translation": "A pesar del poco tiempo de aviso, ambos equipos pudieron asistir."
+    },
+    {
+      "id": "b19v2-signposting-038",
+      "topic": "Presentations · Contrast and concession",
+      "question": "The customer expected a delay, but the report arrived on time. Which wording is most natural?",
+      "options": [
+        "The timeline was tight; nevertheless of that, the report delivered itself according to schedule.",
+        "The timeline was tight; nevertheless, the report was delivered on schedule.",
+        "The timeline was tight, despite the report was delivered on schedule.",
+        "The timeline was tight; even though, the report was delivered in the scheduled time."
+      ],
+      "correct": 1,
+      "explanation": "«Nevertheless» funciona como adverbio de contraste y no lleva «of that». «Delivered on schedule» es la colocación natural.",
+      "translation": "El plazo era ajustado; aun así, el informe se entregó según lo previsto."
+    },
+    {
+      "id": "b19v2-signposting-039",
+      "topic": "Presentations · Contrast and concession",
+      "question": "You want to replace an inaccurate claim with a more precise one. Choose the best contrast structure.",
+      "options": [
+        "Rather than showing a confirmed outcome, the chart highlights activity that needs further review.",
+        "Rather that it shows an outcome confirmed, the chart highlights activity which needs being reviewed more.",
+        "More than showing a confirmed result, the chart is highlighting activity to review furtherly.",
+        "Instead to show a confirmed outcome, the chart highlights activity needing of further review."
+      ],
+      "correct": 0,
+      "explanation": "«Rather than + -ing» contrasta la interpretación descartada con la correcta. «Needs further review» es conciso y natural.",
+      "translation": "En lugar de mostrar un resultado confirmado, el gráfico destaca actividad que necesita una revisión adicional."
+    },
+    {
+      "id": "b19v2-signposting-040",
+      "topic": "Presentations · Contrast and concession",
+      "question": "Which sentence concedes a point and then keeps the discussion moving?",
+      "options": [
+        "Despite the change is small, it deserves explaining it because the customers will realize it.",
+        "Even the change is small, it is worthy to explain because customers will notice it.",
+        "Even though the change is small, it is worth explaining because customers will notice it.",
+        "Although of being a small change, it is worth to explain as customers are noticing it."
+      ],
+      "correct": 2,
+      "explanation": "«Even though» introduce una oración completa. La expresión correcta es «it is worth explaining», sin infinitivo ni objeto repetido.",
+      "translation": "Aunque el cambio es pequeño, merece la pena explicarlo porque los clientes lo notarán."
+    },
+    {
+      "id": "b19v2-signposting-041",
+      "topic": "Presentations · Cause and effect",
+      "question": "Complete the customer update: 'The meeting started late ___ an earlier call overran.'",
+      "options": [
+        "because of",
+        "because",
+        "due to",
+        "as a result of"
+      ],
+      "correct": 1,
+      "explanation": "«Because» introduce una oración completa: «an earlier call overran». Las otras opciones necesitan un sustantivo o sintagma nominal.",
+      "translation": "La reunión empezó tarde porque una llamada anterior se alargó."
+    },
+    {
+      "id": "b19v2-signposting-042",
+      "topic": "Presentations · Cause and effect",
+      "question": "Choose the grammatically correct explanation of a reporting delay.",
+      "options": [
+        "The report was delayed because of a problem with the source data.",
+        "The report was delayed because a problem with the source data.",
+        "The report was delayed due to the source data had a problem.",
+        "The report delayed as result of there was a problem with source data."
+      ],
+      "correct": 0,
+      "explanation": "«Because of» va seguido de un sintagma nominal: «a problem with the source data». Para una oración completa se usaría «because».",
+      "translation": "El informe se retrasó debido a un problema con los datos de origen."
+    },
+    {
+      "id": "b19v2-signposting-043",
+      "topic": "Presentations · Cause and effect",
+      "question": "A revised process removed one manual step. What is the clearest way to state the result?",
+      "options": [
+        "As a consequence of, the team is able to prepare quicker the customer update.",
+        "As a result, the team can prepare the customer update more quickly.",
+        "For this result, the customer update can be prepared by the team in a quicker manner.",
+        "As result, the team can prepare more quickly the update of customer."
+      ],
+      "correct": 1,
+      "explanation": "«As a result,» presenta una consecuencia y funciona como conector independiente. «Prepare the update more quickly» mantiene un orden natural.",
+      "translation": "Como resultado, el equipo puede preparar la actualización para el cliente más rápidamente."
+    },
+    {
+      "id": "b19v2-signposting-044",
+      "topic": "Presentations · Cause and effect",
+      "question": "The evidence is incomplete. Choose the most professional conclusion.",
+      "options": [
+        "Due to the evidence is incomplete, therefore we must present preliminarily the finding.",
+        "The available evidence is incomplete; therefore, we should present the finding as preliminary.",
+        "The available evidences are incomplete; therefore we should present the finding like preliminary.",
+        "The evidence available is incomplete, so therefore the finding should be presented as a preliminar one."
+      ],
+      "correct": 1,
+      "explanation": "«Therefore» enlaza causa y conclusión con precisión. «Evidence» es incontable y la expresión natural es «present the finding as preliminary».",
+      "translation": "Las evidencias disponibles son incompletas; por tanto, deberíamos presentar el hallazgo como preliminar."
+    },
+    {
+      "id": "b19v2-signposting-045",
+      "topic": "Presentations · Cause and effect",
+      "question": "Which spoken explanation makes the consequence clear to a non-technical audience?",
+      "options": [
+        "The timestamps are in different hours, meaning us that we must align before comparing the events.",
+        "The time zones differ, which wants to say we need to make them aligned previous to compare events.",
+        "The timestamps use different time zones, which means that we need to align them before comparing events.",
+        "The timestamps use different time zones, what means that we need aligning them before to compare events."
+      ],
+      "correct": 2,
+      "explanation": "«Which means that...» explica la consecuencia de toda la idea anterior. Después de «before» es natural usar gerundio: «before comparing».",
+      "translation": "Las marcas de tiempo utilizan zonas horarias diferentes, lo que significa que debemos alinearlas antes de comparar los eventos."
+    },
+    {
+      "id": "b19v2-signposting-046",
+      "topic": "Presentations · Cause and effect",
+      "question": "Complete the slide commentary: 'Response times improved ___ the simpler approval route.'",
+      "options": [
+        "therefore",
+        "due to",
+        "because",
+        "which means"
+      ],
+      "correct": 1,
+      "explanation": "«Due to» va seguido de un sintagma nominal: «the simpler approval route». «Because» necesitaría una oración completa.",
+      "translation": "Los tiempos de respuesta mejoraron gracias al proceso de aprobación más sencillo."
+    },
+    {
+      "id": "b19v2-signposting-047",
+      "topic": "Presentations · Cause and effect",
+      "question": "You need a natural, conversational link between a missing input and a delayed decision. Which option fits?",
+      "options": [
+        "We haven't received yet the final figures, so that we'll confirm tomorrow the decision.",
+        "The final figures are not received already, that's because we confirm the decision on tomorrow.",
+        "We haven't received the final figures yet, so we'll confirm the decision tomorrow.",
+        "We didn't receive the final figures still, therefore so the decision confirms tomorrow."
+      ],
+      "correct": 2,
+      "explanation": "«So» introduce una consecuencia de forma natural en conversación. «Yet» suele ir al final y «tomorrow» no lleva «on».",
+      "translation": "Todavía no hemos recibido las cifras definitivas, así que confirmaremos la decisión mañana."
+    },
+    {
+      "id": "b19v2-signposting-048",
+      "topic": "Presentations · Cause and effect",
+      "question": "Which sentence describes a possible effect without overstating certainty?",
+      "options": [
+        "A gap in the data could lead to an incomplete view of the timeline.",
+        "A gap of data may result an incomplete timeline view for sure.",
+        "A data gap could derive to the timeline having one vision incomplete.",
+        "A gap in the data could lead into an incomplete view about the timeline."
+      ],
+      "correct": 0,
+      "explanation": "La colocación es «lead to + noun». «Could» expresa posibilidad y evita presentar el efecto como seguro.",
+      "translation": "Una laguna en los datos podría dar lugar a una visión incompleta de la cronología."
+    },
+    {
+      "id": "b19v2-signposting-049",
+      "topic": "Presentations · Cause and effect",
+      "question": "You have explained that one chart combines several sources. How do you state the practical consequence?",
+      "options": [
+        "Consequently, small differences in timing may appear in the combined view.",
+        "Consequently of this, small differences of timing may appear on the view combined.",
+        "In consequence to this, the combined view might shows small differences in timings.",
+        "As consequence, little timing differences can be appeared in the combined vision."
+      ],
+      "correct": 0,
+      "explanation": "«Consequently,» introduce el efecto en un registro formal. «May appear» no necesita pasiva y «combined view» mantiene el orden correcto.",
+      "translation": "En consecuencia, pueden aparecer pequeñas diferencias temporales en la vista combinada."
+    },
+    {
+      "id": "b19v2-signposting-050",
+      "topic": "Presentations · Cause and effect",
+      "question": "A customer asks why you are changing the order of the presentation. Choose the clearest reply.",
+      "options": [
+        "The team is leaving early; this is the motive why their actions are covered the first.",
+        "Because the team has to leave early, for that we are covering their actions in first place.",
+        "The operations team has to leave early, which is why we're covering their actions first.",
+        "The operations team must leave before, so that's because we cover first their actions."
+      ],
+      "correct": 2,
+      "explanation": "«Which is why...» conecta la causa con la decisión sin redundancia. «Covering their actions first» coloca el adverbio correctamente.",
+      "translation": "El equipo de operaciones tiene que marcharse antes, así que por eso vamos a tratar primero sus acciones."
+    },
+    {
+      "id": "b19v2-signposting-051",
+      "topic": "Presentations · Examples and clarification",
+      "question": "You want to illustrate what counts as a communication issue. Choose the best example marker.",
+      "options": [
+        "For an example, an unclear owner can delay the next update even the action itself is simple.",
+        "For example, an unclear owner can delay the next update even when the action itself is simple.",
+        "As example, a not clear owner may delay the following update despite of the simple action.",
+        "By example, the next update can be delayed from an unclear owner, also when the action is simple."
+      ],
+      "correct": 1,
+      "explanation": "«For example,» es la fórmula estándar para introducir una ilustración. «Even when» introduce correctamente la circunstancia contrastante.",
+      "translation": "Por ejemplo, no tener un responsable claro puede retrasar la siguiente actualización incluso cuando la acción en sí es sencilla."
+    },
+    {
+      "id": "b19v2-signposting-052",
+      "topic": "Presentations · Examples and clarification",
+      "question": "A customer looks confused by the phrase 'single source of truth'. How would you restate it?",
+      "options": [
+        "With other words, everybody should use the same accorded information when discussing about the case.",
+        "In other words, everyone should use the same agreed information when discussing the case.",
+        "Said in another words, all people must use an equal information for discussing the case.",
+        "In other word, everyone should use one same agreed information when they discuss on the case."
+      ],
+      "correct": 1,
+      "explanation": "«In other words,» introduce una reformulación. «Discuss the case» no lleva «about», y «information» es incontable.",
+      "translation": "En otras palabras, todos deberían utilizar la misma información acordada al hablar del caso."
+    },
+    {
+      "id": "b19v2-signposting-053",
+      "topic": "Presentations · Examples and clarification",
+      "question": "Choose the clearest plain-English explanation for an executive audience.",
+      "options": [
+        "To put it in a simple way, the chart is showing where the team spent the most part of its time.",
+        "Putting it simple, the chart displays where did the team spend the majority of their time.",
+        "To put it simply, the chart shows where the team spent most of its time.",
+        "For saying it simply, the graphic shows in where the team expended most time."
+      ],
+      "correct": 2,
+      "explanation": "«To put it simply» señala una explicación sencilla. La interrogativa indirecta usa «where the team spent», no el orden de pregunta.",
+      "translation": "Dicho de forma sencilla, el gráfico muestra dónde dedicó el equipo la mayor parte de su tiempo."
+    },
+    {
+      "id": "b19v2-signposting-054",
+      "topic": "Presentations · Examples and clarification",
+      "question": "A client asks what you mean by 'open action'. Which reply is most natural?",
+      "options": [
+        "What I want to mean by open action is one task which has agreed and has not yet complete.",
+        "By open action, what I mean is a task that was accorded but it is pending to complete.",
+        "What I mean by an open action is a task that has been agreed but not yet completed.",
+        "What I mean with an open action is a task agreed but not completed still."
+      ],
+      "correct": 2,
+      "explanation": "La estructura natural es «what I mean by X is...». «Not yet completed» expresa con claridad que la tarea sigue pendiente.",
+      "translation": "Con acción abierta me refiero a una tarea que se ha acordado pero todavía no se ha completado."
+    },
+    {
+      "id": "b19v2-signposting-055",
+      "topic": "Presentations · Examples and clarification",
+      "question": "You need to narrow a general statement to one precise concern. Which signpost works best?",
+      "options": [
+        "In a more specification, the concern concerns about the recording of ownership in ticket.",
+        "More specific, the concern is related with how is ownership recorded in the ticket.",
+        "Speaking more specifically, the worry has relation to how the ownership records itself on the ticket.",
+        "More specifically, the concern relates to how ownership is recorded in the ticket."
+      ],
+      "correct": 3,
+      "explanation": "«More specifically,» permite pasar de lo general a lo concreto. La colocación es «relates to» y la interrogativa indirecta mantiene «how ownership is recorded».",
+      "translation": "Más concretamente, la preocupación se refiere a cómo se registra la responsabilidad en el ticket."
+    },
+    {
+      "id": "b19v2-signposting-056",
+      "topic": "Presentations · Examples and clarification",
+      "question": "Complete the sentence: 'The pack includes operational measures, ___ response time and case age.'",
+      "options": [
+        "for example of",
+        "like for example",
+        "such like",
+        "such as"
+      ],
+      "correct": 3,
+      "explanation": "«Such as» introduce ejemplos dentro de un sintagma nominal. No necesita «for example» ni se combina con «like».",
+      "translation": "El paquete incluye medidas operativas, como el tiempo de respuesta y la antigüedad de los casos."
+    },
+    {
+      "id": "b19v2-signposting-057",
+      "topic": "Presentations · Examples and clarification",
+      "question": "A slide contains an abstract recommendation. What is the best spoken bridge to a concrete scenario?",
+      "options": [
+        "Let me give to you one practical example about how would that look like.",
+        "Let me put you an example in practice of what would it look like.",
+        "Let me give you a practical example of what that would look like.",
+        "Allow me giving you a practical example of how that would be looking."
+      ],
+      "correct": 2,
+      "explanation": "«Let me give you a practical example...» es una fórmula natural. En una interrogativa indirecta se dice «what that would look like».",
+      "translation": "Permítanme darles un ejemplo práctico de cómo sería eso."
+    },
+    {
+      "id": "b19v2-signposting-058",
+      "topic": "Presentations · Examples and clarification",
+      "question": "The customer may interpret 'closed' as 'fully resolved'. Which clarification is clearest?",
+      "options": [
+        "To be clear, 'closed' here means that the SOC review is complete, not that every related action is finished.",
+        "For being clear, 'closed' here wants to say the SOC review is complete, not every action related is finished.",
+        "Being clear, by 'closed' we are meaning the review completed instead of every related action finished.",
+        "To clarify us, 'closed' signifies here that review is complete, not that all related action has finished."
+      ],
+      "correct": 0,
+      "explanation": "«To be clear» evita una interpretación errónea de forma directa. La estructura paralela «that..., not that...» distingue los dos significados.",
+      "translation": "Para que quede claro, aquí «cerrado» significa que la revisión del SOC ha terminado, no que todas las acciones relacionadas hayan finalizado."
+    },
+    {
+      "id": "b19v2-signposting-059",
+      "topic": "Presentations · Examples and clarification",
+      "question": "Choose the phrase that translates a policy statement into its practical effect.",
+      "options": [
+        "In terms of practice, it means that one consolidated update will arrive to the customer.",
+        "In practical terms, this wants to say that the customer will receive one update consolidated.",
+        "In practical terms, this means that the customer will receive one consolidated update.",
+        "On practice, this means the customer is going to receive an unique consolidated update."
+      ],
+      "correct": 2,
+      "explanation": "«In practical terms» introduce la consecuencia concreta. «One consolidated update» mantiene el orden natural de los adjetivos.",
+      "translation": "En términos prácticos, esto significa que el cliente recibirá una única actualización consolidada."
+    },
+    {
+      "id": "b19v2-signposting-060",
+      "topic": "Presentations · Examples and clarification",
+      "question": "You need to identify exactly which two actions require approval. Which wording is most precise?",
+      "options": [
+        "Concretely, we need the approval for changing the schedule and publish the template revised.",
+        "In specific, we require that approval is given for the schedule change and to publishing the template.",
+        "Specifically speaking, it is needed approval to change schedule and for publishing the revised template.",
+        "Specifically, we need approval to change the schedule and to publish the revised template."
+      ],
+      "correct": 3,
+      "explanation": "«Specifically,» enfoca la lista concreta. Los dos infinitivos «to change» y «to publish» forman una estructura paralela clara.",
+      "translation": "En concreto, necesitamos aprobación para cambiar el calendario y publicar la plantilla revisada."
+    },
+    {
+      "id": "b19v2-signposting-061",
+      "topic": "Presentations · Referring back and forward",
+      "question": "You need to remind the audience of a definition given earlier. Which phrase sounds natural?",
+      "options": [
+        "As I mentioned earlier, we use 'case age' to mean the time since the case was opened.",
+        "Like I told earlier, 'case age' is used to mean the time from the case has opened.",
+        "As I mentioned before ago, we use 'case age' for meaning the time since the case opened.",
+        "As mentioned by me previously, we are using 'case age' to say the time since opening the case."
+      ],
+      "correct": 0,
+      "explanation": "«As I mentioned earlier» remite atrás de forma natural y discreta. «The time since the case was opened» expresa correctamente el periodo.",
+      "translation": "Como mencioné antes, utilizamos «antigüedad del caso» para referirnos al tiempo transcurrido desde que se abrió."
+    },
+    {
+      "id": "b19v2-signposting-062",
+      "topic": "Presentations · Referring back and forward",
+      "question": "A detailed question belongs in a later section. How can you postpone it politely?",
+      "options": [
+        "I'll come back to that when we look at the investigation timeline.",
+        "I will retake that point when we look into the timeline later on after.",
+        "I will return back to that when we will look the timeline of investigation.",
+        "I come back with that once we are seeing the investigation's timeline."
+      ],
+      "correct": 0,
+      "explanation": "«I'll come back to that...» aplaza la respuesta sin ignorarla. Tras «when» para el futuro se usa presente: «when we look», no «will look».",
+      "translation": "Volveré a ese punto cuando veamos la cronología de la investigación."
+    },
+    {
+      "id": "b19v2-signposting-063",
+      "topic": "Presentations · Referring back and forward",
+      "question": "You want the audience to focus on a visual. Choose the standard presentation phrase.",
+      "options": [
+        "As you can see in this slide, the most of actions completed inside the agreed timeframe.",
+        "As you can see on this slide, most actions were completed within the agreed timeframe.",
+        "Like it can be seen on this slide, most of the actions were completed into the time agreed.",
+        "As you are seeing at the slide, the majority actions got completed within timeframe accorded."
+      ],
+      "correct": 1,
+      "explanation": "«As you can see on this slide» dirige la atención a la pantalla. «Most actions» no lleva «the» y «within the agreed timeframe» es natural.",
+      "translation": "Como pueden ver en esta diapositiva, la mayoría de las acciones se completaron dentro del plazo acordado."
+    },
+    {
+      "id": "b19v2-signposting-064",
+      "topic": "Presentations · Referring back and forward",
+      "question": "You have introduced a risk and now reach the slide where it becomes relevant. What would you say?",
+      "options": [
+        "It is in this part that the earlier data quality point gets importance.",
+        "This is when the previous point over data quality becomes of importance.",
+        "This is where the earlier point about data quality becomes important.",
+        "Here is where the point before about data quality turns itself important."
+      ],
+      "correct": 2,
+      "explanation": "«This is where...» conecta una idea previa con el punto actual. «The earlier point about...» es claro y no suena traducido literalmente.",
+      "translation": "Aquí es donde cobra importancia el punto anterior sobre la calidad de los datos."
+    },
+    {
+      "id": "b19v2-signposting-065",
+      "topic": "Presentations · Referring back and forward",
+      "question": "Before leaving a section, you want to revisit one unresolved detail. Choose the smoothest wording.",
+      "options": [
+        "Before we continue ahead, let me retake in brief the question of who owns.",
+        "Previous to pass on, I want to come again shortly over the ownership question.",
+        "Before we move on, let me return briefly to the question of ownership.",
+        "Before moving forward, let me return back briefly at the question about ownership."
+      ],
+      "correct": 2,
+      "explanation": "«Before we move on» pausa la progresión y «return to the question of...» recupera el tema sin redundancia. «Return back» duplica la idea.",
+      "translation": "Antes de continuar, permítanme volver brevemente a la cuestión de la responsabilidad."
+    },
+    {
+      "id": "b19v2-signposting-066",
+      "topic": "Presentations · Referring back and forward",
+      "question": "You mention a term now but plan to define it on the next slide. What is the clearest signpost?",
+      "options": [
+        "In one moment, I am going to explain about what means 'coverage gap' for us.",
+        "I'll explain what we mean by 'coverage gap' in a moment.",
+        "I will explain shortly what are we meaning by 'coverage gap'.",
+        "I explain in a moment what do we mean with 'coverage gap'."
+      ],
+      "correct": 1,
+      "explanation": "«In a moment» señala que la explicación llegará enseguida. La interrogativa indirecta usa «what we mean», sin inversión.",
+      "translation": "En un momento explicaré qué entendemos por «laguna de cobertura»."
+    },
+    {
+      "id": "b19v2-signposting-067",
+      "topic": "Presentations · Referring back and forward",
+      "question": "The previous speaker described the business impact. You want to connect your section to it. Which opening works best?",
+      "options": [
+        "Building on that point, I'd like to show how the reporting change supports the customer team.",
+        "Constructing from that point, I like to show how the change of reporting supports to the customer team.",
+        "Based in that point, let me show how is the customer team supported by the reporting change.",
+        "Building over that point, I would like showing how does the reporting change support the team."
+      ],
+      "correct": 0,
+      "explanation": "«Building on that point» enlaza con la intervención anterior. En la subordinada se mantiene «how the change supports», sin inversión.",
+      "translation": "Partiendo de ese punto, me gustaría mostrar cómo el cambio en los informes ayuda al equipo del cliente."
+    },
+    {
+      "id": "b19v2-signposting-068",
+      "topic": "Presentations · Referring back and forward",
+      "question": "You want to remind the audience of a chart shown ten minutes ago. Choose the most natural reference.",
+      "options": [
+        "If you remember it, the chart of before showed a gradual decline instead than a sudden drop.",
+        "If you recall, the earlier chart showed a gradual decline rather than a sudden drop.",
+        "If you recall yourself, that former chart showed gradually declining rather than dropping suddenly.",
+        "As you may recall it, the previous graphic was showing a decline gradual and not one sudden fall."
+      ],
+      "correct": 1,
+      "explanation": "«If you recall» recuerda información compartida sin exigir objeto. «Rather than» contrasta dos sintagmas paralelos.",
+      "translation": "Si recuerdan, el gráfico anterior mostraba un descenso gradual, no una caída repentina."
+    },
+    {
+      "id": "b19v2-signposting-069",
+      "topic": "Presentations · Referring back and forward",
+      "question": "A later slide will show the evidence behind your conclusion. Which phrase prepares the audience?",
+      "options": [
+        "As we'll see shortly, the conclusion is supported by three separate observations.",
+        "As we will see soon later, the conclusion is supported from three observations separated.",
+        "Like we'll be seeing shortly, three separated observations are supporting to the conclusion.",
+        "As it will be seen after a short time, the conclusion has support by three separate observations."
+      ],
+      "correct": 0,
+      "explanation": "«As we'll see shortly» anticipa contenido próximo. «Supported by» y «three separate observations» son combinaciones naturales.",
+      "translation": "Como veremos enseguida, la conclusión está respaldada por tres observaciones distintas."
+    },
+    {
+      "id": "b19v2-signposting-070",
+      "topic": "Presentations · Referring back and forward",
+      "question": "You are connecting the closing recommendation to an issue raised at the start. Which sentence is clearest?",
+      "options": [
+        "That is linking again to the concern we put at the start from the session.",
+        "That links back to the concern we raised at the beginning of the session.",
+        "That links back with the concern that we rose in the beginning of the session.",
+        "This makes a link backwards to the worry raised on the session's beginning."
+      ],
+      "correct": 1,
+      "explanation": "«Link back to» remite de forma explícita a una idea anterior. El pasado de «raise» es «raised», y se dice «at the beginning».",
+      "translation": "Eso enlaza con la preocupación que planteamos al principio de la sesión."
+    },
+    {
+      "id": "b19v2-signposting-071",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "You need to ensure the customer remembers one central message. Which signpost is strongest and most natural?",
+      "options": [
+        "The key point is about the trend being stable, even individual weeks are varying.",
+        "The point key is that the tendency remains stable, although of variations in individual weeks.",
+        "The principal key point says the trend is stable in spite individual weeks vary.",
+        "The key point is that the trend is stable, even though individual weeks vary."
+      ],
+      "correct": 3,
+      "explanation": "«The key point is that...» presenta el mensaje central directamente. «Even though» introduce una oración completa de contraste.",
+      "translation": "El punto clave es que la tendencia es estable, aunque las semanas individuales varíen."
+    },
+    {
+      "id": "b19v2-signposting-072",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "Three improvements are listed, but one has the greatest customer impact. Choose the best emphasis marker.",
+      "options": [
+        "In the most important way, one single contact point is provided for the customer by the process.",
+        "More important, the process revised is giving the customer a point of contact single.",
+        "The most importantly, the revised process gives to the customer one unique contact point.",
+        "Most importantly, the revised process gives the customer a single point of contact."
+      ],
+      "correct": 3,
+      "explanation": "«Most importantly,» destaca la idea prioritaria. Con «give» el receptor va antes del objeto: «gives the customer a...».",
+      "translation": "Y lo más importante: el proceso revisado ofrece al cliente un único punto de contacto."
+    },
+    {
+      "id": "b19v2-signposting-073",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "An executive asks which detail matters for the decision. What is the clearest reply?",
+      "options": [
+        "What matters here is whether the proposed date works for both teams.",
+        "What matters here is if does the proposed date work for both teams.",
+        "The thing which imports here is whether works the proposed date for the two teams.",
+        "What is mattering in here is whether the date proposed is working to both teams."
+      ],
+      "correct": 0,
+      "explanation": "«What matters here is whether...» enfoca el criterio decisivo. La interrogativa indirecta conserva «the proposed date works».",
+      "translation": "Lo que importa aquí es si la fecha propuesta funciona para ambos equipos."
+    },
+    {
+      "id": "b19v2-signposting-074",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "You want to direct attention to one number on a busy slide. Which phrase is appropriate?",
+      "options": [
+        "I'd like to draw your attention to the figure in the top-right corner.",
+        "I want to attract the attention of you to the number in the superior-right corner.",
+        "I would like to call your attention on the figure at the corner up right.",
+        "Let me put your attention over the figure located on the top right corner."
+      ],
+      "correct": 0,
+      "explanation": "La expresión estándar es «draw your attention to». Para la posición se dice «in the top-right corner».",
+      "translation": "Me gustaría llamar su atención sobre la cifra de la esquina superior derecha."
+    },
+    {
+      "id": "b19v2-signposting-075",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "Complete the sentence naturally: 'The new summary is ___ useful for readers who only need the main decisions.'",
+      "options": [
+        "in special",
+        "more particularly of",
+        "especially",
+        "specially"
+      ],
+      "correct": 2,
+      "explanation": "«Especially» destaca a un grupo concreto. «Specially» suele significar «de manera especial» o «para un propósito específico» y no encaja igual aquí.",
+      "translation": "El nuevo resumen es útil especialmente para quienes solo necesitan las decisiones principales."
+    },
+    {
+      "id": "b19v2-signposting-076",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "You want to stress a principle that should guide all the next steps. Choose the best formulation.",
+      "options": [
+        "Over all, the next steps need being clear for the people responsible to carry them.",
+        "Above everything, next steps have the need to be clear to people in charge of making them out.",
+        "On top all, the following steps must clearly arrive to those responsible of executing them.",
+        "Above all, the next steps need to be clear to the people responsible for carrying them out."
+      ],
+      "correct": 3,
+      "explanation": "«Above all,» da máxima prioridad a la idea. «Responsible for» va seguido de gerundio: «for carrying them out».",
+      "translation": "Por encima de todo, los próximos pasos deben estar claros para las personas responsables de llevarlos a cabo."
+    },
+    {
+      "id": "b19v2-signposting-077",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "Choose the most natural way to state the main conclusion at the end of a section.",
+      "options": [
+        "The main take away of this section is that a clearer ownership leads into a faster follow-up.",
+        "The principal conclusion to take from this section says clearer ownership makes follow-up more fast.",
+        "The main takeaway from this section is that clearer ownership leads to faster follow-up.",
+        "The main learning from the section is about clear ownership conducting to quicker following."
+      ],
+      "correct": 2,
+      "explanation": "«The main takeaway from...» resume la conclusión que debe retenerse. «Leads to» es la preposición correcta.",
+      "translation": "La principal conclusión de esta sección es que una responsabilidad más clara permite un seguimiento más rápido."
+    },
+    {
+      "id": "b19v2-signposting-078",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "A customer asks what must be resolved during today's call. Which answer prioritises clearly?",
+      "options": [
+        "Our priority for today is to agree on the owner and the target date.",
+        "Our priority of today is agreeing the responsible and the objective date.",
+        "Today we have as priority that the owner and the date target are accorded.",
+        "The priority for today consists in to agree about the owner and target date."
+      ],
+      "correct": 0,
+      "explanation": "«Our priority for today is to...» presenta un objetivo concreto. Se dice «agree on» y «target date».",
+      "translation": "Nuestra prioridad para hoy es acordar el responsable y la fecha objetivo."
+    },
+    {
+      "id": "b19v2-signposting-079",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "You need to highlight a caveat without making it sound alarming. What would you say?",
+      "options": [
+        "It is worthy to note that the figures are covering only labour days.",
+        "It deserves to be noted the figures cover business days solely only.",
+        "It's worth noting that the figures cover business days only.",
+        "It has value to notice that figures just cover the days that are business."
+      ],
+      "correct": 2,
+      "explanation": "«It's worth noting that...» llama la atención sobre un matiz de forma neutral. La construcción exige gerundio: «worth noting».",
+      "translation": "Conviene señalar que las cifras solo abarcan días laborables."
+    },
+    {
+      "id": "b19v2-signposting-080",
+      "topic": "Client communication · Emphasis and priorities",
+      "question": "The audience may remember the chart but miss its limitation. Choose the professional emphasis.",
+      "options": [
+        "I want to make emphasis that this chart shows a direction, not one precise forecast.",
+        "I would insist in that this graphic shows the direction and not exactly a prediction.",
+        "I want to stress that this chart shows direction, not a precise forecast.",
+        "I want stressing that the chart is showing direction instead a forecast precise."
+      ],
+      "correct": 2,
+      "explanation": "«I want to stress that...» es una forma directa y profesional de enfatizar. «Make emphasis» es un calco; en inglés se usa «emphasise» o «stress».",
+      "translation": "Quiero subrayar que este gráfico muestra una dirección, no una previsión precisa."
+    },
+    {
+      "id": "b19v2-signposting-081",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "A customer asks a detailed question during your presentation. Which opening acknowledges it professionally?",
+      "options": [
+        "This is a good question. Let me separate what do we know from what needs still confirmation.",
+        "That's a good question. Let me separate what we know from what still needs to be confirmed.",
+        "That is one good question. I will divide the known things and what stays for confirming.",
+        "Good question. Let me distinguish what we are knowing from what remains to confirm yet."
+      ],
+      "correct": 1,
+      "explanation": "«That's a good question» reconoce la intervención. Las interrogativas indirectas usan «what we know», sin inversión.",
+      "translation": "Es una buena pregunta. Permítanme separar lo que sabemos de lo que todavía debe confirmarse."
+    },
+    {
+      "id": "b19v2-signposting-082",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "You want to check that you understood the customer's concern. Choose the most natural response.",
+      "options": [
+        "If I understood you correctly, you are asking if does the change affect the weekly report.",
+        "If I understand you correctly, you're asking whether the change affects the weekly report.",
+        "If I understand correctly to you, you ask if the change has affectation on the report weekly.",
+        "If I am understanding well, your question is whether affects the change to the weekly report."
+      ],
+      "correct": 1,
+      "explanation": "«If I understand you correctly...» verifica la interpretación con cortesía. La interrogativa indirecta conserva «the change affects».",
+      "translation": "Si le he entendido bien, pregunta si el cambio afecta al informe semanal."
+    },
+    {
+      "id": "b19v2-signposting-083",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "You do not know an exact percentage during a meeting. Which answer is most credible?",
+      "options": [
+        "I don't have that figure to hand, but I'll check it and include it in the follow-up.",
+        "I don't have that figure in the hand, but I will look it and include on the follow-up.",
+        "I haven't this exact percentage with me, but I'll revise and put it in the posterior mail.",
+        "The figure is not available for me now; however I suppose it can be added afterwards."
+      ],
+      "correct": 0,
+      "explanation": "«I don't have that figure to hand» reconoce la limitación sin improvisar. «Check it» y «include it in the follow-up» ofrecen una acción concreta.",
+      "translation": "No tengo esa cifra a mano, pero la comprobaré y la incluiré en el seguimiento."
+    },
+    {
+      "id": "b19v2-signposting-084",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "The analysis is still in progress. Which statement uses an appropriately cautious tone?",
+      "options": [
+        "According with current information, the activity is definitely limited to only one account.",
+        "From the informations we have, it looks that the activity limits itself at one account.",
+        "Based on the information available so far, the activity appears to be limited to one account.",
+        "Basing on the information available until now, the activity seems being limited in one account."
+      ],
+      "correct": 2,
+      "explanation": "«Based on the information available so far» delimita la evidencia, y «appears to be» expresa una conclusión provisional sin exagerar certeza.",
+      "translation": "Según la información disponible hasta ahora, la actividad parece limitarse a una sola cuenta."
+    },
+    {
+      "id": "b19v2-signposting-085",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "You need to state the current understanding while leaving room for new evidence. Choose the best phrase.",
+      "options": [
+        "To our better knowledge, any other systems are affected at the actual stage.",
+        "For the best of our knowledge, no other systems result affected in this stage.",
+        "To the best of our knowledge, no other systems are affected at this stage.",
+        "As far as our best knowing, there are not affected other systems for the moment."
+      ],
+      "correct": 2,
+      "explanation": "«To the best of our knowledge» comunica cautela profesional. «At this stage» deja claro que la evaluación puede cambiar.",
+      "translation": "Hasta donde sabemos, no hay otros sistemas afectados en esta fase."
+    },
+    {
+      "id": "b19v2-signposting-086",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "A question is ambiguous. How should you ask for precision?",
+      "options": [
+        "Could you clarify what you mean by 'full coverage' in this context?",
+        "Could you explain me what are you meaning by the full coverage in this case?",
+        "Can you make clear what means for you 'full coverage' on this context?",
+        "Could you clarify what do you mean with 'full coverage' in this context?"
+      ],
+      "correct": 0,
+      "explanation": "«Could you clarify what you mean by...?» es cortés y específico. En la interrogativa indirecta no se usa «do».",
+      "translation": "¿Podría aclarar qué quiere decir con «cobertura completa» en este contexto?"
+    },
+    {
+      "id": "b19v2-signposting-087",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "The customer asks whether a date is final, but another team owns the confirmation. What is the best reply?",
+      "options": [
+        "The date continues being provisional. I'll contrast it to the project team and answer later.",
+        "The date is yet provisional. I will verify with the project team and revert after the call.",
+        "It is a provisional date still; I will confirm them with the project team and return you after the call.",
+        "The date is still provisional. I'll verify it with the project team and follow up after the call."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta distingue el estado actual de la acción posterior. «Verify it with...» y «follow up after the call» son claros y naturales internacionalmente.",
+      "translation": "La fecha sigue siendo provisional. La verificaré con el equipo de proyecto y haré seguimiento después de la llamada."
+    },
+    {
+      "id": "b19v2-signposting-088",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "You want to confirm a multi-part request before answering. Which sentence sounds most natural?",
+      "options": [
+        "Let me verify my understanding: you are needing the trend, change reason, and action proposition, yes?",
+        "Allow me to check that I have understood you well: the trend, why did it change, and proposed action. Correct?",
+        "Let me check if I understood: you need the trend, the motive of change, and the action proposed. Isn't it?",
+        "Let me check that I've understood: you need the trend, the reason for the change, and the proposed action. Is that right?"
+      ],
+      "correct": 3,
+      "explanation": "«Let me check that I've understood...» resume antes de responder y «Is that right?» solicita confirmación de forma natural.",
+      "translation": "Permítame comprobar que lo he entendido: necesita la tendencia, el motivo del cambio y la acción propuesta. ¿Es correcto?"
+    },
+    {
+      "id": "b19v2-signposting-089",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "Some facts are confirmed, but the root cause is not. Which wording separates certainty levels clearly?",
+      "options": [
+        "We can say confidently the service interrupted; the cause underneath continues under investigation.",
+        "We can say with confidence that the service was interrupted; the underlying cause is still being investigated.",
+        "We are confident to say that service was interrupted, but the root cause is investigating still.",
+        "With confidence we can tell the interruption, while the underlying reason remains to be investigated yet."
+      ],
+      "correct": 1,
+      "explanation": "«We can say with confidence that...» presenta el hecho confirmado. El punto y coma separa con claridad la parte todavía abierta.",
+      "translation": "Podemos afirmar con seguridad que el servicio se interrumpió; la causa subyacente sigue investigándose."
+    },
+    {
+      "id": "b19v2-signposting-090",
+      "topic": "Client communication · Questions and uncertainty",
+      "question": "A participant asks you to guess why another team made a decision. Choose the most professional response.",
+      "options": [
+        "I wouldn't want to speculate. Let me confirm the rationale with the team and come back to you.",
+        "I don't want making speculations. I will ask the rationale with the team and revert you.",
+        "I wouldn't like to speculate it. Let me confirm the motive to the team and return back to you.",
+        "I prefer not to invent. Let me contrast why with the team and come back with you."
+      ],
+      "correct": 0,
+      "explanation": "«I wouldn't want to speculate» evita una suposición sin sonar defensivo. «Confirm ... with the team» y «come back to you» ofrecen un seguimiento claro.",
+      "translation": "No quisiera especular. Permítame confirmar el razonamiento con el equipo y volver a contactar con usted."
+    },
+    {
+      "id": "b19v2-signposting-091",
+      "topic": "Presentations · Summarising and closing",
+      "question": "You are ending a detailed presentation. Which phrase introduces a concise summary?",
+      "options": [
+        "Summing everything, performance remained stably, two actions have completion, and one decision waits.",
+        "To sum up, performance remained stable, two actions were completed, and one decision is still pending.",
+        "To make a summary, the performance was stable, there were two completed actions and a decision pending still.",
+        "For summing up, performance kept stable, two actions completed, and one decision remains yet pending."
+      ],
+      "correct": 1,
+      "explanation": "«To sum up,» señala el resumen final. La enumeración mantiene tres estructuras breves y claras.",
+      "translation": "En resumen, el rendimiento se mantuvo estable, se completaron dos acciones y todavía hay una decisión pendiente."
+    },
+    {
+      "id": "b19v2-signposting-092",
+      "topic": "Presentations · Summarising and closing",
+      "question": "After a long explanation, you want to give the one-sentence version. Choose the best signpost.",
+      "options": [
+        "In shorts, the process works, but the handover needs being more clear.",
+        "On a short way, the process works well, but it needs to clarify more the handover.",
+        "Saying it shortly, the process is functioning, however the handover needs more clarity to be.",
+        "In short, the process is working, but the handover needs to be clearer."
+      ],
+      "correct": 3,
+      "explanation": "«In short,» introduce una síntesis muy breve. «Needs to be clearer» es una estructura natural y paralela.",
+      "translation": "En pocas palabras, el proceso funciona, pero el traspaso debe ser más claro."
+    },
+    {
+      "id": "b19v2-signposting-093",
+      "topic": "Presentations · Summarising and closing",
+      "question": "You want to check for unresolved matters before ending the meeting. What would you say?",
+      "options": [
+        "Before we close, is there anything we haven't covered that needs a decision today?",
+        "Before that we finish, is anything missing to cover requiring a decision for today?",
+        "Before closing, is there something we didn't cover and needs a decision in today?",
+        "Previous to close, have we any point not covered which needs to be decided today?"
+      ],
+      "correct": 0,
+      "explanation": "«Before we close...» anticipa el final y abre un último espacio de decisión. «Anything we haven't covered» resulta natural en una pregunta.",
+      "translation": "Antes de terminar, ¿hay algo que no hayamos tratado y que necesite una decisión hoy?"
+    },
+    {
+      "id": "b19v2-signposting-094",
+      "topic": "Presentations · Summarising and closing",
+      "question": "Choose the clearest recap of three decisions made during the call.",
+      "options": [
+        "To recap, we've agreed on the owner, the target date, and the format of the next update.",
+        "To make a recap, we have accorded about the owner, the date target, and the following update format.",
+        "For recapping, we agreed the owner, objective date, and how will be the next update's format.",
+        "Recapitulating, agreement was made on who owns, when targets, and what format has the update."
+      ],
+      "correct": 0,
+      "explanation": "«To recap» es una señal habitual al final de una reunión. La lista usa tres sintagmas nominales paralelos y «agree on».",
+      "translation": "Recapitulando, hemos acordado el responsable, la fecha objetivo y el formato de la próxima actualización."
+    },
+    {
+      "id": "b19v2-signposting-095",
+      "topic": "Presentations · Summarising and closing",
+      "question": "What is the most natural way to state the central message one last time?",
+      "options": [
+        "The main takeout is clearer signposting will do the customer update easier to follow.",
+        "The principal takeaway is about signposting more clearly for making easier the update to follow.",
+        "The main message to take is that clearer signals make more easy following the customer update.",
+        "The main takeaway is that clearer signposting will make the customer update easier to follow."
+      ],
+      "correct": 3,
+      "explanation": "«The main takeaway is that...» vuelve a fijar la idea principal. «Make the update easier to follow» usa correctamente «make + objeto + adjetivo».",
+      "translation": "La conclusión principal es que una señalización más clara hará que la actualización para el cliente sea más fácil de seguir."
+    },
+    {
+      "id": "b19v2-signposting-096",
+      "topic": "Presentations · Summarising and closing",
+      "question": "You are assigning follow-up work. Which closing statement is most precise?",
+      "options": [
+        "The next steps consist to update the timeline, confirm to the owner, and sending the pack before Friday.",
+        "As next steps, we have to update timeline, confirming ownership, and send the revised pack for Friday.",
+        "The next steps are to update the timeline, confirm the owner, and send the revised pack by Friday.",
+        "The following steps are updating the timeline, to confirm the owner, and sending the pack revised until Friday."
+      ],
+      "correct": 2,
+      "explanation": "Tras «are to» aparecen tres infinitivos paralelos: «update, confirm, send». «By Friday» fija una fecha límite inclusiva.",
+      "translation": "Los próximos pasos son actualizar la cronología, confirmar el responsable y enviar el paquete revisado a más tardar el viernes."
+    },
+    {
+      "id": "b19v2-signposting-097",
+      "topic": "Presentations · Summarising and closing",
+      "question": "You have reached the final slide. Which sentence closes the content cleanly before questions?",
+      "options": [
+        "That covers all points I wanted discussing today. I am happy for taking questions.",
+        "With that are covered the points I wanted to speak today. You can make questions now.",
+        "That covers the points I wanted to discuss today. I'm happy to take any questions.",
+        "Those were the points to discuss for today. I will be pleased that you ask any doubts."
+      ],
+      "correct": 2,
+      "explanation": "«That covers...» indica que el contenido ha terminado y «I'm happy to take any questions» abre el turno de preguntas de manera profesional.",
+      "translation": "Con esto quedan cubiertos los puntos que quería tratar hoy. Estaré encantada de responder a sus preguntas."
+    },
+    {
+      "id": "b19v2-signposting-098",
+      "topic": "Presentations · Summarising and closing",
+      "question": "No one has additional questions. Choose the most natural way to move to the close.",
+      "options": [
+        "If there are no further questions, let's confirm the actions before we finish.",
+        "If no further questions exist, we confirm the actions previous to finishing.",
+        "If there aren't more questions, let's confirm the actions before to finish.",
+        "In case there are not additional doubts, let's make confirmation of the actions before finish."
+      ],
+      "correct": 0,
+      "explanation": "«If there are no further questions...» es una transición cortés al cierre. Después de «before» se usa una oración o gerundio, no «to finish».",
+      "translation": "Si no hay más preguntas, confirmemos las acciones antes de terminar."
+    },
+    {
+      "id": "b19v2-signposting-099",
+      "topic": "Presentations · Summarising and closing",
+      "question": "Which final thank-you sounds warm but professional?",
+      "options": [
+        "Thank you for your time and for the helpful input today.",
+        "Thank you for your time and for the useful inputs of today.",
+        "I appreciate your time and the helps you have provided during today.",
+        "Thanks for spending your time and giving helpful opinions in today's date."
+      ],
+      "correct": 0,
+      "explanation": "«Thank you for your time and for the helpful input» es natural; «input» suele ser incontable en este sentido.",
+      "translation": "Gracias por su tiempo y por las aportaciones útiles de hoy."
+    },
+    {
+      "id": "b19v2-signposting-100",
+      "topic": "Presentations · Summarising and closing",
+      "question": "You promise a written follow-up after the presentation. Which sentence is clearest?",
+      "options": [
+        "I will send after the call one brief resume with the decisions and the actions agreed by us.",
+        "After the call, a short summary will be sent by me, where decisions and agreed actions are including.",
+        "I send a short summary after the call, included the decisions and accorded actions.",
+        "I'll send a short summary after the call, including the decisions and agreed actions."
+      ],
+      "correct": 3,
+      "explanation": "«I'll send...» expresa el compromiso futuro con claridad. «Including...» añade el contenido del resumen; «summary» no es «resume».",
+      "translation": "Enviaré un breve resumen después de la llamada, incluidas las decisiones y las acciones acordadas."
+    }
+  ],
+  "category": "natural"
+}

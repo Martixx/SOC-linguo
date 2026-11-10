@@ -1,0 +1,428 @@
+{
+  "name": "11 · Future simple with will · Normal",
+  "description": "30 preguntas para expresar predicciones, decisiones espontáneas, promesas, ofertas, preguntas, negativas, condicionales y próximos pasos con will.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b11-will-001",
+      "topic": "Future simple with will · Spontaneous decision",
+      "question": "The client has just asked for a quick status summary. I ___ it now.",
+      "options": [
+        "will prepare",
+        "prepare",
+        "am preparing yesterday",
+        "am going prepare"
+      ],
+      "correct": 0,
+      "explanation": "La petición acaba de aparecer y la decisión se toma en el momento. Para una decisión espontánea usamos will + infinitivo sin to: will prepare.",
+      "translation": "El cliente acaba de pedir un resumen rápido del estado. Lo prepararé ahora."
+    },
+    {
+      "id": "b11-will-002",
+      "topic": "Future simple with will · Prediction",
+      "question": "Based on the current trend, the number of failed logins ___ overnight.",
+      "options": [
+        "increases yesterday",
+        "will increase",
+        "will increasing",
+        "is increase"
+      ],
+      "correct": 1,
+      "explanation": "Para una predicción sobre el futuro basada en el análisis u opinión usamos will + verbo base: will increase.",
+      "translation": "Según la tendencia actual, el número de inicios de sesión fallidos aumentará durante la noche."
+    },
+    {
+      "id": "b11-will-003",
+      "topic": "Future simple with will · Promise",
+      "question": "We ___ you as soon as the forensic image is ready.",
+      "options": [
+        "notify yesterday",
+        "will notified",
+        "will notify",
+        "are notify"
+      ],
+      "correct": 2,
+      "explanation": "Will se usa para promesas y compromisos. Después de will va el infinitivo sin to: will notify.",
+      "translation": "Le avisaremos en cuanto la imagen forense esté lista."
+    },
+    {
+      "id": "b11-will-004",
+      "topic": "Future simple with will · Negative form",
+      "question": "The containment action ___ legitimate traffic.",
+      "options": [
+        "will not affects",
+        "does not affected",
+        "not will affect",
+        "will not affect"
+      ],
+      "correct": 3,
+      "explanation": "La negativa del futuro simple es will not + verbo base. El verbo no lleva -s: will not affect.",
+      "translation": "La acción de contención no afectará al tráfico legítimo."
+    },
+    {
+      "id": "b11-will-005",
+      "topic": "Future simple with will · Question",
+      "question": "___ the SOC send an updated IOC list after the call?",
+      "options": [
+        "Will the SOC send",
+        "Does the SOC will send",
+        "Will the SOC sends",
+        "The SOC will send"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta con will se forma invirtiendo el auxiliar y el sujeto: Will + sujeto + verbo base.",
+      "translation": "¿Enviará el SOC una lista actualizada de indicadores de compromiso después de la llamada?"
+    },
+    {
+      "id": "b11-will-006",
+      "topic": "Future simple with will · Offer",
+      "question": "I ___ the timeline on screen if that helps.",
+      "options": [
+        "shared",
+        "will share",
+        "will sharing",
+        "am share"
+      ],
+      "correct": 1,
+      "explanation": "Para ofrecerse a hacer algo en el momento es natural usar will: I will share.",
+      "translation": "Compartiré la cronología en pantalla si eso ayuda."
+    },
+    {
+      "id": "b11-will-007",
+      "topic": "Future simple with will · Assurance",
+      "question": "We ___ the case open until every high-risk alert has been reviewed.",
+      "options": [
+        "will kept",
+        "kept tomorrow",
+        "will keep",
+        "are keep"
+      ],
+      "correct": 2,
+      "explanation": "Will expresa aquí una garantía al cliente. La estructura es will + keep, no will kept.",
+      "translation": "Mantendremos el caso abierto hasta que se hayan revisado todas las alertas de alto riesgo."
+    },
+    {
+      "id": "b11-will-008",
+      "topic": "Future simple with will · Probably",
+      "question": "The malware analysis ___ take another two hours.",
+      "options": [
+        "probably will to",
+        "will probable",
+        "probably is",
+        "will probably"
+      ],
+      "correct": 3,
+      "explanation": "Probably suele colocarse después de will y antes del verbo principal: will probably take.",
+      "translation": "El análisis del malware probablemente tardará otras dos horas."
+    },
+    {
+      "id": "b11-will-009",
+      "topic": "Future simple with will · Definitely",
+      "question": "This rule ___ detect the same pattern if it appears again.",
+      "options": [
+        "will definitely",
+        "definitely will to",
+        "will definite",
+        "definitely does"
+      ],
+      "correct": 0,
+      "explanation": "Definitely puede ir entre will y el verbo principal: will definitely detect.",
+      "translation": "Esta regla detectará sin duda el mismo patrón si vuelve a aparecer."
+    },
+    {
+      "id": "b11-will-010",
+      "topic": "Future simple with will · Short answer",
+      "question": "Will you include the affected hostnames in the report? — Yes, we ___.",
+      "options": [
+        "do",
+        "will",
+        "are",
+        "include"
+      ],
+      "correct": 1,
+      "explanation": "En una respuesta corta repetimos el auxiliar will, pero no el verbo principal: Yes, we will.",
+      "translation": "¿Incluirán los nombres de los equipos afectados en el informe? — Sí."
+    },
+    {
+      "id": "b11-will-011",
+      "topic": "Future simple with will · Negative short form",
+      "question": "The firewall change ___ be permanent; we will review it tomorrow.",
+      "options": [
+        "doesn't will",
+        "isn't",
+        "won't",
+        "willn't"
+      ],
+      "correct": 2,
+      "explanation": "Won't es la contracción correcta de will not. Se usa aquí para indicar que el cambio no será permanente.",
+      "translation": "El cambio del firewall no será permanente; lo revisaremos mañana."
+    },
+    {
+      "id": "b11-will-012",
+      "topic": "Future simple with will · Wh-question",
+      "question": "When ___ the client receive the final incident report?",
+      "options": [
+        "does",
+        "is",
+        "has",
+        "will"
+      ],
+      "correct": 3,
+      "explanation": "Las preguntas con partícula interrogativa siguen el orden When + will + sujeto + verbo base.",
+      "translation": "¿Cuándo recibirá el cliente el informe final del incidente?"
+    },
+    {
+      "id": "b11-will-013",
+      "topic": "Future simple with will · Request",
+      "question": "___ you confirm whether the IP is still blocked?",
+      "options": [
+        "Will",
+        "Are",
+        "Do will",
+        "Have"
+      ],
+      "correct": 0,
+      "explanation": "Will you...? puede utilizarse para formular una petición directa y profesional: Will you confirm...?",
+      "translation": "¿Puede confirmar si la IP sigue bloqueada?"
+    },
+    {
+      "id": "b11-will-014",
+      "topic": "Future simple with will · There will be",
+      "question": "There ___ a short service interruption during the emergency change.",
+      "options": [
+        "will have",
+        "will be",
+        "is be",
+        "will being"
+      ],
+      "correct": 1,
+      "explanation": "La forma futura de there is/there are es there will be, tanto con singular como con plural.",
+      "translation": "Habrá una breve interrupción del servicio durante el cambio de emergencia."
+    },
+    {
+      "id": "b11-will-015",
+      "topic": "Future simple with will · Future passive",
+      "question": "The compromised account ___ after the evidence is preserved.",
+      "options": [
+        "will disable",
+        "will be disable",
+        "will be disabled",
+        "is disabled yesterday"
+      ],
+      "correct": 2,
+      "explanation": "La pasiva en futuro se forma con will be + participio: will be disabled.",
+      "translation": "La cuenta comprometida será deshabilitada después de conservar las pruebas."
+    },
+    {
+      "id": "b11-will-016",
+      "topic": "Future simple with will · Future passive question",
+      "question": "When ___ the new detection rule ___?",
+      "options": [
+        "does / be deployed",
+        "will / deployed",
+        "is / deploy",
+        "will / be deployed"
+      ],
+      "correct": 3,
+      "explanation": "En una pregunta pasiva de futuro usamos will + sujeto + be + participio: will the rule be deployed.",
+      "translation": "¿Cuándo se desplegará la nueva regla de detección?"
+    },
+    {
+      "id": "b11-will-017",
+      "topic": "Future simple with will · Time clause",
+      "question": "We will close the incident after the client ___ the recovery.",
+      "options": [
+        "confirms",
+        "will confirm",
+        "confirmed",
+        "is confirming yesterday"
+      ],
+      "correct": 0,
+      "explanation": "En una subordinada temporal introducida por after usamos presente simple para hablar del futuro: after the client confirms. Will queda en la oración principal.",
+      "translation": "Cerraremos el incidente después de que el cliente confirme la recuperación."
+    },
+    {
+      "id": "b11-will-018",
+      "topic": "Future simple with will · As soon as",
+      "question": "As soon as we ___ the hash, we will update the blocklist.",
+      "options": [
+        "will verify",
+        "verify",
+        "verified",
+        "will verified"
+      ],
+      "correct": 1,
+      "explanation": "Después de as soon as usamos presente simple, aunque la acción sea futura: as soon as we verify.",
+      "translation": "En cuanto verifiquemos el hash, actualizaremos la lista de bloqueo."
+    },
+    {
+      "id": "b11-will-019",
+      "topic": "Future simple with will · If-clause",
+      "question": "If the beaconing continues, we ___ the host from the network.",
+      "options": [
+        "isolate yesterday",
+        "will isolated",
+        "will isolate",
+        "are isolate"
+      ],
+      "correct": 2,
+      "explanation": "En el primer condicional usamos presente simple en la condición y will + verbo base en el resultado: If ... continues, we will isolate.",
+      "translation": "Si continúa el beaconing, aislaremos el equipo de la red."
+    },
+    {
+      "id": "b11-will-020",
+      "topic": "Future simple with will · Unless",
+      "question": "We ___ the temporary rule unless the client approves the change.",
+      "options": [
+        "will not enables",
+        "do not enabled",
+        "not will enable",
+        "will not enable"
+      ],
+      "correct": 3,
+      "explanation": "Unless significa 'a menos que'. La consecuencia futura puede expresarse con will not + verbo base: will not enable.",
+      "translation": "No activaremos la regla temporal a menos que el cliente apruebe el cambio."
+    },
+    {
+      "id": "b11-will-021",
+      "topic": "Future simple with will · Neutral forecast",
+      "question": "The scan ___ at approximately 18:00 if the current speed remains stable.",
+      "options": [
+        "will finish",
+        "will finishes",
+        "finished tomorrow",
+        "is finish"
+      ],
+      "correct": 0,
+      "explanation": "Para una previsión futura se usa will + verbo base: will finish.",
+      "translation": "El escaneo terminará aproximadamente a las 18:00 si la velocidad actual se mantiene estable."
+    },
+    {
+      "id": "b11-will-022",
+      "topic": "Future simple with will · Client update",
+      "question": "We ___ a written update within the next 30 minutes.",
+      "options": [
+        "will provided",
+        "will provide",
+        "are provide",
+        "provided next"
+      ],
+      "correct": 1,
+      "explanation": "Will + provide comunica un compromiso futuro claro y profesional al cliente.",
+      "translation": "Proporcionaremos una actualización por escrito en los próximos 30 minutos."
+    },
+    {
+      "id": "b11-will-023",
+      "topic": "Future simple with will · Two future actions",
+      "question": "The analyst ___ the evidence and ___ the findings to the incident manager.",
+      "options": [
+        "will reviewed / report",
+        "reviews / reported",
+        "will review / will report",
+        "will reviewing / will reporting"
+      ],
+      "correct": 2,
+      "explanation": "Dos acciones futuras coordinadas pueden llevar will. Repetir el auxiliar aporta claridad: will review and will report.",
+      "translation": "El analista revisará las pruebas e informará de los hallazgos al responsable del incidente."
+    },
+    {
+      "id": "b11-will-024",
+      "topic": "Future simple with will · Contracted affirmative",
+      "question": "Don't worry; ___ monitor the critical assets throughout the night.",
+      "options": [
+        "we're",
+        "we've",
+        "we'd",
+        "we'll"
+      ],
+      "correct": 3,
+      "explanation": "We'll es la contracción de we will. Aquí expresa un compromiso de monitorización futura.",
+      "translation": "No se preocupe; supervisaremos los activos críticos durante toda la noche."
+    },
+    {
+      "id": "b11-will-025",
+      "topic": "Future simple with will · No longer",
+      "question": "The attacker-controlled domain ___ resolve after the registrar suspends it.",
+      "options": [
+        "will no longer",
+        "no will longer",
+        "doesn't will",
+        "will not longer to"
+      ],
+      "correct": 0,
+      "explanation": "Will no longer + verbo base expresa que algo dejará de ocurrir en el futuro: will no longer resolve.",
+      "translation": "El dominio controlado por el atacante dejará de resolver cuando el registrador lo suspenda."
+    },
+    {
+      "id": "b11-will-026",
+      "topic": "Future simple with will · Expectation",
+      "question": "I think the client ___ our containment recommendation.",
+      "options": [
+        "will accepts",
+        "will accept",
+        "accepted tomorrow",
+        "is accept"
+      ],
+      "correct": 1,
+      "explanation": "Con I think es frecuente usar will para expresar una expectativa u opinión sobre el futuro.",
+      "translation": "Creo que el cliente aceptará nuestra recomendación de contención."
+    },
+    {
+      "id": "b11-will-027",
+      "topic": "Future simple with will · Formal assurance",
+      "question": "All collected evidence ___ in accordance with the retention policy.",
+      "options": [
+        "will store",
+        "will be store",
+        "will be stored",
+        "is storing yesterday"
+      ],
+      "correct": 2,
+      "explanation": "La evidencia recibe la acción, por eso usamos la pasiva futura: will be + stored.",
+      "translation": "Todas las pruebas recopiladas se almacenarán de acuerdo con la política de retención."
+    },
+    {
+      "id": "b11-will-028",
+      "topic": "Future simple with will · Tag question",
+      "question": "You will send us the memory dump today, ___?",
+      "options": [
+        "will you",
+        "don't you",
+        "aren't you",
+        "won't you"
+      ],
+      "correct": 3,
+      "explanation": "Una oración afirmativa con will lleva una question tag negativa con won't + pronombre: won't you?",
+      "translation": "Nos enviará hoy el volcado de memoria, ¿verdad?"
+    },
+    {
+      "id": "b11-will-029",
+      "topic": "Future simple with will · How long question",
+      "question": "How long ___ the investigation take?",
+      "options": [
+        "will",
+        "does will",
+        "is",
+        "has"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta se forma con How long + will + sujeto + verbo base: How long will the investigation take?",
+      "translation": "¿Cuánto durará la investigación?"
+    },
+    {
+      "id": "b11-will-030",
+      "topic": "Future simple with will · Conditional promise",
+      "question": "If you send the logs before noon, we ___ them in today's review.",
+      "options": [
+        "will included",
+        "will include",
+        "include yesterday",
+        "are include"
+      ],
+      "correct": 1,
+      "explanation": "La condición va en presente simple y el resultado futuro en will + verbo base: will include.",
+      "translation": "Si envía los logs antes del mediodía, los incluiremos en la revisión de hoy."
+    }
+  ],
+  "category": "normal"
+}

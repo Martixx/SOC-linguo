@@ -1,0 +1,708 @@
+{
+  "name": "28 · Passive voice · Normal",
+  "description": "50 preguntas normales sobre passive voice y estructuras causativas en contextos SOC y de comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b28-q001",
+      "topic": "Present and past simple passive",
+      "question": "All customer calls ___ for quality purposes.",
+      "options": [
+        "are recorded",
+        "record",
+        "are recording",
+        "is recorded"
+      ],
+      "correct": 0,
+      "explanation": "El present simple passive se forma con am/is/are + participio. Calls es plural, por eso usamos are recorded.",
+      "translation": "Todas las llamadas con clientes se graban con fines de calidad."
+    },
+    {
+      "id": "b28-q002",
+      "topic": "Present and past simple passive",
+      "question": "The weekly overview ___ by the team lead every Friday.",
+      "options": [
+        "reviews",
+        "is reviewing",
+        "are reviewed",
+        "is reviewed"
+      ],
+      "correct": 3,
+      "explanation": "Para una rutina en pasiva usamos present simple passive: is + reviewed. El sujeto, overview, es singular.",
+      "translation": "El responsable del equipo revisa el resumen semanal todos los viernes."
+    },
+    {
+      "id": "b28-q003",
+      "topic": "Present and past simple passive",
+      "question": "The customer ___ about the delay yesterday afternoon.",
+      "options": [
+        "is notified",
+        "notified",
+        "was notified",
+        "was notify"
+      ],
+      "correct": 2,
+      "explanation": "Yesterday afternoon exige pasado; la pasiva singular se forma con was + participio: was notified.",
+      "translation": "Se informó al cliente del retraso ayer por la tarde."
+    },
+    {
+      "id": "b28-q004",
+      "topic": "Present and past simple passive",
+      "question": "Several alerts ___ automatically when the test began.",
+      "options": [
+        "generated",
+        "were generated",
+        "was generated",
+        "were generate"
+      ],
+      "correct": 1,
+      "explanation": "En past simple passive con sujeto plural usamos were + participio: were generated.",
+      "translation": "Se generaron varias alertas automáticamente cuando comenzó la prueba."
+    },
+    {
+      "id": "b28-q005",
+      "topic": "Present and past simple passive",
+      "question": "Confidential attachments ___ on personal devices.",
+      "options": [
+        "are not stored",
+        "do not store",
+        "are not storing",
+        "is not stored"
+      ],
+      "correct": 0,
+      "explanation": "La negativa pasiva en presente usa am/is/are + not + participio. Attachments exige are.",
+      "translation": "Los archivos adjuntos confidenciales no se almacenan en dispositivos personales."
+    },
+    {
+      "id": "b28-q006",
+      "topic": "Present and past simple passive",
+      "question": "___ the account locked after the customer call?",
+      "options": [
+        "Did",
+        "Was",
+        "Were",
+        "Has"
+      ],
+      "correct": 1,
+      "explanation": "En una pregunta pasiva en past simple colocamos was/were antes del sujeto: Was the account locked...?",
+      "translation": "¿Se bloqueó la cuenta después de la llamada con el cliente?"
+    },
+    {
+      "id": "b28-q007",
+      "topic": "Present and past simple passive",
+      "question": "Choose the correct passive version of “The night shift prepared the handover.”",
+      "options": [
+        "The handover prepared by the night shift.",
+        "The handover was prepare by the night shift.",
+        "The night shift was prepared the handover.",
+        "The handover was prepared by the night shift."
+      ],
+      "correct": 3,
+      "explanation": "El objeto de la activa pasa a sujeto y usamos was + participio: was prepared.",
+      "translation": "El traspaso fue preparado por el turno de noche."
+    },
+    {
+      "id": "b28-q008",
+      "topic": "Present and past simple passive",
+      "question": "These access requests ___ by a separate team.",
+      "options": [
+        "are handled",
+        "is handled",
+        "are handle",
+        "handle are"
+      ],
+      "correct": 0,
+      "explanation": "Requests es plural; el present simple passive correcto es are handled.",
+      "translation": "Estas solicitudes de acceso las gestiona otro equipo."
+    },
+    {
+      "id": "b28-q009",
+      "topic": "Present and past simple passive",
+      "question": "The first draft ___ by Elena before the meeting.",
+      "options": [
+        "was wrote",
+        "is wrote",
+        "was written",
+        "wrote"
+      ],
+      "correct": 2,
+      "explanation": "El participio de write es written; en pasado pasivo singular usamos was written.",
+      "translation": "El primer borrador fue redactado por Elena antes de la reunión."
+    },
+    {
+      "id": "b28-q010",
+      "topic": "Present and past simple passive",
+      "question": "The summary ___ by the morning shift and sent at noon.",
+      "options": [
+        "prepared",
+        "was preparing",
+        "were prepared",
+        "was prepared"
+      ],
+      "correct": 3,
+      "explanation": "El sujeto singular summary recibe la acción, así que usamos was + participio.",
+      "translation": "El resumen fue preparado por el turno de mañana y enviado al mediodía."
+    },
+    {
+      "id": "b28-q011",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The unusual activity ___ at the moment.",
+      "options": [
+        "is being investigated",
+        "is investigated yesterday",
+        "has investigating",
+        "is being investigate"
+      ],
+      "correct": 0,
+      "explanation": "El present continuous passive se forma con am/is/are being + participio: is being investigated.",
+      "translation": "La actividad inusual se está investigando en este momento."
+    },
+    {
+      "id": "b28-q012",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The open cases ___ when the customer joined the call.",
+      "options": [
+        "were reviewed now",
+        "were being review",
+        "had reviewing",
+        "were being reviewed"
+      ],
+      "correct": 3,
+      "explanation": "Para una acción pasiva en curso en un momento pasado usamos was/were being + participio.",
+      "translation": "Los casos abiertos se estaban revisando cuando el cliente se unió a la llamada."
+    },
+    {
+      "id": "b28-q013",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The revised report ___ to the customer already.",
+      "options": [
+        "has been sent",
+        "has sent",
+        "was being sent already",
+        "has been send"
+      ],
+      "correct": 0,
+      "explanation": "El present perfect passive se forma con has/have been + participio: has been sent.",
+      "translation": "El informe revisado ya se ha enviado al cliente."
+    },
+    {
+      "id": "b28-q014",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "By the time I checked the queue, the ticket ___ .",
+      "options": [
+        "has been closed",
+        "had closed",
+        "had been close",
+        "had been closed"
+      ],
+      "correct": 3,
+      "explanation": "El past perfect passive usa had been + participio y marca una acción anterior a otra acción pasada.",
+      "translation": "Cuando comprobé la cola, el ticket ya se había cerrado."
+    },
+    {
+      "id": "b28-q015",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The remaining questions ___ during tomorrow’s call.",
+      "options": [
+        "will discuss",
+        "will be discuss",
+        "will be discussed",
+        "are discussed yesterday"
+      ],
+      "correct": 2,
+      "explanation": "El future passive se forma con will be + participio: will be discussed.",
+      "translation": "Las preguntas restantes se tratarán durante la llamada de mañana."
+    },
+    {
+      "id": "b28-q016",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The contact list ___ before the next exercise.",
+      "options": [
+        "is going to be updated",
+        "is going to update",
+        "is going to be update",
+        "will being updated"
+      ],
+      "correct": 0,
+      "explanation": "La pasiva con be going to se forma con am/is/are going to be + participio.",
+      "translation": "La lista de contactos se actualizará antes del próximo ejercicio."
+    },
+    {
+      "id": "b28-q017",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "Every customer-facing message ___ before it is sent.",
+      "options": [
+        "must approve",
+        "must be approved",
+        "must be approve",
+        "must approved"
+      ],
+      "correct": 1,
+      "explanation": "La pasiva con modal usa modal + be + participio: must be approved.",
+      "translation": "Todos los mensajes destinados al cliente deben aprobarse antes de enviarse."
+    },
+    {
+      "id": "b28-q018",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The internal notes ___ outside the approved group.",
+      "options": [
+        "should not share",
+        "should not be share",
+        "should be not sharing",
+        "should not be shared"
+      ],
+      "correct": 3,
+      "explanation": "La negativa pasiva con modal se forma con modal + not + be + participio.",
+      "translation": "Las notas internas no deberían compartirse fuera del grupo autorizado."
+    },
+    {
+      "id": "b28-q019",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The misunderstanding ___ with a clearer subject line.",
+      "options": [
+        "could have been prevented",
+        "could be prevented yesterday",
+        "could have prevented",
+        "could have been prevent"
+      ],
+      "correct": 0,
+      "explanation": "Para una posibilidad pasiva no realizada en el pasado usamos could have been + participio.",
+      "translation": "El malentendido podría haberse evitado con un asunto más claro."
+    },
+    {
+      "id": "b28-q020",
+      "topic": "Continuous, perfect, future and modal passive",
+      "question": "The final update ___ if the approval arrives late.",
+      "options": [
+        "may delay itself",
+        "may be delayed",
+        "may be delay",
+        "may delayed"
+      ],
+      "correct": 1,
+      "explanation": "La pasiva con may se forma con may be + participio: may be delayed.",
+      "translation": "La actualización final podría retrasarse si la aprobación llega tarde."
+    },
+    {
+      "id": "b28-q021",
+      "topic": "Passive questions, negatives and agents",
+      "question": "When ___ the first notification sent?",
+      "options": [
+        "was",
+        "did",
+        "has",
+        "were"
+      ],
+      "correct": 0,
+      "explanation": "En una pregunta pasiva en pasado con sujeto singular usamos was antes del sujeto.",
+      "translation": "¿Cuándo se envió la primera notificación?"
+    },
+    {
+      "id": "b28-q022",
+      "topic": "Passive questions, negatives and agents",
+      "question": "___ the latest version been approved yet?",
+      "options": [
+        "Did",
+        "Was",
+        "Is",
+        "Has"
+      ],
+      "correct": 3,
+      "explanation": "El present perfect passive interrogativo empieza con has/have: Has ... been approved?",
+      "translation": "¿Se ha aprobado ya la última versión?"
+    },
+    {
+      "id": "b28-q023",
+      "topic": "Passive questions, negatives and agents",
+      "question": "Why ___ the customer informed about the new time?",
+      "options": [
+        "didn’t",
+        "wasn’t",
+        "hasn’t been",
+        "weren’t"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta se refiere a una omisión pasada y el sujeto es singular: Why wasn’t ... informed?",
+      "translation": "¿Por qué no se informó al cliente de la nueva hora?"
+    },
+    {
+      "id": "b28-q024",
+      "topic": "Passive questions, negatives and agents",
+      "question": "Choose the natural question asking about the writer of the report.",
+      "options": [
+        "Who did the report write by?",
+        "Who was written the report by?",
+        "Who was the report written by?",
+        "By who the report was written?"
+      ],
+      "correct": 2,
+      "explanation": "En la pregunta pasiva informal usamos Who + was + sujeto + participio + by.",
+      "translation": "¿Quién redactó el informe?"
+    },
+    {
+      "id": "b28-q025",
+      "topic": "Passive questions, negatives and agents",
+      "question": "___ was the exception approved?",
+      "options": [
+        "By who",
+        "By whom",
+        "Who by",
+        "Whom by"
+      ],
+      "correct": 1,
+      "explanation": "En registro formal, la preposición va delante de whom: By whom was...?",
+      "translation": "¿Quién aprobó la excepción?"
+    },
+    {
+      "id": "b28-q026",
+      "topic": "Passive questions, negatives and agents",
+      "question": "The earlier email address ___ in the final message.",
+      "options": [
+        "did not include",
+        "was not include",
+        "was not included",
+        "not was included"
+      ],
+      "correct": 2,
+      "explanation": "La negativa en past simple passive se forma con was/were not + participio.",
+      "translation": "La dirección de correo anterior no se incluyó en el mensaje final."
+    },
+    {
+      "id": "b28-q027",
+      "topic": "Passive questions, negatives and agents",
+      "question": "This template ___ for a customer report before.",
+      "options": [
+        "never has used",
+        "has never used",
+        "has never been use",
+        "has never been used"
+      ],
+      "correct": 3,
+      "explanation": "En present perfect passive, never va normalmente entre has y been: has never been used.",
+      "translation": "Esta plantilla nunca se ha utilizado antes para un informe de cliente."
+    },
+    {
+      "id": "b28-q028",
+      "topic": "Passive questions, negatives and agents",
+      "question": "___ the client told that the meeting had moved?",
+      "options": [
+        "Was",
+        "Did",
+        "Has",
+        "Were"
+      ],
+      "correct": 0,
+      "explanation": "La estructura pasiva interrogativa en pasado es Was + sujeto + participio.",
+      "translation": "¿Se informó al cliente de que la reunión había cambiado de hora?"
+    },
+    {
+      "id": "b28-q029",
+      "topic": "Passive questions, negatives and agents",
+      "question": "How many requests ___ during the morning shift?",
+      "options": [
+        "did receive",
+        "was received",
+        "were received",
+        "were receive"
+      ],
+      "correct": 2,
+      "explanation": "Requests es plural y recibe la acción; usamos were + participio.",
+      "translation": "¿Cuántas solicitudes se recibieron durante el turno de mañana?"
+    },
+    {
+      "id": "b28-q030",
+      "topic": "Passive questions, negatives and agents",
+      "question": "Where ___ the recording be stored after the call?",
+      "options": [
+        "will",
+        "does",
+        "is",
+        "has"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta en future passive se forma con will + sujeto + be + participio.",
+      "translation": "¿Dónde se almacenará la grabación después de la llamada?"
+    },
+    {
+      "id": "b28-q031",
+      "topic": "Have and get something done",
+      "question": "We should have the final report ___ before sending it.",
+      "options": [
+        "proofreading",
+        "to proofread",
+        "proofread",
+        "proofreads"
+      ],
+      "correct": 2,
+      "explanation": "Have something done se forma con have + objeto + participio: have the report proofread.",
+      "translation": "Deberíamos hacer que revisaran el informe final antes de enviarlo."
+    },
+    {
+      "id": "b28-q032",
+      "topic": "Have and get something done",
+      "question": "The user needs to get the password ___ before the next login.",
+      "options": [
+        "resetting",
+        "reset",
+        "to reset",
+        "resets"
+      ],
+      "correct": 1,
+      "explanation": "Get something done usa get + objeto + participio. Reset tiene la misma forma como infinitivo y participio.",
+      "translation": "El usuario necesita que le restablezcan la contraseña antes del próximo inicio de sesión."
+    },
+    {
+      "id": "b28-q033",
+      "topic": "Have and get something done",
+      "question": "We had the slides ___ after the rehearsal.",
+      "options": [
+        "update",
+        "updating",
+        "updated",
+        "to updated"
+      ],
+      "correct": 2,
+      "explanation": "En pasado, had + objeto + participio indica que otra persona realizó el trabajo.",
+      "translation": "Hicimos que actualizaran las diapositivas después del ensayo."
+    },
+    {
+      "id": "b28-q034",
+      "topic": "Have and get something done",
+      "question": "The coordinator is having the audio ___ before the webinar.",
+      "options": [
+        "checked",
+        "check",
+        "checking",
+        "to check"
+      ],
+      "correct": 0,
+      "explanation": "La estructura continua es is having + objeto + participio: is having the audio checked.",
+      "translation": "La coordinadora está haciendo que comprueben el audio antes del seminario web."
+    },
+    {
+      "id": "b28-q035",
+      "topic": "Have and get something done",
+      "question": "We’ll have the attachment ___ before it leaves the approved environment.",
+      "options": [
+        "encrypt",
+        "encrypting",
+        "to encrypt",
+        "encrypted"
+      ],
+      "correct": 3,
+      "explanation": "Tras have + objeto usamos el participio para indicar que se encarga la acción a otra persona o servicio.",
+      "translation": "Haremos que cifren el archivo adjunto antes de que salga del entorno autorizado."
+    },
+    {
+      "id": "b28-q036",
+      "topic": "Have and get something done",
+      "question": "___ you have the document translated before the call?",
+      "options": [
+        "Were",
+        "Did",
+        "Have been",
+        "Do have"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta en past simple con have something done usa did + sujeto + have + objeto + participio.",
+      "translation": "¿Hiciste traducir el documento antes de la llamada?"
+    },
+    {
+      "id": "b28-q037",
+      "topic": "Have and get something done",
+      "question": "The customer wants to get the notification settings ___ .",
+      "options": [
+        "change",
+        "changing",
+        "to changing",
+        "changed"
+      ],
+      "correct": 3,
+      "explanation": "Get + objeto + participio expresa que se solicita o consigue que otra persona haga el cambio.",
+      "translation": "El cliente quiere que le cambien la configuración de las notificaciones."
+    },
+    {
+      "id": "b28-q038",
+      "topic": "Have and get something done",
+      "question": "She didn’t design the diagram herself; she had it ___ by a colleague.",
+      "options": [
+        "create",
+        "created",
+        "creating",
+        "to create"
+      ],
+      "correct": 1,
+      "explanation": "Had it created indica que otra persona creó el diagrama; created es el participio.",
+      "translation": "No diseñó ella misma el diagrama; hizo que un compañero lo creara."
+    },
+    {
+      "id": "b28-q039",
+      "topic": "Have and get something done",
+      "question": "Choose the sentence meaning that another person checked our wording.",
+      "options": [
+        "We checked our wording ourselves.",
+        "We had checked our wording.",
+        "We had our wording checked.",
+        "We were checking our wording."
+      ],
+      "correct": 2,
+      "explanation": "Have + objeto + participio expresa causativa: encargamos a otra persona la revisión.",
+      "translation": "Hicimos que revisaran nuestra redacción."
+    },
+    {
+      "id": "b28-q040",
+      "topic": "Have and get something done",
+      "question": "They finally got their account ___ after contacting support.",
+      "options": [
+        "restore",
+        "restoring",
+        "to restore",
+        "restored"
+      ],
+      "correct": 3,
+      "explanation": "Got + objeto + participio indica que consiguieron que se realizara la acción.",
+      "translation": "Finalmente consiguieron que les restauraran la cuenta tras contactar con soporte."
+    },
+    {
+      "id": "b28-q041",
+      "topic": "Passive transformations and special patterns",
+      "question": "Choose the correct passive version of “The SOC sent the customer a short update.”",
+      "options": [
+        "The customer was sent a short update by the SOC.",
+        "The customer sent a short update by the SOC.",
+        "The customer was send a short update by the SOC.",
+        "A short update was sent the customer by the SOC."
+      ],
+      "correct": 0,
+      "explanation": "Con verbos de doble objeto, el receptor puede pasar a sujeto: The customer was sent... El participio es sent.",
+      "translation": "El SOC envió al cliente una breve actualización."
+    },
+    {
+      "id": "b28-q042",
+      "topic": "Passive transformations and special patterns",
+      "question": "People expect that the call will finish by noon. Choose the formal passive equivalent.",
+      "options": [
+        "It expects that the call will finish by noon.",
+        "It is expect that the call will finish by noon.",
+        "It is expected that the call will finish by noon.",
+        "The call is expected that will finish by noon."
+      ],
+      "correct": 2,
+      "explanation": "La pasiva impersonal se forma con It + be + participio + that: It is expected that...",
+      "translation": "Se espera que la llamada termine antes del mediodía."
+    },
+    {
+      "id": "b28-q043",
+      "topic": "Passive transformations and special patterns",
+      "question": "People believe that the account is inactive. Choose the correct passive form.",
+      "options": [
+        "The account believes to be inactive.",
+        "The account is believed to be inactive.",
+        "The account is believe being inactive.",
+        "The account is believed that inactive."
+      ],
+      "correct": 1,
+      "explanation": "Con believe podemos usar sujeto + be + participio + to-infinitive: is believed to be.",
+      "translation": "Se cree que la cuenta está inactiva."
+    },
+    {
+      "id": "b28-q044",
+      "topic": "Passive transformations and special patterns",
+      "question": "People say that the alert appeared at midnight. Choose the form that reports the earlier event.",
+      "options": [
+        "The alert is said to appear at midnight yesterday.",
+        "The alert says to have appeared at midnight.",
+        "The alert is said to have appeared at midnight.",
+        "The alert is said having appeared at midnight."
+      ],
+      "correct": 2,
+      "explanation": "Para una acción anterior al momento de informar usamos passive reporting verb + to have + participio.",
+      "translation": "Se dice que la alerta apareció a medianoche."
+    },
+    {
+      "id": "b28-q045",
+      "topic": "Passive transformations and special patterns",
+      "question": "The introduction needs ___ before the report is sent.",
+      "options": [
+        "to revise",
+        "to be revised",
+        "being revise",
+        "to be revise"
+      ],
+      "correct": 1,
+      "explanation": "Tras need, la forma pasiva con infinitivo es to be + participio: needs to be revised.",
+      "translation": "La introducción debe revisarse antes de enviar el informe."
+    },
+    {
+      "id": "b28-q046",
+      "topic": "Passive transformations and special patterns",
+      "question": "The customer appreciated ___ before the maintenance began.",
+      "options": [
+        "contacting",
+        "being contact",
+        "being contacted",
+        "to being contacted"
+      ],
+      "correct": 2,
+      "explanation": "Después de appreciated usamos gerundio; en pasiva, being + participio: being contacted.",
+      "translation": "El cliente agradeció que se contactara con él antes de que comenzara el mantenimiento."
+    },
+    {
+      "id": "b28-q047",
+      "topic": "Passive transformations and special patterns",
+      "question": "The file was removed without anyone ___ to do it.",
+      "options": [
+        "being asked",
+        "asking",
+        "been asked",
+        "to be asking"
+      ],
+      "correct": 0,
+      "explanation": "Después de without usamos gerundio; la forma pasiva es being asked.",
+      "translation": "El archivo se eliminó sin que se pidiera a nadie que lo hiciera."
+    },
+    {
+      "id": "b28-q048",
+      "topic": "Passive transformations and special patterns",
+      "question": "In the active sentence they made us wait. Choose the correct passive form.",
+      "options": [
+        "We were made wait.",
+        "We were made to wait.",
+        "We made to wait.",
+        "We were making to wait."
+      ],
+      "correct": 1,
+      "explanation": "Make lleva infinitivo sin to en activa, pero en pasiva recupera to: were made to wait.",
+      "translation": "Nos hicieron esperar."
+    },
+    {
+      "id": "b28-q049",
+      "topic": "Passive transformations and special patterns",
+      "question": "Choose the natural passive equivalent of “They let the client join early.”",
+      "options": [
+        "The client was let to join early.",
+        "The client was allowed join early.",
+        "The client let be joined early.",
+        "The client was allowed to join early."
+      ],
+      "correct": 3,
+      "explanation": "La pasiva habitual de let se expresa con be allowed to + infinitivo.",
+      "translation": "Se permitió al cliente conectarse antes."
+    },
+    {
+      "id": "b28-q050",
+      "topic": "Passive transformations and special patterns",
+      "question": "Investigators consider that the incident has been resolved. Choose the formal passive equivalent.",
+      "options": [
+        "The incident considers to be resolved.",
+        "The incident is considered to have been resolved.",
+        "The incident is considered having resolved.",
+        "The incident is consider to have been resolved."
+      ],
+      "correct": 1,
+      "explanation": "La estructura formal usa is considered + perfect infinitive passive: to have been resolved.",
+      "translation": "Se considera que el incidente se ha resuelto."
+    }
+  ]
+}

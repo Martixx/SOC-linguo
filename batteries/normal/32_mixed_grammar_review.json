@@ -1,0 +1,1408 @@
+{
+  "name": "32 · Mixed grammar review · Normal",
+  "description": "100 preguntas normales de repaso mixto sobre tiempos verbales, modales, condicionales, artículos, nombres, preposiciones, relativas, pasiva, estilo indirecto, colocaciones y preguntas.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b32-q001",
+      "topic": "Verb tenses in context",
+      "question": "The SOC ___ this customer environment since the service began in 2023.",
+      "options": [
+        "has monitored",
+        "monitors",
+        "is monitoring",
+        "monitored"
+      ],
+      "correct": 0,
+      "explanation": "Present perfect expresa una actividad iniciada en el pasado que continúa hasta ahora; since marca el punto inicial.",
+      "translation": "El SOC monitoriza este entorno del cliente desde que comenzó el servicio en 2023."
+    },
+    {
+      "id": "b32-q002",
+      "topic": "Verb tenses in context",
+      "question": "At 02:15, the analyst ___ the ticket when the second alert arrived.",
+      "options": [
+        "updated",
+        "was updating",
+        "has updated",
+        "had updated"
+      ],
+      "correct": 1,
+      "explanation": "Past continuous describe la acción en curso interrumpida por otra acción pasada.",
+      "translation": "A las 02:15, el analista estaba actualizando el ticket cuando llegó la segunda alerta."
+    },
+    {
+      "id": "b32-q003",
+      "topic": "Verb tenses in context",
+      "question": "By the time the customer joined the call, we ___ the malicious rule.",
+      "options": [
+        "have already removed",
+        "already remove",
+        "had already removed",
+        "were already removing"
+      ],
+      "correct": 2,
+      "explanation": "Past perfect indica que la eliminación ocurrió antes de otro momento pasado.",
+      "translation": "Cuando el cliente se unió a la llamada, ya habíamos eliminado la regla maliciosa."
+    },
+    {
+      "id": "b32-q004",
+      "topic": "Verb tenses in context",
+      "question": "We ___ three similar alerts so far today.",
+      "options": [
+        "received yesterday",
+        "are receiving since morning",
+        "had received now",
+        "have received"
+      ],
+      "correct": 3,
+      "explanation": "So far today señala un periodo todavía abierto y favorece el present perfect.",
+      "translation": "Hemos recibido tres alertas similares en lo que va de día."
+    },
+    {
+      "id": "b32-q005",
+      "topic": "Verb tenses in context",
+      "question": "The user usually ___ from Madrid, but today the sign-in is from another country.",
+      "options": [
+        "works",
+        "is working usually",
+        "has worked yesterday",
+        "work"
+      ],
+      "correct": 0,
+      "explanation": "Present simple expresa un hábito; user es tercera persona singular.",
+      "translation": "El usuario suele trabajar desde Madrid, pero hoy el inicio de sesión procede de otro país."
+    },
+    {
+      "id": "b32-q006",
+      "topic": "Verb tenses in context",
+      "question": "This time tomorrow, the engineers ___ the new sensor in production.",
+      "options": [
+        "test",
+        "will be testing",
+        "will have tested yesterday",
+        "are test"
+      ],
+      "correct": 1,
+      "explanation": "Future continuous describe una acción que estará en curso en un momento futuro concreto.",
+      "translation": "Mañana a esta hora, los ingenieros estarán probando el nuevo sensor en producción."
+    },
+    {
+      "id": "b32-q007",
+      "topic": "Verb tenses in context",
+      "question": "The scan ___ yet, so we cannot close the incident.",
+      "options": [
+        "didn’t finish yet",
+        "isn’t finish",
+        "hasn’t finished",
+        "hadn’t finish"
+      ],
+      "correct": 2,
+      "explanation": "Yet en una situación presente pendiente suele combinarse con present perfect negativo.",
+      "translation": "El análisis todavía no ha terminado, así que no podemos cerrar el incidente."
+    },
+    {
+      "id": "b32-q008",
+      "topic": "Verb tenses in context",
+      "question": "When the outage started, the server ___ normally for several weeks.",
+      "options": [
+        "has been running",
+        "was run",
+        "runs",
+        "had been running"
+      ],
+      "correct": 3,
+      "explanation": "Past perfect continuous destaca la duración anterior a otro hecho pasado.",
+      "translation": "Cuando comenzó la interrupción, el servidor llevaba varias semanas funcionando con normalidad."
+    },
+    {
+      "id": "b32-q009",
+      "topic": "Verb tenses in context",
+      "question": "Look at that traffic spike—the service ___ its capacity limit.",
+      "options": [
+        "is going to reach",
+        "reaches yesterday",
+        "will reaching",
+        "has reach"
+      ],
+      "correct": 0,
+      "explanation": "Be going to expresa una predicción basada en evidencia presente visible.",
+      "translation": "Mira ese pico de tráfico: el servicio va a alcanzar su límite de capacidad."
+    },
+    {
+      "id": "b32-q010",
+      "topic": "Verb tenses in context",
+      "question": "The team ___ the firewall change last night and confirmed that it worked.",
+      "options": [
+        "has implemented last night",
+        "implemented",
+        "implements",
+        "had implement"
+      ],
+      "correct": 1,
+      "explanation": "Last night es un periodo pasado terminado, por lo que usamos past simple.",
+      "translation": "El equipo implementó el cambio del cortafuegos anoche y confirmó que funcionaba."
+    },
+    {
+      "id": "b32-q011",
+      "topic": "Modals and verb patterns",
+      "question": "We ___ describe the activity as malicious until we have stronger evidence.",
+      "options": [
+        "don’t should",
+        "shouldn’t to",
+        "shouldn’t",
+        "aren’t should"
+      ],
+      "correct": 2,
+      "explanation": "Shouldn’t + verbo base expresa una recomendación negativa.",
+      "translation": "No deberíamos describir la actividad como maliciosa hasta tener pruebas más sólidas."
+    },
+    {
+      "id": "b32-q012",
+      "topic": "Modals and verb patterns",
+      "question": "The user ___ have approved the sign-in; they were on a flight at the time.",
+      "options": [
+        "must to not",
+        "doesn’t can",
+        "should to",
+        "can’t"
+      ],
+      "correct": 3,
+      "explanation": "Can’t have + participio expresa una deducción fuerte sobre algo imposible en el pasado.",
+      "translation": "El usuario no puede haber aprobado el inicio de sesión; estaba en un vuelo en ese momento."
+    },
+    {
+      "id": "b32-q013",
+      "topic": "Modals and verb patterns",
+      "question": "The customer asked us ___ the raw logs for ninety days.",
+      "options": [
+        "to retain",
+        "retaining",
+        "retain",
+        "to retaining"
+      ],
+      "correct": 0,
+      "explanation": "Ask someone to do something exige infinitivo con to.",
+      "translation": "El cliente nos pidió conservar los registros sin procesar durante noventa días."
+    },
+    {
+      "id": "b32-q014",
+      "topic": "Modals and verb patterns",
+      "question": "Avoid ___ the attachment until the sandbox analysis is complete.",
+      "options": [
+        "to open",
+        "opening",
+        "open",
+        "to opening"
+      ],
+      "correct": 1,
+      "explanation": "Avoid va seguido de gerundio.",
+      "translation": "Evita abrir el archivo adjunto hasta que termine el análisis en el sandbox."
+    },
+    {
+      "id": "b32-q015",
+      "topic": "Modals and verb patterns",
+      "question": "We managed ___ the affected host before the malware spread.",
+      "options": [
+        "isolating",
+        "isolate",
+        "to isolate",
+        "to isolating"
+      ],
+      "correct": 2,
+      "explanation": "Manage va seguido de infinitivo con to.",
+      "translation": "Conseguimos aislar el equipo afectado antes de que se propagara el malware."
+    },
+    {
+      "id": "b32-q016",
+      "topic": "Modals and verb patterns",
+      "question": "You ___ reset the token now; it expired automatically and cannot be reused.",
+      "options": [
+        "mustn’t",
+        "haven’t to",
+        "don’t must",
+        "don’t have to"
+      ],
+      "correct": 3,
+      "explanation": "Don’t have to indica ausencia de necesidad; mustn’t indicaría prohibición.",
+      "translation": "No tienes que restablecer el token ahora; caducó automáticamente y no puede reutilizarse."
+    },
+    {
+      "id": "b32-q017",
+      "topic": "Modals and verb patterns",
+      "question": "The unexpected administrator login ___ indicate credential theft, but we need more context.",
+      "options": [
+        "might",
+        "has to",
+        "must to",
+        "is able"
+      ],
+      "correct": 0,
+      "explanation": "Might + verbo base expresa posibilidad sin afirmar una conclusión.",
+      "translation": "El inicio de sesión inesperado del administrador podría indicar robo de credenciales, pero necesitamos más contexto."
+    },
+    {
+      "id": "b32-q018",
+      "topic": "Modals and verb patterns",
+      "question": "I’d rather ___ for the endpoint results before making a recommendation.",
+      "options": [
+        "to wait",
+        "wait",
+        "waiting",
+        "to waiting"
+      ],
+      "correct": 1,
+      "explanation": "Would rather va seguido de verbo base sin to.",
+      "translation": "Preferiría esperar a los resultados del endpoint antes de hacer una recomendación."
+    },
+    {
+      "id": "b32-q019",
+      "topic": "Modals and verb patterns",
+      "question": "The report is expected ___ ready before the customer call.",
+      "options": [
+        "being",
+        "be",
+        "to be",
+        "to being"
+      ],
+      "correct": 2,
+      "explanation": "Be expected va seguido de infinitivo con to.",
+      "translation": "Se espera que el informe esté listo antes de la llamada con el cliente."
+    },
+    {
+      "id": "b32-q020",
+      "topic": "Modals and verb patterns",
+      "question": "We recommend ___ the exception every thirty days.",
+      "options": [
+        "to review",
+        "review",
+        "to reviewing",
+        "reviewing"
+      ],
+      "correct": 3,
+      "explanation": "Recommend suele ir seguido de gerundio cuando no se menciona un destinatario.",
+      "translation": "Recomendamos revisar la excepción cada treinta días."
+    },
+    {
+      "id": "b32-q021",
+      "topic": "Conditionals and hypothetical language",
+      "question": "If the sensor detects the test file, it ___ an alert automatically.",
+      "options": [
+        "creates",
+        "will created",
+        "would create always",
+        "created"
+      ],
+      "correct": 0,
+      "explanation": "El zero conditional usa present simple en ambas cláusulas para resultados generales.",
+      "translation": "Si el sensor detecta el archivo de prueba, crea una alerta automáticamente."
+    },
+    {
+      "id": "b32-q022",
+      "topic": "Conditionals and hypothetical language",
+      "question": "If we receive the missing logs tonight, we ___ the analysis tomorrow morning.",
+      "options": [
+        "would finish",
+        "will finish",
+        "finished",
+        "will finished"
+      ],
+      "correct": 1,
+      "explanation": "El first conditional usa present simple tras if y will + verbo base en el resultado.",
+      "translation": "Si recibimos los registros que faltan esta noche, terminaremos el análisis mañana por la mañana."
+    },
+    {
+      "id": "b32-q023",
+      "topic": "Conditionals and hypothetical language",
+      "question": "If the account were less privileged, the potential impact ___ lower.",
+      "options": [
+        "will be",
+        "would have been yesterday",
+        "would be",
+        "is"
+      ],
+      "correct": 2,
+      "explanation": "El second conditional usa past simple y would para una situación hipotética presente.",
+      "translation": "Si la cuenta tuviera menos privilegios, el impacto potencial sería menor."
+    },
+    {
+      "id": "b32-q024",
+      "topic": "Conditionals and hypothetical language",
+      "question": "If the patch had been applied earlier, the exploit ___ successful.",
+      "options": [
+        "wouldn’t be yesterday",
+        "won’t have been",
+        "hadn’t been",
+        "wouldn’t have been"
+      ],
+      "correct": 3,
+      "explanation": "El third conditional usa if + past perfect y would have + participio.",
+      "translation": "Si el parche se hubiera aplicado antes, el exploit no habría tenido éxito."
+    },
+    {
+      "id": "b32-q025",
+      "topic": "Conditionals and hypothetical language",
+      "question": "We will keep the ticket open ___ the customer confirms that the service is stable.",
+      "options": [
+        "until",
+        "unless not",
+        "during",
+        "by"
+      ],
+      "correct": 0,
+      "explanation": "Until introduce el momento hasta el que continúa una situación.",
+      "translation": "Mantendremos abierto el ticket hasta que el cliente confirme que el servicio es estable."
+    },
+    {
+      "id": "b32-q026",
+      "topic": "Conditionals and hypothetical language",
+      "question": "___ we find additional evidence, the current assessment will remain unchanged.",
+      "options": [
+        "If not that",
+        "Unless",
+        "Except if",
+        "Without"
+      ],
+      "correct": 1,
+      "explanation": "Unless equivale a if ... not: salvo que encontremos pruebas adicionales.",
+      "translation": "Salvo que encontremos pruebas adicionales, la evaluación actual no cambiará."
+    },
+    {
+      "id": "b32-q027",
+      "topic": "Conditionals and hypothetical language",
+      "question": "You may close the alert ___ you document the reason clearly.",
+      "options": [
+        "despite",
+        "unless",
+        "provided that",
+        "whereas"
+      ],
+      "correct": 2,
+      "explanation": "Provided that introduce una condición necesaria.",
+      "translation": "Puedes cerrar la alerta siempre que documentes claramente el motivo."
+    },
+    {
+      "id": "b32-q028",
+      "topic": "Conditionals and hypothetical language",
+      "question": "If I ___ you, I would ask the identity team to verify the account.",
+      "options": [
+        "am",
+        "would be",
+        "had been yesterday",
+        "were"
+      ],
+      "correct": 3,
+      "explanation": "La expresión hipotética estándar es If I were you.",
+      "translation": "Si yo fuera tú, pediría al equipo de identidad que verificara la cuenta."
+    },
+    {
+      "id": "b32-q029",
+      "topic": "Conditionals and hypothetical language",
+      "question": "If the service owner hadn’t replied, we ___ the change as unauthorized.",
+      "options": [
+        "would have treated",
+        "will treat",
+        "would treat now",
+        "had treated"
+      ],
+      "correct": 0,
+      "explanation": "La condición pasada no cumplida requiere would have + participio en el resultado.",
+      "translation": "Si el propietario del servicio no hubiera respondido, habríamos tratado el cambio como no autorizado."
+    },
+    {
+      "id": "b32-q030",
+      "topic": "Conditionals and hypothetical language",
+      "question": "Even if the scan is clean, we ___ the exposed credentials.",
+      "options": [
+        "should still to rotate",
+        "should still rotate",
+        "would still rotated",
+        "still should rotating"
+      ],
+      "correct": 1,
+      "explanation": "Even if introduce una condición que no cambia la recomendación; should va con verbo base.",
+      "translation": "Aunque el análisis no detecte nada, deberíamos rotar igualmente las credenciales expuestas."
+    },
+    {
+      "id": "b32-q031",
+      "topic": "Articles and noun patterns",
+      "question": "The analyst found ___ unusual process running under the service account.",
+      "options": [
+        "a",
+        "the always",
+        "an",
+        "no article"
+      ],
+      "correct": 2,
+      "explanation": "Unusual empieza con sonido vocálico, por lo que usamos an.",
+      "translation": "El analista encontró un proceso inusual ejecutándose con la cuenta de servicio."
+    },
+    {
+      "id": "b32-q032",
+      "topic": "Articles and noun patterns",
+      "question": "___ evidence collected so far does not prove data theft.",
+      "options": [
+        "An",
+        "A",
+        "Some of an",
+        "The"
+      ],
+      "correct": 3,
+      "explanation": "The se refiere a las pruebas concretas recopiladas en esta investigación.",
+      "translation": "Las pruebas recopiladas hasta ahora no demuestran robo de datos."
+    },
+    {
+      "id": "b32-q033",
+      "topic": "Articles and noun patterns",
+      "question": "We need more ___ before assigning a severity level.",
+      "options": [
+        "information",
+        "informations",
+        "an information",
+        "pieces of informations"
+      ],
+      "correct": 0,
+      "explanation": "Information es incontable y no tiene plural en este sentido.",
+      "translation": "Necesitamos más información antes de asignar un nivel de gravedad."
+    },
+    {
+      "id": "b32-q034",
+      "topic": "Articles and noun patterns",
+      "question": "The customer asked for ___ advice on improving the rule.",
+      "options": [
+        "an",
+        "some",
+        "many",
+        "a few"
+      ],
+      "correct": 1,
+      "explanation": "Advice es incontable; some advice es correcto.",
+      "translation": "El cliente pidió consejo para mejorar la regla."
+    },
+    {
+      "id": "b32-q035",
+      "topic": "Articles and noun patterns",
+      "question": "There were only ___ failed attempts, so the account was not locked.",
+      "options": [
+        "a little",
+        "much",
+        "a few",
+        "an amount of"
+      ],
+      "correct": 2,
+      "explanation": "Attempts es contable plural; a few indica una cantidad pequeña.",
+      "translation": "Solo hubo unos pocos intentos fallidos, así que la cuenta no se bloqueó."
+    },
+    {
+      "id": "b32-q036",
+      "topic": "Articles and noun patterns",
+      "question": "We have very ___ visibility into traffic between those two networks.",
+      "options": [
+        "few",
+        "a number of",
+        "many",
+        "little"
+      ],
+      "correct": 3,
+      "explanation": "Visibility es incontable; little indica una cantidad insuficiente.",
+      "translation": "Tenemos muy poca visibilidad del tráfico entre esas dos redes."
+    },
+    {
+      "id": "b32-q037",
+      "topic": "Articles and noun patterns",
+      "question": "The investigation produced two important ___.",
+      "options": [
+        "findings",
+        "evidences",
+        "informations",
+        "advice"
+      ],
+      "correct": 0,
+      "explanation": "Finding es contable y admite plural; los otros nombres son incontables en estos usos.",
+      "translation": "La investigación produjo dos hallazgos importantes."
+    },
+    {
+      "id": "b32-q038",
+      "topic": "Articles and noun patterns",
+      "question": "___ access to the admin portal is restricted to approved devices.",
+      "options": [
+        "An access",
+        "Access",
+        "The accesses",
+        "A piece of access"
+      ],
+      "correct": 1,
+      "explanation": "Access suele usarse como nombre incontable cuando hablamos del acceso en general.",
+      "translation": "El acceso al portal de administración está restringido a dispositivos aprobados."
+    },
+    {
+      "id": "b32-q039",
+      "topic": "Articles and noun patterns",
+      "question": "Please send me ___ copy of the final incident report.",
+      "options": [
+        "an",
+        "no article",
+        "a",
+        "some"
+      ],
+      "correct": 2,
+      "explanation": "Copy es un nombre contable singular y requiere a en una referencia no específica.",
+      "translation": "Envíame una copia del informe final del incidente."
+    },
+    {
+      "id": "b32-q040",
+      "topic": "Articles and noun patterns",
+      "question": "How ___ traffic did the sensor process during the test?",
+      "options": [
+        "many",
+        "few",
+        "a number of",
+        "much"
+      ],
+      "correct": 3,
+      "explanation": "Traffic es incontable, por lo que preguntamos con how much.",
+      "translation": "¿Cuánto tráfico procesó el sensor durante la prueba?"
+    },
+    {
+      "id": "b32-q041",
+      "topic": "Prepositions and dependent patterns",
+      "question": "The authentication failures are consistent ___ a password-spraying attempt.",
+      "options": [
+        "with",
+        "to",
+        "of",
+        "for"
+      ],
+      "correct": 0,
+      "explanation": "La combinación correcta es consistent with.",
+      "translation": "Los fallos de autenticación son compatibles con un intento de pulverización de contraseñas."
+    },
+    {
+      "id": "b32-q042",
+      "topic": "Prepositions and dependent patterns",
+      "question": "The identity team is responsible ___ disabling compromised accounts.",
+      "options": [
+        "of",
+        "for",
+        "to",
+        "with"
+      ],
+      "correct": 1,
+      "explanation": "Responsible va seguido de for.",
+      "translation": "El equipo de identidad es responsable de deshabilitar las cuentas comprometidas."
+    },
+    {
+      "id": "b32-q043",
+      "topic": "Prepositions and dependent patterns",
+      "question": "We need access ___ the proxy logs to verify the destination.",
+      "options": [
+        "at",
+        "for",
+        "to",
+        "into"
+      ],
+      "correct": 2,
+      "explanation": "El sustantivo access va seguido de to.",
+      "translation": "Necesitamos acceso a los registros del proxy para verificar el destino."
+    },
+    {
+      "id": "b32-q044",
+      "topic": "Prepositions and dependent patterns",
+      "question": "The alert was triggered ___ 14:37 on Monday.",
+      "options": [
+        "in",
+        "on",
+        "by",
+        "at"
+      ],
+      "correct": 3,
+      "explanation": "At se usa con horas concretas.",
+      "translation": "La alerta se activó a las 14:37 del lunes."
+    },
+    {
+      "id": "b32-q045",
+      "topic": "Prepositions and dependent patterns",
+      "question": "The report focuses ___ the activity observed after the password reset.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "of"
+      ],
+      "correct": 0,
+      "explanation": "Focus on es la combinación correcta.",
+      "translation": "El informe se centra en la actividad observada después del restablecimiento de la contraseña."
+    },
+    {
+      "id": "b32-q046",
+      "topic": "Prepositions and dependent patterns",
+      "question": "This exception applies ___ service accounts only.",
+      "options": [
+        "for",
+        "to",
+        "on",
+        "with"
+      ],
+      "correct": 1,
+      "explanation": "Apply to significa ser aplicable a algo o alguien.",
+      "translation": "Esta excepción se aplica únicamente a las cuentas de servicio."
+    },
+    {
+      "id": "b32-q047",
+      "topic": "Prepositions and dependent patterns",
+      "question": "The analyst apologized ___ sending the update to the wrong distribution list.",
+      "options": [
+        "about to",
+        "of",
+        "for",
+        "with"
+      ],
+      "correct": 2,
+      "explanation": "Apologize for va seguido de nombre o gerundio para indicar el motivo.",
+      "translation": "El analista se disculpó por enviar la actualización a la lista de distribución equivocada."
+    },
+    {
+      "id": "b32-q048",
+      "topic": "Prepositions and dependent patterns",
+      "question": "The new rule prevents users ___ downloading executable files.",
+      "options": [
+        "to",
+        "of",
+        "for",
+        "from"
+      ],
+      "correct": 3,
+      "explanation": "Prevent someone from doing something exige from + gerundio.",
+      "translation": "La nueva regla impide que los usuarios descarguen archivos ejecutables."
+    },
+    {
+      "id": "b32-q049",
+      "topic": "Prepositions and dependent patterns",
+      "question": "The decision depends ___ whether the server stores regulated data.",
+      "options": [
+        "on",
+        "of",
+        "from",
+        "at"
+      ],
+      "correct": 0,
+      "explanation": "Depend on es la combinación correcta.",
+      "translation": "La decisión depende de si el servidor almacena datos regulados."
+    },
+    {
+      "id": "b32-q050",
+      "topic": "Prepositions and dependent patterns",
+      "question": "We divided the investigation ___ three parallel workstreams.",
+      "options": [
+        "in",
+        "into",
+        "between",
+        "to"
+      ],
+      "correct": 1,
+      "explanation": "Divide something into parts expresa el resultado de la división.",
+      "translation": "Dividimos la investigación en tres líneas de trabajo paralelas."
+    },
+    {
+      "id": "b32-q051",
+      "topic": "Relative clauses",
+      "question": "The engineer ___ designed the detection will present the results.",
+      "options": [
+        "which",
+        "whose",
+        "who",
+        "where"
+      ],
+      "correct": 2,
+      "explanation": "Who introduce una relativa referida a una persona y funciona como sujeto.",
+      "translation": "El ingeniero que diseñó la detección presentará los resultados."
+    },
+    {
+      "id": "b32-q052",
+      "topic": "Relative clauses",
+      "question": "The script ___ we reviewed contains an outdated API key.",
+      "options": [
+        "who",
+        "where",
+        "whose it",
+        "that"
+      ],
+      "correct": 3,
+      "explanation": "That puede introducir una relativa especificativa cuyo antecedente es una cosa.",
+      "translation": "El script que revisamos contiene una clave de API obsoleta."
+    },
+    {
+      "id": "b32-q053",
+      "topic": "Relative clauses",
+      "question": "The customer, ___ systems were unaffected, joined the coordination call.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "that"
+      ],
+      "correct": 0,
+      "explanation": "Whose expresa posesión: los sistemas del cliente.",
+      "translation": "El cliente, cuyos sistemas no se vieron afectados, se unió a la llamada de coordinación."
+    },
+    {
+      "id": "b32-q054",
+      "topic": "Relative clauses",
+      "question": "The maintenance window, ___ ended at midnight, was too short for the full upgrade.",
+      "options": [
+        "that",
+        "which",
+        "where",
+        "what"
+      ],
+      "correct": 1,
+      "explanation": "En una relativa explicativa entre comas usamos which, no that.",
+      "translation": "La ventana de mantenimiento, que terminó a medianoche, fue demasiado corta para la actualización completa."
+    },
+    {
+      "id": "b32-q055",
+      "topic": "Relative clauses",
+      "question": "This is the tenant ___ the suspicious application was registered.",
+      "options": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "Where se refiere a un lugar o entorno en el que ocurre algo.",
+      "translation": "Este es el tenant donde se registró la aplicación sospechosa."
+    },
+    {
+      "id": "b32-q056",
+      "topic": "Relative clauses",
+      "question": "The logs on ___ our initial assessment was based were incomplete.",
+      "options": [
+        "that",
+        "who",
+        "where",
+        "which"
+      ],
+      "correct": 3,
+      "explanation": "Tras una preposición en estilo formal usamos which para cosas: on which.",
+      "translation": "Los registros en los que se basó nuestra evaluación inicial estaban incompletos."
+    },
+    {
+      "id": "b32-q057",
+      "topic": "Relative clauses",
+      "question": "The device ___ by the endpoint team can now reconnect to the network.",
+      "options": [
+        "cleared",
+        "which cleared",
+        "clearing it",
+        "was clear"
+      ],
+      "correct": 0,
+      "explanation": "Cleared by... es una relativa reducida pasiva equivalente a which was cleared.",
+      "translation": "El dispositivo autorizado por el equipo de endpoint ya puede volver a conectarse a la red."
+    },
+    {
+      "id": "b32-q058",
+      "topic": "Relative clauses",
+      "question": "The analyst to ___ the case was assigned is on leave today.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "correct": 1,
+      "explanation": "Después de la preposición to, el pronombre formal de objeto para persona es whom.",
+      "translation": "El analista al que se asignó el caso está de permiso hoy."
+    },
+    {
+      "id": "b32-q059",
+      "topic": "Relative clauses",
+      "question": "Friday is the day ___ the weekly risk review takes place.",
+      "options": [
+        "who",
+        "which place",
+        "when",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "When puede introducir una relativa cuyo antecedente es un momento.",
+      "translation": "El viernes es el día en que tiene lugar la revisión semanal de riesgos."
+    },
+    {
+      "id": "b32-q060",
+      "topic": "Relative clauses",
+      "question": "The attachment ___ the alert referred to had already been deleted.",
+      "options": [
+        "who",
+        "where",
+        "whose",
+        "that"
+      ],
+      "correct": 3,
+      "explanation": "That funciona como objeto de referred to en una relativa especificativa.",
+      "translation": "El archivo adjunto al que se refería la alerta ya se había eliminado."
+    },
+    {
+      "id": "b32-q061",
+      "topic": "Passive and causative structures",
+      "question": "All privileged sessions ___ for later review.",
+      "options": [
+        "are recorded",
+        "record",
+        "are recording",
+        "is recorded"
+      ],
+      "correct": 0,
+      "explanation": "El present simple passive se forma con are + participio para un sujeto plural.",
+      "translation": "Todas las sesiones privilegiadas se graban para revisarlas posteriormente."
+    },
+    {
+      "id": "b32-q062",
+      "topic": "Passive and causative structures",
+      "question": "The affected certificate ___ before the service was restarted.",
+      "options": [
+        "has revoked",
+        "had been revoked",
+        "was revoking",
+        "had revoked it"
+      ],
+      "correct": 1,
+      "explanation": "Past perfect passive: had been + participio.",
+      "translation": "El certificado afectado se había revocado antes de reiniciar el servicio."
+    },
+    {
+      "id": "b32-q063",
+      "topic": "Passive and causative structures",
+      "question": "A permanent fix ___ next week.",
+      "options": [
+        "will deploy",
+        "will be deploy",
+        "will be deployed",
+        "is deploying by someone"
+      ],
+      "correct": 2,
+      "explanation": "Future passive se forma con will be + participio.",
+      "translation": "La corrección permanente se desplegará la semana que viene."
+    },
+    {
+      "id": "b32-q064",
+      "topic": "Passive and causative structures",
+      "question": "The production server must not ___ without change approval.",
+      "options": [
+        "reboot",
+        "be reboot",
+        "been rebooted",
+        "be rebooted"
+      ],
+      "correct": 3,
+      "explanation": "La pasiva con modal usa modal + be + participio.",
+      "translation": "El servidor de producción no debe reiniciarse sin aprobación del cambio."
+    },
+    {
+      "id": "b32-q065",
+      "topic": "Passive and causative structures",
+      "question": "The suspicious mailbox rule ___ when the analyst opened the console.",
+      "options": [
+        "was being removed",
+        "was removing",
+        "had being removed",
+        "was been removed"
+      ],
+      "correct": 0,
+      "explanation": "Past continuous passive: was/were being + participio.",
+      "translation": "La regla sospechosa del buzón estaba siendo eliminada cuando el analista abrió la consola."
+    },
+    {
+      "id": "b32-q066",
+      "topic": "Passive and causative structures",
+      "question": "We had the vendor ___ the failed hardware token.",
+      "options": [
+        "to replace",
+        "replace",
+        "replaced",
+        "replacing"
+      ],
+      "correct": 1,
+      "explanation": "Have someone do something usa have + persona + verbo base.",
+      "translation": "Hicimos que el proveedor sustituyera el token físico averiado."
+    },
+    {
+      "id": "b32-q067",
+      "topic": "Passive and causative structures",
+      "question": "The company had the external report ___ by legal counsel.",
+      "options": [
+        "review",
+        "to review",
+        "reviewed",
+        "reviewing"
+      ],
+      "correct": 2,
+      "explanation": "Have something done usa objeto + participio para un servicio realizado por otra persona.",
+      "translation": "La empresa hizo revisar el informe externo por el asesor jurídico."
+    },
+    {
+      "id": "b32-q068",
+      "topic": "Passive and causative structures",
+      "question": "It is believed that the credentials were exposed in May. Choose the equivalent.",
+      "options": [
+        "The credentials believe to expose in May.",
+        "The credentials are believed being exposed in May.",
+        "The credentials believed to have exposed in May.",
+        "The credentials are believed to have been exposed in May."
+      ],
+      "correct": 3,
+      "explanation": "La estructura formal usa sujeto + be believed + perfect infinitive passive.",
+      "translation": "Se cree que las credenciales quedaron expuestas en mayo."
+    },
+    {
+      "id": "b32-q069",
+      "topic": "Passive and causative structures",
+      "question": "Why ___ the customer not notified sooner?",
+      "options": [
+        "was",
+        "did",
+        "has being",
+        "does"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta pasiva en pasado usa was + sujeto + participio.",
+      "translation": "¿Por qué no se avisó antes al cliente?"
+    },
+    {
+      "id": "b32-q070",
+      "topic": "Passive and causative structures",
+      "question": "No user data appears ___.",
+      "options": [
+        "to have accessed",
+        "to have been accessed",
+        "having been access",
+        "to be accessing by"
+      ],
+      "correct": 1,
+      "explanation": "Appear + perfect infinitive passive expresa una acción pasiva anterior.",
+      "translation": "No parece que se haya accedido a datos de usuarios."
+    },
+    {
+      "id": "b32-q071",
+      "topic": "Reported speech",
+      "question": "On Monday, the engineer said, “I am testing the patch now.” Later we reported: The engineer said that they ___ the patch then.",
+      "options": [
+        "are testing now",
+        "had test",
+        "were testing",
+        "have been tested"
+      ],
+      "correct": 2,
+      "explanation": "Con said en pasado, present continuous suele retroceder a past continuous y now cambia a then.",
+      "translation": "La persona responsable de ingeniería dijo que estaba probando el parche en ese momento."
+    },
+    {
+      "id": "b32-q072",
+      "topic": "Reported speech",
+      "question": "The customer said, “We completed the upgrade yesterday.” The customer said that they had completed the upgrade ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "next day",
+        "the day before"
+      ],
+      "correct": 3,
+      "explanation": "En estilo indirecto, yesterday suele cambiar a the day before.",
+      "translation": "El cliente dijo que había completado la actualización el día anterior."
+    },
+    {
+      "id": "b32-q073",
+      "topic": "Reported speech",
+      "question": "The manager asked, “Are the backups encrypted?” The manager asked ___ encrypted.",
+      "options": [
+        "whether the backups were",
+        "were the backups",
+        "whether were the backups",
+        "that the backups are?"
+      ],
+      "correct": 0,
+      "explanation": "Una pregunta reportada de sí/no usa whether/if y orden afirmativo.",
+      "translation": "El responsable preguntó si las copias de seguridad estaban cifradas."
+    },
+    {
+      "id": "b32-q074",
+      "topic": "Reported speech",
+      "question": "The analyst asked me, “Which account did you disable?” The analyst asked me which account I ___.",
+      "options": [
+        "did I disable",
+        "had disabled",
+        "have I disabled",
+        "disable"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta reportada usa orden afirmativo y puede hacer backshift a past perfect.",
+      "translation": "El analista me preguntó qué cuenta había deshabilitado."
+    },
+    {
+      "id": "b32-q075",
+      "topic": "Reported speech",
+      "question": "The incident manager said, “Do not reconnect the server.” The incident manager told us ___ the server.",
+      "options": [
+        "to not reconnecting",
+        "don’t reconnect",
+        "not to reconnect",
+        "not reconnect"
+      ],
+      "correct": 2,
+      "explanation": "Una orden negativa reportada usa told + objeto + not to + verbo.",
+      "translation": "El responsable del incidente nos dijo que no reconectáramos el servidor."
+    },
+    {
+      "id": "b32-q076",
+      "topic": "Reported speech",
+      "question": "The customer said, “Please send the timeline today.” The customer asked us ___ the timeline that day.",
+      "options": [
+        "sending",
+        "send",
+        "that we sent",
+        "to send"
+      ],
+      "correct": 3,
+      "explanation": "Una petición reportada usa ask + objeto + to + verbo.",
+      "translation": "El cliente nos pidió que enviáramos la cronología ese día."
+    },
+    {
+      "id": "b32-q077",
+      "topic": "Reported speech",
+      "question": "The consultant said, “You should rotate the secret.” The consultant advised us ___ the secret.",
+      "options": [
+        "to rotate",
+        "rotating us",
+        "that rotate",
+        "to rotating"
+      ],
+      "correct": 0,
+      "explanation": "Advise someone to do something exige objeto + infinitivo con to.",
+      "translation": "El consultor nos aconsejó rotar el secreto."
+    },
+    {
+      "id": "b32-q078",
+      "topic": "Reported speech",
+      "question": "The owner said, “I didn’t authorize this change.” The owner denied ___ the change.",
+      "options": [
+        "to authorize",
+        "authorizing",
+        "authorize",
+        "to authorizing"
+      ],
+      "correct": 1,
+      "explanation": "Deny va seguido de gerundio.",
+      "translation": "El propietario negó haber autorizado el cambio."
+    },
+    {
+      "id": "b32-q079",
+      "topic": "Reported speech",
+      "question": "The engineer said, “I’ll provide the logs tomorrow.” The engineer promised ___ the logs the next day.",
+      "options": [
+        "providing",
+        "provide",
+        "to provide",
+        "to providing"
+      ],
+      "correct": 2,
+      "explanation": "Promise va seguido de infinitivo con to.",
+      "translation": "El ingeniero prometió proporcionar los registros al día siguiente."
+    },
+    {
+      "id": "b32-q080",
+      "topic": "Reported speech",
+      "question": "The analyst said, “Let’s check the sign-in history.” The analyst suggested ___ the sign-in history.",
+      "options": [
+        "to check",
+        "check us",
+        "to checking",
+        "checking"
+      ],
+      "correct": 3,
+      "explanation": "Suggest va seguido de gerundio cuando proponemos una actividad.",
+      "translation": "El analista sugirió revisar el historial de inicios de sesión."
+    },
+    {
+      "id": "b32-q081",
+      "topic": "SOC collocations",
+      "question": "The detection logic should ___ an alert only when both conditions are met.",
+      "options": [
+        "raise",
+        "put",
+        "do",
+        "build up"
+      ],
+      "correct": 0,
+      "explanation": "Raise an alert es una colocación natural para indicar que una lógica genera una alerta.",
+      "translation": "La lógica de detección debería generar una alerta solo cuando se cumplan ambas condiciones."
+    },
+    {
+      "id": "b32-q082",
+      "topic": "SOC collocations",
+      "question": "The team will ___ a risk assessment before enabling the integration.",
+      "options": [
+        "make up",
+        "carry out",
+        "realize",
+        "put on"
+      ],
+      "correct": 1,
+      "explanation": "Carry out a risk assessment significa realizar una evaluación de riesgos.",
+      "translation": "El equipo realizará una evaluación de riesgos antes de habilitar la integración."
+    },
+    {
+      "id": "b32-q083",
+      "topic": "SOC collocations",
+      "question": "The stolen session cookie allowed the attacker to ___ access without the password.",
+      "options": [
+        "win",
+        "take",
+        "gain",
+        "arrive to"
+      ],
+      "correct": 2,
+      "explanation": "Gain access es la colocación correcta.",
+      "translation": "La cookie de sesión robada permitió al atacante obtener acceso sin la contraseña."
+    },
+    {
+      "id": "b32-q084",
+      "topic": "SOC collocations",
+      "question": "The new evidence may ___ doubt on the original root-cause analysis.",
+      "options": [
+        "throw up",
+        "put",
+        "make",
+        "cast"
+      ],
+      "correct": 3,
+      "explanation": "Cast doubt on es una colocación fija que significa poner algo en duda.",
+      "translation": "Las nuevas pruebas pueden poner en duda el análisis inicial de la causa raíz."
+    },
+    {
+      "id": "b32-q085",
+      "topic": "SOC collocations",
+      "question": "Please ___ the customer informed if the containment plan changes.",
+      "options": [
+        "keep",
+        "hold",
+        "maintain to",
+        "continue"
+      ],
+      "correct": 0,
+      "explanation": "Keep someone informed significa mantenerle al tanto.",
+      "translation": "Mantén informado al cliente si cambia el plan de contención."
+    },
+    {
+      "id": "b32-q086",
+      "topic": "SOC collocations",
+      "question": "The response team took steps to ___ the impact on business operations.",
+      "options": [
+        "shorten of",
+        "minimize",
+        "make minor",
+        "reduce down"
+      ],
+      "correct": 1,
+      "explanation": "Minimize the impact es una colocación habitual para limitar consecuencias.",
+      "translation": "El equipo de respuesta tomó medidas para minimizar el impacto en las operaciones del negocio."
+    },
+    {
+      "id": "b32-q087",
+      "topic": "SOC collocations",
+      "question": "After comparing the timestamps, the analyst ___ the conclusion that the events were related.",
+      "options": [
+        "arrived",
+        "did",
+        "reached",
+        "took"
+      ],
+      "correct": 2,
+      "explanation": "Reach a conclusion es una colocación correcta; arrive necesitaría at.",
+      "translation": "Tras comparar las marcas de tiempo, el analista llegó a la conclusión de que los eventos estaban relacionados."
+    },
+    {
+      "id": "b32-q088",
+      "topic": "SOC collocations",
+      "question": "The final report should ___ attention to the remaining visibility gap.",
+      "options": [
+        "call at",
+        "put of",
+        "make",
+        "draw"
+      ],
+      "correct": 3,
+      "explanation": "Draw attention to significa destacar algo para que se tenga en cuenta.",
+      "translation": "El informe final debería llamar la atención sobre la brecha de visibilidad pendiente."
+    },
+    {
+      "id": "b32-q089",
+      "topic": "SOC collocations",
+      "question": "The responders acted quickly to ___ the threat before it spread to another segment.",
+      "options": [
+        "neutralize",
+        "cancel from",
+        "finish off of",
+        "solve"
+      ],
+      "correct": 0,
+      "explanation": "Neutralize a threat es una combinación natural en respuesta a incidentes.",
+      "translation": "Los respondedores actuaron rápidamente para neutralizar la amenaza antes de que se propagara a otro segmento."
+    },
+    {
+      "id": "b32-q090",
+      "topic": "SOC collocations",
+      "question": "The service owner must ___ responsibility for approving the exception.",
+      "options": [
+        "make",
+        "take",
+        "do",
+        "carry"
+      ],
+      "correct": 1,
+      "explanation": "Take responsibility for es la colocación fija.",
+      "translation": "El propietario del servicio debe asumir la responsabilidad de aprobar la excepción."
+    },
+    {
+      "id": "b32-q091",
+      "topic": "Question forms",
+      "question": "Ask how many devices are included under the policy.",
+      "options": [
+        "How many devices this policy covers?",
+        "How many devices does this policy covers?",
+        "How many devices does this policy cover?",
+        "How much devices does this policy cover?"
+      ],
+      "correct": 2,
+      "explanation": "How many se usa con contables plurales; después de does, el verbo va en forma base.",
+      "translation": "¿Cuántos dispositivos cubre esta directiva?"
+    },
+    {
+      "id": "b32-q092",
+      "topic": "Question forms",
+      "question": "Ask about the cause of the outage.",
+      "options": [
+        "What did caused the outage?",
+        "What the outage caused?",
+        "What did the outage cause?",
+        "What caused the outage?"
+      ],
+      "correct": 3,
+      "explanation": "What es el sujeto de caused, por lo que no usamos did.",
+      "translation": "¿Qué causó la interrupción?"
+    },
+    {
+      "id": "b32-q093",
+      "topic": "Question forms",
+      "question": "Choose the correct present perfect question.",
+      "options": [
+        "Have the exposed credentials been rotated?",
+        "Did the exposed credentials been rotated?",
+        "Have been the exposed credentials rotated?",
+        "Has the exposed credentials been rotated?"
+      ],
+      "correct": 0,
+      "explanation": "La pasiva en present perfect interrogativo usa have + sujeto plural + been + participio.",
+      "translation": "¿Se han rotado las credenciales expuestas?"
+    },
+    {
+      "id": "b32-q094",
+      "topic": "Question forms",
+      "question": "Ask indirectly about the date of the rule’s most recent update.",
+      "options": [
+        "Do you know when was the rule last updated?",
+        "Do you know when the rule was last updated?",
+        "Do you know when did the rule update?",
+        "Do you know when the rule did last updated?"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta indirecta conserva el orden afirmativo: when the rule was...",
+      "translation": "¿Sabes cuándo se actualizó la regla por última vez?"
+    },
+    {
+      "id": "b32-q095",
+      "topic": "Question forms",
+      "question": "Complete the tag: The scan hasn’t found anything suspicious, ___?",
+      "options": [
+        "hasn’t it",
+        "did it",
+        "has it",
+        "does it"
+      ],
+      "correct": 2,
+      "explanation": "Una oración negativa en present perfect lleva un tag afirmativo con has.",
+      "translation": "El análisis no ha encontrado nada sospechoso, ¿verdad?"
+    },
+    {
+      "id": "b32-q096",
+      "topic": "Question forms",
+      "question": "Choose the correct question about a past action.",
+      "options": [
+        "Why the user approved the request?",
+        "Why did the user approved the request?",
+        "Why was the user approve the request?",
+        "Why did the user approve the request?"
+      ],
+      "correct": 3,
+      "explanation": "Past simple interrogativo: did + sujeto + verbo base.",
+      "translation": "¿Por qué aprobó el usuario la solicitud?"
+    },
+    {
+      "id": "b32-q097",
+      "topic": "Question forms",
+      "question": "Choose the most polite request for a meeting.",
+      "options": [
+        "Would you mind explaining the exception?",
+        "Would you mind to explain the exception?",
+        "Do you mind to explaining the exception?",
+        "Would you mind explain the exception?"
+      ],
+      "correct": 0,
+      "explanation": "Would you mind va seguido de gerundio.",
+      "translation": "¿Te importaría explicar la excepción?"
+    },
+    {
+      "id": "b32-q098",
+      "topic": "Question forms",
+      "question": "Ask about ownership of the next step.",
+      "options": [
+        "Who does going to contact the vendor?",
+        "Who is going to contact the vendor?",
+        "Who is going contact the vendor?",
+        "Who the vendor is going to contact?"
+      ],
+      "correct": 1,
+      "explanation": "Who es el sujeto; be going to requiere is going to + verbo base.",
+      "translation": "¿Quién va a contactar con el proveedor?"
+    },
+    {
+      "id": "b32-q099",
+      "topic": "Question forms",
+      "question": "Complete the embedded question: We need to know ___.",
+      "options": [
+        "how long does the token remain valid",
+        "how long remains valid the token",
+        "how long the token remains valid",
+        "how much long the token remains valid"
+      ],
+      "correct": 2,
+      "explanation": "La interrogativa indirecta usa orden afirmativo: how long the token remains...",
+      "translation": "Necesitamos saber cuánto tiempo sigue siendo válido el token."
+    },
+    {
+      "id": "b32-q100",
+      "topic": "Question forms",
+      "question": "Ask a negative question about notifying the privacy team too.",
+      "options": [
+        "Don’t we should notify the privacy team as well?",
+        "Should we not to notify the privacy team as well?",
+        "Shouldn’t notify we the privacy team as well?",
+        "Shouldn’t we notify the privacy team as well?"
+      ],
+      "correct": 3,
+      "explanation": "La pregunta negativa con modal usa shouldn’t + sujeto + verbo base.",
+      "translation": "¿No deberíamos avisar también al equipo de privacidad?"
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "name": "25 · Countable and uncountable nouns · Normal",
+  "description": "40 preguntas normales sobre sustantivos contables e incontables, cuantificadores, concordancia y expresiones de cantidad en contextos SOC y de comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b25-q001",
+      "topic": "Core uncountable nouns",
+      "question": "We do not have ___ to support that conclusion yet.",
+      "options": [
+        "many evidence",
+        "enough evidence",
+        "an evidence",
+        "enough evidences"
+      ],
+      "correct": 1,
+      "explanation": "Evidence es incontable; usamos enough evidence, sin plural ni artículo indefinido.",
+      "translation": "Todavía no tenemos pruebas suficientes para respaldar esa conclusión."
+    },
+    {
+      "id": "b25-q002",
+      "topic": "Core uncountable nouns",
+      "question": "Could you send us ___ about the affected account?",
+      "options": [
+        "some information",
+        "an information",
+        "a few information",
+        "some informations"
+      ],
+      "correct": 0,
+      "explanation": "Information es incontable; some information es correcto.",
+      "translation": "¿Podrías enviarnos información sobre la cuenta afectada?"
+    },
+    {
+      "id": "b25-q003",
+      "topic": "Core uncountable nouns",
+      "question": "The coordinator gave us ___ before the customer meeting.",
+      "options": [
+        "some useful advices",
+        "many useful advice",
+        "a useful advice",
+        "some useful advice"
+      ],
+      "correct": 3,
+      "explanation": "Advice es incontable; decimos some useful advice, no an advice ni advices.",
+      "translation": "El coordinador nos dio algunos consejos útiles antes de la reunión con el cliente."
+    },
+    {
+      "id": "b25-q004",
+      "topic": "Core uncountable nouns",
+      "question": "We noticed ___ during the scheduled test.",
+      "options": [
+        "unusual traffic",
+        "an unusual traffic",
+        "many unusual traffic",
+        "unusual traffics"
+      ],
+      "correct": 0,
+      "explanation": "Traffic es incontable en este contexto y no lleva a/an ni plural.",
+      "translation": "Observamos tráfico inusual durante la prueba programada."
+    },
+    {
+      "id": "b25-q005",
+      "topic": "Core uncountable nouns",
+      "question": "The user no longer has ___ to the shared mailbox.",
+      "options": [
+        "accesses",
+        "an access",
+        "many access",
+        "access"
+      ],
+      "correct": 3,
+      "explanation": "Access es normalmente incontable cuando significa permiso de acceso.",
+      "translation": "El usuario ya no tiene acceso al buzón compartido."
+    },
+    {
+      "id": "b25-q006",
+      "topic": "Core uncountable nouns",
+      "question": "The report includes ___ on how to improve the process.",
+      "options": [
+        "several guidance",
+        "a guidance",
+        "guidances",
+        "guidance"
+      ],
+      "correct": 3,
+      "explanation": "Guidance es incontable; se usa sin a/an y normalmente no tiene plural.",
+      "translation": "El informe incluye orientación sobre cómo mejorar el proceso."
+    },
+    {
+      "id": "b25-q007",
+      "topic": "Core uncountable nouns",
+      "question": "We need to check whether the device has enough ___.",
+      "options": [
+        "many storage",
+        "storages",
+        "storage",
+        "a storage"
+      ],
+      "correct": 2,
+      "explanation": "Storage es incontable cuando se refiere a capacidad de almacenamiento.",
+      "translation": "Tenemos que comprobar si el dispositivo tiene suficiente capacidad de almacenamiento."
+    },
+    {
+      "id": "b25-q008",
+      "topic": "Core uncountable nouns",
+      "question": "The client appreciated ___ during the call.",
+      "options": [
+        "the feedbacks we provided",
+        "many feedback we provided",
+        "the feedback we provided",
+        "a feedback we provided"
+      ],
+      "correct": 2,
+      "explanation": "Feedback es incontable en el uso estándar: the feedback, sin plural.",
+      "translation": "El cliente agradeció los comentarios que le proporcionamos durante la llamada."
+    },
+    {
+      "id": "b25-q009",
+      "topic": "Quantifiers",
+      "question": "How ___ alerts are still open?",
+      "options": [
+        "less",
+        "little",
+        "much",
+        "many"
+      ],
+      "correct": 3,
+      "explanation": "Alerts es contable plural, por eso preguntamos How many.",
+      "translation": "¿Cuántas alertas siguen abiertas?"
+    },
+    {
+      "id": "b25-q010",
+      "topic": "Quantifiers",
+      "question": "How ___ time do we have before the briefing?",
+      "options": [
+        "fewer",
+        "much",
+        "many",
+        "few"
+      ],
+      "correct": 1,
+      "explanation": "Time es incontable en este sentido; usamos How much.",
+      "translation": "¿Cuánto tiempo tenemos antes de la reunión informativa?"
+    },
+    {
+      "id": "b25-q011",
+      "topic": "Quantifiers",
+      "question": "Only a ___ customers asked for another meeting.",
+      "options": [
+        "less",
+        "much",
+        "few",
+        "little"
+      ],
+      "correct": 2,
+      "explanation": "Customers es contable plural; a few significa «unos pocos».",
+      "translation": "Solo unos pocos clientes pidieron otra reunión."
+    },
+    {
+      "id": "b25-q012",
+      "topic": "Quantifiers",
+      "question": "We have very ___ information about the earlier activity.",
+      "options": [
+        "few",
+        "little",
+        "many",
+        "fewer"
+      ],
+      "correct": 1,
+      "explanation": "Information es incontable; very little expresa una cantidad escasa.",
+      "translation": "Tenemos muy poca información sobre la actividad anterior."
+    },
+    {
+      "id": "b25-q013",
+      "topic": "Quantifiers",
+      "question": "The revised rule produced ___ false alerts than the previous one.",
+      "options": [
+        "fewer",
+        "less",
+        "little",
+        "much"
+      ],
+      "correct": 0,
+      "explanation": "False alerts es contable plural; en comparaciones usamos fewer.",
+      "translation": "La regla revisada generó menos alertas falsas que la anterior."
+    },
+    {
+      "id": "b25-q014",
+      "topic": "Quantifiers",
+      "question": "The new template requires ___ manual work.",
+      "options": [
+        "many",
+        "fewer",
+        "less",
+        "few"
+      ],
+      "correct": 2,
+      "explanation": "Work es incontable; usamos less para comparar cantidades incontables.",
+      "translation": "La nueva plantilla requiere menos trabajo manual."
+    },
+    {
+      "id": "b25-q015",
+      "topic": "Quantifiers",
+      "question": "There are too ___ action items for a ten-minute call.",
+      "options": [
+        "little",
+        "many",
+        "much",
+        "less"
+      ],
+      "correct": 1,
+      "explanation": "Action items es contable plural; corresponde too many.",
+      "translation": "Hay demasiadas acciones pendientes para una llamada de diez minutos."
+    },
+    {
+      "id": "b25-q016",
+      "topic": "Quantifiers",
+      "question": "We received too ___ detail to make a reliable assessment.",
+      "options": [
+        "many",
+        "few",
+        "little",
+        "fewer"
+      ],
+      "correct": 2,
+      "explanation": "Detail es incontable cuando significa nivel o cantidad de detalle; too little indica cantidad insuficiente.",
+      "translation": "Recibimos muy pocos detalles para hacer una evaluación fiable."
+    },
+    {
+      "id": "b25-q017",
+      "topic": "Units and partitives",
+      "question": "The screenshot is ___ showing that the message was delivered.",
+      "options": [
+        "a piece of evidence",
+        "an evidence",
+        "an evidence piece",
+        "a piece of evidences"
+      ],
+      "correct": 0,
+      "explanation": "Para contar evidence usamos la estructura a piece of evidence.",
+      "translation": "La captura de pantalla es una prueba de que el mensaje fue entregado."
+    },
+    {
+      "id": "b25-q018",
+      "topic": "Units and partitives",
+      "question": "Could I give you ___ about the wording of the report?",
+      "options": [
+        "a piece of advice",
+        "an advice",
+        "a piece of advices",
+        "an advice piece"
+      ],
+      "correct": 0,
+      "explanation": "Para individualizar advice usamos a piece of advice.",
+      "translation": "¿Puedo darte un consejo sobre la redacción del informe?"
+    },
+    {
+      "id": "b25-q019",
+      "topic": "Units and partitives",
+      "question": "The client sent three ___ with different timestamps.",
+      "options": [
+        "logging data",
+        "log files",
+        "log file",
+        "log information"
+      ],
+      "correct": 1,
+      "explanation": "File es contable, por lo que three log files expresa tres archivos concretos.",
+      "translation": "El cliente envió tres archivos de registro con marcas de tiempo diferentes."
+    },
+    {
+      "id": "b25-q020",
+      "topic": "Units and partitives",
+      "question": "We received two ___ from the project coordinator.",
+      "options": [
+        "items of information",
+        "information",
+        "item of information",
+        "pieces of informations"
+      ],
+      "correct": 0,
+      "explanation": "Information es incontable; items of information permite contar datos concretos.",
+      "translation": "Recibimos dos datos del coordinador del proyecto."
+    },
+    {
+      "id": "b25-q021",
+      "topic": "Units and partitives",
+      "question": "The analyst added ___ to the handover note.",
+      "options": [
+        "an advice",
+        "an information",
+        "a recommendation",
+        "a feedback"
+      ],
+      "correct": 2,
+      "explanation": "Recommendation es contable y permite expresar una sugerencia individual con a.",
+      "translation": "El analista añadió una recomendación a la nota de traspaso."
+    },
+    {
+      "id": "b25-q022",
+      "topic": "Units and partitives",
+      "question": "Please attach the two ___ mentioned in the email.",
+      "options": [
+        "documentations",
+        "document",
+        "documentation",
+        "documents"
+      ],
+      "correct": 3,
+      "explanation": "Después de two necesitamos un sustantivo contable en plural: documents.",
+      "translation": "Adjunta, por favor, los dos documentos mencionados en el correo."
+    },
+    {
+      "id": "b25-q023",
+      "topic": "Units and partitives",
+      "question": "We recorded four ___ during the review.",
+      "options": [
+        "observation",
+        "pieces of observation",
+        "observations",
+        "observing"
+      ],
+      "correct": 2,
+      "explanation": "Four exige un sustantivo contable plural: observations.",
+      "translation": "Registramos cuatro observaciones durante la revisión."
+    },
+    {
+      "id": "b25-q024",
+      "topic": "Units and partitives",
+      "question": "The customer asked for a brief ___ of the current status.",
+      "options": [
+        "advice",
+        "summary",
+        "summaries",
+        "information"
+      ],
+      "correct": 1,
+      "explanation": "A brief necesita un sustantivo contable singular; summary encaja en forma y significado.",
+      "translation": "El cliente pidió un breve resumen del estado actual."
+    },
+    {
+      "id": "b25-q025",
+      "topic": "Number and agreement",
+      "question": "The information in the ticket ___ incomplete.",
+      "options": [
+        "be",
+        "is",
+        "have",
+        "are"
+      ],
+      "correct": 1,
+      "explanation": "Information es incontable y lleva verbo singular: is.",
+      "translation": "La información del ticket está incompleta."
+    },
+    {
+      "id": "b25-q026",
+      "topic": "Number and agreement",
+      "question": "These two reports ___ the same timeline.",
+      "options": [
+        "has shown",
+        "shows",
+        "is showing",
+        "show"
+      ],
+      "correct": 3,
+      "explanation": "Reports es plural, por lo que el presente simple usa show, sin -s.",
+      "translation": "Estos dos informes muestran la misma cronología."
+    },
+    {
+      "id": "b25-q027",
+      "topic": "Number and agreement",
+      "question": "Every piece of evidence ___ reviewed before the call.",
+      "options": [
+        "be",
+        "are",
+        "have",
+        "is"
+      ],
+      "correct": 3,
+      "explanation": "El núcleo es every piece, singular; por eso usamos is.",
+      "translation": "Cada prueba se revisa antes de la llamada."
+    },
+    {
+      "id": "b25-q028",
+      "topic": "Number and agreement",
+      "question": "There ___ several open questions in the document.",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has"
+      ],
+      "correct": 0,
+      "explanation": "Several open questions es plural, así que usamos there are.",
+      "translation": "Hay varias preguntas pendientes en el documento."
+    },
+    {
+      "id": "b25-q029",
+      "topic": "Number and agreement",
+      "question": "The advice from both reviewers ___ consistent.",
+      "options": [
+        "have",
+        "were",
+        "are",
+        "is"
+      ],
+      "correct": 3,
+      "explanation": "Advice es incontable y gramaticalmente singular, aunque proceda de dos personas.",
+      "translation": "Los consejos de ambos revisores son coherentes."
+    },
+    {
+      "id": "b25-q030",
+      "topic": "Number and agreement",
+      "question": "One of the action items ___ a customer response.",
+      "options": [
+        "requires",
+        "have required",
+        "are requiring",
+        "require"
+      ],
+      "correct": 0,
+      "explanation": "El sujeto es one, singular; usamos requires.",
+      "translation": "Una de las acciones pendientes requiere una respuesta del cliente."
+    },
+    {
+      "id": "b25-q031",
+      "topic": "Number and agreement",
+      "question": "A large amount of traffic ___ expected after the change.",
+      "options": [
+        "are",
+        "be",
+        "is",
+        "have"
+      ],
+      "correct": 2,
+      "explanation": "A large amount of + incontable funciona como sujeto singular.",
+      "translation": "Se espera una gran cantidad de tráfico después del cambio."
+    },
+    {
+      "id": "b25-q032",
+      "topic": "Number and agreement",
+      "question": "A large number of events ___ already in the report.",
+      "options": [
+        "was",
+        "are",
+        "is",
+        "has"
+      ],
+      "correct": 1,
+      "explanation": "A large number of + plural lleva verbo plural: are.",
+      "translation": "Ya hay un gran número de eventos en el informe."
+    },
+    {
+      "id": "b25-q033",
+      "topic": "Natural customer communication",
+      "question": "Could you describe the issue in ___?",
+      "options": [
+        "many detail",
+        "a more detail",
+        "more details",
+        "more detail"
+      ],
+      "correct": 3,
+      "explanation": "La expresión fija es in more detail, con detail en singular incontable.",
+      "translation": "¿Podrías describir el problema con más detalle?"
+    },
+    {
+      "id": "b25-q034",
+      "topic": "Natural customer communication",
+      "question": "Please let us know how many ___ you have.",
+      "options": [
+        "question",
+        "questions",
+        "informations",
+        "feedbacks"
+      ],
+      "correct": 1,
+      "explanation": "How many exige un sustantivo contable plural: questions.",
+      "translation": "Por favor, indícanos cuántas preguntas tienes."
+    },
+    {
+      "id": "b25-q035",
+      "topic": "Natural customer communication",
+      "question": "We have made good ___ on the review this morning.",
+      "options": [
+        "progress",
+        "a progress",
+        "progresses",
+        "many progress"
+      ],
+      "correct": 0,
+      "explanation": "Progress es incontable; decimos make progress, sin a ni plural.",
+      "translation": "Hemos avanzado bastante en la revisión esta mañana."
+    },
+    {
+      "id": "b25-q036",
+      "topic": "Natural customer communication",
+      "question": "The message contains several useful ___.",
+      "options": [
+        "examples",
+        "advices",
+        "information",
+        "example"
+      ],
+      "correct": 0,
+      "explanation": "Several exige un sustantivo contable plural: examples.",
+      "translation": "El mensaje contiene varios ejemplos útiles."
+    },
+    {
+      "id": "b25-q037",
+      "topic": "Natural customer communication",
+      "question": "We have not received any ___ from the customer yet.",
+      "options": [
+        "many feedback",
+        "a feedback",
+        "feedbacks",
+        "feedback"
+      ],
+      "correct": 3,
+      "explanation": "Feedback es incontable; any feedback es la forma estándar.",
+      "translation": "Todavía no hemos recibido comentarios del cliente."
+    },
+    {
+      "id": "b25-q038",
+      "topic": "Natural customer communication",
+      "question": "The unclear subject line caused a lot of ___.",
+      "options": [
+        "many confusion",
+        "confusion",
+        "a confusion",
+        "confusions"
+      ],
+      "correct": 1,
+      "explanation": "Confusion es incontable cuando se refiere a un estado general de falta de claridad.",
+      "translation": "El asunto poco claro causó mucha confusión."
+    },
+    {
+      "id": "b25-q039",
+      "topic": "Natural customer communication",
+      "question": "The customer reported two service ___.",
+      "options": [
+        "interruption",
+        "traffic",
+        "interruptions",
+        "downtime"
+      ],
+      "correct": 2,
+      "explanation": "Two requiere un sustantivo contable plural; interruptions es correcto.",
+      "translation": "El cliente informó de dos interrupciones del servicio."
+    },
+    {
+      "id": "b25-q040",
+      "topic": "Natural customer communication",
+      "question": "We need ___ before we finalize the message.",
+      "options": [
+        "several time",
+        "many more time",
+        "a little more time",
+        "a few more time"
+      ],
+      "correct": 2,
+      "explanation": "A little se usa con sustantivos incontables; time es incontable aquí.",
+      "translation": "Necesitamos un poco más de tiempo antes de cerrar el mensaje."
+    }
+  ]
+}

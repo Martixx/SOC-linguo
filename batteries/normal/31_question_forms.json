@@ -1,0 +1,708 @@
+{
+  "name": "31 · Question forms · Normal",
+  "description": "50 preguntas normales sobre preguntas directas e indirectas, inversión, auxiliares y formulaciones útiles en reuniones.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b31-q001",
+      "topic": "Auxiliaries and inversion",
+      "question": "Choose the correct question.",
+      "options": [
+        "Does this alert affect any production systems?",
+        "Does this alert affects any production systems?",
+        "This alert does affect any production systems?",
+        "Do this alert affect any production systems?"
+      ],
+      "correct": 0,
+      "explanation": "En present simple, las preguntas con tercera persona usan does + sujeto + verbo base.",
+      "translation": "¿Afecta esta alerta a algún sistema de producción?"
+    },
+    {
+      "id": "b31-q002",
+      "topic": "Auxiliaries and inversion",
+      "question": "Ask about the time of the first failed sign-in.",
+      "options": [
+        "When occurred the first failed sign-in?",
+        "When did the first failed sign-in occur?",
+        "When did occur the first failed sign-in?",
+        "When the first failed sign-in did occur?"
+      ],
+      "correct": 1,
+      "explanation": "En past simple usamos did + sujeto + verbo base: did ... occur.",
+      "translation": "¿Cuándo se produjo el primer inicio de sesión fallido?"
+    },
+    {
+      "id": "b31-q003",
+      "topic": "Auxiliaries and inversion",
+      "question": "Choose the grammatically correct question.",
+      "options": [
+        "Why the endpoint is still isolated?",
+        "Why does the endpoint still isolated?",
+        "Why is the endpoint still isolated?",
+        "Why is still isolated the endpoint?"
+      ],
+      "correct": 2,
+      "explanation": "Con be, el verbo se invierte con el sujeto: Why is the endpoint...?",
+      "translation": "¿Por qué sigue aislado el endpoint?"
+    },
+    {
+      "id": "b31-q004",
+      "topic": "Auxiliaries and inversion",
+      "question": "Ask whether the customer has received the report.",
+      "options": [
+        "Did the customer has received the report?",
+        "Has received the customer the report?",
+        "Does the customer have received the report?",
+        "Has the customer received the report?"
+      ],
+      "correct": 3,
+      "explanation": "El present perfect interrogativo se forma con has/have + sujeto + participio.",
+      "translation": "¿Ha recibido el cliente el informe?"
+    },
+    {
+      "id": "b31-q005",
+      "topic": "Auxiliaries and inversion",
+      "question": "Choose the correct question about ability.",
+      "options": [
+        "Can the user access the portal now?",
+        "Does the user can access the portal now?",
+        "Can access the user the portal now?",
+        "Can the user accesses the portal now?"
+      ],
+      "correct": 0,
+      "explanation": "Con un modal, invertimos modal y sujeto y usamos el verbo base: Can the user access...?",
+      "translation": "¿Puede el usuario acceder al portal ahora?"
+    },
+    {
+      "id": "b31-q006",
+      "topic": "Auxiliaries and inversion",
+      "question": "Choose the correct present continuous question.",
+      "options": [
+        "Do the analysts reviewing the new evidence?",
+        "Are the analysts reviewing the new evidence?",
+        "Are reviewing the analysts the new evidence?",
+        "The analysts are reviewing the new evidence?"
+      ],
+      "correct": 1,
+      "explanation": "El present continuous interrogativo usa be + sujeto + verbo en -ing.",
+      "translation": "¿Están revisando los analistas las nuevas pruebas?"
+    },
+    {
+      "id": "b31-q007",
+      "topic": "Auxiliaries and inversion",
+      "question": "Ask whether the rule was changed during the maintenance window.",
+      "options": [
+        "Did the rule was changed during the maintenance window?",
+        "Was changed the rule during the maintenance window?",
+        "Was the rule changed during the maintenance window?",
+        "Did the rule changed during the maintenance window?"
+      ],
+      "correct": 2,
+      "explanation": "La pasiva con be forma la pregunta invirtiendo was y el sujeto.",
+      "translation": "¿Se cambió la regla durante la ventana de mantenimiento?"
+    },
+    {
+      "id": "b31-q008",
+      "topic": "Auxiliaries and inversion",
+      "question": "Choose the correct question with there.",
+      "options": [
+        "Does there be any evidence of lateral movement?",
+        "There is any evidence of lateral movement?",
+        "Is any evidence there of lateral movement?",
+        "Is there any evidence of lateral movement?"
+      ],
+      "correct": 3,
+      "explanation": "Con there is, la pregunta se forma como Is there...?",
+      "translation": "¿Hay alguna prueba de movimiento lateral?"
+    },
+    {
+      "id": "b31-q009",
+      "topic": "Auxiliaries and inversion",
+      "question": "Ask about a future plan.",
+      "options": [
+        "Will the team rotate the keys tonight?",
+        "Does the team will rotate the keys tonight?",
+        "Will rotate the team the keys tonight?",
+        "Will the team rotates the keys tonight?"
+      ],
+      "correct": 0,
+      "explanation": "Con will, usamos will + sujeto + verbo base.",
+      "translation": "¿Rotará el equipo las claves esta noche?"
+    },
+    {
+      "id": "b31-q010",
+      "topic": "Auxiliaries and inversion",
+      "question": "Choose the correct past continuous question.",
+      "options": [
+        "Did the servers running normally before the outage?",
+        "Were the servers running normally before the outage?",
+        "Were running the servers normally before the outage?",
+        "Was the servers running normally before the outage?"
+      ],
+      "correct": 1,
+      "explanation": "El past continuous interrogativo usa was/were + sujeto + -ing; servers exige were.",
+      "translation": "¿Funcionaban los servidores con normalidad antes de la interrupción?"
+    },
+    {
+      "id": "b31-q011",
+      "topic": "Wh-questions and subject questions",
+      "question": "You want to know the person who approved the emergency change. Choose the correct question.",
+      "options": [
+        "Who did approved the emergency change?",
+        "Who did the emergency change approve?",
+        "Who approved the emergency change?",
+        "Who was approve the emergency change?"
+      ],
+      "correct": 2,
+      "explanation": "Cuando who es el sujeto, no usamos do/does/did: Who approved...?",
+      "translation": "¿Quién aprobó el cambio de emergencia?"
+    },
+    {
+      "id": "b31-q012",
+      "topic": "Wh-questions and subject questions",
+      "question": "You know the analyst contacted someone. Ask about that person.",
+      "options": [
+        "Who contacted the analyst?",
+        "Who the analyst contacted?",
+        "Who did contact the analyst?",
+        "Who did the analyst contact?"
+      ],
+      "correct": 3,
+      "explanation": "Cuando who es el objeto, usamos did + sujeto + verbo base.",
+      "translation": "¿Con quién contactó el analista?"
+    },
+    {
+      "id": "b31-q013",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask which file caused the detection.",
+      "options": [
+        "Which file triggered the detection?",
+        "Which file did triggered the detection?",
+        "Which did file trigger the detection?",
+        "Which file was trigger the detection?"
+      ],
+      "correct": 0,
+      "explanation": "Which file funciona como sujeto, por lo que no necesita did.",
+      "translation": "¿Qué archivo activó la detección?"
+    },
+    {
+      "id": "b31-q014",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask about the object that the attacker downloaded.",
+      "options": [
+        "What downloaded the attacker?",
+        "What did the attacker download?",
+        "What did the attacker downloaded?",
+        "What the attacker did download?"
+      ],
+      "correct": 1,
+      "explanation": "What es el objeto; usamos did + sujeto + verbo base.",
+      "translation": "¿Qué descargó el atacante?"
+    },
+    {
+      "id": "b31-q015",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask about the number of affected accounts.",
+      "options": [
+        "How many accounts did affect?",
+        "How much accounts were affected?",
+        "How many accounts were affected?",
+        "How many were affected accounts?"
+      ],
+      "correct": 2,
+      "explanation": "How many se usa con nombres contables plurales; la pasiva es were affected.",
+      "translation": "¿Cuántas cuentas se vieron afectadas?"
+    },
+    {
+      "id": "b31-q016",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask about the duration of the outage.",
+      "options": [
+        "How long lasted the outage?",
+        "How much time did the outage lasted?",
+        "How long the outage did last?",
+        "How long did the outage last?"
+      ],
+      "correct": 3,
+      "explanation": "How long pregunta por duración; tras did usamos last en forma base.",
+      "translation": "¿Cuánto duró la interrupción?"
+    },
+    {
+      "id": "b31-q017",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask about the team responsible for the firewall change.",
+      "options": [
+        "Which team made the firewall change?",
+        "Which team did made the firewall change?",
+        "Which did team make the firewall change?",
+        "Which team was made the firewall change?"
+      ],
+      "correct": 0,
+      "explanation": "Which team es el sujeto de made, así que no lleva auxiliar did.",
+      "translation": "¿Qué equipo realizó el cambio del cortafuegos?"
+    },
+    {
+      "id": "b31-q018",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask why the customer rejected the recommendation.",
+      "options": [
+        "Why the customer rejected the recommendation?",
+        "Why did the customer reject the recommendation?",
+        "Why did the customer rejected the recommendation?",
+        "Why was the customer reject the recommendation?"
+      ],
+      "correct": 1,
+      "explanation": "En past simple, why va seguido de did + sujeto + verbo base.",
+      "translation": "¿Por qué rechazó el cliente la recomendación?"
+    },
+    {
+      "id": "b31-q019",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask about the owner of an exposed API key.",
+      "options": [
+        "Who API key was exposed?",
+        "Whose was exposed API key?",
+        "Whose API key was exposed?",
+        "Who did own the exposed API key was?"
+      ],
+      "correct": 2,
+      "explanation": "Whose pregunta por posesión y precede al sustantivo: Whose API key...?",
+      "translation": "¿La clave de API de quién quedó expuesta?"
+    },
+    {
+      "id": "b31-q020",
+      "topic": "Wh-questions and subject questions",
+      "question": "Ask about the frequency of the backup verification.",
+      "options": [
+        "How often do the backups verified?",
+        "How often are verified the backups?",
+        "How many often are the backups verified?",
+        "How often are the backups verified?"
+      ],
+      "correct": 3,
+      "explanation": "How often pregunta por frecuencia; la pasiva interrogativa usa are + sujeto + participio.",
+      "translation": "¿Con qué frecuencia se verifican las copias de seguridad?"
+    },
+    {
+      "id": "b31-q021",
+      "topic": "Indirect and embedded questions",
+      "question": "Choose the correct indirect question.",
+      "options": [
+        "Could you tell me where the logs are stored?",
+        "Could you tell me where are the logs stored?",
+        "Could you tell me where do they store the logs?",
+        "Could you tell me where the logs stored are?"
+      ],
+      "correct": 0,
+      "explanation": "Después de la introducción, la pregunta indirecta mantiene orden afirmativo: where the logs are stored.",
+      "translation": "¿Podrías decirme dónde se almacenan los registros?"
+    },
+    {
+      "id": "b31-q022",
+      "topic": "Indirect and embedded questions",
+      "question": "Complete the polite request: Do you know ___?",
+      "options": [
+        "has the account been disabled",
+        "whether the account has been disabled",
+        "whether has been disabled the account",
+        "did the account disable"
+      ],
+      "correct": 1,
+      "explanation": "Una pregunta indirecta de sí/no usa whether/if y orden afirmativo.",
+      "translation": "¿Sabes si se ha deshabilitado la cuenta?"
+    },
+    {
+      "id": "b31-q023",
+      "topic": "Indirect and embedded questions",
+      "question": "Choose the correct embedded question.",
+      "options": [
+        "We need to understand why did the connection fail.",
+        "We need to understand why failed the connection did.",
+        "We need to understand why the connection failed.",
+        "We need to understand why does the connection failed."
+      ],
+      "correct": 2,
+      "explanation": "Tras understand, la cláusula interrogativa usa orden de enunciado: why the connection failed.",
+      "translation": "Necesitamos entender por qué falló la conexión."
+    },
+    {
+      "id": "b31-q024",
+      "topic": "Indirect and embedded questions",
+      "question": "Choose the most natural polite question.",
+      "options": [
+        "Could you explain how does this rule work?",
+        "Could you explain how works this rule?",
+        "Could you explain how this rule does work?",
+        "Could you explain how this rule works?"
+      ],
+      "correct": 3,
+      "explanation": "En la interrogativa indirecta usamos how + sujeto + verbo, sin inversión.",
+      "translation": "¿Podrías explicar cómo funciona esta regla?"
+    },
+    {
+      "id": "b31-q025",
+      "topic": "Indirect and embedded questions",
+      "question": "Complete the sentence: I’m not sure ___.",
+      "options": [
+        "when the maintenance window starts",
+        "when does the maintenance window start",
+        "when starts the maintenance window does",
+        "when is start the maintenance window"
+      ],
+      "correct": 0,
+      "explanation": "Después de I’m not sure usamos orden afirmativo: when the ... starts.",
+      "translation": "No estoy segura de cuándo empieza la ventana de mantenimiento."
+    },
+    {
+      "id": "b31-q026",
+      "topic": "Indirect and embedded questions",
+      "question": "Choose the correct question to request a status update politely.",
+      "options": [
+        "Could you let us know has the scan finished?",
+        "Could you let us know whether the scan has finished?",
+        "Could you let us know whether has finished the scan?",
+        "Could you let us know did the scan finish?"
+      ],
+      "correct": 1,
+      "explanation": "Whether introduce una pregunta indirecta de sí/no y va seguida de orden afirmativo.",
+      "translation": "¿Podrías decirnos si ha terminado el análisis?"
+    },
+    {
+      "id": "b31-q027",
+      "topic": "Indirect and embedded questions",
+      "question": "Complete the sentence: The customer asked ___.",
+      "options": [
+        "what evidence had we collected",
+        "what did evidence we collect",
+        "what evidence we had collected",
+        "what evidence we did collected"
+      ],
+      "correct": 2,
+      "explanation": "Una pregunta reportada usa orden afirmativo: what evidence we had collected.",
+      "translation": "El cliente preguntó qué pruebas habíamos recopilado."
+    },
+    {
+      "id": "b31-q028",
+      "topic": "Indirect and embedded questions",
+      "question": "Choose the correct embedded yes/no question.",
+      "options": [
+        "Can you confirm is the IP address still blocked?",
+        "Can you confirm if is still blocked the IP address?",
+        "Can you confirm does the IP address still blocked?",
+        "Can you confirm if the IP address is still blocked?"
+      ],
+      "correct": 3,
+      "explanation": "If puede introducir una pregunta indirecta de sí/no; después usamos orden afirmativo.",
+      "translation": "¿Puedes confirmar si la dirección IP sigue bloqueada?"
+    },
+    {
+      "id": "b31-q029",
+      "topic": "Indirect and embedded questions",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Nobody knows who changed the policy.",
+        "Nobody knows who did changed the policy.",
+        "Nobody knows who the policy changed.",
+        "Nobody knows who was change the policy."
+      ],
+      "correct": 0,
+      "explanation": "Who es el sujeto de la cláusula; no se añade did.",
+      "translation": "Nadie sabe quién cambió la directiva."
+    },
+    {
+      "id": "b31-q030",
+      "topic": "Indirect and embedded questions",
+      "question": "Complete the request: Please tell me ___.",
+      "options": [
+        "which systems do need to be restarted?",
+        "which systems need to be restarted",
+        "which do systems need to be restarted",
+        "which systems need they to be restarted"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta indirecta conserva el orden afirmativo y no lleva signo de interrogación dentro de la frase.",
+      "translation": "Dime qué sistemas deben reiniciarse."
+    },
+    {
+      "id": "b31-q031",
+      "topic": "Question tags and negative questions",
+      "question": "Complete the tag: The account is still active, ___?",
+      "options": [
+        "doesn’t it",
+        "is it",
+        "isn’t it",
+        "wasn’t it"
+      ],
+      "correct": 2,
+      "explanation": "Una oración afirmativa con is lleva una coletilla negativa con el mismo auxiliar: isn’t it?",
+      "translation": "La cuenta sigue activa, ¿verdad?"
+    },
+    {
+      "id": "b31-q032",
+      "topic": "Question tags and negative questions",
+      "question": "Complete the tag: The analysts didn’t find malware, ___?",
+      "options": [
+        "didn’t they",
+        "were they",
+        "do they",
+        "did they"
+      ],
+      "correct": 3,
+      "explanation": "Una oración negativa en past simple lleva tag afirmativo con did.",
+      "translation": "Los analistas no encontraron malware, ¿verdad?"
+    },
+    {
+      "id": "b31-q033",
+      "topic": "Question tags and negative questions",
+      "question": "Complete the tag: We should notify the customer, ___?",
+      "options": [
+        "shouldn’t we",
+        "don’t we",
+        "should we",
+        "aren’t we"
+      ],
+      "correct": 0,
+      "explanation": "La coletilla repite el modal should y cambia la polaridad.",
+      "translation": "Deberíamos avisar al cliente, ¿no?"
+    },
+    {
+      "id": "b31-q034",
+      "topic": "Question tags and negative questions",
+      "question": "Complete the tag: Nobody changed the rule, ___?",
+      "options": [
+        "didn’t they",
+        "did they",
+        "was it",
+        "do nobody"
+      ],
+      "correct": 1,
+      "explanation": "Nobody tiene sentido negativo, por lo que el tag es afirmativo; se usa they como pronombre.",
+      "translation": "Nadie cambió la regla, ¿verdad?"
+    },
+    {
+      "id": "b31-q035",
+      "topic": "Question tags and negative questions",
+      "question": "Choose the natural negative question expressing surprise.",
+      "options": [
+        "Doesn’t the team has finished the review yet?",
+        "Has the team not finished yet the review?",
+        "Hasn’t the team finished the review yet?",
+        "Didn’t the team finished the review yet?"
+      ],
+      "correct": 2,
+      "explanation": "El present perfect negativo interrogativo usa hasn’t + sujeto + participio.",
+      "translation": "¿Todavía no ha terminado el equipo la revisión?"
+    },
+    {
+      "id": "b31-q036",
+      "topic": "Question tags and negative questions",
+      "question": "Complete the tag: There were no failed sign-ins, ___?",
+      "options": [
+        "weren’t there",
+        "were they",
+        "did there",
+        "were there"
+      ],
+      "correct": 3,
+      "explanation": "Con there were y una idea negativa, la coletilla afirmativa es were there?",
+      "translation": "No hubo inicios de sesión fallidos, ¿verdad?"
+    },
+    {
+      "id": "b31-q037",
+      "topic": "Question tags and negative questions",
+      "question": "Choose the correct negative question.",
+      "options": [
+        "Why wasn’t the alert escalated earlier?",
+        "Why didn’t the alert was escalated earlier?",
+        "Why the alert wasn’t escalated earlier?",
+        "Why wasn’t escalated the alert earlier?"
+      ],
+      "correct": 0,
+      "explanation": "En una pasiva negativa, invertimos wasn’t y el sujeto.",
+      "translation": "¿Por qué no se escaló antes la alerta?"
+    },
+    {
+      "id": "b31-q038",
+      "topic": "Question tags and negative questions",
+      "question": "Complete the tag: Let’s review the timeline, ___?",
+      "options": [
+        "will we",
+        "shall we",
+        "do we",
+        "shouldn’t us"
+      ],
+      "correct": 1,
+      "explanation": "La coletilla habitual después de Let’s es shall we?",
+      "translation": "Revisemos la cronología, ¿de acuerdo?"
+    },
+    {
+      "id": "b31-q039",
+      "topic": "Question tags and negative questions",
+      "question": "Complete the tag: Close the ticket after the call, ___?",
+      "options": [
+        "do you",
+        "won’t it",
+        "will you",
+        "shall we"
+      ],
+      "correct": 2,
+      "explanation": "Los imperativos suelen llevar will you? como coletilla neutral.",
+      "translation": "Cierra el ticket después de la llamada, ¿de acuerdo?"
+    },
+    {
+      "id": "b31-q040",
+      "topic": "Question tags and negative questions",
+      "question": "Choose the correct question when you expect confirmation.",
+      "options": [
+        "The service is back online, doesn’t it?",
+        "Isn’t the service back online, is it?",
+        "The service back online, isn’t it?",
+        "The service is back online, isn’t it?"
+      ],
+      "correct": 3,
+      "explanation": "La oración principal usa is y es afirmativa; el tag correspondiente es isn’t it?",
+      "translation": "El servicio vuelve a estar operativo, ¿verdad?"
+    },
+    {
+      "id": "b31-q041",
+      "topic": "Polite questions for meetings",
+      "question": "Choose the most natural way to ask for clarification in a meeting.",
+      "options": [
+        "Could you clarify what you mean by “confirmed activity”?",
+        "Could you clarify what do you mean by “confirmed activity”?",
+        "Could you clarify what are you meaning with “confirmed activity”?",
+        "Could you clarify what means “confirmed activity” by you?"
+      ],
+      "correct": 0,
+      "explanation": "Tras clarify, la interrogativa indirecta lleva orden afirmativo: what you mean.",
+      "translation": "¿Podrías aclarar qué quieres decir con «actividad confirmada»?"
+    },
+    {
+      "id": "b31-q042",
+      "topic": "Polite questions for meetings",
+      "question": "Ask politely for permission to add a point.",
+      "options": [
+        "May I to add something to that?",
+        "May I add something to that?",
+        "Do I may add something to that?",
+        "Am I may add something to that?"
+      ],
+      "correct": 1,
+      "explanation": "May + sujeto + verbo base forma una petición formal de permiso.",
+      "translation": "¿Puedo añadir algo a eso?"
+    },
+    {
+      "id": "b31-q043",
+      "topic": "Polite questions for meetings",
+      "question": "Choose the best question for checking shared understanding.",
+      "options": [
+        "Do we aligned on the next steps?",
+        "Are aligned we on the next steps?",
+        "Are we aligned on the next steps?",
+        "We are aligned on the next steps?"
+      ],
+      "correct": 2,
+      "explanation": "Con el adjetivo aligned usamos be e inversión: Are we aligned...?",
+      "translation": "¿Estamos de acuerdo sobre los siguientes pasos?"
+    },
+    {
+      "id": "b31-q044",
+      "topic": "Polite questions for meetings",
+      "question": "Ask the customer to repeat a date politely.",
+      "options": [
+        "Could you to repeat the date, please?",
+        "Do you could repeat the date, please?",
+        "Could repeat you the date, please?",
+        "Could you repeat the date, please?"
+      ],
+      "correct": 3,
+      "explanation": "Could you + verbo base es una estructura cortés y correcta.",
+      "translation": "¿Podrías repetir la fecha, por favor?"
+    },
+    {
+      "id": "b31-q045",
+      "topic": "Polite questions for meetings",
+      "question": "Choose the natural question for exploring an alternative.",
+      "options": [
+        "What would happen if we delayed the change?",
+        "What will happen if we would delay the change?",
+        "What would happened if we delayed the change?",
+        "What did happen if we would delay the change?"
+      ],
+      "correct": 0,
+      "explanation": "Una hipótesis usa would en la principal y past simple en la cláusula con if.",
+      "translation": "¿Qué ocurriría si retrasáramos el cambio?"
+    },
+    {
+      "id": "b31-q046",
+      "topic": "Polite questions for meetings",
+      "question": "Ask about the person responsible for an action item.",
+      "options": [
+        "Who does will take ownership of this action?",
+        "Who will take ownership of this action?",
+        "Who will takes ownership of this action?",
+        "Who will this action take ownership of?"
+      ],
+      "correct": 1,
+      "explanation": "Who es sujeto y con will se usa el verbo base: will take.",
+      "translation": "¿Quién se responsabilizará de esta acción?"
+    },
+    {
+      "id": "b31-q047",
+      "topic": "Polite questions for meetings",
+      "question": "Choose the most natural way to verify a deadline.",
+      "options": [
+        "When are you need the final report?",
+        "When you do need the final report?",
+        "When do you need the final report?",
+        "When does you need the final report?"
+      ],
+      "correct": 2,
+      "explanation": "En present simple con you usamos do + sujeto + verbo base.",
+      "translation": "¿Cuándo necesitas el informe final?"
+    },
+    {
+      "id": "b31-q048",
+      "topic": "Polite questions for meetings",
+      "question": "Ask politely whether screen sharing is possible.",
+      "options": [
+        "Would you mind to share your screen?",
+        "Do you mind to sharing your screen?",
+        "Would you mind share your screen?",
+        "Would you mind sharing your screen?"
+      ],
+      "correct": 3,
+      "explanation": "Would you mind va seguido de gerundio.",
+      "translation": "¿Te importaría compartir la pantalla?"
+    },
+    {
+      "id": "b31-q049",
+      "topic": "Polite questions for meetings",
+      "question": "Choose the best follow-up question after an unclear answer.",
+      "options": [
+        "Could you give us an example?",
+        "Could you give to us an example?",
+        "Could you to give us an example?",
+        "Do you could give us an example?"
+      ],
+      "correct": 0,
+      "explanation": "Could you + verbo base forma una petición cortés; give someone something no requiere to.",
+      "translation": "¿Podrías darnos un ejemplo?"
+    },
+    {
+      "id": "b31-q050",
+      "topic": "Polite questions for meetings",
+      "question": "Ask for confirmation of the agreed scope.",
+      "options": [
+        "Did we agreed which systems are in scope?",
+        "Have we agreed which systems are in scope?",
+        "Have agreed we which systems are in scope?",
+        "Do we have agree which systems are in scope?"
+      ],
+      "correct": 1,
+      "explanation": "El present perfect interrogativo usa have + sujeto + participio: Have we agreed...?",
+      "translation": "¿Hemos acordado qué sistemas están incluidos en el alcance?"
+    }
+  ]
+}

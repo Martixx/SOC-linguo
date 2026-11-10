@@ -1,0 +1,428 @@
+{
+  "name": "02 · Present simple vs present continuous · Normal",
+  "description": "30 preguntas para distinguir rutinas, alcance del servicio y estados de acciones en curso durante investigaciones y llamadas con clientes.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "psc-001",
+      "topic": "Present simple · Service and routine",
+      "question": "Our SOC ___ your environment 24/7.",
+      "options": [
+        "monitors",
+        "is monitoring now",
+        "monitoring",
+        "monitor"
+      ],
+      "correct": 0,
+      "explanation": "Usamos present simple para describir un servicio habitual o permanente. Con “our SOC” añadimos -s: monitors.",
+      "translation": "Nuestro SOC monitoriza tu entorno las 24 horas del día, los 7 días de la semana."
+    },
+    {
+      "id": "psc-002",
+      "topic": "Present continuous · Now",
+      "question": "Right now, we ___ the authentication logs.",
+      "options": [
+        "review",
+        "are reviewing",
+        "reviews",
+        "reviewed"
+      ],
+      "correct": 1,
+      "explanation": "“Right now” indica una acción en curso; usamos “are + -ing”: are reviewing.",
+      "translation": "Ahora mismo estamos revisando los logs de autenticación."
+    },
+    {
+      "id": "psc-003",
+      "topic": "Present simple · Service and routine",
+      "question": "The platform ___ telemetry from all onboarded endpoints.",
+      "options": [
+        "is collecting now",
+        "collect",
+        "collects",
+        "collecting"
+      ],
+      "correct": 2,
+      "explanation": "Usamos present simple para explicar cómo funciona normalmente la plataforma. “The platform” lleva collects.",
+      "translation": "La plataforma recopila telemetría de todos los endpoints incorporados."
+    },
+    {
+      "id": "psc-004",
+      "topic": "Present continuous · Customer call",
+      "question": "I ___ my screen now so you can see the alert details.",
+      "options": [
+        "share",
+        "shares",
+        "shared",
+        "am sharing"
+      ],
+      "correct": 3,
+      "explanation": "La acción está ocurriendo durante la llamada; usamos “am + -ing”: am sharing.",
+      "translation": "Estoy compartiendo mi pantalla para que puedas ver los detalles de la alerta."
+    },
+    {
+      "id": "psc-005",
+      "topic": "Present simple · Service and routine",
+      "question": "We usually ___ the executive summary on Monday mornings.",
+      "options": [
+        "send",
+        "are sending",
+        "sends",
+        "sending"
+      ],
+      "correct": 0,
+      "explanation": "“Usually” expresa una rutina; usamos present simple: send.",
+      "translation": "Normalmente enviamos el resumen ejecutivo los lunes por la mañana."
+    },
+    {
+      "id": "psc-006",
+      "topic": "Present continuous · Temporary situation",
+      "question": "This week, we ___ interim updates every two hours.",
+      "options": [
+        "send",
+        "are sending",
+        "sends",
+        "sent"
+      ],
+      "correct": 1,
+      "explanation": "“This week” describe una medida temporal alrededor del presente; usamos present continuous: are sending.",
+      "translation": "Esta semana estamos enviando actualizaciones provisionales cada dos horas."
+    },
+    {
+      "id": "psc-007",
+      "topic": "Present simple · How it works",
+      "question": "This detection rule ___ multiple failed sign-ins from the same source.",
+      "options": [
+        "is detecting at the moment",
+        "detect",
+        "detects",
+        "detecting"
+      ],
+      "correct": 2,
+      "explanation": "Usamos present simple para explicar la función general de una regla. Con “this rule” usamos detects.",
+      "translation": "Esta regla de detección identifica múltiples inicios de sesión fallidos desde el mismo origen."
+    },
+    {
+      "id": "psc-008",
+      "topic": "Present continuous · Temporary situation",
+      "question": "Why ___ the sensor ___ so many duplicate events today?",
+      "options": [
+        "does / send",
+        "do / send",
+        "is / send",
+        "is / sending"
+      ],
+      "correct": 3,
+      "explanation": "Preguntamos por un comportamiento temporal de hoy; usamos “is + sujeto + -ing”: is the sensor sending.",
+      "translation": "¿Por qué está enviando hoy el sensor tantos eventos duplicados?"
+    },
+    {
+      "id": "psc-009",
+      "topic": "Present continuous · Now",
+      "question": "We ___ any changes at the moment; we are only collecting evidence.",
+      "options": [
+        "are not making",
+        "do not make now",
+        "does not make",
+        "not making"
+      ],
+      "correct": 0,
+      "explanation": "“At the moment” indica una situación actual; la negativa es “are not + -ing”: are not making.",
+      "translation": "No estamos realizando ningún cambio en este momento; solo estamos recopilando evidencias."
+    },
+    {
+      "id": "psc-010",
+      "topic": "Present simple · Scope and responsibility",
+      "question": "We do not ___ the customer’s firewall directly.",
+      "options": [
+        "managed",
+        "manage",
+        "managing",
+        "manages"
+      ],
+      "correct": 1,
+      "explanation": "Después de “do not” usamos V1. El present simple describe aquí un límite permanente del servicio: manage.",
+      "translation": "No gestionamos directamente el firewall del cliente."
+    },
+    {
+      "id": "psc-011",
+      "topic": "Present simple · States",
+      "question": "___ this alert ___ production?",
+      "options": [
+        "Is / affecting",
+        "Do / affects",
+        "Does / affect",
+        "Does / affecting"
+      ],
+      "correct": 2,
+      "explanation": "“Affect” describe aquí el impacto o estado actual. La pregunta en present simple es “Does + sujeto + V1?”.",
+      "translation": "¿Afecta esta alerta a producción?"
+    },
+    {
+      "id": "psc-012",
+      "topic": "Present simple · States",
+      "question": "I ___ your concern, and I will explain the containment options.",
+      "options": [
+        "am understanding",
+        "understood now",
+        "understanding",
+        "understand"
+      ],
+      "correct": 3,
+      "explanation": "“Understand” suele ser un verbo de estado y normalmente se usa en present simple, no en continuous.",
+      "translation": "Entiendo tu preocupación y explicaré las opciones de contención."
+    },
+    {
+      "id": "psc-013",
+      "topic": "Present simple · States",
+      "question": "We ___ your approval before we isolate the server.",
+      "options": [
+        "need",
+        "are needing",
+        "needs",
+        "needed now"
+      ],
+      "correct": 0,
+      "explanation": "“Need” expresa un estado o requisito; usamos present simple: need.",
+      "translation": "Necesitamos tu aprobación antes de aislar el servidor."
+    },
+    {
+      "id": "psc-014",
+      "topic": "Present simple · Routine vs current action",
+      "question": "The analyst who normally ___ this account is attending another call.",
+      "options": [
+        "is handling",
+        "handles",
+        "handle",
+        "handling"
+      ],
+      "correct": 1,
+      "explanation": "“Normally” señala la responsabilidad habitual; usamos present simple: handles. “Is attending” describe la situación actual.",
+      "translation": "El analista que normalmente gestiona esta cuenta está atendiendo otra llamada."
+    },
+    {
+      "id": "psc-015",
+      "topic": "Present continuous · Now",
+      "question": "Network traffic ___ rapidly right now.",
+      "options": [
+        "increase",
+        "increases",
+        "is increasing",
+        "increasing"
+      ],
+      "correct": 2,
+      "explanation": "“Right now” y el cambio en curso requieren present continuous: is increasing.",
+      "translation": "El tráfico de red está aumentando rápidamente ahora mismo."
+    },
+    {
+      "id": "psc-016",
+      "topic": "Present simple · How it works",
+      "question": "The dashboard ___ every five minutes.",
+      "options": [
+        "is updating now",
+        "update",
+        "updating",
+        "updates"
+      ],
+      "correct": 3,
+      "explanation": "Una frecuencia fija (“every five minutes”) se expresa con present simple: updates.",
+      "translation": "El panel se actualiza cada cinco minutos."
+    },
+    {
+      "id": "psc-017",
+      "topic": "Present continuous · Temporary situation",
+      "question": "The team ___ a new detection rule this week.",
+      "options": [
+        "is testing",
+        "tests",
+        "test",
+        "tested"
+      ],
+      "correct": 0,
+      "explanation": "“This week” presenta una actividad temporal en curso; usamos present continuous: is testing.",
+      "translation": "El equipo está probando una nueva regla de detección esta semana."
+    },
+    {
+      "id": "psc-018",
+      "topic": "Present simple · How it works",
+      "question": "The service ___ in read-only mode.",
+      "options": [
+        "is running at this second",
+        "runs",
+        "run",
+        "running"
+      ],
+      "correct": 1,
+      "explanation": "Usamos present simple para describir el modo de funcionamiento normal del servicio: runs.",
+      "translation": "El servicio funciona en modo de solo lectura."
+    },
+    {
+      "id": "psc-019",
+      "topic": "Present continuous · Investigation",
+      "question": "We ___ whether any data is leaving the network right now.",
+      "options": [
+        "check",
+        "checks",
+        "are checking",
+        "checked"
+      ],
+      "correct": 2,
+      "explanation": "La comprobación está en curso ahora; usamos “are + -ing”: are checking.",
+      "translation": "Estamos comprobando ahora mismo si algún dato está saliendo de la red."
+    },
+    {
+      "id": "psc-020",
+      "topic": "Present simple · Policy and limits",
+      "question": "The SIEM does not ___ raw data beyond 90 days.",
+      "options": [
+        "retaining",
+        "retains",
+        "retained",
+        "retain"
+      ],
+      "correct": 3,
+      "explanation": "Describimos una política estable. Después de “does not” usamos V1: retain.",
+      "translation": "El SIEM no conserva datos sin procesar durante más de 90 días."
+    },
+    {
+      "id": "psc-021",
+      "topic": "Present continuous · Customer call",
+      "question": "___ you ___ our notifications at the moment?",
+      "options": [
+        "Are / receiving",
+        "Do / receiving",
+        "Does / receive",
+        "Is / receiving"
+      ],
+      "correct": 0,
+      "explanation": "“At the moment” pregunta por una situación en curso; usamos “Are you receiving…?”.",
+      "translation": "¿Estás recibiendo nuestras notificaciones en este momento?"
+    },
+    {
+      "id": "psc-022",
+      "topic": "Present simple · Service and routine",
+      "question": "How often ___ your team ___ the privileged credentials?",
+      "options": [
+        "is / rotating",
+        "does / rotate",
+        "do / rotates",
+        "does / rotating"
+      ],
+      "correct": 1,
+      "explanation": "“How often” pregunta por una frecuencia habitual. Usamos “does + sujeto + V1”: does your team rotate.",
+      "translation": "¿Con qué frecuencia rota tu equipo las credenciales privilegiadas?"
+    },
+    {
+      "id": "psc-023",
+      "topic": "Present continuous · Customer call",
+      "question": "I ___ a full shutdown; I am recommending network isolation.",
+      "options": [
+        "do not suggest now",
+        "does not suggest",
+        "am not suggesting",
+        "not suggest"
+      ],
+      "correct": 2,
+      "explanation": "La persona aclara lo que está proponiendo en esta conversación; usamos present continuous: am not suggesting.",
+      "translation": "No estoy proponiendo un apagado completo; estoy recomendando el aislamiento de red."
+    },
+    {
+      "id": "psc-024",
+      "topic": "Present simple · States",
+      "question": "This account ___ to a service application.",
+      "options": [
+        "is belonging",
+        "belong",
+        "belonging",
+        "belongs"
+      ],
+      "correct": 3,
+      "explanation": "“Belong” es un verbo de estado y normalmente no se usa en continuous. Con “this account” usamos belongs.",
+      "translation": "Esta cuenta pertenece a una aplicación de servicio."
+    },
+    {
+      "id": "psc-025",
+      "topic": "Present continuous · Investigation",
+      "question": "We ___ repeated attempts from the same IP right now.",
+      "options": [
+        "are seeing",
+        "see every day",
+        "sees",
+        "seeing"
+      ],
+      "correct": 0,
+      "explanation": "En lenguaje SOC, “are seeing” puede describir observaciones que aparecen ahora de forma repetida.",
+      "translation": "Estamos observando ahora mismo intentos repetidos desde la misma IP."
+    },
+    {
+      "id": "psc-026",
+      "topic": "Present simple · States",
+      "question": "The current evidence does not ___ data exfiltration.",
+      "options": [
+        "proving",
+        "prove",
+        "proves",
+        "is proving"
+      ],
+      "correct": 1,
+      "explanation": "“Prove” describe aquí lo que las evidencias demuestran. Después de “does not” usamos V1: prove.",
+      "translation": "Las evidencias actuales no demuestran que haya habido exfiltración de datos."
+    },
+    {
+      "id": "psc-027",
+      "topic": "Present simple · Service and routine",
+      "question": "We ___ a daily incident review at 09:00.",
+      "options": [
+        "are holding today",
+        "holds",
+        "hold",
+        "holding"
+      ],
+      "correct": 2,
+      "explanation": "“Daily” y la hora fija describen una rutina; usamos present simple: hold.",
+      "translation": "Celebramos una revisión diaria de incidentes a las 09:00."
+    },
+    {
+      "id": "psc-028",
+      "topic": "Present continuous · Temporary situation",
+      "question": "At present, we ___ with your infrastructure team.",
+      "options": [
+        "coordinate",
+        "coordinates",
+        "coordinating",
+        "are coordinating"
+      ],
+      "correct": 3,
+      "explanation": "“At present” indica una actividad temporal en curso; usamos present continuous: are coordinating.",
+      "translation": "Actualmente estamos coordinándonos con tu equipo de infraestructura."
+    },
+    {
+      "id": "psc-029",
+      "topic": "Present simple · Scope and responsibility",
+      "question": "Choose the best sentence to describe a permanent SOC service.",
+      "options": [
+        "Our SOC provides 24/7 monitoring.",
+        "Our SOC is provide 24/7 monitoring.",
+        "Our SOC providing 24/7 monitoring.",
+        "Our SOC provide 24/7 monitoring."
+      ],
+      "correct": 0,
+      "explanation": "Para un servicio permanente usamos present simple. Con “our SOC” necesitamos la tercera persona: provides.",
+      "translation": "Nuestro SOC proporciona monitorización las 24 horas del día, los 7 días de la semana."
+    },
+    {
+      "id": "psc-030",
+      "topic": "Present continuous · Now",
+      "question": "Choose the best sentence for an action in progress during the call.",
+      "options": [
+        "We prepare the root cause analysis now.",
+        "We are preparing the root cause analysis now.",
+        "We preparing the root cause analysis now.",
+        "We is preparing the root cause analysis now."
+      ],
+      "correct": 1,
+      "explanation": "“Now” indica una acción en curso. Con “we” usamos “are + -ing”: are preparing.",
+      "translation": "Estamos preparando ahora el análisis de causa raíz."
+    }
+  ],
+  "category": "normal"
+}

@@ -1,0 +1,1408 @@
+{
+  "name": "18 · Explaining detections and SOC processes · Natural English",
+  "description": "100 microescenarios revisados para explicar detecciones, datos, alertas, correlación, falsos positivos, triaje, escalado, monitorización, limitaciones y próximos pasos con un inglés claro, natural y prudente. El contexto SOC apoya el aprendizaje lingüístico; ninguna respuesta depende de una decisión técnica discutible.",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b18v2-detections-processes-001",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "You are introducing a detection rule to a customer. Which opening sounds clearest?",
+      "options": [
+        "This rule proves that unusual sign-ins are malicious whenever it generates an alert.",
+        "This rule has the purpose of making the identification of sign-ins that are unusual.",
+        "This rule identifies every suspicious sign-in and confirms whether the account is compromised.",
+        "This rule is designed to identify unusual sign-in patterns that may require investigation."
+      ],
+      "correct": 3,
+      "explanation": "La estructura «is designed to identify» explica la finalidad con claridad sin prometer certeza. «Proves», «every» y «confirms» exageran; «has the purpose of making the identification» es innecesariamente pesada.",
+      "translation": "Esta regla está diseñada para identificar patrones de inicio de sesión inusuales que pueden requerir investigación."
+    },
+    {
+      "id": "b18v2-detections-processes-002",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "Complete the sentence for a client briefing: 'The main purpose of this use case is ___.'",
+      "options": [
+        "highlighting all activity which definitely represents an attack",
+        "for highlighting activity so that every threat can be confirmed",
+        "to highlight activity that deserves a closer look",
+        "that it highlights activities deserving to be looked more closely"
+      ],
+      "correct": 2,
+      "explanation": "Después de «the purpose ... is» resulta natural usar «to + infinitive». «Deserves a closer look» es una colocación idiomática y prudente.",
+      "translation": "El objetivo principal de este caso de uso es destacar la actividad que merece un análisis más detenido."
+    },
+    {
+      "id": "b18v2-detections-processes-003",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "A slide says, 'The rule detects impossible travel.' You want to make the claim more precise when speaking. Which version is best?",
+      "options": [
+        "The rule detects impossible travel and therefore establishes that the account was attacked.",
+        "The rule looks for sign-ins from locations that appear inconsistent with the time between them.",
+        "The rule is looking at locations because travel between them could be impossible for the user.",
+        "The rule searches impossible journeys, which normally means that somebody stole the credentials."
+      ],
+      "correct": 1,
+      "explanation": "«Looks for» describe el patrón buscado sin convertir una alerta en una conclusión. «Appear inconsistent» mantiene el nivel de certeza adecuado y suena natural.",
+      "translation": "La regla busca inicios de sesión desde ubicaciones que parecen incompatibles con el tiempo transcurrido entre ellos."
+    },
+    {
+      "id": "b18v2-detections-processes-004",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "Which sentence distinguishes the rule's objective from its outcome most naturally?",
+      "options": [
+        "The rule is intended to surface suspicious behavior; the investigation determines what the behavior means.",
+        "The objective of the rule is surfacing behavior, and its outcome determines the incident completely.",
+        "The rule intends that suspicious behavior surfaces, while analysts are deciding its final meaning.",
+        "The rule finds suspicious behavior, so the outcome is an incident unless an analyst rejects it."
+      ],
+      "correct": 0,
+      "explanation": "«Is intended to» expresa finalidad y el punto y coma separa dos ideas relacionadas. La frase evita atribuir a la regla una conclusión que corresponde a la investigación.",
+      "translation": "La regla pretende sacar a la luz comportamientos sospechosos; la investigación determina qué significan."
+    },
+    {
+      "id": "b18v2-detections-processes-005",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "During a call, you need to explain that a detection has a narrow scope. Choose the most natural sentence.",
+      "options": [
+        "This detection is focused in changes that happen to groups with privileged membership.",
+        "This detection focuses specifically on changes to privileged group membership.",
+        "This detection controls all privileged activity.",
+        "This detection has a narrow scope because it only detects every change made by privileged users."
+      ],
+      "correct": 1,
+      "explanation": "La colocación correcta es «focuses on», no «focuses in». «Specifically» delimita el alcance de forma directa y natural.",
+      "translation": "Esta detección se centra específicamente en los cambios en la pertenencia a grupos privilegiados."
+    },
+    {
+      "id": "b18v2-detections-processes-006",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "A customer asks what a rule is meant to catch. Which response works best in spoken English?",
+      "options": [
+        "It's meant to flag repeated failures followed by a successful sign-in.",
+        "It is meant for flagging failures repeatedly and then a sign-in that has success.",
+        "It confirms an account takeover after a successful sign-in.",
+        "Its meaning is to flag repeated failures, after which success in the sign-in is observed."
+      ],
+      "correct": 0,
+      "explanation": "«Be meant to + infinitive» es una forma oral y natural de explicar la finalidad. La respuesta describe el patrón, no una conclusión técnica absoluta.",
+      "translation": "Está pensada para señalar fallos repetidos seguidos de un inicio de sesión correcto."
+    },
+    {
+      "id": "b18v2-detections-processes-007",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "Select the best customer-friendly explanation of a threshold-based rule.",
+      "options": [
+        "The alert is triggered when the number of failed attempts exceeds the configured threshold.",
+        "The alert triggers when failed attempts are more than what the threshold has configured.",
+        "The configured threshold makes the alert trigger and confirms that the attempts are hostile.",
+        "Once failures exceed any normal number, the alert will always be triggered as an incident."
+      ],
+      "correct": 0,
+      "explanation": "«Is triggered when ... exceeds the threshold» usa una pasiva muy habitual para explicar reglas. Las otras opciones tienen colocaciones poco naturales o añaden certeza injustificada.",
+      "translation": "La alerta se activa cuando el número de intentos fallidos supera el umbral configurado."
+    },
+    {
+      "id": "b18v2-detections-processes-008",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "You want to explain that the rule does not inspect message content. Which sentence is clearest?",
+      "options": [
+        "The rule analyzes the metadata of messages, but it does not look inside of their actual contents.",
+        "The rule analyzes message metadata, not the content of the messages themselves.",
+        "The rule sees only metadata, so message content stays completely private.",
+        "The rule does not inspect contents because metadata is all the information it needs to decide."
+      ],
+      "correct": 1,
+      "explanation": "El contraste «metadata, not the content ... themselves» es conciso y enfático. Evita garantías o conclusiones que no hacen falta para explicar el alcance.",
+      "translation": "La regla analiza los metadatos de los mensajes, no el contenido de los propios mensajes."
+    },
+    {
+      "id": "b18v2-detections-processes-009",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "Which phrase is the most natural way to introduce an example of activity covered by a rule?",
+      "options": [
+        "For example, the rule can flag a new forwarding setting created shortly after a suspicious sign-in.",
+        "As an example, the rule can confirm a compromise when any forwarding setting is newly created.",
+        "For putting an example, a forwarding setting after a sign-in is something the rule can flag.",
+        "By example, the rule flags forwarding settings, which are suspicious after all sign-ins."
+      ],
+      "correct": 0,
+      "explanation": "«For example» introduce el caso de manera idiomática. «Can flag» expresa capacidad sin afirmar que el ejemplo confirma un compromiso.",
+      "translation": "Por ejemplo, la regla puede señalar una nueva configuración de reenvío creada poco después de un inicio de sesión sospechoso."
+    },
+    {
+      "id": "b18v2-detections-processes-010",
+      "topic": "Explaining detections · Purpose and scope",
+      "question": "A technical description is too dense for a meeting. Choose the best spoken version.",
+      "options": [
+        "Simplifying the terminology, a sequence of anomalous events is evaluated in relation to the entity during the current review.",
+        "Basically, the rule knows when the account is behaving maliciously across a sequence of events.",
+        "Said in simple terms, events are sequenced so unusual behavior will be conclusively identified.",
+        "In simple terms, the rule looks for a sequence of events that would be unusual for this account."
+      ],
+      "correct": 3,
+      "explanation": "«In simple terms» funciona como marcador oral y «would be unusual» añade prudencia. La frase reduce densidad sin perder el significado.",
+      "translation": "Dicho de forma sencilla, la regla busca una secuencia de eventos que sería inusual para esta cuenta."
+    },
+    {
+      "id": "b18v2-detections-processes-011",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "You need to name the data used by a detection without sounding overly technical. Which sentence is best?",
+      "options": [
+        "The detection consumes sign-ins together with devices for making more context available.",
+        "The detection uses all identity data, so visibility is complete.",
+        "The detection uses sign-in and device data to provide additional context.",
+        "The detection provides context by taking every sign-in and device event as evidence."
+      ],
+      "correct": 2,
+      "explanation": "«Uses X and Y data to provide context» es una estructura clara y natural. «Consumes» es más técnico y las otras opciones exageran la cobertura.",
+      "translation": "La detección utiliza datos de inicios de sesión y dispositivos para aportar contexto adicional."
+    },
+    {
+      "id": "b18v2-detections-processes-012",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "Complete the update: 'At the moment, we are not receiving ___ from two servers.'",
+      "options": [
+        "the audit logs that we expected to be received by us",
+        "all telemetry, which prevents any form of investigation",
+        "the expected audit logs",
+        "those expected logging informations"
+      ],
+      "correct": 2,
+      "explanation": "«The expected audit logs» es conciso; «logs» es contable, mientras que «information» sería incontable. La frase informa de una carencia concreta sin generalizar.",
+      "translation": "En este momento no estamos recibiendo los registros de auditoría esperados de dos servidores."
+    },
+    {
+      "id": "b18v2-detections-processes-013",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "A customer asks whether the SOC can see every action. Choose the most professional answer.",
+      "options": [
+        "We see nearly everything across the monitored environment, so any action not shown in our tools probably did not happen at all.",
+        "Our visibility is good, although saying what we cannot see is technically not possible.",
+        "We cannot see every action, which means that the monitoring has little value for this review.",
+        "We have good visibility in the monitored systems, but it would be inaccurate to say that we can see every action."
+      ],
+      "correct": 3,
+      "explanation": "«It would be inaccurate to say...» corrige una expectativa con tacto. El contraste «but» permite reconocer la cobertura sin prometer visibilidad total.",
+      "translation": "Tenemos buena visibilidad en los sistemas monitorizados, pero no sería exacto decir que podemos ver todas las acciones."
+    },
+    {
+      "id": "b18v2-detections-processes-014",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "Which sentence explains a temporary data gap most naturally?",
+      "options": [
+        "There is a logging gap, and therefore nothing reliable can be said about the complete investigation or the wider incident timeline.",
+        "There is a gap in the logs between 02:10 and 02:35, so our view of that period is incomplete.",
+        "The logs have a hole from 02:10 until 02:35, making the period impossible to understand.",
+        "We are missing every log between 02:10 and 02:35, so no activity happened in that period."
+      ],
+      "correct": 1,
+      "explanation": "«A gap in the logs» y «our view ... is incomplete» son colocaciones naturales. La consecuencia se limita al periodo afectado, sin sacar conclusiones extremas.",
+      "translation": "Hay un vacío en los registros entre las 02:10 y las 02:35, por lo que nuestra visión de ese periodo es incompleta."
+    },
+    {
+      "id": "b18v2-detections-processes-015",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "During a presentation, how should you explain that one source adds useful detail?",
+      "options": [
+        "Endpoint data helps us understand what happened on the device after the sign-in.",
+        "Endpoint data helps us to understand with certainty everything that happened after signing in.",
+        "The endpoint information is helping us for understanding the subsequent device happenings.",
+        "Endpoint data completes the sign-in evidence and turns the alert into a confirmed incident."
+      ],
+      "correct": 0,
+      "explanation": "«Helps us understand» no necesita «to» y suena natural. La frase explica la contribución de la fuente sin afirmar que resuelve todo el caso.",
+      "translation": "Los datos del endpoint nos ayudan a entender qué ocurrió en el dispositivo después del inicio de sesión."
+    },
+    {
+      "id": "b18v2-detections-processes-016",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "Choose the clearest way to say that a source was unavailable when the alert fired.",
+      "options": [
+        "That source of data had not availability at the moment the alert was generating.",
+        "That data source was not available when the alert was generated.",
+        "The source was unavailable, which proves the alert was wrong.",
+        "The alert generated itself without that source, so its findings are not usable now."
+      ],
+      "correct": 1,
+      "explanation": "La pasiva «was generated» y la expresión «was not available» sitúan dos hechos pasados con claridad. No se infiere una consecuencia que el contexto no aporta.",
+      "translation": "Esa fuente de datos no estaba disponible cuando se generó la alerta."
+    },
+    {
+      "id": "b18v2-detections-processes-017",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "A client asks why two dashboards show different counts. Which response is most natural?",
+      "options": [
+        "They use data sources and time windows differently, making both figures technically wrong.",
+        "The figures are not directly comparable because each dashboard has decided on another version of the truth.",
+        "They use different data sources and time windows, so the figures are not directly comparable.",
+        "Different sources produce different counts, so we should choose whichever figure is higher."
+      ],
+      "correct": 2,
+      "explanation": "«Not directly comparable» es una expresión habitual para matizar comparaciones. «So» conecta causa y consecuencia de forma clara.",
+      "translation": "Utilizan fuentes de datos y periodos diferentes, por lo que las cifras no son directamente comparables."
+    },
+    {
+      "id": "b18v2-detections-processes-018",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "You want to request missing logs politely. Select the best wording.",
+      "options": [
+        "You must send the missing logs now because the review cannot continue in any way.",
+        "Would you be able to provide all logs, which we need to prove what happened conclusively?",
+        "Could you share the logs for that period so that we can complete the review?",
+        "Can you facilitate us the logs of that period for being able to complete the revision?"
+      ],
+      "correct": 2,
+      "explanation": "«Could you...?» formula una petición cortés. «So that we can...» expresa el propósito; «facilitate us» y «revision» son calcos poco naturales.",
+      "translation": "¿Podríais compartir los registros de ese periodo para que podamos completar la revisión?"
+    },
+    {
+      "id": "b18v2-detections-processes-019",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "Which version best explains that retention limits the historical review?",
+      "options": [
+        "Because these logs are retained for 30 days, we cannot use them to review activity from earlier in the year.",
+        "Due to the logs retaining 30 days, reviewing activity from earlier in the year is not currently possible for us.",
+        "As the logs are kept for 30 days, there cannot have been relevant activity before that period.",
+        "The 30-day retention means that historical activity is outside the rule's responsibility."
+      ],
+      "correct": 0,
+      "explanation": "«Are retained for 30 days» y «cannot use them to review» explican la limitación con una relación causal clara, sin confundir ausencia de datos con ausencia de actividad.",
+      "translation": "Como estos registros se conservan durante 30 días, no podemos utilizarlos para revisar actividad de principios de año."
+    },
+    {
+      "id": "b18v2-detections-processes-020",
+      "topic": "Explaining detections · Data and visibility",
+      "question": "The customer asks what 'coverage' means here. Which explanation is clearest?",
+      "options": [
+        "Coverage means that the detection monitors the environment and covers any activity of interest.",
+        "Here, coverage is when systems and activities have been put under a detecting capability.",
+        "Here, coverage means the systems and types of activity that the detection is able to monitor.",
+        "Coverage refers to the percentage of threats that the rule will detect successfully without any misses at all."
+      ],
+      "correct": 2,
+      "explanation": "La definición usa «means» y una relativa sencilla. Delimita el término a sistemas y tipos de actividad, evitando promesas absolutas.",
+      "translation": "Aquí, cobertura se refiere a los sistemas y tipos de actividad que la detección puede monitorizar."
+    },
+    {
+      "id": "b18v2-detections-processes-021",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "A customer treats every alert as a confirmed attack. Which correction is most tactful?",
+      "options": [
+        "An alert is a signal that needs to be assessed; it is not, by itself, confirmation of an attack.",
+        "An alert is only a possibility, so it should never be treated by itself as reliable confirmation of an attack.",
+        "You are confusing an alert with an attack, and those terms do not mean the same thing.",
+        "Alerts are not attacks unless the SOC changes their status to confirmed incidents."
+      ],
+      "correct": 0,
+      "explanation": "El punto y coma equilibra definición y contraste. «Not, by itself» corrige la idea con precisión y sin sonar brusco.",
+      "translation": "Una alerta es una señal que debe evaluarse; por sí sola, no confirma un ataque."
+    },
+    {
+      "id": "b18v2-detections-processes-022",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "Choose the most natural way to explain that several events belong together.",
+      "options": [
+        "These events appear to be related, so we are reviewing them as part of the same investigation.",
+        "These events are related for sure, which is why they form one confirmed incident.",
+        "The events have relation among them, so one investigation is currently being made about all of them together.",
+        "We grouped the events because related events always represent a single incident."
+      ],
+      "correct": 0,
+      "explanation": "«Appear to be related» expresa una conclusión provisional y «as part of» es una colocación natural. La frase no convierte la agrupación en certeza.",
+      "translation": "Estos eventos parecen estar relacionados, así que los estamos revisando como parte de la misma investigación."
+    },
+    {
+      "id": "b18v2-detections-processes-023",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "Complete the client update: 'We have opened an investigation, but we have not yet ___.'",
+      "options": [
+        "confirmed the account to have a compromise occurring",
+        "confirmed that the account was compromised",
+        "made the confirmation of a compromised account",
+        "classified every account alert as malicious"
+      ],
+      "correct": 1,
+      "explanation": "Con «confirm», la estructura natural es «confirm that + clause». «Not yet» encaja con present perfect para un resultado pendiente.",
+      "translation": "Hemos abierto una investigación, pero todavía no hemos confirmado que la cuenta estuviera comprometida."
+    },
+    {
+      "id": "b18v2-detections-processes-024",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "Which sentence clearly separates an observed fact from an interpretation?",
+      "options": [
+        "We observed a new inbox rule; we are still determining why it was created.",
+        "We observed a malicious inbox rule, although its purpose has not been determined yet.",
+        "A new inbox rule was observed, meaning that an attacker probably created it for persistence.",
+        "We saw the rule and interpreted its creation as confirmation of unauthorized access."
+      ],
+      "correct": 0,
+      "explanation": "La primera parte comunica el hecho observado; la segunda presenta la interpretación como trabajo pendiente. El punto y coma refuerza esa separación.",
+      "translation": "Observamos una nueva regla de bandeja de entrada; todavía estamos determinando por qué se creó."
+    },
+    {
+      "id": "b18v2-detections-processes-025",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "A report says, 'The alert was a false positive.' You want a less categorical spoken version while the review is open. Which is best?",
+      "options": [
+        "So far, the activity appears to be legitimate, but the review is still in progress.",
+        "The alert is probably false because we have not found anything malicious yet.",
+        "At this time, the alert can be called a false positive unless new evidence changes it.",
+        "So far, the activity is legitimate, although we cannot completely guarantee that conclusion."
+      ],
+      "correct": 0,
+      "explanation": "«Appears to be» y «still in progress» comunican una valoración provisional. La frase evita etiquetar definitivamente el caso antes de terminar la revisión.",
+      "translation": "Por ahora, la actividad parece legítima, pero la revisión sigue en curso."
+    },
+    {
+      "id": "b18v2-detections-processes-026",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "Select the clearest explanation of the difference between an event and an alert.",
+      "options": [
+        "An event is raw information, whereas an alert confirms that the event is relevant and malicious.",
+        "Events happen first and alerts happen later, which is the main difference between the terms.",
+        "An event records an action, while an alert is the incident created from that action.",
+        "An event records something that happened; an alert indicates that the activity matched defined conditions."
+      ],
+      "correct": 3,
+      "explanation": "El paralelismo «An event...; an alert...» facilita la comparación. «Matched defined conditions» describe el concepto sin equipararlo a malicia confirmada.",
+      "translation": "Un evento registra algo que ocurrió; una alerta indica que la actividad cumplió unas condiciones definidas."
+    },
+    {
+      "id": "b18v2-detections-processes-027",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "During a call, you need to say that one alert added supporting information. Which phrase is most natural?",
+      "options": [
+        "The second alert confirmed the entire investigation.",
+        "The second alert provided additional context for the investigation.",
+        "The second alert provided us more context to make the incident become confirmed.",
+        "The second alert was a context for the investigation and supported all its conclusions."
+      ],
+      "correct": 1,
+      "explanation": "«Provide additional context» es una colocación muy natural. «Evidence» es incontable y no debe usarse como «an evidence».",
+      "translation": "La segunda alerta aportó contexto adicional para la investigación."
+    },
+    {
+      "id": "b18v2-detections-processes-028",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "Which customer update uses 'evidence' correctly?",
+      "options": [
+        "We have found an evidence of unauthorized access, but its scope needs more informations.",
+        "We have found several evidences, which conclusively confirms the full scope and impact of the unauthorized access.",
+        "We found enough evidences to know that every affected system was accessed.",
+        "We have found some evidence of unauthorized access, but we need more information about its scope."
+      ],
+      "correct": 3,
+      "explanation": "«Evidence» e «information» son incontables en este uso: «some evidence» y «more information». El contraste mantiene separadas existencia y alcance.",
+      "translation": "Hemos encontrado indicios de acceso no autorizado, pero necesitamos más información sobre su alcance."
+    },
+    {
+      "id": "b18v2-detections-processes-029",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "The SOC has escalated an alert for deeper analysis. Which explanation is most customer-friendly?",
+      "options": [
+        "We escalated the alert, so the breach is serious enough to require deeper technical investigation.",
+        "The alert was escalated due to its confirmation needing a much more detailed review by the appropriate technical specialists.",
+        "Escalation means that the first analyst could not decide whether the incident was real.",
+        "We escalated the alert because it requires a more detailed review, not because a breach has been confirmed."
+      ],
+      "correct": 3,
+      "explanation": "La estructura «not because...» anticipa y corrige una posible interpretación. «Requires a more detailed review» explica el motivo sin culpar ni exagerar.",
+      "translation": "Escalamos la alerta porque requiere una revisión más detallada, no porque se haya confirmado una brecha."
+    },
+    {
+      "id": "b18v2-detections-processes-030",
+      "topic": "Explaining detections · Alerts, evidence and incidents",
+      "question": "Choose the best spoken summary when no incident has been confirmed.",
+      "options": [
+        "At this stage, this is not an incident, because alerts cannot become incidents until closure.",
+        "For the moment, we only have an alert and therefore there is no security concern.",
+        "At this stage, we have an alert under investigation rather than a confirmed incident.",
+        "Currently, we have an investigated alert instead of an incident that has been confirmed."
+      ],
+      "correct": 2,
+      "explanation": "«At this stage» y «rather than» contrastan dos estados de forma natural. La frase no minimiza la señal ni presenta reglas técnicas innecesarias.",
+      "translation": "En esta fase, tenemos una alerta en investigación, no un incidente confirmado."
+    },
+    {
+      "id": "b18v2-detections-processes-031",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "You are explaining correlation to a non-technical audience. Which version is clearest?",
+      "options": [
+        "Correlation joins events and therefore proves that they were produced by the same attacker.",
+        "Correlation brings related events together so that analysts can assess the broader context.",
+        "Correlation is the action of correlating events for obtaining a context that is broader.",
+        "Correlation converts several low-level events into one confirmed high-level incident."
+      ],
+      "correct": 1,
+      "explanation": "«Brings ... together» es accesible en lenguaje oral y «so that» explica el propósito. No se promete que la relación esté confirmada.",
+      "translation": "La correlación reúne eventos relacionados para que los analistas puedan evaluar el contexto general."
+    },
+    {
+      "id": "b18v2-detections-processes-032",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "Complete the explanation: 'Individually, these events may look harmless; ___.'",
+      "options": [
+        "together, they form a pattern worth investigating",
+        "together, they definitely prove a compromise",
+        "when together, they are making a pattern that deserves to investigate",
+        "collectively, the incident is automatically confirmed by their existence"
+      ],
+      "correct": 0,
+      "explanation": "El adverbio «together» crea un contraste claro con «individually». «Worth + -ing» es la estructura natural: «worth investigating».",
+      "translation": "Por separado, estos eventos pueden parecer inofensivos; juntos forman un patrón que merece ser investigado."
+    },
+    {
+      "id": "b18v2-detections-processes-033",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "Which sentence most naturally explains why user context matters?",
+      "options": [
+        "The context of the user helps us to decide if the account has certainly been compromised.",
+        "User context helps us decide whether the activity is unusual for that particular account.",
+        "User context decides whether activity is normal and removes the need for further review.",
+        "The user's context is important because unusual activity is always malicious for that account."
+      ],
+      "correct": 1,
+      "explanation": "«Helps us decide whether...» expresa apoyo al análisis, no una decisión automática. «For that particular account» aclara la referencia.",
+      "translation": "El contexto del usuario nos ayuda a decidir si la actividad es inusual para esa cuenta concreta."
+    },
+    {
+      "id": "b18v2-detections-processes-034",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "A customer asks why the rule considers timing. Select the best answer.",
+      "options": [
+        "The timing confirms that events occurring close together always belong to the same single attack sequence.",
+        "Time is considered for knowing if all events happened as part of one malicious activity.",
+        "The timing helps us understand whether the events could reasonably be part of the same sequence.",
+        "The rule uses timing because events outside its window are not relevant to security."
+      ],
+      "correct": 2,
+      "explanation": "«Could reasonably be» combina posibilidad y evaluación. La estructura explica la función del tiempo sin formular una regla absoluta.",
+      "translation": "El momento en que ocurrieron nos ayuda a entender si los eventos podrían formar razonablemente parte de la misma secuencia."
+    },
+    {
+      "id": "b18v2-detections-processes-035",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "You need to explain why asset information was added to an alert. Which sentence is best?",
+      "options": [
+        "Asset information determines the required response.",
+        "The information of the asset gives context over the role and the importance of the system.",
+        "Asset data makes the alert more important because the system has a business function.",
+        "Asset information gives us context about the system's role and importance."
+      ],
+      "correct": 3,
+      "explanation": "«Gives us context about» es una colocación natural. La frase explica qué aporta la información sin afirmar que decide automáticamente la respuesta.",
+      "translation": "La información del activo nos aporta contexto sobre la función y la importancia del sistema."
+    },
+    {
+      "id": "b18v2-detections-processes-036",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "Which transition works best before explaining a sequence of correlated events?",
+      "options": [
+        "Let me explain you how the events have connection among themselves.",
+        "I will now enumerate all correlated events in their complete technical order.",
+        "Let me walk you through how the events connect.",
+        "Let's prove the relationship by reviewing each event."
+      ],
+      "correct": 2,
+      "explanation": "«Walk someone through» es una expresión oral natural para guiar una explicación. «Explain» requeriría «explain to you», no «explain you».",
+      "translation": "Permitidme explicar paso a paso cómo se conectan los eventos."
+    },
+    {
+      "id": "b18v2-detections-processes-037",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "A diagram shows three stages. Choose the most natural signposting language.",
+      "options": [
+        "In first place we see the sign-in, after the change, and at last the connection going outbound.",
+        "Firstly there is a sign-in; secondly, a change; and in the final, a connection is outbound.",
+        "First we see the sign-in, then the configuration change, and finally the outbound connection.",
+        "The sign-in is first, the configuration change is posterior, and the outbound connection closes."
+      ],
+      "correct": 2,
+      "explanation": "«First..., then..., and finally...» es la secuencia oral más clara y natural. Evita calcos como «in first place» o «posterior».",
+      "translation": "Primero vemos el inicio de sesión, después el cambio de configuración y, por último, la conexión saliente."
+    },
+    {
+      "id": "b18v2-detections-processes-038",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "Select the best way to say that two alerts share a common element.",
+      "options": [
+        "Both alerts involve the same account, although they were generated by different rules.",
+        "Both alerts are involving the same account, despite being generated from different detections.",
+        "The alerts share one account, so they must represent different stages of the same incident.",
+        "Both alerts have the same account in common and therefore confirm each other's findings."
+      ],
+      "correct": 0,
+      "explanation": "El presente simple «involve» describe una relación estable. «Although» marca el contraste entre elemento común y reglas distintas.",
+      "translation": "Ambas alertas afectan a la misma cuenta, aunque fueron generadas por reglas diferentes."
+    },
+    {
+      "id": "b18v2-detections-processes-039",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "You want to avoid overstating a correlation. Which sentence is most appropriate?",
+      "options": [
+        "The shared IP establishes a link, although we cannot yet explain exactly what the link means.",
+        "The shared IP suggests a possible link, but it is not enough to establish one on its own.",
+        "There may be a link because the IP is shared, so we can treat the activity as related.",
+        "The common IP is insufficient evidence and should not be considered during the investigation."
+      ],
+      "correct": 1,
+      "explanation": "«Suggests a possible link» expresa indicio; «not enough ... on its own» limita el valor de un único dato sin descartarlo.",
+      "translation": "La IP compartida sugiere un posible vínculo, pero por sí sola no basta para establecerlo."
+    },
+    {
+      "id": "b18v2-detections-processes-040",
+      "topic": "Explaining detections · Correlation and context",
+      "question": "Which spoken summary best connects context with the next step?",
+      "options": [
+        "Taken together, the events justify confirming the incident and checking the account afterwards.",
+        "By taking the events together, a closer review is justified for checking all associated account activities.",
+        "All events combined make the account suspicious, which is why its activity is considered malicious.",
+        "Taken together, the events justify a closer review, so we are checking the associated account activity."
+      ],
+      "correct": 3,
+      "explanation": "«Taken together» resume la combinación de señales y «so» introduce el siguiente paso. La formulación es prudente y fluida.",
+      "translation": "Considerados en conjunto, los eventos justifican una revisión más detallada, así que estamos comprobando la actividad asociada a la cuenta."
+    },
+    {
+      "id": "b18v2-detections-processes-041",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "A client asks what a false positive is. Which definition is clearest?",
+      "options": [
+        "A false positive is an incorrect rule that generates unnecessary alerts without any valid technical reason.",
+        "A false positive is an alert triggered by activity that turns out to be legitimate.",
+        "A false positive happens when legitimate activity has triggered a confirmed incident.",
+        "A false positive means the analyst made a mistake while reviewing normal behavior."
+      ],
+      "correct": 1,
+      "explanation": "La definición usa la estructura natural «an alert triggered by...» y «turns out to be» para el resultado de la revisión, sin culpar a la regla ni al analista.",
+      "translation": "Un falso positivo es una alerta activada por una actividad que finalmente resulta ser legítima."
+    },
+    {
+      "id": "b18v2-detections-processes-042",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "Choose the best way to explain that tuning should reduce noise without hiding risk.",
+      "options": [
+        "The aim is to reduce unnecessary alerts while preserving meaningful coverage.",
+        "The aim is to eliminate unnecessary alerts.",
+        "Tuning should remove noisy activity, even if some relevant alerts are no longer generated.",
+        "The objective consists in reducing alerts while keeping every possible detection unchanged."
+      ],
+      "correct": 0,
+      "explanation": "«The aim is to...» es idiomático; «while preserving» expresa dos objetivos simultáneos. La frase evita promesas imposibles.",
+      "translation": "El objetivo es reducir las alertas innecesarias manteniendo una cobertura significativa."
+    },
+    {
+      "id": "b18v2-detections-processes-043",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "During a review, you want to say that a recurring alert has a known explanation. Which sentence is most natural?",
+      "options": [
+        "This alert normally triggers due to the scanning activity which has approval from the customer.",
+        "This alert is usually triggered by the approved scanning activity.",
+        "This approved scan always creates a false positive.",
+        "This alert has a known reason and consequently does not require any future assessment."
+      ],
+      "correct": 1,
+      "explanation": "La pasiva «is usually triggered by» es natural para explicar la causa habitual. «Usually» deja espacio para revisar cada caso.",
+      "translation": "Esta alerta suele activarse por la actividad de escaneo autorizada."
+    },
+    {
+      "id": "b18v2-detections-processes-044",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "A customer proposes disabling a noisy rule. Which response is polite and balanced?",
+      "options": [
+        "We should not disable it because noisy rules may still detect something important in the future that other controls could miss.",
+        "Before we disable it, let's review what coverage we might lose and whether a narrower exception would help.",
+        "Disabling the rule is a bad idea; the correct solution is to create an exception instead.",
+        "Let's disable it temporarily and assume the remaining controls will provide equivalent coverage."
+      ],
+      "correct": 1,
+      "explanation": "«Before we..., let's...» propone una secuencia colaborativa. «Might» y «whether» abren opciones sin imponer una decisión técnica.",
+      "translation": "Antes de deshabilitarla, revisemos qué cobertura podríamos perder y si una excepción más específica sería útil."
+    },
+    {
+      "id": "b18v2-detections-processes-045",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "Which sentence best describes an exception without implying that all similar activity is safe?",
+      "options": [
+        "The exception proves that this process and any similar process can be treated as safe.",
+        "The exception makes similar processes safe.",
+        "The exception is applied for avoiding alerts from processes considered legitimate in general.",
+        "The exception applies only to this approved process under the specified conditions."
+      ],
+      "correct": 3,
+      "explanation": "«Applies only to» delimita el alcance y «under the specified conditions» evita una generalización. «Excepted from monitoring» suena menos natural aquí.",
+      "translation": "La excepción se aplica únicamente a este proceso autorizado en las condiciones especificadas."
+    },
+    {
+      "id": "b18v2-detections-processes-046",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "Complete the update: 'Since the change was introduced, the number of duplicate alerts ___.'",
+      "options": [
+        "fell since introduction",
+        "has fallen significantly",
+        "has been fallen in a significant amount",
+        "is decreasing significantly yesterday"
+      ],
+      "correct": 1,
+      "explanation": "«Since» conecta un punto pasado con el presente, por lo que usamos present perfect: «has fallen». «Fall» es intransitivo y no admite «has been fallen».",
+      "translation": "Desde que se introdujo el cambio, el número de alertas duplicadas ha disminuido considerablemente."
+    },
+    {
+      "id": "b18v2-detections-processes-047",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "Choose the most natural way to ask whether a tuning change worked.",
+      "options": [
+        "Did we reduce the noise without missing activity since the change has been applied?",
+        "Have we eliminated the noise completely?",
+        "Are we reducing the noise without having missed every activity which continues being important?",
+        "Have we reduced the noise without missing activity that still matters?"
+      ],
+      "correct": 3,
+      "explanation": "Present perfect pregunta por el resultado actual de un cambio. «Activity that still matters» suena natural y no exige una garantía absoluta.",
+      "translation": "¿Hemos reducido el ruido sin dejar de detectar actividad que sigue siendo relevante?"
+    },
+    {
+      "id": "b18v2-detections-processes-048",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "A chart shows fewer alerts after tuning. Which interpretation is appropriately cautious?",
+      "options": [
+        "The decrease proves that the tuning was successful because fewer alerts always mean better quality.",
+        "The number has decreased, so the rule now produces only relevant alerts for the analysts.",
+        "The decrease is encouraging, but we also need to check whether detection quality has been maintained.",
+        "The decrease is positive, although it tells us that some malicious activity may have been missed."
+      ],
+      "correct": 2,
+      "explanation": "«Encouraging, but...» reconoce el resultado y añade una comprobación necesaria. Evita convertir una sola métrica en una conclusión definitiva.",
+      "translation": "La disminución es alentadora, pero también debemos comprobar si se ha mantenido la calidad de la detección."
+    },
+    {
+      "id": "b18v2-detections-processes-049",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "Which phrase is most natural when you do not want to label an alert as 'noise' too early?",
+      "options": [
+        "It may be benign activity, but we should verify the context before closing it.",
+        "It is probably noise, so we can close it unless the customer objects to that conclusion.",
+        "It may be a false positive, but verifying it would not change the likely outcome.",
+        "This activity looks benign and consequently does not need context before being closed."
+      ],
+      "correct": 0,
+      "explanation": "«May be» expresa posibilidad y «before + -ing» fija un orden claro. La frase mantiene la prudencia sin resultar alarmista.",
+      "translation": "Puede tratarse de una actividad legítima, pero deberíamos verificar el contexto antes de cerrarla."
+    },
+    {
+      "id": "b18v2-detections-processes-050",
+      "topic": "Explaining detections · False positives and tuning",
+      "question": "You are summarizing a tuning decision. Select the clearest wording.",
+      "options": [
+        "We agreed on making the change permanent after monitoring its immediate result for two weeks.",
+        "The change will be permanent, although we are going to review whether it should stay in place.",
+        "We agreed to monitor the change for two weeks and review the results before making it permanent.",
+        "We agreed to a two-week monitoring, after which the tuning is assumed to be correct."
+      ],
+      "correct": 2,
+      "explanation": "El paralelismo «to monitor... and review...» resume dos acciones acordadas. «Before making it permanent» deja clara la condición.",
+      "translation": "Acordamos monitorizar el cambio durante dos semanas y revisar los resultados antes de hacerlo permanente."
+    },
+    {
+      "id": "b18v2-detections-processes-051",
+      "topic": "SOC process · Triage and validation",
+      "question": "You are describing the first step after an alert arrives. Which sentence sounds most natural?",
+      "options": [
+        "Firstly, we check if the alert is containing sufficient informations for making an assessment.",
+        "We first check whether the alert contains enough information for an initial assessment.",
+        "We first decide whether the alert is malicious.",
+        "The first step confirms whether the alert has enough evidence to become an incident."
+      ],
+      "correct": 1,
+      "explanation": "«First» es natural en lenguaje oral; «information» es incontable. «For an initial assessment» describe el propósito sin adelantar la conclusión.",
+      "translation": "Primero comprobamos si la alerta contiene suficiente información para una evaluación inicial."
+    },
+    {
+      "id": "b18v2-detections-processes-052",
+      "topic": "SOC process · Triage and validation",
+      "question": "Which sentence explains triage in customer-friendly English?",
+      "options": [
+        "Triage is when analysts classify alerts as true or false before any investigation starts.",
+        "Triage helps for prioritizing the alerts and deciding which ones need to be investigated furtherly.",
+        "Triage helps us prioritize alerts and decide which ones need further investigation.",
+        "Triage gives every alert a final severity."
+      ],
+      "correct": 2,
+      "explanation": "«Helps us prioritize... and decide...» usa verbos paralelos y lenguaje accesible. «Further» funciona como adverbio; «furtherly» no es natural.",
+      "translation": "El triaje nos ayuda a priorizar las alertas y decidir cuáles necesitan más investigación."
+    },
+    {
+      "id": "b18v2-detections-processes-053",
+      "topic": "SOC process · Triage and validation",
+      "question": "Complete the process description: 'Before escalating the case, the analyst ___.'",
+      "options": [
+        "is reviewing every possible source and confirms the final conclusion",
+        "reviews the available context and records the initial findings",
+        "makes a review of the context and writes down all definitive findings",
+        "confirms every finding before escalation"
+      ],
+      "correct": 1,
+      "explanation": "El presente simple describe un proceso habitual. «Reviews... and records...» mantiene el paralelismo y usa colocaciones naturales.",
+      "translation": "Antes de escalar el caso, el analista revisa el contexto disponible y registra los hallazgos iniciales."
+    },
+    {
+      "id": "b18v2-detections-processes-054",
+      "topic": "SOC process · Triage and validation",
+      "question": "A client asks why the analyst contacted the user. Choose the clearest response.",
+      "options": [
+        "We contacted with the user for confirming if they had performed the malicious activity.",
+        "We contacted the user because their answer would prove whether the alert was a false positive.",
+        "We contacted the user to confirm whether the activity was expected.",
+        "We contacted the user to assign responsibility."
+      ],
+      "correct": 2,
+      "explanation": "En inglés se dice «contacted the user», sin «with». «To confirm whether...» expresa el propósito de forma neutral.",
+      "translation": "Contactamos con el usuario para confirmar si la actividad era esperada."
+    },
+    {
+      "id": "b18v2-detections-processes-055",
+      "topic": "SOC process · Triage and validation",
+      "question": "Which update distinguishes what has been checked from what remains to be checked?",
+      "options": [
+        "We verified the owner already, and the device activity is being pending for review.",
+        "We have checked the account owner and therefore only the device remains unverified.",
+        "We have verified the account owner; we are still reviewing the device activity.",
+        "The owner is verified, while the device activity has not provided a conclusion yet."
+      ],
+      "correct": 2,
+      "explanation": "Present perfect comunica un resultado actual; present continuous describe el trabajo en curso. El punto y coma separa ambos estados con claridad.",
+      "translation": "Hemos verificado al titular de la cuenta; todavía estamos revisando la actividad del dispositivo."
+    },
+    {
+      "id": "b18v2-detections-processes-056",
+      "topic": "SOC process · Triage and validation",
+      "question": "During a handover, which sentence most clearly states an outstanding task?",
+      "options": [
+        "The next analyst keeps pending to confirm from where the connection originated.",
+        "The connection source should be confirmed if the next analyst considers it necessary.",
+        "Confirmation of the connection source remains, but it is probably not important now.",
+        "The next analyst still needs to confirm the source of the connection."
+      ],
+      "correct": 3,
+      "explanation": "«Still needs to + infinitive» expresa una tarea pendiente de manera directa. Evita el calco «keeps pending».",
+      "translation": "El siguiente analista todavía tiene que confirmar el origen de la conexión."
+    },
+    {
+      "id": "b18v2-detections-processes-057",
+      "topic": "SOC process · Triage and validation",
+      "question": "Choose the most natural way to describe a completed validation step.",
+      "options": [
+        "We proved the hash had a malicious reputation.",
+        "The hash was contrasted against the intelligence sources that were available to us.",
+        "We made a checking of the hash in the threat intelligence sources we currently use.",
+        "We checked the hash against our available threat intelligence sources."
+      ],
+      "correct": 3,
+      "explanation": "«Check X against Y» es la colocación habitual. El past simple presenta una acción terminada sin añadir un resultado no mencionado.",
+      "translation": "Comprobamos el hash con las fuentes de inteligencia de amenazas disponibles."
+    },
+    {
+      "id": "b18v2-detections-processes-058",
+      "topic": "SOC process · Triage and validation",
+      "question": "A customer asks for an immediate conclusion while triage is still under way. Which response is best?",
+      "options": [
+        "We can give you a preliminary view now, but we will need more time for a firm conclusion.",
+        "We can provide a firm conclusion now, although it may need to be completely changed after the remaining triage checks.",
+        "It is too early to say anything useful, so we should wait until every check is finished.",
+        "Our preliminary view is likely correct, and the remaining checks are mainly procedural."
+      ],
+      "correct": 0,
+      "explanation": "«Preliminary view» frente a «firm conclusion» establece dos niveles de certeza. El tono es colaborativo y no bloquea la comunicación.",
+      "translation": "Podemos daros ahora una valoración preliminar, pero necesitaremos más tiempo para llegar a una conclusión firme."
+    },
+    {
+      "id": "b18v2-detections-processes-059",
+      "topic": "SOC process · Triage and validation",
+      "question": "Which sentence best explains why an alert was closed after validation?",
+      "options": [
+        "The activity matched an approved administrative task, and we found no additional signs of concern.",
+        "The administrator confirmed the activity, so no other evidence needed to be reviewed before closure.",
+        "The alert matched an administrative task and was therefore automatically considered harmless.",
+        "We closed the alert because approved tasks cannot create behavior that looks suspicious."
+      ],
+      "correct": 0,
+      "explanation": "«Matched an approved task» y «found no additional signs» ofrecen una explicación clara. La conjunción «and» une dos razones sin formular absolutos.",
+      "translation": "La actividad coincidía con una tarea administrativa autorizada y no encontramos otros indicios preocupantes."
+    },
+    {
+      "id": "b18v2-detections-processes-060",
+      "topic": "SOC process · Triage and validation",
+      "question": "Select the best spoken transition from triage results to next steps.",
+      "options": [
+        "Now that the checks are covered, I will explain you the actions we will realize next.",
+        "Now that we've covered the initial checks, let me explain what we are doing next.",
+        "Having completed triage, the subsequent procedural activities will now be enumerated.",
+        "The checks are finished, so the next steps will confirm the final result of the investigation."
+      ],
+      "correct": 1,
+      "explanation": "«Now that we've covered...» y «let me explain...» son marcadores orales naturales. «Explain you» y «realize actions» son calcos.",
+      "translation": "Ahora que hemos repasado las comprobaciones iniciales, permitidme explicar qué estamos haciendo a continuación."
+    },
+    {
+      "id": "b18v2-detections-processes-061",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "You need to explain why a case was escalated. Which sentence is clearest?",
+      "options": [
+        "We escalated the case due to the activity requiring a specialist to confirm the attack.",
+        "We escalated the case to confirm the attack.",
+        "Escalation was made so a specialist can decide the incident is genuinely malicious.",
+        "We escalated the case because the activity requires specialist review."
+      ],
+      "correct": 3,
+      "explanation": "«Escalated the case because...» es directo y neutral. «Requires specialist review» explica la necesidad sin criticar a otro analista ni anticipar el resultado.",
+      "translation": "Escalamos el caso porque la actividad requiere una revisión especializada."
+    },
+    {
+      "id": "b18v2-detections-processes-062",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "Which phrase best reassures a customer that the handoff will preserve context?",
+      "options": [
+        "The notes contain everything, so the next team will not need to repeat any checks.",
+        "All context has been written in the case, guaranteeing a seamless handoff without questions.",
+        "The case notes include the checks completed so far and the reasons for escalation.",
+        "The case notes explain the escalation, while completed checks can be discussed if required."
+      ],
+      "correct": 2,
+      "explanation": "«Include the checks... and the reasons...» enumera contenido concreto. Evita promesas absolutas como «everything» o «guaranteeing».",
+      "translation": "Las notas del caso incluyen las comprobaciones realizadas hasta ahora y los motivos del escalado."
+    },
+    {
+      "id": "b18v2-detections-processes-063",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "Complete the handoff message: 'Could you review the endpoint activity and ___?'",
+      "options": [
+        "confirm whether persistence is definitely established",
+        "advise us whether the endpoint is compromised in every possible way",
+        "say us if you can see a persistence mechanism being certainly present",
+        "let us know whether you see any signs of persistence"
+      ],
+      "correct": 3,
+      "explanation": "«Let us know whether...» es una petición natural y colaborativa. En inglés no se usa «say us»; sería «tell us».",
+      "translation": "¿Podríais revisar la actividad del endpoint y decirnos si observáis algún indicio de persistencia?"
+    },
+    {
+      "id": "b18v2-detections-processes-064",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "A client asks whether escalation means the situation is severe. Choose the best response.",
+      "options": [
+        "No, escalation is only a workflow step and has no relationship with potential severity.",
+        "Usually yes, because specialists only receive cases that are likely to become incidents.",
+        "Not necessarily; it means the case needs a different level of expertise or access.",
+        "It means the situation may be severe, although escalation confirms nothing except concern."
+      ],
+      "correct": 2,
+      "explanation": "«Not necessarily» corrige sin ser tajante. La explicación usa «a different level of...» para describir la razón con claridad.",
+      "translation": "No necesariamente; significa que el caso requiere un nivel diferente de conocimientos o acceso."
+    },
+    {
+      "id": "b18v2-detections-processes-065",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "Which sentence politely asks another team for an estimated response time?",
+      "options": [
+        "Can you confirm the exact time when the review will be completed without further delay?",
+        "Please tell us how much time you will spend before giving the final answer.",
+        "Would you communicate an estimation for the review to become completed?",
+        "Could you let us know when you expect to complete the review?"
+      ],
+      "correct": 3,
+      "explanation": "«Could you let us know...» suaviza la petición y «when you expect to...» solicita una previsión, no una garantía.",
+      "translation": "¿Podríais indicarnos cuándo esperáis completar la revisión?"
+    },
+    {
+      "id": "b18v2-detections-processes-066",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "You are updating the customer after a delayed handoff. Which wording takes ownership without blaming?",
+      "options": [
+        "The receiving team has delayed the handoff unexpectedly, but we have asked them to prioritize the case and respond soon.",
+        "The handoff was late because another team did not respond within the expected timeframe.",
+        "The handoff took longer than expected, and we are working with the receiving team to move the review forward.",
+        "There has been a delay outside the SOC, and responsibility is currently being clarified."
+      ],
+      "correct": 2,
+      "explanation": "La frase usa «took longer than expected» para reconocer el retraso y se centra en la acción actual. Evita atribuir culpa.",
+      "translation": "El traspaso tardó más de lo previsto y estamos trabajando con el equipo receptor para hacer avanzar la revisión."
+    },
+    {
+      "id": "b18v2-detections-processes-067",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "Select the clearest way to state who owns the next action.",
+      "options": [
+        "The identity team will verify the account settings, and the SOC will track the case to completion.",
+        "The identity team owns the account settings, while the SOC owns ensuring that every required action is completed.",
+        "Account verification belongs to identity, and tracking belongs to us until all issues disappear.",
+        "The SOC passes the action to identity but continues to be responsible for their response."
+      ],
+      "correct": 0,
+      "explanation": "Dos sujetos explícitos y dos verbos paralelos hacen inequívoca la responsabilidad. «Track the case to completion» es una colocación profesional.",
+      "translation": "El equipo de identidad verificará la configuración de la cuenta y el SOC hará seguimiento del caso hasta su finalización."
+    },
+    {
+      "id": "b18v2-detections-processes-068",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "A specialist requests more context. Which reply is most concise and useful?",
+      "options": [
+        "I will provide all the context that exists so you can make a definitive determination.",
+        "The requested context will be added after I collect every potentially relevant detail.",
+        "I'll add the relevant timeline and user details to the case notes now.",
+        "I'll send more information, although most of it is already available in several tools."
+      ],
+      "correct": 2,
+      "explanation": "«I'll ... now» promete una acción concreta e inmediata. «Relevant timeline and user details» especifica qué se añadirá sin exceso de palabras.",
+      "translation": "Añadiré ahora a las notas del caso la cronología y los datos relevantes del usuario."
+    },
+    {
+      "id": "b18v2-detections-processes-069",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "Which summary makes the handoff status clear to a customer?",
+      "options": [
+        "The case has been assigned to the endpoint team, and their review is now in progress.",
+        "The endpoint team has the case, so a conclusion should be available very shortly.",
+        "The case was passed to endpoint and is waiting for them to start working on it now.",
+        "The endpoint review is in progress, which means the escalation stage is almost complete."
+      ],
+      "correct": 0,
+      "explanation": "Present perfect («has been assigned») comunica el estado actual; present continuous («is ... in progress») describe la actividad en curso.",
+      "translation": "El caso se ha asignado al equipo de endpoint y su revisión ya está en curso."
+    },
+    {
+      "id": "b18v2-detections-processes-070",
+      "topic": "SOC process · Escalation and handoffs",
+      "question": "You want to close a handoff call by confirming alignment. Which question sounds most natural?",
+      "options": [
+        "Is everything covered so you can continue without needing anything else from our side?",
+        "Have we given enough information for you to accept full responsibility for the next stage?",
+        "Do you confirm that our part is finished?",
+        "Does that cover everything you need from us before you continue the review?"
+      ],
+      "correct": 3,
+      "explanation": "«Does that cover everything you need...?» es una pregunta colaborativa y natural. Confirma suficiencia sin descargar responsabilidad.",
+      "translation": "¿Con esto queda cubierto todo lo que necesitáis de nuestra parte antes de continuar la revisión?"
+    },
+    {
+      "id": "b18v2-detections-processes-071",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "Choose the most natural opening for a monitoring update.",
+      "options": [
+        "Since our last update, we have not observed any further suspicious activity.",
+        "From our last update, we did not observe more suspicious activities until the present moment.",
+        "Since the last update, no activity has occurred.",
+        "After our update, the monitoring has proved that the environment is now fully secure."
+      ],
+      "correct": 0,
+      "explanation": "«Since» pide present perfect para un periodo conectado con el presente. «Activity» es normalmente incontable en este contexto.",
+      "translation": "Desde nuestra última actualización no hemos observado más actividad sospechosa."
+    },
+    {
+      "id": "b18v2-detections-processes-072",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "A customer asks what continuous monitoring means. Which answer is clearest?",
+      "options": [
+        "It means that an analyst watches every event continuously, in real time and without any interruption throughout the day.",
+        "It means that relevant activity is reviewed on an ongoing basis rather than only at fixed intervals.",
+        "Continuous monitoring means the tools guarantee immediate detection at all times.",
+        "It is monitoring that continues because all relevant activity must be manually reviewed."
+      ],
+      "correct": 1,
+      "explanation": "«On an ongoing basis rather than...» define el concepto mediante contraste. Evita interpretar «continuous» como vigilancia humana absoluta.",
+      "translation": "Significa que la actividad relevante se revisa de forma continua, no solo a intervalos fijos."
+    },
+    {
+      "id": "b18v2-detections-processes-073",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "Complete the status update: 'We are continuing to monitor the account ___.'",
+      "options": [
+        "in case that malicious activity will definitely return",
+        "for detecting if the attacker is going to come back again",
+        "for any signs of renewed activity",
+        "until we can guarantee security"
+      ],
+      "correct": 2,
+      "explanation": "La colocación natural es «monitor X for signs of Y». «Renewed activity» expresa reaparición sin afirmar que ocurrirá.",
+      "translation": "Seguimos monitorizando la cuenta por si aparecen indicios de nueva actividad."
+    },
+    {
+      "id": "b18v2-detections-processes-074",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "Which sentence explains a scheduled review most naturally?",
+      "options": [
+        "We will revise the trend at week end.",
+        "We are reviewing the alert trend at week end, when its final result will be known.",
+        "The trend will be revised by us again after all alerts for the week have finished.",
+        "We will review the alert trend again at the end of the week."
+      ],
+      "correct": 3,
+      "explanation": "«Review the trend» y «at the end of the week» son expresiones naturales. «Revision» y «tendency» suelen ser falsos amigos en este contexto.",
+      "translation": "Volveremos a revisar la tendencia de las alertas al final de la semana."
+    },
+    {
+      "id": "b18v2-detections-processes-075",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "A chart fluctuates from day to day. Choose the most careful interpretation.",
+      "options": [
+        "The daily figures vary, but there is no clear upward or downward trend yet.",
+        "The figures change every day, which means the trend is unstable and cannot be useful.",
+        "Daily variation indicates that alert volume is both increasing and decreasing over time.",
+        "The chart has no trend because the values have not remained constant each day."
+      ],
+      "correct": 0,
+      "explanation": "«Vary» describe cambios; «no clear ... yet» comunica que todavía no hay dirección evidente. No confunde variación con inutilidad.",
+      "translation": "Las cifras diarias varían, pero todavía no hay una tendencia clara al alza o a la baja."
+    },
+    {
+      "id": "b18v2-detections-processes-076",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "You need to say that a watch period has finished. Which sentence is most natural?",
+      "options": [
+        "The monitoring period has finished now after seven full days without the activity repeating again.",
+        "Seven days of monitoring have ended and prove that the activity cannot recur.",
+        "The watch period is completed, so recurrence has been ruled out permanently.",
+        "The seven-day monitoring period has now ended, and we found no recurrence of the activity."
+      ],
+      "correct": 3,
+      "explanation": "Present perfect con «has now ended» destaca el estado actual. «Found no recurrence» informa del resultado limitado al periodo.",
+      "translation": "El periodo de monitorización de siete días ya ha terminado y no observamos que la actividad se repitiera."
+    },
+    {
+      "id": "b18v2-detections-processes-077",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "Which update makes a change of plan explicit without sounding disorganized?",
+      "options": [
+        "We changed the plan because the previous monitoring period was not sufficient for anything.",
+        "Based on the new information, we are extending the monitoring period by 48 hours.",
+        "New information forces us to monitor for 48 more hours than we originally should have done.",
+        "The plan has changed again, and monitoring will continue until we feel more confident."
+      ],
+      "correct": 1,
+      "explanation": "«Based on...» introduce la razón y «extend ... by 48 hours» expresa exactamente el cambio. El tono transmite adaptación, no improvisación.",
+      "translation": "A partir de la nueva información, ampliaremos el periodo de monitorización en 48 horas."
+    },
+    {
+      "id": "b18v2-detections-processes-078",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "Select the best way to report that an alert volume returned to normal.",
+      "options": [
+        "The alert volume returned to normality.",
+        "Alerts are normal again, so yesterday's increase can be treated as irrelevant.",
+        "The volume has normalized, proving that the temporary increase had no security impact.",
+        "Alert volume has returned to its usual range after yesterday's increase."
+      ],
+      "correct": 3,
+      "explanation": "«Alert volume» y «usual range» son colocaciones naturales. Present perfect conecta el retorno con la situación actual.",
+      "translation": "El volumen de alertas ha vuelto a su rango habitual tras el aumento de ayer."
+    },
+    {
+      "id": "b18v2-detections-processes-079",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "A customer asks whether monitoring can stop. Which answer is balanced and clear?",
+      "options": [
+        "We can stop monitoring because the absence of alerts confirms that the risk has disappeared.",
+        "Additional monitoring should continue indefinitely in case the same activity ever returns.",
+        "We can stop the additional monitoring as planned, while the standard controls remain in place.",
+        "The monitoring can stop, although doing so will remove all visibility of the account."
+      ],
+      "correct": 2,
+      "explanation": "La frase diferencia «additional monitoring» de «standard controls». «As planned» confirma el acuerdo sin afirmar riesgo cero.",
+      "translation": "Podemos finalizar la monitorización adicional según lo previsto, mientras los controles habituales siguen activos."
+    },
+    {
+      "id": "b18v2-detections-processes-080",
+      "topic": "SOC process · Monitoring and status updates",
+      "question": "Which closing sentence works best at the end of a routine status update?",
+      "options": [
+        "We will keep monitoring everything and immediately report every change we can observe.",
+        "We'll continue to monitor the situation and let you know if anything material changes.",
+        "We will continue the monitoring until there is certainty that nothing else can happen.",
+        "If something changes, we may provide another update when the investigation requires it."
+      ],
+      "correct": 1,
+      "explanation": "«Let you know if anything material changes» es profesional y concreto. «Material» limita las actualizaciones a cambios relevantes.",
+      "translation": "Seguiremos monitorizando la situación y os informaremos si se produce algún cambio relevante."
+    },
+    {
+      "id": "b18v2-detections-processes-081",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "You cannot confirm whether data was accessed. Which sentence is most precise?",
+      "options": [
+        "The logs do not show file access, so we can confirm that the files were not accessed.",
+        "The available logs do not allow us to confirm whether the files were accessed.",
+        "We cannot confirm access because the files probably were not opened by the attacker.",
+        "There is no evidence of access, which is equivalent to evidence that no access occurred."
+      ],
+      "correct": 1,
+      "explanation": "«Do not allow us to confirm whether...» describe un límite probatorio sin convertir ausencia de evidencia en evidencia de ausencia.",
+      "translation": "Los registros disponibles no nos permiten confirmar si se accedió a los archivos."
+    },
+    {
+      "id": "b18v2-detections-processes-082",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "Choose the best way to state a moderate-confidence assessment.",
+      "options": [
+        "We believe the activity is likely related, although we cannot confirm the link yet.",
+        "We are moderately certain that the activity is related, so the link can be treated as established.",
+        "The activity must be related, although some confirmation is still technically pending.",
+        "We think there is a relationship and will assume it is confirmed unless contrary evidence appears."
+      ],
+      "correct": 0,
+      "explanation": "«We believe... likely» comunica una valoración; «although» introduce la limitación. «Yet» indica que la confirmación puede llegar después.",
+      "translation": "Creemos que la actividad probablemente está relacionada, aunque todavía no podemos confirmar el vínculo."
+    },
+    {
+      "id": "b18v2-detections-processes-083",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "A customer asks for a guarantee that the activity has stopped. Which response is most professional?",
+      "options": [
+        "We have seen no further activity, but we cannot guarantee that it will not recur.",
+        "We guarantee that the activity has stopped because no new alerts have been generated.",
+        "The activity appears to have stopped, so recurrence is now extremely unlikely in all cases.",
+        "We cannot guarantee anything, which is why monitoring results should not be relied upon."
+      ],
+      "correct": 0,
+      "explanation": "La frase distingue observación y garantía. «Cannot guarantee that it will not recur» expresa el límite sin invalidar lo observado.",
+      "translation": "No hemos visto más actividad, pero no podemos garantizar que no vuelva a producirse."
+    },
+    {
+      "id": "b18v2-detections-processes-084",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "Which phrase best introduces an assumption in a presentation?",
+      "options": [
+        "This assessment believes the account inventory to be complete and currently updated.",
+        "We know the inventory is complete, unless information not yet available proves otherwise.",
+        "This assessment assumes that the account inventory is complete and up to date.",
+        "The assessment is correct provided that no account is missing for any possible reason."
+      ],
+      "correct": 2,
+      "explanation": "«This assessment assumes that...» hace explícito el supuesto. «Up to date» es la expresión idiomática para información actualizada.",
+      "translation": "Esta evaluación presupone que el inventario de cuentas está completo y actualizado."
+    },
+    {
+      "id": "b18v2-detections-processes-085",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "You need to correct an overly certain slide title: 'No data was exfiltrated.' Which replacement is safest?",
+      "options": [
+        "No evidence of data exfiltration was identified in the available sources.",
+        "Data exfiltration did not occur according to all currently available evidence.",
+        "The investigation confirms that no data was exfiltrated from the monitored environment.",
+        "No exfiltration was identified, meaning that the data remained inside the organization."
+      ],
+      "correct": 0,
+      "explanation": "La pasiva «was identified» limita la afirmación a lo observado. «In the available sources» hace explícito el alcance de la evidencia.",
+      "translation": "No se identificaron indicios de exfiltración de datos en las fuentes disponibles."
+    },
+    {
+      "id": "b18v2-detections-processes-086",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "A client asks why your conclusion may change. Which explanation is clearest?",
+      "options": [
+        "Our assessment may change if new evidence becomes available.",
+        "Our conclusion may change because the evidence is incomplete.",
+        "The assessment is temporary and will probably change when more data is reviewed.",
+        "Any conclusion can change, so the current assessment should not guide decisions."
+      ],
+      "correct": 0,
+      "explanation": "«May change if...» expresa una condición posible sin debilitar innecesariamente la evaluación actual. «Evidence becomes available» es una colocación natural.",
+      "translation": "Nuestra evaluación puede cambiar si aparecen nuevas evidencias."
+    },
+    {
+      "id": "b18v2-detections-processes-087",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "Select the most natural way to say that two explanations remain possible.",
+      "options": [
+        "At this point, both explanations continue being possible and equally correct.",
+        "Both explanations are equally likely.",
+        "For now, the two explanations have the same probability and cannot be distinguished.",
+        "At this point, both explanations remain plausible."
+      ],
+      "correct": 3,
+      "explanation": "«Remain plausible» es conciso y no afirma que las opciones sean igual de probables. «At this point» sitúa la valoración en el momento actual.",
+      "translation": "En este momento, ambas explicaciones siguen siendo plausibles."
+    },
+    {
+      "id": "b18v2-detections-processes-088",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "Which sentence clearly communicates a low-confidence finding?",
+      "options": [
+        "We have a low-confidence attribution, which means the possible match is probably correct but still incomplete.",
+        "The evidence gives a possible match and therefore supports naming the likely actor cautiously.",
+        "We have a possible match, but the evidence is too limited for a confident attribution.",
+        "We cannot attribute the activity, so the possible match has no analytical value."
+      ],
+      "correct": 2,
+      "explanation": "«Possible match» y «too limited for...» explican por qué no se puede llegar a una atribución firme. La frase evita tanto exagerar como descartar.",
+      "translation": "Tenemos una posible coincidencia, pero la evidencia es demasiado limitada para realizar una atribución con confianza."
+    },
+    {
+      "id": "b18v2-detections-processes-089",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "You want to distinguish 'unknown' from 'not applicable.' Which wording is clearest?",
+      "options": [
+        "The answer is not applicable because it is unknown.",
+        "We do not know the answer, so the question cannot be applied to this investigation.",
+        "The answer remains unknown and should therefore be recorded as not applicable for now.",
+        "The answer is currently unknown; that does not mean the question is irrelevant."
+      ],
+      "correct": 3,
+      "explanation": "El punto y coma separa dos ideas y «that does not mean...» evita equiparar falta de información con irrelevancia.",
+      "translation": "La respuesta se desconoce actualmente; eso no significa que la pregunta sea irrelevante."
+    },
+    {
+      "id": "b18v2-detections-processes-090",
+      "topic": "Explaining detections · Limits and uncertainty",
+      "question": "Choose the best closing statement for an uncertain finding.",
+      "options": [
+        "This is the best conclusion, and it will remain valid unless somebody disproves it.",
+        "Based on today's information, this assessment is as certain as the evidence permits completely.",
+        "This is our current, mainly speculative opinion.",
+        "This is our best assessment based on the information available today."
+      ],
+      "correct": 3,
+      "explanation": "«Best assessment based on...» transmite rigor y limita la conclusión a la información disponible. No suena defensivo ni excesivamente débil.",
+      "translation": "Esta es nuestra mejor evaluación a partir de la información disponible hoy."
+    },
+    {
+      "id": "b18v2-detections-processes-091",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "You need to summarize a detection in one sentence for an executive. Which version is best?",
+      "options": [
+        "The detection found an account anomaly that was investigated and did not become a confirmed breach.",
+        "An unusual account generated an alert, but a compromise has not been conclusively proven by the SOC so far.",
+        "The alert highlighted unusual account activity, and the review has not found evidence of compromise so far.",
+        "The alert was suspicious, although the investigation currently considers the account completely safe."
+      ],
+      "correct": 2,
+      "explanation": "La frase resume señal y estado actual. «So far» conserva la prudencia; «has not found evidence» no equivale a afirmar que el compromiso sea imposible.",
+      "translation": "La alerta señaló una actividad inusual en la cuenta y, por ahora, la revisión no ha encontrado indicios de compromiso."
+    },
+    {
+      "id": "b18v2-detections-processes-092",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "Which transition moves naturally from findings to recommendations?",
+      "options": [
+        "After explaining all the observations, we will now change the subject and move directly to the final recommendations.",
+        "Now that we've covered what we observed, let's turn to the recommended next steps.",
+        "The findings are finished, so the actions that must be implemented come next.",
+        "Having covered the evidence, recommendations will be spoken about in the following section."
+      ],
+      "correct": 1,
+      "explanation": "«Now that we've covered...» y «let's turn to...» son marcadores orales naturales. Introducen la siguiente sección sin sonar rígidos.",
+      "translation": "Ahora que hemos repasado lo observado, pasemos a los próximos pasos recomendados."
+    },
+    {
+      "id": "b18v2-detections-processes-093",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "A slide contains too much technical detail. Which spoken summary is clearest?",
+      "options": [
+        "The key point is the technical investigation, whose details prove that no customer action will ever be needed.",
+        "In summary, many checks were completed and the alert can now be forgotten by the customer.",
+        "The important thing is that our process worked, despite the technical details being too complex to explain.",
+        "The key point is that the alert was investigated promptly and no immediate action is required from you."
+      ],
+      "correct": 3,
+      "explanation": "«The key point is that...» enfoca el mensaje y «no immediate action is required» aclara la consecuencia actual sin promesas futuras.",
+      "translation": "La idea clave es que la alerta se investigó con rapidez y no se requiere ninguna acción inmediata por vuestra parte."
+    },
+    {
+      "id": "b18v2-detections-processes-094",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "Choose the most natural way to check whether the customer wants more detail.",
+      "options": [
+        "Do you want that I explain you all the investigation steps in more detail?",
+        "Would it be helpful if I walked you through the investigation steps?",
+        "Do you want a full technical explanation?",
+        "Is it necessary for me to enumerate the steps so the investigation can be understood?"
+      ],
+      "correct": 1,
+      "explanation": "Después de «Would it be helpful if...?» usamos pasado simple con sentido hipotético. «Walk you through» es natural al ofrecer una explicación guiada.",
+      "translation": "¿Os resultaría útil que repasara con vosotros los pasos de la investigación?"
+    },
+    {
+      "id": "b18v2-detections-processes-095",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "A customer asks for the practical impact. Which answer is most direct?",
+      "options": [
+        "At present, users and operations have not been impacted in any possible way.",
+        "At present, there is no identified impact on users or business operations.",
+        "There is no impact because no incident was confirmed.",
+        "No business impact has been identified, which confirms that the activity was harmless."
+      ],
+      "correct": 1,
+      "explanation": "«No identified impact» limita la afirmación a lo observado. «At present» deja claro que se trata del estado actual.",
+      "translation": "Actualmente no se ha identificado impacto en los usuarios ni en las operaciones del negocio."
+    },
+    {
+      "id": "b18v2-detections-processes-096",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "Which sentence assigns a next step without sounding commanding?",
+      "options": [
+        "You need to review the account immediately and remove its access unless it can be justified.",
+        "The account access should be removed because reviewing whether it is required would take too long.",
+        "We recommend reviewing the affected account's access and confirming that it is still required.",
+        "Our recommendation is that you must confirm the account and all its permissions today."
+      ],
+      "correct": 2,
+      "explanation": "«We recommend + -ing» formula una recomendación profesional. Las dos acciones paralelas son claras y no imponen una urgencia no indicada.",
+      "translation": "Recomendamos revisar los accesos de la cuenta afectada y confirmar que siguen siendo necesarios."
+    },
+    {
+      "id": "b18v2-detections-processes-097",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "You want to state when the next update will arrive. Choose the clearest wording.",
+      "options": [
+        "We will send the next update by 3 p.m., even if there is no material change.",
+        "We will send an update around 3 p.m. if we have something important enough to report.",
+        "The next communication will be at 3 p.m. unless the investigation remains unchanged.",
+        "We will try to provide the following update before 3 p.m., depending on the results."
+      ],
+      "correct": 0,
+      "explanation": "«By 3 p.m.» fija un límite claro y «even if» confirma que la comunicación no depende de nuevos hallazgos.",
+      "translation": "Enviaremos la próxima actualización antes de las 15:00, aunque no haya ningún cambio relevante."
+    },
+    {
+      "id": "b18v2-detections-processes-098",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "Which closing recap is easiest to follow in a meeting?",
+      "options": [
+        "As a recap, we are reviewing an unconfirmed alert and will probably know more later today.",
+        "To summarize all points, there is no confirmed compromise because the review is still being done.",
+        "In conclusion, the alert remains open, but the scheduled update later today should provide a complete and final answer for everyone involved.",
+        "To recap, the alert is under review, no compromise has been confirmed, and the next update is due at 3 p.m."
+      ],
+      "correct": 3,
+      "explanation": "«To recap» introduce tres puntos paralelos y concretos. La frase evita prometer una conclusión final en la próxima actualización.",
+      "translation": "En resumen, la alerta sigue en revisión, no se ha confirmado ningún compromiso y la próxima actualización está prevista para las 15:00."
+    },
+    {
+      "id": "b18v2-detections-processes-099",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "A customer has misunderstood your conclusion. Which correction is most diplomatic?",
+      "options": [
+        "That is not what I said: the absence of evidence does not prove there was no compromise.",
+        "Just to clarify, we have not found evidence of compromise; we have not ruled it out completely.",
+        "You may have misunderstood the result, because our conclusion was only provisional.",
+        "To correct the record, compromise remains possible despite the customer's interpretation."
+      ],
+      "correct": 1,
+      "explanation": "«Just to clarify» suaviza la corrección. El paralelismo «we have not...; we have not...» distingue dos afirmaciones de forma memorable.",
+      "translation": "Solo para aclararlo: no hemos encontrado indicios de compromiso, pero no lo hemos descartado por completo."
+    },
+    {
+      "id": "b18v2-detections-processes-100",
+      "topic": "Customer briefings · Clear summaries and next steps",
+      "question": "Select the best final sentence after presenting recommendations.",
+      "options": [
+        "If you accept our recommendations, we will assign every action and deadline to the appropriate owner.",
+        "Once the approach is agreed, the customer must document the owners and completion dates.",
+        "If there are no objections, we will consider every recommendation approved and start immediately.",
+        "If you agree with this approach, we'll document the actions and confirm the owners and dates."
+      ],
+      "correct": 3,
+      "explanation": "La condicional «If you agree...» confirma consentimiento y el paralelismo «document... and confirm...» concreta el cierre. No presupone aprobación.",
+      "translation": "Si estáis de acuerdo con este enfoque, documentaremos las acciones y confirmaremos responsables y fechas."
+    }
+  ],
+  "category": "natural"
+}

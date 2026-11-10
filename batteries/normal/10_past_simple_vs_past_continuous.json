@@ -1,0 +1,428 @@
+{
+  "name": "10 · Past simple vs past continuous · Normal",
+  "description": "30 preguntas para distinguir hechos completados de actividades en curso y explicar interrupciones, contexto y cronologías de incidentes.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b10-pspc-001",
+      "topic": "Past simple vs past continuous · Interrupted action",
+      "question": "We ___ the proxy logs when the critical alert ___.",
+      "options": [
+        "were reviewing / appeared",
+        "reviewed / was appearing",
+        "were reviewing / was appearing",
+        "reviewed / appeared"
+      ],
+      "correct": 0,
+      "explanation": "La revisión estaba en curso, por eso usamos were reviewing. La alerta apareció como un hecho puntual que interrumpió esa actividad: appeared.",
+      "translation": "Estábamos revisando los logs del proxy cuando apareció la alerta crítica."
+    },
+    {
+      "id": "b10-pspc-002",
+      "topic": "Past simple vs past continuous · Background and main event",
+      "question": "The client ___ while we ___ the first set of indicators.",
+      "options": [
+        "was calling / validated",
+        "called / were validating",
+        "called / validated",
+        "was calling / were validating"
+      ],
+      "correct": 1,
+      "explanation": "La llamada es el hecho puntual principal: called. La validación ya estaba en curso y sirve de fondo: were validating.",
+      "translation": "El cliente llamó mientras estábamos validando el primer conjunto de indicadores."
+    },
+    {
+      "id": "b10-pspc-003",
+      "topic": "Past simple vs past continuous · Background and main event",
+      "question": "The attacker ___ a file while the user ___ remotely.",
+      "options": [
+        "was downloading / worked",
+        "downloaded / worked",
+        "downloaded / was working",
+        "was downloaded / was working"
+      ],
+      "correct": 2,
+      "explanation": "Downloaded presenta la descarga como un hecho completado. Was working describe la actividad en curso del usuario durante ese momento.",
+      "translation": "El atacante descargó un archivo mientras el usuario estaba trabajando en remoto."
+    },
+    {
+      "id": "b10-pspc-004",
+      "topic": "Past simple vs past continuous · Interrupted action",
+      "question": "The scanner ___ the subnet when the process suddenly ___.",
+      "options": [
+        "checked / was stopping",
+        "was checking / was stopping",
+        "checked / stopped",
+        "was checking / stopped"
+      ],
+      "correct": 3,
+      "explanation": "El análisis estaba en curso: was checking. La parada fue un evento puntual que lo interrumpió: stopped.",
+      "translation": "El escáner estaba comprobando la subred cuando el proceso se detuvo de repente."
+    },
+    {
+      "id": "b10-pspc-005",
+      "topic": "Past simple vs past continuous · Completed vs ongoing action",
+      "question": "At 10:15, we ___ the malicious domain and confirmed the action to the client.",
+      "options": [
+        "blocked",
+        "were blocking",
+        "was blocking",
+        "were blocked"
+      ],
+      "correct": 0,
+      "explanation": "La frase presenta dos acciones completadas y secuenciales a una hora concreta: blocked y confirmed. Por eso usamos past simple.",
+      "translation": "A las 10:15 bloqueamos el dominio malicioso y confirmamos la acción al cliente."
+    },
+    {
+      "id": "b10-pspc-006",
+      "topic": "Past simple vs past continuous · Completed vs ongoing action",
+      "question": "At 10:15, the analyst ___ the authentication logs; the review was not finished yet.",
+      "options": [
+        "examined",
+        "was examining",
+        "were examining",
+        "was examined"
+      ],
+      "correct": 1,
+      "explanation": "La aclaración the review was not finished yet indica que la acción estaba en curso a las 10:15: was examining.",
+      "translation": "A las 10:15, la analista estaba examinando los logs de autenticación; la revisión aún no había terminado."
+    },
+    {
+      "id": "b10-pspc-007",
+      "topic": "Past simple vs past continuous · Background and main event",
+      "question": "While the team ___ the threat, the client ___ access to the affected server.",
+      "options": [
+        "contained / was losing",
+        "was containing / was losing",
+        "was containing / lost",
+        "contained / lost"
+      ],
+      "correct": 2,
+      "explanation": "La contención era la actividad de fondo en curso: was containing. La pérdida de acceso fue un evento puntual: lost.",
+      "translation": "Mientras el equipo estaba conteniendo la amenaza, el cliente perdió el acceso al servidor afectado."
+    },
+    {
+      "id": "b10-pspc-008",
+      "topic": "Past simple vs past continuous · Discovery during an activity",
+      "question": "We ___ the anomaly while we ___ traffic from the two firewalls.",
+      "options": [
+        "were finding / compared",
+        "found / compared",
+        "were finding / were comparing",
+        "found / were comparing"
+      ],
+      "correct": 3,
+      "explanation": "Found expresa el descubrimiento puntual. Were comparing describe la actividad que estaba en curso cuando ocurrió.",
+      "translation": "Encontramos la anomalía mientras comparábamos el tráfico de los dos firewalls."
+    },
+    {
+      "id": "b10-pspc-009",
+      "topic": "Past simple vs past continuous · Two simultaneous actions",
+      "question": "While one analyst ___ the host, another analyst ___ the client.",
+      "options": [
+        "was isolating / was updating",
+        "isolated / updated",
+        "was isolating / updated",
+        "isolated / was updating"
+      ],
+      "correct": 0,
+      "explanation": "Las dos acciones estaban ocurriendo simultáneamente, por lo que usamos past continuous en ambas: was isolating y was updating.",
+      "translation": "Mientras una analista estaba aislando el host, otra estaba informando al cliente."
+    },
+    {
+      "id": "b10-pspc-010",
+      "topic": "Past simple vs past continuous · Incident chronology",
+      "question": "The sensor ___ the behavior, and the analyst immediately ___ an incident.",
+      "options": [
+        "was detecting / was opening",
+        "detected / opened",
+        "detected / was opening",
+        "was detecting / opened"
+      ],
+      "correct": 1,
+      "explanation": "Son dos hechos completados y consecutivos dentro de la cronología, así que usamos past simple en ambos: detected y opened.",
+      "translation": "El sensor detectó el comportamiento y la analista abrió inmediatamente un incidente."
+    },
+    {
+      "id": "b10-pspc-011",
+      "topic": "Past simple vs past continuous · Questions",
+      "question": "What ___ you ___ when the alert fired?",
+      "options": [
+        "did / doing",
+        "did / do",
+        "were / doing",
+        "was / doing"
+      ],
+      "correct": 2,
+      "explanation": "Preguntamos por una actividad que estaba en curso cuando ocurrió un evento puntual: What were you doing...?",
+      "translation": "¿Qué estabas haciendo cuando se activó la alerta?"
+    },
+    {
+      "id": "b10-pspc-012",
+      "topic": "Past simple vs past continuous · Questions",
+      "question": "___ the client ___ while you were investigating the suspicious login?",
+      "options": [
+        "Was / calling",
+        "Did / called",
+        "Was / call",
+        "Did / call"
+      ],
+      "correct": 3,
+      "explanation": "La pregunta se refiere a una llamada como hecho puntual, por eso usamos Did + sujeto + verbo base: Did the client call...?",
+      "translation": "¿Llamó el cliente mientras investigabas el inicio de sesión sospechoso?"
+    },
+    {
+      "id": "b10-pspc-013",
+      "topic": "Past simple vs past continuous · Negative forms",
+      "question": "The service ___ when we tested it, so we escalated the outage.",
+      "options": [
+        "was not responding",
+        "did not respond at all yesterday",
+        "were not responding",
+        "did not responding"
+      ],
+      "correct": 0,
+      "explanation": "La falta de respuesta era la situación en curso en el momento de la prueba: was not responding.",
+      "translation": "El servicio no estaba respondiendo cuando lo probamos, así que escalamos la interrupción."
+    },
+    {
+      "id": "b10-pspc-014",
+      "topic": "Past simple vs past continuous · Negative forms",
+      "question": "We ___ the case because the endpoint was still sending suspicious traffic.",
+      "options": [
+        "were not closing",
+        "did not close",
+        "did not closed",
+        "were not close"
+      ],
+      "correct": 1,
+      "explanation": "Not close es una decisión o acción completada, no una actividad de fondo. La negativa del past simple es did not + verbo base: did not close.",
+      "translation": "No cerramos el caso porque el endpoint seguía enviando tráfico sospechoso."
+    },
+    {
+      "id": "b10-pspc-015",
+      "topic": "Past simple vs past continuous · Background and main event",
+      "question": "The dashboard ___ elevated traffic when the incident call ___.",
+      "options": [
+        "showed / was beginning",
+        "was showing / was beginning",
+        "was showing / began",
+        "showed / began"
+      ],
+      "correct": 2,
+      "explanation": "Was showing establece el contexto en curso. Began marca el inicio puntual de la llamada.",
+      "translation": "El panel mostraba tráfico elevado cuando empezó la llamada del incidente."
+    },
+    {
+      "id": "b10-pspc-016",
+      "topic": "Past simple vs past continuous · Interrupted action",
+      "question": "The user ___ the link while the security banner ___.",
+      "options": [
+        "was clicking / loaded",
+        "clicked / loaded",
+        "was clicking / was loading",
+        "clicked / was loading"
+      ],
+      "correct": 3,
+      "explanation": "Clicked es el hecho puntual. Was loading indica que el banner todavía estaba cargándose en ese momento.",
+      "translation": "El usuario hizo clic en el enlace mientras se estaba cargando el aviso de seguridad."
+    },
+    {
+      "id": "b10-pspc-017",
+      "topic": "Past simple vs past continuous · Interrupted action",
+      "question": "I ___ the executive summary when the VPN connection ___.",
+      "options": [
+        "was writing / dropped",
+        "wrote / was dropping",
+        "was writing / was dropping",
+        "wrote / dropped"
+      ],
+      "correct": 0,
+      "explanation": "La redacción estaba en curso: was writing. La caída de la VPN fue el evento puntual que la interrumpió: dropped.",
+      "translation": "Estaba redactando el resumen ejecutivo cuando se cayó la conexión VPN."
+    },
+    {
+      "id": "b10-pspc-018",
+      "topic": "Past simple vs past continuous · Incident chronology",
+      "question": "I ___ the report after the investigation ___.",
+      "options": [
+        "was writing / was ending",
+        "wrote / ended",
+        "wrote / was ending",
+        "was writing / ended"
+      ],
+      "correct": 1,
+      "explanation": "La frase cuenta dos acciones completadas en secuencia: primero terminó la investigación y después escribí el informe. Usamos past simple en ambas.",
+      "translation": "Escribí el informe después de que terminara la investigación."
+    },
+    {
+      "id": "b10-pspc-019",
+      "topic": "Past simple vs past continuous · Passive voice",
+      "question": "The malicious IP address ___ at 09:05, and the block remained active.",
+      "options": [
+        "was being blocked",
+        "were blocked",
+        "was blocked",
+        "was blocking"
+      ],
+      "correct": 2,
+      "explanation": "A las 09:05 se completó la acción de bloqueo. La pasiva del past simple es was blocked.",
+      "translation": "La dirección IP maliciosa fue bloqueada a las 09:05 y el bloqueo permaneció activo."
+    },
+    {
+      "id": "b10-pspc-020",
+      "topic": "Past simple vs past continuous · Passive voice",
+      "question": "The host ___ when it unexpectedly lost network connectivity.",
+      "options": [
+        "was isolated and finished",
+        "were being isolated",
+        "was isolating",
+        "was being isolated"
+      ],
+      "correct": 3,
+      "explanation": "El aislamiento todavía estaba en curso cuando se perdió la conectividad. La pasiva continua es was being isolated.",
+      "translation": "El host estaba siendo aislado cuando perdió inesperadamente la conectividad de red."
+    },
+    {
+      "id": "b10-pspc-021",
+      "topic": "Past simple vs past continuous · Stative verbs",
+      "question": "We ___ that the domain belonged to the client, so we did not block it.",
+      "options": [
+        "knew",
+        "were knowing",
+        "was knowing",
+        "were knew"
+      ],
+      "correct": 0,
+      "explanation": "Know es un verbo de estado y normalmente no se usa en forma continua. Aquí corresponde el past simple: knew.",
+      "translation": "Sabíamos que el dominio pertenecía al cliente, así que no lo bloqueamos."
+    },
+    {
+      "id": "b10-pspc-022",
+      "topic": "Past simple vs past continuous · Two simultaneous actions",
+      "question": "While we ___ the logs, the client ___ the affected users.",
+      "options": [
+        "analyzed / contacted",
+        "were analyzing / was contacting",
+        "were analyzing / contacted",
+        "analyzed / was contacting"
+      ],
+      "correct": 1,
+      "explanation": "Las dos actividades estaban en desarrollo al mismo tiempo; por eso usamos past continuous en ambas.",
+      "translation": "Mientras analizábamos los logs, el cliente estaba contactando con los usuarios afectados."
+    },
+    {
+      "id": "b10-pspc-023",
+      "topic": "Past simple vs past continuous · Interrupted action",
+      "question": "We ___ the incident timeline when the client ___ new evidence.",
+      "options": [
+        "discussed / was providing",
+        "were discussing / was providing",
+        "were discussing / provided",
+        "discussed / provided"
+      ],
+      "correct": 2,
+      "explanation": "La conversación estaba en curso: were discussing. La aportación de nuevas evidencias ocurrió como un hecho puntual: provided.",
+      "translation": "Estábamos comentando la cronología del incidente cuando el cliente aportó nuevas evidencias."
+    },
+    {
+      "id": "b10-pspc-024",
+      "topic": "Past simple vs past continuous · Error recognition",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "We investigated the alert when the user was call.",
+        "We were investigate the alert when the user called.",
+        "We was investigating the alert when the user called.",
+        "We were investigating the alert when the user called."
+      ],
+      "correct": 3,
+      "explanation": "La investigación estaba en curso y la llamada fue puntual: were investigating ... called.",
+      "translation": "Estábamos investigando la alerta cuando llamó el usuario."
+    },
+    {
+      "id": "b10-pspc-025",
+      "topic": "Past simple vs past continuous · Client updates",
+      "question": "Which sentence naturally explains an interruption to a client?",
+      "options": [
+        "We were collecting evidence when the server restarted.",
+        "We collected evidence when the server was restart.",
+        "We were collected evidence when the server restarted.",
+        "We collecting evidence when the server did restart."
+      ],
+      "correct": 0,
+      "explanation": "Were collecting describe el proceso en curso; restarted presenta el reinicio como el evento puntual que lo interrumpió.",
+      "translation": "Estábamos recopilando evidencias cuando el servidor se reinició."
+    },
+    {
+      "id": "b10-pspc-026",
+      "topic": "Past simple vs past continuous · Discovery during an activity",
+      "question": "The analyst ___ that the endpoint ___ to a known malicious domain.",
+      "options": [
+        "was noticing / connected",
+        "noticed / was connecting",
+        "noticed / connected",
+        "was noticing / was connecting"
+      ],
+      "correct": 1,
+      "explanation": "Noticed es el descubrimiento puntual. Was connecting describe el comportamiento que estaba observándose en ese momento.",
+      "translation": "La analista observó que el endpoint se estaba conectando a un dominio malicioso conocido."
+    },
+    {
+      "id": "b10-pspc-027",
+      "topic": "Past simple vs past continuous · Background and main event",
+      "question": "The gateway ___ the connection while the malware ___ data.",
+      "options": [
+        "was dropping / sent",
+        "dropped / sent",
+        "dropped / was sending",
+        "was dropping / was sending"
+      ],
+      "correct": 2,
+      "explanation": "Dropped es el evento puntual del gateway. Was sending describe la actividad que el malware tenía en curso.",
+      "translation": "El gateway interrumpió la conexión mientras el malware estaba enviando datos."
+    },
+    {
+      "id": "b10-pspc-028",
+      "topic": "Past simple vs past continuous · Two simultaneous actions",
+      "question": "While the scripts ___ evidence, the responder ___ a memory image.",
+      "options": [
+        "collected / took",
+        "were collecting / took",
+        "collected / was taking",
+        "were collecting / was taking"
+      ],
+      "correct": 3,
+      "explanation": "La recopilación y la captura de memoria estaban en curso simultáneamente, así que usamos past continuous en ambas.",
+      "translation": "Mientras los scripts estaban recopilando evidencias, la persona de respuesta estaba obteniendo una imagen de memoria."
+    },
+    {
+      "id": "b10-pspc-029",
+      "topic": "Past simple vs past continuous · Action at a specific past time",
+      "question": "At exactly 14:00, we ___ the recovery options with the client; the conversation was still in progress.",
+      "options": [
+        "were discussing",
+        "discussed",
+        "was discussing",
+        "were discussed"
+      ],
+      "correct": 0,
+      "explanation": "The conversation was still in progress indica claramente que la acción estaba en curso a las 14:00: were discussing.",
+      "translation": "Exactamente a las 14:00 estábamos comentando con el cliente las opciones de recuperación; la conversación seguía en curso."
+    },
+    {
+      "id": "b10-pspc-030",
+      "topic": "Past simple vs past continuous · Incident chronology",
+      "question": "After the call ___, we ___ the written summary to the client.",
+      "options": [
+        "was ending / were sending",
+        "ended / sent",
+        "ended / were sending",
+        "was ending / sent"
+      ],
+      "correct": 1,
+      "explanation": "Ambas acciones se presentan como hechos completados y consecutivos: primero terminó la llamada y después enviamos el resumen.",
+      "translation": "Después de que terminara la llamada, enviamos al cliente el resumen por escrito."
+    }
+  ],
+  "category": "normal"
+}

@@ -1,0 +1,568 @@
+{
+  "name": "24 · Articles · Normal",
+  "description": "40 preguntas normales sobre a, an, the y ausencia de artículo en contextos SOC y de comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b24-q001",
+      "topic": "Indefinite articles: a and an",
+      "question": "We need ___ analyst to take notes during the customer call.",
+      "options": [
+        "a",
+        "— (no article)",
+        "an",
+        "the"
+      ],
+      "correct": 2,
+      "explanation": "Usamos an ante un sonido vocálico. Analyst empieza por sonido vocálico.",
+      "translation": "Necesitamos que un analista tome notas durante la llamada con el cliente."
+    },
+    {
+      "id": "b24-q002",
+      "topic": "Indefinite articles: a and an",
+      "question": "The client requested ___ urgent update before the meeting.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (no article)"
+      ],
+      "correct": 1,
+      "explanation": "Urgent empieza por sonido vocálico, por eso usamos an.",
+      "translation": "El cliente solicitó una actualización urgente antes de la reunión."
+    },
+    {
+      "id": "b24-q003",
+      "topic": "Indefinite articles: a and an",
+      "question": "Could you prepare ___ short summary for the morning briefing?",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "— (no article)"
+      ],
+      "correct": 2,
+      "explanation": "Usamos a ante el sonido consonántico de short para presentar un resumen no especificado.",
+      "translation": "¿Podrías preparar un breve resumen para la reunión informativa de la mañana?"
+    },
+    {
+      "id": "b24-q004",
+      "topic": "Indefinite articles: a and an",
+      "question": "We received ___ email asking for clarification.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "— (no article)"
+      ],
+      "correct": 2,
+      "explanation": "Email empieza por sonido vocálico, así que corresponde an.",
+      "translation": "Recibimos un correo electrónico en el que se pedía una aclaración."
+    },
+    {
+      "id": "b24-q005",
+      "topic": "Indefinite articles: a and an",
+      "question": "It took us ___ hour to review the notes.",
+      "options": [
+        "a",
+        "— (no article)",
+        "the",
+        "an"
+      ],
+      "correct": 3,
+      "explanation": "La h de hour no se pronuncia; la palabra comienza con sonido vocálico y lleva an.",
+      "translation": "Tardamos una hora en revisar las notas."
+    },
+    {
+      "id": "b24-q006",
+      "topic": "Indefinite articles: a and an",
+      "question": "The team created ___ one-page guide for new analysts.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "— (no article)"
+      ],
+      "correct": 1,
+      "explanation": "One empieza con sonido /w/, que es consonántico; por eso usamos a.",
+      "translation": "El equipo creó una guía de una página para los analistas nuevos."
+    },
+    {
+      "id": "b24-q007",
+      "topic": "Indefinite articles: a and an",
+      "question": "She gave ___ useful example during the call.",
+      "options": [
+        "— (no article)",
+        "the",
+        "a",
+        "an"
+      ],
+      "correct": 2,
+      "explanation": "Useful empieza con sonido /j/ («yu»), por lo que usamos a y no an.",
+      "translation": "Dio un ejemplo útil durante la llamada."
+    },
+    {
+      "id": "b24-q008",
+      "topic": "Indefinite articles: a and an",
+      "question": "The customer shared ___ unusual screenshot with the team.",
+      "options": [
+        "an",
+        "the",
+        "— (no article)",
+        "a"
+      ],
+      "correct": 0,
+      "explanation": "Unusual empieza por sonido vocálico, así que usamos an.",
+      "translation": "El cliente compartió con el equipo una captura de pantalla poco habitual."
+    },
+    {
+      "id": "b24-q009",
+      "topic": "The for specific reference",
+      "question": "Please open ___ attachment that I sent this morning.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "— (no article)"
+      ],
+      "correct": 1,
+      "explanation": "Usamos the porque la oración identifica un adjunto concreto: el que envié esta mañana.",
+      "translation": "Por favor, abre el archivo adjunto que envié esta mañana."
+    },
+    {
+      "id": "b24-q010",
+      "topic": "The for specific reference",
+      "question": "___ analyst assigned to this case will contact you shortly.",
+      "options": [
+        "The",
+        "A",
+        "— (no article)",
+        "An"
+      ],
+      "correct": 0,
+      "explanation": "Assigned to this case identifica a un analista concreto, por lo que usamos the.",
+      "translation": "El analista asignado a este caso se pondrá en contacto contigo en breve."
+    },
+    {
+      "id": "b24-q011",
+      "topic": "The for specific reference",
+      "question": "We discussed ___ timeline included in your email.",
+      "options": [
+        "— (no article)",
+        "an",
+        "the",
+        "a"
+      ],
+      "correct": 2,
+      "explanation": "Included in your email identifica una cronología concreta; por eso usamos the.",
+      "translation": "Hablamos de la cronología incluida en tu correo."
+    },
+    {
+      "id": "b24-q012",
+      "topic": "The for specific reference",
+      "question": "Could you resend ___ link you mentioned on the call?",
+      "options": [
+        "the",
+        "— (no article)",
+        "a",
+        "an"
+      ],
+      "correct": 0,
+      "explanation": "La relativa you mentioned on the call especifica qué enlace es; usamos the.",
+      "translation": "¿Podrías reenviar el enlace que mencionaste en la llamada?"
+    },
+    {
+      "id": "b24-q013",
+      "topic": "The for specific reference",
+      "question": "___ information in section three is now out of date.",
+      "options": [
+        "The",
+        "— (no article)",
+        "A",
+        "An"
+      ],
+      "correct": 0,
+      "explanation": "Aunque information es incontable, lleva the cuando se refiere a información específica: la de la sección tres.",
+      "translation": "La información de la sección tres ya no está actualizada."
+    },
+    {
+      "id": "b24-q014",
+      "topic": "The for specific reference",
+      "question": "Let's review ___ next step in the agreed plan.",
+      "options": [
+        "an",
+        "the",
+        "— (no article)",
+        "a"
+      ],
+      "correct": 1,
+      "explanation": "In the agreed plan delimita un paso concreto; usamos the.",
+      "translation": "Revisemos el siguiente paso del plan acordado."
+    },
+    {
+      "id": "b24-q015",
+      "topic": "The for specific reference",
+      "question": "The customer asked us to explain ___ reason for the delay.",
+      "options": [
+        "an",
+        "the",
+        "— (no article)",
+        "a"
+      ],
+      "correct": 1,
+      "explanation": "Se trata del motivo concreto de un retraso ya conocido; usamos the.",
+      "translation": "El cliente nos pidió que explicáramos el motivo del retraso."
+    },
+    {
+      "id": "b24-q016",
+      "topic": "The for specific reference",
+      "question": "We will send the report at ___ end of the investigation.",
+      "options": [
+        "— (no article)",
+        "an",
+        "a",
+        "the"
+      ],
+      "correct": 3,
+      "explanation": "La expresión fija es at the end of: al final de algo.",
+      "translation": "Enviaremos el informe al final de la investigación."
+    },
+    {
+      "id": "b24-q017",
+      "topic": "Zero article",
+      "question": "We need ___ evidence before we can confirm the conclusion.",
+      "options": [
+        "a",
+        "— (no article)",
+        "the",
+        "an"
+      ],
+      "correct": 1,
+      "explanation": "Evidence es incontable cuando se usa de forma general; no lleva artículo indefinido.",
+      "translation": "Necesitamos pruebas antes de poder confirmar la conclusión."
+    },
+    {
+      "id": "b24-q018",
+      "topic": "Zero article",
+      "question": "___ clear communication helps prevent misunderstandings.",
+      "options": [
+        "— (no article)",
+        "An",
+        "The",
+        "A"
+      ],
+      "correct": 0,
+      "explanation": "Clear communication se usa aquí como concepto general e incontable, sin artículo.",
+      "translation": "Una comunicación clara ayuda a evitar malentendidos."
+    },
+    {
+      "id": "b24-q019",
+      "topic": "Zero article",
+      "question": "The client asked for ___ additional information about the next steps.",
+      "options": [
+        "the",
+        "a",
+        "— (no article)",
+        "an"
+      ],
+      "correct": 2,
+      "explanation": "Information es incontable y additional no exige artículo; hablamos de una cantidad no especificada.",
+      "translation": "El cliente pidió información adicional sobre los próximos pasos."
+    },
+    {
+      "id": "b24-q020",
+      "topic": "Zero article",
+      "question": "___ analysts often compare notes before a handover.",
+      "options": [
+        "The",
+        "An",
+        "A",
+        "— (no article)"
+      ],
+      "correct": 3,
+      "explanation": "Para hablar en general de un grupo plural usamos el plural sin artículo: analysts.",
+      "translation": "Los analistas suelen comparar notas antes de un traspaso."
+    },
+    {
+      "id": "b24-q021",
+      "topic": "Zero article",
+      "question": "We monitor ___ traffic from the agreed systems.",
+      "options": [
+        "— (no article)",
+        "an",
+        "a",
+        "the"
+      ],
+      "correct": 0,
+      "explanation": "Traffic es incontable y aquí se menciona de forma general, por lo que no usamos artículo.",
+      "translation": "Monitorizamos el tráfico procedente de los sistemas acordados."
+    },
+    {
+      "id": "b24-q022",
+      "topic": "Zero article",
+      "question": "___ access requires approval from the system owner.",
+      "options": [
+        "A",
+        "— (no article)",
+        "An",
+        "The"
+      ],
+      "correct": 1,
+      "explanation": "Access funciona como sustantivo incontable y general, sin artículo.",
+      "translation": "El acceso requiere la aprobación del responsable del sistema."
+    },
+    {
+      "id": "b24-q023",
+      "topic": "Zero article",
+      "question": "Our team provides ___ advice on how to phrase customer updates.",
+      "options": [
+        "an",
+        "a",
+        "— (no article)",
+        "the"
+      ],
+      "correct": 2,
+      "explanation": "Advice es incontable; no decimos an advice. Aquí se usa sin artículo.",
+      "translation": "Nuestro equipo ofrece orientación sobre cómo redactar las actualizaciones para clientes."
+    },
+    {
+      "id": "b24-q024",
+      "topic": "Zero article",
+      "question": "___ English is the working language for this meeting.",
+      "options": [
+        "— (no article)",
+        "The",
+        "A",
+        "An"
+      ],
+      "correct": 0,
+      "explanation": "Los nombres de idiomas normalmente no llevan artículo: English.",
+      "translation": "El inglés es el idioma de trabajo de esta reunión."
+    },
+    {
+      "id": "b24-q025",
+      "topic": "Generic and first mention",
+      "question": "___ customer may ask for a simpler explanation.",
+      "options": [
+        "The",
+        "An",
+        "— (no article)",
+        "A"
+      ],
+      "correct": 3,
+      "explanation": "A + singular countable noun can represent any member of a group: cualquier cliente.",
+      "translation": "Un cliente puede pedir una explicación más sencilla."
+    },
+    {
+      "id": "b24-q026",
+      "topic": "Generic and first mention",
+      "question": "We opened ___ case after the customer contacted us.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "— (no article)"
+      ],
+      "correct": 0,
+      "explanation": "Es la primera mención de un caso no identificado previamente; usamos a.",
+      "translation": "Abrimos un caso después de que el cliente contactara con nosotros."
+    },
+    {
+      "id": "b24-q027",
+      "topic": "Generic and first mention",
+      "question": "The handover mentions a meeting and a report. ___ meeting is at 15:00.",
+      "options": [
+        "The",
+        "A",
+        "— (no article)",
+        "An"
+      ],
+      "correct": 0,
+      "explanation": "En la segunda mención usamos the porque meeting ya se ha presentado.",
+      "translation": "El traspaso menciona una reunión y un informe. La reunión es a las 15:00."
+    },
+    {
+      "id": "b24-q028",
+      "topic": "Generic and first mention",
+      "question": "We received an attachment. ___ attachment contains the revised agenda.",
+      "options": [
+        "— (no article)",
+        "A",
+        "An",
+        "The"
+      ],
+      "correct": 3,
+      "explanation": "Attachment ya se ha mencionado; la segunda referencia lleva the.",
+      "translation": "Recibimos un archivo adjunto. El archivo contiene el orden del día revisado."
+    },
+    {
+      "id": "b24-q029",
+      "topic": "Generic and first mention",
+      "question": "Any team member can volunteer; we only need ___ analyst for the call.",
+      "options": [
+        "an",
+        "— (no article)",
+        "a",
+        "the"
+      ],
+      "correct": 0,
+      "explanation": "Se necesita una persona cualquiera y analyst empieza por sonido vocálico; usamos an.",
+      "translation": "Cualquier miembro del equipo puede ofrecerse; solo necesitamos un analista para la llamada."
+    },
+    {
+      "id": "b24-q030",
+      "topic": "Generic and first mention",
+      "question": "We need ___ decision from the customer before proceeding.",
+      "options": [
+        "— (no article)",
+        "an",
+        "the",
+        "a"
+      ],
+      "correct": 3,
+      "explanation": "Decision es contable singular y aún no se ha producido ni identificado; usamos a.",
+      "translation": "Necesitamos una decisión del cliente antes de continuar."
+    },
+    {
+      "id": "b24-q031",
+      "topic": "Generic and first mention",
+      "question": "The client requested one written deliverable: either ___ report or a slide deck.",
+      "options": [
+        "— (no article)",
+        "an",
+        "the",
+        "a"
+      ],
+      "correct": 3,
+      "explanation": "Report es una de dos opciones no específicas y empieza por sonido consonántico; usamos a.",
+      "translation": "El cliente solicitó un único entregable por escrito: un informe o una presentación."
+    },
+    {
+      "id": "b24-q032",
+      "topic": "Generic and first mention",
+      "question": "A coordinator joined the call. ___ coordinator summarized the agreed actions.",
+      "options": [
+        "— (no article)",
+        "A",
+        "The",
+        "An"
+      ],
+      "correct": 2,
+      "explanation": "Tras presentar a coordinator, usamos the para volver a referirnos a esa misma persona.",
+      "translation": "Un coordinador se unió a la llamada. El coordinador resumió las acciones acordadas."
+    },
+    {
+      "id": "b24-q033",
+      "topic": "Articles in customer communication",
+      "question": "Could we arrange ___ call to review the open questions?",
+      "options": [
+        "the",
+        "an",
+        "— (no article)",
+        "a"
+      ],
+      "correct": 3,
+      "explanation": "Se propone una llamada no identificada previamente; call es contable singular y lleva a.",
+      "translation": "¿Podríamos concertar una llamada para revisar las preguntas pendientes?"
+    },
+    {
+      "id": "b24-q034",
+      "topic": "Articles in customer communication",
+      "question": "Thank you for joining ___ call scheduled for this afternoon.",
+      "options": [
+        "a",
+        "— (no article)",
+        "an",
+        "the"
+      ],
+      "correct": 3,
+      "explanation": "Scheduled for this afternoon identifica una llamada concreta; usamos the.",
+      "translation": "Gracias por participar en la llamada prevista para esta tarde."
+    },
+    {
+      "id": "b24-q035",
+      "topic": "Articles in customer communication",
+      "question": "We will provide ___ update as soon as the review is complete.",
+      "options": [
+        "— (no article)",
+        "an",
+        "the",
+        "a"
+      ],
+      "correct": 1,
+      "explanation": "Update es contable singular y empieza por sonido vocálico; usamos an.",
+      "translation": "Facilitaremos una actualización en cuanto termine la revisión."
+    },
+    {
+      "id": "b24-q036",
+      "topic": "Articles in customer communication",
+      "question": "Please confirm whether ___ update we sent is clear.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (no article)"
+      ],
+      "correct": 2,
+      "explanation": "La relativa we sent identifica una actualización concreta; usamos the.",
+      "translation": "Confirma, por favor, si la actualización que enviamos está clara."
+    },
+    {
+      "id": "b24-q037",
+      "topic": "Articles in customer communication",
+      "question": "We aim to give ___ honest explanation of the delay.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "— (no article)"
+      ],
+      "correct": 2,
+      "explanation": "La h de honest no se pronuncia; la palabra empieza por sonido vocálico y lleva an.",
+      "translation": "Nuestro objetivo es dar una explicación sincera del retraso."
+    },
+    {
+      "id": "b24-q038",
+      "topic": "Articles in customer communication",
+      "question": "You can find ___ contact details at the bottom of the message.",
+      "options": [
+        "an",
+        "the",
+        "— (no article)",
+        "a"
+      ],
+      "correct": 1,
+      "explanation": "At the bottom of the message señala unos datos de contacto concretos; usamos the.",
+      "translation": "Puedes encontrar los datos de contacto al final del mensaje."
+    },
+    {
+      "id": "b24-q039",
+      "topic": "Articles in customer communication",
+      "question": "Please let us know if you need ___ assistance with the form.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "— (no article)"
+      ],
+      "correct": 3,
+      "explanation": "Assistance es incontable y aquí se refiere a ayuda en general; no lleva a/an.",
+      "translation": "Por favor, indícanos si necesitas ayuda con el formulario."
+    },
+    {
+      "id": "b24-q040",
+      "topic": "Articles in customer communication",
+      "question": "We have assigned ___ owner to each action item.",
+      "options": [
+        "a",
+        "an",
+        "— (no article)",
+        "the"
+      ],
+      "correct": 1,
+      "explanation": "Owner es contable singular y empieza por sonido vocálico; usamos an.",
+      "translation": "Hemos asignado un responsable a cada acción."
+    }
+  ]
+}

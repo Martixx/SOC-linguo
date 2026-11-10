@@ -1,0 +1,848 @@
+{
+  "name": "30 · Common SOC collocations · Normal",
+  "description": "60 preguntas normales sobre colocaciones frecuentes en operaciones SOC, investigación, respuesta y comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b30-q001",
+      "topic": "Alerts and detection",
+      "question": "The new correlation rule ___ an alert whenever the same account signs in from two distant locations.",
+      "options": [
+        "triggers",
+        "does",
+        "puts",
+        "commits"
+      ],
+      "correct": 0,
+      "explanation": "Trigger an alert es la colocación natural para indicar que una regla activa una alerta.",
+      "translation": "La nueva regla de correlación activa una alerta cuando la misma cuenta inicia sesión desde dos ubicaciones lejanas."
+    },
+    {
+      "id": "b30-q002",
+      "topic": "Alerts and detection",
+      "question": "The analyst will ___ the alert before assigning it to the incident queue.",
+      "options": [
+        "perform",
+        "triage",
+        "solve",
+        "attend"
+      ],
+      "correct": 1,
+      "explanation": "Triage an alert significa evaluarla y priorizarla inicialmente.",
+      "translation": "El analista hará el triaje de la alerta antes de asignarla a la cola de incidentes."
+    },
+    {
+      "id": "b30-q003",
+      "topic": "Alerts and detection",
+      "question": "We need to ___ this detection because it is producing too many false positives.",
+      "options": [
+        "compose",
+        "graduate",
+        "tune",
+        "sharpen up"
+      ],
+      "correct": 2,
+      "explanation": "Tune a detection significa ajustar su lógica o sus umbrales.",
+      "translation": "Necesitamos ajustar esta detección porque está produciendo demasiados falsos positivos."
+    },
+    {
+      "id": "b30-q004",
+      "topic": "Alerts and detection",
+      "question": "The monitoring platform ___ an alert after detecting the suspicious PowerShell command.",
+      "options": [
+        "fabricated",
+        "made up",
+        "performed",
+        "generated"
+      ],
+      "correct": 3,
+      "explanation": "Generate an alert es una combinación estándar para sistemas que crean alertas.",
+      "translation": "La plataforma de monitorización generó una alerta tras detectar el comando sospechoso de PowerShell."
+    },
+    {
+      "id": "b30-q005",
+      "topic": "Alerts and detection",
+      "question": "Before escalating, the L1 analyst must ___ whether the alert is a true positive.",
+      "options": [
+        "validate",
+        "win",
+        "realize",
+        "practice"
+      ],
+      "correct": 0,
+      "explanation": "Validate an alert significa comprobar si representa actividad real y relevante.",
+      "translation": "Antes de escalar, el analista L1 debe validar si la alerta es un verdadero positivo."
+    },
+    {
+      "id": "b30-q006",
+      "topic": "Alerts and detection",
+      "question": "The team decided to ___ duplicate alerts during the maintenance window.",
+      "options": [
+        "silence out",
+        "suppress",
+        "cancel down",
+        "prevent of"
+      ],
+      "correct": 1,
+      "explanation": "Suppress alerts es la colocación habitual para evitar que se muestren o notifiquen temporalmente.",
+      "translation": "El equipo decidió suprimir las alertas duplicadas durante la ventana de mantenimiento."
+    },
+    {
+      "id": "b30-q007",
+      "topic": "Alerts and detection",
+      "question": "Please ___ the closed alert if new evidence changes the assessment.",
+      "options": [
+        "relaunch up",
+        "return on",
+        "reopen",
+        "open back again"
+      ],
+      "correct": 2,
+      "explanation": "Reopen an alert es la forma natural de volver a poner una alerta cerrada en estado activo.",
+      "translation": "Vuelve a abrir la alerta cerrada si nuevas pruebas cambian la evaluación."
+    },
+    {
+      "id": "b30-q008",
+      "topic": "Alerts and detection",
+      "question": "The engineer will ___ the threshold to reduce noise without missing genuine activity.",
+      "options": [
+        "arrange to",
+        "graduate",
+        "repair up",
+        "adjust"
+      ],
+      "correct": 3,
+      "explanation": "Adjust the threshold es la combinación natural para modificar un umbral.",
+      "translation": "El ingeniero ajustará el umbral para reducir el ruido sin perder actividad real."
+    },
+    {
+      "id": "b30-q009",
+      "topic": "Alerts and detection",
+      "question": "This rule helps us ___ suspicious authentication patterns across several data sources.",
+      "options": [
+        "detect",
+        "notice about",
+        "discoverate",
+        "realize of"
+      ],
+      "correct": 0,
+      "explanation": "Detect suspicious patterns es una combinación natural en monitorización.",
+      "translation": "Esta regla nos ayuda a detectar patrones de autenticación sospechosos en varias fuentes de datos."
+    },
+    {
+      "id": "b30-q010",
+      "topic": "Alerts and detection",
+      "question": "Analysts should ___ related alerts before deciding whether they belong to one incident.",
+      "options": [
+        "relate between",
+        "correlate",
+        "combine about",
+        "match of"
+      ],
+      "correct": 1,
+      "explanation": "Correlate alerts significa relacionarlas a partir de señales o contexto compartidos.",
+      "translation": "Los analistas deben correlacionar las alertas relacionadas antes de decidir si pertenecen a un mismo incidente."
+    },
+    {
+      "id": "b30-q011",
+      "topic": "Alerts and detection",
+      "question": "The sensor did not ___ any malicious traffic during the test.",
+      "options": [
+        "raise",
+        "conduct",
+        "detect",
+        "take"
+      ],
+      "correct": 2,
+      "explanation": "Detect traffic/activity describe correctamente lo que hace un sensor; raise se usa con alert.",
+      "translation": "El sensor no detectó tráfico malicioso durante la prueba."
+    },
+    {
+      "id": "b30-q012",
+      "topic": "Alerts and detection",
+      "question": "After confirming expected administrator activity, the analyst can ___ the alert as benign.",
+      "options": [
+        "finish off to",
+        "shut from",
+        "complete about",
+        "close"
+      ],
+      "correct": 3,
+      "explanation": "Close an alert as benign es la expresión natural para cerrarla con esa clasificación.",
+      "translation": "Tras confirmar que era actividad administrativa esperada, el analista puede cerrar la alerta como benigna."
+    },
+    {
+      "id": "b30-q013",
+      "topic": "Investigation and evidence",
+      "question": "The response team will ___ a full investigation into the unauthorized access.",
+      "options": [
+        "conduct",
+        "make",
+        "realize",
+        "execute on"
+      ],
+      "correct": 0,
+      "explanation": "Conduct an investigation es la colocación formal habitual; no se dice make an investigation.",
+      "translation": "El equipo de respuesta llevará a cabo una investigación completa sobre el acceso no autorizado."
+    },
+    {
+      "id": "b30-q014",
+      "topic": "Investigation and evidence",
+      "question": "We must ___ all relevant evidence before the affected laptop is rebuilt.",
+      "options": [
+        "reserve up",
+        "preserve",
+        "conserve to",
+        "save of"
+      ],
+      "correct": 1,
+      "explanation": "Preserve evidence significa mantenerla íntegra y disponible para el análisis.",
+      "translation": "Debemos preservar todas las pruebas relevantes antes de reconstruir el portátil afectado."
+    },
+    {
+      "id": "b30-q015",
+      "topic": "Investigation and evidence",
+      "question": "The analysts are trying to ___ the root cause of the repeated lockouts.",
+      "options": [
+        "know",
+        "invent",
+        "identify",
+        "point about"
+      ],
+      "correct": 2,
+      "explanation": "Identify the root cause es una colocación muy frecuente en investigaciones.",
+      "translation": "Los analistas intentan identificar la causa raíz de los bloqueos repetidos."
+    },
+    {
+      "id": "b30-q016",
+      "topic": "Investigation and evidence",
+      "question": "Endpoint logs allowed the team to ___ a detailed timeline of the attack.",
+      "options": [
+        "install",
+        "put",
+        "mount",
+        "establish"
+      ],
+      "correct": 3,
+      "explanation": "Establish a timeline significa reconstruir y fijar la secuencia de hechos.",
+      "translation": "Los registros del endpoint permitieron al equipo establecer una cronología detallada del ataque."
+    },
+    {
+      "id": "b30-q017",
+      "topic": "Investigation and evidence",
+      "question": "The available telemetry does not ___ the conclusion that data was exfiltrated.",
+      "options": [
+        "support",
+        "hold up to",
+        "sustain about",
+        "assist"
+      ],
+      "correct": 0,
+      "explanation": "Evidence or telemetry supports a conclusion cuando la respalda.",
+      "translation": "La telemetría disponible no respalda la conclusión de que se exfiltraron datos."
+    },
+    {
+      "id": "b30-q018",
+      "topic": "Investigation and evidence",
+      "question": "We need to ___ additional context from the identity team.",
+      "options": [
+        "reunite",
+        "gather",
+        "catch up",
+        "harvest about"
+      ],
+      "correct": 1,
+      "explanation": "Gather context/evidence significa recopilar información relevante.",
+      "translation": "Necesitamos recopilar contexto adicional del equipo de identidad."
+    },
+    {
+      "id": "b30-q019",
+      "topic": "Investigation and evidence",
+      "question": "The investigation has not yet ___ a compromise of the service account.",
+      "options": [
+        "assured",
+        "affirmed to",
+        "confirmed",
+        "secured"
+      ],
+      "correct": 2,
+      "explanation": "Confirm a compromise es la combinación natural para establecer que existió una intrusión.",
+      "translation": "La investigación todavía no ha confirmado que la cuenta de servicio estuviera comprometida."
+    },
+    {
+      "id": "b30-q020",
+      "topic": "Investigation and evidence",
+      "question": "The clean device scan helped us ___ malware as the cause of the network spike.",
+      "options": [
+        "take out",
+        "put away",
+        "leave off",
+        "rule out"
+      ],
+      "correct": 3,
+      "explanation": "Rule out a cause significa descartarla basándose en las pruebas.",
+      "translation": "El análisis limpio del dispositivo nos ayudó a descartar el malware como causa del pico de red."
+    },
+    {
+      "id": "b30-q021",
+      "topic": "Investigation and evidence",
+      "question": "Investigators will ___ the activity back to the first suspicious sign-in.",
+      "options": [
+        "trace",
+        "follow up of",
+        "track at",
+        "pursue on"
+      ],
+      "correct": 0,
+      "explanation": "Trace activity back to an event expresa rastrear su origen temporal o técnico.",
+      "translation": "Los investigadores rastrearán la actividad hasta el primer inicio de sesión sospechoso."
+    },
+    {
+      "id": "b30-q022",
+      "topic": "Investigation and evidence",
+      "question": "Please ___ the raw logs so that they remain available for later review.",
+      "options": [
+        "remain",
+        "retain",
+        "sustain",
+        "hold on them"
+      ],
+      "correct": 1,
+      "explanation": "Retain logs significa conservarlos durante un periodo determinado.",
+      "translation": "Conserva los registros sin procesar para que sigan disponibles para una revisión posterior."
+    },
+    {
+      "id": "b30-q023",
+      "topic": "Investigation and evidence",
+      "question": "The analyst could not ___ a firm conclusion from the incomplete data.",
+      "options": [
+        "make",
+        "take",
+        "draw",
+        "extract out"
+      ],
+      "correct": 2,
+      "explanation": "Draw a conclusion es la colocación correcta; make/take a conclusion no son naturales aquí.",
+      "translation": "El analista no pudo sacar una conclusión firme a partir de los datos incompletos."
+    },
+    {
+      "id": "b30-q024",
+      "topic": "Investigation and evidence",
+      "question": "The team found no evidence that would ___ the user to the malicious mailbox rule.",
+      "options": [
+        "join",
+        "connect between",
+        "attach with",
+        "link"
+      ],
+      "correct": 3,
+      "explanation": "Link someone to activity significa relacionarlo con esa actividad mediante pruebas.",
+      "translation": "El equipo no encontró pruebas que vincularan al usuario con la regla maliciosa del buzón."
+    },
+    {
+      "id": "b30-q025",
+      "topic": "Identity and access",
+      "question": "The attacker attempted to ___ access to the finance portal with a stolen token.",
+      "options": [
+        "gain",
+        "win",
+        "earn",
+        "achieve"
+      ],
+      "correct": 0,
+      "explanation": "Gain access es la colocación correcta para obtener acceso a un sistema.",
+      "translation": "El atacante intentó acceder al portal de finanzas con un token robado."
+    },
+    {
+      "id": "b30-q026",
+      "topic": "Identity and access",
+      "question": "The administrator will ___ access once the temporary assignment expires.",
+      "options": [
+        "retire",
+        "revoke",
+        "remove from",
+        "cancel out"
+      ],
+      "correct": 1,
+      "explanation": "Revoke access significa retirar formalmente un permiso concedido.",
+      "translation": "El administrador revocará el acceso cuando caduque la asignación temporal."
+    },
+    {
+      "id": "b30-q027",
+      "topic": "Identity and access",
+      "question": "Please ___ the affected account until the user confirms the activity.",
+      "options": [
+        "disconnect",
+        "deactivate from",
+        "disable",
+        "turn down"
+      ],
+      "correct": 2,
+      "explanation": "Disable an account es la expresión estándar para impedir temporalmente su uso.",
+      "translation": "Deshabilita la cuenta afectada hasta que el usuario confirme la actividad."
+    },
+    {
+      "id": "b30-q028",
+      "topic": "Identity and access",
+      "question": "The security team plans to ___ multifactor authentication for all privileged users.",
+      "options": [
+        "oblige",
+        "force to",
+        "impose to",
+        "enforce"
+      ],
+      "correct": 3,
+      "explanation": "Enforce MFA significa exigir su uso mediante una política o control.",
+      "translation": "El equipo de seguridad planea exigir autenticación multifactor a todos los usuarios privilegiados."
+    },
+    {
+      "id": "b30-q029",
+      "topic": "Identity and access",
+      "question": "The help desk asked the employee to ___ their password immediately.",
+      "options": [
+        "reset",
+        "restart",
+        "restore up",
+        "renew again"
+      ],
+      "correct": 0,
+      "explanation": "Reset a password es la colocación habitual para establecer una contraseña nueva.",
+      "translation": "El servicio de soporte pidió al empleado que restableciera su contraseña inmediatamente."
+    },
+    {
+      "id": "b30-q030",
+      "topic": "Identity and access",
+      "question": "The application failed to ___ the user because the certificate had expired.",
+      "options": [
+        "identify to",
+        "authenticate",
+        "certificate",
+        "authorize into"
+      ],
+      "correct": 1,
+      "explanation": "Authenticate a user significa verificar su identidad; authorize se refiere a permisos.",
+      "translation": "La aplicación no pudo autenticar al usuario porque el certificado había caducado."
+    },
+    {
+      "id": "b30-q031",
+      "topic": "Identity and access",
+      "question": "The intruder used a vulnerable service to ___ privileges on the server.",
+      "options": [
+        "grow",
+        "rise up",
+        "elevate",
+        "upgrade of"
+      ],
+      "correct": 2,
+      "explanation": "Elevate privileges es la colocación estándar para obtener un nivel superior de permisos.",
+      "translation": "El intruso utilizó un servicio vulnerable para elevar privilegios en el servidor."
+    },
+    {
+      "id": "b30-q032",
+      "topic": "Identity and access",
+      "question": "Repeated failed attempts caused the system to ___ the account.",
+      "options": [
+        "close down",
+        "block out from",
+        "fasten",
+        "lock"
+      ],
+      "correct": 3,
+      "explanation": "Lock an account es la expresión natural cuando un sistema la bloquea por intentos fallidos.",
+      "translation": "Los intentos fallidos repetidos hicieron que el sistema bloqueara la cuenta."
+    },
+    {
+      "id": "b30-q033",
+      "topic": "Identity and access",
+      "question": "All exposed API keys must be ___ before the service returns to production.",
+      "options": [
+        "rotated",
+        "turned around",
+        "circulated",
+        "changed over them"
+      ],
+      "correct": 0,
+      "explanation": "Rotate credentials/keys significa sustituirlas por otras nuevas de forma controlada.",
+      "translation": "Todas las claves de API expuestas deben rotarse antes de que el servicio vuelva a producción."
+    },
+    {
+      "id": "b30-q034",
+      "topic": "Identity and access",
+      "question": "Only the identity team can ___ the administrator role to a new account.",
+      "options": [
+        "designate to",
+        "assign",
+        "put",
+        "deliver"
+      ],
+      "correct": 1,
+      "explanation": "Assign a role to an account es la construcción correcta para conceder ese rol.",
+      "translation": "Solo el equipo de identidad puede asignar el rol de administrador a una cuenta nueva."
+    },
+    {
+      "id": "b30-q035",
+      "topic": "Identity and access",
+      "question": "The logs show that someone tried to ___ the executive by using a similar display name.",
+      "options": [
+        "personate as",
+        "imitate to",
+        "impersonate",
+        "substitute with"
+      ],
+      "correct": 2,
+      "explanation": "Impersonate a person significa hacerse pasar por ella.",
+      "translation": "Los registros muestran que alguien intentó hacerse pasar por el directivo usando un nombre visible similar."
+    },
+    {
+      "id": "b30-q036",
+      "topic": "Identity and access",
+      "question": "The user could not ___ to the portal after the conditional access policy changed.",
+      "options": [
+        "enter in",
+        "access into",
+        "log on the portal in",
+        "sign in"
+      ],
+      "correct": 3,
+      "explanation": "Sign in to a portal es la combinación correcta; access no lleva into.",
+      "translation": "El usuario no pudo iniciar sesión en el portal después de que cambiara la directiva de acceso condicional."
+    },
+    {
+      "id": "b30-q037",
+      "topic": "Response and remediation",
+      "question": "The immediate priority is to ___ the incident before it affects more systems.",
+      "options": [
+        "contain",
+        "content",
+        "retain",
+        "restrain of"
+      ],
+      "correct": 0,
+      "explanation": "Contain an incident significa limitar su alcance y evitar que se propague.",
+      "translation": "La prioridad inmediata es contener el incidente antes de que afecte a más sistemas."
+    },
+    {
+      "id": "b30-q038",
+      "topic": "Response and remediation",
+      "question": "The SOC asked the local team to ___ the infected workstation from the network.",
+      "options": [
+        "separate out of",
+        "isolate",
+        "retire",
+        "apart"
+      ],
+      "correct": 1,
+      "explanation": "Isolate a host/workstation from the network es la colocación habitual.",
+      "translation": "El SOC pidió al equipo local que aislara de la red la estación de trabajo infectada."
+    },
+    {
+      "id": "b30-q039",
+      "topic": "Response and remediation",
+      "question": "The firewall team agreed to ___ the malicious IP address at the perimeter.",
+      "options": [
+        "deny to",
+        "close",
+        "block",
+        "forbid from"
+      ],
+      "correct": 2,
+      "explanation": "Block an IP address es la expresión estándar para impedir su tráfico.",
+      "translation": "El equipo de cortafuegos acordó bloquear la dirección IP maliciosa en el perímetro."
+    },
+    {
+      "id": "b30-q040",
+      "topic": "Response and remediation",
+      "question": "The server owner will ___ the vulnerability during tonight’s maintenance window.",
+      "options": [
+        "repair of",
+        "cover up",
+        "update on",
+        "patch"
+      ],
+      "correct": 3,
+      "explanation": "Patch a vulnerability significa aplicar la corrección correspondiente.",
+      "translation": "El propietario del servidor parcheará la vulnerabilidad durante la ventana de mantenimiento de esta noche."
+    },
+    {
+      "id": "b30-q041",
+      "topic": "Response and remediation",
+      "question": "Until a permanent fix is available, we should ___ a temporary mitigation.",
+      "options": [
+        "apply",
+        "put in",
+        "do",
+        "perform"
+      ],
+      "correct": 0,
+      "explanation": "Apply a mitigation es la colocación natural para implementar una medida reductora de riesgo.",
+      "translation": "Hasta que haya una corrección permanente, deberíamos aplicar una mitigación temporal."
+    },
+    {
+      "id": "b30-q042",
+      "topic": "Response and remediation",
+      "question": "The operations team has ___ the configuration issue that exposed the service.",
+      "options": [
+        "resolved about",
+        "remediated",
+        "repaired to",
+        "corrected of"
+      ],
+      "correct": 1,
+      "explanation": "Remediate an issue/vulnerability es una colocación formal frecuente en seguridad.",
+      "translation": "El equipo de operaciones ha subsanado el problema de configuración que exponía el servicio."
+    },
+    {
+      "id": "b30-q043",
+      "topic": "Response and remediation",
+      "question": "We need to ___ action now rather than wait for another alert.",
+      "options": [
+        "make",
+        "do",
+        "take",
+        "perform an"
+      ],
+      "correct": 2,
+      "explanation": "Take action es la colocación fija para actuar.",
+      "translation": "Necesitamos tomar medidas ahora en lugar de esperar otra alerta."
+    },
+    {
+      "id": "b30-q044",
+      "topic": "Response and remediation",
+      "question": "The backup team was able to ___ the service without reintroducing the malicious file.",
+      "options": [
+        "return back",
+        "recover up",
+        "restitute",
+        "restore"
+      ],
+      "correct": 3,
+      "explanation": "Restore a service significa devolverlo a su estado operativo.",
+      "translation": "El equipo de copias de seguridad pudo restaurar el servicio sin reintroducir el archivo malicioso."
+    },
+    {
+      "id": "b30-q045",
+      "topic": "Response and remediation",
+      "question": "The responders searched the host to ___ every persistence mechanism.",
+      "options": [
+        "remove",
+        "withdraw out",
+        "retire",
+        "erase off from"
+      ],
+      "correct": 0,
+      "explanation": "Remove persistence/a mechanism es la combinación natural durante la erradicación.",
+      "translation": "Los respondedores buscaron en el equipo para eliminar todos los mecanismos de persistencia."
+    },
+    {
+      "id": "b30-q046",
+      "topic": "Response and remediation",
+      "question": "The endpoint tool automatically ___ the malicious process.",
+      "options": [
+        "finished with",
+        "terminated",
+        "ended up",
+        "closed out of"
+      ],
+      "correct": 1,
+      "explanation": "Terminate a process es la colocación técnica estándar para detenerlo.",
+      "translation": "La herramienta de endpoint terminó automáticamente el proceso malicioso."
+    },
+    {
+      "id": "b30-q047",
+      "topic": "Response and remediation",
+      "question": "Because several business units are affected, the duty manager will ___ the incident.",
+      "options": [
+        "elevate up",
+        "scale",
+        "escalate",
+        "promote to"
+      ],
+      "correct": 2,
+      "explanation": "Escalate an incident significa elevar su gestión a un nivel superior.",
+      "translation": "Como hay varias unidades de negocio afectadas, el responsable de guardia escalará el incidente."
+    },
+    {
+      "id": "b30-q048",
+      "topic": "Response and remediation",
+      "question": "The lessons learned review led the company to ___ additional security controls.",
+      "options": [
+        "implant",
+        "realize",
+        "execute about",
+        "implement"
+      ],
+      "correct": 3,
+      "explanation": "Implement controls es la colocación habitual para poner controles en funcionamiento.",
+      "translation": "La revisión de lecciones aprendidas llevó a la empresa a implantar controles de seguridad adicionales."
+    },
+    {
+      "id": "b30-q049",
+      "topic": "Communication and reporting",
+      "question": "We will ___ an update as soon as the forensic review is complete.",
+      "options": [
+        "provide",
+        "give out with",
+        "make",
+        "perform"
+      ],
+      "correct": 0,
+      "explanation": "Provide an update es una combinación natural y profesional.",
+      "translation": "Proporcionaremos una actualización en cuanto termine la revisión forense."
+    },
+    {
+      "id": "b30-q050",
+      "topic": "Communication and reporting",
+      "question": "The report should ___ the key findings without exposing unnecessary personal data.",
+      "options": [
+        "resume",
+        "summarize",
+        "brief about",
+        "recapitulate of"
+      ],
+      "correct": 1,
+      "explanation": "Summarize findings significa presentar sus puntos esenciales.",
+      "translation": "El informe debe resumir los hallazgos principales sin exponer datos personales innecesarios."
+    },
+    {
+      "id": "b30-q051",
+      "topic": "Communication and reporting",
+      "question": "Before recommending containment, the team must ___ the operational risk.",
+      "options": [
+        "calculate about",
+        "qualify",
+        "assess",
+        "measure of"
+      ],
+      "correct": 2,
+      "explanation": "Assess risk es la colocación estándar para evaluar el riesgo.",
+      "translation": "Antes de recomendar la contención, el equipo debe evaluar el riesgo operativo."
+    },
+    {
+      "id": "b30-q052",
+      "topic": "Communication and reporting",
+      "question": "The consultant will ___ a recommendation based on the available evidence.",
+      "options": [
+        "do",
+        "take",
+        "perform",
+        "make"
+      ],
+      "correct": 3,
+      "explanation": "Make a recommendation es la colocación correcta.",
+      "translation": "El consultor hará una recomendación basada en las pruebas disponibles."
+    },
+    {
+      "id": "b30-q053",
+      "topic": "Communication and reporting",
+      "question": "We may not ___ the reporting deadline if the logs arrive tomorrow.",
+      "options": [
+        "meet",
+        "achieve",
+        "comply",
+        "reach to"
+      ],
+      "correct": 0,
+      "explanation": "Meet a deadline significa cumplir un plazo.",
+      "translation": "Puede que no cumplamos el plazo del informe si los registros llegan mañana."
+    },
+    {
+      "id": "b30-q054",
+      "topic": "Communication and reporting",
+      "question": "The customer ___ a concern about the lack of endpoint visibility.",
+      "options": [
+        "lifted",
+        "raised",
+        "made",
+        "put up"
+      ],
+      "correct": 1,
+      "explanation": "Raise a concern es la colocación natural para expresar una preocupación.",
+      "translation": "El cliente planteó una preocupación por la falta de visibilidad del endpoint."
+    },
+    {
+      "id": "b30-q055",
+      "topic": "Communication and reporting",
+      "question": "After reviewing both options, the stakeholders ___ a decision to accept the residual risk.",
+      "options": [
+        "did",
+        "took",
+        "made",
+        "performed"
+      ],
+      "correct": 2,
+      "explanation": "Make a decision es la colocación correcta.",
+      "translation": "Tras revisar ambas opciones, las partes interesadas tomaron la decisión de aceptar el riesgo residual."
+    },
+    {
+      "id": "b30-q056",
+      "topic": "Communication and reporting",
+      "question": "Could you ___ the scope of the requested log search?",
+      "options": [
+        "clear out",
+        "explain about",
+        "make clear of",
+        "clarify"
+      ],
+      "correct": 3,
+      "explanation": "Clarify the scope es la expresión natural para pedir que se precise el alcance.",
+      "translation": "¿Podrías aclarar el alcance de la búsqueda de registros solicitada?"
+    },
+    {
+      "id": "b30-q057",
+      "topic": "Communication and reporting",
+      "question": "Please ___ receipt of this notification by replying to the ticket.",
+      "options": [
+        "acknowledge",
+        "recognize about",
+        "confirmate",
+        "admit of"
+      ],
+      "correct": 0,
+      "explanation": "Acknowledge receipt es una colocación formal que significa confirmar que algo se ha recibido.",
+      "translation": "Confirma la recepción de esta notificación respondiendo al ticket."
+    },
+    {
+      "id": "b30-q058",
+      "topic": "Communication and reporting",
+      "question": "We need the application owner to ___ whether the observed connection is expected.",
+      "options": [
+        "assure us of",
+        "confirm",
+        "validate us",
+        "certify about"
+      ],
+      "correct": 1,
+      "explanation": "Confirm whether introduce correctamente la información que debe verificarse.",
+      "translation": "Necesitamos que el propietario de la aplicación confirme si la conexión observada es esperada."
+    },
+    {
+      "id": "b30-q059",
+      "topic": "Communication and reporting",
+      "question": "The incident manager promised to ___ the customer informed throughout the investigation.",
+      "options": [
+        "maintain to",
+        "hold",
+        "keep",
+        "continue"
+      ],
+      "correct": 2,
+      "explanation": "Keep someone informed es la colocación fija para mantenerle al tanto.",
+      "translation": "El responsable del incidente prometió mantener informado al cliente durante toda la investigación."
+    },
+    {
+      "id": "b30-q060",
+      "topic": "Communication and reporting",
+      "question": "The final report must ___ the actions taken and the remaining recommendations.",
+      "options": [
+        "register about",
+        "write down of",
+        "evidence",
+        "document"
+      ],
+      "correct": 3,
+      "explanation": "Document actions/findings significa dejarlos registrados formalmente.",
+      "translation": "El informe final debe documentar las medidas adoptadas y las recomendaciones pendientes."
+    }
+  ]
+}

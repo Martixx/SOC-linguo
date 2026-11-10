@@ -1,0 +1,708 @@
+{
+  "name": "23 · Conditionals · Normal",
+  "description": "50 preguntas normales sobre zero, first, second, third y mixed conditionals, además de unless, as long as y provided that.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b23-q001",
+      "topic": "Zero conditional",
+      "question": "If a message ___ no subject, it is harder to identify in a busy inbox.",
+      "options": [
+        "will have",
+        "has",
+        "would have",
+        "had had"
+      ],
+      "correct": 1,
+      "explanation": "En el zero conditional usamos presente simple en la condición y en el resultado para hechos generales.",
+      "translation": "Si un mensaje no tiene asunto, es más difícil identificarlo en una bandeja de entrada llena."
+    },
+    {
+      "id": "b23-q002",
+      "topic": "Zero conditional",
+      "question": "When the customer ___ a new contact, we update the distribution list.",
+      "options": [
+        "will provide",
+        "would provide",
+        "provides",
+        "provided"
+      ],
+      "correct": 2,
+      "explanation": "Con when para una situación habitual usamos presente simple en ambas partes.",
+      "translation": "Cuando el cliente facilita un nuevo contacto, actualizamos la lista de distribución."
+    },
+    {
+      "id": "b23-q003",
+      "topic": "Zero conditional",
+      "question": "If people ___ unfamiliar abbreviations, readers often ask for clarification.",
+      "options": [
+        "use",
+        "will use",
+        "would use",
+        "had used"
+      ],
+      "correct": 0,
+      "explanation": "El zero conditional describe una consecuencia general: if + presente, presente.",
+      "translation": "Si la gente utiliza abreviaturas poco conocidas, los lectores suelen pedir aclaraciones."
+    },
+    {
+      "id": "b23-q004",
+      "topic": "Zero conditional",
+      "question": "If the attachment is too large, the mail system usually ___ it.",
+      "options": [
+        "will reject",
+        "would reject",
+        "had rejected",
+        "rejects"
+      ],
+      "correct": 3,
+      "explanation": "Para un comportamiento habitual usamos presente simple en la oración principal.",
+      "translation": "Si el adjunto es demasiado grande, el sistema de correo suele rechazarlo."
+    },
+    {
+      "id": "b23-q005",
+      "topic": "Zero conditional",
+      "question": "When I ___ a customer-facing note, I read it aloud once.",
+      "options": [
+        "will finish",
+        "would finish",
+        "had finished",
+        "finish"
+      ],
+      "correct": 3,
+      "explanation": "Aquí when introduce una rutina; por eso usamos presente simple.",
+      "translation": "Cuando termino una nota para el cliente, la leo una vez en voz alta."
+    },
+    {
+      "id": "b23-q006",
+      "topic": "Zero conditional",
+      "question": "If a sentence ___ two different interpretations, we rewrite it.",
+      "options": [
+        "allows",
+        "will allow",
+        "would allow",
+        "had allowed"
+      ],
+      "correct": 0,
+      "explanation": "El zero conditional usa presente simple para una regla o práctica general.",
+      "translation": "Si una frase permite dos interpretaciones distintas, la reescribimos."
+    },
+    {
+      "id": "b23-q007",
+      "topic": "Zero conditional",
+      "question": "If you ___ the filter, the hidden rows reappear.",
+      "options": [
+        "will remove",
+        "would remove",
+        "remove",
+        "had removed"
+      ],
+      "correct": 2,
+      "explanation": "En instrucciones sobre resultados regulares, if + presente puede combinarse con presente.",
+      "translation": "Si quitas el filtro, vuelven a aparecer las filas ocultas."
+    },
+    {
+      "id": "b23-q008",
+      "topic": "Zero conditional",
+      "question": "When the meeting ___ late, the final agenda item gets less time.",
+      "options": [
+        "will start",
+        "starts",
+        "would start",
+        "had started"
+      ],
+      "correct": 1,
+      "explanation": "La frase describe un patrón habitual, por lo que usa presente simple.",
+      "translation": "Cuando la reunión empieza tarde, el último punto del orden del día recibe menos tiempo."
+    },
+    {
+      "id": "b23-q009",
+      "topic": "Zero conditional",
+      "question": "If we ___ a quoted statement, we keep the speaker’s original meaning.",
+      "options": [
+        "will shorten",
+        "would shorten",
+        "had shortened",
+        "shorten"
+      ],
+      "correct": 3,
+      "explanation": "Para una norma general usamos if + presente, presente.",
+      "translation": "Si acortamos una declaración citada, conservamos el sentido original del hablante."
+    },
+    {
+      "id": "b23-q010",
+      "topic": "Zero conditional",
+      "question": "If the client ___ Spanish, we provide the key points in Spanish as well.",
+      "options": [
+        "prefers",
+        "will prefer",
+        "would prefer",
+        "had preferred"
+      ],
+      "correct": 0,
+      "explanation": "El presente simple en ambas cláusulas expresa una práctica general.",
+      "translation": "Si el cliente prefiere el español, también facilitamos los puntos clave en español."
+    },
+    {
+      "id": "b23-q011",
+      "topic": "First conditional",
+      "question": "If the customer approves the wording today, we ___ the update this afternoon.",
+      "options": [
+        "will publish",
+        "would publish",
+        "published",
+        "would have published"
+      ],
+      "correct": 0,
+      "explanation": "El first conditional usa if + presente y will + forma base para una posibilidad futura real.",
+      "translation": "Si el cliente aprueba la redacción hoy, publicaremos la actualización esta tarde."
+    },
+    {
+      "id": "b23-q012",
+      "topic": "First conditional",
+      "question": "We will move the meeting to Friday if the final reviewer ___ more time.",
+      "options": [
+        "will need",
+        "needs",
+        "would need",
+        "had needed"
+      ],
+      "correct": 1,
+      "explanation": "En la cláusula con if no usamos will para esta condición futura: usamos presente simple.",
+      "translation": "Trasladaremos la reunión al viernes si el revisor final necesita más tiempo."
+    },
+    {
+      "id": "b23-q013",
+      "topic": "First conditional",
+      "question": "If you send me the clean copy, I ___ it before lunch.",
+      "options": [
+        "could have reviewed",
+        "can review",
+        "would review yesterday",
+        "reviewed"
+      ],
+      "correct": 1,
+      "explanation": "En el first conditional el resultado puede llevar can para expresar capacidad futura.",
+      "translation": "Si me envías la copia limpia, puedo revisarla antes del almuerzo."
+    },
+    {
+      "id": "b23-q014",
+      "topic": "First conditional",
+      "question": "Unless we ___ the agenda now, the old version will remain in the invitation.",
+      "options": [
+        "will replace",
+        "would replace",
+        "had replaced",
+        "replace"
+      ],
+      "correct": 3,
+      "explanation": "Unless equivale a if not y va seguido de presente para una condición futura.",
+      "translation": "A menos que sustituyamos ahora el orden del día, la versión antigua seguirá en la invitación."
+    },
+    {
+      "id": "b23-q015",
+      "topic": "First conditional",
+      "question": "If the external attendees join early, ___ them know that we will start at 10:00.",
+      "options": [
+        "will let",
+        "would let",
+        "let",
+        "letting"
+      ],
+      "correct": 2,
+      "explanation": "Una condición real puede llevar un imperativo en el resultado: If..., let them know.",
+      "translation": "Si los asistentes externos se conectan pronto, diles que empezaremos a las 10:00."
+    },
+    {
+      "id": "b23-q016",
+      "topic": "First conditional",
+      "question": "If the answer is still unclear, the client ___ ask for another example.",
+      "options": [
+        "would have",
+        "may",
+        "had",
+        "may to"
+      ],
+      "correct": 1,
+      "explanation": "En el resultado del first conditional podemos usar may + forma base para expresar posibilidad.",
+      "translation": "Si la respuesta sigue sin estar clara, puede que el cliente pida otro ejemplo."
+    },
+    {
+      "id": "b23-q017",
+      "topic": "First conditional",
+      "question": "As soon as the owner ___ the final note, we will send it.",
+      "options": [
+        "will approve",
+        "would approve",
+        "had approved",
+        "approves"
+      ],
+      "correct": 3,
+      "explanation": "Tras as soon as con sentido futuro usamos presente simple, no will.",
+      "translation": "En cuanto el responsable apruebe la nota final, la enviaremos."
+    },
+    {
+      "id": "b23-q018",
+      "topic": "First conditional",
+      "question": "If we do not receive comments by noon, we ___ the current draft as final.",
+      "options": [
+        "would treat",
+        "will treat",
+        "treated",
+        "would have treated"
+      ],
+      "correct": 1,
+      "explanation": "La condición posible futura usa presente; el resultado usa will + forma base.",
+      "translation": "Si no recibimos comentarios antes del mediodía, consideraremos definitivo el borrador actual."
+    },
+    {
+      "id": "b23-q019",
+      "topic": "First conditional",
+      "question": "Provided that everyone agrees, we ___ the follow-up to fifteen minutes.",
+      "options": [
+        "can limit",
+        "could have limited",
+        "would limit yesterday",
+        "limited"
+      ],
+      "correct": 0,
+      "explanation": "Provided that introduce una condición; can expresa una posibilidad práctica futura.",
+      "translation": "Siempre que todos estén de acuerdo, podemos limitar el seguimiento a quince minutos."
+    },
+    {
+      "id": "b23-q020",
+      "topic": "First conditional",
+      "question": "If the link expires before the call, I ___ a new one immediately.",
+      "options": [
+        "would create",
+        "created",
+        "would have created",
+        "will create"
+      ],
+      "correct": 3,
+      "explanation": "First conditional: if + presente simple, will + forma base.",
+      "translation": "Si el enlace caduca antes de la llamada, crearé uno nuevo inmediatamente."
+    },
+    {
+      "id": "b23-q021",
+      "topic": "Second conditional",
+      "question": "If we ___ more time, we would add a short glossary to the report.",
+      "options": [
+        "have",
+        "will have",
+        "had",
+        "had had"
+      ],
+      "correct": 2,
+      "explanation": "El second conditional usa pasado simple en la condición y would + forma base en el resultado.",
+      "translation": "Si tuviéramos más tiempo, añadiríamos un breve glosario al informe."
+    },
+    {
+      "id": "b23-q022",
+      "topic": "Second conditional",
+      "question": "If the customer asked for a live demo, we ___ one for next week.",
+      "options": [
+        "could arrange",
+        "can arrange yesterday",
+        "will arrange",
+        "could have arranged"
+      ],
+      "correct": 0,
+      "explanation": "Could + forma base en el resultado expresa una posibilidad hipotética presente o futura.",
+      "translation": "Si el cliente pidiera una demostración en directo, podríamos organizarla para la semana que viene."
+    },
+    {
+      "id": "b23-q023",
+      "topic": "Second conditional",
+      "question": "I would make the opening shorter if I ___ the presentation.",
+      "options": [
+        "am giving",
+        "will give",
+        "had given",
+        "were giving"
+      ],
+      "correct": 3,
+      "explanation": "En una situación hipotética usamos pasado continuo tras if: if I were giving.",
+      "translation": "Haría más breve la introducción si yo fuera quien diera la presentación."
+    },
+    {
+      "id": "b23-q024",
+      "topic": "Second conditional",
+      "question": "If this ___ the final meeting, what would you include in the closing summary?",
+      "options": [
+        "is",
+        "will be",
+        "had been",
+        "were"
+      ],
+      "correct": 3,
+      "explanation": "En hipótesis formales podemos usar were con todas las personas: if this were.",
+      "translation": "Si esta fuera la reunión final, ¿qué incluirías en el resumen de cierre?"
+    },
+    {
+      "id": "b23-q025",
+      "topic": "Second conditional",
+      "question": "We ___ fewer follow-up emails if the action owners were named clearly.",
+      "options": [
+        "will receive",
+        "received",
+        "would receive",
+        "would have received"
+      ],
+      "correct": 2,
+      "explanation": "El resultado hipotético presente usa would + forma base.",
+      "translation": "Recibiríamos menos correos de seguimiento si los responsables de las acciones aparecieran claramente."
+    },
+    {
+      "id": "b23-q026",
+      "topic": "Second conditional",
+      "question": "If I ___ you, I would avoid using that unexplained acronym.",
+      "options": [
+        "were",
+        "am",
+        "will be",
+        "had been"
+      ],
+      "correct": 0,
+      "explanation": "La expresión fija para dar consejos hipotéticos es If I were you.",
+      "translation": "Si yo fuera tú, evitaría usar esa sigla sin explicar."
+    },
+    {
+      "id": "b23-q027",
+      "topic": "Second conditional",
+      "question": "If the note sounded less formal, it ___ easier for the user to understand.",
+      "options": [
+        "may have been",
+        "will be",
+        "was",
+        "might be"
+      ],
+      "correct": 3,
+      "explanation": "Might + forma base puede aparecer en el resultado de un second conditional.",
+      "translation": "Si la nota sonara menos formal, quizá sería más fácil de entender para el usuario."
+    },
+    {
+      "id": "b23-q028",
+      "topic": "Second conditional",
+      "question": "What ___ you change if the briefing lasted only ten minutes?",
+      "options": [
+        "will",
+        "would",
+        "did",
+        "had"
+      ],
+      "correct": 1,
+      "explanation": "En preguntas del second conditional usamos would + sujeto + forma base.",
+      "translation": "¿Qué cambiarías si la sesión informativa durara solo diez minutos?"
+    },
+    {
+      "id": "b23-q029",
+      "topic": "Second conditional",
+      "question": "If the audience ___ entirely non-technical, we would remove the detailed appendix.",
+      "options": [
+        "were",
+        "is",
+        "will be",
+        "had been"
+      ],
+      "correct": 0,
+      "explanation": "El pasado simple marca una situación hipotética actual.",
+      "translation": "Si el público fuera totalmente no técnico, eliminaríamos el anexo detallado."
+    },
+    {
+      "id": "b23-q030",
+      "topic": "Second conditional",
+      "question": "The client could compare the versions more easily if we ___ the changes.",
+      "options": [
+        "highlight",
+        "will highlight",
+        "highlighted",
+        "had highlighted"
+      ],
+      "correct": 2,
+      "explanation": "La condición hipotética usa pasado simple: if we highlighted.",
+      "translation": "El cliente podría comparar las versiones más fácilmente si destacáramos los cambios."
+    },
+    {
+      "id": "b23-q031",
+      "topic": "Third conditional",
+      "question": "If we ___ the time zone, we would have joined the call an hour earlier.",
+      "options": [
+        "had noticed",
+        "noticed",
+        "would notice",
+        "have noticed"
+      ],
+      "correct": 0,
+      "explanation": "El third conditional usa if + had + participio para una condición pasada imposible de cambiar.",
+      "translation": "Si hubiéramos visto la zona horaria, nos habríamos conectado a la llamada una hora antes."
+    },
+    {
+      "id": "b23-q032",
+      "topic": "Third conditional",
+      "question": "The customer would have received the file sooner if we ___ the correct address.",
+      "options": [
+        "used",
+        "had used",
+        "would use",
+        "have used"
+      ],
+      "correct": 1,
+      "explanation": "La condición pasada anterior se forma con had + participio.",
+      "translation": "El cliente habría recibido el archivo antes si hubiéramos usado la dirección correcta."
+    },
+    {
+      "id": "b23-q033",
+      "topic": "Third conditional",
+      "question": "If the invitation had included the agenda, attendees ___ better prepared.",
+      "options": [
+        "would be",
+        "would have been",
+        "will have been",
+        "had been"
+      ],
+      "correct": 1,
+      "explanation": "El resultado del third conditional usa would have + participio.",
+      "translation": "Si la invitación hubiera incluido el orden del día, los asistentes habrían estado mejor preparados."
+    },
+    {
+      "id": "b23-q034",
+      "topic": "Third conditional",
+      "question": "We ___ the duplicate message if the mailing list had been updated.",
+      "options": [
+        "wouldn't have sent",
+        "wouldn't send",
+        "hadn't sent",
+        "won't have sent"
+      ],
+      "correct": 0,
+      "explanation": "Para un resultado pasado hipotético negativo usamos would not have + participio.",
+      "translation": "No habríamos enviado el mensaje duplicado si se hubiera actualizado la lista de correo."
+    },
+    {
+      "id": "b23-q035",
+      "topic": "Third conditional",
+      "question": "If the speaker ___ more slowly, the interpreter could have followed more easily.",
+      "options": [
+        "had spoken",
+        "spoke",
+        "would speak",
+        "has spoken"
+      ],
+      "correct": 0,
+      "explanation": "La condición irreal del pasado usa past perfect: had spoken.",
+      "translation": "Si el ponente hubiera hablado más despacio, el intérprete podría haber seguido mejor."
+    },
+    {
+      "id": "b23-q036",
+      "topic": "Third conditional",
+      "question": "What would you have done if the client ___ the draft during the call?",
+      "options": [
+        "rejected",
+        "had rejected",
+        "would reject",
+        "has rejected"
+      ],
+      "correct": 1,
+      "explanation": "En la cláusula con if del third conditional usamos had + participio.",
+      "translation": "¿Qué habrías hecho si el cliente hubiera rechazado el borrador durante la llamada?"
+    },
+    {
+      "id": "b23-q037",
+      "topic": "Third conditional",
+      "question": "If I had known the document was confidential, I ___ it in the group chat.",
+      "options": [
+        "wouldn't mention",
+        "wouldn't have mentioned",
+        "hadn't mentioned",
+        "won't mention"
+      ],
+      "correct": 1,
+      "explanation": "El resultado pasado contrario a los hechos usa would not have + participio.",
+      "translation": "Si hubiera sabido que el documento era confidencial, no lo habría mencionado en el chat del grupo."
+    },
+    {
+      "id": "b23-q038",
+      "topic": "Third conditional",
+      "question": "The meeting might have ended on time if we ___ the side discussion.",
+      "options": [
+        "postponed",
+        "would postpone",
+        "had postponed",
+        "have postponed"
+      ],
+      "correct": 2,
+      "explanation": "Después de if usamos past perfect; might have expresa un resultado pasado posible.",
+      "translation": "La reunión podría haber terminado a tiempo si hubiéramos aplazado el debate secundario."
+    },
+    {
+      "id": "b23-q039",
+      "topic": "Third conditional",
+      "question": "If the final paragraph had been clearer, the customer ___ a clarification.",
+      "options": [
+        "wouldn't have requested",
+        "wouldn't request",
+        "hadn't requested",
+        "won't request"
+      ],
+      "correct": 0,
+      "explanation": "Wouldn’t have + participio expresa un resultado pasado hipotético.",
+      "translation": "Si el último párrafo hubiera sido más claro, el cliente no habría pedido una aclaración."
+    },
+    {
+      "id": "b23-q040",
+      "topic": "Third conditional",
+      "question": "We could have avoided the confusion if both files ___ different names.",
+      "options": [
+        "had",
+        "would have",
+        "had had",
+        "have had"
+      ],
+      "correct": 2,
+      "explanation": "El past perfect de have es had had; aquí marca una condición pasada no cumplida.",
+      "translation": "Podríamos haber evitado la confusión si los dos archivos hubieran tenido nombres distintos."
+    },
+    {
+      "id": "b23-q041",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "If we had recorded the decision yesterday, we ___ what to tell the client now.",
+      "options": [
+        "would have known yesterday",
+        "would know",
+        "will know",
+        "knew"
+      ],
+      "correct": 1,
+      "explanation": "Condición pasada con resultado presente: if + past perfect, would + forma base.",
+      "translation": "Si ayer hubiéramos dejado constancia de la decisión, ahora sabríamos qué decirle al cliente."
+    },
+    {
+      "id": "b23-q042",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "If she were more familiar with the account, she ___ the briefing yesterday.",
+      "options": [
+        "would lead yesterday",
+        "will have led",
+        "had led",
+        "would have led"
+      ],
+      "correct": 3,
+      "explanation": "Estado presente hipotético con resultado pasado: if + pasado, would have + participio.",
+      "translation": "Si conociera mejor la cuenta, habría dirigido la sesión informativa ayer."
+    },
+    {
+      "id": "b23-q043",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "If the original email had been clearer, we ___ so many questions now.",
+      "options": [
+        "wouldn't have answered now",
+        "won't answer",
+        "wouldn't be answering",
+        "didn't answer"
+      ],
+      "correct": 2,
+      "explanation": "Una causa pasada puede tener un resultado presente continuo: would be + -ing.",
+      "translation": "Si el correo original hubiera sido más claro, ahora no estaríamos respondiendo a tantas preguntas."
+    },
+    {
+      "id": "b23-q044",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "If I were not responsible for today’s call, I ___ the report last night.",
+      "options": [
+        "wouldn't review last night",
+        "won't have reviewed",
+        "wouldn't have reviewed",
+        "hadn't reviewed"
+      ],
+      "correct": 2,
+      "explanation": "Una situación presente explica un resultado pasado hipotético: would have + participio.",
+      "translation": "Si no fuera responsable de la llamada de hoy, no habría revisado el informe anoche."
+    },
+    {
+      "id": "b23-q045",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "You can share the summary as long as you ___ the personal details first.",
+      "options": [
+        "will remove",
+        "remove",
+        "would remove",
+        "had removed"
+      ],
+      "correct": 1,
+      "explanation": "As long as introduce una condición y usa presente simple para referencia futura.",
+      "translation": "Puedes compartir el resumen siempre que elimines primero los datos personales."
+    },
+    {
+      "id": "b23-q046",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "We will keep the current schedule unless the customer ___ a change.",
+      "options": [
+        "requests",
+        "will request",
+        "would request",
+        "had requested"
+      ],
+      "correct": 0,
+      "explanation": "Unless significa if not; para una condición futura usamos presente simple.",
+      "translation": "Mantendremos el horario actual a menos que el cliente solicite un cambio."
+    },
+    {
+      "id": "b23-q047",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "Provided that the figures are correct, the slide ___ ready to present.",
+      "options": [
+        "will being",
+        "would have",
+        "is",
+        "had been"
+      ],
+      "correct": 2,
+      "explanation": "Provided that establece la condición; la oración principal necesita aquí el presente is.",
+      "translation": "Siempre que las cifras sean correctas, la diapositiva está lista para presentarse."
+    },
+    {
+      "id": "b23-q048",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "Even if the client ___ the short version, keep the appendix available.",
+      "options": [
+        "will prefer",
+        "would preferred",
+        "had prefer",
+        "prefers"
+      ],
+      "correct": 3,
+      "explanation": "Después de even if con referencia futura usamos presente simple.",
+      "translation": "Aunque el cliente prefiera la versión corta, mantén disponible el anexo."
+    },
+    {
+      "id": "b23-q049",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "In case the video link ___, include the dial-in number in the invitation.",
+      "options": [
+        "will fail",
+        "would fail",
+        "fails",
+        "had failed"
+      ],
+      "correct": 2,
+      "explanation": "In case + presente describe una precaución ante una posible situación futura.",
+      "translation": "Por si falla el enlace de vídeo, incluye el número de acceso telefónico en la invitación."
+    },
+    {
+      "id": "b23-q050",
+      "topic": "Mixed conditionals and alternatives",
+      "question": "Suppose the customer ___ for a written answer today—who would prepare it?",
+      "options": [
+        "asks",
+        "will ask",
+        "had asked",
+        "asked"
+      ],
+      "correct": 3,
+      "explanation": "Suppose puede introducir una hipótesis; con would en el resultado usamos pasado simple.",
+      "translation": "Supongamos que el cliente pidiera hoy una respuesta por escrito: ¿quién la prepararía?"
+    }
+  ]
+}

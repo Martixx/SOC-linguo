@@ -1,0 +1,428 @@
+{
+  "name": "01 · Cybersecurity verb forms · Normal",
+  "description": "30 preguntas SOC para practicar formas verbales con frases útiles para clientes, incidentes y explicación del trabajo del SOC.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "cvf-001",
+      "topic": "V1 · Base form",
+      "question": "Before we start, I need to ___ a few details with you.",
+      "options": [
+        "confirm",
+        "confirmed",
+        "confirming",
+        "confirms"
+      ],
+      "correct": 0,
+      "explanation": "Después de “need to” usamos V1: confirm. Formas: confirm – confirmed – confirmed – confirming.",
+      "translation": "Antes de empezar, necesito confirmar algunos detalles contigo."
+    },
+    {
+      "id": "cvf-002",
+      "topic": "V1 · Base form",
+      "question": "We can ___ the affected account as soon as you approve the action.",
+      "options": [
+        "isolated",
+        "isolate",
+        "isolating",
+        "isolates"
+      ],
+      "correct": 1,
+      "explanation": "Después del modal “can” usamos V1 sin “to”: isolate. Formas: isolate – isolated – isolated – isolating.",
+      "translation": "Podemos aislar la cuenta afectada en cuanto apruebes la acción."
+    },
+    {
+      "id": "cvf-003",
+      "topic": "V1 · Base form",
+      "question": "Please ___ the incident number in the subject line.",
+      "options": [
+        "included",
+        "including",
+        "include",
+        "includes"
+      ],
+      "correct": 2,
+      "explanation": "El imperativo usa V1: include. Formas: include – included – included – including.",
+      "translation": "Por favor, incluye el número de incidente en el asunto."
+    },
+    {
+      "id": "cvf-004",
+      "topic": "V1 · Base form",
+      "question": "We did not ___ any signs of data exfiltration during the initial review.",
+      "options": [
+        "found",
+        "finding",
+        "finds",
+        "find"
+      ],
+      "correct": 3,
+      "explanation": "Después de “did not” usamos V1: find, no “found”. Formas: find – found – found – finding.",
+      "translation": "No encontramos indicios de exfiltración de datos durante la revisión inicial."
+    },
+    {
+      "id": "cvf-005",
+      "topic": "V1 · Base form",
+      "question": "Our next step is to ___ the endpoint logs with the proxy logs.",
+      "options": [
+        "compare",
+        "compared",
+        "comparing",
+        "compares"
+      ],
+      "correct": 0,
+      "explanation": "Después de “to” usamos V1: compare. Formas: compare – compared – compared – comparing.",
+      "translation": "Nuestro siguiente paso es comparar los logs del endpoint con los del proxy."
+    },
+    {
+      "id": "cvf-006",
+      "topic": "V1 · Base form",
+      "question": "Let me ___ what the SOC has done so far.",
+      "options": [
+        "explained",
+        "explain",
+        "explaining",
+        "explains"
+      ],
+      "correct": 1,
+      "explanation": "La estructura “let + persona + verbo” lleva V1: let me explain. Formas: explain – explained – explained – explaining.",
+      "translation": "Déjame explicar lo que ha hecho el SOC hasta ahora."
+    },
+    {
+      "id": "cvf-007",
+      "topic": "V1 · Base form",
+      "question": "The customer asked us to ___ an interim update every two hours.",
+      "options": [
+        "provided",
+        "providing",
+        "provide",
+        "provides"
+      ],
+      "correct": 2,
+      "explanation": "La estructura “ask someone to + verbo” lleva V1 tras “to”: provide. Formas: provide – provided – provided – providing.",
+      "translation": "El cliente nos pidió que proporcionáramos una actualización provisional cada dos horas."
+    },
+    {
+      "id": "cvf-008",
+      "topic": "V1 · Base form",
+      "question": "We must ___ the evidence before we close the case.",
+      "options": [
+        "preserved",
+        "preserving",
+        "preserves",
+        "preserve"
+      ],
+      "correct": 3,
+      "explanation": "Después de “must” usamos V1 sin “to”: preserve. Formas: preserve – preserved – preserved – preserving.",
+      "translation": "Debemos preservar las evidencias antes de cerrar el caso."
+    },
+    {
+      "id": "cvf-009",
+      "topic": "V2 · Past simple",
+      "question": "Yesterday, we ___ the suspicious domain at the firewall.",
+      "options": [
+        "blocked",
+        "block",
+        "blocking",
+        "have blocked"
+      ],
+      "correct": 0,
+      "explanation": "“Yesterday” indica pasado terminado, así que usamos V2: blocked. Formas: block – blocked – blocked – blocking.",
+      "translation": "Ayer bloqueamos el dominio sospechoso en el firewall."
+    },
+    {
+      "id": "cvf-010",
+      "topic": "V2 · Past simple",
+      "question": "The analyst ___ the customer as soon as the severity increased.",
+      "options": [
+        "call",
+        "called",
+        "calling",
+        "has called"
+      ],
+      "correct": 1,
+      "explanation": "La acción ocurrió en un momento pasado terminado; usamos V2: called. Formas: call – called – called – calling.",
+      "translation": "El analista llamó al cliente en cuanto aumentó la severidad."
+    },
+    {
+      "id": "cvf-011",
+      "topic": "V2 · Past simple",
+      "question": "During the call, the user ___ that they had opened the attachment.",
+      "options": [
+        "say",
+        "saying",
+        "said",
+        "has said"
+      ],
+      "correct": 2,
+      "explanation": "Para narrar lo que ocurrió en la llamada usamos V2: said. Formas irregulares: say – said – said – saying.",
+      "translation": "Durante la llamada, el usuario dijo que había abierto el archivo adjunto."
+    },
+    {
+      "id": "cvf-012",
+      "topic": "V2 · Past simple",
+      "question": "At 10:15, the team ___ the compromised host offline.",
+      "options": [
+        "take",
+        "taken",
+        "taking",
+        "took"
+      ],
+      "correct": 3,
+      "explanation": "La hora pasada concreta exige V2: took. Formas irregulares: take – took – taken – taking.",
+      "translation": "A las 10:15, el equipo desconectó el host comprometido."
+    },
+    {
+      "id": "cvf-013",
+      "topic": "V2 · Past simple",
+      "question": "The monitoring rule ___ three new alerts last night.",
+      "options": [
+        "generated",
+        "generate",
+        "generating",
+        "has generated"
+      ],
+      "correct": 0,
+      "explanation": "“Last night” marca un periodo pasado y terminado; usamos V2: generated. Formas: generate – generated – generated – generating.",
+      "translation": "La regla de monitorización generó tres alertas nuevas anoche."
+    },
+    {
+      "id": "cvf-014",
+      "topic": "V2 · Past simple",
+      "question": "The attacker ___ a credential-dumping tool before we isolated the server.",
+      "options": [
+        "run",
+        "running",
+        "ran",
+        "has run"
+      ],
+      "correct": 2,
+      "explanation": "En la narración del incidente usamos V2 para esta acción pasada: ran. Formas irregulares: run – ran – run – running.",
+      "translation": "El atacante ejecutó una herramienta de volcado de credenciales antes de que aisláramos el servidor."
+    },
+    {
+      "id": "cvf-015",
+      "topic": "V2 · Past simple",
+      "question": "We ___ with the customer about the containment plan during yesterday’s bridge call.",
+      "options": [
+        "speak",
+        "spoken",
+        "speaking",
+        "spoke"
+      ],
+      "correct": 3,
+      "explanation": "“Yesterday’s bridge call” sitúa la acción en el pasado terminado; usamos V2: spoke. Formas: speak – spoke – spoken – speaking.",
+      "translation": "Hablamos con el cliente sobre el plan de contención durante la llamada de coordinación de ayer."
+    },
+    {
+      "id": "cvf-016",
+      "topic": "V3 · Past participle",
+      "question": "We have ___ the updated report to all stakeholders.",
+      "options": [
+        "sent",
+        "send",
+        "sending",
+        "sends"
+      ],
+      "correct": 0,
+      "explanation": "Después de “have” usamos V3: sent. Formas irregulares: send – sent – sent – sending.",
+      "translation": "Hemos enviado el informe actualizado a todas las partes interesadas."
+    },
+    {
+      "id": "cvf-017",
+      "topic": "V3 · Past participle",
+      "question": "The analyst has ___ the root cause in the executive summary.",
+      "options": [
+        "wrote",
+        "written",
+        "writing",
+        "writes"
+      ],
+      "correct": 1,
+      "explanation": "Después de “has” usamos V3: written, no V2 “wrote”. Formas: write – wrote – written – writing.",
+      "translation": "El analista ha escrito la causa raíz en el resumen ejecutivo."
+    },
+    {
+      "id": "cvf-018",
+      "topic": "V3 · Past participle",
+      "question": "The affected server has been ___ out of production.",
+      "options": [
+        "took",
+        "taking",
+        "taken",
+        "take"
+      ],
+      "correct": 2,
+      "explanation": "En “has been + participio” necesitamos V3: taken. Formas: take – took – taken – taking.",
+      "translation": "El servidor afectado se ha retirado de producción."
+    },
+    {
+      "id": "cvf-019",
+      "topic": "V3 · Past participle",
+      "question": "We have ___ no evidence of persistence on the isolated host.",
+      "options": [
+        "find",
+        "finding",
+        "finds",
+        "found"
+      ],
+      "correct": 3,
+      "explanation": "Después de “have” usamos V3: found. Formas: find – found – found – finding.",
+      "translation": "No hemos encontrado evidencias de persistencia en el host aislado."
+    },
+    {
+      "id": "cvf-020",
+      "topic": "V3 · Past participle",
+      "question": "The customer has ___ us permission to reset the credentials.",
+      "options": [
+        "given",
+        "gave",
+        "giving",
+        "gives"
+      ],
+      "correct": 0,
+      "explanation": "Después de “has” usamos V3: given, no V2 “gave”. Formas: give – gave – given – giving.",
+      "translation": "El cliente nos ha dado permiso para restablecer las credenciales."
+    },
+    {
+      "id": "cvf-021",
+      "topic": "V3 · Past participle",
+      "question": "The same indicator has been ___ on three endpoints.",
+      "options": [
+        "saw",
+        "seen",
+        "seeing",
+        "see"
+      ],
+      "correct": 1,
+      "explanation": "La pasiva de present perfect usa “has been + V3”: seen. Formas: see – saw – seen – seeing.",
+      "translation": "El mismo indicador se ha observado en tres endpoints."
+    },
+    {
+      "id": "cvf-022",
+      "topic": "V3 · Past participle",
+      "question": "The attacker had ___ several tools on the server before we isolated it.",
+      "options": [
+        "leave",
+        "leaving",
+        "left",
+        "leaves"
+      ],
+      "correct": 2,
+      "explanation": "Después de “had” usamos V3: left. Formas irregulares: leave – left – left – leaving.",
+      "translation": "El atacante había dejado varias herramientas en el servidor antes de que lo aisláramos."
+    },
+    {
+      "id": "cvf-023",
+      "topic": "-ing form",
+      "question": "We are ___ the authentication logs while we speak.",
+      "options": [
+        "review",
+        "reviewed",
+        "reviews",
+        "reviewing"
+      ],
+      "correct": 3,
+      "explanation": "El present continuous se forma con “are + -ing”: reviewing. Formas: review – reviewed – reviewed – reviewing.",
+      "translation": "Estamos revisando los logs de autenticación mientras hablamos."
+    },
+    {
+      "id": "cvf-024",
+      "topic": "-ing form",
+      "question": "The team is ___ a timeline for the customer update.",
+      "options": [
+        "building",
+        "build",
+        "built",
+        "builds"
+      ],
+      "correct": 0,
+      "explanation": "Después de “is” usamos la forma -ing para una acción en curso: building. Formas: build – built – built – building.",
+      "translation": "El equipo está elaborando una cronología para la actualización al cliente."
+    },
+    {
+      "id": "cvf-025",
+      "topic": "-ing form",
+      "question": "The sensor is ___ normally again after the restart.",
+      "options": [
+        "ran",
+        "running",
+        "run",
+        "runs"
+      ],
+      "correct": 1,
+      "explanation": "El present continuous usa “is + -ing”: running. “Run” duplica la consonante final: run – ran – run – running.",
+      "translation": "El sensor vuelve a funcionar con normalidad después del reinicio."
+    },
+    {
+      "id": "cvf-026",
+      "topic": "-ing form",
+      "question": "I am ___ the main findings on my screen now.",
+      "options": [
+        "show",
+        "showed",
+        "showing",
+        "shows"
+      ],
+      "correct": 2,
+      "explanation": "Después de “am” usamos la forma -ing: showing. Formas: show – showed – shown – showing.",
+      "translation": "Estoy mostrando ahora los principales hallazgos en mi pantalla."
+    },
+    {
+      "id": "cvf-027",
+      "topic": "-ing form",
+      "question": "The SOC is ___ the customer’s infrastructure team during containment.",
+      "options": [
+        "support",
+        "supported",
+        "supports",
+        "supporting"
+      ],
+      "correct": 3,
+      "explanation": "Para una actividad que está ocurriendo usamos “is + -ing”: supporting. Formas: support – supported – supported – supporting.",
+      "translation": "El SOC está apoyando al equipo de infraestructura del cliente durante la contención."
+    },
+    {
+      "id": "cvf-028",
+      "topic": "-ing form",
+      "question": "The malware was caught while ___ to contact its command-and-control server.",
+      "options": [
+        "trying",
+        "try",
+        "tried",
+        "tries"
+      ],
+      "correct": 0,
+      "explanation": "Después de “while” podemos usar la forma -ing para una acción simultánea: trying. Formas: try – tried – tried – trying.",
+      "translation": "El malware fue detectado mientras intentaba contactar con su servidor de mando y control."
+    },
+    {
+      "id": "cvf-029",
+      "topic": "Mixed verb forms",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "We have wrote the incident report.",
+        "We have written the incident report.",
+        "We have writing the incident report.",
+        "We have write the incident report."
+      ],
+      "correct": 1,
+      "explanation": "Después de “have” necesitamos V3. La forma correcta es written: write – wrote – written – writing.",
+      "translation": "Hemos escrito el informe del incidente."
+    },
+    {
+      "id": "cvf-030",
+      "topic": "Mixed verb forms",
+      "question": "During yesterday’s call, I ___ with the customer; since then, I have ___ with their network team twice.",
+      "options": [
+        "spoken / spoke",
+        "speak / speaking",
+        "spoke / spoken",
+        "speaking / speak"
+      ],
+      "correct": 2,
+      "explanation": "La primera acción usa V2 por “yesterday”: spoke. Después de “have” usamos V3: spoken. Formas: speak – spoke – spoken – speaking.",
+      "translation": "Durante la llamada de ayer hablé con el cliente; desde entonces, he hablado dos veces con su equipo de red."
+    }
+  ],
+  "category": "normal"
+}

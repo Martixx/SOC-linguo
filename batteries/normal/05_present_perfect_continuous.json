@@ -1,0 +1,428 @@
+{
+  "name": "05 · Present perfect continuous · Normal",
+  "description": "30 preguntas para explicar investigaciones en curso, duración, actividad reciente y efectos visibles mediante have/has been + -ing.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b05-ppc-001",
+      "topic": "Present perfect continuous · Ongoing investigation",
+      "question": "We ___ this alert since 08:30, and the investigation is still open.",
+      "options": [
+        "have been investigating",
+        "investigated",
+        "are investigating since",
+        "have investigated at"
+      ],
+      "correct": 0,
+      "explanation": "La investigación empezó a las 08:30 y continúa ahora; usamos have been investigating con since.",
+      "translation": "Llevamos investigando esta alerta desde las 08:30 y la investigación sigue abierta."
+    },
+    {
+      "id": "b05-ppc-002",
+      "topic": "Present perfect continuous · Duration · since / for",
+      "question": "Our analysts ___ the authentication logs for the last two hours.",
+      "options": [
+        "reviewed",
+        "have been reviewing",
+        "has been reviewing",
+        "are reviewing since"
+      ],
+      "correct": 1,
+      "explanation": "For the last two hours expresa una duración que llega hasta ahora; con sujeto plural usamos have been reviewing.",
+      "translation": "Nuestros analistas llevan revisando los logs de autenticación durante las últimas dos horas."
+    },
+    {
+      "id": "b05-ppc-003",
+      "topic": "Present perfect continuous · Ongoing investigation",
+      "question": "The SOC ___ the affected account since the password reset.",
+      "options": [
+        "monitored",
+        "have been monitoring",
+        "has been monitoring",
+        "is monitoring since"
+      ],
+      "correct": 2,
+      "explanation": "The SOC es singular y la monitorización comenzó tras el cambio de contraseña y continúa; usamos has been monitoring.",
+      "translation": "El SOC lleva monitorizando la cuenta afectada desde el restablecimiento de la contraseña."
+    },
+    {
+      "id": "b05-ppc-004",
+      "topic": "Present perfect continuous · Client questions and updates",
+      "question": "How long ___ repeated connection failures on the server?",
+      "options": [
+        "did you seeing",
+        "are you seeing since",
+        "has you been seeing",
+        "have you been seeing"
+      ],
+      "correct": 3,
+      "explanation": "Para preguntar por la duración de una situación que continúa usamos How long have you been + verbo en -ing.",
+      "translation": "¿Cuánto tiempo lleváis observando fallos de conexión repetidos en el servidor?"
+    },
+    {
+      "id": "b05-ppc-005",
+      "topic": "Present perfect continuous · Duration · since / for",
+      "question": "We ___ with your network team all morning to validate the firewall changes.",
+      "options": [
+        "have been working",
+        "worked since",
+        "has been working",
+        "are working for all morning"
+      ],
+      "correct": 0,
+      "explanation": "All morning destaca la duración de una colaboración que sigue en curso; usamos have been working.",
+      "translation": "Llevamos toda la mañana trabajando con vuestro equipo de redes para validar los cambios del firewall."
+    },
+    {
+      "id": "b05-ppc-006",
+      "topic": "Present perfect continuous · Repeated activity and monitoring",
+      "question": "The endpoint ___ DNS requests to the same suspicious domain for twenty minutes.",
+      "options": [
+        "sent",
+        "has been sending",
+        "have been sending",
+        "is sending since"
+      ],
+      "correct": 1,
+      "explanation": "La actividad se ha repetido durante veinte minutos y sigue siendo relevante; con endpoint usamos has been sending.",
+      "translation": "El endpoint lleva veinte minutos enviando solicitudes DNS al mismo dominio sospechoso."
+    },
+    {
+      "id": "b05-ppc-007",
+      "topic": "Present perfect continuous · Negatives",
+      "question": "We ___ any new alerts since we applied the block.",
+      "options": [
+        "didn't receive",
+        "aren't receiving since",
+        "haven't been receiving",
+        "hasn't been receiving"
+      ],
+      "correct": 2,
+      "explanation": "La ausencia de alertas se extiende desde el bloqueo hasta ahora; con we usamos haven't been receiving.",
+      "translation": "No hemos estado recibiendo nuevas alertas desde que aplicamos el bloqueo."
+    },
+    {
+      "id": "b05-ppc-008",
+      "topic": "Present perfect continuous · Client questions and updates",
+      "question": "The customer ___ for status updates every hour.",
+      "options": [
+        "have been asking",
+        "asked since",
+        "is asking for three hours",
+        "has been asking"
+      ],
+      "correct": 3,
+      "explanation": "La petición se repite durante un periodo reciente; con customer usamos has been asking.",
+      "translation": "El cliente lleva pidiendo actualizaciones de estado cada hora."
+    },
+    {
+      "id": "b05-ppc-009",
+      "topic": "Present perfect continuous · Client questions and updates",
+      "question": "I ___ the incident summary for our next call.",
+      "options": [
+        "have been preparing",
+        "prepared since",
+        "has been preparing",
+        "am preparing for two hours"
+      ],
+      "correct": 0,
+      "explanation": "Se presenta la preparación como una actividad reciente o todavía en curso; con I usamos have been preparing.",
+      "translation": "He estado preparando el resumen del incidente para nuestra próxima llamada."
+    },
+    {
+      "id": "b05-ppc-010",
+      "topic": "Present perfect continuous · Ongoing investigation",
+      "question": "Our threat hunters ___ for related indicators across the environment since noon.",
+      "options": [
+        "looked",
+        "have been looking",
+        "has been looking",
+        "are looking since"
+      ],
+      "correct": 1,
+      "explanation": "Since noon marca el inicio de una búsqueda que continúa; con sujeto plural usamos have been looking.",
+      "translation": "Nuestros threat hunters llevan buscando indicadores relacionados en todo el entorno desde el mediodía."
+    },
+    {
+      "id": "b05-ppc-011",
+      "topic": "Present perfect continuous · Repeated activity and monitoring",
+      "question": "Traffic volumes ___ since the new rule was deployed.",
+      "options": [
+        "increased yesterday",
+        "has been increasing",
+        "have been increasing",
+        "are increasing since"
+      ],
+      "correct": 2,
+      "explanation": "Traffic volumes es plural y describe una tendencia iniciada en el pasado que continúa; usamos have been increasing.",
+      "translation": "Los volúmenes de tráfico llevan aumentando desde que se desplegó la nueva regla."
+    },
+    {
+      "id": "b05-ppc-012",
+      "topic": "Present perfect continuous · Recent activity · visible effects",
+      "question": "Why is the service slow? Several hosts ___ a large number of requests.",
+      "options": [
+        "generated yesterday",
+        "has been generating",
+        "are generating since",
+        "have been generating"
+      ],
+      "correct": 3,
+      "explanation": "La lentitud actual es un efecto visible de una actividad reciente y repetida; usamos have been generating.",
+      "translation": "¿Por qué va lento el servicio? Varios hosts han estado generando un gran número de solicitudes."
+    },
+    {
+      "id": "b05-ppc-013",
+      "topic": "Present perfect continuous · Duration · since / for",
+      "question": "The investigation ___ longer than expected because some logs are incomplete.",
+      "options": [
+        "has been taking",
+        "have been taking",
+        "took since",
+        "is taking for"
+      ],
+      "correct": 0,
+      "explanation": "La investigación sigue en curso y su duración se prolonga; con sujeto singular usamos has been taking.",
+      "translation": "La investigación está llevando más tiempo de lo esperado porque algunos logs están incompletos."
+    },
+    {
+      "id": "b05-ppc-014",
+      "topic": "Present perfect continuous · Duration · since / for",
+      "question": "We ___ for the customer's confirmation for forty-five minutes.",
+      "options": [
+        "waited",
+        "have been waiting",
+        "has been waiting",
+        "are waiting since"
+      ],
+      "correct": 1,
+      "explanation": "For forty-five minutes expresa duración hasta el presente; con we usamos have been waiting.",
+      "translation": "Llevamos cuarenta y cinco minutos esperando la confirmación del cliente."
+    },
+    {
+      "id": "b05-ppc-015",
+      "topic": "Present perfect continuous · Result vs process",
+      "question": "Choose the natural sentence for an analysis that started earlier and is still in progress.",
+      "options": [
+        "We analyzed the logs since 09:00.",
+        "We are analyzing the logs since 09:00.",
+        "We have been analyzing the logs since 09:00.",
+        "We have analyzed the logs at 09:00."
+      ],
+      "correct": 2,
+      "explanation": "Para una actividad que empezó a las 09:00 y aún continúa, la forma natural es have been analyzing ... since 09:00.",
+      "translation": "Llevamos analizando los logs desde las 09:00."
+    },
+    {
+      "id": "b05-ppc-016",
+      "topic": "Present perfect continuous · SOC improvement work",
+      "question": "The detection team ___ the rule all week to reduce false positives.",
+      "options": [
+        "have been tuning",
+        "tuned since Monday",
+        "is tuning for all week",
+        "has been tuning"
+      ],
+      "correct": 3,
+      "explanation": "The detection team funciona aquí como sujeto singular y all week destaca continuidad; usamos has been tuning.",
+      "translation": "El equipo de detección lleva toda la semana ajustando la regla para reducir los falsos positivos."
+    },
+    {
+      "id": "b05-ppc-017",
+      "topic": "Present perfect continuous · Ongoing investigation",
+      "question": "Since 10:00, we ___ outbound connections from the affected subnet.",
+      "options": [
+        "have been tracking",
+        "tracked",
+        "has been tracking",
+        "are tracking since"
+      ],
+      "correct": 0,
+      "explanation": "Since 10:00 fija el punto de inicio de una actividad que continúa; usamos have been tracking.",
+      "translation": "Desde las 10:00 llevamos rastreando conexiones salientes de la subred afectada."
+    },
+    {
+      "id": "b05-ppc-018",
+      "topic": "Present perfect continuous · Duration · since / for",
+      "question": "How long ___ the forensic scan ___?",
+      "options": [
+        "did / running",
+        "has / been running",
+        "have / been running",
+        "is / running since"
+      ],
+      "correct": 1,
+      "explanation": "Con scan, sujeto singular, preguntamos por duración con How long has ... been running?",
+      "translation": "¿Cuánto tiempo lleva ejecutándose el análisis forense?"
+    },
+    {
+      "id": "b05-ppc-019",
+      "topic": "Present perfect continuous · Ongoing investigation",
+      "question": "The malware ___ to contact its command-and-control server since execution.",
+      "options": [
+        "tried yesterday",
+        "have been trying",
+        "has been trying",
+        "is trying for"
+      ],
+      "correct": 2,
+      "explanation": "La conducta empezó al ejecutarse y sigue repitiéndose; con malware usamos has been trying.",
+      "translation": "El malware lleva intentando contactar con su servidor de mando y control desde que se ejecutó."
+    },
+    {
+      "id": "b05-ppc-020",
+      "topic": "Present perfect continuous · Ongoing investigation",
+      "question": "We ___ whether the activity is linked to the earlier phishing campaign.",
+      "options": [
+        "checked since",
+        "has been checking",
+        "are checking for three hours",
+        "have been checking"
+      ],
+      "correct": 3,
+      "explanation": "La comprobación se presenta como un proceso reciente o aún abierto; con we usamos have been checking.",
+      "translation": "Hemos estado comprobando si la actividad está relacionada con la campaña de phishing anterior."
+    },
+    {
+      "id": "b05-ppc-021",
+      "topic": "Present perfect continuous · Recent activity · visible effects",
+      "question": "Our engineers ___ volatile data, so some endpoints may respond more slowly.",
+      "options": [
+        "have been collecting",
+        "collected at",
+        "has been collecting",
+        "are collecting since"
+      ],
+      "correct": 0,
+      "explanation": "La lentitud actual es consecuencia de una actividad reciente; usamos have been collecting.",
+      "translation": "Nuestros ingenieros han estado recopilando datos volátiles, por lo que algunos endpoints pueden responder más lentamente."
+    },
+    {
+      "id": "b05-ppc-022",
+      "topic": "Present perfect continuous · Repeated activity and monitoring",
+      "question": "The SIEM ___ events since the storage issue began.",
+      "options": [
+        "dropped yesterday",
+        "has been dropping",
+        "have been dropping",
+        "is dropping for"
+      ],
+      "correct": 1,
+      "explanation": "Since the storage issue began conecta el inicio pasado con un problema que continúa; con SIEM usamos has been dropping.",
+      "translation": "El SIEM lleva perdiendo eventos desde que comenzó el problema de almacenamiento."
+    },
+    {
+      "id": "b05-ppc-023",
+      "topic": "Present perfect continuous · Client questions and updates",
+      "question": "___ you ___ our status notifications since the incident began?",
+      "options": [
+        "Did / receive",
+        "Are / receiving since",
+        "Have / been receiving",
+        "Has / been receiving"
+      ],
+      "correct": 2,
+      "explanation": "Preguntamos por una recepción repetida desde un punto pasado hasta ahora: Have you been receiving...?",
+      "translation": "¿Habéis estado recibiendo nuestras notificaciones de estado desde que comenzó el incidente?"
+    },
+    {
+      "id": "b05-ppc-024",
+      "topic": "Present perfect continuous · Repeated activity and monitoring",
+      "question": "The audit logs ___ suspicious sign-in attempts for the last three days.",
+      "options": [
+        "showed yesterday",
+        "has been showing",
+        "are showing since",
+        "have been showing"
+      ],
+      "correct": 3,
+      "explanation": "Audit logs es plural y for the last three days indica una situación repetida que llega hasta ahora; usamos have been showing.",
+      "translation": "Los logs de auditoría llevan mostrando intentos de inicio de sesión sospechosos durante los últimos tres días."
+    },
+    {
+      "id": "b05-ppc-025",
+      "topic": "Present perfect continuous · Result vs process",
+      "question": "Which update emphasizes the duration of the work rather than a completed result?",
+      "options": [
+        "We have been reviewing the logs for two hours.",
+        "We reviewed the logs at 10:00.",
+        "We have reviewed 2,000 events.",
+        "We review the logs every day."
+      ],
+      "correct": 0,
+      "explanation": "Have been reviewing ... for two hours pone el foco en la actividad y su duración, no en una cantidad terminada.",
+      "translation": "Llevamos dos horas revisando los logs."
+    },
+    {
+      "id": "b05-ppc-026",
+      "topic": "Present perfect continuous · Result vs process",
+      "question": "Which sentence emphasizes a completed quantity?",
+      "options": [
+        "We have been reviewing endpoints all morning.",
+        "We have reviewed twenty-five endpoints.",
+        "We are reviewing endpoints since noon.",
+        "We reviewed endpoints for now."
+      ],
+      "correct": 1,
+      "explanation": "Have reviewed twenty-five endpoints usa present perfect simple para destacar el resultado cuantificable ya alcanzado.",
+      "translation": "Hemos revisado veinticinco endpoints."
+    },
+    {
+      "id": "b05-ppc-027",
+      "topic": "Present perfect continuous · Stative verb exceptions",
+      "question": "We ___ about this vulnerability since Tuesday.",
+      "options": [
+        "have been knowing",
+        "are knowing since",
+        "have known",
+        "has known"
+      ],
+      "correct": 2,
+      "explanation": "Know es un verbo de estado y normalmente no se usa en continuo; decimos have known, no have been knowing.",
+      "translation": "Conocemos esta vulnerabilidad desde el martes."
+    },
+    {
+      "id": "b05-ppc-028",
+      "topic": "Present perfect continuous · Stative verb exceptions",
+      "question": "We ___ access to the relevant logs since noon.",
+      "options": [
+        "have been having",
+        "are having since",
+        "has had",
+        "have had"
+      ],
+      "correct": 3,
+      "explanation": "Have, con sentido de posesión o disponibilidad, es estativo; usamos have had access, no have been having access.",
+      "translation": "Tenemos acceso a los logs pertinentes desde el mediodía."
+    },
+    {
+      "id": "b05-ppc-029",
+      "topic": "Present perfect continuous · SOC improvement work",
+      "question": "The team ___ the workaround repeatedly today, and the results are improving.",
+      "options": [
+        "has been testing",
+        "tested at",
+        "have been testing",
+        "is testing since"
+      ],
+      "correct": 0,
+      "explanation": "La actividad se ha repetido durante un periodo todavía abierto y muestra efectos actuales; con team usamos has been testing.",
+      "translation": "El equipo ha estado probando la solución temporal repetidamente hoy y los resultados están mejorando."
+    },
+    {
+      "id": "b05-ppc-030",
+      "topic": "Present perfect continuous · Client questions and updates",
+      "question": "I ___ the incident timeline as new evidence arrives.",
+      "options": [
+        "updated yesterday",
+        "have been updating",
+        "has been updating",
+        "am updating since"
+      ],
+      "correct": 1,
+      "explanation": "La actualización de la cronología es una actividad reciente y continua; con I usamos have been updating.",
+      "translation": "He estado actualizando la cronología del incidente a medida que llegan nuevas evidencias."
+    }
+  ],
+  "category": "normal"
+}

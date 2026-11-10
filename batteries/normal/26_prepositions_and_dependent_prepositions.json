@@ -1,0 +1,708 @@
+{
+  "name": "26 · Prepositions and dependent prepositions · Normal",
+  "description": "50 preguntas normales sobre preposiciones de tiempo, lugar y movimiento, además de combinaciones dependientes con adjetivos, verbos y sustantivos.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b26-q001",
+      "topic": "Time prepositions",
+      "question": "The customer call starts ___ 14:30.",
+      "options": [
+        "by",
+        "on",
+        "in",
+        "at"
+      ],
+      "correct": 3,
+      "explanation": "Usamos at con horas concretas: at 14:30.",
+      "translation": "La llamada con el cliente empieza a las 14:30."
+    },
+    {
+      "id": "b26-q002",
+      "topic": "Time prepositions",
+      "question": "We will send the weekly summary ___ Friday.",
+      "options": [
+        "at",
+        "during",
+        "in",
+        "on"
+      ],
+      "correct": 3,
+      "explanation": "Usamos on con días de la semana: on Friday.",
+      "translation": "Enviaremos el resumen semanal el viernes."
+    },
+    {
+      "id": "b26-q003",
+      "topic": "Time prepositions",
+      "question": "The new reporting process will begin ___ December.",
+      "options": [
+        "on",
+        "since",
+        "in",
+        "at"
+      ],
+      "correct": 2,
+      "explanation": "Usamos in con meses: in December.",
+      "translation": "El nuevo proceso de elaboración de informes comenzará en diciembre."
+    },
+    {
+      "id": "b26-q004",
+      "topic": "Time prepositions",
+      "question": "We have been waiting for the customer's reply ___ Monday.",
+      "options": [
+        "during",
+        "since",
+        "until",
+        "for"
+      ],
+      "correct": 1,
+      "explanation": "Since introduce el punto de inicio de una situación que continúa.",
+      "translation": "Llevamos esperando la respuesta del cliente desde el lunes."
+    },
+    {
+      "id": "b26-q005",
+      "topic": "Time prepositions",
+      "question": "The analyst has been on the call ___ forty minutes.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "correct": 0,
+      "explanation": "For introduce una duración: for forty minutes.",
+      "translation": "El analista lleva cuarenta minutos en la llamada."
+    },
+    {
+      "id": "b26-q006",
+      "topic": "Time prepositions",
+      "question": "Please send your comments ___ noon tomorrow.",
+      "options": [
+        "until",
+        "by",
+        "since",
+        "during"
+      ],
+      "correct": 1,
+      "explanation": "By marca una fecha u hora límite: no más tarde del mediodía.",
+      "translation": "Envía tus comentarios antes del mediodía de mañana."
+    },
+    {
+      "id": "b26-q007",
+      "topic": "Time prepositions",
+      "question": "The support team will remain available ___ the review is complete.",
+      "options": [
+        "for",
+        "by",
+        "until",
+        "since"
+      ],
+      "correct": 2,
+      "explanation": "Until indica que una situación continúa hasta un momento determinado.",
+      "translation": "El equipo de soporte seguirá disponible hasta que termine la revisión."
+    },
+    {
+      "id": "b26-q008",
+      "topic": "Time prepositions",
+      "question": "No decisions were made ___ the introductory call.",
+      "options": [
+        "since",
+        "for",
+        "during",
+        "at"
+      ],
+      "correct": 2,
+      "explanation": "During + sustantivo sitúa algo dentro del periodo de una actividad o evento.",
+      "translation": "No se tomó ninguna decisión durante la llamada introductoria."
+    },
+    {
+      "id": "b26-q009",
+      "topic": "Time prepositions",
+      "question": "We expect to acknowledge new requests ___ one business hour.",
+      "options": [
+        "at",
+        "during",
+        "since",
+        "within"
+      ],
+      "correct": 3,
+      "explanation": "Within expresa «dentro de» un plazo máximo.",
+      "translation": "Esperamos confirmar la recepción de las nuevas solicitudes en el plazo de una hora laborable."
+    },
+    {
+      "id": "b26-q010",
+      "topic": "Time prepositions",
+      "question": "The notes were updated ___ the end of the meeting.",
+      "options": [
+        "in",
+        "for",
+        "at",
+        "on"
+      ],
+      "correct": 2,
+      "explanation": "La expresión fija es at the end of.",
+      "translation": "Las notas se actualizaron al final de la reunión."
+    },
+    {
+      "id": "b26-q011",
+      "topic": "Place, channel and movement",
+      "question": "The revised timeline is ___ the shared document.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "to"
+      ],
+      "correct": 2,
+      "explanation": "Usamos in para contenido dentro de un documento.",
+      "translation": "La cronología revisada está en el documento compartido."
+    },
+    {
+      "id": "b26-q012",
+      "topic": "Place, channel and movement",
+      "question": "I posted the status update ___ the team channel.",
+      "options": [
+        "to",
+        "in",
+        "from",
+        "at"
+      ],
+      "correct": 1,
+      "explanation": "En este contexto usamos in the channel para indicar el espacio de conversación.",
+      "translation": "Publiqué la actualización de estado en el canal del equipo."
+    },
+    {
+      "id": "b26-q013",
+      "topic": "Place, channel and movement",
+      "question": "The customer joined the meeting ___ a mobile device.",
+      "options": [
+        "from",
+        "into",
+        "at",
+        "to"
+      ],
+      "correct": 0,
+      "explanation": "From a device indica el origen o medio desde el que alguien se conecta.",
+      "translation": "El cliente se conectó a la reunión desde un dispositivo móvil."
+    },
+    {
+      "id": "b26-q014",
+      "topic": "Place, channel and movement",
+      "question": "Please send the final version ___ the project coordinator.",
+      "options": [
+        "into",
+        "from",
+        "to",
+        "at"
+      ],
+      "correct": 2,
+      "explanation": "Send something to someone usa to para el destinatario.",
+      "translation": "Envía la versión final al coordinador del proyecto, por favor."
+    },
+    {
+      "id": "b26-q015",
+      "topic": "Place, channel and movement",
+      "question": "We received the clarification ___ the account owner.",
+      "options": [
+        "from",
+        "to",
+        "at",
+        "into"
+      ],
+      "correct": 0,
+      "explanation": "From indica la persona de la que procede algo.",
+      "translation": "Recibimos la aclaración del responsable de la cuenta."
+    },
+    {
+      "id": "b26-q016",
+      "topic": "Place, channel and movement",
+      "question": "The request came ___ the customer portal.",
+      "options": [
+        "on",
+        "through",
+        "at",
+        "into"
+      ],
+      "correct": 1,
+      "explanation": "Through indica el canal o medio por el que llegó la solicitud.",
+      "translation": "La solicitud llegó a través del portal del cliente."
+    },
+    {
+      "id": "b26-q017",
+      "topic": "Place, channel and movement",
+      "question": "The analyst copied the key points from the email ___ the handover note.",
+      "options": [
+        "at",
+        "over",
+        "into",
+        "from"
+      ],
+      "correct": 2,
+      "explanation": "Into introduce el destino al que se copia el contenido.",
+      "translation": "El analista copió los puntos clave del correo en la nota de traspaso."
+    },
+    {
+      "id": "b26-q018",
+      "topic": "Place, channel and movement",
+      "question": "The action list appears ___ the last page of the report.",
+      "options": [
+        "to",
+        "at",
+        "on",
+        "in"
+      ],
+      "correct": 2,
+      "explanation": "Usamos on con una página concreta: on the last page.",
+      "translation": "La lista de acciones aparece en la última página del informe."
+    },
+    {
+      "id": "b26-q019",
+      "topic": "Place, channel and movement",
+      "question": "A coordinator will be waiting ___ the virtual reception area.",
+      "options": [
+        "in",
+        "on",
+        "to",
+        "through"
+      ],
+      "correct": 0,
+      "explanation": "In indica ubicación dentro de un área o espacio.",
+      "translation": "Un coordinador estará esperando en la zona de recepción virtual."
+    },
+    {
+      "id": "b26-q020",
+      "topic": "Place, channel and movement",
+      "question": "Please move this question ___ the open-items section.",
+      "options": [
+        "at",
+        "through",
+        "from",
+        "to"
+      ],
+      "correct": 3,
+      "explanation": "Move something to indica el destino del traslado.",
+      "translation": "Mueve esta pregunta a la sección de asuntos pendientes, por favor."
+    },
+    {
+      "id": "b26-q021",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "The service manager is responsible ___ approving the final message.",
+      "options": [
+        "for",
+        "with",
+        "to",
+        "of"
+      ],
+      "correct": 0,
+      "explanation": "La combinación correcta es responsible for + sustantivo o gerundio.",
+      "translation": "El responsable del servicio se encarga de aprobar el mensaje final."
+    },
+    {
+      "id": "b26-q022",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "The customer is aware ___ the planned maintenance.",
+      "options": [
+        "to",
+        "of",
+        "for",
+        "with"
+      ],
+      "correct": 1,
+      "explanation": "La combinación fija es aware of.",
+      "translation": "El cliente conoce el mantenimiento planificado."
+    },
+    {
+      "id": "b26-q023",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "Are you familiar ___ the new reporting template?",
+      "options": [
+        "at",
+        "with",
+        "of",
+        "for"
+      ],
+      "correct": 1,
+      "explanation": "La combinación fija es familiar with.",
+      "translation": "¿Conoces la nueva plantilla de informes?"
+    },
+    {
+      "id": "b26-q024",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "This detail is relevant ___ the customer's question.",
+      "options": [
+        "with",
+        "of",
+        "at",
+        "to"
+      ],
+      "correct": 3,
+      "explanation": "La combinación habitual es relevant to.",
+      "translation": "Este detalle es pertinente para la pregunta del cliente."
+    },
+    {
+      "id": "b26-q025",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "The wording is consistent ___ our previous update.",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "of"
+      ],
+      "correct": 2,
+      "explanation": "La combinación correcta es consistent with.",
+      "translation": "La redacción es coherente con nuestra actualización anterior."
+    },
+    {
+      "id": "b26-q026",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "The client is concerned ___ the delay in receiving updates.",
+      "options": [
+        "of",
+        "with",
+        "to",
+        "about"
+      ],
+      "correct": 3,
+      "explanation": "Concerned about introduce el asunto que causa preocupación.",
+      "translation": "Al cliente le preocupa el retraso en la recepción de actualizaciones."
+    },
+    {
+      "id": "b26-q027",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "The team is grateful ___ the customer for the quick reply.",
+      "options": [
+        "of",
+        "to",
+        "for",
+        "at"
+      ],
+      "correct": 1,
+      "explanation": "Grateful to someone indica la persona a la que se agradece algo.",
+      "translation": "El equipo agradece al cliente su rápida respuesta."
+    },
+    {
+      "id": "b26-q028",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "This level of detail is suitable ___ a short briefing.",
+      "options": [
+        "of",
+        "for",
+        "to",
+        "with"
+      ],
+      "correct": 1,
+      "explanation": "Suitable for indica que algo es apropiado para un uso o situación.",
+      "translation": "Este nivel de detalle es adecuado para una reunión informativa breve."
+    },
+    {
+      "id": "b26-q029",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "The revised schedule is different ___ the one in the invitation.",
+      "options": [
+        "about",
+        "with",
+        "from",
+        "of"
+      ],
+      "correct": 2,
+      "explanation": "La combinación estándar y más general es different from.",
+      "translation": "El horario revisado es diferente del que figura en la invitación."
+    },
+    {
+      "id": "b26-q030",
+      "topic": "Dependent prepositions after adjectives",
+      "question": "We are confident ___ the accuracy of the updated timeline.",
+      "options": [
+        "for",
+        "in",
+        "to",
+        "at"
+      ],
+      "correct": 1,
+      "explanation": "Confident in expresa confianza en la calidad o capacidad de algo o alguien.",
+      "translation": "Confiamos en la exactitud de la cronología actualizada."
+    },
+    {
+      "id": "b26-q031",
+      "topic": "Dependent prepositions after verbs",
+      "question": "We rely ___ the customer to confirm the business context.",
+      "options": [
+        "for",
+        "at",
+        "to",
+        "on"
+      ],
+      "correct": 3,
+      "explanation": "La combinación fija es rely on.",
+      "translation": "Dependemos del cliente para confirmar el contexto de negocio."
+    },
+    {
+      "id": "b26-q032",
+      "topic": "Dependent prepositions after verbs",
+      "question": "We will respond ___ your questions in the next update.",
+      "options": [
+        "at",
+        "to",
+        "for",
+        "on"
+      ],
+      "correct": 1,
+      "explanation": "Respond lleva la preposición to ante el destinatario o asunto.",
+      "translation": "Responderemos a tus preguntas en la próxima actualización."
+    },
+    {
+      "id": "b26-q033",
+      "topic": "Dependent prepositions after verbs",
+      "question": "The coordinator apologized ___ the late invitation.",
+      "options": [
+        "for",
+        "on",
+        "with",
+        "to"
+      ],
+      "correct": 0,
+      "explanation": "Apologize for introduce el motivo de la disculpa.",
+      "translation": "El coordinador se disculpó por el envío tardío de la invitación."
+    },
+    {
+      "id": "b26-q034",
+      "topic": "Dependent prepositions after verbs",
+      "question": "The teams could not agree ___ which wording to use.",
+      "options": [
+        "with",
+        "at",
+        "on",
+        "for"
+      ],
+      "correct": 2,
+      "explanation": "Agree on introduce el asunto o la opción sobre la que se intenta llegar a un acuerdo.",
+      "translation": "Los equipos no pudieron ponerse de acuerdo sobre qué redacción utilizar."
+    },
+    {
+      "id": "b26-q035",
+      "topic": "Dependent prepositions after verbs",
+      "question": "The analyst referred ___ the earlier email for more detail.",
+      "options": [
+        "to",
+        "for",
+        "on",
+        "at"
+      ],
+      "correct": 0,
+      "explanation": "La combinación correcta es refer to.",
+      "translation": "El analista remitió al correo anterior para obtener más detalles."
+    },
+    {
+      "id": "b26-q036",
+      "topic": "Dependent prepositions after verbs",
+      "question": "The customer asked ___ a written summary after the call.",
+      "options": [
+        "to",
+        "on",
+        "at",
+        "for"
+      ],
+      "correct": 3,
+      "explanation": "Ask for significa solicitar algo.",
+      "translation": "El cliente pidió un resumen por escrito después de la llamada."
+    },
+    {
+      "id": "b26-q037",
+      "topic": "Dependent prepositions after verbs",
+      "question": "We are waiting ___ approval before sending the notice.",
+      "options": [
+        "for",
+        "on",
+        "to",
+        "at"
+      ],
+      "correct": 0,
+      "explanation": "La combinación fija es wait for.",
+      "translation": "Estamos esperando la aprobación antes de enviar el aviso."
+    },
+    {
+      "id": "b26-q038",
+      "topic": "Dependent prepositions after verbs",
+      "question": "Please inform the coordinator ___ any change to the agenda.",
+      "options": [
+        "of",
+        "for",
+        "with",
+        "at"
+      ],
+      "correct": 0,
+      "explanation": "Inform someone of something es una estructura formal y correcta.",
+      "translation": "Informa al coordinador de cualquier cambio en el orden del día, por favor."
+    },
+    {
+      "id": "b26-q039",
+      "topic": "Dependent prepositions after verbs",
+      "question": "A clear subject line helps prevent messages ___ being overlooked.",
+      "options": [
+        "of",
+        "to",
+        "with",
+        "from"
+      ],
+      "correct": 3,
+      "explanation": "Prevent someone or something from + gerundio es la estructura correcta.",
+      "translation": "Un asunto claro ayuda a evitar que los mensajes pasen desapercibidos."
+    },
+    {
+      "id": "b26-q040",
+      "topic": "Dependent prepositions after verbs",
+      "question": "We provided the customer ___ a revised action list.",
+      "options": [
+        "of",
+        "with",
+        "to",
+        "for"
+      ],
+      "correct": 1,
+      "explanation": "Provide someone with something significa proporcionar algo a alguien.",
+      "translation": "Facilitamos al cliente una lista de acciones revisada."
+    },
+    {
+      "id": "b26-q041",
+      "topic": "Noun and preposition combinations",
+      "question": "Only approved users have access ___ the shared folder.",
+      "options": [
+        "to",
+        "of",
+        "with",
+        "for"
+      ],
+      "correct": 0,
+      "explanation": "La combinación fija es access to.",
+      "translation": "Solo los usuarios autorizados tienen acceso a la carpeta compartida."
+    },
+    {
+      "id": "b26-q042",
+      "topic": "Noun and preposition combinations",
+      "question": "The report explains the reason ___ the change in schedule.",
+      "options": [
+        "of",
+        "with",
+        "to",
+        "for"
+      ],
+      "correct": 3,
+      "explanation": "Reason for introduce la causa o motivo de algo.",
+      "translation": "El informe explica el motivo del cambio de horario."
+    },
+    {
+      "id": "b26-q043",
+      "topic": "Noun and preposition combinations",
+      "question": "We saw an increase ___ the number of customer questions.",
+      "options": [
+        "in",
+        "to",
+        "of",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Increase in indica el ámbito o cantidad que aumentó.",
+      "translation": "Observamos un aumento del número de preguntas de clientes."
+    },
+    {
+      "id": "b26-q044",
+      "topic": "Noun and preposition combinations",
+      "question": "The delay had no impact ___ the agreed delivery date.",
+      "options": [
+        "on",
+        "of",
+        "to",
+        "for"
+      ],
+      "correct": 0,
+      "explanation": "La combinación habitual es impact on.",
+      "translation": "El retraso no afectó a la fecha de entrega acordada."
+    },
+    {
+      "id": "b26-q045",
+      "topic": "Noun and preposition combinations",
+      "question": "Thank you for your quick response ___ our request.",
+      "options": [
+        "with",
+        "to",
+        "of",
+        "for"
+      ],
+      "correct": 1,
+      "explanation": "Response to indica aquello a lo que se responde.",
+      "translation": "Gracias por tu rápida respuesta a nuestra solicitud."
+    },
+    {
+      "id": "b26-q046",
+      "topic": "Noun and preposition combinations",
+      "question": "We are looking for a practical solution ___ this communication gap.",
+      "options": [
+        "on",
+        "of",
+        "to",
+        "with"
+      ],
+      "correct": 2,
+      "explanation": "Solution to introduce el problema que se resuelve.",
+      "translation": "Buscamos una solución práctica para esta carencia de comunicación."
+    },
+    {
+      "id": "b26-q047",
+      "topic": "Noun and preposition combinations",
+      "question": "The customer requested an update ___ the open actions.",
+      "options": [
+        "for",
+        "of",
+        "with",
+        "on"
+      ],
+      "correct": 3,
+      "explanation": "An update on something es una actualización acerca de ese asunto.",
+      "translation": "El cliente solicitó una actualización sobre las acciones pendientes."
+    },
+    {
+      "id": "b26-q048",
+      "topic": "Noun and preposition combinations",
+      "question": "We received a request ___ additional clarification.",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "of"
+      ],
+      "correct": 1,
+      "explanation": "Request for introduce aquello que se solicita.",
+      "translation": "Recibimos una solicitud de aclaración adicional."
+    },
+    {
+      "id": "b26-q049",
+      "topic": "Noun and preposition combinations",
+      "question": "The call clarified the difference ___ a draft and a final report.",
+      "options": [
+        "between",
+        "among",
+        "to",
+        "with"
+      ],
+      "correct": 0,
+      "explanation": "Between se usa para distinguir dos elementos concretos.",
+      "translation": "La llamada aclaró la diferencia entre un borrador y un informe final."
+    },
+    {
+      "id": "b26-q050",
+      "topic": "Noun and preposition combinations",
+      "question": "The account owner raised a concern ___ the proposed wording.",
+      "options": [
+        "to",
+        "of",
+        "with",
+        "about"
+      ],
+      "correct": 3,
+      "explanation": "A concern about introduce el asunto que preocupa.",
+      "translation": "El responsable de la cuenta expresó una preocupación sobre la redacción propuesta."
+    }
+  ]
+}

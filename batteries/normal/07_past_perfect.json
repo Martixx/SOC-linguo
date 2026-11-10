@@ -1,0 +1,848 @@
+{
+  "name": "07 · Past perfect · Normal",
+  "description": "60 preguntas sobre past perfect en contextos SOC y comunicación con clientes. Incluye anterioridad en el pasado, cronologías, negativas, preguntas, voz pasiva, participios y contraste con past simple.",
+  "category": "normal",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b07-pp-001",
+      "topic": "Past perfect · Earlier action before a past event",
+      "question": "By the time the client joined the call, we ___ the affected server.",
+      "options": [
+        "had isolated",
+        "isolated",
+        "have isolated",
+        "were isolating"
+      ],
+      "correct": 0,
+      "explanation": "El aislamiento ocurrió antes de que el cliente se uniera a la llamada. Para la acción anterior usamos had + participio: had isolated.",
+      "translation": "Cuando el cliente se incorporó a la llamada, ya habíamos aislado el servidor afectado."
+    },
+    {
+      "id": "b07-pp-002",
+      "topic": "Past perfect · Incident chronology",
+      "question": "The analyst discovered that the attacker ___ a hidden administrator account.",
+      "options": [
+        "created",
+        "had created",
+        "has created",
+        "was creating"
+      ],
+      "correct": 1,
+      "explanation": "La creación de la cuenta ocurrió antes del descubrimiento del analista; por eso usamos had created.",
+      "translation": "El analista descubrió que el atacante había creado una cuenta de administrador oculta."
+    },
+    {
+      "id": "b07-pp-003",
+      "topic": "Past perfect · Negative form",
+      "question": "We ___ this persistence technique before that incident.",
+      "options": [
+        "did not saw",
+        "have not seen",
+        "had not seen",
+        "were not seeing"
+      ],
+      "correct": 2,
+      "explanation": "Before that incident fija un punto de referencia pasado. Para indicar que algo no había ocurrido antes usamos had not + participio: had not seen.",
+      "translation": "No habíamos visto esta técnica de persistencia antes de aquel incidente."
+    },
+    {
+      "id": "b07-pp-004",
+      "topic": "Past perfect · Questions",
+      "question": "___ the team ___ the forensic evidence before the administrator wiped the device?",
+      "options": [
+        "Did / collected",
+        "Had / collect",
+        "Has / collected",
+        "Had / collected"
+      ],
+      "correct": 3,
+      "explanation": "Las preguntas en past perfect se forman con Had + sujeto + participio. La recogida debía producirse antes del borrado.",
+      "translation": "¿Había recopilado el equipo las evidencias forenses antes de que el administrador borrara el dispositivo?"
+    },
+    {
+      "id": "b07-pp-005",
+      "topic": "Past perfect · By + past deadline",
+      "question": "By midnight, the night shift ___ all the high-priority alerts.",
+      "options": [
+        "had reviewed",
+        "reviewed",
+        "has reviewed",
+        "was reviewed"
+      ],
+      "correct": 0,
+      "explanation": "By midnight marca una fecha límite pasada; had reviewed expresa que la revisión ya estaba terminada para entonces.",
+      "translation": "A medianoche, el turno de noche ya había revisado todas las alertas de alta prioridad."
+    },
+    {
+      "id": "b07-pp-006",
+      "topic": "Past perfect · Earlier action before a past event",
+      "question": "The user clicked the link after the email gateway ___ the message to the inbox.",
+      "options": [
+        "has delivered",
+        "had delivered",
+        "delivers",
+        "had deliver"
+      ],
+      "correct": 1,
+      "explanation": "La entrega del mensaje ocurrió antes del clic. Had delivered deja clara esa relación entre dos acciones pasadas.",
+      "translation": "El usuario hizo clic en el enlace después de que la pasarela de correo hubiera entregado el mensaje en la bandeja de entrada."
+    },
+    {
+      "id": "b07-pp-007",
+      "topic": "Past perfect · Already",
+      "question": "We ___ already ___ the password when the second alert fired.",
+      "options": [
+        "have / reset",
+        "did / reset",
+        "had / reset",
+        "had / resetted"
+      ],
+      "correct": 2,
+      "explanation": "Already suele colocarse entre had y el participio. El participio de reset es reset, no resetted.",
+      "translation": "Ya habíamos restablecido la contraseña cuando se activó la segunda alerta."
+    },
+    {
+      "id": "b07-pp-008",
+      "topic": "Past perfect · Incident chronology",
+      "question": "When we checked the EDR console, we found that the malware ___ the security sensor earlier.",
+      "options": [
+        "has disabled",
+        "was disable",
+        "had disable",
+        "had disabled"
+      ],
+      "correct": 3,
+      "explanation": "Earlier deja claro que la desactivación ocurrió antes de que revisáramos la consola; usamos had disabled.",
+      "translation": "Cuando revisamos la consola de EDR, descubrimos que el malware había desactivado antes el sensor de seguridad."
+    },
+    {
+      "id": "b07-pp-009",
+      "topic": "Past perfect · After and completed sequence",
+      "question": "After we ___ the alert as a false positive, we closed the ticket.",
+      "options": [
+        "had confirmed",
+        "have confirmed",
+        "confirmed yesterday",
+        "had confirm"
+      ],
+      "correct": 0,
+      "explanation": "Had confirmed presenta la confirmación como la acción completada antes del cierre del ticket.",
+      "translation": "Después de haber confirmado que la alerta era un falso positivo, cerramos el ticket."
+    },
+    {
+      "id": "b07-pp-010",
+      "topic": "Past perfect · Client explanations",
+      "question": "The client asked why the SOC ___ the incident to the crisis team.",
+      "options": [
+        "escalated tomorrow",
+        "had escalated",
+        "has escalated",
+        "had escalate"
+      ],
+      "correct": 1,
+      "explanation": "La escalada ocurrió antes de que el cliente preguntara. En estilo indirecto usamos had escalated.",
+      "translation": "El cliente preguntó por qué el SOC había escalado el incidente al equipo de crisis."
+    },
+    {
+      "id": "b07-pp-011",
+      "topic": "Past perfect · Cause in the past",
+      "question": "The logs were unavailable because the attacker ___ them before containment.",
+      "options": [
+        "deleted them tomorrow",
+        "has deleted",
+        "had deleted",
+        "was delete"
+      ],
+      "correct": 2,
+      "explanation": "El borrado explica una situación posterior en el pasado y ocurrió antes de la contención; por eso usamos had deleted.",
+      "translation": "Los logs no estaban disponibles porque el atacante los había borrado antes de la contención."
+    },
+    {
+      "id": "b07-pp-012",
+      "topic": "Past perfect · Before a past event",
+      "question": "Before the maintenance window began, we ___ every approved firewall exception.",
+      "options": [
+        "document",
+        "have documented",
+        "had document",
+        "had documented"
+      ],
+      "correct": 3,
+      "explanation": "La documentación quedó terminada antes de que comenzara la ventana de mantenimiento: had documented.",
+      "translation": "Antes de que comenzara la ventana de mantenimiento, habíamos documentado todas las excepciones de firewall aprobadas."
+    },
+    {
+      "id": "b07-pp-013",
+      "topic": "Past perfect · Client questions",
+      "question": "___ you ___ any security notifications before you contacted us?",
+      "options": [
+        "Had / received",
+        "Did / received",
+        "Have / received",
+        "Had / receive"
+      ],
+      "correct": 0,
+      "explanation": "La recepción sería anterior al contacto, ambos en el pasado. La pregunta correcta es Had you received...?",
+      "translation": "¿Había recibido alguna notificación de seguridad antes de ponerse en contacto con nosotros?"
+    },
+    {
+      "id": "b07-pp-014",
+      "topic": "Past perfect · Just",
+      "question": "We ___ just ___ the incident timeline when a new indicator arrived.",
+      "options": [
+        "have / finished",
+        "had / finished",
+        "did / finished",
+        "had / finish"
+      ],
+      "correct": 1,
+      "explanation": "Just se coloca entre had y el participio para indicar que algo acababa de ocurrir antes de otra acción pasada.",
+      "translation": "Acabábamos de terminar la cronología del incidente cuando llegó un nuevo indicador."
+    },
+    {
+      "id": "b07-pp-015",
+      "topic": "Past perfect · Never before a past point",
+      "question": "Before that campaign, the threat actor ___ that IP address.",
+      "options": [
+        "never used tomorrow",
+        "has never use",
+        "had never used",
+        "had never use"
+      ],
+      "correct": 2,
+      "explanation": "Before that campaign sitúa la referencia en el pasado. Had never used expresa una experiencia inexistente hasta ese momento.",
+      "translation": "Antes de aquella campaña, el actor de amenazas nunca había utilizado esa dirección IP."
+    },
+    {
+      "id": "b07-pp-016",
+      "topic": "Past perfect · Passive voice",
+      "question": "The account ___ before multifactor authentication was enabled.",
+      "options": [
+        "had compromised",
+        "was compromise",
+        "has been compromised",
+        "had been compromised"
+      ],
+      "correct": 3,
+      "explanation": "En pasiva, el past perfect se forma con had been + participio: had been compromised.",
+      "translation": "La cuenta había sido comprometida antes de que se habilitara la autenticación multifactor."
+    },
+    {
+      "id": "b07-pp-017",
+      "topic": "Past perfect · By the time",
+      "question": "By the time containment was approved, the malware ___ to three hosts.",
+      "options": [
+        "had spread",
+        "spread tomorrow",
+        "has spread",
+        "had spreaded"
+      ],
+      "correct": 0,
+      "explanation": "La propagación ya había ocurrido cuando se aprobó la contención. El participio irregular de spread es spread.",
+      "translation": "Cuando se aprobó la contención, el malware ya se había propagado a tres hosts."
+    },
+    {
+      "id": "b07-pp-018",
+      "topic": "Past perfect · Negative form",
+      "question": "We ___ the memory acquisition when the workstation suddenly shut down.",
+      "options": [
+        "did not completed",
+        "had not completed",
+        "have not complete",
+        "had not complete"
+      ],
+      "correct": 1,
+      "explanation": "La adquisición aún no estaba terminada antes del apagado. Usamos had not + participio: had not completed.",
+      "translation": "No habíamos completado la adquisición de memoria cuando la estación de trabajo se apagó de repente."
+    },
+    {
+      "id": "b07-pp-019",
+      "topic": "Past perfect · Indirect client questions",
+      "question": "The customer wanted to know whether we ___ the malicious hashes.",
+      "options": [
+        "blocked next week",
+        "have block",
+        "had blocked",
+        "had block"
+      ],
+      "correct": 2,
+      "explanation": "El bloqueo es anterior a la petición de información del cliente; en estilo indirecto usamos had blocked.",
+      "translation": "El cliente quería saber si habíamos bloqueado los hashes maliciosos."
+    },
+    {
+      "id": "b07-pp-020",
+      "topic": "Past perfect · Completed preparation",
+      "question": "We ___ the service desk before we forced the password reset.",
+      "options": [
+        "have informed",
+        "had inform",
+        "were informed",
+        "had informed"
+      ],
+      "correct": 3,
+      "explanation": "La comunicación al service desk se completó antes del restablecimiento forzado; usamos had informed.",
+      "translation": "Habíamos informado al service desk antes de forzar el restablecimiento de la contraseña."
+    },
+    {
+      "id": "b07-pp-021",
+      "topic": "Past perfect · Error recognition",
+      "question": "Choose the correct version: “The suspicious connection had went through the proxy before we blocked it.”",
+      "options": [
+        "The suspicious connection had gone through the proxy before we blocked it.",
+        "The suspicious connection had went through the proxy before we blocked it.",
+        "The suspicious connection has went through the proxy before we blocked it.",
+        "The suspicious connection had go through the proxy before we blocked it."
+      ],
+      "correct": 0,
+      "explanation": "Después de had necesitamos el participio. Go es irregular: go–went–gone; por tanto, la forma correcta es had gone.",
+      "translation": "La conexión sospechosa había pasado por el proxy antes de que la bloqueáramos."
+    },
+    {
+      "id": "b07-pp-022",
+      "topic": "Past perfect · Irregular participles",
+      "question": "Before the handover, the analyst ___ a detailed summary for the next shift.",
+      "options": [
+        "had wrote",
+        "had written",
+        "wrote tomorrow",
+        "has write"
+      ],
+      "correct": 1,
+      "explanation": "Write es irregular: write–wrote–written. Después de had usamos el participio written.",
+      "translation": "Antes del traspaso, el analista había escrito un resumen detallado para el turno siguiente."
+    },
+    {
+      "id": "b07-pp-023",
+      "topic": "Past perfect · Irregular participles",
+      "question": "The engineer restored the server after we ___ a forensic snapshot.",
+      "options": [
+        "have took",
+        "had took",
+        "had taken",
+        "take"
+      ],
+      "correct": 2,
+      "explanation": "Take es irregular: take–took–taken. La instantánea se obtuvo antes de restaurar el servidor: had taken.",
+      "translation": "El ingeniero restauró el servidor después de que hubiéramos tomado una instantánea forense."
+    },
+    {
+      "id": "b07-pp-024",
+      "topic": "Past perfect · Verification before notification",
+      "question": "Once the SOC ___ the indicator, we notified the client.",
+      "options": [
+        "has verified",
+        "had verify",
+        "was verify",
+        "had verified"
+      ],
+      "correct": 3,
+      "explanation": "La verificación se completó antes de la notificación al cliente. Had verified marca esa anterioridad.",
+      "translation": "Una vez que el SOC había verificado el indicador, notificamos al cliente."
+    },
+    {
+      "id": "b07-pp-025",
+      "topic": "Past perfect · State up to a past point",
+      "question": "The client reported that several users ___ to log in since 09:00.",
+      "options": [
+        "had been unable",
+        "were unable tomorrow",
+        "have been unable",
+        "had unable"
+      ],
+      "correct": 0,
+      "explanation": "La imposibilidad de iniciar sesión comenzó a las 09:00 y continuó hasta el momento pasado del reporte; usamos had been unable.",
+      "translation": "El cliente informó de que varios usuarios no habían podido iniciar sesión desde las 09:00."
+    },
+    {
+      "id": "b07-pp-026",
+      "topic": "Past perfect · Evidence and cautious language",
+      "question": "We found no evidence that the attacker ___ sensitive data before containment.",
+      "options": [
+        "accesses",
+        "had accessed",
+        "has access",
+        "had access"
+      ],
+      "correct": 1,
+      "explanation": "El posible acceso sería anterior a la contención. Had accessed usa access como verbo y expresa esa acción previa.",
+      "translation": "No encontramos pruebas de que el atacante hubiera accedido a datos sensibles antes de la contención."
+    },
+    {
+      "id": "b07-pp-027",
+      "topic": "Past perfect · Wh- questions",
+      "question": "Why ___ the alert ___ earlier?",
+      "options": [
+        "did / not triggered",
+        "has / not trigger",
+        "had / not triggered",
+        "had / not trigger"
+      ],
+      "correct": 2,
+      "explanation": "En una pregunta negativa de past perfect usamos Why + had + sujeto + not + participio: Why had the alert not triggered...?",
+      "translation": "¿Por qué no se había activado antes la alerta?"
+    },
+    {
+      "id": "b07-pp-028",
+      "topic": "Past perfect · Shift handover",
+      "question": "By the time the morning shift started, the night shift ___ all critical cases.",
+      "options": [
+        "has handed over",
+        "handed over tomorrow",
+        "had hand over",
+        "had handed over"
+      ],
+      "correct": 3,
+      "explanation": "El traspaso ya estaba completado cuando empezó el turno de mañana; usamos had handed over.",
+      "translation": "Cuando empezó el turno de mañana, el turno de noche ya había traspasado todos los casos críticos."
+    },
+    {
+      "id": "b07-pp-029",
+      "topic": "Past perfect · Quality checks before delivery",
+      "question": "Before we sent the report, we ___ every hostname and timestamp.",
+      "options": [
+        "had checked",
+        "have checked",
+        "were checking tomorrow",
+        "had check"
+      ],
+      "correct": 0,
+      "explanation": "La comprobación se terminó antes del envío del informe; had checked expresa esa acción anterior.",
+      "translation": "Antes de enviar el informe, habíamos comprobado todos los nombres de host y marcas de tiempo."
+    },
+    {
+      "id": "b07-pp-030",
+      "topic": "Past perfect · Client explanations",
+      "question": "During the call, I explained that we ___ the persistence mechanism before reconnecting the host.",
+      "options": [
+        "removed next week",
+        "had removed",
+        "had remove",
+        "have removed"
+      ],
+      "correct": 1,
+      "explanation": "La eliminación ocurrió antes de la reconexión y antes de la explicación en la llamada. Usamos had removed.",
+      "translation": "Durante la llamada, expliqué que habíamos eliminado el mecanismo de persistencia antes de volver a conectar el host."
+    },
+    {
+      "id": "pp-001",
+      "topic": "Past perfect",
+      "question": "By the time the SOC arrived, the attacker ___ the server.",
+      "options": [
+        "left",
+        "has left",
+        "had left",
+        "was leaving"
+      ],
+      "correct": 2,
+      "explanation": "Past perfect marks the earlier of two past actions: the attacker left before the SOC arrived.",
+      "translation": "Cuando llegó el SOC, el atacante ya había abandonado el servidor."
+    },
+    {
+      "id": "pp-002",
+      "topic": "Past perfect",
+      "question": "The user couldn't log in because the administrator ___ the account.",
+      "options": [
+        "had disabled",
+        "has disabled",
+        "disabled tomorrow",
+        "was disable"
+      ],
+      "correct": 0,
+      "explanation": "The account was disabled before the user tried to log in, so we use had + past participle.",
+      "translation": "El usuario no pudo iniciar sesión porque el administrador había deshabilitado la cuenta."
+    },
+    {
+      "id": "pp-003",
+      "topic": "Past perfect",
+      "question": "When we checked the logs, someone ___ them.",
+      "options": [
+        "deletes",
+        "has deleted",
+        "was deleted",
+        "had deleted"
+      ],
+      "correct": 3,
+      "explanation": "The deletion happened before we checked the logs.",
+      "translation": "Cuando comprobamos los logs, alguien los había eliminado."
+    },
+    {
+      "id": "pp-004",
+      "topic": "Past perfect",
+      "question": "The alert triggered after the malware ___ a connection to the C2 server.",
+      "options": [
+        "had established",
+        "has established",
+        "establishes",
+        "was establish"
+      ],
+      "correct": 0,
+      "explanation": "The malware established the connection first; the alert triggered afterwards.",
+      "translation": "La alerta se activó después de que el malware hubiera establecido una conexión con el servidor C2."
+    },
+    {
+      "id": "pp-005",
+      "topic": "Past perfect",
+      "question": "By 09:00, the team ___ all affected endpoints.",
+      "options": [
+        "has isolated",
+        "had isolated",
+        "isolates",
+        "was isolating tomorrow"
+      ],
+      "correct": 1,
+      "explanation": "By + a past time commonly introduces an action already completed before that past deadline.",
+      "translation": "A las 09:00, el equipo ya había aislado todos los endpoints afectados."
+    },
+    {
+      "id": "pp-006",
+      "topic": "Past perfect",
+      "question": "We discovered that the attacker ___ several privileged accounts.",
+      "options": [
+        "compromised tomorrow",
+        "has compromise",
+        "had compromised",
+        "was compromised"
+      ],
+      "correct": 2,
+      "explanation": "The compromise occurred before we discovered it.",
+      "translation": "Descubrimos que el atacante había comprometido varias cuentas privilegiadas."
+    },
+    {
+      "id": "pp-007",
+      "topic": "Past perfect",
+      "question": "The incident was escalated because the analyst ___ lateral movement.",
+      "options": [
+        "had confirmed",
+        "has confirmed",
+        "confirms",
+        "was confirm"
+      ],
+      "correct": 0,
+      "explanation": "The analyst confirmed lateral movement before the incident was escalated.",
+      "translation": "El incidente se escaló porque el analista había confirmado movimiento lateral."
+    },
+    {
+      "id": "pp-008",
+      "topic": "Past perfect",
+      "question": "After the team ___ the malicious process, network traffic returned to normal.",
+      "options": [
+        "has stopped",
+        "stops",
+        "had stopped",
+        "was stop"
+      ],
+      "correct": 2,
+      "explanation": "The team stopped the process before traffic returned to normal.",
+      "translation": "Después de que el equipo hubiera detenido el proceso malicioso, el tráfico de red volvió a la normalidad."
+    },
+    {
+      "id": "pp-009",
+      "topic": "Past perfect",
+      "question": "The customer reported the issue after multiple users ___ the same error.",
+      "options": [
+        "had experienced",
+        "have experienced",
+        "experience",
+        "were experience"
+      ],
+      "correct": 0,
+      "explanation": "The users experienced the error before the customer reported it.",
+      "translation": "El cliente informó del problema después de que varios usuarios hubieran experimentado el mismo error."
+    },
+    {
+      "id": "pp-010",
+      "topic": "Past perfect",
+      "question": "When the forensic image was created, the disk ___ already ___.",
+      "options": [
+        "has / changed",
+        "had / been modified",
+        "was / modifying",
+        "did / modify"
+      ],
+      "correct": 1,
+      "explanation": "Had been modified is past perfect passive: the disk was modified before the image was created.",
+      "translation": "Cuando se creó la imagen forense, el disco ya había sido modificado."
+    },
+    {
+      "id": "pp-011",
+      "topic": "Past perfect vs past simple",
+      "question": "Yesterday we ___ the host after we ___ malicious activity.",
+      "options": [
+        "isolated / had confirmed",
+        "had isolated / confirmed",
+        "have isolated / had confirmed",
+        "isolate / confirmed"
+      ],
+      "correct": 0,
+      "explanation": "We use past simple for the later action and past perfect for the earlier one.",
+      "translation": "Ayer aislamos el host después de haber confirmado actividad maliciosa."
+    },
+    {
+      "id": "pp-012",
+      "topic": "Past perfect vs past simple",
+      "question": "The attacker ___ the file before the DLP rule ___ the transfer.",
+      "options": [
+        "downloaded / had blocked",
+        "had downloaded / blocked",
+        "has downloaded / blocks",
+        "was downloading / had block"
+      ],
+      "correct": 1,
+      "explanation": "The download happened first, so it takes past perfect; the rule blocked the later transfer in past simple.",
+      "translation": "El atacante había descargado el archivo antes de que la regla DLP bloqueara la transferencia."
+    },
+    {
+      "id": "pp-013",
+      "topic": "Past perfect vs past simple",
+      "question": "When Marta ___ the meeting, the customer ___ the evidence already.",
+      "options": [
+        "joined / had reviewed",
+        "had joined / reviewed",
+        "joins / has reviewed",
+        "was joining / had review"
+      ],
+      "correct": 0,
+      "explanation": "The customer reviewed the evidence before Marta joined the meeting.",
+      "translation": "Cuando Marta se unió a la reunión, el cliente ya había revisado las evidencias."
+    },
+    {
+      "id": "pp-014",
+      "topic": "Past perfect vs past simple",
+      "question": "The service ___ because nobody ___ the expired certificate.",
+      "options": [
+        "had failed / replaced",
+        "failed / had replaced",
+        "failed / had replaced not",
+        "failed / had not replaced"
+      ],
+      "correct": 3,
+      "explanation": "The certificate was not replaced before the service failed. Use had not + participle.",
+      "translation": "El servicio falló porque nadie había sustituido el certificado caducado."
+    },
+    {
+      "id": "pp-015",
+      "topic": "Past perfect vs past simple",
+      "question": "After the vendor ___ the patch, we ___ it in the test environment.",
+      "options": [
+        "had released / deployed",
+        "released / had deployed",
+        "has released / deploy",
+        "was releasing / had deploy"
+      ],
+      "correct": 0,
+      "explanation": "The vendor released the patch first; we deployed it afterwards.",
+      "translation": "Después de que el proveedor publicara el parche, lo desplegamos en el entorno de pruebas."
+    },
+    {
+      "id": "pp-016",
+      "topic": "Past perfect negatives",
+      "question": "The investigation remained open because we ___ the root cause.",
+      "options": [
+        "hadn't identified",
+        "haven't identified yesterday",
+        "didn't identified",
+        "weren't identify"
+      ],
+      "correct": 0,
+      "explanation": "Hadn't identified describes something not completed before a past reference point.",
+      "translation": "La investigación permaneció abierta porque no habíamos identificado la causa raíz."
+    },
+    {
+      "id": "pp-017",
+      "topic": "Past perfect negatives",
+      "question": "The analyst couldn't validate the alert because the customer ___ the requested logs.",
+      "options": [
+        "hasn't sent yesterday",
+        "hadn't sent",
+        "didn't sent",
+        "wasn't send"
+      ],
+      "correct": 1,
+      "explanation": "The logs had not been sent before the analyst tried to validate the alert.",
+      "translation": "El analista no pudo validar la alerta porque el cliente no había enviado los logs solicitados."
+    },
+    {
+      "id": "pp-018",
+      "topic": "Past perfect questions",
+      "question": "___ the user ___ the password before the attack started?",
+      "options": [
+        "Did / changed",
+        "Has / change",
+        "Had / changed",
+        "Was / changing"
+      ],
+      "correct": 2,
+      "explanation": "Past perfect questions use Had + subject + past participle.",
+      "translation": "¿Había cambiado el usuario la contraseña antes de que comenzara el ataque?"
+    },
+    {
+      "id": "pp-019",
+      "topic": "Past perfect questions",
+      "question": "How many systems ___ the attacker ___ before we blocked the account?",
+      "options": [
+        "had / accessed",
+        "has / access",
+        "did / accessed",
+        "was / access"
+      ],
+      "correct": 0,
+      "explanation": "Use had + subject + past participle to ask about an action completed before another past action.",
+      "translation": "¿A cuántos sistemas había accedido el atacante antes de que bloqueáramos la cuenta?"
+    },
+    {
+      "id": "pp-020",
+      "topic": "Past perfect questions",
+      "question": "Why ___ the monitoring tool ___ the connection earlier?",
+      "options": [
+        "didn't / detected",
+        "hadn't / detected",
+        "hasn't / detect",
+        "wasn't / detected"
+      ],
+      "correct": 1,
+      "explanation": "The question asks why detection had not occurred before a later past point.",
+      "translation": "¿Por qué la herramienta de monitorización no había detectado antes la conexión?"
+    },
+    {
+      "id": "pp-021",
+      "topic": "Irregular participles",
+      "question": "The attacker had ___ the stolen credentials on several systems.",
+      "options": [
+        "use",
+        "used",
+        "using",
+        "uses"
+      ],
+      "correct": 1,
+      "explanation": "The past participle of use is used.",
+      "translation": "El atacante había utilizado las credenciales robadas en varios sistemas."
+    },
+    {
+      "id": "pp-022",
+      "topic": "Irregular participles",
+      "question": "The logs had ___ missing before the backup started.",
+      "options": [
+        "go",
+        "went",
+        "gone",
+        "going"
+      ],
+      "correct": 2,
+      "explanation": "The past participle of go is gone: had gone missing.",
+      "translation": "Los logs habían desaparecido antes de que comenzara la copia de seguridad."
+    },
+    {
+      "id": "pp-023",
+      "topic": "Irregular participles",
+      "question": "The malware had ___ a persistence mechanism in the registry.",
+      "options": [
+        "write",
+        "wrote",
+        "written",
+        "writing"
+      ],
+      "correct": 2,
+      "explanation": "The past participle of write is written.",
+      "translation": "El malware había escrito un mecanismo de persistencia en el registro."
+    },
+    {
+      "id": "pp-024",
+      "topic": "Irregular participles",
+      "question": "Someone had ___ the firewall rule before the incident.",
+      "options": [
+        "change",
+        "changed",
+        "chose",
+        "changing"
+      ],
+      "correct": 1,
+      "explanation": "Change is regular: change, changed, changed.",
+      "translation": "Alguien había cambiado la regla del firewall antes del incidente."
+    },
+    {
+      "id": "pp-025",
+      "topic": "Irregular participles",
+      "question": "The user had ___ the phishing attachment before the warning arrived.",
+      "options": [
+        "open",
+        "opened",
+        "opening",
+        "opens"
+      ],
+      "correct": 1,
+      "explanation": "Open is regular: open, opened, opened.",
+      "translation": "El usuario había abierto el adjunto de phishing antes de que llegara el aviso."
+    },
+    {
+      "id": "pp-026",
+      "topic": "Natural SOC English",
+      "question": "Choose the most natural sentence.",
+      "options": [
+        "The attack had began before detection.",
+        "The attack has begun before we detected it yesterday.",
+        "The attack had begun before we detected it.",
+        "The attack was begin before detected."
+      ],
+      "correct": 2,
+      "explanation": "The past participle of begin is begun, and past perfect marks the earlier action.",
+      "translation": "El ataque había comenzado antes de que lo detectáramos."
+    },
+    {
+      "id": "pp-027",
+      "topic": "Natural SOC English",
+      "question": "Choose the most natural sentence.",
+      "options": [
+        "By the time we called, the user had already reset the password.",
+        "By the time we had called, the user reset already the password.",
+        "When we call, the user had reset the password yesterday.",
+        "The user had reset already before we call."
+      ],
+      "correct": 0,
+      "explanation": "Already normally appears between had and the participle: had already reset.",
+      "translation": "Cuando llamamos, el usuario ya había restablecido la contraseña."
+    },
+    {
+      "id": "pp-028",
+      "topic": "Natural SOC English",
+      "question": "Choose the most natural incident update.",
+      "options": [
+        "We had found the IOC now.",
+        "We found yesterday an IOC that had appeared in the earlier logs.",
+        "We have found yesterday an IOC.",
+        "We had been find an IOC yesterday."
+      ],
+      "correct": 1,
+      "explanation": "Found is the completed action yesterday; had appeared describes the earlier occurrence in the logs.",
+      "translation": "Ayer encontramos un IOC que había aparecido en los logs anteriores."
+    },
+    {
+      "id": "pp-029",
+      "topic": "Mixed review",
+      "question": "We ___ no evidence when we closed the initial alert, but the next day the customer sent new logs.",
+      "options": [
+        "have found",
+        "had found",
+        "are finding",
+        "find"
+      ],
+      "correct": 1,
+      "explanation": "At the past moment when the alert was closed, no evidence had been found.",
+      "translation": "No habíamos encontrado evidencias cuando cerramos la alerta inicial, pero al día siguiente el cliente envió nuevos logs."
+    },
+    {
+      "id": "pp-030",
+      "topic": "Mixed review",
+      "question": "By the time the account was disabled, the attacker ___ access to three applications.",
+      "options": [
+        "had gained",
+        "has gained",
+        "gains",
+        "was gain"
+      ],
+      "correct": 0,
+      "explanation": "The attacker gained access before the account was disabled.",
+      "translation": "Cuando se deshabilitó la cuenta, el atacante ya había obtenido acceso a tres aplicaciones."
+    }
+  ]
+}

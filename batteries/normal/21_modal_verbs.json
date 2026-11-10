@@ -1,0 +1,708 @@
+{
+  "name": "21 · Modal verbs · Normal",
+  "description": "50 preguntas normales sobre obligación, consejo, posibilidad, deducción, permiso, capacidad y modales de pasado en contextos SOC y de comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b21-q001",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "The handover note says the on-call analyst ___ acknowledge the case before 18:00.",
+      "options": [
+        "must to",
+        "must",
+        "musts",
+        "is must"
+      ],
+      "correct": 1,
+      "explanation": "Después de must usamos el verbo en forma base, sin to: must acknowledge.",
+      "translation": "La nota de traspaso dice que el analista de guardia debe confirmar la recepción del caso antes de las 18:00."
+    },
+    {
+      "id": "b21-q002",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "Because the client moved the call to 09:00, we ___ join earlier than planned.",
+      "options": [
+        "have join",
+        "have to joining",
+        "must to",
+        "have to"
+      ],
+      "correct": 3,
+      "explanation": "Have to expresa necesidad y va seguido de infinitivo con to: have to join.",
+      "translation": "Como el cliente adelantó la llamada a las 09:00, tenemos que conectarnos antes de lo previsto."
+    },
+    {
+      "id": "b21-q003",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "The confidentiality notice is explicit: you ___ forward this attachment outside the approved group.",
+      "options": [
+        "must not",
+        "do not have to",
+        "must not to",
+        "are not must"
+      ],
+      "correct": 0,
+      "explanation": "Must not expresa prohibición; don’t have to solo indica que algo no es necesario.",
+      "translation": "El aviso de confidencialidad es explícito: no debes reenviar este adjunto fuera del grupo autorizado."
+    },
+    {
+      "id": "b21-q004",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "I already added the timeline to the report, so you ___ add it again.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "don't have add",
+        "haven't to"
+      ],
+      "correct": 0,
+      "explanation": "Don’t have to expresa ausencia de obligación: no es necesario repetir la acción.",
+      "translation": "Ya añadí la cronología al informe, así que no tienes que volver a añadirla."
+    },
+    {
+      "id": "b21-q005",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "The customer has accepted the first draft, so we ___ rewrite the introduction.",
+      "options": [
+        "needn't to",
+        "needn't",
+        "mustn't",
+        "don't need rewrite"
+      ],
+      "correct": 1,
+      "explanation": "Needn’t va seguido de la forma base y significa que no es necesario hacer algo.",
+      "translation": "El cliente ha aceptado el primer borrador, así que no necesitamos reescribir la introducción."
+    },
+    {
+      "id": "b21-q006",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "Yesterday, the analyst ___ contact the client because the usual coordinator was unavailable.",
+      "options": [
+        "had to",
+        "musted",
+        "has to",
+        "had contact"
+      ],
+      "correct": 0,
+      "explanation": "Para expresar obligación en un momento pasado usamos had to, no una forma pasada de must.",
+      "translation": "Ayer, el analista tuvo que contactar con el cliente porque el coordinador habitual no estaba disponible."
+    },
+    {
+      "id": "b21-q007",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "If the meeting moves to Friday, we ___ update the agenda tomorrow.",
+      "options": [
+        "will must",
+        "will have to",
+        "will have update",
+        "have to will"
+      ],
+      "correct": 1,
+      "explanation": "Para una obligación futura usamos will have to + forma base.",
+      "translation": "Si la reunión pasa al viernes, mañana tendremos que actualizar el orden del día."
+    },
+    {
+      "id": "b21-q008",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "All customer-facing summaries ___ be reviewed before they are sent.",
+      "options": [
+        "must to",
+        "have",
+        "must",
+        "are must"
+      ],
+      "correct": 2,
+      "explanation": "En la pasiva modal usamos modal + be + participio: must be reviewed.",
+      "translation": "Todos los resúmenes destinados al cliente deben revisarse antes de enviarse."
+    },
+    {
+      "id": "b21-q009",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "Choose the sentence that means “it is not necessary to call again.”",
+      "options": [
+        "You mustn't call again.",
+        "You don't have call again.",
+        "You mustn't to call again.",
+        "You don't have to call again."
+      ],
+      "correct": 3,
+      "explanation": "Don’t have to indica falta de necesidad; mustn’t expresa prohibición.",
+      "translation": "No tienes que volver a llamar."
+    },
+    {
+      "id": "b21-q010",
+      "topic": "Obligation, necessity and prohibition",
+      "question": "The invitation is optional; attendees ___ keep their cameras on.",
+      "options": [
+        "must not",
+        "do not need",
+        "need not to",
+        "do not need to"
+      ],
+      "correct": 3,
+      "explanation": "Do not need to + verbo expresa que una acción no es necesaria.",
+      "translation": "La invitación es opcional; los asistentes no tienen que mantener la cámara encendida."
+    },
+    {
+      "id": "b21-q011",
+      "topic": "Advice, expectation and arrangements",
+      "question": "We have only preliminary information, so we ___ describe the incident as confirmed.",
+      "options": [
+        "shouldn't",
+        "shouldn't to",
+        "don't should",
+        "aren't should"
+      ],
+      "correct": 0,
+      "explanation": "Shouldn’t + forma base expresa consejo negativo: shouldn’t describe.",
+      "translation": "Solo tenemos información preliminar, así que no deberíamos describir el incidente como confirmado."
+    },
+    {
+      "id": "b21-q012",
+      "topic": "Advice, expectation and arrangements",
+      "question": "The message is clear, but you ___ add one sentence explaining the next step.",
+      "options": [
+        "should to",
+        "are should",
+        "should adding",
+        "should"
+      ],
+      "correct": 3,
+      "explanation": "Should va seguido de la forma base y se usa aquí para dar una recomendación.",
+      "translation": "El mensaje está claro, pero deberías añadir una frase que explique el siguiente paso."
+    },
+    {
+      "id": "b21-q013",
+      "topic": "Advice, expectation and arrangements",
+      "question": "To make the update easier to follow, the summary ___ include the time of the next call.",
+      "options": [
+        "ought to",
+        "ought",
+        "ought include",
+        "oughts to"
+      ],
+      "correct": 0,
+      "explanation": "Ought to va seguido de la forma base: ought to include.",
+      "translation": "Para que la actualización sea más fácil de seguir, el resumen debería incluir la hora de la próxima llamada."
+    },
+    {
+      "id": "b21-q014",
+      "topic": "Advice, expectation and arrangements",
+      "question": "The client waited all morning. We ___ the postponement sooner.",
+      "options": [
+        "should have announced",
+        "should announce yesterday",
+        "should have announce",
+        "should announced"
+      ],
+      "correct": 0,
+      "explanation": "Should have + participio expresa que una acción pasada habría sido recomendable.",
+      "translation": "El cliente esperó toda la mañana. Deberíamos haber anunciado antes el aplazamiento."
+    },
+    {
+      "id": "b21-q015",
+      "topic": "Advice, expectation and arrangements",
+      "question": "The date was not certain, so we ___ delivery by Friday.",
+      "options": [
+        "shouldn't promise yesterday",
+        "shouldn't have promised",
+        "shouldn't have promise",
+        "hadn't should promise"
+      ],
+      "correct": 1,
+      "explanation": "Shouldn’t have + participio critica o lamenta una acción pasada.",
+      "translation": "La fecha no era segura, así que no deberíamos haber prometido la entrega para el viernes."
+    },
+    {
+      "id": "b21-q016",
+      "topic": "Advice, expectation and arrangements",
+      "question": "According to the rota, Elena ___ lead today’s customer call.",
+      "options": [
+        "supposes to",
+        "is supposed to",
+        "is suppose to",
+        "should supposed to"
+      ],
+      "correct": 1,
+      "explanation": "Be supposed to expresa un acuerdo o expectativa prevista: is supposed to lead.",
+      "translation": "Según el cuadrante, se supone que Elena dirige la llamada de hoy con el cliente."
+    },
+    {
+      "id": "b21-q017",
+      "topic": "Advice, expectation and arrangements",
+      "question": "The revised report ___ be ready by noon if the final review stays on schedule.",
+      "options": [
+        "should",
+        "should to",
+        "should being",
+        "is should"
+      ],
+      "correct": 0,
+      "explanation": "Should puede expresar una expectativa razonable y va seguido de la forma base.",
+      "translation": "El informe revisado debería estar listo al mediodía si la revisión final sigue según lo previsto."
+    },
+    {
+      "id": "b21-q018",
+      "topic": "Advice, expectation and arrangements",
+      "question": "The call starts in two minutes; we ___ check that the presentation opens correctly.",
+      "options": [
+        "had better to",
+        "would better",
+        "better to",
+        "had better"
+      ],
+      "correct": 3,
+      "explanation": "Had better + forma base da un consejo urgente: had better check.",
+      "translation": "La llamada empieza en dos minutos; será mejor que comprobemos que la presentación se abre correctamente."
+    },
+    {
+      "id": "b21-q019",
+      "topic": "Advice, expectation and arrangements",
+      "question": "Which question asks for advice correctly?",
+      "options": [
+        "Do I should send the revised summary now?",
+        "Should I send the revised summary now?",
+        "Should I to send the revised summary now?",
+        "Am I should send the revised summary now?"
+      ],
+      "correct": 1,
+      "explanation": "En preguntas con should, el modal va antes del sujeto y el verbo queda en forma base.",
+      "translation": "¿Debería enviar ahora el resumen revisado?"
+    },
+    {
+      "id": "b21-q020",
+      "topic": "Advice, expectation and arrangements",
+      "question": "Until the user confirms the activity, we ___ assume that the login was malicious.",
+      "options": [
+        "ought not to",
+        "ought to not assuming",
+        "don't ought to",
+        "ought not assume to"
+      ],
+      "correct": 0,
+      "explanation": "La forma negativa es ought not to + verbo en forma base.",
+      "translation": "Hasta que el usuario confirme la actividad, no deberíamos suponer que el inicio de sesión fue malicioso."
+    },
+    {
+      "id": "b21-q021",
+      "topic": "Possibility and deduction",
+      "question": "The customer has not replied yet; they ___ be in another meeting.",
+      "options": [
+        "might",
+        "might to",
+        "might are",
+        "are might"
+      ],
+      "correct": 0,
+      "explanation": "Might + forma base expresa posibilidad: might be.",
+      "translation": "El cliente todavía no ha respondido; puede que esté en otra reunión."
+    },
+    {
+      "id": "b21-q022",
+      "topic": "Possibility and deduction",
+      "question": "A formatting change ___ have caused the table to move onto the next page.",
+      "options": [
+        "could to",
+        "could",
+        "could has",
+        "can have caused yesterday"
+      ],
+      "correct": 1,
+      "explanation": "Could have + participio expresa una posible causa pasada.",
+      "translation": "Un cambio de formato podría haber hecho que la tabla pasara a la página siguiente."
+    },
+    {
+      "id": "b21-q023",
+      "topic": "Possibility and deduction",
+      "question": "If we send the update after office hours, the customer ___ not read it until tomorrow.",
+      "options": [
+        "may to",
+        "does may",
+        "may",
+        "may reads"
+      ],
+      "correct": 2,
+      "explanation": "May + forma base expresa posibilidad; la negación se coloca después del modal.",
+      "translation": "Si enviamos la actualización fuera del horario laboral, puede que el cliente no la lea hasta mañana."
+    },
+    {
+      "id": "b21-q024",
+      "topic": "Possibility and deduction",
+      "question": "The line is busy and I can hear voices; they ___ be discussing the case now.",
+      "options": [
+        "must to",
+        "must",
+        "must have",
+        "are must"
+      ],
+      "correct": 1,
+      "explanation": "Must be + -ing expresa una deducción fuerte sobre una acción en curso.",
+      "translation": "La línea está ocupada y oigo voces; deben de estar comentando el caso ahora."
+    },
+    {
+      "id": "b21-q025",
+      "topic": "Possibility and deduction",
+      "question": "This ___ be the final version: the title still says “Draft”.",
+      "options": [
+        "can't to",
+        "doesn't can",
+        "isn't can",
+        "can't"
+      ],
+      "correct": 3,
+      "explanation": "Can’t be expresa que algo parece imposible según la evidencia disponible.",
+      "translation": "Esta no puede ser la versión final: el título todavía dice «Borrador»."
+    },
+    {
+      "id": "b21-q026",
+      "topic": "Possibility and deduction",
+      "question": "The analyst is not on the call. She ___ have missed the updated invitation.",
+      "options": [
+        "must",
+        "must to",
+        "must has",
+        "has must"
+      ],
+      "correct": 0,
+      "explanation": "Must have + participio expresa una deducción fuerte sobre el pasado.",
+      "translation": "La analista no está en la llamada. Debe de haberse perdido la invitación actualizada."
+    },
+    {
+      "id": "b21-q027",
+      "topic": "Possibility and deduction",
+      "question": "The message arrived before we created this mailbox, so it ___ have come to this address.",
+      "options": [
+        "can't to",
+        "doesn't can",
+        "can't",
+        "couldn't came"
+      ],
+      "correct": 2,
+      "explanation": "Can’t have + participio expresa una deducción de imposibilidad en el pasado.",
+      "translation": "El mensaje llegó antes de que creáramos este buzón, así que no puede haber llegado a esta dirección."
+    },
+    {
+      "id": "b21-q028",
+      "topic": "Possibility and deduction",
+      "question": "The client ___ have misunderstood which document needed approval.",
+      "options": [
+        "may",
+        "may to",
+        "may has",
+        "might misunderstood"
+      ],
+      "correct": 0,
+      "explanation": "May have + participio expresa una posibilidad pasada.",
+      "translation": "Puede que el cliente haya entendido mal qué documento necesitaba aprobación."
+    },
+    {
+      "id": "b21-q029",
+      "topic": "Possibility and deduction",
+      "question": "Even after the clarification, the recipients ___ still need a short example.",
+      "options": [
+        "could to",
+        "could",
+        "could needing",
+        "are could"
+      ],
+      "correct": 1,
+      "explanation": "Could + forma base puede expresar una posibilidad presente o futura.",
+      "translation": "Incluso después de la aclaración, puede que los destinatarios sigan necesitando un ejemplo breve."
+    },
+    {
+      "id": "b21-q030",
+      "topic": "Possibility and deduction",
+      "question": "The user ___ have been aware that the session was still active.",
+      "options": [
+        "might not to",
+        "doesn't might",
+        "might not has",
+        "might not"
+      ],
+      "correct": 3,
+      "explanation": "Might not have + participio expresa una posibilidad negativa sobre el pasado.",
+      "translation": "Puede que el usuario no supiera que la sesión seguía activa."
+    },
+    {
+      "id": "b21-q031",
+      "topic": "Ability, permission and requests",
+      "question": "With the new link, the customer ___ access the report without requesting permission.",
+      "options": [
+        "can to",
+        "cans",
+        "can",
+        "is can"
+      ],
+      "correct": 2,
+      "explanation": "Can + forma base expresa capacidad o posibilidad práctica.",
+      "translation": "Con el nuevo enlace, el cliente puede acceder al informe sin solicitar permiso."
+    },
+    {
+      "id": "b21-q032",
+      "topic": "Ability, permission and requests",
+      "question": "___ you resend the screenshot at a higher resolution, please?",
+      "options": [
+        "Could",
+        "Could to",
+        "Do could",
+        "Are could"
+      ],
+      "correct": 0,
+      "explanation": "Could you + forma base es una petición cortés.",
+      "translation": "¿Podrías reenviar la captura con mayor resolución, por favor?"
+    },
+    {
+      "id": "b21-q033",
+      "topic": "Ability, permission and requests",
+      "question": "___ I share my screen for a moment?",
+      "options": [
+        "May to",
+        "Do may",
+        "Am may",
+        "May"
+      ],
+      "correct": 3,
+      "explanation": "May I + forma base es una manera formal de pedir permiso.",
+      "translation": "¿Puedo compartir mi pantalla un momento?"
+    },
+    {
+      "id": "b21-q034",
+      "topic": "Ability, permission and requests",
+      "question": "Although the file was corrupted, we ___ recover the final page yesterday.",
+      "options": [
+        "could to",
+        "can",
+        "were able to",
+        "were able recover"
+      ],
+      "correct": 2,
+      "explanation": "Para un logro concreto en el pasado suele usarse was/were able to.",
+      "translation": "Aunque el archivo estaba dañado, ayer pudimos recuperar la última página."
+    },
+    {
+      "id": "b21-q035",
+      "topic": "Ability, permission and requests",
+      "question": "I ___ open the attachment earlier because the password had expired.",
+      "options": [
+        "couldn't to",
+        "didn't could",
+        "couldn't",
+        "wasn't can"
+      ],
+      "correct": 2,
+      "explanation": "Couldn’t + forma base expresa incapacidad en el pasado.",
+      "translation": "Antes no pude abrir el adjunto porque la contraseña había caducado."
+    },
+    {
+      "id": "b21-q036",
+      "topic": "Ability, permission and requests",
+      "question": "The recording ___ be reviewed after the meeting.",
+      "options": [
+        "can to",
+        "can",
+        "can be reviewing",
+        "is can"
+      ],
+      "correct": 1,
+      "explanation": "En una pasiva con modal usamos can + be + participio: can be reviewed.",
+      "translation": "La grabación puede revisarse después de la reunión."
+    },
+    {
+      "id": "b21-q037",
+      "topic": "Ability, permission and requests",
+      "question": "___ you confirm whether Tuesday still works for your team?",
+      "options": [
+        "Would to",
+        "Would",
+        "Do would",
+        "Are would"
+      ],
+      "correct": 1,
+      "explanation": "Would you + forma base formula una petición cortés.",
+      "translation": "¿Podría confirmar si el martes sigue viniéndole bien a su equipo?"
+    },
+    {
+      "id": "b21-q038",
+      "topic": "Ability, permission and requests",
+      "question": "___ we schedule a short follow-up for Thursday?",
+      "options": [
+        "Do shall",
+        "Shall to",
+        "Shall",
+        "Are shall"
+      ],
+      "correct": 2,
+      "explanation": "Shall we + forma base se usa para hacer una propuesta.",
+      "translation": "¿Programamos una breve reunión de seguimiento para el jueves?"
+    },
+    {
+      "id": "b21-q039",
+      "topic": "Ability, permission and requests",
+      "question": "___ I ask one more question about the timeline?",
+      "options": [
+        "Could to",
+        "Could",
+        "Did could",
+        "Am could"
+      ],
+      "correct": 1,
+      "explanation": "Could I + forma base pide permiso de manera cortés.",
+      "translation": "¿Podría hacer una pregunta más sobre la cronología?"
+    },
+    {
+      "id": "b21-q040",
+      "topic": "Ability, permission and requests",
+      "question": "Due to another appointment, I ___ attend the first half of the call tomorrow.",
+      "options": [
+        "won't can",
+        "will not able",
+        "won't be able to",
+        "don't can"
+      ],
+      "correct": 2,
+      "explanation": "Para capacidad futura usamos will/won’t be able to, no will can.",
+      "translation": "Debido a otra cita, mañana no podré asistir a la primera mitad de la llamada."
+    },
+    {
+      "id": "b21-q041",
+      "topic": "Past modals and modal patterns",
+      "question": "The decision was important, so we ___ it in the meeting notes.",
+      "options": [
+        "should have documented",
+        "should documented",
+        "should have document",
+        "should to have documented"
+      ],
+      "correct": 0,
+      "explanation": "Should have + participio indica que una acción pasada era recomendable pero no se realizó.",
+      "translation": "La decisión era importante, así que deberíamos haberla documentado en el acta de la reunión."
+    },
+    {
+      "id": "b21-q042",
+      "topic": "Past modals and modal patterns",
+      "question": "There was no deadline that day; we ___ until the client replied.",
+      "options": [
+        "could waited",
+        "could have wait",
+        "could to have waited",
+        "could have waited"
+      ],
+      "correct": 3,
+      "explanation": "Could have + participio expresa una posibilidad pasada que no se aprovechó.",
+      "translation": "Ese día no había ningún plazo; podríamos haber esperado hasta que respondiera el cliente."
+    },
+    {
+      "id": "b21-q043",
+      "topic": "Past modals and modal patterns",
+      "question": "I had already uploaded the file, but Marta sent another copy. She ___ it.",
+      "options": [
+        "didn't need send",
+        "needn't sent",
+        "needn't have sent",
+        "mustn't have send"
+      ],
+      "correct": 2,
+      "explanation": "Needn’t have + participio indica que se hizo algo que no era necesario.",
+      "translation": "Yo ya había subido el archivo, pero Marta envió otra copia. No hacía falta que la enviara."
+    },
+    {
+      "id": "b21-q044",
+      "topic": "Past modals and modal patterns",
+      "question": "He said he ___ the call if it had started thirty minutes later.",
+      "options": [
+        "would joined",
+        "would have join",
+        "would have joined",
+        "will have joined"
+      ],
+      "correct": 2,
+      "explanation": "En el resultado de un tercer condicional usamos would have + participio.",
+      "translation": "Dijo que se habría unido a la llamada si hubiera empezado treinta minutos más tarde."
+    },
+    {
+      "id": "b21-q045",
+      "topic": "Past modals and modal patterns",
+      "question": "The reply arrived late because it ___ have been delayed by the mail filter.",
+      "options": [
+        "might to",
+        "might",
+        "might has",
+        "might be delay"
+      ],
+      "correct": 1,
+      "explanation": "Might have been + participio expresa una posible explicación pasada en voz pasiva.",
+      "translation": "La respuesta llegó tarde porque podría haberse retrasado por el filtro de correo."
+    },
+    {
+      "id": "b21-q046",
+      "topic": "Past modals and modal patterns",
+      "question": "After the owner approved the request, we ___ share the document with the external reviewer.",
+      "options": [
+        "could to",
+        "were allowed sharing",
+        "were allowed to",
+        "allowed to"
+      ],
+      "correct": 2,
+      "explanation": "Be allowed to expresa permiso; en pasado plural usamos were allowed to.",
+      "translation": "Después de que el propietario aprobara la solicitud, se nos permitió compartir el documento con el revisor externo."
+    },
+    {
+      "id": "b21-q047",
+      "topic": "Past modals and modal patterns",
+      "question": "The client is already waiting, so we ___ delay the opening explanation any longer.",
+      "options": [
+        "hadn't better",
+        "had better not to",
+        "wouldn't better",
+        "had better not"
+      ],
+      "correct": 3,
+      "explanation": "La negativa es had better not + forma base.",
+      "translation": "El cliente ya está esperando, así que será mejor que no retrasemos más la explicación inicial."
+    },
+    {
+      "id": "b21-q048",
+      "topic": "Past modals and modal patterns",
+      "question": "The report contains details from a meeting only Ana attended; she ___ the source.",
+      "options": [
+        "must be yesterday",
+        "must have be",
+        "must to have been",
+        "must have been"
+      ],
+      "correct": 3,
+      "explanation": "Must have been expresa una deducción fuerte sobre una situación pasada.",
+      "translation": "El informe contiene detalles de una reunión a la que solo asistió Ana; ella debió de ser la fuente."
+    },
+    {
+      "id": "b21-q049",
+      "topic": "Past modals and modal patterns",
+      "question": "Choose the correctly formed passive sentence.",
+      "options": [
+        "The customer should informed before noon.",
+        "The customer should be inform before noon.",
+        "The customer should be informed before noon.",
+        "The customer should to be informed before noon."
+      ],
+      "correct": 2,
+      "explanation": "La pasiva con modal sigue modal + be + participio: should be informed.",
+      "translation": "Se debería informar al cliente antes del mediodía."
+    },
+    {
+      "id": "b21-q050",
+      "topic": "Past modals and modal patterns",
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "We may to need ask for a clearer screenshot.",
+        "We may need asking for a clearer screenshot.",
+        "We may needs to ask for a clearer screenshot.",
+        "We may need to ask for a clearer screenshot."
+      ],
+      "correct": 3,
+      "explanation": "Después de may va la forma base need; need puede ir seguido de infinitivo con to.",
+      "translation": "Puede que tengamos que pedir una captura más clara."
+    }
+  ]
+}

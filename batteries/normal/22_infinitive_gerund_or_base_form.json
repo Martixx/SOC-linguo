@@ -1,0 +1,708 @@
+{
+  "name": "22 · Infinitive, gerund or base form · Normal",
+  "description": "50 preguntas normales sobre infinitivo con to, gerundio y forma base en contextos SOC y de comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b22-q001",
+      "topic": "Infinitive after verbs",
+      "question": "We agreed ___ the revised timeline before the customer call.",
+      "options": [
+        "sending",
+        "send",
+        "to sending",
+        "to send"
+      ],
+      "correct": 3,
+      "explanation": "Agree va seguido de infinitivo con to: agree to send.",
+      "translation": "Acordamos enviar la cronología revisada antes de la llamada con el cliente."
+    },
+    {
+      "id": "b22-q002",
+      "topic": "Infinitive after verbs",
+      "question": "After reading the reply, the team decided ___ the case for one more day.",
+      "options": [
+        "keeping",
+        "keep",
+        "to keep",
+        "to keeping"
+      ],
+      "correct": 2,
+      "explanation": "Decide va seguido de infinitivo con to: decide to keep.",
+      "translation": "Después de leer la respuesta, el equipo decidió mantener el caso abierto un día más."
+    },
+    {
+      "id": "b22-q003",
+      "topic": "Infinitive after verbs",
+      "question": "We plan ___ the findings in a short meeting tomorrow.",
+      "options": [
+        "explaining",
+        "to explain",
+        "explain",
+        "to explaining"
+      ],
+      "correct": 1,
+      "explanation": "Plan va seguido de infinitivo con to.",
+      "translation": "Tenemos previsto explicar los hallazgos en una reunión breve mañana."
+    },
+    {
+      "id": "b22-q004",
+      "topic": "Infinitive after verbs",
+      "question": "I hope ___ the client’s approval this afternoon.",
+      "options": [
+        "receiving",
+        "receive",
+        "to receive",
+        "to receiving"
+      ],
+      "correct": 2,
+      "explanation": "Hope suele ir seguido de infinitivo con to cuando el sujeto espera hacer o recibir algo.",
+      "translation": "Espero recibir la aprobación del cliente esta tarde."
+    },
+    {
+      "id": "b22-q005",
+      "topic": "Infinitive after verbs",
+      "question": "The spokesperson refused ___ beyond the confirmed facts.",
+      "options": [
+        "to speculate",
+        "speculating",
+        "speculate",
+        "to speculating"
+      ],
+      "correct": 0,
+      "explanation": "Refuse va seguido de infinitivo con to.",
+      "translation": "El portavoz se negó a especular más allá de los hechos confirmados."
+    },
+    {
+      "id": "b22-q006",
+      "topic": "Infinitive after verbs",
+      "question": "Despite the short notice, we managed ___ the briefing on time.",
+      "options": [
+        "finishing",
+        "finish",
+        "to finishing",
+        "to finish"
+      ],
+      "correct": 3,
+      "explanation": "Manage va seguido de infinitivo con to: manage to finish.",
+      "translation": "A pesar del poco margen, conseguimos terminar la sesión informativa a tiempo."
+    },
+    {
+      "id": "b22-q007",
+      "topic": "Infinitive after verbs",
+      "question": "The first draft failed ___ who owned the next action.",
+      "options": [
+        "clarifying",
+        "to clarify",
+        "clarify",
+        "to clarifying"
+      ],
+      "correct": 1,
+      "explanation": "Fail, con el sentido de no conseguir hacer algo, va seguido de infinitivo con to.",
+      "translation": "El primer borrador no aclaró quién era responsable de la siguiente acción."
+    },
+    {
+      "id": "b22-q008",
+      "topic": "Infinitive after verbs",
+      "question": "We promised ___ the customer after the internal review.",
+      "options": [
+        "updating",
+        "update",
+        "to update",
+        "to updating"
+      ],
+      "correct": 2,
+      "explanation": "Promise va seguido de infinitivo con to.",
+      "translation": "Prometimos informar al cliente después de la revisión interna."
+    },
+    {
+      "id": "b22-q009",
+      "topic": "Infinitive after verbs",
+      "question": "The coordinator asked the client ___ the preferred meeting time.",
+      "options": [
+        "confirming",
+        "confirm",
+        "to confirm",
+        "to confirming"
+      ],
+      "correct": 2,
+      "explanation": "Ask someone to do something: ask + persona + infinitivo con to.",
+      "translation": "El coordinador pidió al cliente que confirmara la hora de reunión preferida."
+    },
+    {
+      "id": "b22-q010",
+      "topic": "Infinitive after verbs",
+      "question": "I want the analyst ___ the wording before we publish it.",
+      "options": [
+        "checking",
+        "to check",
+        "check",
+        "to checking"
+      ],
+      "correct": 1,
+      "explanation": "Want someone to do something: want + persona + infinitivo con to.",
+      "translation": "Quiero que el analista revise la redacción antes de que la publiquemos."
+    },
+    {
+      "id": "b22-q011",
+      "topic": "Gerund after verbs",
+      "question": "To protect customer information, avoid ___ full email addresses in the screenshot.",
+      "options": [
+        "showing",
+        "to show",
+        "show",
+        "to showing"
+      ],
+      "correct": 0,
+      "explanation": "Avoid va seguido de gerundio: avoid showing.",
+      "translation": "Para proteger la información del cliente, evita mostrar direcciones de correo completas en la captura."
+    },
+    {
+      "id": "b22-q012",
+      "topic": "Gerund after verbs",
+      "question": "The client suggested ___ the technical appendix separately.",
+      "options": [
+        "to send",
+        "send",
+        "to sending",
+        "sending"
+      ],
+      "correct": 3,
+      "explanation": "Suggest va seguido de gerundio cuando no mencionamos a la persona que hará la acción.",
+      "translation": "El cliente sugirió enviar el anexo técnico por separado."
+    },
+    {
+      "id": "b22-q013",
+      "topic": "Gerund after verbs",
+      "question": "We recommend ___ the summary aloud before the meeting.",
+      "options": [
+        "to read",
+        "read",
+        "to reading",
+        "reading"
+      ],
+      "correct": 3,
+      "explanation": "Recommend puede ir seguido de gerundio: recommend reading.",
+      "translation": "Recomendamos leer el resumen en voz alta antes de la reunión."
+    },
+    {
+      "id": "b22-q014",
+      "topic": "Gerund after verbs",
+      "question": "The team is considering ___ the follow-up to Monday.",
+      "options": [
+        "to move",
+        "move",
+        "moving",
+        "to moving"
+      ],
+      "correct": 2,
+      "explanation": "Consider va seguido de gerundio.",
+      "translation": "El equipo está considerando trasladar el seguimiento al lunes."
+    },
+    {
+      "id": "b22-q015",
+      "topic": "Gerund after verbs",
+      "question": "Please finish ___ the action list before you close the document.",
+      "options": [
+        "updating",
+        "to update",
+        "update",
+        "to updating"
+      ],
+      "correct": 0,
+      "explanation": "Finish va seguido de gerundio.",
+      "translation": "Termina de actualizar la lista de acciones antes de cerrar el documento, por favor."
+    },
+    {
+      "id": "b22-q016",
+      "topic": "Gerund after verbs",
+      "question": "Until we receive confirmation, we will keep ___ the status as provisional.",
+      "options": [
+        "to describe",
+        "describing",
+        "describe",
+        "to describing"
+      ],
+      "correct": 1,
+      "explanation": "Keep, con el sentido de continuar, va seguido de gerundio.",
+      "translation": "Hasta que recibamos confirmación, seguiremos describiendo el estado como provisional."
+    },
+    {
+      "id": "b22-q017",
+      "topic": "Gerund after verbs",
+      "question": "During the call, the user admitted ___ the unexpected link.",
+      "options": [
+        "to click",
+        "clicking",
+        "click",
+        "to clicking"
+      ],
+      "correct": 1,
+      "explanation": "Admit va seguido de gerundio para reconocer una acción.",
+      "translation": "Durante la llamada, el usuario admitió haber hecho clic en el enlace inesperado."
+    },
+    {
+      "id": "b22-q018",
+      "topic": "Gerund after verbs",
+      "question": "The supplier denied ___ any changes to the shared document.",
+      "options": [
+        "making",
+        "to make",
+        "make",
+        "to making"
+      ],
+      "correct": 0,
+      "explanation": "Deny va seguido de gerundio.",
+      "translation": "El proveedor negó haber realizado cambios en el documento compartido."
+    },
+    {
+      "id": "b22-q019",
+      "topic": "Gerund after verbs",
+      "question": "They postponed ___ the lessons learned until all attendees were available.",
+      "options": [
+        "to discuss",
+        "discuss",
+        "to discussing",
+        "discussing"
+      ],
+      "correct": 3,
+      "explanation": "Postpone va seguido de gerundio.",
+      "translation": "Aplazaron el debate sobre las lecciones aprendidas hasta que todos los asistentes estuvieran disponibles."
+    },
+    {
+      "id": "b22-q020",
+      "topic": "Gerund after verbs",
+      "question": "Would you mind ___ the final paragraph on screen?",
+      "options": [
+        "to display",
+        "display",
+        "displaying",
+        "to displaying"
+      ],
+      "correct": 2,
+      "explanation": "Would you mind va seguido de gerundio.",
+      "translation": "¿Te importaría mostrar el último párrafo en pantalla?"
+    },
+    {
+      "id": "b22-q021",
+      "topic": "Base form patterns",
+      "question": "We must ___ the customer’s wording exactly in the quotation.",
+      "options": [
+        "preserve",
+        "to preserve",
+        "preserving",
+        "preserved"
+      ],
+      "correct": 0,
+      "explanation": "Después de un modal como must usamos la forma base sin to.",
+      "translation": "Debemos conservar exactamente las palabras del cliente en la cita."
+    },
+    {
+      "id": "b22-q022",
+      "topic": "Base form patterns",
+      "question": "You should ___ the main conclusion near the top of the email.",
+      "options": [
+        "place",
+        "to place",
+        "placing",
+        "placed"
+      ],
+      "correct": 0,
+      "explanation": "Después de should usamos la forma base.",
+      "translation": "Deberías colocar la conclusión principal cerca del principio del correo."
+    },
+    {
+      "id": "b22-q023",
+      "topic": "Base form patterns",
+      "question": "This short example can ___ the difference more clearly.",
+      "options": [
+        "to show",
+        "show",
+        "showing",
+        "shown"
+      ],
+      "correct": 1,
+      "explanation": "Después de can usamos la forma base.",
+      "translation": "Este breve ejemplo puede mostrar la diferencia con mayor claridad."
+    },
+    {
+      "id": "b22-q024",
+      "topic": "Base form patterns",
+      "question": "Given the uncertainty, I would rather ___ for written confirmation.",
+      "options": [
+        "to wait",
+        "waiting",
+        "wait",
+        "waited"
+      ],
+      "correct": 2,
+      "explanation": "Would rather va seguido de la forma base sin to.",
+      "translation": "Dada la incertidumbre, preferiría esperar una confirmación por escrito."
+    },
+    {
+      "id": "b22-q025",
+      "topic": "Base form patterns",
+      "question": "The meeting starts soon; we had better ___ the correct deck.",
+      "options": [
+        "to open",
+        "opening",
+        "opened",
+        "open"
+      ],
+      "correct": 3,
+      "explanation": "Had better va seguido de la forma base.",
+      "translation": "La reunión empieza pronto; será mejor que abramos la presentación correcta."
+    },
+    {
+      "id": "b22-q026",
+      "topic": "Base form patterns",
+      "question": "Please let me ___ if the link does not work.",
+      "options": [
+        "know",
+        "to know",
+        "knowing",
+        "known"
+      ],
+      "correct": 0,
+      "explanation": "Let + persona va seguido de la forma base: let me know.",
+      "translation": "Avísame si el enlace no funciona, por favor."
+    },
+    {
+      "id": "b22-q027",
+      "topic": "Base form patterns",
+      "question": "The unclear title made several readers ___ the document was outdated.",
+      "options": [
+        "to think",
+        "thinking",
+        "think",
+        "thought"
+      ],
+      "correct": 2,
+      "explanation": "Make + persona + forma base: made readers think.",
+      "translation": "El título poco claro hizo pensar a varios lectores que el documento estaba desactualizado."
+    },
+    {
+      "id": "b22-q028",
+      "topic": "Base form patterns",
+      "question": "Why not ___ the client for an example of the expected format?",
+      "options": [
+        "to ask",
+        "asking",
+        "ask",
+        "asked"
+      ],
+      "correct": 2,
+      "explanation": "Después de Why not usamos la forma base.",
+      "translation": "¿Por qué no pedir al cliente un ejemplo del formato esperado?"
+    },
+    {
+      "id": "b22-q029",
+      "topic": "Base form patterns",
+      "question": "The revised note could ___ during the afternoon call.",
+      "options": [
+        "to be shared",
+        "be shared",
+        "being shared",
+        "be sharing it"
+      ],
+      "correct": 1,
+      "explanation": "La pasiva con modal usa modal + be + participio.",
+      "translation": "La nota revisada podría compartirse durante la llamada de la tarde."
+    },
+    {
+      "id": "b22-q030",
+      "topic": "Base form patterns",
+      "question": "The facilitator made us ___ the introduction because it was too long.",
+      "options": [
+        "to shorten",
+        "shortening",
+        "shortened",
+        "shorten"
+      ],
+      "correct": 3,
+      "explanation": "En voz activa, make + persona va seguido de la forma base.",
+      "translation": "El facilitador nos hizo acortar la introducción porque era demasiado larga."
+    },
+    {
+      "id": "b22-q031",
+      "topic": "Prepositions and gerunds",
+      "question": "The customer is interested in ___ a weekly written update.",
+      "options": [
+        "receiving",
+        "to receive",
+        "receive",
+        "to receiving"
+      ],
+      "correct": 0,
+      "explanation": "Después de una preposición como in usamos gerundio.",
+      "translation": "El cliente está interesado en recibir una actualización semanal por escrito."
+    },
+    {
+      "id": "b22-q032",
+      "topic": "Prepositions and gerunds",
+      "question": "Before ___ the report, check that every comment has been resolved.",
+      "options": [
+        "to send",
+        "sending",
+        "send",
+        "to sending"
+      ],
+      "correct": 1,
+      "explanation": "Después de before, cuando funciona como preposición, usamos gerundio.",
+      "translation": "Antes de enviar el informe, comprueba que se hayan resuelto todos los comentarios."
+    },
+    {
+      "id": "b22-q033",
+      "topic": "Prepositions and gerunds",
+      "question": "We can explain the issue without ___ confidential names.",
+      "options": [
+        "to reveal",
+        "reveal",
+        "revealing",
+        "to revealing"
+      ],
+      "correct": 2,
+      "explanation": "Después de without usamos gerundio.",
+      "translation": "Podemos explicar el problema sin revelar nombres confidenciales."
+    },
+    {
+      "id": "b22-q034",
+      "topic": "Prepositions and gerunds",
+      "question": "By ___ the actions by owner, the email becomes easier to scan.",
+      "options": [
+        "grouping",
+        "to group",
+        "group",
+        "to grouping"
+      ],
+      "correct": 0,
+      "explanation": "By + gerundio explica el método utilizado para lograr un resultado.",
+      "translation": "Al agrupar las acciones por responsable, el correo resulta más fácil de revisar."
+    },
+    {
+      "id": "b22-q035",
+      "topic": "Prepositions and gerunds",
+      "question": "The service manager is responsible for ___ the customer after each review.",
+      "options": [
+        "to update",
+        "update",
+        "to updating",
+        "updating"
+      ],
+      "correct": 3,
+      "explanation": "La expresión responsible for va seguida de gerundio.",
+      "translation": "El responsable del servicio se encarga de informar al cliente después de cada revisión."
+    },
+    {
+      "id": "b22-q036",
+      "topic": "Prepositions and gerunds",
+      "question": "We look forward to ___ your feedback on the revised draft.",
+      "options": [
+        "receiving",
+        "receive",
+        "to receive",
+        "to receiving"
+      ],
+      "correct": 0,
+      "explanation": "En look forward to, to es una preposición; por eso usamos gerundio.",
+      "translation": "Esperamos recibir sus comentarios sobre el borrador revisado."
+    },
+    {
+      "id": "b22-q037",
+      "topic": "Prepositions and gerunds",
+      "question": "After several years in customer operations, she is used to ___ difficult questions.",
+      "options": [
+        "handle",
+        "to handle",
+        "to handling",
+        "handling"
+      ],
+      "correct": 3,
+      "explanation": "Be used to significa estar acostumbrado y va seguido de nombre o gerundio.",
+      "translation": "Después de varios años en operaciones de clientes, está acostumbrada a gestionar preguntas difíciles."
+    },
+    {
+      "id": "b22-q038",
+      "topic": "Prepositions and gerunds",
+      "question": "One attendee objected to ___ the meeting without recording the decision.",
+      "options": [
+        "ending",
+        "end",
+        "to end",
+        "to ending"
+      ],
+      "correct": 0,
+      "explanation": "Object to va seguido de un nombre o gerundio; to es preposición.",
+      "translation": "Uno de los asistentes se opuso a terminar la reunión sin dejar constancia de la decisión."
+    },
+    {
+      "id": "b22-q039",
+      "topic": "Prepositions and gerunds",
+      "question": "I apologize for ___ the invitation to the wrong distribution list.",
+      "options": [
+        "to send",
+        "send",
+        "to sending",
+        "sending"
+      ],
+      "correct": 3,
+      "explanation": "Después de apologize for usamos gerundio.",
+      "translation": "Pido disculpas por haber enviado la invitación a la lista de distribución equivocada."
+    },
+    {
+      "id": "b22-q040",
+      "topic": "Prepositions and gerunds",
+      "question": "Instead of ___ for another email, let’s confirm the point during the call.",
+      "options": [
+        "to wait",
+        "waiting",
+        "wait",
+        "to waiting"
+      ],
+      "correct": 1,
+      "explanation": "Instead of va seguido de nombre o gerundio.",
+      "translation": "En lugar de esperar otro correo, confirmemos el punto durante la llamada."
+    },
+    {
+      "id": "b22-q041",
+      "topic": "Meaning changes and mixed structures",
+      "question": "The report is ready. Remember ___ it to the email before you send it.",
+      "options": [
+        "to attach",
+        "attaching",
+        "attach",
+        "to attaching"
+      ],
+      "correct": 0,
+      "explanation": "Remember to do se refiere a recordar una acción pendiente.",
+      "translation": "El informe está listo. Recuerda adjuntarlo al correo antes de enviarlo."
+    },
+    {
+      "id": "b22-q042",
+      "topic": "Meaning changes and mixed structures",
+      "question": "I remember ___ the same question during last month’s review.",
+      "options": [
+        "to answer",
+        "answering",
+        "answer",
+        "to answering"
+      ],
+      "correct": 1,
+      "explanation": "Remember doing se refiere al recuerdo de una acción pasada.",
+      "translation": "Recuerdo haber respondido a la misma pregunta durante la revisión del mes pasado."
+    },
+    {
+      "id": "b22-q043",
+      "topic": "Meaning changes and mixed structures",
+      "question": "Once the customer confirms receipt, reminders are no longer needed, so you can stop ___ them.",
+      "options": [
+        "to sending",
+        "send",
+        "sent",
+        "sending"
+      ],
+      "correct": 3,
+      "explanation": "Stop doing significa dejar de realizar una actividad.",
+      "translation": "Cuando el cliente confirme la recepción, los recordatorios dejarán de ser necesarios, así que puedes dejar de enviarlos."
+    },
+    {
+      "id": "b22-q044",
+      "topic": "Meaning changes and mixed structures",
+      "question": "On the way to the meeting room, I stopped ___ a call from the client.",
+      "options": [
+        "answering",
+        "to answer",
+        "answer",
+        "to answering"
+      ],
+      "correct": 1,
+      "explanation": "Stop to do significa interrumpir otra actividad para hacer algo.",
+      "translation": "De camino a la sala de reuniones, me detuve para responder a una llamada del cliente."
+    },
+    {
+      "id": "b22-q045",
+      "topic": "Meaning changes and mixed structures",
+      "question": "As a possible solution, try ___ the browser before reporting the display problem.",
+      "options": [
+        "to refreshing",
+        "refresh",
+        "refreshing",
+        "refreshed"
+      ],
+      "correct": 2,
+      "explanation": "Try doing propone probar un método para ver si funciona.",
+      "translation": "Como posible solución, prueba a actualizar el navegador antes de comunicar el problema de visualización."
+    },
+    {
+      "id": "b22-q046",
+      "topic": "Meaning changes and mixed structures",
+      "question": "I made an effort and tried ___ the project owner, but the call went to voicemail.",
+      "options": [
+        "to reaching",
+        "to reach",
+        "reach",
+        "reached"
+      ],
+      "correct": 1,
+      "explanation": "Try to do expresa el esfuerzo por conseguir una acción.",
+      "translation": "Hice el esfuerzo e intenté contactar con el responsable del proyecto, pero la llamada fue al buzón de voz."
+    },
+    {
+      "id": "b22-q047",
+      "topic": "Meaning changes and mixed structures",
+      "question": "Complete the standard formal expression used to introduce bad news: “We regret ___ you that today’s briefing has been postponed.”",
+      "options": [
+        "inform",
+        "to informing",
+        "to inform",
+        "informed"
+      ],
+      "correct": 2,
+      "explanation": "Regret to inform es una fórmula formal para comunicar una noticia desagradable ahora.",
+      "translation": "Lamentamos informarle de que la sesión informativa de hoy se ha aplazado."
+    },
+    {
+      "id": "b22-q048",
+      "topic": "Meaning changes and mixed structures",
+      "question": "She regrets ___ the unreviewed draft with the wider group.",
+      "options": [
+        "sharing",
+        "to share",
+        "share",
+        "to sharing"
+      ],
+      "correct": 0,
+      "explanation": "Regret doing expresa arrepentimiento por una acción pasada.",
+      "translation": "Ella lamenta haber compartido el borrador sin revisar con el grupo más amplio."
+    },
+    {
+      "id": "b22-q049",
+      "topic": "Meaning changes and mixed structures",
+      "question": "The new permissions allow external reviewers ___ comments without editing the text.",
+      "options": [
+        "adding",
+        "to add",
+        "add",
+        "to adding"
+      ],
+      "correct": 1,
+      "explanation": "Allow someone to do something: allow + persona + infinitivo con to.",
+      "translation": "Los nuevos permisos permiten a los revisores externos añadir comentarios sin editar el texto."
+    },
+    {
+      "id": "b22-q050",
+      "topic": "Meaning changes and mixed structures",
+      "question": "A clear subject line can prevent recipients from ___ the update.",
+      "options": [
+        "to overlook",
+        "overlook",
+        "to overlooking",
+        "overlooking"
+      ],
+      "correct": 3,
+      "explanation": "Prevent someone from doing something: from + gerundio.",
+      "translation": "Un asunto claro puede evitar que los destinatarios pasen por alto la actualización."
+    }
+  ]
+}

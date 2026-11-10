@@ -1,0 +1,568 @@
+{
+  "name": "27 · Relative clauses · Normal",
+  "description": "40 preguntas normales sobre relative clauses en contextos SOC y de comunicación con clientes.",
+  "category": "normal",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b27-q001",
+      "topic": "Defining relative clauses",
+      "question": "The analyst ___ led the customer call will send the written summary.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "correct": 1,
+      "explanation": "Who introduce una relativa especificativa cuyo antecedente es una persona y funciona como sujeto de led.",
+      "translation": "El analista que dirigió la llamada con el cliente enviará el resumen por escrito."
+    },
+    {
+      "id": "b27-q002",
+      "topic": "Defining relative clauses",
+      "question": "Please attach the screenshot ___ shows the full error message.",
+      "options": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "correct": 0,
+      "explanation": "Which se refiere a una cosa, the screenshot, y es el sujeto de shows.",
+      "translation": "Adjunta, por favor, la captura de pantalla que muestra el mensaje de error completo."
+    },
+    {
+      "id": "b27-q003",
+      "topic": "Defining relative clauses",
+      "question": "We contacted the customer ___ account appeared in the alert.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "correct": 3,
+      "explanation": "Whose expresa posesión: la cuenta pertenece al cliente.",
+      "translation": "Contactamos con el cliente cuya cuenta aparecía en la alerta."
+    },
+    {
+      "id": "b27-q004",
+      "topic": "Defining relative clauses",
+      "question": "This is the channel ___ we post updates for the night shift.",
+      "options": [
+        "where",
+        "which",
+        "who",
+        "whose"
+      ],
+      "correct": 0,
+      "explanation": "Where introduce el lugar o espacio en el que ocurre la acción: in the channel.",
+      "translation": "Este es el canal donde publicamos las actualizaciones para el turno de noche."
+    },
+    {
+      "id": "b27-q005",
+      "topic": "Defining relative clauses",
+      "question": "Do you remember the moment ___ the connection dropped?",
+      "options": [
+        "where",
+        "whose",
+        "which one",
+        "when"
+      ],
+      "correct": 3,
+      "explanation": "When se usa con un antecedente temporal, the moment, para indicar cuándo ocurrió algo.",
+      "translation": "¿Recuerdas el momento en que se interrumpió la conexión?"
+    },
+    {
+      "id": "b27-q006",
+      "topic": "Defining relative clauses",
+      "question": "The consultant ___ the client invited has joined the meeting.",
+      "options": [
+        "whose",
+        "which",
+        "whom",
+        "where"
+      ],
+      "correct": 2,
+      "explanation": "Whom puede usarse en registro formal para una persona que funciona como objeto de invited.",
+      "translation": "El consultor a quien invitó el cliente se ha unido a la reunión."
+    },
+    {
+      "id": "b27-q007",
+      "topic": "Defining relative clauses",
+      "question": "The notes ___ we received after the call are very clear.",
+      "options": [
+        "that",
+        "who",
+        "where",
+        "whose"
+      ],
+      "correct": 0,
+      "explanation": "That puede introducir una relativa especificativa con antecedente de cosa; aquí funciona como objeto de received.",
+      "translation": "Las notas que recibimos después de la llamada están muy claras."
+    },
+    {
+      "id": "b27-q008",
+      "topic": "Defining relative clauses",
+      "question": "Anyone ___ needs access to the recording should contact the coordinator.",
+      "options": [
+        "which",
+        "where",
+        "whom",
+        "who"
+      ],
+      "correct": 3,
+      "explanation": "Who se refiere a personas y aquí es el sujeto de needs.",
+      "translation": "Quien necesite acceso a la grabación debe contactar con el coordinador."
+    },
+    {
+      "id": "b27-q009",
+      "topic": "Non-defining relative clauses",
+      "question": "Our incident coordinator, ___ is on the call now, can answer your questions.",
+      "options": [
+        "that",
+        "where",
+        "who",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "Tras una coma usamos who, no that, para añadir información no esencial sobre una persona.",
+      "translation": "Nuestra coordinadora de incidentes, que está ahora en la llamada, puede responder a sus preguntas."
+    },
+    {
+      "id": "b27-q010",
+      "topic": "Non-defining relative clauses",
+      "question": "The revised timeline, ___ the customer requested yesterday, is attached.",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "where"
+      ],
+      "correct": 1,
+      "explanation": "Which introduce una relativa explicativa sobre una cosa; that no se usa después de coma.",
+      "translation": "La cronología revisada, que el cliente solicitó ayer, está adjunta."
+    },
+    {
+      "id": "b27-q011",
+      "topic": "Non-defining relative clauses",
+      "question": "The final report, ___ was approved this morning, is ready to send.",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "who"
+      ],
+      "correct": 2,
+      "explanation": "Which es el relativo adecuado para una cosa en una cláusula explicativa entre comas.",
+      "translation": "El informe final, que se aprobó esta mañana, está listo para enviarse."
+    },
+    {
+      "id": "b27-q012",
+      "topic": "Non-defining relative clauses",
+      "question": "Maya, ___ shift ends at six, will brief the evening team first.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "correct": 1,
+      "explanation": "Whose indica posesión: se habla del turno de Maya.",
+      "translation": "Maya, cuyo turno termina a las seis, informará primero al equipo de tarde."
+    },
+    {
+      "id": "b27-q013",
+      "topic": "Non-defining relative clauses",
+      "question": "The customer call, during ___ we reviewed the timeline, lasted thirty minutes.",
+      "options": [
+        "that",
+        "where",
+        "who",
+        "which"
+      ],
+      "correct": 3,
+      "explanation": "Después de una preposición usamos which para cosas: during which.",
+      "translation": "La llamada con el cliente, durante la cual revisamos la cronología, duró treinta minutos."
+    },
+    {
+      "id": "b27-q014",
+      "topic": "Non-defining relative clauses",
+      "question": "Friday, ___ the maintenance window begins, is also a public holiday for the client.",
+      "options": [
+        "that",
+        "which one",
+        "when",
+        "where"
+      ],
+      "correct": 2,
+      "explanation": "When puede introducir información adicional sobre un momento o día concreto.",
+      "translation": "El viernes, cuando comienza la ventana de mantenimiento, también es festivo para el cliente."
+    },
+    {
+      "id": "b27-q015",
+      "topic": "Non-defining relative clauses",
+      "question": "Choose the correctly formed non-defining relative clause.",
+      "options": [
+        "The summary, who includes the agreed actions, is ready.",
+        "The summary, which includes the agreed actions, is ready.",
+        "The summary, which include the agreed actions, is ready.",
+        "The summary, that includes the agreed actions, is ready."
+      ],
+      "correct": 1,
+      "explanation": "Una relativa explicativa se separa de la oración principal con una coma al principio y otra al final.",
+      "translation": "El resumen, que incluye las acciones acordadas, está listo."
+    },
+    {
+      "id": "b27-q016",
+      "topic": "Non-defining relative clauses",
+      "question": "The duty manager, ___ we spoke to earlier, has approved the wording.",
+      "options": [
+        "that",
+        "where",
+        "whom",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "Whom es posible en registro formal como objeto en una relativa explicativa; that no se usa tras coma.",
+      "translation": "El responsable de guardia, con quien hablamos antes, ha aprobado la redacción."
+    },
+    {
+      "id": "b27-q017",
+      "topic": "Whose, where and when",
+      "question": "The team needs a room ___ confidential calls can take place.",
+      "options": [
+        "whose",
+        "when",
+        "who",
+        "where"
+      ],
+      "correct": 3,
+      "explanation": "Where equivale a in which y se refiere al lugar en el que se celebran las llamadas.",
+      "translation": "El equipo necesita una sala donde puedan celebrarse llamadas confidenciales."
+    },
+    {
+      "id": "b27-q018",
+      "topic": "Whose, where and when",
+      "question": "We thanked the analyst ___ notes helped us reconstruct the timeline.",
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "correct": 2,
+      "explanation": "Whose conecta a la persona con algo que le pertenece o que produjo: sus notas.",
+      "translation": "Dimos las gracias al analista cuyas notas nos ayudaron a reconstruir la cronología."
+    },
+    {
+      "id": "b27-q019",
+      "topic": "Whose, where and when",
+      "question": "There was a short period ___ no new alerts appeared.",
+      "options": [
+        "who",
+        "whose",
+        "wherever",
+        "when"
+      ],
+      "correct": 3,
+      "explanation": "When introduce una relativa que describe un período de tiempo.",
+      "translation": "Hubo un breve período en el que no apareció ninguna alerta nueva."
+    },
+    {
+      "id": "b27-q020",
+      "topic": "Whose, where and when",
+      "question": "The portal ___ customers download reports is temporarily unavailable.",
+      "options": [
+        "where",
+        "when",
+        "whose",
+        "who"
+      ],
+      "correct": 0,
+      "explanation": "Where se usa para un sitio físico o virtual en el que ocurre una acción.",
+      "translation": "El portal donde los clientes descargan los informes no está disponible temporalmente."
+    },
+    {
+      "id": "b27-q021",
+      "topic": "Whose, where and when",
+      "question": "The vendor ___ service we use has scheduled maintenance tonight.",
+      "options": [
+        "which",
+        "whom",
+        "where",
+        "whose"
+      ],
+      "correct": 3,
+      "explanation": "Whose también puede expresar posesión con organizaciones: el servicio del proveedor.",
+      "translation": "El proveedor cuyo servicio utilizamos ha programado mantenimiento para esta noche."
+    },
+    {
+      "id": "b27-q022",
+      "topic": "Whose, where and when",
+      "question": "Monday is the day ___ we normally send the weekly overview.",
+      "options": [
+        "whose",
+        "when",
+        "who",
+        "where one"
+      ],
+      "correct": 1,
+      "explanation": "When se refiere a un día o momento y equivale aquí a on which.",
+      "translation": "El lunes es el día en que solemos enviar el resumen semanal."
+    },
+    {
+      "id": "b27-q023",
+      "topic": "Whose, where and when",
+      "question": "The customer showed us the folder ___ the exported logs had been saved.",
+      "options": [
+        "where",
+        "who",
+        "when",
+        "whose"
+      ],
+      "correct": 0,
+      "explanation": "Where indica el lugar en el que se habían guardado los archivos.",
+      "translation": "El cliente nos mostró la carpeta donde se habían guardado los logs exportados."
+    },
+    {
+      "id": "b27-q024",
+      "topic": "Whose, where and when",
+      "question": "We are waiting for the colleague ___ laptop contains the original notes.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "correct": 1,
+      "explanation": "Whose va delante del sustantivo poseído, laptop, y relaciona el portátil con el colega.",
+      "translation": "Estamos esperando al compañero cuyo portátil contiene las notas originales."
+    },
+    {
+      "id": "b27-q025",
+      "topic": "Prepositions in relative clauses",
+      "question": "The person to ___ you should send the approval request is copied on this email.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "correct": 3,
+      "explanation": "Cuando la preposición aparece delante del relativo, usamos whom para personas: to whom.",
+      "translation": "La persona a quien debes enviar la solicitud de aprobación está en copia en este correo."
+    },
+    {
+      "id": "b27-q026",
+      "topic": "Prepositions in relative clauses",
+      "question": "The document on ___ the summary is based is attached.",
+      "options": [
+        "that",
+        "who",
+        "which",
+        "what"
+      ],
+      "correct": 2,
+      "explanation": "Después de una preposición adelantada usamos which para cosas: on which.",
+      "translation": "El documento en el que se basa el resumen está adjunto."
+    },
+    {
+      "id": "b27-q027",
+      "topic": "Prepositions in relative clauses",
+      "question": "The meeting for ___ we prepared these slides starts at ten.",
+      "options": [
+        "which",
+        "that",
+        "where",
+        "whom"
+      ],
+      "correct": 0,
+      "explanation": "For which es la estructura formal correcta cuando el antecedente es una cosa, the meeting.",
+      "translation": "La reunión para la que preparamos estas diapositivas empieza a las diez."
+    },
+    {
+      "id": "b27-q028",
+      "topic": "Prepositions in relative clauses",
+      "question": "The manager with ___ I discussed the delay will call the customer.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "Tras with usamos whom, no who, cuando el relativo se refiere a una persona.",
+      "translation": "El responsable con quien comenté el retraso llamará al cliente."
+    },
+    {
+      "id": "b27-q029",
+      "topic": "Prepositions in relative clauses",
+      "question": "Choose the natural informal alternative to “the analyst to whom I spoke.”",
+      "options": [
+        "the analyst to who I spoke",
+        "the analyst who I spoke to",
+        "the analyst whom I spoke",
+        "the analyst which I spoke to"
+      ],
+      "correct": 1,
+      "explanation": "En estilo informal la preposición puede ir al final y who puede funcionar como objeto: who I spoke to.",
+      "translation": "El analista con el que hablé."
+    },
+    {
+      "id": "b27-q030",
+      "topic": "Prepositions in relative clauses",
+      "question": "The issue about ___ the client asked has already been resolved.",
+      "options": [
+        "which",
+        "that",
+        "who",
+        "where"
+      ],
+      "correct": 0,
+      "explanation": "Con la preposición delante del relativo usamos about which; no se usa about that en esta estructura.",
+      "translation": "El problema sobre el que preguntó el cliente ya se ha resuelto."
+    },
+    {
+      "id": "b27-q031",
+      "topic": "Prepositions in relative clauses",
+      "question": "The colleagues among ___ the tasks were divided are all on the call.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "correct": 2,
+      "explanation": "Among whom es la combinación formal correcta para referirse a varias personas.",
+      "translation": "Los compañeros entre quienes se repartieron las tareas están todos en la llamada."
+    },
+    {
+      "id": "b27-q032",
+      "topic": "Prepositions in relative clauses",
+      "question": "The policy under ___ this request is reviewed was updated last month.",
+      "options": [
+        "whom",
+        "that",
+        "where",
+        "which"
+      ],
+      "correct": 3,
+      "explanation": "Under which es una estructura formal con antecedente de cosa; that no sigue a una preposición adelantada.",
+      "translation": "La política conforme a la cual se revisa esta solicitud se actualizó el mes pasado."
+    },
+    {
+      "id": "b27-q033",
+      "topic": "Omission and reduced relative clauses",
+      "question": "Choose the sentence in which the relative pronoun is correctly omitted.",
+      "options": [
+        "The update we sent yesterday needs one correction.",
+        "The analyst works nights called the customer.",
+        "The report contains the timeline is attached.",
+        "The customer requested the update replied."
+      ],
+      "correct": 0,
+      "explanation": "El relativo puede omitirse cuando funciona como objeto: the update (that) we sent. No puede omitirse si es el sujeto.",
+      "translation": "La actualización que enviamos ayer necesita una corrección."
+    },
+    {
+      "id": "b27-q034",
+      "topic": "Omission and reduced relative clauses",
+      "question": "The analysts ___ the overnight queue should join the handover.",
+      "options": [
+        "monitored",
+        "monitoring",
+        "monitor",
+        "are monitoring"
+      ],
+      "correct": 1,
+      "explanation": "Monitoring reduce who are monitoring y describe a los analistas que realizan la acción.",
+      "translation": "Los analistas que están monitorizando la cola nocturna deben unirse al traspaso."
+    },
+    {
+      "id": "b27-q035",
+      "topic": "Omission and reduced relative clauses",
+      "question": "The file ___ to the customer was password-protected.",
+      "options": [
+        "sent",
+        "sending",
+        "send",
+        "was send"
+      ],
+      "correct": 0,
+      "explanation": "Sent reduce that was sent; usamos participio pasado porque el archivo recibe la acción.",
+      "translation": "El archivo enviado al cliente estaba protegido con contraseña."
+    },
+    {
+      "id": "b27-q036",
+      "topic": "Omission and reduced relative clauses",
+      "question": "Anyone ___ the call late can read the notes afterward.",
+      "options": [
+        "joined",
+        "joining",
+        "is join",
+        "who joining"
+      ],
+      "correct": 1,
+      "explanation": "Joining puede reducir who joins o who is joining cuando el antecedente realiza la acción.",
+      "translation": "Quien se incorpore tarde a la llamada podrá leer las notas después."
+    },
+    {
+      "id": "b27-q037",
+      "topic": "Omission and reduced relative clauses",
+      "question": "The actions ___ in the final section are assigned to specific owners.",
+      "options": [
+        "listed",
+        "listing",
+        "list",
+        "are list"
+      ],
+      "correct": 0,
+      "explanation": "Listed reduce that are listed; el participio pasado expresa sentido pasivo.",
+      "translation": "Las acciones enumeradas en la sección final están asignadas a responsables concretos."
+    },
+    {
+      "id": "b27-q038",
+      "topic": "Omission and reduced relative clauses",
+      "question": "Which sentence cannot omit the relative pronoun?",
+      "options": [
+        "The summary that we reviewed is accurate.",
+        "The client whom I called has replied.",
+        "The analyst who wrote the summary is on leave.",
+        "The notes which you shared were helpful."
+      ],
+      "correct": 2,
+      "explanation": "En who wrote the summary, who es el sujeto de wrote y no puede omitirse. En las demás, el relativo es objeto.",
+      "translation": "El analista que redactó el resumen está de permiso."
+    },
+    {
+      "id": "b27-q039",
+      "topic": "Omission and reduced relative clauses",
+      "question": "The report contains all the evidence ___ during the review.",
+      "options": [
+        "collecting",
+        "collect",
+        "was collecting",
+        "collected"
+      ],
+      "correct": 3,
+      "explanation": "Collected reduce that was collected y modifica evidence con significado pasivo.",
+      "translation": "El informe contiene todas las pruebas recopiladas durante la revisión."
+    },
+    {
+      "id": "b27-q040",
+      "topic": "Omission and reduced relative clauses",
+      "question": "Choose the best reduced version of “Customers who require assistance can reply to this email.”",
+      "options": [
+        "Customers required assistance can reply to this email.",
+        "Customers requiring assistance can reply to this email.",
+        "Customers require assistance can reply to this email.",
+        "Customers who requiring assistance can reply to this email."
+      ],
+      "correct": 1,
+      "explanation": "Una relativa activa puede reducirse con -ing: who require pasa a requiring.",
+      "translation": "Los clientes que necesiten ayuda pueden responder a este correo."
+    }
+  ]
+}

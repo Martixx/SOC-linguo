@@ -1,0 +1,1408 @@
+{
+  "name": "16 · Explaining metrics and trends · Natural English",
+  "description": "100 microescenarios revisados para explicar métricas SOC, comparar periodos, interpretar tendencias, contextualizar porcentajes, evaluar la calidad de detección y respuesta y convertir datos operativos en mensajes prudentes para clientes. Versión 2 con distractores más plausibles, mecánicas variadas y escenarios autosuficientes.",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b16-v2-metrics-trends-001",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "The monthly report shows 1,800 phishing alerts, up from 1,200. The number of monitored mailboxes also doubled. How should you describe the change?",
+      "options": [
+        "The extra 600 alerts suggest a higher attack volume, although the expanded mailbox coverage should be noted separately.",
+        "Alert volume rose, and the alert rate was broadly stable once the larger mailbox population was considered.",
+        "Alert volume rose by 50%, but the rate per monitored mailbox actually fell after coverage doubled.",
+        "Phishing activity rose by 50% in absolute terms, while the effect of the coverage change remains uncertain."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta distingue volumen bruto y tasa normalizada: 1.800 frente a 1.200 supone un 50% más, pero al duplicarse los buzones monitorizados, la tasa por buzón disminuye. Las alternativas atribuyen el aumento a la amenaza o afirman estabilidad sin calcular el denominador.",
+      "translation": "El volumen de alertas aumentó un 50 %, pero la tasa por buzón monitorizado en realidad disminuyó después de duplicarse la cobertura."
+    },
+    {
+      "id": "b16-v2-metrics-trends-002",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "During a customer review, you are asked, 'How many endpoints generated malware alerts last week?' You have 420 alerts from 37 distinct devices. Give the clearest answer.",
+      "options": [
+        "We recorded 420 malware events on 37 endpoints, which means each endpoint generated roughly eleven alerts.",
+        "There were 420 affected endpoints last week, although some of the alerts may have been repeated.",
+        "We recorded 420 malware alerts across 37 distinct endpoints; several devices generated more than one alert.",
+        "Thirty-seven malware alerts were confirmed, representing 420 separate detections across the estate."
+      ],
+      "correct": 2,
+      "explanation": "La formulación correcta conserva las dos unidades y evita confundir alertas con equipos. Tampoco presenta la media como si describiera a cada endpoint ni cambia detecciones por incidentes confirmados.",
+      "translation": "Registramos 420 alertas de malware en 37 endpoints distintos; varios dispositivos generaron más de una alerta."
+    },
+    {
+      "id": "b16-v2-metrics-trends-003",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "On the slide, incidents increased from 2 to 6 and the change is labelled as a 200% rise. An executive may overreact to the percentage. What should you add aloud?",
+      "options": [
+        "Lead with the four additional incidents and place the 200% change in a footnote to avoid an outsized reaction.",
+        "Say that incident volume tripled, then explain the starting point only if the audience asks for more detail.",
+        "Use the absolute increase of four incidents in the briefing and omit the percentage from the spoken summary.",
+        "That is a 200% increase, although the absolute change was four additional incidents from a low starting point."
+      ],
+      "correct": 3,
+      "explanation": "La mejor respuesta mantiene el porcentaje correcto y aporta el cambio absoluto y la base pequeña. Así evita tanto dramatizar el 200% como ocultar una variación real.",
+      "translation": "Se trata de un aumento del 200 %, aunque el cambio absoluto fue de cuatro incidentes adicionales desde un punto de partida bajo."
+    },
+    {
+      "id": "b16-v2-metrics-trends-004",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "Your team closed 540 alerts this month and 480 last month, but this month had three more working days. Correct the claim that productivity improved.",
+      "options": [
+        "Monthly closures rose by 12.5%, and the extra working days are too small to affect that conclusion.",
+        "Average daily throughput improved because both the number of closures and the number of working days increased.",
+        "The team closed 60 more alerts, which demonstrates a clear improvement in analyst productivity.",
+        "Closures increased in total, but we should compare average daily throughput before calling it a productivity improvement."
+      ],
+      "correct": 3,
+      "explanation": "Un total mensual mayor no demuestra por sí solo más productividad cuando cambia el tiempo disponible. La respuesta propone normalizar por día laborable antes de interpretar la diferencia.",
+      "translation": "Los cierres aumentaron en total, pero debemos comparar el rendimiento diario medio antes de considerarlo una mejora de productividad."
+    },
+    {
+      "id": "b16-v2-metrics-trends-005",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "Your dashboard counts 95 investigations, while the case system shows 82 cases. The dashboard creates a new record whenever a case is reopened. Explain the discrepancy.",
+      "options": [
+        "The case system is the better figure because reopened work is part of an existing case rather than a new investigation.",
+        "The dashboard overstates workload because reopened records should be reported separately from current investigations.",
+        "The dashboard counts investigation records, including reopened work, whereas the case system counts unique cases.",
+        "Use the average of 95 and 82 until both systems apply the same method for counting reopened work."
+      ],
+      "correct": 2,
+      "explanation": "La diferencia procede de la unidad de recuento: registros de investigación frente a casos únicos. La respuesta la explica sin declarar inválida ninguna métrica ni invertir el significado.",
+      "translation": "El panel cuenta registros de investigación, incluido el trabajo reabierto, mientras que el sistema de casos cuenta casos únicos."
+    },
+    {
+      "id": "b16-v2-metrics-trends-006",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "After a parser fix, DNS detections rose from 300 to 900 per day. Packet volume did not change. What is the safest interpretation?",
+      "options": [
+        "The increase is consistent with improved parsing, so it should not be treated as a threefold rise in malicious activity.",
+        "Malicious DNS activity probably tripled after the parser change because packet volume remained stable.",
+        "The parser fix exposed previously unparsed DNS traffic, so the additional detections can be counted as newly observed malicious events overall.",
+        "Detection coverage improved, which indicates that most of the additional events were attacks missed by the old parser."
+      ],
+      "correct": 0,
+      "explanation": "El cambio coincide con una mejora de procesamiento y no con más tráfico. Puede indicar mayor visibilidad, pero no demuestra que todas las detecciones adicionales sean ataques antes omitidos.",
+      "translation": "El aumento es coherente con la mejora del procesamiento, por lo que no debe interpretarse como una triplicación de la actividad maliciosa."
+    },
+    {
+      "id": "b16-v2-metrics-trends-007",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "The SOC handled 240 tickets for 12,000 users in Region A and 150 for 5,000 users in Region B. Complete the fair comparison.",
+      "options": [
+        "Region B produced fewer tickets overall, so its user population experienced the lower event rate.",
+        "Region B had the higher ticket rate: about 30 per 1,000 users versus 20 in Region A.",
+        "The regions cannot be compared fairly unless they have the same number of users, the same monitoring scope, and identical ticket definitions.",
+        "Region A had more security activity because it generated ninety more tickets than Region B."
+      ],
+      "correct": 1,
+      "explanation": "Normalizar por población permite una comparación válida: 240/12.000 son 20 por mil y 150/5.000 son 30 por mil. El total bruto por sí solo favorece erróneamente a la región mayor.",
+      "translation": "La Región B tuvo la tasa de tickets más alta: unos 30 por cada 1.000 usuarios, frente a 20 en la Región A."
+    },
+    {
+      "id": "b16-v2-metrics-trends-008",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "Email, endpoint, and cloud alerts appear on the same chart, and one alert can appear in two sources during correlation. What caveat belongs in the briefing?",
+      "options": [
+        "Add the categories as a total alert count and note separately that some source observations may relate to the same case.",
+        "Keep the three source totals separate, because records from different products are independent by design.",
+        "The source totals may overlap, so adding the three categories would not give a count of unique alerts.",
+        "Use the correlated total as the unique-alert count, while noting that some source records may still be linked later."
+      ],
+      "correct": 2,
+      "explanation": "Si una alerta puede aparecer en más de una fuente, las categorías no son mutuamente excluyentes. Cambiar la etiqueta no elimina el doble recuento y correlación no implica deduplicación perfecta.",
+      "translation": "Los totales por fuente pueden solaparse, por lo que sumar las tres categorías no daría un recuento de alertas únicas."
+    },
+    {
+      "id": "b16-v2-metrics-trends-009",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "The manager says, 'We blocked 98% of malicious emails, so only 2% reached users.' The metric covers messages assessed by the gateway, not all inbound mail. Correct the statement.",
+      "options": [
+        "Two percent of gateway-assessed malicious messages reached users, which is a reasonable estimate of the total malicious mail received.",
+        "The gateway blocked 98% of the messages it classified as malicious; the metric does not measure every malicious email sent to us.",
+        "The gateway missed 2% of malicious email, so its result can be used as the organization-wide miss rate.",
+        "Report a 98% prevention rate and add that the gateway processes most inbound mail, even though unknown malicious mail is outside the measure."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta conserva el denominador real: mensajes que el gateway clasificó como maliciosos. No extrapola el resultado a amenazas desconocidas o no observadas.",
+      "translation": "El gateway bloqueó el 98 % de los mensajes que clasificó como maliciosos; la métrica no mide todos los correos maliciosos que nos enviaron."
+    },
+    {
+      "id": "b16-v2-metrics-trends-010",
+      "topic": "Metrics and trends · Volumes, rates, and denominators",
+      "question": "The weekly chart shows 70 identity alerts and 20 identity cases. A colleague labels the conversion rate as 28.6%. Name the validation step required before using it.",
+      "options": [
+        "Keep 28.6% if the cases and alerts come from the same week; exact record linkage is not needed for a weekly conversion metric.",
+        "Confirm the rounding convention, because 20 divided by 70 is the correct basis for the conversion rate.",
+        "Use the calculation as published, then validate record linkage only if the rate changes materially next week.",
+        "We need to confirm that the 20 cases came from those 70 alerts and that each alert is counted only once."
+      ],
+      "correct": 3,
+      "explanation": "La aritmética no basta: numerador y denominador deben pertenecer a la misma cohorte y no duplicar alertas. Redondear no resuelve una posible falta de correspondencia.",
+      "translation": "Debemos confirmar que los 20 casos proceden de esas 70 alertas y que cada alerta se cuenta una sola vez."
+    },
+    {
+      "id": "b16-v2-metrics-trends-011",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "Login failures are 35% above last week's level, but this week includes a company-wide password reset. Frame the trend for the customer.",
+      "options": [
+        "Failures increased, but the password reset is an important contextual factor; we are separating expected user errors from suspicious activity.",
+        "The increase should be excluded from reporting because planned business activity makes the metric invalid.",
+        "Login failures rose by 35%, which indicates a broader credential attack regardless of the password reset.",
+        "The password reset fully explains the increase, so no additional investigation is needed unless the failures continue after the reset period ends."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta presenta el aumento y el factor contextual sin convertirlo ni en ataque confirmado ni en explicación total. Además, indica la validación necesaria.",
+      "translation": "Los fallos aumentaron, pero el restablecimiento de contraseñas es un factor contextual importante; estamos separando los errores esperados de los usuarios de la actividad sospechosa."
+    },
+    {
+      "id": "b16-v2-metrics-trends-012",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "December normally has fewer alerts because many employees are on leave. This December's total matches November. How would you describe it against the seasonal baseline?",
+      "options": [
+        "Describe December as unchanged, because the month-over-month comparison is the most current reference.",
+        "The total was flat month over month, but it was higher than we would normally expect for December.",
+        "Describe December as above baseline and omit the November comparison, which adds no seasonal context in the briefing.",
+        "Compare only with last December, because adjacent months are affected by different seasonal patterns."
+      ],
+      "correct": 1,
+      "explanation": "Una serie puede estar plana frente al mes anterior y elevada frente al patrón estacional. La respuesta comunica ambas referencias sin asumir que la estacionalidad fija un resultado exacto.",
+      "translation": "El total se mantuvo estable respecto al mes anterior, pero fue superior a lo que normalmente esperaríamos en diciembre."
+    },
+    {
+      "id": "b16-v2-metrics-trends-013",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "Halfway through the quarter, a new vulnerability scanner adds 4,000 assets and findings then rise sharply. What baseline should you use?",
+      "options": [
+        "Compare finding rates per scanned asset and mark the coverage change before assessing the underlying trend.",
+        "Start a new baseline after the scanner expansion and avoid any comparison with the earlier period.",
+        "Subtract exactly 4,000 findings from the new total to remove the effect of the additional assets.",
+        "Use the previous quarter's raw total because changing asset coverage is part of normal vulnerability management."
+      ],
+      "correct": 0,
+      "explanation": "La expansión cambia el denominador. Una tasa por activo y una marca del cambio permiten comparar sin desechar toda la historia ni suponer una vulnerabilidad por cada activo nuevo.",
+      "translation": "Comparemos la tasa de hallazgos por activo analizado y señalemos el cambio de cobertura antes de evaluar la tendencia subyacente."
+    },
+    {
+      "id": "b16-v2-metrics-trends-014",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "The overnight shift usually receives fewer alerts than daytime. Last night matched the daily average. What is the most informative observation?",
+      "options": [
+        "A shift-level comparison is unnecessary when a valid organization-wide average is available.",
+        "Last night's activity was average, since its total matched the organization's daily mean.",
+        "The overnight shift performed poorly because it received more alerts than its usual baseline and therefore failed to control incoming demand.",
+        "Last night's volume was normal for a full day but unusually high for the overnight shift."
+      ],
+      "correct": 3,
+      "explanation": "El punto de referencia relevante es la misma franja horaria. Igualar la media diaria puede representar un valor anómalo durante la noche, aunque no demuestra mal rendimiento.",
+      "translation": "El volumen de anoche fue normal para un día completo, pero inusualmente alto para el turno nocturno."
+    },
+    {
+      "id": "b16-v2-metrics-trends-015",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "Endpoint alerts peak every Monday when laptops reconnect after the weekend. This Monday's peak is 10% above the typical Monday range. How do you report it?",
+      "options": [
+        "Treat the peak as seasonal because Monday reconnect activity explains the direction of the change.",
+        "Monday peaks are expected, but this one exceeded the usual Monday range by 10% and merits a closer look.",
+        "Report a 10% abnormal increase and escalate it as likely malicious activity before comparing it with previous Monday peaks.",
+        "Compare Monday with the weekend average to isolate the effect of devices reconnecting after two quiet days."
+      ],
+      "correct": 1,
+      "explanation": "La estacionalidad explica que exista un pico, no necesariamente su magnitud. La respuesta compara con lunes equivalentes y recomienda investigar sin afirmar malicia.",
+      "translation": "Los picos de los lunes son esperables, pero este superó en un 10 % el rango habitual de los lunes y merece una revisión más detallada."
+    },
+    {
+      "id": "b16-v2-metrics-trends-016",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "During a public holiday, user activity fell by 60% while alert volume fell by only 10%. Finish the customer briefing with the normalized message.",
+      "options": [
+        "Alerts rose by 50% because user activity and alert volume moved in different directions.",
+        "The holiday data should be omitted, as low user activity prevents any meaningful normalization.",
+        "Although total alerts fell slightly, alerts relative to user activity increased during the holiday.",
+        "Security activity decreased by 10%, broadly in line with the lower level of business activity."
+      ],
+      "correct": 2,
+      "explanation": "Con mucha menos actividad de usuario y solo una ligera caída de alertas, la intensidad relativa aumenta. No se puede derivar un 50% exacto con esos datos sin definir la tasa.",
+      "translation": "Aunque el total de alertas disminuyó ligeramente, las alertas en relación con la actividad de los usuarios aumentaron durante el festivo."
+    },
+    {
+      "id": "b16-v2-metrics-trends-017",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "The SOC changed its severity policy in July, moving several detections from medium to high. A six-month chart shows high-severity alerts rising in July. Add the essential context.",
+      "options": [
+        "Reclassify the earlier period using today's thresholds, even if only aggregate historical counts are available.",
+        "The July step change coincides with the classification update, so the periods before and after it are not directly comparable.",
+        "Describe the July rise as a more serious threat mix, with the policy update as supporting context.",
+        "Start the trend in July and omit the earlier values, because the old classification no longer supports direct comparison over time."
+      ],
+      "correct": 1,
+      "explanation": "Un cambio de definición puede crear una discontinuidad. Hay que marcarla y evitar comparaciones directas, sin declarar inútiles todos los datos ni reescribirlos sin base.",
+      "translation": "El cambio brusco de julio coincide con la actualización de la clasificación, por lo que los periodos anterior y posterior no son directamente comparables."
+    },
+    {
+      "id": "b16-v2-metrics-trends-018",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "The cloud service launched only six weeks ago, and the customer now wants a baseline. What would you say?",
+      "options": [
+        "Use the six-week average as a stable baseline and validate its seasonal limits as more observations become available over time.",
+        "Six weeks gives us an initial operating range, but it is too early to call it a stable seasonal baseline.",
+        "Delay trend reporting until a full annual cycle is available, while continuing to publish weekly raw values.",
+        "Use the first week as the reference period and widen the expected range as more data arrive."
+      ],
+      "correct": 1,
+      "explanation": "Se puede trabajar con un rango inicial sin presentarlo como patrón estacional estable. Esperar un año puede ser excesivo y usar una única semana congelaría una referencia frágil.",
+      "translation": "Seis semanas nos ofrecen un rango operativo inicial, pero es demasiado pronto para considerarlo una línea base estacional estable."
+    },
+    {
+      "id": "b16-v2-metrics-trends-019",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "Remote-access alerts are compared with a baseline built before hybrid working. The current rate is much higher. Identify the main analytical problem.",
+      "options": [
+        "Historical baselines remain valid when the alert logic has not changed, even if business behavior has.",
+        "The current period should replace all historical data so the chart contains only the hybrid-working model.",
+        "The baseline reflects a different operating model, so part of the apparent increase may be structural rather than suspicious.",
+        "The higher rate shows that hybrid working increased account compromise because remote access now appears more frequently in the alert data."
+      ],
+      "correct": 2,
+      "explanation": "La conducta empresarial que generaba la métrica cambió. Por eso, parte del incremento puede ser estructural; la lógica técnica sin cambios no garantiza comparabilidad.",
+      "translation": "La línea base refleja un modelo operativo diferente, por lo que parte del aparente aumento puede ser estructural y no sospechoso."
+    },
+    {
+      "id": "b16-v2-metrics-trends-020",
+      "topic": "Metrics and trends · Baselines, seasonality, and context",
+      "question": "You are presenting a 12-month trend with a major acquisition in month eight. Which chart annotation would help the audience most?",
+      "options": [
+        "Index every month to the acquisition month so the audience can compare relative movement on one scale.",
+        "Begin a new series after the acquisition and show the earlier organization in a separate appendix.",
+        "Add a note that organizational changes affect metrics, but keep the chart uncluttered by omitting dated annotations.",
+        "Mark the acquisition date and the associated increase in users and monitored assets on the trend line."
+      ],
+      "correct": 3,
+      "explanation": "Una anotación fechada y cuantificada permite interpretar el cambio de nivel. Una nota genérica no conecta contexto y datos, y eliminar o reescalar la historia puede ocultar información.",
+      "translation": "Marquemos en la línea de tendencia la fecha de la adquisición y el aumento asociado de usuarios y activos monitorizados."
+    },
+    {
+      "id": "b16-v2-metrics-trends-021",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "Daily alert volume dropped for three days after a noisy rule was disabled, while the 30-day moving average kept rising. Reconcile the two views.",
+      "options": [
+        "Call the trend down because the last three daily observations are the most relevant to current operations.",
+        "Call the trend up because the 30-day average is less sensitive to short-lived rule changes.",
+        "The short-term volume has fallen, while the longer moving average still reflects the earlier increase.",
+        "Choose one reporting window for the slide so the audience receives a single trend direction."
+      ],
+      "correct": 2,
+      "explanation": "Las dos afirmaciones pueden coexistir porque usan horizontes distintos. La media móvil conserva influencia de días anteriores y reacciona más despacio que la serie diaria.",
+      "translation": "El volumen a corto plazo ha disminuido, mientras que la media móvil de mayor plazo aún refleja el aumento anterior."
+    },
+    {
+      "id": "b16-v2-metrics-trends-022",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "On a chart whose vertical axis starts at 950, a move from 1,000 to 1,050 looks dramatic. What should you say?",
+      "options": [
+        "The values rose by 100% of the displayed axis interval, which is the most relevant percentage for the audience.",
+        "Any axis above zero is misleading, so the chart should be removed rather than explained.",
+        "The increase is 5%; the truncated axis makes the visual change look larger than it is.",
+        "The chart correctly emphasizes a significant increase because the line occupies most of the vertical range."
+      ],
+      "correct": 2,
+      "explanation": "El cambio real es 50 sobre 1.000, es decir, 5%. El eje truncado puede ser útil para detalle, pero debe señalarse porque amplifica visualmente la variación.",
+      "translation": "El aumento es del 5 %; el eje truncado hace que el cambio visual parezca mayor de lo que es."
+    },
+    {
+      "id": "b16-v2-metrics-trends-023",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "Weekly phishing reports moved 40, 62, 39, 61, and 41. A colleague calls this a downward trend because the final value is below the second. Reply to the colleague.",
+      "options": [
+        "Describe the series as stable and treat the alternating peaks as normal variation within the five-week window.",
+        "The series is alternating within a similar range; these five points do not show a clear downward trend.",
+        "Call it a modest decline because the last value is below the highest value observed in the period.",
+        "Call it a modest increase because the final value is one report above the first."
+      ],
+      "correct": 1,
+      "explanation": "Comparar dos puntos seleccionados no establece una tendencia. La serie oscila en un rango parecido; estabilidad aproximada tampoco descarta un episodio anómalo concreto.",
+      "translation": "La serie alterna dentro de un rango similar; estos cinco puntos no muestran una tendencia descendente clara."
+    },
+    {
+      "id": "b16-v2-metrics-trends-024",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "Mean containment time improved from 90 to 55 minutes, but the median remained at 30. What does that pattern suggest?",
+      "options": [
+        "Most cases improved by about 35 minutes, because the mean captures the change across the full set.",
+        "The typical case did not improve, so the change in the mean should be excluded from the customer summary.",
+        "The longest cases probably became shorter, while the experience of a typical case changed little.",
+        "Use the mean as the primary result and treat the unchanged median as evidence of a data-quality issue."
+      ],
+      "correct": 2,
+      "explanation": "La media es sensible a casos extremos y la mediana describe mejor el centro. Una gran mejora en la media con mediana estable sugiere reducción en la cola larga, no en cada caso.",
+      "translation": "Probablemente se redujo la duración de los casos más largos, mientras que la experiencia de un caso típico cambió poco."
+    },
+    {
+      "id": "b16-v2-metrics-trends-025",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "One ransomware incident pushed the monthly response-time average from 4 to 11 hours. Which summary is fairest?",
+      "options": [
+        "The ransomware case should be excluded because exceptional incidents do not belong in operational reporting.",
+        "The monthly average is unusable whenever one exceptional incident falls outside the normal severity range, response process, or handling-time distribution.",
+        "Response performance almost tripled in duration, which accurately describes how the team handled most incidents.",
+        "The average rose sharply because of one exceptional ransomware case, so we should show the median and range as well."
+      ],
+      "correct": 3,
+      "explanation": "El caso extremo es real y no debe ocultarse, pero la media sola puede representar mal el conjunto. Mediana y rango aportan distribución y contexto.",
+      "translation": "La media aumentó bruscamente por un caso excepcional de ransomware, por lo que también debemos mostrar la mediana y el rango."
+    },
+    {
+      "id": "b16-v2-metrics-trends-026",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "Although the new quarterly total is lower than the previous quarter, each month within it increased. How can both statements be true?",
+      "options": [
+        "A rising monthly sequence always produces a higher quarterly total than the preceding period when both periods contain three complete months.",
+        "They cannot both be true unless one quarter contains a different number of calendar months.",
+        "The new quarter may have started from a lower level than the previous quarter, despite rising month by month.",
+        "The quarterly comparison is more reliable, so the monthly increases should be treated as chart noise."
+      ],
+      "correct": 2,
+      "explanation": "Una tendencia interna ascendente no obliga a superar el nivel del trimestre anterior. El nuevo trimestre puede empezar mucho más abajo y recuperarse sin alcanzar el total previo.",
+      "translation": "El nuevo trimestre puede haber comenzado desde un nivel inferior al anterior, aunque haya aumentado mes a mes."
+    },
+    {
+      "id": "b16-v2-metrics-trends-027",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "The seven-day average fell after a very high Monday dropped out of the calculation window. No recent day changed. Explain the movement.",
+      "options": [
+        "The latest source values were probably revised downward, because no new high value entered the window.",
+        "The decrease indicates a genuine fall in current activity, even though none of the recent daily values changed.",
+        "Replace the rolling average with a cumulative average so earlier peaks remain represented for longer.",
+        "The average fell because the window rolled forward and the earlier high value was no longer included."
+      ],
+      "correct": 3,
+      "explanation": "Una media móvil cambia tanto por los puntos que entran como por los que salen. No hace falta revisar datos recientes ni inferir que cada día actual sea menor.",
+      "translation": "La media disminuyó porque la ventana avanzó y dejó de incluir el valor alto anterior."
+    },
+    {
+      "id": "b16-v2-metrics-trends-028",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "Over four consecutive months, a detection count moved from 100 to 102, 104, and 106. The dashboard says 'strong upward trend.' Calibrate the wording.",
+      "options": [
+        "Describe the series as broadly flat because the six-point total movement is small in absolute terms for this reporting period.",
+        "There is a consistent upward direction, but 'strong' needs context about normal variation and the practical size of the change.",
+        "Wait for a fifth increase before calling the direction consistent enough to report.",
+        "Keep 'strong' because four consecutive increases are a clearer signal than the size of each increase."
+      ],
+      "correct": 1,
+      "explanation": "La dirección es consistente, pero la fuerza requiere magnitud, variabilidad y relevancia operativa. No existe un umbral universal del 10% ni hace falta una progresión exacta.",
+      "translation": "Hay una dirección ascendente constante, pero para decir que es «fuerte» necesitamos contexto sobre la variación normal y la magnitud práctica del cambio."
+    },
+    {
+      "id": "b16-v2-metrics-trends-029",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "Monthly data are highly volatile. A stakeholder asks whether performance improved after a policy change two weeks ago. What is the most responsible response?",
+      "options": [
+        "Delay defining the baseline until the series becomes less volatile, then compare the policy with the stable period for a cleaner comparison.",
+        "It is too early to separate the policy effect from normal variation; we will track the next periods against a defined baseline.",
+        "Report early improvement because both post-policy weekly points are below the previous monthly average.",
+        "Use analyst feedback as the primary evidence until the volatility falls enough for quantitative evaluation."
+      ],
+      "correct": 1,
+      "explanation": "Con solo dos semanas y alta volatilidad, atribuir efecto sería prematuro. La respuesta propone un periodo y una referencia definidos, sin declarar imposible la medición.",
+      "translation": "Es demasiado pronto para separar el efecto de la política de la variación normal; seguiremos los próximos periodos frente a una línea base definida."
+    },
+    {
+      "id": "b16-v2-metrics-trends-030",
+      "topic": "Metrics and trends · Trend direction, windows, and volatility",
+      "question": "Viewed over 90 days, the series looks flat; viewed over two years, it shows a clear decline. Which message best respects both views?",
+      "options": [
+        "Report the recent plateau and leave the two-year decline in the appendix because it no longer describes current movement.",
+        "Report continued long-term decline and describe the recent flat period as a temporary pause in improvement.",
+        "Performance has levelled off recently after a broader improvement over the past two years.",
+        "Lead with the two-year decline because the longer window is less affected by short-term noise."
+      ],
+      "correct": 2,
+      "explanation": "Los horizontes responden a preguntas distintas: mejora estructural y comportamiento reciente. La formulación correcta no fuerza una única dirección para ambos.",
+      "translation": "El rendimiento se ha estabilizado recientemente después de una mejora más amplia durante los dos últimos años."
+    },
+    {
+      "id": "b16-v2-metrics-trends-031",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "The click rate in a phishing simulation fell from 8% to 6%. A slide calls this a two-point reduction. Make the size unambiguous.",
+      "options": [
+        "The rate fell by 2 percentage points, which is a 25% relative reduction from the previous 8% rate.",
+        "The rate improved by 25 percentage points because 6 is one quarter lower than 8.",
+        "The rate fell by 2 percentage points; the 25% relative reduction would exaggerate the improvement and should be omitted.",
+        "The rate fell by 2%, which is equivalent to a two-percentage-point and 25% reduction."
+      ],
+      "correct": 0,
+      "explanation": "Los puntos porcentuales describen 8% menos 6%; la reducción relativa es 2/8 = 25%. Nombrar ambas evita la ambigüedad de decir solo 2%.",
+      "translation": "La tasa disminuyó 2 puntos porcentuales, lo que equivale a una reducción relativa del 25 % respecto al 8 % anterior."
+    },
+    {
+      "id": "b16-v2-metrics-trends-032",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "Team Alpha reports 90% SLA compliance for 9 of 10 priority cases. Team Beta reports 80% for 800 of 1,000 standard cases. Avoid the misleading ranking.",
+      "options": [
+        "The percentages cannot be compared because priority and standard teams must process the same volume, case type, complexity, service target, and reporting method.",
+        "The first team has the higher percentage, but its result is based on only ten cases and should be shown with the counts.",
+        "The first team performed better because 90% is higher than 80%, regardless of the number of cases.",
+        "The second team performed better because it completed 800 cases within SLA, compared with only nine."
+      ],
+      "correct": 1,
+      "explanation": "Porcentajes y recuentos deben mostrarse juntos, especialmente con una muestra de diez. Además, las poblaciones de casos pueden tener distinta dificultad, por lo que un ranking directo sería débil.",
+      "translation": "El primer equipo tiene el porcentaje más alto, pero el resultado se basa en solo diez casos y debe mostrarse junto con los recuentos."
+    },
+    {
+      "id": "b16-v2-metrics-trends-033",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "The report says 30% of incidents involved cloud services, but half of the incident records have no environment field. What caveat is essential?",
+      "options": [
+        "The 30% is based on records with a known environment; missing classifications could materially change the share.",
+        "Treat records without an environment as non-cloud unless analysts later complete the missing classifications during quality review.",
+        "Withhold the percentage until the missing environment field falls below an agreed quality threshold.",
+        "Report 30% as a minimum because the unclassified records may include additional cloud incidents."
+      ],
+      "correct": 0,
+      "explanation": "Los datos faltantes impiden extrapolar sin condición. El 30% describe los registros clasificados; los desconocidos podrían aumentar o reducir la proporción sobre el total.",
+      "translation": "El 30 % se basa en registros con un entorno conocido; las clasificaciones ausentes podrían cambiar de forma importante esa proporción."
+    },
+    {
+      "id": "b16-v2-metrics-trends-034",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "The false-positive rate dropped from 40% to 20% after tuning, while total alerts doubled. What additional metric would clarify analyst workload?",
+      "options": [
+        "Show total alert volume as the workload measure and use the false-positive rate only as a quality indicator for the current month.",
+        "Create a tuning-efficiency score by comparing the percentage reduction with the percentage increase in volume.",
+        "Use the 20% false-positive rate because a normalized rate already accounts for the larger alert population.",
+        "Show the number of false-positive alerts as well as the rate, because a lower percentage may still represent the same workload."
+      ],
+      "correct": 3,
+      "explanation": "Si el volumen se duplica, 20% de un total doble puede equivaler al mismo número de falsos positivos que antes. La carga necesita tasa y recuento.",
+      "translation": "Mostremos el número de alertas de falso positivo además de la tasa, porque un porcentaje menor aún puede representar la misma carga de trabajo."
+    },
+    {
+      "id": "b16-v2-metrics-trends-035",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "Twenty incidents occurred among 200 internet-facing servers and twenty among 2,000 internal servers. What comparison matters?",
+      "options": [
+        "Internet-facing servers had 10% more incidents because twenty incidents among two hundred servers produces a value of ten.",
+        "Both groups have the same risk because each experienced exactly twenty incidents.",
+        "Internal servers represent the greater risk because their population is ten times larger.",
+        "The counts are equal, but the incident rate is ten times higher among the internet-facing servers."
+      ],
+      "correct": 3,
+      "explanation": "Las tasas son 10% y 1%, respectivamente, por lo que la primera es diez veces mayor. El mismo recuento no implica el mismo riesgo relativo.",
+      "translation": "Los recuentos son iguales, pero la tasa de incidentes es diez veces mayor entre los servidores expuestos a Internet."
+    },
+    {
+      "id": "b16-v2-metrics-trends-036",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "Patch compliance rose from 92% to 96%, but the asset inventory fell from 10,000 to 8,000. What should the audience see?",
+      "options": [
+        "Show both percentages and asset counts, because the improved rate may partly reflect the smaller inventory.",
+        "Compliance improved by four points, and the inventory change cannot affect a correctly calculated percentage.",
+        "The rate should be recalculated using 10,000 assets for both periods, even if 2,000 are no longer in scope.",
+        "The inventory decrease means compliance actually fell, regardless of the number of patched assets."
+      ],
+      "correct": 0,
+      "explanation": "Un cambio de población puede alterar la proporción y el número absoluto. Mostrar ambos permite saber si mejoró el parcheo o solo cambió el alcance.",
+      "translation": "Mostremos tanto los porcentajes como los recuentos de activos, porque la mejora de la tasa puede deberse en parte a un inventario menor."
+    },
+    {
+      "id": "b16-v2-metrics-trends-037",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "In equally sized pilot and control groups of 1,000 devices, the malware rate is described as 'twice as high': 0.2% versus 0.1%. Add proportionate context.",
+      "options": [
+        "The difference is too small to mention, since rates below 1% are operationally irrelevant.",
+        "The pilot caused twice as much malware, which follows directly from comparing its 0.2% rate with the 0.1% control rate.",
+        "The pilot group has a 100-percentage-point increase in malware because its rate doubled.",
+        "The relative rate is twice as high, but the absolute difference is 0.1 percentage points and the event counts are small."
+      ],
+      "correct": 3,
+      "explanation": "La razón relativa es correcta: dos eventos frente a uno equivalen al doble. Sin embargo, la diferencia absoluta es de solo 0,1 puntos porcentuales y la muestra contiene pocos eventos, por lo que no demuestra causalidad.",
+      "translation": "La tasa relativa es el doble, pero la diferencia absoluta es de 0,1 puntos porcentuales y los recuentos de eventos son pequeños."
+    },
+    {
+      "id": "b16-v2-metrics-trends-038",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "When an executive asks what share of alerts became incidents, you find March alerts linked to some incidents created in April. Define a sound calculation.",
+      "options": [
+        "Track a cohort of March alerts through a fixed follow-up period, then divide linked incidents by the alerts in that cohort.",
+        "Average the March and April monthly percentages so delayed conversions cancel out over time.",
+        "Divide all incidents created in March by all alerts created in March, even when the two record populations are not linked.",
+        "Use April incidents as the numerator and March alerts as the denominator because investigations naturally cross months."
+      ],
+      "correct": 0,
+      "explanation": "Una tasa de conversión requiere cohorte, vínculo y ventana de seguimiento. Mezclar totales mensuales independientes crea desajustes temporales y de pertenencia.",
+      "translation": "Sigamos una cohorte de alertas de marzo durante un periodo fijo y dividamos los incidentes vinculados por las alertas de esa cohorte."
+    },
+    {
+      "id": "b16-v2-metrics-trends-039",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "Two business units each have 95% MFA coverage. Unit X is missing 5 of 100 users; Unit Y is missing 500 of 10,000. What is the balanced message?",
+      "options": [
+        "The units have identical exposure because both achieved exactly 95% MFA coverage.",
+        "Unit X is less secure because each uncovered user represents a larger percentage of its population.",
+        "Unit Y has better MFA coverage because 9,500 protected users is more than both the protected and total populations of Unit X.",
+        "The coverage rate is the same, but Unit Y has far more uncovered users and therefore a larger absolute exposure."
+      ],
+      "correct": 3,
+      "explanation": "La tasa permite comparar cobertura relativa; el recuento muestra exposición absoluta. Ninguna dimensión por sí sola describe todo el riesgo.",
+      "translation": "La tasa de cobertura es la misma, pero la Unidad Y tiene muchos más usuarios sin proteger y, por tanto, una exposición absoluta mayor."
+    },
+    {
+      "id": "b16-v2-metrics-trends-040",
+      "topic": "Metrics and trends · Percentages, ratios, and cohort comparisons",
+      "question": "The vendor states that detection accuracy improved by 15%. The previous value was 70 and the new value is 85, but the scale is unspecified. Ask the decisive question.",
+      "options": [
+        "Do you mean an increase of 15 percentage points, or a 15% relative improvement, and how is accuracy defined?",
+        "Can we describe the improvement as significant if the score increased by fifteen units?",
+        "Did the number of alerts also increase by 15%, since accuracy and volume should move together?",
+        "Was the new score rounded up from 84.5, and did every analyst view the same dashboard during the reporting period?"
+      ],
+      "correct": 0,
+      "explanation": "Sin escala ni definición, no sabemos si 70 y 85 son porcentajes, puntos o una métrica compuesta. La pregunta distingue puntos y cambio relativo y exige definir accuracy.",
+      "translation": "¿Se refiere a un aumento de 15 puntos porcentuales o a una mejora relativa del 15 %, y cómo se define la precisión?"
+    },
+    {
+      "id": "b16-v2-metrics-trends-041",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "From 1,000 alerts, 100 are true positives, 300 false positives, and 600 still unreviewed. The report gives a 25% true-positive rate. What is missing?",
+      "options": [
+        "Report 75% non-true-positive outcomes among reviewed alerts as the rule's inaccuracy rate.",
+        "The 25% rate applies only to reviewed alerts; the 600 unreviewed alerts could change the final result.",
+        "Report a provisional 10% true-positive rate using all alerts, with pending reviews retained in the denominator.",
+        "Keep the 25% result as the headline and list the unreviewed alerts as a separate backlog metric."
+      ],
+      "correct": 1,
+      "explanation": "100 de 400 revisadas es 25%, pero queda un 60% sin resultado. La respuesta etiqueta correctamente el subconjunto y evita tratar pendientes como falsos o excluirlos de una conclusión final.",
+      "translation": "La tasa del 25 % se aplica solo a las alertas revisadas; las 600 alertas pendientes podrían cambiar el resultado final."
+    },
+    {
+      "id": "b16-v2-metrics-trends-042",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "After tuning, a rule produces fewer false positives but also misses two known test events. How should you summarize the trade-off?",
+      "options": [
+        "Describe the tuning as successful because production false positives fell, and schedule the missed tests for a later technical review.",
+        "Restore the previous rule version now, then investigate whether the test conditions represent production behavior.",
+        "Describe precision as improved and sensitivity as unchanged until a missed production event is confirmed.",
+        "Tuning improved precision, but the missed tests indicate a possible loss of detection sensitivity that we need to address."
+      ],
+      "correct": 3,
+      "explanation": "Menos falsos positivos mejora precisión, pero eventos conocidos omitidos apuntan a menor sensibilidad. La respuesta reconoce ambas dimensiones sin absolutismos.",
+      "translation": "El ajuste mejoró la precisión, pero las pruebas omitidas indican una posible pérdida de sensibilidad de detección que debemos corregir."
+    },
+    {
+      "id": "b16-v2-metrics-trends-043",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "One detection has a high true-positive rate but fires only twice a year; another has a lower rate and fires daily. Which workload view is useful?",
+      "options": [
+        "Prioritize the daily rule because alert frequency is the most reliable measure of analyst workload, regardless of handling time or outcome.",
+        "Compare both the outcome rate and the number of analyst hours consumed; frequency changes the operational impact.",
+        "Average the two true-positive rates to create a single workload metric for the detection portfolio.",
+        "Prioritize the twice-yearly rule because a higher true-positive rate always makes it more valuable."
+      ],
+      "correct": 1,
+      "explanation": "La calidad proporcional y la carga absoluta responden a preguntas distintas. Horas consumidas combina frecuencia y esfuerzo mejor que elegir solo una tasa.",
+      "translation": "Comparemos tanto la tasa de resultados como las horas de analista consumidas; la frecuencia cambia el impacto operativo."
+    },
+    {
+      "id": "b16-v2-metrics-trends-044",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "Following a data-source outage, a rule's alert volume fell 70% and its false-positive rate appears to improve. State the concern.",
+      "options": [
+        "The apparent improvement may be a coverage artifact, so we should assess rule quality only after accounting for the outage.",
+        "Carry the previous false-positive rate forward until the source is restored so the dashboard retains a continuous and directly comparable quality trend.",
+        "The rule became more precise because fewer source events produced fewer false-positive alerts.",
+        "A data-source outage affects volume but cannot change the measured quality of the remaining alerts."
+      ],
+      "correct": 0,
+      "explanation": "Una interrupción puede cambiar qué eventos llegan y sesgar la muestra observada. No es válido atribuir la mejora al ajuste ni copiar una tasa histórica.",
+      "translation": "La aparente mejora puede ser un efecto de la cobertura, por lo que debemos evaluar la calidad de la regla teniendo en cuenta la interrupción."
+    },
+    {
+      "id": "b16-v2-metrics-trends-045",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "Analysts closed 60% of a rule's alerts as benign and 35% as expected administrative activity. Someone reports a 95% false-positive rate. Correct the metric.",
+      "options": [
+        "Combine both categories as false positives because neither required an incident response action.",
+        "Report the outcome categories separately; expected administrative activity may be correctly detected but operationally unactionable.",
+        "Treat expected administrative activity as true positive, making the rule's true-positive rate at least 35%.",
+        "Exclude benign alerts from the denominator so the metric focuses on activity that actually occurred."
+      ],
+      "correct": 1,
+      "explanation": "Un evento esperado puede coincidir correctamente con la lógica, aunque no sea accionable. Separar exactitud, relevancia y acción evita usar false positive como categoría genérica.",
+      "translation": "Informemos por separado de las categorías de resultado; la actividad administrativa esperada puede haberse detectado correctamente, aunque no sea accionable."
+    },
+    {
+      "id": "b16-v2-metrics-trends-046",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "After correlation is enabled, ten low-level alerts become one case. Alert volume falls while case volume stays flat. What improved metric could show the effect?",
+      "options": [
+        "Show alerts consolidated per case and analyst handling time, rather than interpreting lower alert volume as lower threat activity.",
+        "Flat case volume proves that correlation had no operational effect on the SOC.",
+        "Multiply alert volume by case volume to show how much underlying threat activity the correlation rule removed from the environment.",
+        "Lower alert volume shows that the underlying activity decreased after correlation was enabled."
+      ],
+      "correct": 0,
+      "explanation": "La correlación cambia la unidad de trabajo, no necesariamente la amenaza. Consolidación y tiempo de gestión permiten medir reducción de fragmentación y esfuerzo.",
+      "translation": "Mostremos las alertas consolidadas por caso y el tiempo de gestión del analista, en lugar de interpretar el menor volumen como menos actividad de amenaza."
+    },
+    {
+      "id": "b16-v2-metrics-trends-047",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "One analyst labels an outcome 'benign positive'; another uses 'false positive' for the same scenario. Why does this matter for trend reporting?",
+      "options": [
+        "Merge benign positive and false positive into a single non-incident category for trend consistency.",
+        "Inconsistent labels can create artificial trends, so the outcome definitions must be standardized before comparison.",
+        "Keep local labels and map them only when an executive report requires a portfolio total.",
+        "Trend the total number of closed alerts and use outcome labels only for rule-level investigations."
+      ],
+      "correct": 1,
+      "explanation": "Definiciones distintas cambian la distribución sin cambio real en la actividad. Estandarizar conserva el significado; fusionar todo eliminaría matices útiles.",
+      "translation": "Las etiquetas incoherentes pueden crear tendencias artificiales, por lo que debemos estandarizar las definiciones de resultados antes de comparar."
+    },
+    {
+      "id": "b16-v2-metrics-trends-048",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "A detection's precision rose from 30% to 55%, while median review time rose from 4 to 12 minutes. Give the customer the balanced interpretation.",
+      "options": [
+        "The alerts are more likely to be relevant, but each now takes longer to review, so the net workload effect is not yet clear.",
+        "Performance improved because precision increased by 25 points, and that gain outweighs the tripled median review time across the full alert population under review.",
+        "Performance declined because review time tripled, even though analysts now see more relevant alerts.",
+        "The two metrics should be combined by subtracting twelve minutes from the 55% precision rate."
+      ],
+      "correct": 0,
+      "explanation": "Precisión y tiempo por alerta afectan el trabajo en sentidos distintos y usan unidades incompatibles. Hace falta volumen u horas totales para evaluar el efecto neto.",
+      "translation": "Es más probable que las alertas sean relevantes, pero ahora cada una tarda más en revisarse, por lo que el efecto neto sobre la carga aún no está claro."
+    },
+    {
+      "id": "b16-v2-metrics-trends-049",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "The number of escalated alerts dropped after analysts received new closure guidance. What evidence would distinguish better triage from under-escalation?",
+      "options": [
+        "Ask analysts whether they feel more confident after the guidance, because confidence is the most direct measure of triage accuracy.",
+        "Compare escalation volume with the previous month; any stable reduction confirms better decision-making.",
+        "A lower escalation count is sufficient evidence that analysts became more efficient after the guidance.",
+        "Review a sample of closed alerts and compare later incident discoveries, not just the lower escalation count."
+      ],
+      "correct": 3,
+      "explanation": "El volumen de escalados no mide por sí solo la calidad. Muestreo y detecciones posteriores ayudan a identificar cierres erróneos y no solo cambio de conducta.",
+      "translation": "Revisemos una muestra de alertas cerradas y comparemos los incidentes descubiertos posteriormente, no solo el menor número de escalados."
+    },
+    {
+      "id": "b16-v2-metrics-trends-050",
+      "topic": "Metrics and trends · Detection quality and alert outcomes",
+      "question": "A dashboard ranks rules by false-positive percentage. One rule has 100% from a single reviewed alert. How should it appear?",
+      "options": [
+        "Replace the one-observation result with the portfolio average until the rule has a larger reviewed sample.",
+        "Place the rule at the top of the ranking but add a sample-size column beside the 100% result for transparency.",
+        "Show the percentage with its sample size and avoid ranking it as reliable evidence until more outcomes are available.",
+        "Exclude the rule from the ranking and omit its observed percentage until at least ten reviews are available."
+      ],
+      "correct": 2,
+      "explanation": "El 100% es matemáticamente válido para una observación, pero muy inestable. Mostrar n y limitar la interpretación es mejor que clasificarlo, ocultarlo o imputar otra tasa.",
+      "translation": "Mostremos el porcentaje junto con el tamaño de la muestra y evitemos clasificarlo como evidencia fiable hasta disponer de más resultados."
+    },
+    {
+      "id": "b16-v2-metrics-trends-051",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "Mean time to detect is calculated from the attack start time, but that timestamp is estimated in many cases. Add the right caveat.",
+      "options": [
+        "MTTD is partly based on estimated start times, so changes may reflect investigation quality as well as detection speed.",
+        "MTTD remains precise if analysts record one estimated start time for every case and document their rationale.",
+        "Use alert creation time as the common start so the metric becomes reproducible, while retaining attack-start estimates in case notes.",
+        "Keep the metric comparable by allowing each analyst to apply the estimation method that best fits the case."
+      ],
+      "correct": 0,
+      "explanation": "La calidad del punto inicial afecta MTTD. Mejor investigación puede descubrir inicios anteriores y empeorar la cifra sin peor detección; usar la alerta cambiaría la definición.",
+      "translation": "El MTTD se basa en parte en horas de inicio estimadas, por lo que los cambios pueden reflejar tanto la calidad de la investigación como la rapidez de detección."
+    },
+    {
+      "id": "b16-v2-metrics-trends-052",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "Containment time is measured from case creation, but an automated control already blocked the account ten minutes earlier. What should be clarified?",
+      "options": [
+        "The case-based metric measures analyst workflow, not the full time to technical containment in this example.",
+        "Add the ten-minute automated interval to analyst handling time so one metric covers the full response process.",
+        "Use the first automated action as the start for all cases so automated and manual containment share one definition.",
+        "Keep case creation as the start because the metric is intended to represent accountable SOC response."
+      ],
+      "correct": 0,
+      "explanation": "El punto inicial define qué proceso se mide. Desde creación del caso se evalúa flujo humano; para contención técnica haría falta otro inicio. Ninguno es universalmente incorrecto.",
+      "translation": "En este ejemplo, la métrica basada en el caso mide el flujo de trabajo del analista, no el tiempo total hasta la contención técnica."
+    },
+    {
+      "id": "b16-v2-metrics-trends-053",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "Response time improved, but the team also changed the clock to pause while waiting for customers. How should the trend be presented?",
+      "options": [
+        "Apply the new timing rule only to future cases and describe the lower reported duration as genuine operational improvement.",
+        "Response became faster because paused customer time should never count toward operational performance.",
+        "The reported improvement follows a timing-rule change, so we need a like-for-like view before attributing it to faster response.",
+        "The trend remains comparable because both periods use hours, even though the clock rules changed."
+      ],
+      "correct": 2,
+      "explanation": "Misma unidad no significa misma definición. Una pausa nueva reduce tiempos medidos; hay que recalcular o marcar una ruptura antes de atribuir rendimiento.",
+      "translation": "La mejora comunicada coincide con un cambio en las reglas de cómputo, por lo que necesitamos una comparación homogénea antes de atribuirla a una respuesta más rápida."
+    },
+    {
+      "id": "b16-v2-metrics-trends-054",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "The median time to acknowledge is 8 minutes and the 95th percentile is 75 minutes. Give the customer a useful interpretation.",
+      "options": [
+        "Report eight minutes as the normal acknowledgement time and include the 95th percentile only in the appendix.",
+        "Lead with 75 minutes because the tail is the most important measure for a service commitment.",
+        "Recalculate the figures because the gap between the median and 95th percentile suggests inconsistent timestamps.",
+        "Most alerts are acknowledged quickly, but a small tail experiences much longer delays that should be investigated."
+      ],
+      "correct": 3,
+      "explanation": "Mediana baja y percentil 95 alto describen una cola de retrasos. Ninguna cifra representa todos los casos, y ambas son compatibles.",
+      "translation": "La mayoría de las alertas se reconoce con rapidez, pero una pequeña cola sufre retrasos mucho mayores que debemos investigar."
+    },
+    {
+      "id": "b16-v2-metrics-trends-055",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "Critical incidents met the one-hour response SLA in 18 of 20 cases. Deliver the result without hiding the misses.",
+      "options": [
+        "Two incidents failed the SLA, which means critical response performance was unacceptable overall.",
+        "The average response met one hour, and individual missed cases do not need separate disclosure.",
+        "SLA compliance was 90%; two critical incidents missed the target, and we are reviewing the causes.",
+        "The team achieved the SLA in nearly every critical case, so the two exceptions are not material to the report."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta combina porcentaje, recuento y seguimiento. Evita minimizar dos casos críticos o convertirlos en juicio total sin contexto.",
+      "translation": "El cumplimiento del SLA fue del 90 %; dos incidentes críticos incumplieron el objetivo y estamos revisando las causas."
+    },
+    {
+      "id": "b16-v2-metrics-trends-056",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "A case remained open for ten days, but active analyst work totalled six hours. Which metric distinction should you explain?",
+      "options": [
+        "Combine the two durations into a weighted measure so the customer sees one end-to-end result in the monthly report.",
+        "Calendar resolution time was ten days, while hands-on investigation effort was six hours; they answer different questions.",
+        "Use six hours as resolution time because inactive periods do not consume analyst capacity.",
+        "Use ten days as analyst effort because responsibility remains with the team until closure."
+      ],
+      "correct": 1,
+      "explanation": "Duración transcurrida y esfuerzo activo miden experiencia del cliente y consumo de recursos, respectivamente. No deben sustituirse ni promediarse.",
+      "translation": "El tiempo transcurrido hasta la resolución fue de diez días, mientras que el esfuerzo activo de investigación fue de seis horas; responden a preguntas distintas."
+    },
+    {
+      "id": "b16-v2-metrics-trends-057",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "Automation cut median enrichment time from six minutes to one, but total case duration did not move. What is a careful conclusion?",
+      "options": [
+        "Automation sped up enrichment, although that step was not the main constraint on overall case duration.",
+        "Automation delivered no value because the end-to-end case metric remained unchanged.",
+        "Case duration should have fallen by five minutes, so the dashboard must contain a calculation error.",
+        "The one-minute enrichment time proves that all automated cases now move faster from detection to closure."
+      ],
+      "correct": 0,
+      "explanation": "Una mejora local puede ser real sin mover el ciclo total si otro paso domina. No equivale a ausencia de valor ni prueba mejora en todos los casos.",
+      "translation": "La automatización aceleró el enriquecimiento, aunque esa fase no era la principal limitación de la duración total del caso."
+    },
+    {
+      "id": "b16-v2-metrics-trends-058",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "Time-to-contain improved after low-severity cases were removed from the metric. The remaining cases are more complex. What comparison is valid?",
+      "options": [
+        "Add the excluded low-severity times to the new period so both totals contain the same number of cases.",
+        "Use only the new definition and describe all historical differences as operational improvement.",
+        "Compare the published values directly because removing simpler cases makes the improvement more conservative.",
+        "Recalculate the earlier period using the same severity scope, or label the series break before comparing performance."
+      ],
+      "correct": 3,
+      "explanation": "Cambiar alcance altera la mezcla de casos. Una comparación homogénea exige recalcular o señalar la ruptura, no ajustar sumas arbitrariamente.",
+      "translation": "Recalculemos el periodo anterior con el mismo alcance de severidad o señalemos la ruptura de la serie antes de comparar el rendimiento."
+    },
+    {
+      "id": "b16-v2-metrics-trends-059",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "A report celebrates a lower mean resolution time, but the backlog of unresolved cases has doubled. What bias might be present?",
+      "options": [
+        "Unresolved cases should be assigned zero duration until closure so the metric represents the full workload.",
+        "The lower mean proves that the growing backlog contains only newly created cases.",
+        "Backlog size and resolution time are unrelated because one is a count and the other is a duration.",
+        "The metric covers completed cases and may look better while older, harder cases remain open in the backlog."
+      ],
+      "correct": 3,
+      "explanation": "El sesgo de supervivencia o selección aparece si solo se miden cierres fáciles y quedan casos antiguos abiertos. Asignarles cero empeoraría la distorsión.",
+      "translation": "La métrica cubre los casos completados y puede parecer mejor mientras los casos más antiguos y difíciles siguen abiertos en la cola."
+    },
+    {
+      "id": "b16-v2-metrics-trends-060",
+      "topic": "Metrics and trends · Detection and response time",
+      "question": "A customer asks for one number that represents response performance. How should you answer?",
+      "options": [
+        "No single number captures it fully; I would pair timeliness with SLA compliance, backlog, and outcome quality.",
+        "Use mean resolution time as the primary number and treat backlog and quality as explanatory detail in executive reporting.",
+        "Use the fastest response time to show attainable performance, paired with the median for typical cases.",
+        "Create a composite percentage from response time, SLA compliance, backlog, and quality for one headline KPI."
+      ],
+      "correct": 0,
+      "explanation": "Respuesta combina rapidez, fiabilidad, carga pendiente y calidad. Un único promedio u óptimo oculta dimensiones, y sumar porcentajes heterogéneos carece de significado.",
+      "translation": "Ninguna cifra lo representa por completo; combinaría la rapidez con el cumplimiento del SLA, la cola pendiente y la calidad de los resultados."
+    },
+    {
+      "id": "b16-v2-metrics-trends-061",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "EDR coverage is reported at 96%, but 500 retired devices remain in the asset inventory. What should be checked before presenting the rate?",
+      "options": [
+        "Confirm the eligible active-device denominator, because stale inventory can make coverage appear lower than it is.",
+        "Remove 500 devices from both the covered and uncovered counts, regardless of their actual status.",
+        "Use the number of EDR agents as the denominator so every installed agent counts as full coverage.",
+        "Report 96% as published because inventory quality does not affect an endpoint coverage percentage."
+      ],
+      "correct": 0,
+      "explanation": "Cobertura depende de una población elegible fiable. Activos retirados pueden inflar el denominador, pero no deben restarse mecánicamente sin validar estado y numerador.",
+      "translation": "Confirmemos el denominador de dispositivos activos elegibles, porque un inventario obsoleto puede hacer que la cobertura parezca menor de lo que es."
+    },
+    {
+      "id": "b16-v2-metrics-trends-062",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "Log-source health shows 99% availability, yet a critical domain controller stopped sending security events for four hours. Explain why both facts matter.",
+      "options": [
+        "Report availability only for the domain controller, because an aggregate health percentage has no operational value when a critical source fails.",
+        "A 99% availability result means the four-hour gap was within tolerance and had no material detection impact.",
+        "Overall availability was high, but the outage affected a critical source, so the risk is greater than the percentage alone suggests.",
+        "The critical outage makes the 99% calculation incorrect because important sources cannot be included in averages."
+      ],
+      "correct": 2,
+      "explanation": "Una media alta puede ocultar concentración del fallo en una fuente crítica. El agregado sigue siendo válido, pero necesita criticidad y duración para representar riesgo.",
+      "translation": "La disponibilidad general fue alta, pero la interrupción afectó a una fuente crítica, por lo que el riesgo es mayor de lo que sugiere el porcentaje por sí solo."
+    },
+    {
+      "id": "b16-v2-metrics-trends-063",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "Cloud coverage rose from 60% to 85% after twenty new subscriptions were onboarded, but ten older subscriptions remain unmonitored. Complete the progress update.",
+      "options": [
+        "The onboarding project is complete because coverage above 80% represents a strong majority of subscriptions.",
+        "Coverage remains inadequate because any unmonitored subscription makes the 85% improvement irrelevant.",
+        "Coverage improved substantially to 85%, while ten existing subscriptions still need to be onboarded.",
+        "Twenty subscriptions were added, so coverage improved by twenty percentage points from the previous period."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta reconoce avance y brecha sin inventar un umbral de cierre ni confundir número de suscripciones con puntos porcentuales.",
+      "translation": "La cobertura mejoró considerablemente hasta el 85 %, aunque todavía hay que incorporar diez suscripciones existentes."
+    },
+    {
+      "id": "b16-v2-metrics-trends-064",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "A dashboard shows 100% log ingestion for connected sources. Three planned sources have never been connected. Improve the label.",
+      "options": [
+        "Connected-source ingestion is 100%, while overall planned-source coverage is lower because three sources are not onboarded.",
+        "Replace 100% with the percentage of all planned sources currently ingesting, and remove connected-source health from the slide.",
+        "Include the three planned sources in the ingestion denominator because they are already part of the approved scope.",
+        "Keep 'log coverage: 100%' because the calculation correctly includes the sources capable of sending data."
+      ],
+      "correct": 0,
+      "explanation": "La etiqueta debe distinguir salud de fuentes conectadas y cobertura del plan. Un 100% puede ser correcto para la primera y engañoso para la segunda.",
+      "translation": "La ingesta de las fuentes conectadas es del 100 %, mientras que la cobertura total de fuentes previstas es menor porque faltan tres por incorporar."
+    },
+    {
+      "id": "b16-v2-metrics-trends-065",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "Telemetry completeness improved from 88% to 94%, but no one documented how completeness is calculated. What should happen before setting a target?",
+      "options": [
+        "Replace completeness with event volume because raw counts do not require rules about missing fields.",
+        "Define the required fields, eligible records, and treatment of delayed data so the metric is reproducible.",
+        "Set the target at 95% first, since a documented definition can be added after the team reaches it.",
+        "Use the dashboard formula as the definition, even if the required fields and exclusions are unknown."
+      ],
+      "correct": 1,
+      "explanation": "Una meta sobre métrica no definida incentiva resultados no comparables. Campos, población y retrasos determinan numerador y denominador y permiten reproducirla.",
+      "translation": "Definamos los campos obligatorios, los registros elegibles y el tratamiento de los datos retrasados para que la métrica sea reproducible."
+    },
+    {
+      "id": "b16-v2-metrics-trends-066",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "Sensor coverage is 98% by device count, but the uncovered 2% includes most production servers. Brief leadership in one sentence.",
+      "options": [
+        "Coverage risk is low because only 2% of all devices remain without a sensor.",
+        "Production servers should be excluded from the percentage because their importance distorts an estate-wide metric.",
+        "The coverage percentage should be changed to 50% to reflect the greater weight of production systems.",
+        "Device-count coverage is high, but the remaining gap is concentrated in high-value production systems."
+      ],
+      "correct": 3,
+      "explanation": "Cobertura por cantidad puede ocultar concentración de riesgo. Conviene mostrar el 98% y segmentar por criticidad, no inventar una ponderación sin definirla.",
+      "translation": "La cobertura por número de dispositivos es alta, pero la brecha restante se concentra en sistemas de producción de gran valor."
+    },
+    {
+      "id": "b16-v2-metrics-trends-067",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "Data latency fell from 20 minutes to 3 for most sources, while one source now arrives six hours late. Which summary serves operations best?",
+      "options": [
+        "Typical latency improved, but the six-hour source is an outlier that should be identified separately because it affects detection timeliness.",
+        "Report six hours as portfolio latency because the slowest source defines the maximum detection delay.",
+        "Use the median across sources without naming the outlier so the measure remains comparable month to month.",
+        "Report three minutes as the typical latency and monitor the six-hour source in a separate technical dashboard for operational follow-up."
+      ],
+      "correct": 0,
+      "explanation": "La experiencia típica y el peor caso crítico aportan información distinta. Identificar la fuente evita que media o máximo oculten el perfil real.",
+      "translation": "La latencia habitual mejoró, pero la fuente con seis horas de retraso es un valor atípico que debe identificarse por separado porque afecta a la rapidez de detección."
+    },
+    {
+      "id": "b16-v2-metrics-trends-068",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "An ingestion metric counts events received, not the period of activity they represent. A source sends a day's backlog after recovery. What happens to the chart?",
+      "options": [
+        "The chart remains accurate as long as every delayed event has a unique identifier in the SIEM.",
+        "The recovery day may show an artificial spike in received events even though the underlying activity occurred earlier.",
+        "The spike reflects genuine activity on the recovery day because that is when the SIEM processed the events.",
+        "Backfilled events should be deleted from the chart because delayed data cannot contribute to historical analysis."
+      ],
+      "correct": 1,
+      "explanation": "Hora de recepción y hora del evento producen tendencias distintas. El backlog crea pico de ingesta, pero puede reasignarse o anotarse, no necesariamente eliminarse.",
+      "translation": "El día de la recuperación puede mostrar un pico artificial de eventos recibidos, aunque la actividad subyacente ocurriera antes."
+    },
+    {
+      "id": "b16-v2-metrics-trends-069",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "Coverage is reported as the percentage of assets sending any log. Why might that overstate useful visibility?",
+      "options": [
+        "Count an asset as covered once it sends a valid log, then assess event quality as a separate maturity metric.",
+        "Treat high-volume assets as fully covered and review low-volume assets for possible collection gaps.",
+        "Weight coverage by event volume so sources that provide more telemetry contribute more to the percentage.",
+        "An asset can send heartbeat data without providing the security events needed for the intended detections."
+      ],
+      "correct": 3,
+      "explanation": "Presencia de datos no equivale a calidad o contenido suficiente. Un heartbeat prueba conectividad, no los eventos necesarios para casos de uso.",
+      "translation": "Un activo puede enviar datos de heartbeat sin proporcionar los eventos de seguridad necesarios para las detecciones previstas."
+    },
+    {
+      "id": "b16-v2-metrics-trends-070",
+      "topic": "Metrics and trends · Coverage and data completeness",
+      "question": "The SOC improved log coverage, but alert volume did not increase. A sponsor asks whether the onboarding failed. Respond using outcome-neutral language.",
+      "options": [
+        "Stable alert volume suggests the new sources are behaving as expected, so onboarding can be marked successful for this phase.",
+        "Increase rule sensitivity temporarily so the customer can see a measurable alert-volume effect from the new sources.",
+        "Treat unchanged alert volume as evidence that the new telemetry has not yet improved detection outcomes.",
+        "The sources are now available for detection; unchanged alert volume alone does not show whether the onboarding succeeded or failed."
+      ],
+      "correct": 3,
+      "explanation": "El objetivo inicial es disponibilidad y uso correcto, no producir más alertas. Volumen estable puede tener muchas causas y no confirma éxito ni fracaso por sí solo.",
+      "translation": "Las fuentes ya están disponibles para detección; que el volumen de alertas no cambie no demuestra por sí solo que la incorporación haya tenido éxito o haya fallado."
+    },
+    {
+      "id": "b16-v2-metrics-trends-071",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "High-severity incidents fell in number, but total estimated loss rose because of one major case. Summarize the portfolio trend.",
+      "options": [
+        "The exceptional case should be separated from the portfolio so it does not distort the trend.",
+        "Risk improved because fewer incidents received a high-severity classification during the period.",
+        "High-severity frequency decreased, while impact increased due to one exceptional incident; both dimensions should be shown.",
+        "Risk worsened because estimated loss is more important than every incident-frequency measure."
+      ],
+      "correct": 2,
+      "explanation": "Frecuencia e impacto pueden moverse en direcciones opuestas. El caso extremo es parte real del riesgo y debe explicarse, no ocultarse ni dominar todas las conclusiones.",
+      "translation": "La frecuencia de incidentes de alta severidad disminuyó, mientras que el impacto aumentó por un caso excepcional; debemos mostrar ambas dimensiones."
+    },
+    {
+      "id": "b16-v2-metrics-trends-072",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "A risk dashboard averages severity scores across all findings. Critical findings fall, but many informational findings are added, lowering the average. Identify the distortion.",
+      "options": [
+        "Average severity improved because adding informational findings reduced the organization's overall risk score.",
+        "The lower average may reflect a change in finding mix rather than a reduction in the most important exposure.",
+        "Critical exposure increased because a lower average severity always indicates that the most serious findings are being hidden by lower categories.",
+        "Informational findings should receive the critical score so the average remains comparable across periods."
+      ],
+      "correct": 1,
+      "explanation": "La composición puede mover una media aunque el riesgo crítico no cambie. Hace falta distribución o segmentación, no reponderar categorías sin fundamento.",
+      "translation": "La media menor puede reflejar un cambio en la composición de los hallazgos y no una reducción de la exposición más importante."
+    },
+    {
+      "id": "b16-v2-metrics-trends-073",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "Two departments each have a residual-risk score of 12. One derives from high likelihood and low impact; the other from low likelihood and high impact. What should the report preserve?",
+      "options": [
+        "Prioritize high likelihood because repeated events create the more immediate operational demand.",
+        "Prioritize high impact because resilience should take precedence when consequences are severe.",
+        "Show likelihood and impact separately, because the same combined score can represent different treatment priorities.",
+        "Use the identical residual scores to assign the same treatment deadline, then tailor only the control choice."
+      ],
+      "correct": 2,
+      "explanation": "La multiplicación o matriz puede colapsar perfiles distintos en el mismo número. Conservar componentes permite decidir entre prevención, resiliencia y aceptación.",
+      "translation": "Mostremos por separado la probabilidad y el impacto, porque una misma puntuación combinada puede representar prioridades de tratamiento diferentes."
+    },
+    {
+      "id": "b16-v2-metrics-trends-074",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "Open vulnerabilities increased after the organization adopted a more comprehensive scanner. Should the risk trend be called worse?",
+      "options": [
+        "Continue the old-scanner series for trend reporting and use the new scanner only for a separate coverage view.",
+        "Not yet; the increase may reflect better discovery, so we should compare exposure using consistent coverage and severity.",
+        "Call the trend worse because the new scanner found more unresolved exposure in the current environment.",
+        "Call the trend neutral because a scanner change is sufficient to explain the increase until proven otherwise."
+      ],
+      "correct": 1,
+      "explanation": "Más hallazgos pueden significar peor exposición o mejor descubrimiento. Cobertura y severidad comparables ayudan a separar ambas; ninguna explicación está probada aún.",
+      "translation": "Todavía no; el aumento puede reflejar un mejor descubrimiento, por lo que debemos comparar la exposición con una cobertura y severidad homogéneas."
+    },
+    {
+      "id": "b16-v2-metrics-trends-075",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "The risk register has fewer open items because several were accepted by business owners. What is the accurate trend statement?",
+      "options": [
+        "Open treatment items decreased, but accepted residual risk increased and should remain visible in the portfolio view.",
+        "Risk decreased because accepted items are closed by their owners and therefore no longer form part of the organization's residual exposure.",
+        "Risk increased because accepting a risk is equivalent to creating a new unresolved finding.",
+        "The portfolio is unchanged because acceptance can never affect any risk-management metric."
+      ],
+      "correct": 0,
+      "explanation": "Aceptar no elimina exposición; cambia su estado de tratamiento y gobierno. La vista debe distinguir acciones abiertas y riesgo retenido.",
+      "translation": "Los elementos de tratamiento abiertos disminuyeron, pero el riesgo residual aceptado aumentó y debe seguir visible en la vista de cartera."
+    },
+    {
+      "id": "b16-v2-metrics-trends-076",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "A heat map shows more red cells after the scoring scale changed from three levels to five. Add the critical explanation.",
+      "options": [
+        "Use the five-level scale for future reports and retain the old heat maps as the historical baseline.",
+        "Convert each color band to a percentage of findings so the old and new maps can be placed on one trend line.",
+        "Report more red cells as a portfolio deterioration, with the scoring change noted as secondary context.",
+        "The visual shift may come from the new scale, so old and new heat maps are not directly comparable without remapping."
+      ],
+      "correct": 3,
+      "explanation": "Cambiar categorías altera colores y umbrales. Para comparar hay que remapear o marcar ruptura; porcentajes no corrigen definiciones distintas.",
+      "translation": "El cambio visual puede deberse a la nueva escala, por lo que los mapas anteriores y posteriores no son directamente comparables sin una reclasificación."
+    },
+    {
+      "id": "b16-v2-metrics-trends-077",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "A vulnerability backlog fell by 20%, but overdue critical vulnerabilities stayed constant. Give leadership the balanced result.",
+      "options": [
+        "The critical count should be omitted until it moves in the same direction as the total backlog.",
+        "The overall backlog improved, but the highest-priority overdue exposure did not, so remediation progress is uneven.",
+        "Remediation improved by 20% across the portfolio, including the most critical overdue vulnerabilities.",
+        "There was no progress because the critical subset remained unchanged despite lower overall volume."
+      ],
+      "correct": 1,
+      "explanation": "El total muestra progreso y el subconjunto crítico revela una brecha. La conclusión equilibrada conserva ambas sin generalizar ni negar mejoras reales.",
+      "translation": "La cola total mejoró, pero la exposición crítica vencida de mayor prioridad no cambió, por lo que el avance de remediación es desigual."
+    },
+    {
+      "id": "b16-v2-metrics-trends-078",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "Risk scores fell after owners reassessed likelihood, but no controls were added and the threat environment did not change. What question should you ask?",
+      "options": [
+        "Which dashboard color should represent the improved risk scores in the next executive report?",
+        "What evidence supports the lower likelihood ratings, and was the reassessment method applied consistently?",
+        "Can the lower scores be treated as remediation even though no control implementation was recorded?",
+        "Should impact ratings also be lowered so the two components continue to move together?"
+      ],
+      "correct": 1,
+      "explanation": "Una reducción de puntuación sin cambio aparente necesita evidencia y método. Presentación, reclasificación automática o llamar remediación no validan el cambio.",
+      "translation": "¿Qué evidencia respalda las valoraciones de probabilidad más bajas y se aplicó de forma coherente el método de reevaluación?"
+    },
+    {
+      "id": "b16-v2-metrics-trends-079",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "A portfolio metric counts every overdue action equally. One is a critical firewall fix; ten are low-impact documentation updates. What refinement is needed?",
+      "options": [
+        "Report eleven overdue actions without segmentation, since equal counting is the most objective approach.",
+        "Multiply every overdue action by the critical rating so the portfolio total reflects the importance of the worst outstanding item.",
+        "Keep the count, but segment or weight actions by risk and age so the critical delay is not hidden.",
+        "Count only the firewall action because documentation delays never contribute to security risk."
+      ],
+      "correct": 2,
+      "explanation": "El recuento simple es útil pero no expresa materialidad. Segmentar o ponderar con reglas definidas muestra criticidad y antigüedad sin borrar trabajos menores.",
+      "translation": "Mantengamos el recuento, pero segmentemos o ponderemos las acciones por riesgo y antigüedad para que el retraso crítico no quede oculto."
+    },
+    {
+      "id": "b16-v2-metrics-trends-080",
+      "topic": "Metrics and trends · Severity, risk, and portfolio views",
+      "question": "Leadership asks whether a falling number of reported incidents means lower cyber risk. Give a concise, measured response.",
+      "options": [
+        "Treat incident counts as an operational KPI and discuss risk only through impact and financial-exposure measures.",
+        "It may be positive, but incident count alone cannot distinguish lower threat activity from changes in detection, reporting, or coverage.",
+        "Treat the decline as preliminary evidence that preventive controls reduced risk, subject to confirmation from coverage and impact metrics next period.",
+        "Treat the decline as a visibility concern until the SOC demonstrates that detection coverage is unchanged."
+      ],
+      "correct": 1,
+      "explanation": "El recuento es una señal, no una medida completa de riesgo. Puede variar por amenaza, controles, visibilidad o práctica de reporte; no debe descartarse ni interpretarse solo.",
+      "translation": "Puede ser positivo, pero el recuento de incidentes por sí solo no distingue entre menor actividad de amenaza y cambios en detección, reporte o cobertura."
+    },
+    {
+      "id": "b16-v2-metrics-trends-081",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "Your chart contains twelve monthly lines. Email-alert backlog fell steadily, while the other eleven measures remained within their usual ranges. The customer asks for the main message. What opening works best?",
+      "options": [
+        "This slide shows twelve metrics across the year, and I will walk through each line from top to bottom.",
+        "Overall performance improved because most of the lines finish lower than where they started.",
+        "There are several movements on the chart, so I would avoid identifying one as more important than the others.",
+        "The main change is a sustained fall in email-alert backlog; the other measures stayed within their usual ranges."
+      ],
+      "correct": 3,
+      "explanation": "El escenario identifica un único cambio material: la reducción sostenida de la cola de correo. La respuesta lo prioriza y resume el resto sin recorrer cada línea ni convertir cualquier descenso en una mejora universal.",
+      "translation": "El cambio principal es una reducción sostenida de la cola de alertas de correo; las demás medidas se mantuvieron dentro de sus rangos habituales."
+    },
+    {
+      "id": "b16-v2-metrics-trends-082",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "A bar chart compares monthly incidents, but the months are sorted from highest to lowest rather than chronologically. State the interpretation risk.",
+      "options": [
+        "Sorting improves trend analysis by making the largest monthly changes easier to see.",
+        "The incident totals are invalid unless the months are displayed in calendar order.",
+        "The chart shows a downward monthly trend because each bar is lower than the previous one after the categories are sorted.",
+        "The ranking shows relative volume, but it cannot be read as a month-to-month trend in its current order."
+      ],
+      "correct": 3,
+      "explanation": "Ordenar permite ranking, pero destruye secuencia temporal. Los valores siguen siendo válidos; lo inválido sería leer la pendiente como tendencia.",
+      "translation": "La clasificación muestra el volumen relativo, pero con el orden actual no puede interpretarse como una tendencia mes a mes."
+    },
+    {
+      "id": "b16-v2-metrics-trends-083",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "A pie chart uses twelve alert categories, several below 2%. Suggest a clearer spoken recommendation.",
+      "options": [
+        "I would remove categories below 2% because they are too small to affect operational decisions.",
+        "For readability, I would use a sorted bar chart and group only genuinely minor categories into 'Other.'",
+        "I would keep the pie chart and ask the audience to focus on the labels rather than the slice sizes.",
+        "I would combine the smallest categories until the three largest slices represent the whole dataset."
+      ],
+      "correct": 1,
+      "explanation": "Barras ordenadas facilitan comparar muchas categorías. Agrupar solo categorías menores conserva el total; eliminarlas o agrupar hasta forzar tres grandes distorsiona.",
+      "translation": "Para facilitar la lectura, usaría un gráfico de barras ordenado y agruparía únicamente las categorías realmente menores como «Otros»."
+    },
+    {
+      "id": "b16-v2-metrics-trends-084",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "The same incident appears in both 'identity' and 'cloud' categories on an executive chart. Make the classification transparent.",
+      "options": [
+        "The categories are mutually exclusive, but one incident can be shown twice when it affects more than one control area.",
+        "The percentages should be forced to total 100% by assigning every incident to its highest-severity category.",
+        "The duplicate should be removed from both categories so the executive total remains unique.",
+        "These categories overlap, so the percentages describe incident attributes and will not add up to 100%."
+      ],
+      "correct": 3,
+      "explanation": "Cuando categorías representan atributos, un caso puede pertenecer a varias y el total porcentual supera 100%. La transparencia es mejor que forzar exclusividad no diseñada.",
+      "translation": "Estas categorías se solapan, por lo que los porcentajes describen atributos de los incidentes y no sumarán el 100 %."
+    },
+    {
+      "id": "b16-v2-metrics-trends-085",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "A dashboard uses green for a metric that improved from 62% to 68%, although the target is 90%. Correct the visual message.",
+      "options": [
+        "The metric should remain red because any result below target represents poor performance, even when the direction is improving.",
+        "Remove the target and show only trend direction so the color has a single interpretation.",
+        "The metric is improving but remains below target; the dashboard should distinguish direction from target status.",
+        "Green is appropriate because any period-on-period improvement represents successful performance."
+      ],
+      "correct": 2,
+      "explanation": "Tendencia y estado son dimensiones distintas. Se puede mejorar y seguir bajo objetivo; el diseño debe separarlas en lugar de elegir una sola verdad.",
+      "translation": "La métrica está mejorando, pero sigue por debajo del objetivo; el panel debe distinguir la dirección del estado respecto a la meta."
+    },
+    {
+      "id": "b16-v2-metrics-trends-086",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "A customer challenges a sharp spike visible on your chart. You know it came from a planned penetration test. Respond naturally.",
+      "options": [
+        "That spike reflects the planned penetration test rather than an unplanned increase in hostile activity.",
+        "Acknowledge that the chart is accurate, but leave the test context for the technical appendix.",
+        "Remove the spike from the operational trend because the penetration test was planned activity.",
+        "Attribute the daily spike to the penetration test and classify the day's remaining detections as expected activity."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta explica la causa conocida sin borrar el dato ni afirmar que toda detección del día fuera esperada. El contexto sí es relevante para interpretar.",
+      "translation": "Ese pico corresponde a la prueba de penetración planificada y no a un aumento no previsto de actividad hostil."
+    },
+    {
+      "id": "b16-v2-metrics-trends-087",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "A slide labels a 3% monthly movement as 'significant.' No statistical test or operational threshold exists. Replace the claim.",
+      "options": [
+        "The metric increased by 3% this month; we are monitoring whether the change continues.",
+        "The metric increased significantly by 3%, although we have not defined a significance threshold.",
+        "The metric changed negligibly by 3%, which means no further monitoring is required.",
+        "The metric increased materially by 3%, because any measured change is material to trend reporting."
+      ],
+      "correct": 0,
+      "explanation": "Significant puede implicar relevancia estadística o práctica. La versión neutral cuantifica y propone seguimiento sin asignar una importancia no definida.",
+      "translation": "La métrica aumentó un 3 % este mes; estamos observando si el cambio continúa."
+    },
+    {
+      "id": "b16-v2-metrics-trends-088",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "A chart has two vertical axes: incidents and patch compliance. The lines appear to cross, and a colleague treats the intersection as evidence that patching reduced incidents. Correct the interpretation.",
+      "options": [
+        "Compare the direction of the two lines directly, because both are monthly security indicators.",
+        "Present the intersection as evidence that higher patch compliance contributed to fewer incidents.",
+        "Describe the crossover as the month when compliance overtook incident volume, using the displayed values as directly comparable evidence.",
+        "Do not imply that the crossover shows a causal relationship; the axes use different scales and units."
+      ],
+      "correct": 3,
+      "explanation": "Ejes dobles pueden hacer que líneas crucen por escalas arbitrarias. No permiten comparar magnitudes ni inferir causalidad por geometría visual.",
+      "translation": "No debemos sugerir que el cruce muestra una relación causal; los ejes utilizan escalas y unidades diferentes."
+    },
+    {
+      "id": "b16-v2-metrics-trends-089",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "You need one sentence to move from operational metrics to a discussion of risk. Which transition is strongest?",
+      "options": [
+        "These figures show how the SOC is performing; next, I will explain what the remaining gaps mean for business risk.",
+        "Now that performance is covered, move to a qualitative risk discussion and leave the operational metrics behind for the rest of the presentation.",
+        "Close the operational section and introduce the risk slide as a separate set of measures.",
+        "Use the improving metrics as evidence that risk is falling, then explain which business impacts were reduced."
+      ],
+      "correct": 0,
+      "explanation": "La transición conecta rendimiento con significado sin afirmar una conclusión aún no demostrada ni separar artificialmente riesgo y datos.",
+      "translation": "Estas cifras muestran cómo está funcionando el SOC; a continuación explicaré qué significan las brechas restantes para el riesgo empresarial."
+    },
+    {
+      "id": "b16-v2-metrics-trends-090",
+      "topic": "Metrics and trends · Executive communication and charts",
+      "question": "A stakeholder asks why the dashboard changed after last month's report. You corrected a duplicate-counting defect. Answer without undermining trust.",
+      "options": [
+        "The previous dashboard was wrong, so its results should be disregarded in every earlier decision.",
+        "The figures changed because dashboards naturally produce different totals each time they refresh.",
+        "We fixed a minor presentation issue, but the historical dashboard values were left unchanged to preserve the figures previously reported.",
+        "We corrected duplicate counting in the source logic and restated the affected periods so the trend remains comparable."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta identifica causa, corrección y comparabilidad. No exagera el impacto ni normaliza variaciones inexplicadas ni deja la serie inconsistente.",
+      "translation": "Corregimos el recuento duplicado en la lógica de origen y reformulamos los periodos afectados para que la tendencia siga siendo comparable."
+    },
+    {
+      "id": "b16-v2-metrics-trends-091",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "The team met a 15-minute acknowledgement target for three months and wants to tighten it to ten. What evidence should guide the change?",
+      "options": [
+        "Review the distribution, staffing impact, and business value to confirm that a ten-minute target is achievable and useful.",
+        "Keep the 15-minute target for comparability and introduce ten minutes only as an internal aspiration.",
+        "Set the fastest observed acknowledgement as the stretch target, because the team has already demonstrated it once in production.",
+        "Move directly to ten minutes after three compliant months and review staffing impact after implementation."
+      ],
+      "correct": 0,
+      "explanation": "Cumplimiento sostenido justifica revisar, no bajar automáticamente. Distribución, recursos y valor permiten fijar una meta exigente pero útil; se puede conservar historia con anotaciones.",
+      "translation": "Revisemos la distribución, el impacto sobre la dotación y el valor empresarial para confirmar que un objetivo de diez minutos sea alcanzable y útil."
+    },
+    {
+      "id": "b16-v2-metrics-trends-092",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "A dashboard forecasts that the alert backlog will reach zero next month by extending a two-week decline. Give the prudent interpretation.",
+      "options": [
+        "Present zero backlog as the expected planning outcome if intake and staffing remain within their recent ranges.",
+        "Present zero backlog as the base forecast because the two-week decline has been linear.",
+        "The projection assumes the recent decline continues; changes in intake or staffing could materially alter it.",
+        "Avoid forecasting the backlog until at least a full quarter of observations is available."
+      ],
+      "correct": 2,
+      "explanation": "Extrapolar es posible, pero depende de supuestos. Entrada y capacidad pueden cambiar; la proyección no es certeza ni carece automáticamente de valor.",
+      "translation": "La proyección supone que continúa el descenso reciente; los cambios en la entrada o en la dotación podrían modificarla de forma importante."
+    },
+    {
+      "id": "b16-v2-metrics-trends-093",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "A target says 'reduce false positives by 20%' without a baseline date or metric definition. What needs to be added?",
+      "options": [
+        "Add only a target date, because false-positive percentage has a standard definition across SOC tools.",
+        "Replace 20% with an absolute alert count so no baseline or denominator is required.",
+        "Specify the baseline period, outcome definition, denominator, target date, and guardrail for missed detections.",
+        "Set the target against whichever month has the highest false-positive volume to make progress visible."
+      ],
+      "correct": 2,
+      "explanation": "Una meta medible requiere referencia, definición, cálculo, fecha y control de efectos adversos. Un recuento también necesita alcance y no elimina la necesidad de baseline.",
+      "translation": "Especifiquemos el periodo de referencia, la definición del resultado, el denominador, la fecha objetivo y un límite de seguridad para las detecciones omitidas."
+    },
+    {
+      "id": "b16-v2-metrics-trends-094",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "The team can still meet an annual patching target, but progress depends on a large deployment in the final week. Write the status line.",
+      "options": [
+        "The target is off track because work scheduled for the final week cannot count toward annual performance.",
+        "The target remains achievable, but delivery is concentrated in the final week and therefore carries schedule risk.",
+        "The target should be marked complete now, since the deployment has an approved change window.",
+        "The target is on track because the planned deployment closes the remaining gap in the forecast."
+      ],
+      "correct": 1,
+      "explanation": "Achievable no equivale a seguro ni completado. La concentración al final aumenta riesgo de calendario y debe aparecer en el estado.",
+      "translation": "El objetivo sigue siendo alcanzable, pero la entrega se concentra en la última semana y, por tanto, conlleva riesgo de calendario."
+    },
+    {
+      "id": "b16-v2-metrics-trends-095",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "A metric improved immediately after a training programme, and leadership wants to claim the training caused it. What would you say?",
+      "options": [
+        "Distribute credit across all initiatives active that month so no single programme receives an unsupported attribution in the monthly report.",
+        "Describe the training as the likely cause because the improvement appeared immediately after completion.",
+        "The timing is encouraging, but we need to consider other changes and compare with a suitable baseline before claiming causation.",
+        "Treat the timing as coincidental until a controlled experiment demonstrates an effect."
+      ],
+      "correct": 2,
+      "explanation": "La secuencia temporal apoya una hipótesis, no prueba causalidad. Otras intervenciones, tendencia previa y comparación ayudan a evaluar el efecto.",
+      "translation": "La coincidencia temporal es alentadora, pero debemos considerar otros cambios y comparar con una referencia adecuada antes de afirmar causalidad."
+    },
+    {
+      "id": "b16-v2-metrics-trends-096",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "The forecast uses last year's monthly pattern, but the organization has since doubled in size. What adjustment is needed?",
+      "options": [
+        "Double the historical forecast as a first adjustment, because organizational size is the main exposure driver.",
+        "Scale or rebuild the model using current exposure and business activity rather than applying last year's raw volumes unchanged.",
+        "Keep last year's raw pattern as the baseline and show organizational growth as a separate sensitivity scenario for portfolio planning.",
+        "Rebuild the forecast from current monthly data and exclude last year's seasonality from the model."
+      ],
+      "correct": 1,
+      "explanation": "El crecimiento cambia nivel, pero no garantiza proporcionalidad exacta ni elimina estacionalidad. El modelo debe incorporar exposición y actividad actuales.",
+      "translation": "Ajustemos o reconstruyamos el modelo utilizando la exposición y la actividad empresarial actuales, en lugar de aplicar sin cambios los volúmenes brutos del año pasado."
+    },
+    {
+      "id": "b16-v2-metrics-trends-097",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "A KPI target was missed, but the underlying control risk still fell. Write a review statement that avoids a binary pass/fail message.",
+      "options": [
+        "State the target gap, quantify the actual improvement, and explain the remaining risk and recovery plan.",
+        "Mark the KPI as achieved in substance because any risk reduction is more important than the formal target.",
+        "Change the target retrospectively to the delivered result so the dashboard reflects the control benefit.",
+        "Mark the KPI as failed and avoid discussing improvement because the agreed threshold was not met."
+      ],
+      "correct": 0,
+      "explanation": "Gobierno exige conservar el incumplimiento y también el beneficio real. Cuantificar brecha, progreso, riesgo y plan evita tanto ocultar como negar avances.",
+      "translation": "Indiquemos la brecha respecto al objetivo, cuantifiquemos la mejora real y expliquemos el riesgo restante y el plan de recuperación."
+    },
+    {
+      "id": "b16-v2-metrics-trends-098",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "A service owner asks which metric should trigger extra analyst staffing. What design principle should lead your answer?",
+      "options": [
+        "Use a sustained workload threshold that combines incoming volume, handling effort, backlog, and service-level impact.",
+        "Add staff after any single SLA miss so the trigger responds quickly to operational pressure.",
+        "Trigger staffing whenever alert volume exceeds its daily average, regardless of case complexity or backlog.",
+        "Use analyst utilization alone, because a high percentage captures both workload and service quality."
+      ],
+      "correct": 0,
+      "explanation": "Dotación responde a demanda sostenida y capacidad, no a una señal aislada. Volumen, esfuerzo, cola y SLA reducen falsas alarmas y reflejan impacto.",
+      "translation": "Utilicemos un umbral sostenido de carga que combine el volumen entrante, el esfuerzo de gestión, la cola y el impacto en el nivel de servicio."
+    },
+    {
+      "id": "b16-v2-metrics-trends-099",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "Leadership wants a year-end target of zero security incidents. Propose a more useful alternative.",
+      "options": [
+        "Keep zero incidents as an aspirational target because ambitious outcomes drive stronger security behavior.",
+        "Replace incident volume with the number of alerts, since alerts are directly controlled by the SOC.",
+        "Set targets for preventable incident reduction, control coverage, detection timeliness, and impact, while continuing to report incident volume.",
+        "Set the target to zero reported incidents so teams focus on resolving events before they become formal cases."
+      ],
+      "correct": 2,
+      "explanation": "Cero incidentes no es totalmente controlable y puede incentivar infradeclaración. Metas de controles, rapidez, impacto y subconjuntos prevenibles son accionables sin ocultar volumen.",
+      "translation": "Fijemos objetivos de reducción de incidentes evitables, cobertura de controles, rapidez de detección e impacto, y sigamos informando del volumen de incidentes."
+    },
+    {
+      "id": "b16-v2-metrics-trends-100",
+      "topic": "Metrics and trends · Targets, forecasts, and decisions",
+      "question": "You are closing the metrics review. Alert volume was stable, response timeliness improved, and cloud coverage reached 85%, leaving ten subscriptions to onboard. Deliver a concise decision-oriented summary.",
+      "options": [
+        "Most indicators improved, so the overall security position is healthy despite the remaining cloud-coverage gap.",
+        "Cloud coverage is the only management priority, so close on the onboarding gap and leave stable volume and faster response in the detailed slides for the rest of the discussion.",
+        "Alert volume is stable, response timeliness has improved, and the main remaining concern is incomplete cloud coverage; our next priority is onboarding the ten outstanding subscriptions.",
+        "Results were mixed this month; teams should continue monitoring the dashboard and review progress next period."
+      ],
+      "correct": 2,
+      "explanation": "El cierre utiliza únicamente los hechos proporcionados y reúne tendencia, mejora, brecha y acción concreta. Evita declarar una salud global no demostrada y también una conclusión vaga sin prioridad.",
+      "translation": "El volumen de alertas está estable, la rapidez de respuesta ha mejorado y la principal preocupación pendiente es la cobertura incompleta de la nube; la siguiente prioridad es incorporar las diez suscripciones restantes."
+    }
+  ],
+  "category": "natural"
+}

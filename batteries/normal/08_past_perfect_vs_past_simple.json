@@ -1,0 +1,428 @@
+{
+  "name": "08 · Past perfect vs past simple · Normal",
+  "description": "30 preguntas para ordenar cronologías de incidentes y distinguir la acción anterior de la acción posterior en el pasado.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b08-ppps-001",
+      "topic": "Past perfect vs past simple · Finished past event",
+      "question": "Yesterday, we ___ the compromised workstation from the network.",
+      "options": [
+        "isolated",
+        "had isolated",
+        "have isolated",
+        "were isolate"
+      ],
+      "correct": 0,
+      "explanation": "Yesterday indica un momento pasado terminado y no compara dos acciones pasadas; usamos past simple: isolated.",
+      "translation": "Ayer aislamos de la red la estación de trabajo comprometida."
+    },
+    {
+      "id": "b08-ppps-002",
+      "topic": "Past perfect vs past simple · Earlier and later actions",
+      "question": "By the time the incident call began, we ___ the authentication logs.",
+      "options": [
+        "reviewed tomorrow",
+        "had reviewed",
+        "have reviewed",
+        "were reviewed"
+      ],
+      "correct": 1,
+      "explanation": "La revisión terminó antes de que comenzara la llamada. La acción anterior va en past perfect: had reviewed.",
+      "translation": "Cuando comenzó la llamada del incidente, ya habíamos revisado los logs de autenticación."
+    },
+    {
+      "id": "b08-ppps-003",
+      "topic": "Past perfect vs past simple · After",
+      "question": "The alert ___ after the user had opened the malicious attachment.",
+      "options": [
+        "had triggered",
+        "has triggered",
+        "triggered",
+        "was trigger"
+      ],
+      "correct": 2,
+      "explanation": "Had opened ya marca la acción anterior. La acción posterior, la activación de la alerta, va en past simple: triggered.",
+      "translation": "La alerta se activó después de que el usuario hubiera abierto el archivo adjunto malicioso."
+    },
+    {
+      "id": "b08-ppps-004",
+      "topic": "Past perfect vs past simple · Discovery of an earlier action",
+      "question": "We ___ that the service account had generated unusual traffic overnight.",
+      "options": [
+        "had discovered",
+        "have discovered",
+        "discovering",
+        "discovered"
+      ],
+      "correct": 3,
+      "explanation": "La generación del tráfico ocurrió primero (had generated); el descubrimiento posterior va en past simple: discovered.",
+      "translation": "Descubrimos que la cuenta de servicio había generado tráfico inusual durante la noche."
+    },
+    {
+      "id": "b08-ppps-005",
+      "topic": "Past perfect vs past simple · Explicit past times",
+      "question": "At 10:00, the client ___ containment, and we ___ the IP address five minutes later.",
+      "options": [
+        "approved / blocked",
+        "had approved / had blocked",
+        "has approved / blocked",
+        "approved / had blocked"
+      ],
+      "correct": 0,
+      "explanation": "Las dos acciones tienen momentos pasados concretos y aparecen en orden cronológico; usamos past simple en ambas.",
+      "translation": "A las 10:00, el cliente aprobó la contención y bloqueamos la dirección IP cinco minutos después."
+    },
+    {
+      "id": "b08-ppps-006",
+      "topic": "Past perfect vs past simple · When",
+      "question": "When the analyst arrived, the attacker ___ the audit logs.",
+      "options": [
+        "deleted tomorrow",
+        "had deleted",
+        "has deleted",
+        "was delete"
+      ],
+      "correct": 1,
+      "explanation": "El borrado ocurrió antes de la llegada del analista; la acción anterior usa past perfect: had deleted.",
+      "translation": "Cuando llegó el analista, el atacante había borrado los logs de auditoría."
+    },
+    {
+      "id": "b08-ppps-007",
+      "topic": "Past perfect vs past simple · Cause and result",
+      "question": "The firewall ___ the connection because we had added a temporary rule earlier.",
+      "options": [
+        "had blocked",
+        "has blocked",
+        "blocked",
+        "block"
+      ],
+      "correct": 2,
+      "explanation": "La regla se añadió primero (had added). El bloqueo posterior del firewall va en past simple: blocked.",
+      "translation": "El firewall bloqueó la conexión porque habíamos añadido antes una regla temporal."
+    },
+    {
+      "id": "b08-ppps-008",
+      "topic": "Past perfect vs past simple · Negative earlier action",
+      "question": "We ___ that pattern before the high-severity alert appeared.",
+      "options": [
+        "did not saw",
+        "have not seen",
+        "were not see",
+        "had not seen"
+      ],
+      "correct": 3,
+      "explanation": "No haber visto el patrón es la situación anterior a la aparición de la alerta; usamos had not seen.",
+      "translation": "No habíamos visto ese patrón antes de que apareciera la alerta de gravedad alta."
+    },
+    {
+      "id": "b08-ppps-009",
+      "topic": "Past perfect vs past simple · Questions about sequence",
+      "question": "___ you ___ the disk image before the administrator reimaged the laptop?",
+      "options": [
+        "Had / preserved",
+        "Did / preserved",
+        "Have / preserve",
+        "Had / preserve"
+      ],
+      "correct": 0,
+      "explanation": "La conservación de la imagen debía ocurrir antes del reprovisionamiento. La pregunta usa Had + sujeto + participio.",
+      "translation": "¿Había conservado la imagen de disco antes de que el administrador reprovisionara el portátil?"
+    },
+    {
+      "id": "b08-ppps-010",
+      "topic": "Past perfect vs past simple · Indirect client questions",
+      "question": "The client asked whether we ___ the data protection team before closing the case.",
+      "options": [
+        "notified next week",
+        "had notified",
+        "have notify",
+        "had notify"
+      ],
+      "correct": 1,
+      "explanation": "La notificación sería anterior a la pregunta del cliente y al cierre; en estilo indirecto usamos had notified.",
+      "translation": "El cliente preguntó si habíamos avisado al equipo de protección de datos antes de cerrar el caso."
+    },
+    {
+      "id": "b08-ppps-011",
+      "topic": "Past perfect vs past simple · Validation then action",
+      "question": "After we had validated the indicator, we ___ it to the blocklist.",
+      "options": [
+        "had added",
+        "have added",
+        "added",
+        "add"
+      ],
+      "correct": 2,
+      "explanation": "La validación ocurrió primero (had validated). La acción posterior va en past simple: added.",
+      "translation": "Después de haber validado el indicador, lo añadimos a la lista de bloqueo."
+    },
+    {
+      "id": "b08-ppps-012",
+      "topic": "Past perfect vs past simple · Chronological narration",
+      "question": "We ___ the findings at noon and ___ the client report at 12:15.",
+      "options": [
+        "had validated / had sent",
+        "have validated / sent",
+        "validated / had sent",
+        "validated / sent"
+      ],
+      "correct": 3,
+      "explanation": "Los dos momentos están especificados y las acciones se narran en orden; usamos past simple: validated y sent.",
+      "translation": "Validamos los hallazgos al mediodía y enviamos el informe al cliente a las 12:15."
+    },
+    {
+      "id": "b08-ppps-013",
+      "topic": "Past perfect vs past simple · By a past deadline",
+      "question": "By the end of the day, the SOC ___ all alerts related to the campaign.",
+      "options": [
+        "had closed",
+        "closed tomorrow",
+        "has closed",
+        "was close"
+      ],
+      "correct": 0,
+      "explanation": "By the end of the day presenta una fecha límite pasada. Had closed indica que todo estaba completado para entonces.",
+      "translation": "Al final del día, el SOC ya había cerrado todas las alertas relacionadas con la campaña."
+    },
+    {
+      "id": "b08-ppps-014",
+      "topic": "Past perfect vs past simple · Report of an earlier failure",
+      "question": "The vulnerability scanner ___ that the patch had failed on two servers.",
+      "options": [
+        "had reported tomorrow",
+        "reported",
+        "has report",
+        "was reported"
+      ],
+      "correct": 1,
+      "explanation": "El fallo del parche ocurrió primero (had failed). El informe posterior del escáner va en past simple: reported.",
+      "translation": "El escáner de vulnerabilidades informó de que el parche había fallado en dos servidores."
+    },
+    {
+      "id": "b08-ppps-015",
+      "topic": "Past perfect vs past simple · Cause before result",
+      "question": "The password reset ___ the issue because the attacker had not established persistence.",
+      "options": [
+        "had resolved",
+        "has resolved",
+        "resolved",
+        "resolve"
+      ],
+      "correct": 2,
+      "explanation": "No establecer persistencia es la situación anterior (had not established). El resultado posterior va en past simple: resolved.",
+      "translation": "El restablecimiento de la contraseña resolvió el problema porque el atacante no había establecido persistencia."
+    },
+    {
+      "id": "b08-ppps-016",
+      "topic": "Past perfect vs past simple · Finished sequence",
+      "question": "At 14:00, we ___ the available evidence and ___ not to escalate the case.",
+      "options": [
+        "had reviewed / had decided",
+        "have reviewed / decided",
+        "reviewed / had decided",
+        "reviewed / decided"
+      ],
+      "correct": 3,
+      "explanation": "Las acciones ocurrieron en un momento pasado concreto y se cuentan en orden; usamos past simple en ambas.",
+      "translation": "A las 14:00, revisamos las evidencias disponibles y decidimos no escalar el caso."
+    },
+    {
+      "id": "b08-ppps-017",
+      "topic": "Past perfect vs past simple · Earlier-event questions",
+      "question": "___ the threat actor ___ that domain before we blocked it?",
+      "options": [
+        "Had / used",
+        "Did / used",
+        "Has / use",
+        "Had / use"
+      ],
+      "correct": 0,
+      "explanation": "El posible uso del dominio sería anterior al bloqueo. Preguntamos con Had + sujeto + participio: Had the threat actor used...?",
+      "translation": "¿Había utilizado el actor de amenazas ese dominio antes de que lo bloqueáramos?"
+    },
+    {
+      "id": "b08-ppps-018",
+      "topic": "Past perfect vs past simple · After",
+      "question": "The endpoint sensor ___ offline after the malware had tampered with its service.",
+      "options": [
+        "had gone",
+        "went",
+        "has gone",
+        "goed"
+      ],
+      "correct": 1,
+      "explanation": "Had tampered marca la acción anterior. El cambio posterior del sensor va en past simple; go es irregular: went.",
+      "translation": "El sensor del endpoint se quedó sin conexión después de que el malware hubiera manipulado su servicio."
+    },
+    {
+      "id": "b08-ppps-019",
+      "topic": "Past perfect vs past simple · Same past episode",
+      "question": "While the client waited, we ___ the final review and ___ back with the result.",
+      "options": [
+        "had completed / had called",
+        "have completed / called",
+        "completed / called",
+        "completed / had called"
+      ],
+      "correct": 2,
+      "explanation": "Las dos acciones forman una secuencia narrada dentro del mismo episodio pasado; usamos past simple en ambas.",
+      "translation": "Mientras el cliente esperaba, completamos la revisión final y volvimos a llamarle con el resultado."
+    },
+    {
+      "id": "b08-ppps-020",
+      "topic": "Past perfect vs past simple · Briefing after containment",
+      "question": "When I ___ the manager, the response team had already contained the host.",
+      "options": [
+        "had briefed",
+        "have briefed",
+        "was briefing tomorrow",
+        "briefed"
+      ],
+      "correct": 3,
+      "explanation": "La contención ocurrió primero (had contained). La sesión informativa posterior va en past simple: briefed.",
+      "translation": "Cuando informé al responsable, el equipo de respuesta ya había contenido el host."
+    },
+    {
+      "id": "b08-ppps-021",
+      "topic": "Past perfect vs past simple · Error recognition",
+      "question": "Choose the best correction: “The alert had triggered at 09:00, and the analyst had opened the case at 09:05.”",
+      "options": [
+        "The alert triggered at 09:00, and the analyst opened the case at 09:05.",
+        "The alert had trigger at 09:00, and the analyst opened the case at 09:05.",
+        "The alert has triggered at 09:00, and the analyst had opened the case at 09:05.",
+        "The alert triggered at 09:00, and the analyst had open the case at 09:05."
+      ],
+      "correct": 0,
+      "explanation": "Con dos horas pasadas explícitas y la secuencia en orden, el past simple es la opción más natural para ambas acciones.",
+      "translation": "La alerta se activó a las 09:00 y el analista abrió el caso a las 09:05."
+    },
+    {
+      "id": "b08-ppps-022",
+      "topic": "Past perfect vs past simple · Continuing past result",
+      "question": "The host was still isolated because we ___ approval to reconnect it.",
+      "options": [
+        "did not received",
+        "had not received",
+        "have not receive",
+        "had not receive"
+      ],
+      "correct": 1,
+      "explanation": "La falta de aprobación era anterior a la situación pasada del host; usamos had not received.",
+      "translation": "El host seguía aislado porque no habíamos recibido autorización para volver a conectarlo."
+    },
+    {
+      "id": "b08-ppps-023",
+      "topic": "Past perfect vs past simple · Before a deadline",
+      "question": "We ___ the required logs before the retention period expired.",
+      "options": [
+        "have collected",
+        "collected tomorrow",
+        "had collected",
+        "had collect"
+      ],
+      "correct": 2,
+      "explanation": "La recogida quedó completada antes de que expirara el periodo de retención; usamos had collected.",
+      "translation": "Habíamos recopilado los logs necesarios antes de que expirara el periodo de retención."
+    },
+    {
+      "id": "b08-ppps-024",
+      "topic": "Past perfect vs past simple · Reported sequence",
+      "question": "The client ___ yesterday that they had applied the patch the previous night.",
+      "options": [
+        "had confirmed",
+        "has confirmed yesterday",
+        "confirming",
+        "confirmed"
+      ],
+      "correct": 3,
+      "explanation": "Yesterday exige past simple para confirmed. La aplicación del parche ocurrió antes y ya aparece en past perfect: had applied.",
+      "translation": "El cliente confirmó ayer que había aplicado el parche la noche anterior."
+    },
+    {
+      "id": "b08-ppps-025",
+      "topic": "Past perfect vs past simple · Earlier and later actions",
+      "question": "We ___ the account before the attacker tried to authenticate again.",
+      "options": [
+        "had disabled",
+        "disabled tomorrow",
+        "have disabled",
+        "had disable"
+      ],
+      "correct": 0,
+      "explanation": "La desactivación de la cuenta ocurrió antes del nuevo intento de autenticación; usamos had disabled.",
+      "translation": "Habíamos deshabilitado la cuenta antes de que el atacante intentara autenticarse de nuevo."
+    },
+    {
+      "id": "b08-ppps-026",
+      "topic": "Past perfect vs past simple · Discovery of a prior change",
+      "question": "The analyst ___ that the attacker had changed the mailbox forwarding rules.",
+      "options": [
+        "had noticed",
+        "noticed",
+        "has noticed",
+        "notice"
+      ],
+      "correct": 1,
+      "explanation": "El cambio de reglas ocurrió primero (had changed). La observación posterior va en past simple: noticed.",
+      "translation": "El analista observó que el atacante había cambiado las reglas de reenvío del buzón."
+    },
+    {
+      "id": "b08-ppps-027",
+      "topic": "Past perfect vs past simple · Sequence made clear by after",
+      "question": "After the client ___ the plan, we ___ the temporary block.",
+      "options": [
+        "had approved / had removed",
+        "has approved / removed",
+        "approved / removed",
+        "approved / had removed"
+      ],
+      "correct": 2,
+      "explanation": "After ya deja claro el orden y ambas acciones se narran cronológicamente; el past simple es natural en las dos.",
+      "translation": "Después de que el cliente aprobara el plan, retiramos el bloqueo temporal."
+    },
+    {
+      "id": "b08-ppps-028",
+      "topic": "Past perfect vs past simple · Preparation before contact",
+      "question": "Before we contacted the user, we ___ the sign-in logs and device details.",
+      "options": [
+        "have checked",
+        "checked tomorrow",
+        "had check",
+        "had checked"
+      ],
+      "correct": 3,
+      "explanation": "La comprobación se completó antes del contacto con el usuario; usamos had checked.",
+      "translation": "Antes de contactar con el usuario, habíamos comprobado los logs de inicio de sesión y los datos del dispositivo."
+    },
+    {
+      "id": "b08-ppps-029",
+      "topic": "Past perfect vs past simple · Investigation conclusion",
+      "question": "The investigation ___ after we had ruled out data exfiltration.",
+      "options": [
+        "ended",
+        "had ended",
+        "has ended",
+        "end"
+      ],
+      "correct": 0,
+      "explanation": "Had ruled out marca la acción anterior. La finalización posterior de la investigación va en past simple: ended.",
+      "translation": "La investigación terminó después de que hubiéramos descartado la exfiltración de datos."
+    },
+    {
+      "id": "b08-ppps-030",
+      "topic": "Past perfect vs past simple · Client explanations",
+      "question": "On the call, I ___ that the firewall had blocked the connection before the malware downloaded its payload.",
+      "options": [
+        "had explained",
+        "explained",
+        "have explained",
+        "explain"
+      ],
+      "correct": 1,
+      "explanation": "El bloqueo ocurrió antes (had blocked). La explicación dada posteriormente durante la llamada va en past simple: explained.",
+      "translation": "Durante la llamada, expliqué que el firewall había bloqueado la conexión antes de que el malware descargara su payload."
+    }
+  ],
+  "category": "normal"
+}

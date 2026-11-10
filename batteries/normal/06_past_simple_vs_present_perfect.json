@@ -1,0 +1,428 @@
+{
+  "name": "06 · Past simple vs present perfect · Normal",
+  "description": "30 preguntas para distinguir hechos terminados con tiempo pasado de resultados, experiencias y periodos conectados con el presente.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b06-pspp-001",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "Yesterday, we ___ the affected workstation from the network.",
+      "options": [
+        "isolated",
+        "have isolated",
+        "have been isolating",
+        "isolate"
+      ],
+      "correct": 0,
+      "explanation": "Yesterday es un periodo pasado y terminado; usamos past simple: isolated.",
+      "translation": "Ayer aislamos de la red la estación de trabajo afectada."
+    },
+    {
+      "id": "b06-pspp-002",
+      "topic": "Past simple vs present perfect · Current result",
+      "question": "We ___ the affected workstation, so it can no longer communicate with the attacker.",
+      "options": [
+        "did isolated",
+        "have isolated",
+        "are isolate",
+        "has isolated"
+      ],
+      "correct": 1,
+      "explanation": "No indicamos un momento pasado terminado y destacamos el resultado actual del aislamiento; usamos have isolated.",
+      "translation": "Hemos aislado la estación de trabajo afectada, así que ya no puede comunicarse con el atacante."
+    },
+    {
+      "id": "b06-pspp-003",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "The alert ___ at 02:14 this morning.",
+      "options": [
+        "has triggered",
+        "trigger",
+        "triggered",
+        "has been triggered at"
+      ],
+      "correct": 2,
+      "explanation": "At 02:14 indica un momento concreto y terminado; usamos past simple: triggered.",
+      "translation": "La alerta se activó esta mañana a las 02:14."
+    },
+    {
+      "id": "b06-pspp-004",
+      "topic": "Past simple vs present perfect · Negatives and yet",
+      "question": "Our monitoring tools ___ any further malicious activity since the block.",
+      "options": [
+        "didn't detect",
+        "don't detected",
+        "hasn't detected",
+        "haven't detected"
+      ],
+      "correct": 3,
+      "explanation": "Since the block conecta un punto pasado con el presente; con tools usamos haven't detected.",
+      "translation": "Nuestras herramientas de monitorización no han detectado más actividad maliciosa desde el bloqueo."
+    },
+    {
+      "id": "b06-pspp-005",
+      "topic": "Past simple vs present perfect · Questions",
+      "question": "___ the customer ___ the firewall logs last night?",
+      "options": [
+        "Did / send",
+        "Has / sent",
+        "Have / send",
+        "Did / sent"
+      ],
+      "correct": 0,
+      "explanation": "Last night es un periodo terminado; la pregunta se forma con Did + sujeto + verbo base.",
+      "translation": "¿Envió el cliente los logs del firewall anoche?"
+    },
+    {
+      "id": "b06-pspp-006",
+      "topic": "Past simple vs present perfect · Questions",
+      "question": "___ the customer ___ the requested firewall logs yet?",
+      "options": [
+        "Did / sent",
+        "Has / sent",
+        "Have / sent",
+        "Has / send"
+      ],
+      "correct": 1,
+      "explanation": "Yet pregunta si algo ha ocurrido hasta ahora; con customer usamos Has ... sent?",
+      "translation": "¿Ha enviado ya el cliente los logs del firewall solicitados?"
+    },
+    {
+      "id": "b06-pspp-007",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "The analyst ___ the incident report on Monday.",
+      "options": [
+        "has written",
+        "has wrote",
+        "wrote",
+        "written"
+      ],
+      "correct": 2,
+      "explanation": "On Monday sitúa la acción en un tiempo pasado terminado; el past simple de write es wrote.",
+      "translation": "El analista escribió el informe del incidente el lunes."
+    },
+    {
+      "id": "b06-pspp-008",
+      "topic": "Past simple vs present perfect · Current result",
+      "question": "The analyst ___ the report and attached it to the case, so you can review it now.",
+      "options": [
+        "has wrote",
+        "have written",
+        "wrote since",
+        "has written"
+      ],
+      "correct": 3,
+      "explanation": "El informe está disponible ahora y no se menciona un momento terminado; usamos has written.",
+      "translation": "El analista ha escrito el informe y lo ha adjuntado al caso, así que ya podéis revisarlo."
+    },
+    {
+      "id": "b06-pspp-009",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "We ___ any malware during yesterday's scan.",
+      "options": [
+        "didn't find",
+        "haven't found",
+        "didn't found",
+        "haven't find"
+      ],
+      "correct": 0,
+      "explanation": "Yesterday's scan es un evento terminado; la negativa es didn't + verbo base: didn't find.",
+      "translation": "No encontramos malware durante el análisis de ayer."
+    },
+    {
+      "id": "b06-pspp-010",
+      "topic": "Past simple vs present perfect · Negatives and yet",
+      "question": "We ___ any evidence of persistence yet.",
+      "options": [
+        "didn't found",
+        "haven't found",
+        "haven't find",
+        "don't found"
+      ],
+      "correct": 1,
+      "explanation": "Yet conecta la búsqueda con el momento actual; usamos present perfect: haven't found.",
+      "translation": "Todavía no hemos encontrado evidencias de persistencia."
+    },
+    {
+      "id": "b06-pspp-011",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "The incident ___ three days ago.",
+      "options": [
+        "has begun",
+        "has been beginning",
+        "began",
+        "begin"
+      ],
+      "correct": 2,
+      "explanation": "Three days ago exige past simple; el pasado de begin es began.",
+      "translation": "El incidente comenzó hace tres días."
+    },
+    {
+      "id": "b06-pspp-012",
+      "topic": "Past simple vs present perfect · So far and unfinished periods",
+      "question": "The investigation ___ two compromised accounts so far.",
+      "options": [
+        "have revealed",
+        "has reveal",
+        "did revealed",
+        "has revealed"
+      ],
+      "correct": 3,
+      "explanation": "So far significa hasta ahora y destaca el resultado acumulado; con investigation usamos has revealed.",
+      "translation": "La investigación ha revelado dos cuentas comprometidas hasta ahora."
+    },
+    {
+      "id": "b06-pspp-013",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "The vendor ___ the security patch in September.",
+      "options": [
+        "released",
+        "has released",
+        "has been releasing",
+        "releases"
+      ],
+      "correct": 0,
+      "explanation": "In September se interpreta como un periodo pasado terminado; usamos released.",
+      "translation": "El proveedor publicó el parche de seguridad en septiembre."
+    },
+    {
+      "id": "b06-pspp-014",
+      "topic": "Past simple vs present perfect · Current result",
+      "question": "The vendor ___ a security patch, and it is available for deployment now.",
+      "options": [
+        "have released",
+        "has released",
+        "has release",
+        "is release"
+      ],
+      "correct": 1,
+      "explanation": "La disponibilidad actual del parche es el resultado importante; usamos has released.",
+      "translation": "El proveedor ha publicado un parche de seguridad y ya está disponible para desplegarlo."
+    },
+    {
+      "id": "b06-pspp-015",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "We ___ forty high-priority alerts yesterday.",
+      "options": [
+        "have reviewed",
+        "review",
+        "reviewed",
+        "have been reviewing yesterday"
+      ],
+      "correct": 2,
+      "explanation": "Yesterday es un periodo terminado; usamos past simple: reviewed.",
+      "translation": "Ayer revisamos cuarenta alertas de alta prioridad."
+    },
+    {
+      "id": "b06-pspp-016",
+      "topic": "Past simple vs present perfect · So far and unfinished periods",
+      "question": "We ___ forty high-priority alerts so far today.",
+      "options": [
+        "reviewed yesterday",
+        "has reviewed",
+        "review",
+        "have reviewed"
+      ],
+      "correct": 3,
+      "explanation": "So far today indica un periodo que continúa hasta ahora; usamos have reviewed.",
+      "translation": "Hoy hemos revisado hasta ahora cuarenta alertas de alta prioridad."
+    },
+    {
+      "id": "b06-pspp-017",
+      "topic": "Past simple vs present perfect · Client decisions and updates",
+      "question": "The customer ___ the containment plan during yesterday's call.",
+      "options": [
+        "approved",
+        "has approved",
+        "has approve",
+        "approves now"
+      ],
+      "correct": 0,
+      "explanation": "During yesterday's call sitúa la decisión en un evento pasado terminado; usamos approved.",
+      "translation": "El cliente aprobó el plan de contención durante la llamada de ayer."
+    },
+    {
+      "id": "b06-pspp-018",
+      "topic": "Past simple vs present perfect · Current result",
+      "question": "The customer ___ the containment plan, so we can proceed now.",
+      "options": [
+        "did approved",
+        "has approved",
+        "have approved",
+        "has approve"
+      ],
+      "correct": 1,
+      "explanation": "La aprobación produce un resultado actual y no se indica cuándo ocurrió; usamos has approved.",
+      "translation": "El cliente ha aprobado el plan de contención, así que podemos continuar ahora."
+    },
+    {
+      "id": "b06-pspp-019",
+      "topic": "Past simple vs present perfect · Questions",
+      "question": "When ___ the forensic scan ___?",
+      "options": [
+        "has / finished",
+        "did / finished",
+        "did / finish",
+        "has / finish"
+      ],
+      "correct": 2,
+      "explanation": "When pregunta por un momento pasado concreto; usamos Did ... finish?, con el verbo en forma base.",
+      "translation": "¿Cuándo terminó el análisis forense?"
+    },
+    {
+      "id": "b06-pspp-020",
+      "topic": "Past simple vs present perfect · Questions",
+      "question": "___ you ever ___ this file hash in another incident?",
+      "options": [
+        "Did / saw",
+        "Have / saw",
+        "Did / seen",
+        "Have / seen"
+      ],
+      "correct": 3,
+      "explanation": "Ever pregunta por experiencia hasta el presente; usamos Have you ever seen...?, con el participio seen.",
+      "translation": "¿Habéis visto alguna vez este hash de archivo en otro incidente?"
+    },
+    {
+      "id": "b06-pspp-021",
+      "topic": "Past simple vs present perfect · Since and current connection",
+      "question": "Since our last update, traffic levels ___ to normal.",
+      "options": [
+        "have returned",
+        "returned at 11:05",
+        "has returned",
+        "did return since"
+      ],
+      "correct": 0,
+      "explanation": "Since our last update conecta el cambio con el presente; con traffic levels usamos have returned.",
+      "translation": "Desde nuestra última actualización, los niveles de tráfico han vuelto a la normalidad."
+    },
+    {
+      "id": "b06-pspp-022",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "Traffic levels ___ to normal at 11:05.",
+      "options": [
+        "have returned",
+        "returned",
+        "has returned",
+        "return since"
+      ],
+      "correct": 1,
+      "explanation": "At 11:05 indica un momento pasado concreto; usamos past simple: returned.",
+      "translation": "Los niveles de tráfico volvieron a la normalidad a las 11:05."
+    },
+    {
+      "id": "b06-pspp-023",
+      "topic": "Past simple vs present perfect · So far and unfinished periods",
+      "question": "This week, we ___ six malicious domains for the customer.",
+      "options": [
+        "blocked last week",
+        "has blocked",
+        "have blocked",
+        "did blocked"
+      ],
+      "correct": 2,
+      "explanation": "This week es un periodo todavía abierto y se presenta un resultado acumulado; usamos have blocked.",
+      "translation": "Esta semana hemos bloqueado seis dominios maliciosos para el cliente."
+    },
+    {
+      "id": "b06-pspp-024",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "Last week, we ___ six malicious domains for the customer.",
+      "options": [
+        "have blocked",
+        "has blocked",
+        "have been blocked",
+        "blocked"
+      ],
+      "correct": 3,
+      "explanation": "Last week es un periodo terminado; usamos past simple: blocked.",
+      "translation": "La semana pasada bloqueamos seis dominios maliciosos para el cliente."
+    },
+    {
+      "id": "b06-pspp-025",
+      "topic": "Past simple vs present perfect · Finished past time",
+      "question": "The administrator ___ the account at 09:30.",
+      "options": [
+        "locked",
+        "has locked",
+        "has been locking",
+        "locks"
+      ],
+      "correct": 0,
+      "explanation": "At 09:30 aporta una hora concreta de la cronología; usamos past simple: locked.",
+      "translation": "El administrador bloqueó la cuenta a las 09:30."
+    },
+    {
+      "id": "b06-pspp-026",
+      "topic": "Past simple vs present perfect · Current result",
+      "question": "The administrator ___ the account, so the user cannot sign in now.",
+      "options": [
+        "did locked",
+        "has locked",
+        "have locked",
+        "has lock"
+      ],
+      "correct": 1,
+      "explanation": "La consecuencia actual es que el usuario no puede acceder; sin tiempo pasado terminado usamos has locked.",
+      "translation": "El administrador ha bloqueado la cuenta, así que el usuario no puede iniciar sesión ahora."
+    },
+    {
+      "id": "b06-pspp-027",
+      "topic": "Past simple vs present perfect · Error recognition",
+      "question": "Choose the natural sentence with a finished past time.",
+      "options": [
+        "We have detected the activity yesterday.",
+        "We have detect the activity yesterday.",
+        "We detected the activity yesterday.",
+        "We did detected the activity yesterday."
+      ],
+      "correct": 2,
+      "explanation": "Con yesterday usamos past simple: We detected. No combinamos present perfect con un tiempo pasado terminado.",
+      "translation": "Detectamos la actividad ayer."
+    },
+    {
+      "id": "b06-pspp-028",
+      "topic": "Past simple vs present perfect · Current result",
+      "question": "Choose the natural update when the exact time is not important and containment is complete now.",
+      "options": [
+        "We did completed containment.",
+        "We completed containment yesterday at 14:00.",
+        "We have complete containment.",
+        "We have completed containment."
+      ],
+      "correct": 3,
+      "explanation": "Have completed presenta la contención como un resultado actual sin indicar un momento pasado terminado.",
+      "translation": "Hemos completado la contención."
+    },
+    {
+      "id": "b06-pspp-029",
+      "topic": "Past simple vs present perfect · Client decisions and updates",
+      "question": "During the call, the client ___ that the affected device was no longer in use.",
+      "options": [
+        "confirmed",
+        "has confirmed",
+        "have confirmed",
+        "confirms since"
+      ],
+      "correct": 0,
+      "explanation": "During the call sitúa la confirmación en un evento pasado terminado; usamos confirmed.",
+      "translation": "Durante la llamada, el cliente confirmó que el dispositivo afectado ya no se utilizaba."
+    },
+    {
+      "id": "b06-pspp-030",
+      "topic": "Past simple vs present perfect · Since and current connection",
+      "question": "We ___ the suspicious process last night and ___ the host isolated since then.",
+      "options": [
+        "have detected / kept",
+        "detected / have kept",
+        "detected / kept",
+        "have detected / have kept"
+      ],
+      "correct": 1,
+      "explanation": "Last night exige past simple: detected. Since then conecta el estado posterior con el presente: have kept.",
+      "translation": "Detectamos el proceso sospechoso anoche y hemos mantenido el host aislado desde entonces."
+    }
+  ],
+  "category": "normal"
+}

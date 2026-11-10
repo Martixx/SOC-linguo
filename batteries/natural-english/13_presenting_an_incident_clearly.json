@@ -1,0 +1,1408 @@
+{
+  "name": "13 · Presenting an incident clearly · Natural English",
+  "description": "100 preguntas revisadas para presentaciones SOC: microescenarios variados, distractores plausibles, lenguaje oral natural y comunicación precisa de evidencia, impacto, respuesta y decisiones.",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b13-v2-presenting-001",
+      "topic": "Presenting an incident · Opening",
+      "question": "You are opening a briefing about a business email compromise. Which introduction gives the customer the clearest roadmap?",
+      "options": [
+        "Thanks for joining. I'll begin with the technical evidence, then we can decide which parts are relevant.",
+        "Thanks for joining. I'll provide an overview of the incident and leave the detailed findings for the written report.",
+        "Thanks for joining. Today, I'll focus on the actions taken, and we can return to the cause if time allows.",
+        "Thanks for joining. Today, I'll walk you through what happened, what we found, and what happens next."
+      ],
+      "correct": 3,
+      "explanation": "Walk you through es una expresión natural para guiar a la audiencia paso a paso. La estructura paralela what happened, what we found, and what happens next anticipa un discurso claro. Las alternativas son correctas, pero ocultan una parte esencial, priorizan el detalle antes del contexto o presentan una secuencia menos clara.",
+      "translation": "Gracias por acompañarnos. Hoy les explicaré paso a paso qué ocurrió, qué encontramos y qué sucederá a continuación."
+    },
+    {
+      "id": "b13-v2-presenting-002",
+      "topic": "Presenting an incident · Opening",
+      "question": "A ransomware coordination call needs one agreed outcome before teams split into workstreams. Select the most precise purpose statement.",
+      "options": [
+        "The purpose of today's call is to share our current understanding and discuss possible priorities.",
+        "The aim of today's call is to review the incident and agree on the immediate priorities.",
+        "Today's call will cover the incident, the investigation, and any other issues the teams would like to raise.",
+        "The objective today is to review the available evidence before deciding whether further action may be necessary."
+      ],
+      "correct": 1,
+      "explanation": "The aim of today's call is... es una apertura profesional y natural. Review y agree on son los verbos habituales en este contexto. La opción correcta combina revisión y decisión; las demás dejan el resultado abierto, amplían demasiado el alcance o retrasan innecesariamente la priorización.",
+      "translation": "El objetivo de la llamada de hoy es revisar el incidente y acordar las prioridades inmediatas."
+    },
+    {
+      "id": "b13-v2-presenting-003",
+      "topic": "Presenting an incident · Opening",
+      "question": "Your audience includes managers who have not seen the cloud-compromise case before. Choose the sequence that will be easiest to follow aloud.",
+      "options": [
+        "I'll go through the detailed timeline first, and then I'll explain why the incident matters.",
+        "I'll start with a high-level overview, then we'll look at the timeline in more detail.",
+        "I'll begin with the evidence we collected, followed by a brief overview of the incident.",
+        "I'll give you the background first, and we'll decide later whether the timeline is still needed."
+      ],
+      "correct": 1,
+      "explanation": "Start with y then we'll look at forman una secuencia oral fluida. High-level overview es una colocación habitual en presentaciones. Empezar con la visión general crea un marco; las otras secuencias anteponen detalle, evidencia o una decisión prematura sobre el contenido.",
+      "translation": "Empezaré con una visión general y después veremos la cronología con más detalle."
+    },
+    {
+      "id": "b13-v2-presenting-004",
+      "topic": "Presenting an incident · Opening",
+      "question": "A mixed audience of executives and SOC analysts joins a supply-chain incident review. Which opening sets the right level for both groups?",
+      "options": [
+        "I'll keep this at a strategic level and send the technical analysis to the security team separately.",
+        "I'll cover the forensic detail first so that everyone has the same technical baseline.",
+        "I'll focus on the decisions today and only discuss technical evidence if someone asks for it.",
+        "I'll keep the main discussion focused on impact and decisions, and we can cover the technical detail in the final section."
+      ],
+      "correct": 3,
+      "explanation": "La frase define el nivel de la conversación sin excluir a nadie. Keep the discussion focused on... y cover the detail son expresiones naturales y diplomáticas. La respuesta correcta conserva impacto, decisiones y una sección técnica; las alternativas excluyen a parte de la audiencia o subordinan demasiado la evidencia.",
+      "translation": "Mantendré la conversación principal centrada en el impacto y las decisiones, y podremos tratar el detalle técnico en la sección final."
+    },
+    {
+      "id": "b13-v2-presenting-005",
+      "topic": "Presenting an incident · Opening",
+      "question": "Complete the spoken transition before a dense forensic slide: “Before we get into the details, ___.”",
+      "options": [
+        "I'll explain the most important technical points first",
+        "let's review every step that led us to this conclusion",
+        "I want to clarify the evidence we have not yet validated",
+        "let me give you the short version"
+      ],
+      "correct": 3,
+      "explanation": "Let me + verbo base es la estructura correcta. The short version suena natural al ofrecer primero un resumen breve. The short version ofrece orientación rápida; las otras opciones anuncian más detalle, una revisión exhaustiva o una limitación antes de dar contexto.",
+      "translation": "Antes de entrar en los detalles, déjenme darles la versión breve."
+    },
+    {
+      "id": "b13-v2-presenting-006",
+      "topic": "Presenting an incident · Opening",
+      "question": "The incident committee has fifteen minutes and must approve containment work. Which opening protects the decision time?",
+      "options": [
+        "Given the time, I'll provide a concise overview and send the recommendations after the meeting.",
+        "Given the time, I'll focus on the three points that require a decision today.",
+        "Given the time, I'll move quickly through the slides and pause if anything needs clarification.",
+        "Given the time, I'll cover the findings first and leave any decisions for the incident owner."
+      ],
+      "correct": 1,
+      "explanation": "Given the time introduce una limitación de forma profesional. Require a decision es más natural que need to decide referido a los puntos. La opción correcta prioriza explícitamente los tres puntos que requieren decisión; las demás aplazan recomendaciones, confían en el ritmo o separan la reunión de su objetivo.",
+      "translation": "Dado el tiempo disponible, me centraré en los tres puntos que requieren una decisión hoy."
+    },
+    {
+      "id": "b13-v2-presenting-007",
+      "topic": "Presenting an incident · Opening",
+      "question": "Your colleague has just summarized a malware outbreak. Pick the handover that adds value without repeating the introduction.",
+      "options": [
+        "Following that introduction, I'll repeat the key points before moving into the investigation findings.",
+        "That overview covered the main issue, so I'll focus only on the technical evidence we collected.",
+        "I'll take over from here and explain the parts of the incident that still require clarification.",
+        "Building on that overview, I'll now take you through the investigation findings."
+      ],
+      "correct": 3,
+      "explanation": "Building on that overview enlaza con la intervención anterior sin repetirla. Take you through mantiene un tono oral y organizado. Building on reconoce el trabajo anterior y anuncia los hallazgos; las otras opciones repiten, restringen en exceso o sugieren que solo importan las dudas.",
+      "translation": "Partiendo de esa visión general, ahora les guiaré por los hallazgos de la investigación."
+    },
+    {
+      "id": "b13-v2-presenting-008",
+      "topic": "Presenting an incident · Opening",
+      "question": "An identity alert is still being assessed. Which first sentence is calm, factual, and suitable for a customer?",
+      "options": [
+        "We identified suspicious activity that required investigation, but the current impact appears to be limited.",
+        "We identified a likely account compromise, although we have not yet confirmed any business impact.",
+        "We identified unusual activity, and at this stage there is no reason to believe it presents a significant risk.",
+        "We identified potentially malicious activity, but the evidence currently points to a contained incident."
+      ],
+      "correct": 0,
+      "explanation": "La frase separa el hecho observado de la evaluación provisional. Suspicious activity y appears to be limited comunican gravedad sin exagerar. La respuesta correcta no convierte la sospecha en compromiso ni minimiza el riesgo; las alternativas adelantan conclusiones sobre compromiso, riesgo o contención.",
+      "translation": "Identificamos actividad sospechosa que requirió investigación, pero el impacto actual parece limitado."
+    },
+    {
+      "id": "b13-v2-presenting-009",
+      "topic": "Presenting an incident · Opening",
+      "question": "At the start of a 30-minute briefing, you want to keep the flow while allowing urgent clarification. What do you say?",
+      "options": [
+        "I'll take questions at the end so that we can complete the presentation without interruption.",
+        "Please save detailed questions for the end, although I can clarify technical terms as we go.",
+        "We'll have time for questions at the end, and I may pause if a point needs further explanation.",
+        "I'll pause for questions at the end, but please flag anything urgent as we go."
+      ],
+      "correct": 3,
+      "explanation": "Pause for questions y as we go son expresiones idiomáticas. La frase establece una norma sin sonar rígida. La respuesta correcta fija una norma clara y deja una excepción para asuntos urgentes; las otras son más rígidas o menos concretas sobre cuándo intervenir.",
+      "translation": "Haré una pausa para preguntas al final, pero indiquen cualquier cuestión urgente sobre la marcha."
+    },
+    {
+      "id": "b13-v2-presenting-010",
+      "topic": "Presenting an incident · Opening",
+      "question": "The first slide of a vulnerability-exploitation review is a status snapshot. Which narration distinguishes completed and ongoing work?",
+      "options": [
+        "This slide shows where we are now: containment is complete, and the investigation is still ongoing.",
+        "This slide summarizes the current status: containment and investigation are progressing as planned.",
+        "This slide shows the latest position: containment is complete, with investigation work scheduled next.",
+        "This slide gives the current status: the threat is contained, although several actions remain outstanding."
+      ],
+      "correct": 0,
+      "explanation": "Where we are now es una forma natural de presentar el estado actual. Still ongoing deja claro que la investigación continúa. La opción correcta separa con precisión una fase terminada de otra en curso; las alternativas mezclan estados o introducen pendientes no especificados.",
+      "translation": "Esta diapositiva muestra dónde estamos ahora: la contención ha finalizado y la investigación sigue en curso."
+    },
+    {
+      "id": "b13-v2-presenting-011",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "In a cloud-app consent investigation, only two identities and one laptop are verified as affected. Select the scope statement that avoids speculation.",
+      "options": [
+        "At present, the incident appears to involve two user accounts and one managed endpoint.",
+        "The current scope includes two user accounts and one managed endpoint, with no evidence of wider activity.",
+        "The confirmed scope is limited to two user accounts and one managed endpoint.",
+        "We have limited the scope to two user accounts and one managed endpoint."
+      ],
+      "correct": 2,
+      "explanation": "Confirmed scope distinguishes verified facts from assumptions. Is limited to comunica el alcance sin prometer que no aparecerán nuevos datos. Confirmed scope identifica hechos verificados; appears es menos firme, no evidence añade una conclusión distinta y have limited puede sonar a una decisión analítica.",
+      "translation": "El alcance confirmado se limita a dos cuentas de usuario y un endpoint gestionado."
+    },
+    {
+      "id": "b13-v2-presenting-012",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "A customer asks how the impossible-travel case was discovered. Which sentence tells the story naturally rather than listing a tool output?",
+      "options": [
+        "The incident was detected by an identity alert generated from an unusual sign-in pattern.",
+        "Our identity monitoring raised the case after identifying sign-ins that did not match the user's baseline.",
+        "The investigation began because the monitoring platform classified a sign-in pattern as unusual.",
+        "The incident came to light when our identity monitoring detected an unusual sign-in pattern."
+      ],
+      "correct": 3,
+      "explanation": "Came to light when es natural para explicar cómo se descubrió algo. Detected an unusual sign-in pattern usa vocabulario preciso. Came to light ofrece una narración oral clara; las demás son válidas, pero suenan más pasivas, más técnicas o centradas en la herramienta.",
+      "translation": "El incidente salió a la luz cuando nuestra monitorización de identidad detectó un patrón de inicio de sesión inusual."
+    },
+    {
+      "id": "b13-v2-presenting-013",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "During a ransomware briefing, the customer needs to know what was and was not touched. Which version is the most evidence-based?",
+      "options": [
+        "The finance workstation was affected, while the adjacent servers remained clean.",
+        "The activity was isolated to the finance workstation and did not spread to nearby servers.",
+        "We confirmed activity on the finance workstation but can rule out any impact on the adjacent servers.",
+        "The activity affected the finance workstation; we found no related activity on the adjacent servers."
+      ],
+      "correct": 3,
+      "explanation": "Affected...; we found no related activity... contrasta ambos grupos con lenguaje basado en evidencias, sin usar absolutos como clean totally. Found no related activity describe lo observado; clean, did not spread y rule out any impact son conclusiones más absolutas de lo que permite la evidencia.",
+      "translation": "La actividad afectó al equipo de finanzas; no encontramos actividad relacionada en los servidores adyacentes."
+    },
+    {
+      "id": "b13-v2-presenting-014",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "A root-cause review is not yet complete. Choose the boundary statement that is transparent without making the update sound unfinished.",
+      "options": [
+        "Today's update covers the initial access and containment; the root-cause analysis will follow once validation is complete.",
+        "Today's update focuses on initial access and containment because the root-cause analysis is still incomplete.",
+        "Today we'll cover the confirmed stages of the incident and exclude root cause until the analysis is final.",
+        "The root-cause analysis is outside today's update, although we expect to complete it after further validation."
+      ],
+      "correct": 0,
+      "explanation": "Covers...; will follow once... delimita el contenido y explica cuándo llegará lo pendiente. Suena más constructivo que decir simplemente que algo no está listo. La respuesta correcta delimita lo cubierto y promete el siguiente producto cuando se complete la validación; las otras enfatizan carencia, exclusión o un plazo vago.",
+      "translation": "La actualización de hoy cubre el acceso inicial y la contención; el análisis de causa raíz llegará cuando finalice la validación."
+    },
+    {
+      "id": "b13-v2-presenting-015",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "A user reported an unexpected MFA notification shortly before the first identity alert. Complete the context sentence naturally: “To put the incident in context, ___.”",
+      "options": [
+        "the investigation started once the user confirmed that the MFA prompt was malicious",
+        "the user's report and the first alert occurred at approximately the same stage of the incident",
+        "the first alert was raised shortly after the user reported an unexpected MFA prompt",
+        "the first alert was triggered before we could determine whether the user had approved the prompt"
+      ],
+      "correct": 2,
+      "explanation": "Raise an alert y report an unexpected MFA prompt son combinaciones naturales y concretas. Shortly after sitúa ambos hechos sin afirmar todavía que la solicitud fuera maliciosa. La correcta expresa el orden conocido sin atribuir malicia ni aprobación; las alternativas añaden conclusiones o difuminan la secuencia.",
+      "translation": "Para poner el incidente en contexto, la primera alerta se generó poco después de que el usuario notificara una solicitud de MFA inesperada."
+    },
+    {
+      "id": "b13-v2-presenting-016",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "The legal team asks exactly which period was checked in a BEC review. Which wording leaves no ambiguity about the endpoints?",
+      "options": [
+        "We reviewed activity between Monday morning and the end of business on Wednesday.",
+        "We reviewed activity from 08:00 on Monday through 18:00 on Wednesday.",
+        "Our review covered the period beginning at 08:00 on Monday and ending around 18:00 on Wednesday.",
+        "We reviewed the relevant activity from 08:00 Monday until Wednesday evening."
+      ],
+      "correct": 1,
+      "explanation": "From... through... define un intervalo completo. Review activity es más natural que revise activities en este contexto. From... through... con horas exactas fija ambos extremos; las alternativas usan franjas aproximadas o añaden relevant sin definir el criterio.",
+      "translation": "Revisamos la actividad desde el lunes a las 08:00 hasta el miércoles a las 18:00."
+    },
+    {
+      "id": "b13-v2-presenting-017",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "Archive logs are still being restored in a supplier compromise. What is the clearest warning about scope?",
+      "options": [
+        "The scope is likely to expand once we receive the remaining telemetry.",
+        "We may need to revise the scope if the additional telemetry identifies further activity.",
+        "The scope may evolve as additional telemetry becomes available.",
+        "The scope remains provisional until every telemetry source has been reviewed."
+      ],
+      "correct": 2,
+      "explanation": "May evolve expresa posibilidad de forma profesional. As additional telemetry becomes available explica la condición con naturalidad. May evolve comunica posibilidad sin predecir expansión ni bloquear una evaluación útil hasta revisar absolutamente todo.",
+      "translation": "El alcance puede evolucionar a medida que haya telemetría adicional disponible."
+    },
+    {
+      "id": "b13-v2-presenting-018",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "Endpoint data is missing for 40 minutes in an insider-risk case. Which spoken caveat is brief enough for the main briefing?",
+      "options": [
+        "One limitation to keep in mind is that endpoint telemetry was unavailable for part of the period.",
+        "Endpoint telemetry was unavailable for part of the period, so the conclusions should be treated as provisional.",
+        "We should note that the endpoint data contains a gap that may affect some of the findings.",
+        "Before we continue, I need to explain a limitation in the endpoint evidence collected during the review."
+      ],
+      "correct": 0,
+      "explanation": "One limitation to keep in mind introduce la restricción de forma calmada. For part of the period concreta la limitación sin invalidar todo el análisis. One limitation to keep in mind introduce la carencia sin invalidar todo; las otras rebajan todas las conclusiones, son vagas o abren una digresión.",
+      "translation": "Una limitación que conviene tener en cuenta es que la telemetría del endpoint no estuvo disponible durante parte del periodo."
+    },
+    {
+      "id": "b13-v2-presenting-019",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "On the scope slide, you need one sentence naming the telemetry examined across a false-positive review. Pick the most concise version.",
+      "options": [
+        "Our review covered identity, email, endpoint, and firewall data.",
+        "We reviewed information from identity, email, endpoint, and firewall systems.",
+        "The investigation included identity and email records together with endpoint and firewall telemetry.",
+        "Our analysis incorporated four data sources: identity, email, endpoints, and the firewall."
+      ],
+      "correct": 0,
+      "explanation": "Review covered... data es una estructura concisa. Data es incontable y no se usa informations. Review covered... data es breve y paralelo; las alternativas cambian el nivel de abstracción o convierten categorías en fuentes concretas.",
+      "translation": "Nuestra revisión abarcó datos de identidad, correo, endpoint y firewall."
+    },
+    {
+      "id": "b13-v2-presenting-020",
+      "topic": "Presenting an incident · Context and scope",
+      "question": "The next section of a data-exposure briefing must distinguish verified facts from unresolved issues. Which signpost does that most cleanly?",
+      "options": [
+        "I'll begin with the confirmed findings before discussing the areas where the evidence is less conclusive.",
+        "I'll first cover what we have confirmed, then highlight the points that remain open.",
+        "First, I'll explain what we know, and then I'll cover what still needs to be investigated.",
+        "I'll separate the findings we can rely on from the questions that may remain unanswered."
+      ],
+      "correct": 1,
+      "explanation": "What we have confirmed y the points that remain open crean dos bloques claros y profesionales. Confirmed y remain open crean dos categorías neutrales; las otras introducen grados de fiabilidad, tareas o la posibilidad de no resolver.",
+      "translation": "Primero trataré lo que hemos confirmado y después destacaré los puntos que siguen abiertos."
+    },
+    {
+      "id": "b13-v2-presenting-021",
+      "topic": "Presenting an incident · Timeline",
+      "question": "The audience now understands the scope of a ransomware intrusion. Select the shortest natural bridge into the chronology.",
+      "options": [
+        "Now that the scope is clear, I'll explain the sequence in which the main events occurred.",
+        "With the background covered, the next section provides a chronological view of the incident.",
+        "Let's move from the context to a detailed review of each event in the timeline.",
+        "With that context in place, let's turn to the timeline."
+      ],
+      "correct": 3,
+      "explanation": "With that context in place y let's turn to... son fórmulas orales naturales para cambiar de sección. With that context in place, let's turn... es oral y ágil; las alternativas son más largas, formales o prometen revisar cada evento.",
+      "translation": "Con ese contexto establecido, pasemos a la cronología."
+    },
+    {
+      "id": "b13-v2-presenting-022",
+      "topic": "Presenting an incident · Timeline",
+      "question": "In a cloud-account case, earlier activity may exist but 02:14 is the first event supported by logs. Which wording preserves that distinction?",
+      "options": [
+        "The incident began at 02:14, when the account authenticated from a new location.",
+        "The first suspicious activity occurred at 02:14 with a sign-in from a new location.",
+        "At 02:14, the attacker first authenticated the account from a new location.",
+        "The earliest confirmed activity occurred at 02:14, when the account authenticated from a new location."
+      ],
+      "correct": 3,
+      "explanation": "Earliest confirmed activity es preciso: identifica el primer hecho probado, no necesariamente el inicio absoluto del ataque. Earliest confirmed activity limita la afirmación a lo demostrado; las otras fijan el inicio real, califican intención o identifican al actor.",
+      "translation": "La primera actividad confirmada ocurrió a las 02:14, cuando la cuenta se autenticó desde una ubicación nueva."
+    },
+    {
+      "id": "b13-v2-presenting-023",
+      "topic": "Presenting an incident · Timeline",
+      "question": "A timeline shows an MFA approval followed shortly by device registration. Choose the connector that works as a complete spoken transition: “The user approved the prompt. ___, the attacker registered a new device.”",
+      "options": [
+        "Shortly afterwards in the investigation",
+        "Minutes later",
+        "Within the next stage",
+        "Following this sequence"
+      ],
+      "correct": 1,
+      "explanation": "Minutes later funciona como conector temporal independiente. Minutes after necesitaría un complemento explícito. Minutes later aporta una relación temporal concreta y natural; las alternativas son vagas o describen la investigación, no el evento.",
+      "translation": "El usuario aprobó la solicitud. Minutos después, el atacante registró un nuevo dispositivo."
+    },
+    {
+      "id": "b13-v2-presenting-024",
+      "topic": "Presenting an incident · Timeline",
+      "question": "A mailbox review established that the authentication method changed before the first mailbox access. Which sentence makes the order explicit?",
+      "options": [
+        "Before accessing the mailbox, the attacker had already changed the account's authentication method.",
+        "The attacker changed the account's authentication method and then accessed the mailbox.",
+        "The authentication method was changed before the mailbox showed signs of unauthorized access.",
+        "Mailbox access followed a change to the account's authentication method."
+      ],
+      "correct": 0,
+      "explanation": "Before + gerund y past perfect marcan claramente que el cambio ocurrió primero. El past perfect destaca que el cambio ya se había completado antes del acceso; las alternativas son válidas, pero menos precisas sobre finalización o evidencia.",
+      "translation": "Antes de acceder al buzón, el atacante ya había cambiado el método de autenticación de la cuenta."
+    },
+    {
+      "id": "b13-v2-presenting-025",
+      "topic": "Presenting an incident · Timeline",
+      "question": "The intrusion moves from a compromised laptop to a file server. Which narration marks this as the next major phase rather than just another event?",
+      "options": [
+        "The attacker then moved from the initial host to the file server.",
+        "The timeline next shows activity moving from the first host toward the file server.",
+        "The next significant development was the move from the initial host to the file server.",
+        "After the initial access, the file server became the attacker's next destination."
+      ],
+      "correct": 2,
+      "explanation": "The next significant development destaca un hito. The move from... to... explica la transición con claridad. The next significant development jerarquiza el hito; las demás describen la secuencia, pero no explican su importancia o matizan peor el movimiento.",
+      "translation": "El siguiente avance significativo fue el salto del host inicial al servidor de archivos."
+    },
+    {
+      "id": "b13-v2-presenting-026",
+      "topic": "Presenting an incident · Timeline",
+      "question": "During a browser-infostealer case, local collection and cloud access overlap. Which sentence presents the two activities as simultaneous?",
+      "options": [
+        "The malware collected browser data before the account was used to access cloud applications.",
+        "While the malware was collecting browser data, the account was being used to access cloud applications.",
+        "The account accessed cloud applications as the malware completed its collection of browser data.",
+        "At the same time, browser data was collected and cloud applications were accessed through the account."
+      ],
+      "correct": 1,
+      "explanation": "While + past continuous muestra dos acciones simultáneas. Was being used es la pasiva adecuada para la cuenta. While con dos formas continuas muestra simultaneidad de manera nítida; las otras introducen orden, finalización o una pasiva que oculta los actores.",
+      "translation": "Mientras el malware recopilaba datos del navegador, la cuenta se utilizaba para acceder a aplicaciones en la nube."
+    },
+    {
+      "id": "b13-v2-presenting-027",
+      "topic": "Presenting an incident · Timeline",
+      "question": "A command-and-control connection ends at the moment a firewall control activates. Select the clearest timeline sentence.",
+      "options": [
+        "The firewall blocked the outbound connection after it had continued until 03:27.",
+        "The outbound connection remained active before the firewall rule was applied at 03:27.",
+        "At 03:27, the firewall rule interrupted an outbound connection that had been active.",
+        "The outbound connection continued until the firewall rule blocked it at 03:27."
+      ],
+      "correct": 3,
+      "explanation": "Continued until... blocked it presenta la duración y el punto final en una sola frase clara. Continued until... blocked it combina duración y final en una sola línea; las alternativas son correctas pero más indirectas o menos precisas sobre el punto final.",
+      "translation": "La conexión saliente continuó hasta que la regla del firewall la bloqueó a las 03:27."
+    },
+    {
+      "id": "b13-v2-presenting-028",
+      "topic": "Presenting an incident · Timeline",
+      "question": "A 40-event EDR timeline will not fit the available speaking time. Which sentence explains what you will omit and why?",
+      "options": [
+        "I'll summarize the less relevant activity and spend more time on the events that affected the investigation.",
+        "I'll focus on the attacker's main actions rather than go through every event on this slide.",
+        "I'll skip the routine events and focus on the points where the attacker's behavior changed.",
+        "I'll leave out the routine events and highlight only those that contributed directly to the compromise."
+      ],
+      "correct": 2,
+      "explanation": "Skip the routine events and focus on... mantiene el ritmo y explica el criterio de selección sin menospreciar la información. La opción correcta define un criterio observable —cambios de comportamiento—; las demás usan relevancia, main o contributed directly, que requieren más juicio.",
+      "translation": "Omitiré los eventos rutinarios y me centraré en los puntos en los que cambió el comportamiento del atacante."
+    },
+    {
+      "id": "b13-v2-presenting-029",
+      "topic": "Presenting an incident · Timeline",
+      "question": "On a crowded detection timeline, one ten-minute interval explains the response delay. Which spoken cue directs attention effectively?",
+      "options": [
+        "The most important figure here is the ten minutes between execution and detection.",
+        "This slide contains a ten-minute delay that we need to examine more closely.",
+        "The key point on this slide is the ten-minute gap between execution and detection.",
+        "I'd like to highlight that execution occurred ten minutes before the first detection."
+      ],
+      "correct": 2,
+      "explanation": "The key point on this slide is... dirige la atención. Gap between execution and detection resume la relación temporal con precisión. The key point on this slide is... guía la mirada y nombra la relación; las otras llaman figure a un intervalo, presuponen delay o son menos estructuradas.",
+      "translation": "El punto clave de esta diapositiva es el intervalo de diez minutos entre la ejecución y la detección."
+    },
+    {
+      "id": "b13-v2-presenting-030",
+      "topic": "Presenting an incident · Timeline",
+      "question": "You notice that you gave the wrong disablement time during a live briefing. Which correction is direct and composed?",
+      "options": [
+        "Let me correct that: the account was disabled at 04:12, not 04:20.",
+        "I need to revise the time I just mentioned: the account may have been disabled at 04:12 rather than 04:20.",
+        "Just to clarify, the correct disablement time in our records is 04:12.",
+        "There is a small error on the slide; the account was actually disabled eight minutes earlier."
+      ],
+      "correct": 0,
+      "explanation": "Let me correct that es una fórmula oral fluida. Not 04:20 corrige el dato sin generar confusión. Let me correct that nombra el error y sustituye el dato de forma inequívoca; las otras introducen duda, omiten el dato incorrecto o desplazan la culpa a la slide.",
+      "translation": "Déjenme corregirlo: la cuenta se deshabilitó a las 04:12, no a las 04:20."
+    },
+    {
+      "id": "b13-v2-presenting-031",
+      "topic": "Presenting an incident · Timeline",
+      "question": "In an OAuth-abuse investigation, consent to a malicious app changes the assessment. Which phrase clearly marks the turning point?",
+      "options": [
+        "This is the point at which the incident shifted from suspicious activity to confirmed compromise.",
+        "At this stage, the activity developed from suspicious behavior into a confirmed compromise.",
+        "This event gave us enough evidence to confirm that the earlier suspicious activity was malicious.",
+        "From this point onward, we treated the case as a confirmed compromise rather than suspicious activity."
+      ],
+      "correct": 0,
+      "explanation": "The point at which... shifted from... to... presenta un cambio de estado de forma natural y precisa. Shifted from... to... presenta un cambio de estado preciso; las otras describen proceso, suficiencia probatoria o decisión operativa en lugar del hito.",
+      "translation": "Este es el punto en el que el incidente pasó de actividad sospechosa a compromiso confirmado."
+    },
+    {
+      "id": "b13-v2-presenting-032",
+      "topic": "Presenting an incident · Timeline",
+      "question": "Later evidence changes the meaning of the first alert. Choose the natural way to take the audience back without restarting the story.",
+      "options": [
+        "If we return to the initial alert, one detail only became clear later in the investigation.",
+        "Going back to the initial alert, there was one detail we did not fully understand at the time.",
+        "Looking again at the initial alert, we can now interpret one of its details differently.",
+        "The initial alert contained a detail that the team was unable to explain during the early review."
+      ],
+      "correct": 1,
+      "explanation": "Going back to... permite retroceder en la historia sin perder a la audiencia. At the time sitúa la limitación en aquel momento. Going back to... at the time retrocede con fluidez y conserva la perspectiva histórica; las otras hablan desde el presente o cambian el foco a la capacidad del equipo.",
+      "translation": "Volviendo a la alerta inicial, había un detalle que no comprendíamos del todo en ese momento."
+    },
+    {
+      "id": "b13-v2-presenting-033",
+      "topic": "Presenting an incident · Timeline",
+      "question": "Before leaving a ransomware timeline, you need a one-sentence recap of access, persistence, and attempted lateral movement. Pick the most fluent version.",
+      "options": [
+        "In short, the attacker gained access, established persistence, and attempted to reach the file server within thirty minutes.",
+        "To summarize, the attacker first gained access, then established persistence, before attempting to reach the file server.",
+        "In summary, access and persistence were established, followed by an attempt to reach the file server within thirty minutes.",
+        "The sequence can be summarized as access, persistence, and attempted movement to the file server over thirty minutes."
+      ],
+      "correct": 0,
+      "explanation": "In short introduce un resumen oral. La serie de verbos paralelos gained, established y attempted facilita seguir la secuencia. La correcta usa tres verbos paralelos y mantiene al actor visible; las demás sobrecargan conectores, usan pasiva o convierten acciones en sustantivos.",
+      "translation": "En resumen, el atacante obtuvo acceso, estableció persistencia e intentó llegar al servidor de archivos en treinta minutos."
+    },
+    {
+      "id": "b13-v2-presenting-034",
+      "topic": "Presenting an incident · Timeline",
+      "question": "A SaaS audit records token creation and mailbox access in the same two-minute bucket. Which statement resists inventing an order?",
+      "options": [
+        "The token was probably created just before the mailbox was accessed, although both events share the same timestamp window.",
+        "The two events occurred almost simultaneously, with token creation appearing first in the available records.",
+        "We believe the token creation preceded mailbox access, but the timing is not precise enough to confirm it.",
+        "The token creation and mailbox access occurred within the same two-minute window, so we cannot reliably determine which came first."
+      ],
+      "correct": 3,
+      "explanation": "Within the same two-minute window explica la limitación temporal. Cannot reliably determine evita inventar una secuencia. La respuesta correcta declara el límite exacto y evita probably, appearing first o believe, que crean una secuencia no respaldada.",
+      "translation": "La creación del token y el acceso al buzón ocurrieron en la misma ventana de dos minutos, por lo que no podemos determinar con fiabilidad qué sucedió primero."
+    },
+    {
+      "id": "b13-v2-presenting-035",
+      "topic": "Presenting an incident · Timeline",
+      "question": "The chronology is complete and the next slide contains analytical conclusions. Which bridge explains the change in purpose?",
+      "options": [
+        "With the timeline complete, I'll now present the findings from our review of the evidence.",
+        "We've seen what happened; the next section explains why we believe the incident occurred.",
+        "Now that we've covered the sequence of events, let's look at what the evidence tells us.",
+        "Now let's move beyond the sequence and examine the conclusions reached by the investigation team."
+      ],
+      "correct": 2,
+      "explanation": "Now that we've covered... let's look at... enlaza dos secciones con naturalidad. Evidence es incontable. La correcta conecta secuencia y significado de la evidencia; las otras son más formales o prometen causa, que no equivale necesariamente a hallazgos.",
+      "translation": "Ahora que hemos cubierto la secuencia de acontecimientos, veamos qué nos indican las evidencias."
+    },
+    {
+      "id": "b13-v2-presenting-036",
+      "topic": "Presenting an incident · Evidence",
+      "question": "An EDR slide contains twenty lines, but only one establishes the first successful sign-in. What should you say instead of reading it all?",
+      "options": [
+        "I won't read every line, but the highlighted entry shows the first successful sign-in.",
+        "The full log is available here, although only the highlighted entry is directly relevant to our conclusion.",
+        "Rather than review every line, I'll focus on the highlighted sign-in that triggered the investigation.",
+        "You do not need to read the full log; the highlighted line contains the key evidence."
+      ],
+      "correct": 0,
+      "explanation": "I won't read every line gestiona la diapositiva. The highlighted entry shows... dirige la atención a la evidencia relevante. La correcta gestiona la slide y describe exactamente qué muestra la línea; las alternativas califican relevancia, causalidad o dan una instrucción innecesaria a la audiencia.",
+      "translation": "No leeré cada línea, pero la entrada resaltada muestra el primer inicio de sesión exitoso."
+    },
+    {
+      "id": "b13-v2-presenting-037",
+      "topic": "Presenting an incident · Evidence",
+      "question": "Which statement reports the impossible-travel evidence without claiming who physically used the account?",
+      "options": [
+        "The sign-in logs confirm that the attacker connected from two countries within six minutes.",
+        "The same account was used from two countries within six minutes, which confirms unauthorized access.",
+        "Two sign-ins from different countries occurred six minutes apart and were associated with the compromised account.",
+        "The sign-in logs show that the same account authenticated from two countries within six minutes."
+      ],
+      "correct": 3,
+      "explanation": "La frase describe exactamente lo observado. No deduce ubicación física, identidad ni compromiso total más allá de los datos. La correcta se limita a lo que muestran los logs; las demás identifican al atacante, confirman acceso no autorizado o dan por comprometida la cuenta.",
+      "translation": "Los registros de inicio de sesión muestran que la misma cuenta se autenticó desde dos países con seis minutos de diferencia."
+    },
+    {
+      "id": "b13-v2-presenting-038",
+      "topic": "Presenting an incident · Evidence",
+      "question": "You are presenting an EDR process tree to a non-specialist audience. Which spoken description identifies the relevant relationship first?",
+      "options": [
+        "This process tree shows an encoded PowerShell command running beneath its parent process.",
+        "The important detail here is that PowerShell received an encoded argument from the parent process.",
+        "Here, the parent-child relationship indicates that a PowerShell command was launched with encoded content.",
+        "What you can see here is the parent process launching a PowerShell command with an encoded argument."
+      ],
+      "correct": 3,
+      "explanation": "What you can see here... es una fórmula oral útil. Parent process, launching y encoded argument son términos precisos. What you can see here... nombra actor, acción y detalle visual; las otras alteran el origen del argumento o convierten la relación en una conclusión.",
+      "translation": "Lo que pueden ver aquí es el proceso padre iniciando un comando de PowerShell con un argumento codificado."
+    },
+    {
+      "id": "b13-v2-presenting-039",
+      "topic": "Presenting an incident · Evidence",
+      "question": "A hash appears on two endpoints in separate business units. Which explanation makes its significance immediately clear?",
+      "options": [
+        "This is significant because the hash was detected on more than one affected endpoint.",
+        "The repeated hash suggests that the two endpoint cases may be related.",
+        "This matters because the same hash appeared on both affected endpoints.",
+        "We gave this artifact more weight because it was present on both systems under investigation."
+      ],
+      "correct": 2,
+      "explanation": "This matters because conecta evidencia e importancia de forma directa. Appeared on es la preposición natural para endpoints. This matters because... es directo y factual; las otras valoran significancia, relación o peso analítico en vez de explicar primero la coincidencia.",
+      "translation": "Esto es relevante porque el mismo hash apareció en ambos endpoints afectados."
+    },
+    {
+      "id": "b13-v2-presenting-040",
+      "topic": "Presenting an incident · Evidence",
+      "question": "The customer asks why both proxy and endpoint logs are needed. Which comparison gives each source a distinct role?",
+      "options": [
+        "The proxy logs identify the external destination, and the endpoint data confirms the connection was malicious.",
+        "The proxy logs confirm the destination, while the endpoint telemetry shows which process made the connection.",
+        "The endpoint telemetry adds process context to the destination already identified in the proxy logs.",
+        "Together, the proxy and endpoint logs show both sides of the outbound connection."
+      ],
+      "correct": 1,
+      "explanation": "While contrasta funciones complementarias. Destination y which process made the connection separan claramente qué aporta cada fuente. La correcta asigna destino y proceso a fuentes concretas; las demás confirman malicia sin base, condensan demasiado o son vagas sobre each side.",
+      "translation": "Los logs del proxy confirman el destino, mientras que la telemetría del endpoint muestra qué proceso realizó la conexión."
+    },
+    {
+      "id": "b13-v2-presenting-041",
+      "topic": "Presenting an incident · Evidence",
+      "question": "During the first hour of a zero-day case, identity logging is complete but EDR coverage is partial. Which sentence states both conditions without dramatizing the gap?",
+      "options": [
+        "Our identity evidence is complete, although the endpoint findings for the first hour are less reliable.",
+        "We have full identity visibility but cannot account for all endpoint activity during the first hour.",
+        "Identity logs cover the full period, while endpoint telemetry only became reliable after the first hour.",
+        "We have complete identity logs, but only partial endpoint coverage for the first hour."
+      ],
+      "correct": 3,
+      "explanation": "Complete... but only partial... presenta la fortaleza y la limitación con precisión. Coverage es el término natural. Complete logs y partial coverage describen disponibilidad; las otras convierten el hueco en fiabilidad, imposibilidad o una frontera temporal más fuerte.",
+      "translation": "Tenemos logs de identidad completos, pero solo cobertura parcial del endpoint durante la primera hora."
+    },
+    {
+      "id": "b13-v2-presenting-042",
+      "topic": "Presenting an incident · Evidence",
+      "question": "A new Windows service is visible in logs, but its purpose is inferred. Which wording keeps observation and interpretation separate?",
+      "options": [
+        "What we observed was the creation of a service; we believe it was used to establish persistence.",
+        "The service creation shows that the attacker established persistence on the host.",
+        "We observed a service that appears to have been created specifically for persistence.",
+        "The evidence confirms service creation and strongly suggests that persistence was achieved."
+      ],
+      "correct": 0,
+      "explanation": "What we observed presenta el dato comprobado. We believe marca la explicación sobre persistencia como una interpretación y no como un hecho directo. La correcta separa las dos capas; las demás fusionan dato e intención o convierten achieved en una conclusión más firme.",
+      "translation": "Lo que observamos fue la creación de un servicio; creemos que se utilizó para establecer persistencia."
+    },
+    {
+      "id": "b13-v2-presenting-043",
+      "topic": "Presenting an incident · Evidence",
+      "question": "On a consent-phishing slide, the image is evidence of what the employee saw. Which narration is neutral and specific?",
+      "options": [
+        "The image on the right shows the malicious consent request received by the user.",
+        "On the right, you can see the prompt that led the user to grant access.",
+        "This screenshot documents the exact consent decision made by the user.",
+        "The screenshot on the right captures the consent prompt displayed to the user."
+      ],
+      "correct": 3,
+      "explanation": "Screenshot on the right y captures... displayed to the user son expresiones claras para una presentación. Captures the consent prompt displayed describe la imagen; las otras califican malicia, causalidad o decisión, aspectos que la captura por sí sola no demuestra.",
+      "translation": "La captura de pantalla de la derecha recoge la solicitud de consentimiento que se mostró al usuario."
+    },
+    {
+      "id": "b13-v2-presenting-044",
+      "topic": "Presenting an incident · Evidence",
+      "question": "No exfiltration appears in the available logs, but DNS and personal cloud storage were not recorded. Select the safest customer-facing conclusion.",
+      "options": [
+        "We found no exfiltration in the monitored channels, although unmonitored routes cannot be ruled out.",
+        "We found no evidence of exfiltration, but the available logs do not cover every outbound channel.",
+        "There is no evidence that data left the environment through the outbound channels we reviewed.",
+        "The reviewed logs do not indicate exfiltration, but our visibility was incomplete."
+      ],
+      "correct": 1,
+      "explanation": "La frase comunica el hallazgo negativo y su límite. Evita convertir no observado en imposible. La correcta une hallazgo negativo y límite concreto; las otras son válidas, pero más abstractas y menos informativas sobre la cobertura.",
+      "translation": "No encontramos evidencias de exfiltración, pero los logs disponibles no cubren todos los canales de salida."
+    },
+    {
+      "id": "b13-v2-presenting-045",
+      "topic": "Presenting an incident · Evidence",
+      "question": "Several independent artifacts point to endpoint compromise. Which closing sentence weighs them together without saying they provide absolute proof?",
+      "options": [
+        "Collectively, these artifacts confirm that the endpoint was fully compromised.",
+        "The combined evidence makes endpoint compromise the most likely explanation.",
+        "These artifacts are consistent with our assessment that the endpoint was compromised.",
+        "Taken together, these artifacts support the conclusion that the endpoint was compromised."
+      ],
+      "correct": 3,
+      "explanation": "Taken together resume varias evidencias. Support the conclusion expresa una conclusión sólida sin abusar de prove totally. Support the conclusion expresa apoyo sólido sin full o confirmación absoluta; las otras cambian el nivel de certeza a confirmación, probabilidad o mera consistencia.",
+      "translation": "En conjunto, estos artefactos respaldan la conclusión de que el endpoint fue comprometido."
+    },
+    {
+      "id": "b13-v2-presenting-046",
+      "topic": "Presenting an incident · Findings",
+      "question": "In a review initially opened as possible exploitation, valid-account use is the central conclusion. Which sentence leads with that contrast?",
+      "options": [
+        "The attacker appears to have used a valid account, and we found no exploited vulnerability.",
+        "Our investigation found valid-account access instead of evidence of software exploitation.",
+        "The main finding is that the attacker used a valid account rather than exploiting a software vulnerability.",
+        "The evidence points to account misuse as the access route rather than a technical vulnerability."
+      ],
+      "correct": 2,
+      "explanation": "The main finding is that... introduce una conclusión. Rather than contrasta dos vías de acceso con claridad. The main finding is that... declara jerarquía y contrasta mecanismo usado con mecanismo descartado; las otras son menos firmes o menos precisas.",
+      "translation": "El principal hallazgo es que el atacante utilizó una cuenta válida en lugar de explotar una vulnerabilidad de software."
+    },
+    {
+      "id": "b13-v2-presenting-047",
+      "topic": "Presenting an incident · Findings",
+      "question": "An outdated browser extension was discovered during a BEC case but did not cause the compromise. How should it be reported?",
+      "options": [
+        "We also found an outdated browser extension, although it was unrelated to the main attack path.",
+        "Another finding was an outdated extension that did not materially affect this incident.",
+        "A secondary finding, though not central to the incident, was an outdated browser extension on the host.",
+        "The host had an outdated browser extension, but this was outside the central investigation findings."
+      ],
+      "correct": 2,
+      "explanation": "Though not central to the incident clasifica la relevancia. Outdated browser extension es natural y preciso. A secondary finding, though not central... clasifica relevancia sin afirmar irrelevancia total; las otras declaran unrelated, no material o outside.",
+      "translation": "Un hallazgo secundario, aunque no central para el incidente, fue una extensión de navegador desactualizada en el host."
+    },
+    {
+      "id": "b13-v2-presenting-048",
+      "topic": "Presenting an incident · Findings",
+      "question": "Your findings slide covers identity, endpoint activity, and data access. Which spoken preview has full parallel structure?",
+      "options": [
+        "There are three findings: one about identity, another concerns endpoint activity, and the last is data access.",
+        "Keep three findings in mind: identity, what happened on the endpoint, and whether data was accessed.",
+        "The findings fall into three areas, starting with identity before endpoint and data-access issues.",
+        "There are three findings to keep in mind. The first concerns identity, the second concerns endpoint activity, and the third concerns data access."
+      ],
+      "correct": 3,
+      "explanation": "Repetir concerns mantiene el paralelismo y hace que las tres categorías sean fáciles de seguir al hablar. La frase anticipa claramente la estructura. La correcta repite la misma construcción; las otras mezclan patrones gramaticales o cambian sustantivos por preguntas y issues.",
+      "translation": "Hay tres hallazgos que conviene tener presentes. El primero se refiere a identidad, el segundo a la actividad del endpoint y el tercero al acceso a datos."
+    },
+    {
+      "id": "b13-v2-presenting-049",
+      "topic": "Presenting an incident · Findings",
+      "question": "A director asks what persistence means in this specific case. Which explanation removes the jargon but preserves the operational meaning?",
+      "options": [
+        "In practical terms, the attacker created a way to regain access even if the original session was closed.",
+        "In simple terms, persistence allowed the attacker to keep control after the initial access.",
+        "Practically speaking, the attacker established a second access method on the compromised system.",
+        "This means the attacker could maintain a foothold even after the original connection ended."
+      ],
+      "correct": 0,
+      "explanation": "In practical terms traduce el concepto técnico a su consecuencia. La frase explica persistencia sin jerga innecesaria. La correcta explica la consecuencia —recuperar acceso— sin añadir keep control, segundo método o foothold, que son menos llanos o más específicos.",
+      "translation": "En términos prácticos, el atacante creó una forma de recuperar el acceso incluso si se cerraba la sesión original."
+    },
+    {
+      "id": "b13-v2-presenting-050",
+      "topic": "Presenting an incident · Findings",
+      "question": "A tactic resembles activity reported for several groups, but no unique infrastructure or tooling exists. Choose the attribution statement that will stand up to challenge.",
+      "options": [
+        "The techniques have been used by several known groups, so attribution remains uncertain.",
+        "The behavior is consistent with techniques used by several threat groups, but it is not sufficient for attribution.",
+        "The behavior points to a threat group that commonly uses these techniques, although we cannot name it yet.",
+        "Several groups could be responsible, and the available indicators do not identify one with confidence."
+      ],
+      "correct": 1,
+      "explanation": "Consistent with indica similitud, no identidad. Not sufficient for attribution deja claro el límite de la evidencia. Consistent with... not sufficient for attribution distingue semejanza de identificación; las otras insinúan un grupo concreto o centran la respuesta en incertidumbre general.",
+      "translation": "El comportamiento es coherente con técnicas utilizadas por varios grupos de amenazas, pero no es suficiente para atribuir la actividad."
+    },
+    {
+      "id": "b13-v2-presenting-051",
+      "topic": "Presenting an incident · Findings",
+      "question": "A sign-in bypassed a modern control because legacy authentication was enabled. Which explanation states cause and consequence most directly?",
+      "options": [
+        "Because legacy authentication was still enabled, the sign-in was not subject to the newer control.",
+        "Legacy authentication allowed the sign-in to avoid the newer control that would otherwise have applied.",
+        "The newer control did not evaluate the sign-in, as the account was still using legacy authentication.",
+        "Since legacy authentication remained available, the attacker was able to bypass the newer control."
+      ],
+      "correct": 0,
+      "explanation": "Because introduce la causa y was not subject to explica con precisión por qué el control más reciente no se aplicó a ese inicio de sesión. La correcta explica aplicabilidad sin afirmar intención ni bypass deliberado; las otras personifican el sign-in, atan el modo a la cuenta o identifican al atacante.",
+      "translation": "Como la autenticación heredada seguía habilitada, el inicio de sesión no estuvo sujeto al control más reciente."
+    },
+    {
+      "id": "b13-v2-presenting-052",
+      "topic": "Presenting an incident · Findings",
+      "question": "The team first suspected phishing, then found an older infostealer infection. Which update shows that the assessment changed because the evidence changed?",
+      "options": [
+        "We originally considered phishing, but the investigation later identified an infostealer as the credential source.",
+        "Phishing was our working theory until evidence from the endpoint revealed a previous infostealer infection.",
+        "The evidence eventually ruled out phishing and linked the stolen credentials to an earlier infostealer infection.",
+        "Our initial assessment pointed to phishing, but later evidence showed that the credentials came from an earlier infostealer infection."
+      ],
+      "correct": 3,
+      "explanation": "Initial assessment pointed to... but later evidence showed... explica una revisión normal basada en nueva evidencia, sin presentar el primer análisis como incompetencia. Initial assessment... later evidence showed presenta una revisión normal; ruled out es demasiado absoluto y las otras condensan la relación o cambian el foco.",
+      "translation": "Nuestra evaluación inicial apuntaba a phishing, pero evidencias posteriores mostraron que las credenciales procedían de una infección previa por infostealer."
+    },
+    {
+      "id": "b13-v2-presenting-053",
+      "topic": "Presenting an incident · Findings",
+      "question": "Two alerts from different products may represent one incident. Which explanation gives the concrete correlation criteria?",
+      "options": [
+        "We treated the alerts as related because they occurred close together and involved similar activity.",
+        "We linked the two alerts because they involved the same account, device, and destination IP.",
+        "The alerts were combined after the same account appeared in both investigations.",
+        "We linked the alerts based on common identity, endpoint, and network indicators."
+      ],
+      "correct": 1,
+      "explanation": "Linked the two alerts because... usa criterios concretos y una estructura natural. La correcta nombra cuenta, dispositivo e IP; las alternativas dependen de proximidad, un único indicador o categorías más abstractas.",
+      "translation": "Relacionamos las dos alertas porque implicaban la misma cuenta, el mismo dispositivo y la misma IP de destino."
+    },
+    {
+      "id": "b13-v2-presenting-054",
+      "topic": "Presenting an incident · Findings",
+      "question": "The access method is well supported, but the adversary's goal is not. Which statement calibrates confidence separately?",
+      "options": [
+        "We are confident about how access occurred, although the attacker's objective remains unclear.",
+        "The access method is confirmed, while our assessment of intent is still preliminary.",
+        "Our confidence is high for initial access and lower for the conclusions about attacker intent.",
+        "We have high confidence in the access method, but only moderate confidence in the attacker's objective."
+      ],
+      "correct": 3,
+      "explanation": "High confidence y moderate confidence son niveles profesionales. La frase distingue dos evaluaciones en vez de dar una certeza global. High y moderate confidence permiten comparar dos juicios; las demás usan unclear, confirmed/preliminary o lower sin un nivel definido.",
+      "translation": "Tenemos un alto grado de confianza en el método de acceso, pero solo una confianza moderada en el objetivo del atacante."
+    },
+    {
+      "id": "b13-v2-presenting-055",
+      "topic": "Presenting an incident · Findings",
+      "question": "Executives are worried about privileged access and production impact. Which reassurance remains tied to the evidence?",
+      "options": [
+        "Importantly, we found no indication that privileged accounts or production servers were accessed.",
+        "Importantly, privileged accounts and production servers were not affected by the incident.",
+        "We found no evidence that the attacker compromised any privileged or production systems.",
+        "The investigation confirmed that access did not extend to privileged accounts or production servers."
+      ],
+      "correct": 0,
+      "explanation": "Importantly señala relevancia. No indication that... were accessed comunica el hallazgo sin garantizar más de lo que muestran los datos. No indication that... were accessed limita la afirmación a la revisión; las otras amplían a affected/compromised o dicen confirmed did not.",
+      "translation": "Es importante señalar que no encontramos indicios de acceso a cuentas privilegiadas ni a servidores de producción."
+    },
+    {
+      "id": "b13-v2-presenting-056",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "You have finished the technical findings and need to explain the operational consequence to business leaders. Which transition works best aloud?",
+      "options": [
+        "From a business perspective, the incident produced four hours of disruption for the payment function.",
+        "So what does this mean for the business? The main impact was that the payment team's work was disrupted for four hours.",
+        "The technical activity resulted in an operational issue that affected the payment team for four hours.",
+        "The business impact can be measured as a four-hour interruption within the payment team's operations."
+      ],
+      "correct": 1,
+      "explanation": "La pregunta retórica cambia de nivel técnico a empresarial. Was disrupted for four hours describe el impacto operativo con una colocación natural. La correcta cambia de registro y usa lenguaje llano; las alternativas son gramaticales, pero más nominales, abstractas o propias de un informe.",
+      "translation": "Entonces, ¿qué significa esto para el negocio? El impacto principal fue que el trabajo del equipo de pagos se vio interrumpido durante cuatro horas."
+    },
+    {
+      "id": "b13-v2-presenting-057",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "A malware incident did not interrupt customer services, yet the response consumed substantial analyst time. Which executive statement preserves both sides?",
+      "options": [
+        "Customer services remained available, although the internal investigation required considerable effort.",
+        "There was no external impact, but the response placed a significant burden on internal teams.",
+        "No customer-facing service was disrupted, but the internal response required significant staff time.",
+        "The incident caused limited business disruption but generated a high internal response cost."
+      ],
+      "correct": 2,
+      "explanation": "No customer-facing service was disrupted es concreto. But introduce el coste interno sin contradecir la ausencia de impacto externo. La correcta nombra servicio e inversión de tiempo sin ampliar a no external impact ni introducir burden o cost no cuantificado.",
+      "translation": "No se interrumpió ningún servicio de cara al cliente, pero la respuesta interna requirió una cantidad significativa de tiempo del personal."
+    },
+    {
+      "id": "b13-v2-presenting-058",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "Folder access is confirmed, but file-level audit data is still being processed. What should the customer hear?",
+      "options": [
+        "We have confirmed access to the folder, but we are still determining whether any files were opened or copied.",
+        "We know the folder was accessed, although we have not yet found evidence that files were opened or copied.",
+        "The attacker reached the folder, but the available evidence does not confirm any interaction with its contents.",
+        "Folder access occurred; analysis is ongoing to establish the extent of any data exposure."
+      ],
+      "correct": 0,
+      "explanation": "La frase separa el acceso confirmado de las acciones aún no determinadas. Still determining comunica trabajo en curso. La correcta separa acceso confirmado y dos acciones pendientes; las demás convierten no encontrado en evidencia, identifican al atacante o usan data exposure más amplio.",
+      "translation": "Hemos confirmado el acceso a la carpeta, pero seguimos determinando si se abrió o copió algún archivo."
+    },
+    {
+      "id": "b13-v2-presenting-059",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "Session revocation contained the account, but the password may exist on other services. Which statement explains the residual risk?",
+      "options": [
+        "The immediate threat is contained, although reused passwords may still expose other services.",
+        "Containment addressed this account, but the same credentials could remain valid elsewhere.",
+        "We reduced the current risk, but password reuse creates a broader identity concern.",
+        "Containment reduced the immediate risk, but password reuse remains a concern across other services."
+      ],
+      "correct": 3,
+      "explanation": "Reduced the immediate risk evita decir que el riesgo desapareció. Remains a concern identifica claramente el riesgo residual. La correcta distingue riesgo inmediato y preocupación persistente con precisión; las otras dicen contained como estado absoluto o cambian de password reuse a credenciales.",
+      "translation": "La contención redujo el riesgo inmediato, pero la reutilización de contraseñas sigue siendo motivo de preocupación en otros servicios."
+    },
+    {
+      "id": "b13-v2-presenting-060",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "The attacker never reached the file server. Which comparison explains why the case still had serious potential?",
+      "options": [
+        "The impact remained limited because we stopped the attacker before the file server was accessed.",
+        "The actual impact was limited, although the potential impact would have been much greater if the file server had been reached.",
+        "Although the actual impact was low, reaching the file server could have made the incident significantly more severe.",
+        "The incident had limited consequences, but the file server represented a much greater potential exposure."
+      ],
+      "correct": 1,
+      "explanation": "Actual impact y potential impact crean un contraste útil. Would have been... if... expresa una situación pasada hipotética correctamente. La correcta contrasta actual/potential y usa un condicional pasado claro; las demás enfatizan causa, severidad o exposure sin formular el contrafactual completo.",
+      "translation": "El impacto real fue limitado, aunque el impacto potencial habría sido mucho mayor si se hubiera alcanzado el servidor de archivos."
+    },
+    {
+      "id": "b13-v2-presenting-061",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "A severity challenge comes up in the incident committee. Which answer ties the medium rating to one aggravating and one mitigating factor?",
+      "options": [
+        "We rated the incident as medium severity because access was confirmed but the affected account had limited privileges.",
+        "We selected medium severity because unauthorized access occurred but did not involve a privileged account.",
+        "The incident is medium severity based on confirmed access and the limited permissions of the affected identity.",
+        "Medium severity reflects the fact that access was achieved, although the account's privileges restricted the impact."
+      ],
+      "correct": 0,
+      "explanation": "Because conecta la clasificación con dos criterios observables. Limited privileges explica el factor mitigador. La correcta da la decisión y sus dos criterios en lenguaje sencillo; las otras son plausibles, pero cambian access por unauthorized/achieved o mezclan impacto con clasificación.",
+      "translation": "Clasificamos el incidente con gravedad media porque se confirmó el acceso, pero la cuenta afectada tenía privilegios limitados."
+    },
+    {
+      "id": "b13-v2-presenting-062",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "Leadership asks for a financial-impact statement before response costs are fully known. Which answer is balanced?",
+      "options": [
+        "We have not identified direct financial loss, but the total response cost is still being assessed.",
+        "We do not expect a direct financial loss, although the final cost of the response has not yet been calculated.",
+        "Direct financial loss appears unlikely, although we cannot yet quantify the cost of the incident.",
+        "No direct financial loss is expected; however, the final response cost remains unknown."
+      ],
+      "correct": 1,
+      "explanation": "Do not expect expresa una evaluación, no una garantía. Has not yet been calculated deja claro qué queda pendiente. Do not expect expresa evaluación, y not yet calculated especifica el pendiente; las demás hablan de identified, incident cost o unknown de forma más amplia.",
+      "translation": "No esperamos una pérdida financiera directa, aunque todavía no se ha calculado el coste final de la respuesta."
+    },
+    {
+      "id": "b13-v2-presenting-063",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "A board member asks why one stolen identity matters beyond the laptop. Which explanation is both brief and technically accurate?",
+      "options": [
+        "Identity compromise is serious because a single account may connect multiple business systems.",
+        "A compromised identity can provide access to multiple services, so the risk extends beyond a single device.",
+        "A stolen identity can expose every service that trusts the same authentication session.",
+        "The risk is broader than the endpoint because the account may have permissions across cloud services."
+      ],
+      "correct": 1,
+      "explanation": "Can provide access evita asumir que se accedió a todo. Extends beyond a single device explica el alcance potencial. La correcta usa can y multiple services sin convertir posibilidad en every ni limitar el riesgo a sesión o nube.",
+      "translation": "Una identidad comprometida puede dar acceso a varios servicios, por lo que el riesgo va más allá de un único dispositivo."
+    },
+    {
+      "id": "b13-v2-presenting-064",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "After endpoint isolation, one token may still be active on an unmanaged phone. How do you name the priority without presenting it as confirmed?",
+      "options": [
+        "The immediate concern is the possibility that the stolen token remains valid on an unmanaged device.",
+        "The main outstanding risk is an active stolen token on an unmanaged device.",
+        "Our immediate concern is that the attacker may still have a valid token outside the managed environment.",
+        "We need to assume the stolen token remains valid on an unmanaged device until revocation is verified."
+      ],
+      "correct": 0,
+      "explanation": "The immediate concern is... centra la atención. The possibility that... remains valid expresa el riesgo sin presentarlo como hecho. The possibility that... remains valid mantiene la incertidumbre; las otras lo convierten en riesgo existente, introducen al atacante o prescriben asumir.",
+      "translation": "La preocupación inmediata es la posibilidad de que el token robado siga siendo válido en un dispositivo no gestionado."
+    },
+    {
+      "id": "b13-v2-presenting-065",
+      "topic": "Presenting an incident · Impact and risk",
+      "question": "At the end of an impact slide, you need to acknowledge limited disruption and still justify improvement work. Choose the best close.",
+      "options": [
+        "Overall, the incident had little operational impact, although the identity controls should still be reviewed.",
+        "The impact was limited, but the identity-control failure requires immediate remediation.",
+        "Overall, the operational impact remained limited, but the incident exposed an identity-control gap that needs to be addressed.",
+        "Despite the limited impact, the incident demonstrates that our identity controls were inadequate."
+      ],
+      "correct": 2,
+      "explanation": "Remained limited resume el resultado sin sugerir que el impacto fue activamente contenido. Exposed a gap conecta el caso con una mejora concreta. La correcta evita minimizar con little y evita failure/inadequate, términos más acusatorios que lo demostrado.",
+      "translation": "En conjunto, el impacto operativo siguió siendo limitado, pero el incidente puso de manifiesto una carencia en los controles de identidad que debe abordarse."
+    },
+    {
+      "id": "b13-v2-presenting-066",
+      "topic": "Presenting an incident · Response actions",
+      "question": "The response slide lists account disablement, session revocation, and endpoint isolation. Which narration is easiest to follow?",
+      "options": [
+        "Our immediate response consisted of disabling the account, revoking its sessions, and isolating the affected device.",
+        "We took three immediate actions: we disabled the account, revoked active sessions, and isolated the endpoint.",
+        "Three containment actions were completed: account disablement, session revocation, and endpoint isolation.",
+        "We immediately addressed the account, its active sessions, and the affected endpoint."
+      ],
+      "correct": 1,
+      "explanation": "Take action es la colocación correcta. La lista con verbos paralelos facilita una explicación oral clara. La correcta usa tres verbos paralelos y mantiene claridad oral; las otras nominalizan o condensan tanto que ocultan las acciones exactas.",
+      "translation": "Tomamos tres medidas inmediatas: deshabilitamos la cuenta, revocamos las sesiones activas y aislamos el endpoint."
+    },
+    {
+      "id": "b13-v2-presenting-067",
+      "topic": "Presenting an incident · Response actions",
+      "question": "A customer challenges why an endpoint was isolated before impact was confirmed. Which rationale names both forensic and protective goals?",
+      "options": [
+        "We isolated the device as a precaution while we determined whether the connection was malicious.",
+        "The device was isolated to stop the suspicious communication and support the forensic review.",
+        "We isolated the device to preserve evidence and prevent further communication with the malicious server.",
+        "Isolation protected the environment and ensured that the endpoint evidence remained intact."
+      ],
+      "correct": 2,
+      "explanation": "To preserve... and prevent... presenta dos propósitos en paralelo. Evidence es incontable. Preserve evidence and prevent further communication define dos fines concretos; las otras cambian a precaution, suspicious o garantizan evidence intact.",
+      "translation": "Aislamos el dispositivo para preservar las evidencias y evitar nuevas comunicaciones con el servidor malicioso."
+    },
+    {
+      "id": "b13-v2-presenting-068",
+      "topic": "Presenting an incident · Response actions",
+      "question": "Legal approval delayed mailbox review in a sensitive employee case. Which explanation is factual and non-blaming?",
+      "options": [
+        "The mailbox review was delayed while we waited for the required legal authorization.",
+        "The mailbox review started later than planned because we first needed legal approval.",
+        "We could not begin the mailbox review on time because legal approval had not been provided.",
+        "The review started once Legal completed the approval process, later than our original schedule."
+      ],
+      "correct": 1,
+      "explanation": "Later than planned describe el retraso sin culpar. Because we first needed legal approval explica la dependencia objetivamente. Later than planned because we first needed... explica dependencia sin wait, could not o señalar retraso atribuible a Legal.",
+      "translation": "La revisión del buzón comenzó más tarde de lo previsto porque primero necesitábamos la aprobación de Legal."
+    },
+    {
+      "id": "b13-v2-presenting-069",
+      "topic": "Presenting an incident · Response actions",
+      "question": "A steering committee is using containment and remediation interchangeably. Which explanation separates the two in plain language?",
+      "options": [
+        "Containment controls the current incident, whereas remediation prevents the same issue from recurring.",
+        "Containment limits the damage; remediation completes the permanent corrective work.",
+        "Containment stopped the immediate activity; remediation addresses the weakness that allowed it to happen.",
+        "Containment is the immediate response, while remediation is the longer-term recovery phase."
+      ],
+      "correct": 2,
+      "explanation": "La frase define cada fase por su función: detener la actividad y corregir la debilidad. Evita promesas absolutas. La correcta define función inmediata y debilidad subyacente; las otras prometen prevención, permanencia o equiparan remediación con recuperación.",
+      "translation": "La contención detuvo la actividad inmediata; la remediación aborda la debilidad que permitió que ocurriera."
+    },
+    {
+      "id": "b13-v2-presenting-070",
+      "topic": "Presenting an incident · Response actions",
+      "question": "Token revocation has been initiated, but the team is checking every session. Which status sentence distinguishes action from verification?",
+      "options": [
+        "We are currently validating that all active tokens have been revoked.",
+        "All active tokens are being revoked, and the team is validating the result.",
+        "Token revocation is in progress across the affected account's active sessions.",
+        "We have revoked the known tokens and are checking whether any active sessions remain."
+      ],
+      "correct": 0,
+      "explanation": "Are currently validating expresa actividad en curso. That all active tokens have been revoked define el criterio de finalización. Are currently validating that all... have been revoked centra la fase real; las otras dicen que la revocación sigue o solo cubre tokens conocidos.",
+      "translation": "Actualmente estamos validando que se hayan revocado todos los tokens activos."
+    },
+    {
+      "id": "b13-v2-presenting-071",
+      "topic": "Presenting an incident · Response actions",
+      "question": "On an action tracker, the identity team owns a policy update due today. Which spoken sentence gives owner, deliverable, and deadline?",
+      "options": [
+        "The identity team is working on the policy change and aims to finish it by 17:00 today.",
+        "The policy change is assigned to the identity team for completion later today.",
+        "The identity team will complete the policy change by 17:00 today.",
+        "By 17:00, we expect the identity team to have the updated policy in place."
+      ],
+      "correct": 2,
+      "explanation": "Will complete... by... asigna responsable, acción y plazo. By marca la fecha límite. Will complete... by... reúne los tres datos sin aims, later ni expect, que reducen precisión o compromiso.",
+      "translation": "El equipo de identidad completará el cambio de política antes de las 17:00 de hoy."
+    },
+    {
+      "id": "b13-v2-presenting-072",
+      "topic": "Presenting an incident · Response actions",
+      "question": "The review cannot classify a sign-in until the employee confirms the location. Which request is clear without dictating the answer?",
+      "options": [
+        "Please ask the user to verify that the sign-in location is unfamiliar.",
+        "To complete the review, we need you to confirm whether the user recognizes the sign-in location.",
+        "We need confirmation from the user about whether the sign-in was legitimate.",
+        "Could you confirm with the user where they were when this sign-in occurred?"
+      ],
+      "correct": 1,
+      "explanation": "We need you to confirm... es directo y natural. Whether introduce las dos posibilidades sin asumir la respuesta. Whether the user recognizes the location mantiene ambas posibilidades y pide el dato exacto; las otras presuponen unfamiliar, amplían a legitimate o piden ubicación física.",
+      "translation": "Para completar la revisión, necesitamos que confirmen si el usuario reconoce la ubicación del inicio de sesión."
+    },
+    {
+      "id": "b13-v2-presenting-073",
+      "topic": "Presenting an incident · Response actions",
+      "question": "The malicious URL sits on a shared domain used by legitimate customer portals. Which explanation justifies a selective block?",
+      "options": [
+        "We blocked only the malicious URL to avoid disrupting other services on the same domain.",
+        "A domain-wide block was considered too disruptive because legitimate customer services share the infrastructure.",
+        "We did not block the entire domain because it also hosts legitimate customer services.",
+        "We chose a targeted block because the domain itself was not exclusively malicious."
+      ],
+      "correct": 2,
+      "explanation": "Because it also hosts... explica el riesgo colateral. Entire domain contrasta con medidas más selectivas. La correcta responde directamente por qué no se bloqueó todo; las demás añaden una acción concreta, un juicio too disruptive o una caracterización del dominio.",
+      "translation": "No bloqueamos el dominio completo porque también aloja servicios legítimos del cliente."
+    },
+    {
+      "id": "b13-v2-presenting-074",
+      "topic": "Presenting an incident · Response actions",
+      "question": "After session revocation, monitoring shows no new attempts from the same infrastructure. Which sentence reports the verified result without claiming causation?",
+      "options": [
+        "Revoking the sessions stopped all further authentication attempts from the suspicious infrastructure.",
+        "Since the sessions were revoked, we have seen no further authentication attempts from the suspicious infrastructure.",
+        "No additional authentication has been detected since containment was completed.",
+        "The suspicious infrastructure has not attempted to authenticate again following session revocation."
+      ],
+      "correct": 1,
+      "explanation": "Since + past simple marca el punto de inicio y present perfect conecta con el presente. No further... describe lo observado sin afirmar causalidad absoluta. Since... we have seen describe correlación temporal; las otras afirman causalidad, amplían a toda autenticación o atribuyen intención a la infraestructura.",
+      "translation": "Desde que se revocaron las sesiones, no hemos observado más intentos de autenticación desde la infraestructura sospechosa."
+    },
+    {
+      "id": "b13-v2-presenting-075",
+      "topic": "Presenting an incident · Response actions",
+      "question": "Immediate containment is complete, but hardening and validation remain. Choose the transition that closes one workstream without closing the incident.",
+      "options": [
+        "The immediate threat is resolved; the next section covers the improvements still to be implemented.",
+        "Containment is complete, so I'll move on to the longer-term remediation plan.",
+        "With the urgent actions finished, let's review what remains before the incident can be closed.",
+        "Those actions addressed the immediate threat; I'll now cover the remaining work."
+      ],
+      "correct": 3,
+      "explanation": "Addressed the immediate threat evita afirmar que todo terminó. Remaining work es una transición clara hacia las tareas pendientes. Addressed the immediate threat evita resolved y anuncia remaining work sin limitarlo solo a remediación o cierre.",
+      "translation": "Esas medidas abordaron la amenaza inmediata; ahora trataré el trabajo que queda por hacer."
+    },
+    {
+      "id": "b13-v2-presenting-076",
+      "topic": "Presenting an incident · Signposting",
+      "question": "A chart has several peaks, but the 03:00 spike coincides with credential dumping. Which phrase directs the audience to that feature?",
+      "options": [
+        "The most important point on this chart is the unusual activity recorded at 03:00.",
+        "I'd like you to focus on the 03:00 peak, which confirms when credential dumping occurred.",
+        "The feature I'd like to draw your attention to is the spike at 03:00.",
+        "Notice that the chart rises sharply at 03:00 before returning to its normal level."
+      ],
+      "correct": 2,
+      "explanation": "Draw your attention to es una fórmula estándar de presentación. Feature encaja mejor que figure porque se señala una característica visual del gráfico: el pico de las 03:00. La correcta señala sin sobreinterpretar; las otras dicen most important, confirman causalidad o describen una vuelta a normal no incluida en el escenario.",
+      "translation": "El elemento sobre el que me gustaría llamar su atención es el pico de las 03:00."
+    },
+    {
+      "id": "b13-v2-presenting-077",
+      "topic": "Presenting an incident · Signposting",
+      "question": "A single slide combines identity, endpoint, and network evidence. What can you say before explaining it?",
+      "options": [
+        "This is a complex slide, so I'll focus only on the three details that support our conclusion.",
+        "The slide brings together several data sources; I'll explain each one separately.",
+        "Let me simplify this slide by starting with identity and then adding the other evidence.",
+        "There is a lot on this slide, so let me break it down into three parts."
+      ],
+      "correct": 3,
+      "explanation": "Break it down into three parts es natural al simplificar información compleja para la audiencia. Break it down into three parts promete una estructura completa; las otras seleccionan detalles, describen fuentes o imponen un orden distinto.",
+      "translation": "Hay mucha información en esta diapositiva, así que permítanme dividirla en tres partes."
+    },
+    {
+      "id": "b13-v2-presenting-078",
+      "topic": "Presenting an incident · Signposting",
+      "question": "The current slide adds device information that the original alert lacked. Which reference back helps the audience connect the two?",
+      "options": [
+        "The previous slide showed the alert before endpoint context was added to the investigation.",
+        "As mentioned earlier, the initial alert did not provide enough endpoint information.",
+        "As we saw on the previous slide, the first alert did not include endpoint context.",
+        "If you recall the previous slide, endpoint context was missing from the first alert."
+      ],
+      "correct": 2,
+      "explanation": "As we saw on the previous slide es la referencia natural. Include endpoint context explica la carencia sin una traducción literal. As we saw... conecta directamente con un elemento visual previo; las demás hablan del proceso, juzgan suficiencia o dependen de recordar.",
+      "translation": "Como vimos en la diapositiva anterior, la primera alerta no incluía contexto del endpoint."
+    },
+    {
+      "id": "b13-v2-presenting-079",
+      "topic": "Presenting an incident · Signposting",
+      "question": "A two-column slide pairs evidence with response actions. Which narration makes the visual logic obvious?",
+      "options": [
+        "On the left is what we observed; on the right is how we responded.",
+        "The left column summarizes our observations, and the right column lists the resulting actions.",
+        "Each observation on the left is matched with the response shown on the right.",
+        "We have separated the evidence from the response actions across the two columns."
+      ],
+      "correct": 0,
+      "explanation": "On the left... on the right... guía visualmente. What we observed / how we responded crea un contraste paralelo. What we observed / how we responded crea un contraste oral paralelo; las otras introducen resulting, correspondencia uno a uno o una descripción de maquetación.",
+      "translation": "A la izquierda está lo que observamos; a la derecha, cómo respondimos."
+    },
+    {
+      "id": "b13-v2-presenting-080",
+      "topic": "Presenting an incident · Signposting",
+      "question": "Before leaving a detection slide, you need to add one short caveat about its threshold. Which phrase keeps the digression controlled?",
+      "options": [
+        "Before we continue, I should explain how the alert threshold was originally configured.",
+        "Before I move on, one quick point about the alert threshold.",
+        "There is one additional consideration regarding the alert threshold on this detection.",
+        "I'll briefly step away from the main point to discuss the alert threshold."
+      ],
+      "correct": 1,
+      "explanation": "Before I move on anuncia una pausa breve. One quick point mantiene la digresión controlada. One quick point establece brevedad y permite volver al hilo; las otras anuncian explicación, consideración o una digresión más amplia.",
+      "translation": "Antes de continuar, un apunte rápido sobre el umbral de la alerta."
+    },
+    {
+      "id": "b13-v2-presenting-081",
+      "topic": "Presenting an incident · Signposting",
+      "question": "A customer question interrupted the chronology just before a forwarding rule appeared. How do you resume without sounding impatient?",
+      "options": [
+        "Returning to the timeline, we had reached the point where the forwarding rule was created.",
+        "To continue from where we stopped, the next event involved creation of a forwarding rule.",
+        "Coming back to the timeline, the next event was the creation of the forwarding rule.",
+        "Now that we've addressed that question, let's go back to the creation of the forwarding rule."
+      ],
+      "correct": 2,
+      "explanation": "Coming back to... recupera el hilo sin culpar a quien preguntó. The next event was... reanuda la secuencia. Coming back to... recupera el hilo de forma neutral; las otras destacan la interrupción, where we stopped o that question.",
+      "translation": "Volviendo a la cronología, el siguiente evento fue la creación de la regla de reenvío."
+    },
+    {
+      "id": "b13-v2-presenting-082",
+      "topic": "Presenting an incident · Signposting",
+      "question": "The main reassurance is that the attacker's access lasted twelve minutes. Which takeaway is memorable and unambiguous?",
+      "options": [
+        "The central point is that we removed the attacker's access within twelve minutes.",
+        "The important takeaway is the short period between compromise and account disablement.",
+        "What matters most is that the account was exposed for no more than twelve minutes.",
+        "If you remember one thing from this section, it should be that the attacker's access lasted only twelve minutes."
+      ],
+      "correct": 3,
+      "explanation": "If you remember one thing... destaca el mensaje clave. The attacker's access lasted only twelve minutes es más inequívoco que decir que la cuenta permaneció activa. La correcta define exactamente qué duró; las otras atribuyen removal, cambian a tiempo entre eventos o hablan de account exposure.",
+      "translation": "Si recuerdan una sola cosa de esta sección, debería ser que el acceso del atacante duró solo doce minutos."
+    },
+    {
+      "id": "b13-v2-presenting-083",
+      "topic": "Presenting an incident · Signposting",
+      "question": "After showing separate identity and endpoint timelines, the next slide combines them. Which preview explains its value?",
+      "options": [
+        "The next slide puts those events into a single end-to-end view.",
+        "The next slide combines the separate timelines so that we can compare the events more easily.",
+        "Next, we'll look at a consolidated timeline covering the incident from beginning to end.",
+        "The following view aligns all events from the two data sources in chronological order."
+      ],
+      "correct": 0,
+      "explanation": "Puts those events into a single... view explica qué aporta la siguiente diapositiva. End-to-end es habitual en contexto profesional. Puts those events into a single end-to-end view explica integración y alcance; las otras enfatizan comparación, beginning to end o alineación técnica.",
+      "translation": "La siguiente diapositiva reúne esos eventos en una única vista de principio a fin."
+    },
+    {
+      "id": "b13-v2-presenting-084",
+      "topic": "Presenting an incident · Signposting",
+      "question": "Analysts may want the full SIEM query, but it would distract from the customer briefing. Which sentence preserves access to the detail?",
+      "options": [
+        "The query syntax is too detailed for this meeting, so I've moved it to the appendix.",
+        "I won't go into the query syntax here, but the full search is included in the appendix.",
+        "I won't cover the search itself, but the appendix contains the technical implementation.",
+        "For anyone interested in the query, the complete syntax is available after the main presentation."
+      ],
+      "correct": 1,
+      "explanation": "Won't go into... here mantiene el foco. Included in the appendix indica dónde encontrar el detalle. La correcta mantiene el foco y da una ubicación concreta; las demás califican too detailed, cambian search por implementación o no nombran el apéndice.",
+      "translation": "No entraré aquí en la sintaxis de la consulta, pero la búsqueda completa está incluida en el apéndice."
+    },
+    {
+      "id": "b13-v2-presenting-085",
+      "topic": "Presenting an incident · Signposting",
+      "question": "You have presented the incident and the response. Which transition tells the audience that recommendations are the final section?",
+      "options": [
+        "The last part of the presentation covers the recommendations arising from the investigation.",
+        "Now that the incident and response are clear, we can consider what should happen next.",
+        "I'll close by presenting the actions we believe the organization should prioritize.",
+        "We've covered what happened and how we responded. Let me finish with the recommended next steps."
+      ],
+      "correct": 3,
+      "explanation": "We've covered... Let me finish with... resume lo anterior y señala claramente la sección final. We've covered... Let me finish... resume y orienta; las otras son más formales, condicionales o introducen priorización no mencionada.",
+      "translation": "Hemos cubierto qué ocurrió y cómo respondimos. Permítanme terminar con los próximos pasos recomendados."
+    },
+    {
+      "id": "b13-v2-presenting-086",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "Leadership gives you one sentence to summarize a token-theft incident. Which version includes vector, impact boundary, and containment outcome?",
+      "options": [
+        "A stolen token enabled unauthorized email access, although no privileged systems were affected.",
+        "The attacker used a user token to access email until containment prevented further movement.",
+        "A stolen user token was used to access email, but we contained the activity before the attacker reached any privileged systems.",
+        "Email was accessed with a stolen token, but the incident remained limited to the affected account."
+      ],
+      "correct": 2,
+      "explanation": "La frase reúne el vector, la acción observada y el límite de impacto. La voz activa we contained... before the attacker reached suena más natural al hablar. La correcta conserva vector, acceso, actor y punto de contención; las otras amplían a no affected, omiten el límite concreto o dicen que quedó en una cuenta.",
+      "translation": "Se utilizó un token de usuario robado para acceder al correo, pero contuvimos la actividad antes de que el atacante alcanzara ningún sistema privilegiado."
+    },
+    {
+      "id": "b13-v2-presenting-087",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "A senior audience wants the result first. Which opening gives status, critical-service impact, and remaining work in that order?",
+      "options": [
+        "We contained the incident without critical service disruption, and two follow-up items are being tracked.",
+        "The response was successful: no critical services were affected, although two actions remain.",
+        "The incident is now under control, with services operating normally and two actions still open.",
+        "The incident is contained, no critical service was disrupted, and two follow-up actions remain open."
+      ],
+      "correct": 3,
+      "explanation": "La frase abre con estado, impacto y pendientes: los tres datos que una audiencia ejecutiva necesita primero. La correcta usa tres hechos paralelos; las demás juzgan success, amplían disrupted a affected/normal o usan under control menos preciso.",
+      "translation": "El incidente está contenido, no se interrumpió ningún servicio crítico y quedan abiertas dos acciones de seguimiento."
+    },
+    {
+      "id": "b13-v2-presenting-088",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "The root cause is a token-lifetime policy, not an individual error. Which executive explanation stays understandable and non-blaming?",
+      "options": [
+        "The incident was caused by an identity setting that kept the stolen token active for too long.",
+        "The main control weakness was excessive token validity under the existing identity policy.",
+        "The underlying issue was an identity policy that allowed the stolen token to remain valid longer than intended.",
+        "The root cause was a policy gap that delayed invalidation of the compromised token."
+      ],
+      "correct": 2,
+      "explanation": "Underlying issue evita un juicio impreciso como bad. La consecuencia de la política se explica en lenguaje comprensible. Underlying issue y longer than intended describen el mecanismo sin too long, excessive o gap como juicio más duro.",
+      "translation": "El problema subyacente fue una política de identidad que permitió que el token robado siguiera siendo válido más tiempo del previsto."
+    },
+    {
+      "id": "b13-v2-presenting-089",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "A director asks, “Are we safe now?” Two validation checks remain. Which answer is direct without offering a guarantee?",
+      "options": [
+        "Yes. The incident is contained, although we still need to complete two routine checks.",
+        "The current evidence indicates that the immediate risk has been addressed, but validation is continuing.",
+        "The immediate activity has been contained. We are completing two checks before we close the incident.",
+        "We believe the environment is safe; two final checks remain before formal closure."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta contesta primero y añade la condición pendiente. Evita tanto una garantía absoluta como una evasiva. La correcta responde con estado y condición concreta; las otras empiezan con yes, hablan de evidence/risk o usan safe como evaluación.",
+      "translation": "La actividad inmediata se ha contenido. Estamos completando dos comprobaciones antes de cerrar el incidente."
+    },
+    {
+      "id": "b13-v2-presenting-090",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "A lessons-learned slide must address slow token revocation without assigning fault to the identity team. Select the best phrasing.",
+      "options": [
+        "The incident showed that our token-revocation process needs to be faster and more consistent.",
+        "We learned that token revocation was not fast or consistent enough during the incident.",
+        "The response exposed delays and inconsistency in the way the identity team revokes tokens.",
+        "One improvement is to make token revocation faster and apply the process consistently across teams."
+      ],
+      "correct": 0,
+      "explanation": "The incident showed that... centra la mejora en el proceso. Needs to be faster and more consistent concreta el aprendizaje. The incident showed that our process... centra la mejora sistémica; las otras evalúan el desempeño, nombran al equipo o formulan una acción distinta.",
+      "translation": "El incidente mostró que nuestro proceso de revocación de tokens debe ser más rápido y coherente."
+    },
+    {
+      "id": "b13-v2-presenting-091",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "You are recommending phishing-resistant authentication after a token-theft case. Which sentence links the control to the observed risk?",
+      "options": [
+        "We recommend enforcing phishing-resistant authentication because it directly reduces the risk of this type of account compromise.",
+        "We recommend phishing-resistant authentication because it is the strongest available identity control.",
+        "Phishing-resistant authentication should be prioritized to improve the organization's overall security posture.",
+        "We recommend implementing stronger authentication to prevent a similar incident from happening again."
+      ],
+      "correct": 0,
+      "explanation": "La recomendación nombra la medida y la conecta con el riesgo observado. This type of account compromise es una combinación más natural y precisa. La correcta vincula control y riesgo concreto; las otras hacen afirmaciones generales, usan security posture o prometen prevent.",
+      "translation": "Recomendamos aplicar autenticación resistente al phishing porque reduce directamente el riesgo de este tipo de compromiso de cuenta."
+    },
+    {
+      "id": "b13-v2-presenting-092",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "The proposed policy change is small but materially shortens token exposure. Which sentence gives leadership a proportional cost-benefit message?",
+      "options": [
+        "The change is relatively easy to implement and would remove most of the current exposure.",
+        "A small implementation effort would produce a substantial improvement in token security.",
+        "The change requires limited effort and would significantly reduce the window of exposure.",
+        "The expected security benefit is high compared with the limited cost of the change."
+      ],
+      "correct": 2,
+      "explanation": "Limited effort y significantly reduce describen la relación sin prometer coste cero ni eliminación total del riesgo. Limited effort y significantly reduce son prudentes y concretos; las otras prometen easy/remove most o introducen cost y high benefit no cuantificados.",
+      "translation": "El cambio requiere un esfuerzo limitado y reduciría significativamente la ventana de exposición."
+    },
+    {
+      "id": "b13-v2-presenting-093",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "Which closing takeaway acknowledges that detection succeeded while keeping prevention and revocation on the improvement agenda?",
+      "options": [
+        "The key lesson is that detection was effective, although prevention and revocation did not perform as expected.",
+        "Detection worked in this case, but stronger preventive controls would have avoided the incident.",
+        "The key takeaway is that detection worked, but prevention and token revocation need to be strengthened further.",
+        "Our response detected the activity, while prevention and token revocation remain the main weaknesses."
+      ],
+      "correct": 2,
+      "explanation": "La frase reconoce un control eficaz y señala dos áreas de mejora. Need to be strengthened further suena más natural al hablar que el sustantivo further strengthening. La correcta es constructiva; las otras valoran performance, afirman que se habría evitado o etiquetan weaknesses.",
+      "translation": "La conclusión clave es que la detección funcionó, pero la prevención y la revocación de tokens deben reforzarse aún más."
+    },
+    {
+      "id": "b13-v2-presenting-094",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "A senior stakeholder asks why low-volume events were not detected before the sign-in pattern changed. Which answer explains the mechanism rather than blaming the SOC?",
+      "options": [
+        "The earlier events did not cross the alert threshold; detection occurred when the sign-in pattern changed.",
+        "The SOC did not receive an alert until the activity became sufficiently unusual to trigger the detection.",
+        "Earlier activity remained below the configured threshold, so the monitoring platform did not classify it as suspicious.",
+        "Detection was delayed because the first events looked similar to normal user behavior."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta explica el mecanismo exacto sin culpar ni especular. Did not cross the threshold y when the pattern changed son datos comprensibles. La correcta describe umbral y cambio de patrón de manera neutral; las otras centran SOC/plataforma o hablan de delay y normalidad.",
+      "translation": "Los eventos anteriores no superaron el umbral de alerta; la detección se produjo cuando cambió el patrón de inicio de sesión."
+    },
+    {
+      "id": "b13-v2-presenting-095",
+      "topic": "Presenting an incident · Executive summary",
+      "question": "Your final status sentence must include completion, ownership, and expected closure. Which version gives all three cleanly?",
+      "options": [
+        "Containment is complete, and the identity team expects to finish the remaining actions by Friday.",
+        "Containment is complete, the identity team owns the remaining actions, and we expect closure by Friday.",
+        "The identity team now owns the final actions, with incident closure planned for Friday.",
+        "We have completed containment and assigned the remaining actions to Identity before Friday's closure."
+      ],
+      "correct": 1,
+      "explanation": "La estructura paralela reúne tres mensajes ejecutivos: estado, responsable y previsión temporal. La correcta conserva tres elementos independientes; las otras mezclan responsable con previsión o convierten Friday en fecha comprometida.",
+      "translation": "La contención ha finalizado, el equipo de identidad es responsable de las acciones restantes y esperamos cerrar el incidente el viernes."
+    },
+    {
+      "id": "b13-v2-presenting-096",
+      "topic": "Presenting an incident · Closing and Q&A",
+      "question": "The formal briefing is finished and you are opening the Q&A. Which close sounds most natural aloud?",
+      "options": [
+        "That covers the main findings and the actions taken. I'm happy to take your questions.",
+        "That concludes the findings and response section. I can now address any questions you may have.",
+        "We've reached the end of the presentation, so please raise any questions or concerns.",
+        "Those were the main findings and actions. Let me know what you would like me to clarify."
+      ],
+      "correct": 0,
+      "explanation": "That covers... es un cierre oral natural. The actions taken concreta que se resumen medidas ya realizadas, y take your questions es la expresión habitual. La correcta es cálida y directa; las otras suenan más formales, enfatizan el final o limitan las preguntas a aclaraciones.",
+      "translation": "Con esto hemos cubierto los principales hallazgos y las medidas adoptadas. Estaré encantada de responder a sus preguntas."
+    },
+    {
+      "id": "b13-v2-presenting-097",
+      "topic": "Presenting an incident · Closing and Q&A",
+      "question": "A customer asks a complex question about whether containment changed the evidence. You need a few seconds to structure the answer. What do you say?",
+      "options": [
+        "That's a complex question, so I'll need a moment to consider the technical implications.",
+        "That's an important question. Let me take a moment to answer it clearly.",
+        "Let me make sure I understand the question before I give you a complete answer.",
+        "I want to be precise here; give me a moment to organize the evidence."
+      ],
+      "correct": 1,
+      "explanation": "Reconocer que la pregunta es important suena natural en una conversación profesional. Let me take a moment gana tiempo sin parecer evasivo. La correcta reconoce y gana tiempo sin calificar complejidad, fingir falta de comprensión ni pedir una pausa de forma brusca.",
+      "translation": "Es una pregunta importante. Déjenme un momento para responderla con claridad."
+    },
+    {
+      "id": "b13-v2-presenting-098",
+      "topic": "Presenting an incident · Closing and Q&A",
+      "question": "During Q&A, a director asks for a metric that is not in your notes. Which response protects accuracy and commits to a follow-up?",
+      "options": [
+        "I don't have the exact figure in front of me, but I believe it is included in the written report.",
+        "I don't have that figure to hand, but I'll confirm it after the call.",
+        "I'll need to verify that number and send it to you with the meeting notes.",
+        "That figure is not on this slide; I can ask the reporting team to confirm it later."
+      ],
+      "correct": 1,
+      "explanation": "Don't have that figure to hand es natural. Confirm it after the call evita inventar una cifra y ofrece un siguiente paso. Don't have that figure to hand y I'll confirm it combinan honestidad y responsabilidad; las otras especulan sobre el informe, cambian el canal o delegan.",
+      "translation": "No tengo esa cifra a mano, pero la confirmaré después de la llamada."
+    },
+    {
+      "id": "b13-v2-presenting-099",
+      "topic": "Presenting an incident · Closing and Q&A",
+      "question": "A question about long-term architecture is relevant but outside the incident update. Which answer acknowledges it and protects the agenda?",
+      "options": [
+        "That is related, but it sits outside today's scope. I'll capture it as a follow-up.",
+        "That is an important topic, but it would be better addressed in a separate architecture discussion.",
+        "The question is outside the scope of this incident, so I'll ask the architecture team to follow up.",
+        "We can return to that topic after the incident questions if there is enough time."
+      ],
+      "correct": 0,
+      "explanation": "That is related reconoce la relevancia. Sits outside today's scope y capture it as a follow-up mantienen el foco y garantizan seguimiento. La correcta reconoce relación, fija límite y captura seguimiento; las otras aplazan a otra reunión/equipo o dejan el seguimiento condicionado al tiempo.",
+      "translation": "Está relacionado, pero queda fuera del alcance de hoy. Lo recogeré como punto de seguimiento."
+    },
+    {
+      "id": "b13-v2-presenting-100",
+      "topic": "Presenting an incident · Closing and Q&A",
+      "question": "Before ending the call, you need to restate incident status, ongoing work, and the next communication. Which recap is complete but concise?",
+      "options": [
+        "To summarize, containment is complete, validation continues, and we will provide another update tomorrow.",
+        "The incident is contained and remains under validation; the written report will follow tomorrow morning.",
+        "To recap: the incident is contained, validation is ongoing, and the next written update will be sent tomorrow morning.",
+        "In closing, the immediate risk is addressed, the checks are ongoing, and the next communication is scheduled for tomorrow."
+      ],
+      "correct": 2,
+      "explanation": "To recap introduce un resumen final. La frase confirma estado, actividad en curso y próximo hito con una estructura paralela. La correcta nombra los tres elementos y el momento exacto; las otras omiten written, cambian update por report o sustituyen estado por una evaluación de riesgo.",
+      "translation": "En resumen: el incidente está contenido, la validación sigue en curso y la próxima actualización escrita se enviará mañana por la mañana."
+    }
+  ],
+  "category": "natural"
+}

@@ -1,0 +1,428 @@
+{
+  "name": "03 · Past simple · Normal",
+  "description": "30 preguntas para describir incidentes terminados, construir cronologías y explicar a clientes qué ocurrió y qué hizo el SOC.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b03-ps-001",
+      "topic": "Past simple · Completed investigation",
+      "question": "Yesterday, we ___ malicious activity on two endpoints.",
+      "options": [
+        "detected",
+        "detect",
+        "have detected",
+        "are detecting"
+      ],
+      "correct": 0,
+      "explanation": "“Yesterday” es un momento pasado y terminado; usamos past simple: detected.",
+      "translation": "Ayer detectamos actividad maliciosa en dos endpoints."
+    },
+    {
+      "id": "b03-ps-002",
+      "topic": "Past simple · Incident timeline",
+      "question": "At 09:20, the customer ___ the suspicious email to the SOC.",
+      "options": [
+        "forwards",
+        "forwarded",
+        "has forwarded",
+        "was forwarding"
+      ],
+      "correct": 1,
+      "explanation": "La hora exacta sitúa la acción en un punto terminado del pasado; usamos forwarded.",
+      "translation": "A las 09:20, el cliente reenvió el correo sospechoso al SOC."
+    },
+    {
+      "id": "b03-ps-003",
+      "topic": "Past simple · Client update",
+      "question": "The analyst ___ the first incident update before the bridge call.",
+      "options": [
+        "send",
+        "has sent",
+        "sent",
+        "sending"
+      ],
+      "correct": 2,
+      "explanation": "Narramos una acción terminada en el pasado. El pasado de send es sent.",
+      "translation": "El analista envió la primera actualización del incidente antes de la llamada de coordinación."
+    },
+    {
+      "id": "b03-ps-004",
+      "topic": "Past simple · Completed action",
+      "question": "The attacker ___ access through a compromised VPN account.",
+      "options": [
+        "has gained",
+        "gain",
+        "gains",
+        "gained"
+      ],
+      "correct": 3,
+      "explanation": "La frase cuenta cómo ocurrió un incidente pasado; usamos gained, el pasado regular de gain.",
+      "translation": "El atacante obtuvo acceso mediante una cuenta de VPN comprometida."
+    },
+    {
+      "id": "b03-ps-005",
+      "topic": "Past simple · Incident timeline",
+      "question": "The logging service ___ unexpectedly at 02:15.",
+      "options": [
+        "stopped",
+        "stop",
+        "has stopped",
+        "is stopping"
+      ],
+      "correct": 0,
+      "explanation": "“At 02:15” indica un momento pasado concreto; usamos stopped. Al acabar en consonante-vocal-consonante, duplicamos la p.",
+      "translation": "El servicio de registros se detuvo inesperadamente a las 02:15."
+    },
+    {
+      "id": "b03-ps-006",
+      "topic": "Past simple · Irregular verbs",
+      "question": "During the review, we ___ a suspicious scheduled task.",
+      "options": [
+        "find",
+        "found",
+        "have found",
+        "finding"
+      ],
+      "correct": 1,
+      "explanation": "La revisión se presenta como terminada. El pasado de find es found.",
+      "translation": "Durante la revisión, encontramos una tarea programada sospechosa."
+    },
+    {
+      "id": "b03-ps-007",
+      "topic": "Past simple · User activity",
+      "question": "The user ___ the link shortly before the alert appeared.",
+      "options": [
+        "clicks",
+        "has clicked",
+        "clicked",
+        "click"
+      ],
+      "correct": 2,
+      "explanation": "Ambas acciones forman parte de una secuencia pasada y terminada; usamos clicked.",
+      "translation": "El usuario hizo clic en el enlace poco antes de que apareciera la alerta."
+    },
+    {
+      "id": "b03-ps-008",
+      "topic": "Past simple · Customer decision",
+      "question": "After we explained the risk, the customer ___ the containment plan.",
+      "options": [
+        "approves",
+        "has approved",
+        "approve",
+        "approved"
+      ],
+      "correct": 3,
+      "explanation": "Contamos una decisión que se tomó en una secuencia pasada; usamos approved.",
+      "translation": "Después de que explicáramos el riesgo, el cliente aprobó el plan de contención."
+    },
+    {
+      "id": "b03-ps-009",
+      "topic": "Past simple · Irregular verbs",
+      "question": "The infrastructure team ___ the affected server offline.",
+      "options": [
+        "took",
+        "taken",
+        "take",
+        "has taken"
+      ],
+      "correct": 0,
+      "explanation": "Necesitamos V2 sin auxiliar. El pasado de take es took; taken es el participio.",
+      "translation": "El equipo de infraestructura desconectó el servidor afectado."
+    },
+    {
+      "id": "b03-ps-010",
+      "topic": "Past simple · Detection",
+      "question": "The new rule ___ the lateral movement attempt last night.",
+      "options": [
+        "catches",
+        "caught",
+        "has caught",
+        "catch"
+      ],
+      "correct": 1,
+      "explanation": "“Last night” exige past simple. El pasado de catch es caught.",
+      "translation": "La nueva regla detectó el intento de movimiento lateral anoche."
+    },
+    {
+      "id": "b03-ps-011",
+      "topic": "Past simple · Explaining to clients",
+      "question": "During the call, we ___ why isolation was necessary.",
+      "options": [
+        "explain",
+        "have explained",
+        "explained",
+        "explaining"
+      ],
+      "correct": 2,
+      "explanation": "La llamada se trata como un evento ya terminado; usamos explained.",
+      "translation": "Durante la llamada, explicamos por qué era necesario el aislamiento."
+    },
+    {
+      "id": "b03-ps-012",
+      "topic": "Past simple · Explaining to clients",
+      "question": "I ___ the investigation timeline on my screen during the meeting.",
+      "options": [
+        "show",
+        "shown",
+        "have shown",
+        "showed"
+      ],
+      "correct": 3,
+      "explanation": "Necesitamos el pasado simple de show: showed. Shown es V3 y requiere un auxiliar.",
+      "translation": "Mostré la cronología de la investigación en mi pantalla durante la reunión."
+    },
+    {
+      "id": "b03-ps-013",
+      "topic": "Past simple · Recommendation",
+      "question": "Based on the evidence, we ___ a password reset for the affected users.",
+      "options": [
+        "recommended",
+        "recommend",
+        "have recommended",
+        "are recommending"
+      ],
+      "correct": 0,
+      "explanation": "La recomendación pertenece a una revisión pasada y terminada; usamos recommended.",
+      "translation": "Basándonos en las evidencias, recomendamos restablecer las contraseñas de los usuarios afectados."
+    },
+    {
+      "id": "b03-ps-014",
+      "topic": "Past simple · Customer decision",
+      "question": "The customer ___ to keep the server isolated overnight.",
+      "options": [
+        "chosen",
+        "chose",
+        "choose",
+        "has chosen"
+      ],
+      "correct": 1,
+      "explanation": "El pasado simple de choose es chose. Chosen es el participio y necesita have/has/had.",
+      "translation": "El cliente decidió mantener el servidor aislado durante la noche."
+    },
+    {
+      "id": "b03-ps-015",
+      "topic": "Past simple · Incident reporting",
+      "question": "The lead analyst ___ the executive summary after the incident closed.",
+      "options": [
+        "written",
+        "writes",
+        "wrote",
+        "has written"
+      ],
+      "correct": 2,
+      "explanation": "El pasado simple de write es wrote. Written es V3.",
+      "translation": "El analista principal redactó el resumen ejecutivo después de que se cerrara el incidente."
+    },
+    {
+      "id": "b03-ps-016",
+      "topic": "Past simple · Negative",
+      "question": "We ___ any evidence of data exfiltration during the review.",
+      "options": [
+        "didn't found",
+        "haven't found",
+        "not found",
+        "didn't find"
+      ],
+      "correct": 3,
+      "explanation": "La negativa del past simple se forma con did not + V1: didn’t find, nunca “didn’t found”.",
+      "translation": "No encontramos evidencias de exfiltración de datos durante la revisión."
+    },
+    {
+      "id": "b03-ps-017",
+      "topic": "Past simple · Negative",
+      "question": "The endpoint sensor ___ telemetry between 03:00 and 03:20.",
+      "options": [
+        "didn't send",
+        "didn't sent",
+        "doesn't send",
+        "hasn't sent"
+      ],
+      "correct": 0,
+      "explanation": "Con did not usamos la forma base: didn’t send. El intervalo se presenta como terminado.",
+      "translation": "El sensor del endpoint no envió telemetría entre las 03:00 y las 03:20."
+    },
+    {
+      "id": "b03-ps-018",
+      "topic": "Past simple · Negative",
+      "question": "The customer ___ the firewall change during the incident.",
+      "options": [
+        "didn't authorized",
+        "didn't authorize",
+        "hasn't authorized",
+        "doesn't authorized"
+      ],
+      "correct": 1,
+      "explanation": "La estructura correcta es did not + V1: didn’t authorize.",
+      "translation": "El cliente no autorizó el cambio en el firewall durante el incidente."
+    },
+    {
+      "id": "b03-ps-019",
+      "topic": "Past simple · Negative",
+      "question": "The available logs ___ any successful administrator sign-ins.",
+      "options": [
+        "didn't showed",
+        "haven't shown",
+        "didn't show",
+        "don't showed"
+      ],
+      "correct": 2,
+      "explanation": "Usamos didn’t + show porque hablamos de una revisión pasada y terminada.",
+      "translation": "Los registros disponibles no mostraron ningún inicio de sesión correcto de administrador."
+    },
+    {
+      "id": "b03-ps-020",
+      "topic": "Past simple · Negative",
+      "question": "We ___ the suspicious behavior in the test environment yesterday.",
+      "options": [
+        "didn't reproduced",
+        "haven't reproduce",
+        "not reproduced",
+        "didn't reproduce"
+      ],
+      "correct": 3,
+      "explanation": "“Yesterday” marca pasado terminado. Tras didn’t usamos V1: reproduce.",
+      "translation": "Ayer no pudimos reproducir el comportamiento sospechoso en el entorno de pruebas."
+    },
+    {
+      "id": "b03-ps-021",
+      "topic": "Past simple · Question",
+      "question": "When ___ the first alert ___?",
+      "options": [
+        "did / trigger",
+        "did / triggered",
+        "has / triggered",
+        "does / trigger"
+      ],
+      "correct": 0,
+      "explanation": "Las preguntas en past simple usan did + sujeto + V1: did the alert trigger.",
+      "translation": "¿Cuándo se activó la primera alerta?"
+    },
+    {
+      "id": "b03-ps-022",
+      "topic": "Past simple · Question",
+      "question": "___ the user ___ the attachment?",
+      "options": [
+        "Has / opened",
+        "Did / open",
+        "Did / opened",
+        "Does / opened"
+      ],
+      "correct": 1,
+      "explanation": "Para preguntar por una acción pasada usamos Did + sujeto + V1: Did the user open... ?",
+      "translation": "¿Abrió el usuario el archivo adjunto?"
+    },
+    {
+      "id": "b03-ps-023",
+      "topic": "Past simple · Question",
+      "question": "Why ___ the team ___ the account?",
+      "options": [
+        "did / disabled",
+        "has / disable",
+        "did / disable",
+        "does / disabled"
+      ],
+      "correct": 2,
+      "explanation": "Después de did, el verbo vuelve a V1: disable.",
+      "translation": "¿Por qué deshabilitó el equipo la cuenta?"
+    },
+    {
+      "id": "b03-ps-024",
+      "topic": "Past simple · Passive question",
+      "question": "Which systems ___ affected by the outage?",
+      "options": [
+        "was",
+        "have",
+        "did",
+        "were"
+      ],
+      "correct": 3,
+      "explanation": "Es una pasiva en pasado: were affected. Usamos were porque “systems” es plural.",
+      "translation": "¿Qué sistemas se vieron afectados por la interrupción?"
+    },
+    {
+      "id": "b03-ps-025",
+      "topic": "Past simple · Irregular verbs",
+      "question": "We ___ repeated login attempts from the same IP address.",
+      "options": [
+        "saw",
+        "seen",
+        "see",
+        "have seen"
+      ],
+      "correct": 0,
+      "explanation": "El pasado simple de see es saw; seen es el participio.",
+      "translation": "Vimos intentos repetidos de inicio de sesión desde la misma dirección IP."
+    },
+    {
+      "id": "b03-ps-026",
+      "topic": "Past simple · Irregular verbs",
+      "question": "The primary server ___ offline after the configuration change.",
+      "options": [
+        "go",
+        "went",
+        "gone",
+        "has gone"
+      ],
+      "correct": 1,
+      "explanation": "El pasado simple de go es went. Gone necesita un auxiliar perfecto.",
+      "translation": "El servidor principal quedó fuera de servicio después del cambio de configuración."
+    },
+    {
+      "id": "b03-ps-027",
+      "topic": "Past simple · Irregular verbs",
+      "question": "The response script ___ successfully on all affected endpoints.",
+      "options": [
+        "run",
+        "has run",
+        "ran",
+        "running"
+      ],
+      "correct": 2,
+      "explanation": "El pasado simple de run es ran.",
+      "translation": "El script de respuesta se ejecutó correctamente en todos los endpoints afectados."
+    },
+    {
+      "id": "b03-ps-028",
+      "topic": "Past simple · Client communication",
+      "question": "After the explanation, the customer ___ the remaining risk.",
+      "options": [
+        "understands",
+        "has understood",
+        "understand",
+        "understood"
+      ],
+      "correct": 3,
+      "explanation": "La comprensión ocurrió tras una explicación pasada; usamos understood, pasado de understand.",
+      "translation": "Después de la explicación, el cliente comprendió el riesgo restante."
+    },
+    {
+      "id": "b03-ps-029",
+      "topic": "Past simple · Error recognition",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "We contained the threat within twenty minutes.",
+        "We did contained the threat within twenty minutes.",
+        "We have contain the threat yesterday.",
+        "We were contain the threat within twenty minutes."
+      ],
+      "correct": 0,
+      "explanation": "En una afirmativa de past simple usamos directamente V2: contained. No añadimos did.",
+      "translation": "Contuvimos la amenaza en veinte minutos."
+    },
+    {
+      "id": "b03-ps-030",
+      "topic": "Past simple · Incident timeline",
+      "question": "Choose the best completed incident timeline.",
+      "options": [
+        "The user reports the email, the SOC began the review, and the team isolates the host.",
+        "The user reported the email, the SOC began the review, and the team isolated the host.",
+        "The user has reported the email, the SOC begins the review, and the team has isolated the host yesterday.",
+        "The user did reported the email, the SOC begun the review, and the team did isolated the host."
+      ],
+      "correct": 1,
+      "explanation": "Una cronología terminada usa V2 de forma coherente: reported, began e isolated.",
+      "translation": "El usuario informó del correo, el SOC inició la revisión y el equipo aisló el host."
+    }
+  ],
+  "category": "normal"
+}

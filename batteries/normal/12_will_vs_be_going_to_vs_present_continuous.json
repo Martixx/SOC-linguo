@@ -1,0 +1,428 @@
+{
+  "name": "12 · Will vs be going to vs present continuous · Normal",
+  "description": "30 preguntas para elegir entre decisiones espontáneas y promesas con will, planes e indicios con be going to y acuerdos confirmados con present continuous.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b12-future-001",
+      "topic": "Future forms · Spontaneous decision",
+      "question": "The client is calling now. I ___ the incident manager.",
+      "options": [
+        "will inform",
+        "am going to informed",
+        "am informing last week",
+        "will informing"
+      ],
+      "correct": 0,
+      "explanation": "La decisión se toma en el momento al recibir la llamada. Para una decisión espontánea usamos will: I will inform.",
+      "translation": "El cliente está llamando ahora. Informaré al responsable del incidente."
+    },
+    {
+      "id": "b12-future-002",
+      "topic": "Future forms · Prior intention",
+      "question": "We have already decided on the next step. We ___ a threat-hunting exercise next week.",
+      "options": [
+        "will running",
+        "are going to run",
+        "ran next week",
+        "are run"
+      ],
+      "correct": 1,
+      "explanation": "La decisión ya estaba tomada antes de hablar. Para una intención o plan previo usamos be going to: are going to run.",
+      "translation": "Ya hemos decidido el siguiente paso. Vamos a realizar un ejercicio de threat hunting la próxima semana."
+    },
+    {
+      "id": "b12-future-003",
+      "topic": "Future forms · Fixed arrangement",
+      "question": "We ___ the client's CISO at 10:00 tomorrow; the invitation is already accepted.",
+      "options": [
+        "will met",
+        "meet yesterday",
+        "are meeting",
+        "are going meeting"
+      ],
+      "correct": 2,
+      "explanation": "Hay una cita concreta ya organizada, con hora e invitación aceptada. Para un acuerdo futuro usamos presente continuo: are meeting.",
+      "translation": "Nos reunimos con el CISO del cliente mañana a las 10:00; la invitación ya está aceptada."
+    },
+    {
+      "id": "b12-future-004",
+      "topic": "Future forms · Evidence-based prediction",
+      "question": "Look at the disk usage: it is at 99%. The server ___.",
+      "options": [
+        "will running out of space",
+        "runs out yesterday",
+        "is run out of space",
+        "is going to run out of space"
+      ],
+      "correct": 3,
+      "explanation": "Hay evidencia visible en el presente (99% de uso). Para una predicción basada en evidencia usamos be going to.",
+      "translation": "Mire el uso del disco: está al 99 %. El servidor se va a quedar sin espacio."
+    },
+    {
+      "id": "b12-future-005",
+      "topic": "Future forms · Promise",
+      "question": "We ___ you informed throughout the investigation.",
+      "options": [
+        "will keep",
+        "are keeping yesterday",
+        "are going keep",
+        "will kept"
+      ],
+      "correct": 0,
+      "explanation": "Un compromiso o promesa al cliente se expresa de forma natural con will: will keep you informed.",
+      "translation": "Le mantendremos informado durante toda la investigación."
+    },
+    {
+      "id": "b12-future-006",
+      "topic": "Future forms · Scheduled arrangement",
+      "question": "The forensic team ___ the data-center staff this afternoon; both teams confirmed the slot.",
+      "options": [
+        "will visited",
+        "is visiting",
+        "is going visit",
+        "visits yesterday"
+      ],
+      "correct": 1,
+      "explanation": "Es un acuerdo futuro confirmado por ambas partes. Usamos presente continuo: is visiting.",
+      "translation": "El equipo forense visita al personal del centro de datos esta tarde; ambos equipos confirmaron la franja."
+    },
+    {
+      "id": "b12-future-007",
+      "topic": "Future forms · Planned action",
+      "question": "We bought the required licenses yesterday. We ___ the new EDR agents this weekend.",
+      "options": [
+        "will deploying",
+        "are deploy",
+        "are going to deploy",
+        "deployed this weekend"
+      ],
+      "correct": 2,
+      "explanation": "La compra de licencias muestra que existe un plan previo. Usamos are going to deploy.",
+      "translation": "Compramos ayer las licencias necesarias. Vamos a desplegar los nuevos agentes EDR este fin de semana."
+    },
+    {
+      "id": "b12-future-008",
+      "topic": "Future forms · Offer",
+      "question": "That dashboard is difficult to read. I ___ the key metrics for you.",
+      "options": [
+        "am explaining yesterday",
+        "am going explain",
+        "will explained",
+        "will explain"
+      ],
+      "correct": 3,
+      "explanation": "La oferta surge en el momento a partir de la situación. Usamos will + verbo base: will explain.",
+      "translation": "Ese panel es difícil de interpretar. Le explicaré las métricas clave."
+    },
+    {
+      "id": "b12-future-009",
+      "topic": "Future forms · Prediction based on analysis",
+      "question": "In my opinion, this campaign ___ more organizations in the sector.",
+      "options": [
+        "will target",
+        "is target",
+        "will targeted",
+        "targeted tomorrow"
+      ],
+      "correct": 0,
+      "explanation": "In my opinion introduce una predicción u opinión, no evidencia inmediata. Es natural usar will: will target.",
+      "translation": "En mi opinión, esta campaña atacará a más organizaciones del sector."
+    },
+    {
+      "id": "b12-future-010",
+      "topic": "Future forms · Immediate evidence",
+      "question": "The queue is growing very quickly. The SLA ___.",
+      "options": [
+        "will being breached",
+        "is going to be breached",
+        "is breach",
+        "breached tomorrow"
+      ],
+      "correct": 1,
+      "explanation": "La cola creciente es evidencia presente de un resultado próximo. Usamos is going to be breached.",
+      "translation": "La cola está creciendo muy deprisa. Se va a incumplir el SLA."
+    },
+    {
+      "id": "b12-future-011",
+      "topic": "Future forms · Calendar arrangement",
+      "question": "I ___ the client at 16:30 to review the containment plan.",
+      "options": [
+        "will called",
+        "am going call",
+        "am calling",
+        "call yesterday"
+      ],
+      "correct": 2,
+      "explanation": "La hora concreta indica un acuerdo programado. Usamos presente continuo con sentido futuro: am calling.",
+      "translation": "Voy a llamar al cliente a las 16:30 para revisar el plan de contención."
+    },
+    {
+      "id": "b12-future-012",
+      "topic": "Future forms · Negative intention",
+      "question": "We have agreed that we ___ the production server before the backup is complete.",
+      "options": [
+        "will not restarting",
+        "are not restart",
+        "did not restart tomorrow",
+        "are not going to restart"
+      ],
+      "correct": 3,
+      "explanation": "La decisión ya está tomada. La negativa de be going to es are not going to + verbo base.",
+      "translation": "Hemos acordado que no vamos a reiniciar el servidor de producción antes de que finalice la copia de seguridad."
+    },
+    {
+      "id": "b12-future-013",
+      "topic": "Future forms · Negative arrangement",
+      "question": "The vendor ___ the meeting tomorrow; they cancelled their attendance this morning.",
+      "options": [
+        "is not attending",
+        "will not attended",
+        "does not attending",
+        "is not going attend"
+      ],
+      "correct": 0,
+      "explanation": "Se habla de una cita concreta cuya asistencia se ha cancelado. Usamos presente continuo negativo: is not attending.",
+      "translation": "El proveedor no asistirá a la reunión de mañana; canceló su asistencia esta mañana."
+    },
+    {
+      "id": "b12-future-014",
+      "topic": "Future forms · Instant response",
+      "question": "We've just received the memory dump. We ___ it right away.",
+      "options": [
+        "are examining last month",
+        "will examine",
+        "will examined",
+        "are going examine"
+      ],
+      "correct": 1,
+      "explanation": "La respuesta se decide al recibir el archivo. Will es la opción natural para una decisión inmediata.",
+      "translation": "Acabamos de recibir el volcado de memoria. Lo examinaremos de inmediato."
+    },
+    {
+      "id": "b12-future-015",
+      "topic": "Future forms · Going to question",
+      "question": "___ the client ___ multi-factor authentication this quarter?",
+      "options": [
+        "Will / going to enable",
+        "Is / enable",
+        "Is / going to enable",
+        "Does / going to enables"
+      ],
+      "correct": 2,
+      "explanation": "Para preguntar por un plan usamos Is + sujeto + going to + verbo base: Is the client going to enable...?",
+      "translation": "¿Va el cliente a habilitar la autenticación multifactor este trimestre?"
+    },
+    {
+      "id": "b12-future-016",
+      "topic": "Future forms · Present continuous question",
+      "question": "When ___ you ___ the network team? The call needs to be added to the calendar.",
+      "options": [
+        "will / meeting",
+        "do / meeting",
+        "are / meet",
+        "are / meeting"
+      ],
+      "correct": 3,
+      "explanation": "Se pregunta por un acuerdo que debe figurar en el calendario. La forma es When are you meeting...?",
+      "translation": "¿Cuándo se va a reunir con el equipo de redes? Hay que añadir la llamada al calendario."
+    },
+    {
+      "id": "b12-future-017",
+      "topic": "Future forms · Will question",
+      "question": "Do you think the attacker ___ try the same technique again?",
+      "options": [
+        "will",
+        "is",
+        "does",
+        "is going"
+      ],
+      "correct": 0,
+      "explanation": "Después de Do you think...? usamos habitualmente will para pedir una predicción u opinión: will try.",
+      "translation": "¿Cree que el atacante intentará utilizar de nuevo la misma técnica?"
+    },
+    {
+      "id": "b12-future-018",
+      "topic": "Future forms · Prior plan in passive",
+      "question": "The legacy rules ___ next month as part of the approved migration plan.",
+      "options": [
+        "will be retiring yesterday",
+        "are going to be retired",
+        "are going retire",
+        "retired next month"
+      ],
+      "correct": 1,
+      "explanation": "Existe un plan de migración aprobado. La pasiva con going to se forma con are going to be + participio.",
+      "translation": "Las reglas heredadas se van a retirar el mes que viene como parte del plan de migración aprobado."
+    },
+    {
+      "id": "b12-future-019",
+      "topic": "Future forms · Fixed personal arrangement",
+      "question": "Our lead analyst ___ the legal team on Friday morning; the room is booked.",
+      "options": [
+        "will briefed",
+        "is going brief",
+        "is briefing",
+        "briefed on Friday"
+      ],
+      "correct": 2,
+      "explanation": "La sala reservada y el momento concreto muestran un acuerdo organizado. Usamos is briefing.",
+      "translation": "Nuestro analista principal informará al equipo jurídico el viernes por la mañana; la sala está reservada."
+    },
+    {
+      "id": "b12-future-020",
+      "topic": "Future forms · Warning from evidence",
+      "question": "Those credentials are already for sale online. Someone ___ them.",
+      "options": [
+        "will misused",
+        "is misuse",
+        "misused tomorrow",
+        "is going to misuse"
+      ],
+      "correct": 3,
+      "explanation": "Las credenciales expuestas son evidencia presente de un riesgo próximo. Usamos is going to misuse.",
+      "translation": "Esas credenciales ya están a la venta en Internet. Alguien va a utilizarlas de forma indebida."
+    },
+    {
+      "id": "b12-future-021",
+      "topic": "Future forms · Volunteering",
+      "question": "We need someone to contact the ISP. — I ___ it.",
+      "options": [
+        "will do",
+        "am doing yesterday",
+        "am going do",
+        "will done"
+      ],
+      "correct": 0,
+      "explanation": "La persona se ofrece en ese momento. Para ofrecerse o asumir una tarea espontáneamente usamos will.",
+      "translation": "Necesitamos que alguien contacte con el proveedor de Internet. — Yo lo haré."
+    },
+    {
+      "id": "b12-future-022",
+      "topic": "Future forms · Team intention",
+      "question": "The SOC has set aside two analysts because we ___ the suspicious PowerShell activity in depth.",
+      "options": [
+        "will investigating",
+        "are going to investigate",
+        "are investigate",
+        "investigated next week"
+      ],
+      "correct": 1,
+      "explanation": "Los recursos ya reservados demuestran un plan previo. Usamos are going to investigate.",
+      "translation": "El SOC ha reservado a dos analistas porque vamos a investigar en profundidad la actividad sospechosa de PowerShell."
+    },
+    {
+      "id": "b12-future-023",
+      "topic": "Future forms · Confirmed customer session",
+      "question": "We ___ a tabletop exercise with the customer next Tuesday; all participants have accepted.",
+      "options": [
+        "will ran",
+        "are going run",
+        "are running",
+        "run yesterday"
+      ],
+      "correct": 2,
+      "explanation": "La fecha y las aceptaciones indican un acuerdo confirmado. Usamos presente continuo: are running.",
+      "translation": "Vamos a realizar un ejercicio de simulación con el cliente el próximo martes; todos los participantes han aceptado."
+    },
+    {
+      "id": "b12-future-024",
+      "topic": "Future forms · Reassurance",
+      "question": "Don't worry; this temporary block ___ normal email delivery.",
+      "options": [
+        "is not affecting yesterday",
+        "will not affected",
+        "is not going affect",
+        "will not affect"
+      ],
+      "correct": 3,
+      "explanation": "Don't worry introduce una garantía. Will not + verbo base es adecuado para tranquilizar al cliente.",
+      "translation": "No se preocupe; este bloqueo temporal no afectará a la entrega normal del correo."
+    },
+    {
+      "id": "b12-future-025",
+      "topic": "Future forms · Planned change question",
+      "question": "What ___ you ___ with the unsupported operating systems?",
+      "options": [
+        "are / going to do",
+        "will / going to do",
+        "are / doing yesterday",
+        "do / going to do"
+      ],
+      "correct": 0,
+      "explanation": "Para preguntar por una intención o plan usamos What are you going to do...?",
+      "translation": "¿Qué van a hacer con los sistemas operativos sin soporte?"
+    },
+    {
+      "id": "b12-future-026",
+      "topic": "Future forms · Arrangement versus intention",
+      "question": "We ___ the cloud provider tomorrow at 11:00; the meeting link is in the invitation.",
+      "options": [
+        "will spoke to",
+        "are speaking to",
+        "are going speak to",
+        "spoke to tomorrow"
+      ],
+      "correct": 1,
+      "explanation": "El enlace y la hora confirman un acuerdo concreto. Por eso usamos presente continuo: are speaking to.",
+      "translation": "Hablaremos con el proveedor de nube mañana a las 11:00; el enlace de la reunión está en la invitación."
+    },
+    {
+      "id": "b12-future-027",
+      "topic": "Future forms · Decision already made",
+      "question": "Management approved the budget, so the company ___ its SIEM capacity.",
+      "options": [
+        "will expanding",
+        "is expand",
+        "is going to expand",
+        "expanded next year"
+      ],
+      "correct": 2,
+      "explanation": "La aprobación del presupuesto muestra una decisión previa. Usamos is going to expand.",
+      "translation": "La dirección aprobó el presupuesto, así que la empresa va a ampliar la capacidad de su SIEM."
+    },
+    {
+      "id": "b12-future-028",
+      "topic": "Future forms · Neutral future fact",
+      "question": "The retention period ___ at the end of December under the current contract.",
+      "options": [
+        "is ending yesterday",
+        "will ended",
+        "is going end",
+        "will end"
+      ],
+      "correct": 3,
+      "explanation": "Aquí se presenta un hecho futuro de manera neutral. Will + verbo base es la estructura correcta: will end.",
+      "translation": "El periodo de conservación terminará a finales de diciembre según el contrato actual."
+    },
+    {
+      "id": "b12-future-029",
+      "topic": "Future forms · Combined forms",
+      "question": "We ___ the client at 15:00, and during the call we ___ our planned remediation steps.",
+      "options": [
+        "are meeting / are going to explain",
+        "will meeting / explain",
+        "are going meet / will explained",
+        "met / are explaining yesterday"
+      ],
+      "correct": 0,
+      "explanation": "La reunión es un acuerdo confirmado, por eso usamos are meeting. Explicar los pasos es una intención previamente planificada: are going to explain.",
+      "translation": "Nos reunimos con el cliente a las 15:00 y durante la llamada vamos a explicar nuestros pasos de remediación previstos."
+    },
+    {
+      "id": "b12-future-030",
+      "topic": "Future forms · Decision at the moment",
+      "question": "The customer needs the indicators in CSV format. We ___ the file before the call ends.",
+      "options": [
+        "are converting last week",
+        "will convert",
+        "will converted",
+        "are going convert"
+      ],
+      "correct": 1,
+      "explanation": "La necesidad acaba de plantearse y la respuesta se decide ahora. Usamos will convert.",
+      "translation": "El cliente necesita los indicadores en formato CSV. Convertiremos el archivo antes de que termine la llamada."
+    }
+  ],
+  "category": "normal"
+}

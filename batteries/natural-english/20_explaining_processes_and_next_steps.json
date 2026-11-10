@@ -1,0 +1,1408 @@
+{
+  "name": "20 · Explaining processes and next steps · Natural English",
+  "description": "100 microescenarios para explicar procesos, secuencias, responsabilidades, requisitos, progreso, traspasos, plazos, acciones, bloqueos y próximos pasos con un inglés claro, natural y profesional. El contexto SOC sirve de apoyo; las respuestas se deciden por gramática, colocación, claridad, tono y nivel de certeza, no por conocimientos técnicos discutibles.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b20-processes-next-steps-001",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "At the start of a briefing, you want to introduce the end-to-end review workflow. What is the clearest way to begin?",
+      "options": [
+        "Let me tell the process from the beginning to the ending in every detail.",
+        "I will walk the review process so you can know all of its functioning.",
+        "Let me walk you through how the review process works from start to finish.",
+        "Let me explain you how the review process works since its start until its finish."
+      ],
+      "correct": 2,
+      "explanation": "«Walk someone through» es una expresión natural para explicar un proceso paso a paso. «Explain» necesita «to» delante de la persona, y «from start to finish» es la fórmula idiomática.",
+      "translation": "Permíteme explicarte cómo funciona el proceso de revisión de principio a fin."
+    },
+    {
+      "id": "b20-processes-next-steps-002",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "Complete the sentence: 'The purpose of this initial check is ___.'",
+      "options": [
+        "to confirm that we have the information needed to begin the analysis",
+        "to confirm us that the information is enough for beginning to analyze",
+        "confirming that we have the information needed for begin the analysis",
+        "that we confirm having all information before to begin the analysis"
+      ],
+      "correct": 0,
+      "explanation": "Después de «the purpose ... is», «to + infinitive» expresa la finalidad de forma clara. «Needed to begin» evita las construcciones incorrectas «for begin» y «before to begin».",
+      "translation": "El objetivo de esta comprobación inicial es confirmar que tenemos la información necesaria para comenzar el análisis."
+    },
+    {
+      "id": "b20-processes-next-steps-003",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "A customer asks what happens after a ticket is created. Choose the most natural overview.",
+      "options": [
+        "Once the ticket is created, it is reviewed, assigned and prioritized.",
+        "After creating the ticket, there is made its review, assignment and priority.",
+        "Once the ticket will be created, it reviews, assigns and prioritizes.",
+        "When the ticket is creating, it will be reviewed, assigned and given prioritization."
+      ],
+      "correct": 0,
+      "explanation": "En una cláusula temporal con «once» se usa presente simple, no «will». La serie de pasivas «is reviewed, assigned and prioritized» es paralela y natural.",
+      "translation": "Una vez creado el ticket, se revisa, se asigna y se prioriza."
+    },
+    {
+      "id": "b20-processes-next-steps-004",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "Which sentence gives a concise high-level description of the process?",
+      "options": [
+        "On high level, there are three process stages, being validation, investigation and following.",
+        "At a high level, the process has three stages: validation, investigation and follow-up.",
+        "At a high level, the process makes three stages that validate, investigate and follow.",
+        "In a high level, the process is composed by validation, investigation and the follow-up."
+      ],
+      "correct": 1,
+      "explanation": "La colocación correcta es «at a high level». «Consists of» o «has» son naturales; «is composed by» no lo es en este contexto.",
+      "translation": "A grandes rasgos, el proceso tiene tres etapas: validación, investigación y seguimiento."
+    },
+    {
+      "id": "b20-processes-next-steps-005",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "You want to reassure the customer without promising a specific outcome. Which sentence is best?",
+      "options": [
+        "The process guarantees that every case will always have the same final result.",
+        "The process assures a successful outcome for all cases that enter into review.",
+        "The process is designed for ensuring each case to receive an identical conclusion.",
+        "The process is designed to ensure that each case receives a consistent review."
+      ],
+      "correct": 3,
+      "explanation": "«Is designed to ensure» expresa el objetivo del proceso sin garantizar resultados. «Consistent review» significa un enfoque coherente, no una conclusión idéntica.",
+      "translation": "El proceso está diseñado para garantizar que cada caso reciba una revisión coherente."
+    },
+    {
+      "id": "b20-processes-next-steps-006",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "A diagram contains many details. How would you introduce it in a customer-friendly way?",
+      "options": [
+        "The diagram teaches the main steps, and the details can be watched during the advance.",
+        "This diagram is showing all steps, and we can see the details while we will go.",
+        "In this diagram are shown the principal steps for looking details progressively.",
+        "This diagram shows the main steps; we can look at the details as we go."
+      ],
+      "correct": 3,
+      "explanation": "«Shows the main steps» usa presente simple para describir un gráfico. «As we go» es una expresión oral natural para indicar que los detalles se tratarán progresivamente.",
+      "translation": "Este diagrama muestra los pasos principales; podemos ver los detalles a medida que avanzamos."
+    },
+    {
+      "id": "b20-processes-next-steps-007",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "Which phrase best signals that you are simplifying a complex workflow?",
+      "options": [
+        "In simple terms, we verify the request, carry out the work and report the outcome.",
+        "In simple words, we verify the request, realize the work and inform about the result.",
+        "Saying it easily, the request is verified, the work gets made and the outcome reports.",
+        "For simplifying, we do a verification, an execution and an information of results."
+      ],
+      "correct": 0,
+      "explanation": "«In simple terms» es un marcador natural. «Carry out the work» y «report the outcome» son colocaciones idiomáticas; «realize the work» es una traducción literal incorrecta.",
+      "translation": "Dicho de forma sencilla, verificamos la solicitud, realizamos el trabajo e informamos del resultado."
+    },
+    {
+      "id": "b20-processes-next-steps-008",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "You need to distinguish the standard process from possible exceptions. Which sentence is clearest?",
+      "options": [
+        "This is the standard process, despite some cases may require additional checks.",
+        "This is the standard process, although some cases may require additional checks.",
+        "This standard process applies always, except that extra checks will be definitely required.",
+        "This is the process by standard, although some cases can require checks in addition."
+      ],
+      "correct": 1,
+      "explanation": "«Although» introduce correctamente una oración completa. «Despite» necesitaría un sustantivo o gerundio. «May require» mantiene un nivel de certeza adecuado.",
+      "translation": "Este es el proceso estándar, aunque algunos casos pueden requerir comprobaciones adicionales."
+    },
+    {
+      "id": "b20-processes-next-steps-009",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "A colleague has already explained the technical details. You only need to summarize the workflow. What should you say?",
+      "options": [
+        "For resume, the request assesses first and later passes to the team that corresponds.",
+        "To make a summary, the request has assessment before passing it toward an appropriate team.",
+        "To summarize, the request is assessed first and then passed to the appropriate team.",
+        "Summarizing it, first is assessed the request and after is passed to the adequate team."
+      ],
+      "correct": 2,
+      "explanation": "«To summarize» introduce un resumen con naturalidad. La pasiva «is assessed ... and then passed» mantiene el paralelismo; «for resume» es un falso amigo.",
+      "translation": "En resumen, la solicitud se evalúa primero y luego se remite al equipo adecuado."
+    },
+    {
+      "id": "b20-processes-next-steps-010",
+      "topic": "Explaining processes · Overview and purpose",
+      "question": "Which sentence best explains where the customer's part of the process begins?",
+      "options": [
+        "The part of you begins in the moment where our findings are sent for your revision.",
+        "Your part starts from that we send the findings to be reviewed by your side.",
+        "Your part begins when we will send the findings for review.",
+        "Your part begins when we send you the findings for review."
+      ],
+      "correct": 3,
+      "explanation": "Tras «when» con sentido futuro se usa presente simple. «Send you the findings for review» es conciso y «review» significa revisión; «revision» suele tener otro sentido.",
+      "translation": "Su parte comienza cuando les enviamos los hallazgos para que los revisen."
+    },
+    {
+      "id": "b20-processes-next-steps-011",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "You are describing the first two steps of an access review. Which version is most natural?",
+      "options": [
+        "First, we confirm the scope. Then, we collect the relevant records.",
+        "At first, we are confirming the scope, and in a second time records get collected.",
+        "Firstly we confirm about the scope, and after we collect the records that are relevant.",
+        "Firstly, confirm the scope; after, collect the relevant records."
+      ],
+      "correct": 0,
+      "explanation": "«First ... Then ...» es la secuencia más clara en inglés oral. «Confirm the scope» no lleva «about», y «records» evita el falso amigo «registers».",
+      "translation": "Primero confirmamos el alcance. Después recopilamos los registros pertinentes."
+    },
+    {
+      "id": "b20-processes-next-steps-012",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "Complete the transition: '___ the data has been validated, the analyst can begin the review.'",
+      "options": [
+        "Despite",
+        "During",
+        "Once",
+        "Until"
+      ],
+      "correct": 2,
+      "explanation": "«Once» significa «una vez que» e introduce la condición temporal que debe cumplirse. «During» necesita un sustantivo, «until» cambia la relación temporal y «despite» expresa contraste.",
+      "translation": "Una vez validados los datos, el analista puede comenzar la revisión."
+    },
+    {
+      "id": "b20-processes-next-steps-013",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "Which sentence explains two actions that happen at the same time?",
+      "options": [
+        "Meanwhile the evidence review, the coordinator maintains informed the customer.",
+        "While the analyst will review the evidence, the coordinator is keeping updated to the customer.",
+        "While the analyst reviews the evidence, the coordinator keeps the customer updated.",
+        "During the analyst reviews the evidence, the coordinator keeps the customer updated."
+      ],
+      "correct": 2,
+      "explanation": "«While + oración» expresa simultaneidad. «During» debe ir seguido de un sustantivo, y la colocación correcta es «keep someone updated».",
+      "translation": "Mientras el analista revisa las pruebas, el coordinador mantiene informado al cliente."
+    },
+    {
+      "id": "b20-processes-next-steps-014",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "You need to explain that one step must finish before another starts. Choose the clearest sentence.",
+      "options": [
+        "We need to complete the validation before we move on to the investigation.",
+        "We need to finish with validation before that we can pass toward investigation.",
+        "Before to move on the investigation, the validation needs being completed by us.",
+        "We need completing the validation before moving us to the investigation."
+      ],
+      "correct": 0,
+      "explanation": "«Complete ... before we move on to ...» combina estructuras naturales. «Move on to» lleva «to», y después de «before» no se usa «to + infinitive» en esta construcción.",
+      "translation": "Tenemos que completar la validación antes de pasar a la investigación."
+    },
+    {
+      "id": "b20-processes-next-steps-015",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "A process returns to an earlier step when information is missing. Which sentence sounds best?",
+      "options": [
+        "When information will miss, we go again to the requester to clarify us.",
+        "In case of missing informations, the process comes backward for requester clarification.",
+        "If information is missing, we go back to the requester for clarification.",
+        "If an information is missing, we return back with the requester for clarifying."
+      ],
+      "correct": 2,
+      "explanation": "«Information» es incontable y no admite «an» ni plural. «Go back to someone for clarification» es una expresión clara y natural.",
+      "translation": "Si falta información, volvemos a contactar con el solicitante para pedir una aclaración."
+    },
+    {
+      "id": "b20-processes-next-steps-016",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "Which transition introduces the final stage without sounding abrupt?",
+      "options": [
+        "For finishing, the outcome gets documented and the request is put as closed.",
+        "Finally, documentate the outcome and close the request.",
+        "At the end, we make the documentation of the outcome and we give closure to the request.",
+        "Finally, we document the outcome and close the request."
+      ],
+      "correct": 3,
+      "explanation": "«Finally» presenta el último paso. «Document the outcome» y «close the request» son verbos directos; «documentate» no existe y «make the documentation» resulta pesado.",
+      "translation": "Por último, documentamos el resultado y cerramos la solicitud."
+    },
+    {
+      "id": "b20-processes-next-steps-017",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "You want to insert an optional step into the sequence. Which sentence is most natural?",
+      "options": [
+        "If it would be necessary, we can make a pause in this point for requesting more evidences.",
+        "If necessary, pause here for request further evidence.",
+        "If necessary, we may pause at this point to request further evidence.",
+        "If needed perhaps, the process will stop itself at this point to solicit further proofs."
+      ],
+      "correct": 2,
+      "explanation": "«If necessary» y «at this point» son fórmulas naturales. «Evidence» es incontable y «may» indica posibilidad sin presentar la pausa como automática.",
+      "translation": "Si es necesario, podemos detenernos en este punto para solicitar pruebas adicionales."
+    },
+    {
+      "id": "b20-processes-next-steps-018",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "A customer asks what happens immediately after approval. Choose the best reply.",
+      "options": [
+        "So soon the approval is received, implementation scheduling of the change is made.",
+        "As soon as approval is received, the change is scheduled for implementation.",
+        "As soon as approval will be received, the change schedules for its implementation.",
+        "Immediately after to receive approval, we schedule the change for being implemented."
+      ],
+      "correct": 1,
+      "explanation": "«As soon as» se combina con presente simple para hablar del futuro. La pasiva «is scheduled for implementation» es precisa y natural.",
+      "translation": "En cuanto se recibe la aprobación, se programa la implantación del cambio."
+    },
+    {
+      "id": "b20-processes-next-steps-019",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "Which sentence clearly marks a handoff between stages?",
+      "options": [
+        "At that point, the case moves from triage to detailed analysis.",
+        "In that point, the case moves toward detailed analysis.",
+        "At that moment is when the case moves itself from triage into analyzing detailedly.",
+        "In that point, the case passes of triage toward the detailed analysis."
+      ],
+      "correct": 0,
+      "explanation": "La expresión correcta es «at that point». «Moves from X to Y» señala la transición de forma sencilla y «detailed» es el adjetivo adecuado.",
+      "translation": "En ese momento, el caso pasa del triaje al análisis detallado."
+    },
+    {
+      "id": "b20-processes-next-steps-020",
+      "topic": "Explaining processes · Sequencing and transitions",
+      "question": "You are correcting a slide with too many uses of 'then'. Which alternative is best?",
+      "options": [
+        "The records get checked. As next, they are comparing with what was requested originally.",
+        "The records are checked. The next step is to compare them with the original request.",
+        "The records are checked. In continuation, a comparison with the original requesting is performed.",
+        "The records are checked. The following step consists to compare them against the petition original."
+      ],
+      "correct": 1,
+      "explanation": "«The next step is to + infinitive» evita repetir «then» y organiza el discurso. «Original request» tiene el orden natural de adjetivo y sustantivo.",
+      "translation": "Se comprueban los registros. El siguiente paso es compararlos con la solicitud original."
+    },
+    {
+      "id": "b20-processes-next-steps-021",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "You need to explain who performs the initial review. Which sentence is clearest?",
+      "options": [
+        "The service desk carries out the initial review before assigning the case.",
+        "The service desk realizes the initial review before to assign the case.",
+        "The service desk makes the first revision before that the case is being assigned.",
+        "The initial review is responsibility from the service desk prior the case assignment."
+      ],
+      "correct": 0,
+      "explanation": "«Carry out a review» es una colocación natural. «Realize» no significa «realizar» en este contexto, y «before» va seguido de gerundio o de una oración.",
+      "translation": "El service desk realiza la revisión inicial antes de asignar el caso."
+    },
+    {
+      "id": "b20-processes-next-steps-022",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "Complete the customer update: 'Our team is responsible ___ coordinating the investigation.'",
+      "options": [
+        "Our team is responsible of coordinating the investigation.",
+        "Our team is responsible to coordinating the investigation.",
+        "Our team is responsible in coordinating the investigation.",
+        "Our team is responsible for coordinating the investigation."
+      ],
+      "correct": 3,
+      "explanation": "La preposición que sigue a «responsible» es «for», y después se usa gerundio: «responsible for coordinating».",
+      "translation": "Nuestro equipo es responsable de coordinar la investigación."
+    },
+    {
+      "id": "b20-processes-next-steps-023",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "Which sentence assigns a customer action politely and clearly?",
+      "options": [
+        "We will need your team to confirm whether the listed accounts are still active.",
+        "We will need that your team confirms us if the listed accounts continue actives.",
+        "We need from your team the confirmation about if listed accounts remain being active.",
+        "Your team must confirm immediately whether are the accounts still in activity."
+      ],
+      "correct": 0,
+      "explanation": "«Need someone to do something» es la estructura correcta. «Whether ... are still active» formula la comprobación con claridad y sin un tono innecesariamente brusco.",
+      "translation": "Necesitaremos que su equipo confirme si las cuentas indicadas siguen activas."
+    },
+    {
+      "id": "b20-processes-next-steps-024",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "You want to clarify that approval belongs to the customer, not the SOC. Choose the best wording.",
+      "options": [
+        "We can recommend, but the final approval corresponds to be made by your team.",
+        "We can make a recommendation, but the final approval rests with your team.",
+        "We can make a recommendation, but your team is who has to approve finally.",
+        "We can give an advice, although the definitive approbation depends of your team."
+      ],
+      "correct": 1,
+      "explanation": "«The final approval rests with...» expresa responsabilidad de forma profesional. «Advice» es incontable, «approbation» no es el término habitual y «depends» llevaría «on».",
+      "translation": "Podemos hacer una recomendación, pero la aprobación final corresponde a su equipo."
+    },
+    {
+      "id": "b20-processes-next-steps-025",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "Two teams contribute at different points. Which wording describes their shared responsibility most naturally?",
+      "options": [
+        "From our side is the investigation, and from your side is to give the business context.",
+        "We investigate the alert while your team provide business context.",
+        "We take charge of investigating while your team is in charge to provide business context to us.",
+        "We will investigate the alert, while your team provides the business context."
+      ],
+      "correct": 3,
+      "explanation": "La estructura paralela con «we ... while your team ...» reparte funciones con claridad. «Provide us with» sería posible, pero «provide us the context» no es estándar.",
+      "translation": "Nosotros investigaremos la alerta, mientras que su equipo aportará el contexto de negocio."
+    },
+    {
+      "id": "b20-processes-next-steps-026",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "A participant asks who owns the next action. What is the most natural reply?",
+      "options": [
+        "The next action sits with us, and we will update you by Thursday.",
+        "The next action is ours; we update you until Thursday.",
+        "The ownership of next action belongs to us, and we will inform you in Thursday.",
+        "We have the next action under our responsibility and will actualize you by the Thursday."
+      ],
+      "correct": 0,
+      "explanation": "«The action sits with us» es una fórmula profesional para indicar responsable. «By Thursday» marca el plazo límite; «until» tendría otro sentido.",
+      "translation": "La siguiente acción nos corresponde a nosotros y les informaremos a más tardar el jueves."
+    },
+    {
+      "id": "b20-processes-next-steps-027",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "You need to introduce a specialist's role without implying that they lead the whole process. Which sentence is best?",
+      "options": [
+        "The network specialist supports with the team and directs the whole process of checks.",
+        "A network specialist will support the team during the connectivity checks.",
+        "A network specialist will assist to the team during checks.",
+        "A specialist of networks will assist to the team while the checks of connection."
+      ],
+      "correct": 1,
+      "explanation": "«Support the team during...» describe una función de apoyo sin exagerarla. «Responsible» no se usa como sustantivo de esa forma y «assist» no lleva «to» ante la persona.",
+      "translation": "Un especialista de redes apoyará al equipo durante las comprobaciones de conectividad."
+    },
+    {
+      "id": "b20-processes-next-steps-028",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "Which request for an owner sounds collaborative rather than accusatory?",
+      "options": [
+        "Could we agree who will take ownership of this action?",
+        "Who is going to be responsible because nobody has taken this action?",
+        "Could we accord who owns this action?",
+        "Can you say who must own this action that remains without responsible?"
+      ],
+      "correct": 0,
+      "explanation": "«Could we agree...» incluye a todos y suaviza la petición. «Take ownership of an action» es la colocación natural; «property» no significa responsabilidad.",
+      "translation": "¿Podríamos acordar quién se hará responsable de esta acción?"
+    },
+    {
+      "id": "b20-processes-next-steps-029",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "A customer has sent the requested logs. How should you acknowledge their role?",
+      "options": [
+        "Thank you for providing the logs; we can now continue with the analysis.",
+        "Thank you to provide the logs; now we can follow with the analysis.",
+        "Thanks for your logs provisioning; actually we can continue forward the analysis.",
+        "We thank you for sending us the logs, so the analysis can be continued by our side now."
+      ],
+      "correct": 0,
+      "explanation": "Después de «thank you for» se usa gerundio. «Continue with the analysis» es natural; «actually» significa «en realidad», no «actualmente».",
+      "translation": "Gracias por facilitar los registros; ahora podemos continuar con el análisis."
+    },
+    {
+      "id": "b20-processes-next-steps-030",
+      "topic": "Explaining processes · Roles and responsibilities",
+      "question": "You are documenting responsibilities after a meeting. Which sentence is most concise?",
+      "options": [
+        "The SOC drafts; the customer makes the revision.",
+        "The SOC will draft the report, and the customer will review it.",
+        "The SOC will elaborate the report, while the customer will make a revision of the same.",
+        "The drafting of the report will be done by the SOC, and its revision will be done by the customer."
+      ],
+      "correct": 1,
+      "explanation": "Dos cláusulas activas y paralelas hacen la frase más directa. En pasiva, los agentes llevarían «by», no «from» ni «for».",
+      "translation": "El SOC redactará el informe y el cliente lo revisará."
+    },
+    {
+      "id": "b20-processes-next-steps-031",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "You are explaining what is needed before an investigation can start. Which sentence is best?",
+      "options": [
+        "Before we can to begin, we are needing the ticket number plus the time rank.",
+        "Before beginning, we need that you give us the ticket number and relevant range of time.",
+        "Before we begin, we need the ticket number and the relevant time range.",
+        "Previous to start, the number of ticket and the temporal range are necessities."
+      ],
+      "correct": 2,
+      "explanation": "«Before we begin» y «we need...» son estructuras directas. «Time range» es la colocación correcta; «time rank» y «previous to start» no son naturales.",
+      "translation": "Antes de empezar, necesitamos el número de ticket y el intervalo de tiempo pertinente."
+    },
+    {
+      "id": "b20-processes-next-steps-032",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "Complete the sentence: 'We cannot proceed ___ the request has been approved.'",
+      "options": [
+        "We cannot proceed until the request has been approved.",
+        "We cannot proceed during the request has been approved.",
+        "We cannot proceed meanwhile the request has been approved.",
+        "We cannot proceed unless of the request has been approved."
+      ],
+      "correct": 0,
+      "explanation": "«Not ... until» significa que la acción no puede continuar antes de que se cumpla la condición. Las otras opciones no encajan gramaticalmente.",
+      "translation": "No podemos continuar hasta que se haya aprobado la solicitud."
+    },
+    {
+      "id": "b20-processes-next-steps-033",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "Which sentence asks for missing information in the most professional way?",
+      "options": [
+        "Could you provide the affected hostname and the approximate start time?",
+        "Could you facilitate the hostname and approximate start time?",
+        "Could you facilitate us the affected host name and the hour approximately of beginning?",
+        "Can you send us which is the hostname affected and when it started more or less?"
+      ],
+      "correct": 0,
+      "explanation": "«Could you provide...» formula una petición profesional. «Approximate start time» sigue el orden natural del inglés y evita traducciones literales.",
+      "translation": "¿Podrían facilitar el nombre del host afectado y la hora aproximada de inicio?"
+    },
+    {
+      "id": "b20-processes-next-steps-034",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "The process can start with partial information, but more details will be needed later. Choose the clearest explanation.",
+      "options": [
+        "We can begin with the information available, but later more details will be surely necessary.",
+        "We can start from available informations, although we can need further detail while the review will progress.",
+        "We can begin with the information available, but we may need further details as the review progresses.",
+        "With the information that is available we initiate, but new details could be demanded along the review."
+      ],
+      "correct": 2,
+      "explanation": "«Information» es incontable y «as the review progresses» expresa evolución. «May need» mantiene la cautela sin afirmar que siempre harán falta más datos.",
+      "translation": "Podemos empezar con la información disponible, pero quizá necesitemos más detalles a medida que avance la revisión."
+    },
+    {
+      "id": "b20-processes-next-steps-035",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "You need to explain why accurate contact details matter. Which sentence sounds most natural?",
+      "options": [
+        "Updated contacts help us reach to the right person.",
+        "Contacts that are updated permit reaching to the adequate person with no retard.",
+        "The current contact data makes easier that we reach the person who corresponds rapidly.",
+        "Up-to-date contact details help us reach the right person without delay."
+      ],
+      "correct": 3,
+      "explanation": "«Up-to-date contact details» es la expresión idiomática. «Reach someone» no lleva «to» y «actualized» es una traducción literal poco natural.",
+      "translation": "Unos datos de contacto actualizados nos ayudan a localizar sin demora a la persona adecuada."
+    },
+    {
+      "id": "b20-processes-next-steps-036",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "A customer asks whether a form is mandatory. Which reply is clear and appropriately neutral?",
+      "options": [
+        "The form is obligatory for every request except urgencies that are treated by separate.",
+        "The form is required in standard petitions, but urgency cases can manage in another way.",
+        "The form is required for standard requests, but urgent cases can be handled separately.",
+        "You must always fill the form, unless we decide an urgent case does not need it at all."
+      ],
+      "correct": 2,
+      "explanation": "«Is required for» expresa un requisito con tono neutral. «Can be handled separately» usa una pasiva natural para describir la excepción.",
+      "translation": "El formulario es obligatorio para las solicitudes estándar, pero los casos urgentes pueden tramitarse por separado."
+    },
+    {
+      "id": "b20-processes-next-steps-037",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "Which sentence explains a technical dependency in plain English?",
+      "options": [
+        "The check relies in having available the audit registers along the period reviewed.",
+        "The check relies on audit logs being available for the period under review.",
+        "The checking has dependency of audit logs availability for the reviewed period.",
+        "The check depends that audit logs are available during the period in revision."
+      ],
+      "correct": 1,
+      "explanation": "«Rely on + sustantivo/gerundio» es la estructura correcta. «The period under review» es una fórmula compacta y profesional.",
+      "translation": "La comprobación depende de que estén disponibles los registros de auditoría del periodo examinado."
+    },
+    {
+      "id": "b20-processes-next-steps-038",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "You want to confirm that all prerequisites are in place. Which question is most natural?",
+      "options": [
+        "Do we have everything we need to move forward?",
+        "Are all the needed prerequisites already disposed for continuing?",
+        "Do we have all what we need for moving forward with the process?",
+        "Have we everything necessary to advance forward?"
+      ],
+      "correct": 0,
+      "explanation": "«Everything we need to move forward» es una pregunta breve y natural. «All what» y «advance forward» no son idiomáticos.",
+      "translation": "¿Tenemos todo lo necesario para seguir adelante?"
+    },
+    {
+      "id": "b20-processes-next-steps-039",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "An approval is still missing. Choose the best status sentence.",
+      "options": [
+        "We have readiness to continue once the pending approbation would be received.",
+        "We are prepared to proceed immediately when the rest approval arrives to us.",
+        "We are ready for proceeding as soon as we will receive the approval that remains.",
+        "We are ready to proceed as soon as we receive the remaining approval."
+      ],
+      "correct": 3,
+      "explanation": "Después de «as soon as» se usa presente simple. «Remaining approval» identifica el elemento pendiente de forma natural.",
+      "translation": "Estamos listos para continuar en cuanto recibamos la aprobación pendiente."
+    },
+    {
+      "id": "b20-processes-next-steps-040",
+      "topic": "Explaining processes · Inputs and prerequisites",
+      "question": "You need to state that a step is recommended but not compulsory. Which sentence is best?",
+      "options": [
+        "A brief check of backup should be done, although nobody is forced for doing it.",
+        "It is recommended to make a backup check, but this step is not of obligation.",
+        "A brief backup check is recommendable, despite it is not an obligated step.",
+        "A brief backup check is recommended, although it is not a mandatory step."
+      ],
+      "correct": 3,
+      "explanation": "«Is recommended» y «is not mandatory» distinguen claramente recomendación y obligación. «Despite» no introduce directamente una oración con verbo.",
+      "translation": "Se recomienda una breve comprobación de la copia de seguridad, aunque no es un paso obligatorio."
+    },
+    {
+      "id": "b20-processes-next-steps-041",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "A customer asks where the case stands. Which update sounds most natural?",
+      "options": [
+        "The case is being revised actually, and no blockage has been found for the time being yet.",
+        "The case is currently under review, and we have not identified any blockers so far.",
+        "The case is actually in revision, and we did not identify blockers until the moment.",
+        "Currently the case finds itself under reviewing, without blockers identified up to now."
+      ],
+      "correct": 1,
+      "explanation": "«Currently under review» y «so far» son expresiones naturales para el estado actual. «Actually» significa «en realidad», no «actualmente».",
+      "translation": "El caso está actualmente en revisión y, hasta ahora, no hemos identificado ningún bloqueo."
+    },
+    {
+      "id": "b20-processes-next-steps-042",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "Complete the update: 'We have completed the initial checks and are now ___ the results.'",
+      "options": [
+        "reviewed",
+        "reviewing",
+        "review",
+        "to reviewing"
+      ],
+      "correct": 1,
+      "explanation": "Después de «are now» se usa el participio presente para una acción en curso: «are now reviewing».",
+      "translation": "Hemos completado las comprobaciones iniciales y ahora estamos revisando los resultados."
+    },
+    {
+      "id": "b20-processes-next-steps-043",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "Which sentence clearly distinguishes completed work from ongoing work?",
+      "options": [
+        "Collection of data is completed, while analysis keeps being presently on course.",
+        "The data was collected already, but the analysis is yet progressing actually.",
+        "The data collection is complete, while the analysis is still in progress.",
+        "The data collection has finished, meanwhile the analysis still continues in progress."
+      ],
+      "correct": 2,
+      "explanation": "«Is complete» contrasta de forma limpia con «is still in progress». «While» une dos oraciones; «meanwhile» requeriría otra puntuación.",
+      "translation": "La recopilación de datos ha finalizado, mientras que el análisis sigue en curso."
+    },
+    {
+      "id": "b20-processes-next-steps-044",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "You need to report progress without suggesting that the work is nearly finished. Which sentence is best?",
+      "options": [
+        "We are almost finished, although there are various items to review yet.",
+        "We have advanced a lot, but several points remain for being revised.",
+        "The process has progressed and soon all remaining items will definitely be completed.",
+        "We have made progress, but several items still need to be reviewed."
+      ],
+      "correct": 3,
+      "explanation": "«Have made progress» informa de avance sin cuantificarlo. «Still need to be reviewed» describe trabajo pendiente sin prometer una finalización próxima.",
+      "translation": "Hemos avanzado, pero todavía hay que revisar varios elementos."
+    },
+    {
+      "id": "b20-processes-next-steps-045",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "A task was delayed earlier but is moving again. Choose the most natural update.",
+      "options": [
+        "The issue resolved; work is back in track.",
+        "The issue has been resolved, and the work is now back on track.",
+        "The incidence is solved, and now the works are back in the correct way.",
+        "The issue has resolved, and the work has returned again to its normal track."
+      ],
+      "correct": 1,
+      "explanation": "La pasiva «has been resolved» indica un resultado reciente. «Back on track» es la expresión idiomática para decir que el trabajo vuelve a avanzar según lo previsto.",
+      "translation": "El problema se ha resuelto y el trabajo vuelve a avanzar según lo previsto."
+    },
+    {
+      "id": "b20-processes-next-steps-046",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "Which sentence is appropriate when there has been no material change since the last update?",
+      "options": [
+        "There has been no significant change since our last update.",
+        "No relevant change happened since the previous information we made to you.",
+        "There was not any significative change from our last actualization.",
+        "There has not been changes of significance since we updated you the last time."
+      ],
+      "correct": 0,
+      "explanation": "El present perfect con «since» conecta el último informe con el presente. «Significant» es el adjetivo correcto; «significative» no es habitual.",
+      "translation": "No ha habido ningún cambio significativo desde nuestra última actualización."
+    },
+    {
+      "id": "b20-processes-next-steps-047",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "You want to mention a small delay without sounding defensive. Which wording is best?",
+      "options": [
+        "We are delayed due to we need validating one additional group of datas.",
+        "The review is taking slightly longer than expected because we are validating an additional data set.",
+        "The review has a little retard because of an additional dataset that we must validate it.",
+        "The review takes more time than expected because an extra data is being validated."
+      ],
+      "correct": 1,
+      "explanation": "«Is taking slightly longer than expected» comunica el retraso con neutralidad. «Because» introduce una oración y «data set» evita tratar «data» como «an extra data».",
+      "translation": "La revisión está tardando un poco más de lo previsto porque estamos validando un conjunto de datos adicional."
+    },
+    {
+      "id": "b20-processes-next-steps-048",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "Which question checks progress in a polite, non-pressuring way?",
+      "options": [
+        "Could you let us know how the internal review is progressing?",
+        "Can you tell us why the internal review is not finished still?",
+        "Could you inform us how is progressing the internal revision?",
+        "We would like knowing in which point does the internal review find itself."
+      ],
+      "correct": 0,
+      "explanation": "En una pregunta indirecta se mantiene el orden afirmativo: «how the review is progressing». «Could you let us know» suaviza la petición.",
+      "translation": "¿Podrían indicarnos cómo avanza la revisión interna?"
+    },
+    {
+      "id": "b20-processes-next-steps-049",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "A colleague says, 'We finished most of it.' Which customer-facing version is more precise?",
+      "options": [
+        "We finished almost checks, and two are remaining to make.",
+        "Most planned checkings are already finalized except two that stay open yet.",
+        "Most of the planned checks have been completed, and two remain outstanding.",
+        "The majority of checks have completed, with two still being pendent."
+      ],
+      "correct": 2,
+      "explanation": "«Have been completed» usa la pasiva correcta y «remain outstanding» identifica tareas pendientes. «Pendent» es un falso amigo.",
+      "translation": "Se han completado la mayoría de las comprobaciones previstas y quedan dos pendientes."
+    },
+    {
+      "id": "b20-processes-next-steps-050",
+      "topic": "Explaining processes · Progress and current status",
+      "question": "You need to explain that you are waiting but still doing useful work. Which sentence is clearest?",
+      "options": [
+        "While we wait for approval, we are preparing the implementation checklist.",
+        "During we wait for approval, we prepare the checklist of implementation.",
+        "While waiting the approval, we are making ready the list for implementing.",
+        "Meanwhile of the approval, the implementation checklist is in preparation by us."
+      ],
+      "correct": 0,
+      "explanation": "«While we wait» introduce una acción simultánea. La colocación es «wait for approval» y «prepare a checklist».",
+      "translation": "Mientras esperamos la aprobación, estamos preparando la lista de comprobación para la implantación."
+    },
+    {
+      "id": "b20-processes-next-steps-051",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "You are explaining when a case is passed to another team. Which sentence is most natural?",
+      "options": [
+        "If specialist input is needed, we hand the case over to the engineering team.",
+        "If a specialist input is needed, we hand over the case toward engineering team.",
+        "If specialist support will be necessary, we pass the case for the engineers team.",
+        "In case of needing specialist inputs, the case is derived to the team of engineering."
+      ],
+      "correct": 0,
+      "explanation": "«Hand something over to someone» describe un traspaso de forma natural. «Input» es incontable y en una condición no se usa «will» de este modo.",
+      "translation": "Si se necesita la aportación de un especialista, transferimos el caso al equipo de ingeniería."
+    },
+    {
+      "id": "b20-processes-next-steps-052",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "Complete the sentence: 'The case is escalated ___ the on-call manager when the agreed criteria are met.'",
+      "options": [
+        "The case is escalated for the on-call manager when the criteria are met.",
+        "The case is escalated towards of the on-call manager when the criteria are met.",
+        "The case is escalated to the on-call manager when the criteria are met.",
+        "The case is escalated at the on-call manager when the criteria are met."
+      ],
+      "correct": 2,
+      "explanation": "La preposición habitual es «escalate something to someone»: «the case is escalated to the manager».",
+      "translation": "El caso se escala al responsable de guardia cuando se cumplen los criterios acordados."
+    },
+    {
+      "id": "b20-processes-next-steps-053",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "Which sentence explains escalation without making it sound like a failure?",
+      "options": [
+        "Escalating is only for putting more expert knowledge when the next stage will need it.",
+        "Escalation simply brings in the additional expertise needed for the next stage.",
+        "Escalation means the first team failed and another expert must repair the process.",
+        "The escalation supposes to incorporate experts because the process went wrongly."
+      ],
+      "correct": 1,
+      "explanation": "«Brings in additional expertise» presenta el escalado como incorporación de apoyo. «Needed for the next stage» explica la finalidad sin culpar al primer equipo.",
+      "translation": "El escalado simplemente incorpora los conocimientos adicionales necesarios para la siguiente fase."
+    },
+    {
+      "id": "b20-processes-next-steps-054",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "You need to describe a smooth transfer of information. Choose the best sentence.",
+      "options": [
+        "The case annotations are shared for giving full context to the team who receives it.",
+        "We share to the receiver team the case notes for that they have all the context.",
+        "We send the notes with the team that receives, so they can know the context completely.",
+        "We share the case notes with the receiving team so that they have the full context."
+      ],
+      "correct": 3,
+      "explanation": "«Share something with someone» es la estructura correcta. «So that» introduce la finalidad y «receiving team» es una expresión compacta.",
+      "translation": "Compartimos las notas del caso con el equipo receptor para que disponga de todo el contexto."
+    },
+    {
+      "id": "b20-processes-next-steps-055",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "A customer asks whether they must repeat all the details after a handoff. Which reply sounds most reassuring?",
+      "options": [
+        "It should not be necessary that you repeat us the context, as we will include it on handover.",
+        "You will not have to repeat nothing because we put every background in the transfer notes.",
+        "You should not need to repeat the background, as we will include it in the handover notes.",
+        "You do not need repeating all details since the notes of handoff will contain them already."
+      ],
+      "correct": 2,
+      "explanation": "«Should not need to» tranquiliza sin prometer de forma absoluta. No se usa doble negación, y «include it in the notes» lleva «in».",
+      "translation": "En principio no tendrán que repetir los antecedentes, ya que los incluiremos en las notas de traspaso."
+    },
+    {
+      "id": "b20-processes-next-steps-056",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "Which sentence clearly states who remains the customer's contact after an internal escalation?",
+      "options": [
+        "Although internally escalated, your main contact will keep being ourselves.",
+        "Despite the case has escalated internally, we continue being your principal contact point.",
+        "Although the case has been escalated internally, we will remain your main point of contact.",
+        "Even the case is in escalation, we remain as the contact point more important for you."
+      ],
+      "correct": 2,
+      "explanation": "«Although + oración» introduce el contraste correctamente. «Remain your main point of contact» no necesita «as» y suena profesional.",
+      "translation": "Aunque el caso se ha escalado internamente, seguiremos siendo su principal punto de contacto."
+    },
+    {
+      "id": "b20-processes-next-steps-057",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "You want to introduce the next speaker after explaining your team's part. What should you say?",
+      "options": [
+        "I now hand to Priya to explain implementation.",
+        "Now I pass with Priya, who is going to explain about the implementation phase.",
+        "I will hand the meeting to Priya so she explains us the implementing stage.",
+        "I will now hand over to Priya, who will explain the implementation stage."
+      ],
+      "correct": 3,
+      "explanation": "«Hand over to [persona]» es una fórmula habitual para ceder la palabra. «Explain» no lleva «about» cuando tiene un objeto directo.",
+      "translation": "Ahora cedo la palabra a Priya, que explicará la fase de implantación."
+    },
+    {
+      "id": "b20-processes-next-steps-058",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "A handoff is delayed because the receiving team needs more context. Which update is best?",
+      "options": [
+        "Handover is in pending because the team that receives needs that we give more explanations.",
+        "The transfer waits until we are giving to the receiving team more context.",
+        "The handoff is pendent while we provide additional context to the team receiver.",
+        "The handoff is pending while we provide the receiving team with additional context."
+      ],
+      "correct": 3,
+      "explanation": "«Is pending while...» describe el estado y la acción en curso. La estructura correcta es «provide someone with something».",
+      "translation": "El traspaso está pendiente mientras proporcionamos contexto adicional al equipo receptor."
+    },
+    {
+      "id": "b20-processes-next-steps-059",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "Which phrase best introduces an escalation criterion?",
+      "options": [
+        "We escalate the case if it falls outside the team's agreed scope.",
+        "We escalate the case in case it will fall out of the scope agreed for the team.",
+        "We escalate cases outside from the agreed scope.",
+        "The case escalates when it is outside from the team's scope that was accorded."
+      ],
+      "correct": 0,
+      "explanation": "«Falls outside the team's agreed scope» es una colocación natural. En la condición se usa presente simple, no «will».",
+      "translation": "Escalamos el caso si queda fuera del alcance acordado para el equipo."
+    },
+    {
+      "id": "b20-processes-next-steps-060",
+      "topic": "Explaining processes · Handoffs and escalation",
+      "question": "You are closing a handoff call. Which sentence confirms continuity most clearly?",
+      "options": [
+        "The new team received case detail and is going to pick the investigation where we let it.",
+        "The new team has the details and retakes from here.",
+        "The case details are with the new team, which will continue on the investigation since here.",
+        "The new team has the case details and will pick up the investigation from here."
+      ],
+      "correct": 3,
+      "explanation": "«Pick up the investigation from here» indica continuidad de forma idiomática. Evita las traducciones literales «retake» y «since here».",
+      "translation": "El nuevo equipo dispone de los detalles del caso y continuará la investigación a partir de este punto."
+    },
+    {
+      "id": "b20-processes-next-steps-061",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "You need to give an estimate rather than a promise. Which sentence is best?",
+      "options": [
+        "We expect the review to take approximately two business days.",
+        "We expect the review to last two labor days.",
+        "We promise the review will be finished exactly within two working days.",
+        "We expect that the review takes around two labor days approximately."
+      ],
+      "correct": 0,
+      "explanation": "«Expect something to take...» expresa una estimación. «Approximately» y «business days» son naturales; la frase evita convertir la estimación en promesa.",
+      "translation": "Prevemos que la revisión tarde aproximadamente dos días laborables."
+    },
+    {
+      "id": "b20-processes-next-steps-062",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "Complete the update: 'We aim to send you the draft ___ Friday.'",
+      "options": [
+        "We aim to send you the draft until Friday.",
+        "We aim to send you the draft by Friday.",
+        "We aim to send you the draft in Friday.",
+        "We aim to send you the draft at Friday."
+      ],
+      "correct": 1,
+      "explanation": "«By Friday» significa «a más tardar el viernes». «Until Friday» describe continuidad hasta ese día, no una fecha límite de entrega.",
+      "translation": "Nuestro objetivo es enviarles el borrador a más tardar el viernes."
+    },
+    {
+      "id": "b20-processes-next-steps-063",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "Which sentence sets a realistic expectation about timing?",
+      "options": [
+        "Timing can suffer changes if it would be necessary to validate additionally.",
+        "The timeline may change if additional validation is required.",
+        "The planning may modify itself in case more validation will be required.",
+        "The timeline changes if validation would be needed."
+      ],
+      "correct": 1,
+      "explanation": "«May change if...» expresa una posibilidad real. En la cláusula con «if» se usa presente simple: «if ... is required».",
+      "translation": "El calendario puede cambiar si se requiere una validación adicional."
+    },
+    {
+      "id": "b20-processes-next-steps-064",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "A customer asks for an exact completion time, but you do not have one. Which reply is most professional?",
+      "options": [
+        "I do not have an exact timing for now; nevertheless, this afternoon I will inform you with more details.",
+        "I cannot say the exact hour, but surely it will be completed this afternoon.",
+        "Still I cannot confirm you when exactly, but I can actualize you later today.",
+        "I cannot confirm an exact time yet, but I can give you a further update this afternoon."
+      ],
+      "correct": 3,
+      "explanation": "«Cannot confirm ... yet» explica la limitación y «give you a further update» ofrece un siguiente paso concreto. No promete la finalización.",
+      "translation": "Todavía no puedo confirmar una hora exacta, pero esta tarde podré darles otra actualización."
+    },
+    {
+      "id": "b20-processes-next-steps-065",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "Which sentence explains a service target in plain language?",
+      "options": [
+        "Our target is to acknowledge urgent requests within 30 minutes.",
+        "Our target is acknowledging urgencies inside 30 minutes.",
+        "Our target consists in acknowledging the urgent petitions inside of 30 minutes.",
+        "We have as target to give acknowledgement of urgencies in a lapse of 30 minutes."
+      ],
+      "correct": 0,
+      "explanation": "«Our target is to...» y «within 30 minutes» expresan el objetivo con claridad. «Within» significa que la acción se realizará antes de que termine ese plazo.",
+      "translation": "Nuestro objetivo es acusar recibo de las solicitudes urgentes en un plazo de 30 minutos."
+    },
+    {
+      "id": "b20-processes-next-steps-066",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "You need to distinguish response time from resolution time. Choose the clearest wording.",
+      "options": [
+        "The target of two hours applies for responding initially, but not for resolving finally.",
+        "The two-hour compromise concerns initial answering instead of definitive solution time.",
+        "The two-hour target applies to our initial response, not to the final resolution.",
+        "Two hours is the objective for first response and does not mean the case resolves then."
+      ],
+      "correct": 2,
+      "explanation": "«Applies to» es la preposición correcta. El contraste «initial response, not ... final resolution» evita ambigüedad; «compromise» es un falso amigo.",
+      "translation": "El objetivo de dos horas se aplica a nuestra respuesta inicial, no a la resolución final."
+    },
+    {
+      "id": "b20-processes-next-steps-067",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "A delivery depends on receiving feedback today. Which sentence is appropriately conditional?",
+      "options": [
+        "If we will receive your feedback today, we can finalize the document tomorrow for sure.",
+        "Receiving today your feedback, we would definitely finish the document by tomorrow.",
+        "If we receive your feedback today, we should be able to finalize the document tomorrow.",
+        "If we received your feedback today, tomorrow the document should can be finalized."
+      ],
+      "correct": 2,
+      "explanation": "En una condición real se usa presente simple tras «if». «Should be able to» comunica una previsión razonable sin garantía absoluta.",
+      "translation": "Si recibimos hoy sus comentarios, en principio podremos finalizar el documento mañana."
+    },
+    {
+      "id": "b20-processes-next-steps-068",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "Which phrase is most natural when a date is provisional?",
+      "options": [
+        "We have pencilled in the change for 18 November, subject to approval.",
+        "The provisional change date stays in 18 November, subordinated at receiving approval.",
+        "We have written the change in pencil for 18 November, depending of the approbation.",
+        "We scheduled definitively the change on 18 November unless approval could be missing."
+      ],
+      "correct": 0,
+      "explanation": "«Pencil something in» significa programarlo de manera provisional. «Subject to approval» deja clara la condición pendiente.",
+      "translation": "Hemos previsto provisionalmente el cambio para el 18 de noviembre, sujeto a aprobación."
+    },
+    {
+      "id": "b20-processes-next-steps-069",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "You want to explain that a date is unchanged. Which update is best?",
+      "options": [
+        "We are yet according to schedule to finish all work before the week will end.",
+        "The planning maintains for finishing the works at the week's ending.",
+        "We are still on schedule to complete the work by the end of the week.",
+        "We continue in schedule for completing the work until the end of the week."
+      ],
+      "correct": 2,
+      "explanation": "«On schedule» indica que se mantiene el calendario. «By the end of the week» señala la fecha límite; «until» no expresa lo mismo.",
+      "translation": "Seguimos dentro del calendario previsto para completar el trabajo antes de que termine la semana."
+    },
+    {
+      "id": "b20-processes-next-steps-070",
+      "topic": "Explaining processes · Timelines and expectations",
+      "question": "A timeline has slipped. Which sentence communicates the change and the next update clearly?",
+      "options": [
+        "The completion date has displaced until Monday, and tomorrow we confirm the new planning.",
+        "The finishing date moved on Monday, while the revised plan will be confirmed in tomorrow.",
+        "The completion date has moved to Monday, and we will confirm the revised plan tomorrow.",
+        "There is a delay to Monday; tomorrow we will assure you the planning that was revised."
+      ],
+      "correct": 2,
+      "explanation": "«Has moved to Monday» comunica el cambio con neutralidad. «Confirm the revised plan tomorrow» usa las preposiciones y el orden natural.",
+      "translation": "La fecha de finalización se ha trasladado al lunes y mañana confirmaremos el plan revisado."
+    },
+    {
+      "id": "b20-processes-next-steps-071",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "You are summarizing the first action after a meeting. Which sentence is clearest?",
+      "options": [
+        "As first following step, we will make the verification of the affected device list.",
+        "The first step is verifying the affected devices listing.",
+        "The first thing next is verifying which devices are affected in the listing.",
+        "The first step is to verify the list of affected devices."
+      ],
+      "correct": 3,
+      "explanation": "«The first step is to + infinitive» es una estructura clara y evita la redundancia de «first next step». «Affected devices» coloca el adjetivo antes del sustantivo.",
+      "translation": "El primer paso es verificar la lista de dispositivos afectados."
+    },
+    {
+      "id": "b20-processes-next-steps-072",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "Complete the action summary: 'Marta will update the runbook ___ 13 November.'",
+      "options": [
+        "Marta will update the runbook on maximum 13 November.",
+        "Marta will update the runbook inside 13 November.",
+        "Marta will update the runbook until 13 November.",
+        "Marta will update the runbook by 13 November."
+      ],
+      "correct": 3,
+      "explanation": "«By 13 November» marca una fecha límite. «Until» indicaría que la acción continúa hasta ese día.",
+      "translation": "Marta actualizará el runbook a más tardar el 13 de noviembre."
+    },
+    {
+      "id": "b20-processes-next-steps-073",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "Which sentence records an owner and an action in the most concise way?",
+      "options": [
+        "Daniel takes as action to confirm about the maintenance window to infrastructure team.",
+        "The confirmation of maintenance window has Daniel as its action owner for the team.",
+        "Daniel will confirm the maintenance window with the infrastructure team.",
+        "Daniel confirms about the maintenance window."
+      ],
+      "correct": 2,
+      "explanation": "Una cláusula activa con nombre + «will» + verbo registra responsable y acción sin rodeos. «Confirm» no necesita «about».",
+      "translation": "Daniel confirmará la ventana de mantenimiento con el equipo de infraestructura."
+    },
+    {
+      "id": "b20-processes-next-steps-074",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "You need to propose, not impose, the next action. Which wording is best?",
+      "options": [
+        "My suggestion is that tomorrow we are obliged to make a joint revision.",
+        "I suggest that we review the open items together tomorrow.",
+        "I suggest us to review open items tomorrow.",
+        "I propose that you must review all open points with us tomorrow."
+      ],
+      "correct": 1,
+      "explanation": "Después de «suggest that», se usa la forma base: «we review». La propuesta colaborativa evita «must» y «obliged».",
+      "translation": "Sugiero que mañana revisemos juntos los elementos pendientes."
+    },
+    {
+      "id": "b20-processes-next-steps-075",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "A customer action is optional. Which sentence communicates that clearly?",
+      "options": [
+        "If useful, your team can comment in the document.",
+        "In case of utility, comments may be put by your team inside the sharing document.",
+        "If useful, your team can add comments directly to the shared document.",
+        "Your team can add comments directly on the document if you will find it useful."
+      ],
+      "correct": 2,
+      "explanation": "«If useful» y «can» presentan la acción como opcional. «Shared document» es el adjetivo correcto, no «sharing document».",
+      "translation": "Si les resulta útil, su equipo puede añadir comentarios directamente en el documento compartido."
+    },
+    {
+      "id": "b20-processes-next-steps-076",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "Which question confirms ownership without sounding confrontational?",
+      "options": [
+        "Do you accept to lead this action that nobody else is owning?",
+        "Are you comfortable taking the lead on this action?",
+        "Will you take this action because it belongs to your side?",
+        "Are you disposed to lead this action?"
+      ],
+      "correct": 1,
+      "explanation": "«Are you comfortable + gerundio?» comprueba disponibilidad con tacto. «Take the lead on» es una colocación profesional.",
+      "translation": "¿Les parece bien liderar esta acción?"
+    },
+    {
+      "id": "b20-processes-next-steps-077",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "You want to leave a deadline open for agreement. Which sentence is best?",
+      "options": [
+        "We can accord a deadline after estimating effort.",
+        "We will define a final date when the estimation of efforts would be already done.",
+        "We can accord a convenient due date once the effort will be estimated.",
+        "We can agree a suitable deadline once the effort has been estimated."
+      ],
+      "correct": 3,
+      "explanation": "«Agree a suitable deadline» y «once ... has been estimated» son naturales. En la subordinada temporal no se usa «will».",
+      "translation": "Podemos acordar un plazo adecuado una vez que se haya estimado el esfuerzo."
+    },
+    {
+      "id": "b20-processes-next-steps-078",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "Which sentence makes the dependency between two next steps explicit?",
+      "options": [
+        "When the scope would be approved from you, the final plan can get prepared by us.",
+        "Once you will approve, we prepare the final plan.",
+        "Once you will approve the scope, we can prepare the definitive plan of implementation.",
+        "Once you approve the scope, we can prepare the final implementation plan."
+      ],
+      "correct": 3,
+      "explanation": "Tras «once» se usa presente simple. La estructura muestra con claridad que la preparación depende de la aprobación.",
+      "translation": "Una vez que aprueben el alcance, podremos preparar el plan de implantación definitivo."
+    },
+    {
+      "id": "b20-processes-next-steps-079",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "A meeting produced several actions. How should you introduce them in writing?",
+      "options": [
+        "In the following you can find summarized the actions with who owns and when due.",
+        "Below is a resume of actions, owners and dates.",
+        "Below is a summary of the agreed actions, owners and due dates.",
+        "Down below are the agreements of action, their proprietary people and deadline dates."
+      ],
+      "correct": 2,
+      "explanation": "«Below is a summary of...» es una apertura estándar. «Agreed actions, owners and due dates» usa términos profesionales concisos; «resume» y «responsibles» son falsos amigos.",
+      "translation": "A continuación figura un resumen de las acciones acordadas, sus responsables y las fechas límite."
+    },
+    {
+      "id": "b20-processes-next-steps-080",
+      "topic": "Next steps · Actions, owners and deadlines",
+      "question": "You need to confirm that no action is required from the customer yet. Which sentence is clearest?",
+      "options": [
+        "Your team has not an action in this moment; we contact you if an input will be needed.",
+        "There is no action for your team at this stage; we will contact you when input is needed.",
+        "No action is required from your side for now, until we will ask something from you.",
+        "At this stage you do not need doing anything; we advise when your collaboration becomes necessary."
+      ],
+      "correct": 1,
+      "explanation": "«There is no action for your team at this stage» es claro y neutral. Tras «when» con sentido futuro se usa presente simple.",
+      "translation": "En esta fase su equipo no tiene que realizar ninguna acción; nos pondremos en contacto cuando necesitemos su aportación."
+    },
+    {
+      "id": "b20-processes-next-steps-081",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "You need to identify a blocker without assigning blame. Which sentence is best?",
+      "options": [
+        "The next step is blocked because your team did not give us the access we asked for.",
+        "There is a blockage since we continue without receiving access from your side.",
+        "The next step is currently blocked because the required access has not yet been granted.",
+        "The process cannot advance due to the access is still not granted by the responsible people."
+      ],
+      "correct": 2,
+      "explanation": "La pasiva «has not yet been granted» centra el mensaje en el requisito pendiente, no en culpar a una persona. «Because» introduce correctamente la oración.",
+      "translation": "El siguiente paso está actualmente bloqueado porque todavía no se ha concedido el acceso necesario."
+    },
+    {
+      "id": "b20-processes-next-steps-082",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "Complete the contingency statement: 'If the primary contact is unavailable, we will reach out ___ the backup contact.'",
+      "options": [
+        "We will reach out with the backup contact.",
+        "We will reach out at the backup contact.",
+        "We will reach out to the backup contact.",
+        "We will reach out towards the backup contact."
+      ],
+      "correct": 2,
+      "explanation": "La expresión correcta es «reach out to someone», que significa ponerse en contacto con alguien.",
+      "translation": "Si el contacto principal no está disponible, nos pondremos en contacto con la persona de respaldo."
+    },
+    {
+      "id": "b20-processes-next-steps-083",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "Which sentence proposes a workaround clearly and cautiously?",
+      "options": [
+        "Like workaround in the meantime, we can use the logs while access is recuperated again.",
+        "As a temporary workaround, we can use the exported logs until direct access is restored.",
+        "For a provisional solution, exported registers can substitute perfectly the direct access.",
+        "As temporal workaround, we will use exported logs until direct access will restore."
+      ],
+      "correct": 1,
+      "explanation": "«As a temporary workaround» introduce una solución provisional. Tras «until» se usa presente simple y «restored» es el verbo natural para el acceso.",
+      "translation": "Como solución temporal, podemos utilizar los registros exportados hasta que se restablezca el acceso directo."
+    },
+    {
+      "id": "b20-processes-next-steps-084",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "A risk may affect the timeline, but it has not caused a delay yet. Choose the best update.",
+      "options": [
+        "This may affect the timeline, although it has not caused any delay so far.",
+        "This is delaying the timeline, although until now no delay has happened.",
+        "The timeline will probably be delayed by this risk, even no delay exists currently.",
+        "This could affect to the planning, despite it did not cause a delay yet."
+      ],
+      "correct": 0,
+      "explanation": "«May affect» describe un riesgo, no un hecho. «Although» introduce una oración y «so far» combina bien con present perfect.",
+      "translation": "Esto puede afectar al calendario, aunque hasta ahora no ha causado ningún retraso."
+    },
+    {
+      "id": "b20-processes-next-steps-085",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "You need to ask for help removing a blocker. Which request sounds most collaborative?",
+      "options": [
+        "Could your team help us confirm the correct access group?",
+        "Could your team help confirming the correct group?",
+        "Can your team solve the blocker by telling us which access group is correct?",
+        "We need that your team helps us to confirm which is the group of correct access."
+      ],
+      "correct": 0,
+      "explanation": "«Could your team help us + verbo?» es una petición colaborativa. En la pregunta indirecta se usa «the correct access group», sin inversión.",
+      "translation": "¿Podría su equipo ayudarnos a confirmar cuál es el grupo de acceso correcto?"
+    },
+    {
+      "id": "b20-processes-next-steps-086",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "Which sentence explains what will happen if a dependency is not met?",
+      "options": [
+        "If approval will not be received until noon, we move the change at the following window available.",
+        "If approval is not received by noon, we will move the change to the next available window.",
+        "Without approval by noon, the change would pass to the next window that will be available.",
+        "If we do not receive the approbation at noon, we delay the change for next possible maintenance."
+      ],
+      "correct": 1,
+      "explanation": "En el primer condicional se usa presente simple tras «if» y «will» en la consecuencia. «Move ... to the next available window» es natural y preciso.",
+      "translation": "Si no se recibe la aprobación antes del mediodía, trasladaremos el cambio a la siguiente ventana disponible."
+    },
+    {
+      "id": "b20-processes-next-steps-087",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "A blocker has been removed. Which update is most natural?",
+      "options": [
+        "Access is granted, so we can retake validation.",
+        "They granted the access, therefore we can retake again the validation from now.",
+        "The access has been given now, so we can restart again with validation works.",
+        "Access has now been granted, so we can resume the validation work."
+      ],
+      "correct": 3,
+      "explanation": "«Has now been granted» destaca el cambio reciente. «Resume the work» ya implica continuar y no necesita «again».",
+      "translation": "Ya se ha concedido el acceso, por lo que podemos reanudar el trabajo de validación."
+    },
+    {
+      "id": "b20-processes-next-steps-088",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "You want to distinguish a blocker from a minor issue. Which sentence is clearest?",
+      "options": [
+        "We should track this issue, although it is not blocking us for continuing forward.",
+        "This issue needs to be tracked, but it does not prevent us from continuing.",
+        "This incidence needs following, but it does not avoid us to continue.",
+        "This issue has to be controlled, but it does not impede that we continue with the process."
+      ],
+      "correct": 1,
+      "explanation": "La estructura es «prevent someone from + gerundio». «Needs to be tracked» comunica seguimiento sin presentar el problema como bloqueo.",
+      "translation": "Hay que hacer seguimiento de este problema, pero no nos impide continuar."
+    },
+    {
+      "id": "b20-processes-next-steps-089",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "A fallback plan exists. Which sentence introduces it most professionally?",
+      "options": [
+        "If the preferred option would not be available, our plan B consists in using the manual process.",
+        "If the preferred option is not available, our fallback is to use the manual process.",
+        "If there is no availability of the option preferred, the alternative is make a manual processing.",
+        "In case the favourite option fails, we fall back with doing the process manually."
+      ],
+      "correct": 1,
+      "explanation": "«If ... is not available» usa una condición real, y «our fallback is to...» presenta la alternativa con claridad. «Consist» llevaría «in».",
+      "translation": "Si la opción preferida no está disponible, nuestra alternativa es utilizar el proceso manual."
+    },
+    {
+      "id": "b20-processes-next-steps-090",
+      "topic": "Next steps · Blockers and contingencies",
+      "question": "You need to say that no contingency action is required now. Choose the best wording.",
+      "options": [
+        "We are monitoring the situation, but there is no need to activate the contingency plan at this point.",
+        "The situation is controlled, so the contingency plan will never need to be activated.",
+        "We are making monitoring of the situation, although there is no necessity for activating the contingency plan in this moment.",
+        "We are making monitoring, although there is no necessity to activate contingency in this point."
+      ],
+      "correct": 0,
+      "explanation": "«There is no need to + infinitive» es la estructura natural. «At this point» limita la afirmación al momento actual sin descartar cambios futuros.",
+      "translation": "Estamos supervisando la situación, pero en este momento no es necesario activar el plan de contingencia."
+    },
+    {
+      "id": "b20-processes-next-steps-091",
+      "topic": "Next steps · Recaps and closing",
+      "question": "You are ending a process explanation. Which sentence provides the clearest recap?",
+      "options": [
+        "For recapitulating, we will validate all data, investigate the findings and then share to you our recommendations.",
+        "For recapitulating, we validate the data, investigate findings and will share recommendations.",
+        "To recap, we will validate the data, investigate the findings and share our recommendations.",
+        "To resume, there will be validation, investigation and a sharing of our recommendations."
+      ],
+      "correct": 2,
+      "explanation": "«To recap» introduce un resumen de forma natural. Los tres verbos en futuro mantienen el paralelismo: «will validate, investigate and share».",
+      "translation": "En resumen, validaremos los datos, investigaremos los hallazgos y compartiremos nuestras recomendaciones."
+    },
+    {
+      "id": "b20-processes-next-steps-092",
+      "topic": "Next steps · Recaps and closing",
+      "question": "Complete the closing question: 'Does that give you a clear picture ___ what happens next?'",
+      "options": [
+        "Does that give you a clear picture for what happens next?",
+        "Does that give you a clear picture on what happens next?",
+        "Does that give you a clear picture about of what happens next?",
+        "Does that give you a clear picture of what happens next?"
+      ],
+      "correct": 3,
+      "explanation": "La colocación es «a clear picture of something». No se combina «about» con «of».",
+      "translation": "¿Les da esto una idea clara de lo que ocurre a continuación?"
+    },
+    {
+      "id": "b20-processes-next-steps-093",
+      "topic": "Next steps · Recaps and closing",
+      "question": "Which sentence invites questions about the workflow in a natural way?",
+      "options": [
+        "Before moving to the following point, do you have any doubt about some part of this process to clarify?",
+        "Before moving forward, do you have any doubt about some part of the process?",
+        "Prior to continue, is there a process part that you want I clarify?",
+        "Before we move on, is there any part of the process you would like me to clarify?"
+      ],
+      "correct": 3,
+      "explanation": "«Would like me to clarify» usa la estructura «would like + persona + to + verbo». En inglés profesional suele decirse «questions», no «doubts», para invitar consultas.",
+      "translation": "Antes de continuar, ¿hay alguna parte del proceso que quieran que aclare?"
+    },
+    {
+      "id": "b20-processes-next-steps-094",
+      "topic": "Next steps · Recaps and closing",
+      "question": "You want to check agreement on the next steps. Which question is most professional?",
+      "options": [
+        "Are everybody in alignment on the actions and their proprietary persons agreed now?",
+        "Are we all aligned on the actions and owners we have just discussed?",
+        "Do all of us agree ourselves with actions and who must make each one?",
+        "Are we all aligned about the actions and responsibles that we just accorded?"
+      ],
+      "correct": 1,
+      "explanation": "«Be aligned on» es una colocación profesional y «actions and owners» resume qué y quién. «We have just discussed» evita repetir «agreed» en la misma frase.",
+      "translation": "¿Estamos todos de acuerdo con las acciones y los responsables que acabamos de tratar?"
+    },
+    {
+      "id": "b20-processes-next-steps-095",
+      "topic": "Next steps · Recaps and closing",
+      "question": "A customer asks for a written record of the next steps. Which reply is best?",
+      "options": [
+        "Of course. I will send you a writing summary when the call will finish.",
+        "Yes, I send a written resume posterior to the call.",
+        "Certainly. After the call ends, a summary in written will be remitted to you.",
+        "Of course. I will send a written summary after the call."
+      ],
+      "correct": 3,
+      "explanation": "«A written summary» es la expresión natural. Tras «after» con referencia futura se usa presente simple: «after the call» o «after the call ends».",
+      "translation": "Por supuesto. Enviaré un resumen por escrito después de la llamada."
+    },
+    {
+      "id": "b20-processes-next-steps-096",
+      "topic": "Next steps · Recaps and closing",
+      "question": "Which closing sentence combines the immediate next step with a future update?",
+      "options": [
+        "We start today the validation and will update you once results will be available initially.",
+        "We are going to initiate validation today, then inform you when the initial result would be ready.",
+        "Validation will be started today, and when available the first results we actualize you.",
+        "We will start the validation today and update you once the initial results are available."
+      ],
+      "correct": 3,
+      "explanation": "La frase mantiene dos acciones paralelas con «will». Tras «once» se usa presente simple: «once ... are available».",
+      "translation": "Empezaremos hoy la validación y les informaremos cuando estén disponibles los resultados iniciales."
+    },
+    {
+      "id": "b20-processes-next-steps-097",
+      "topic": "Next steps · Recaps and closing",
+      "question": "You need to mention an unresolved point in the recap. Which sentence is clearest?",
+      "options": [
+        "Only remains open the final date, which will be confirmed posterior to meeting for approval.",
+        "The only open point is the final date, which we will confirm after the approval meeting.",
+        "The final date is the only point pendent and we will confirm it after approval will meet.",
+        "The unique open point is the definitive date, that we confirm after the approbation meeting."
+      ],
+      "correct": 1,
+      "explanation": "«The only open point is...» destaca el asunto pendiente. La oración de relativo con «which» y «after the meeting» suena natural.",
+      "translation": "El único punto pendiente es la fecha definitiva, que confirmaremos después de la reunión de aprobación."
+    },
+    {
+      "id": "b20-processes-next-steps-098",
+      "topic": "Next steps · Recaps and closing",
+      "question": "Which sentence closes the meeting without implying that every detail is final?",
+      "options": [
+        "With this all planning is covered, although details can refine while work will progress.",
+        "That closes the definitive plan, and details will be changed if problems appear.",
+        "That covers the current plan; we can refine the details as the work progresses.",
+        "This is all about the plan for now; later we make more precise its details during advancement."
+      ],
+      "correct": 2,
+      "explanation": "«The current plan» limita el alcance y «as the work progresses» permite ajustes. «Refine the details» es una colocación natural.",
+      "translation": "Eso cubre el plan actual; podemos precisar los detalles a medida que avance el trabajo."
+    },
+    {
+      "id": "b20-processes-next-steps-099",
+      "topic": "Next steps · Recaps and closing",
+      "question": "You want to confirm the date of the next checkpoint. What is the most natural question?",
+      "options": [
+        "Do we put the next control meeting in Tuesday by the morning?",
+        "Shall we program the check-in in Tuesday?",
+        "Are we scheduling next checkpoint at Tuesday in the morning time?",
+        "Shall we schedule the next check-in for Tuesday morning?"
+      ],
+      "correct": 3,
+      "explanation": "«Shall we...?» propone una acción conjunta. Para días se usa «on», pero con «Tuesday morning» tras «for» no hace falta artículo.",
+      "translation": "¿Programamos la próxima reunión de seguimiento para el martes por la mañana?"
+    },
+    {
+      "id": "b20-processes-next-steps-100",
+      "topic": "Next steps · Recaps and closing",
+      "question": "A customer confirms the plan. Which final response sounds warm and professional?",
+      "options": [
+        "Excellent, thank you. We continue as we spoke and will keep you information.",
+        "Great, thank you. We will proceed as agreed and keep you informed.",
+        "Perfect, thanks. We proceed like accorded and maintain you informed.",
+        "Very good. We will advance according the agreement and keep informing to you."
+      ],
+      "correct": 1,
+      "explanation": "«Proceed as agreed» y «keep you informed» son fórmulas profesionales naturales. «According» necesitaría «to» y «inform» no lleva «to» ante la persona.",
+      "translation": "Perfecto, gracias. Procederemos según lo acordado y les mantendremos informados."
+    }
+  ],
+  "category": "natural"
+}

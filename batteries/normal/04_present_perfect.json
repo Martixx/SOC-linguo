@@ -1,0 +1,428 @@
+{
+  "name": "04 · Present perfect · Normal",
+  "description": "30 preguntas para comunicar resultados con relevancia actual, avances recientes, experiencias y acciones desde un punto pasado hasta ahora.",
+  "version": 1,
+  "questions": [
+    {
+      "id": "b04-pp-001",
+      "topic": "Present perfect · Current result",
+      "question": "We ___ the initial triage, so we can now discuss the next steps.",
+      "options": [
+        "have completed",
+        "completed",
+        "are completing",
+        "complete"
+      ],
+      "correct": 0,
+      "explanation": "La acción ya terminó y su resultado importa ahora; usamos have completed.",
+      "translation": "Hemos completado el triaje inicial, así que ya podemos hablar de los siguientes pasos."
+    },
+    {
+      "id": "b04-pp-002",
+      "topic": "Present perfect · Current result",
+      "question": "Our analysts ___ three affected accounts so far.",
+      "options": [
+        "identified",
+        "have identified",
+        "identify",
+        "are identified"
+      ],
+      "correct": 1,
+      "explanation": "“So far” significa “hasta ahora” y conecta el periodo pasado con el presente; usamos have identified.",
+      "translation": "Nuestros analistas han identificado tres cuentas afectadas hasta ahora."
+    },
+    {
+      "id": "b04-pp-003",
+      "topic": "Present perfect · Customer decision",
+      "question": "The customer ___ the emergency containment action.",
+      "options": [
+        "approve",
+        "is approve",
+        "has approved",
+        "have approved"
+      ],
+      "correct": 2,
+      "explanation": "Nos interesa la aprobación actual, no cuándo ocurrió. Con sujeto singular usamos has approved.",
+      "translation": "El cliente ha aprobado la acción de contención de emergencia."
+    },
+    {
+      "id": "b04-pp-004",
+      "topic": "Present perfect · Current result",
+      "question": "We ___ the malicious domain at the proxy and the firewall.",
+      "options": [
+        "has blocked",
+        "have block",
+        "are block",
+        "have blocked"
+      ],
+      "correct": 3,
+      "explanation": "El bloqueo ya está aplicado y afecta a la situación actual; usamos have blocked.",
+      "translation": "Hemos bloqueado el dominio malicioso en el proxy y en el firewall."
+    },
+    {
+      "id": "b04-pp-005",
+      "topic": "Present perfect · Current result",
+      "question": "The containment actions ___ the number of malicious connections.",
+      "options": [
+        "have reduced",
+        "has reduced",
+        "have reduce",
+        "are reducing"
+      ],
+      "correct": 0,
+      "explanation": "El sujeto plural “actions” exige have. El resultado es visible ahora: have reduced.",
+      "translation": "Las acciones de contención han reducido el número de conexiones maliciosas."
+    },
+    {
+      "id": "b04-pp-006",
+      "topic": "Present perfect · Negative result",
+      "question": "The attacker ___ access since we reset the credentials.",
+      "options": [
+        "didn't regain",
+        "hasn't regained",
+        "doesn't regained",
+        "isn't regain"
+      ],
+      "correct": 1,
+      "explanation": "“Since” conecta el restablecimiento pasado con ahora; usamos hasn’t regained.",
+      "translation": "El atacante no ha recuperado el acceso desde que restablecimos las credenciales."
+    },
+    {
+      "id": "b04-pp-007",
+      "topic": "Present perfect · Passive voice",
+      "question": "No evidence of persistence ___ on the isolated host.",
+      "options": [
+        "has found",
+        "was finding",
+        "has been found",
+        "have been found"
+      ],
+      "correct": 2,
+      "explanation": "Es una pasiva de present perfect: has been + V3. “Evidence” es singular e incontable.",
+      "translation": "No se han encontrado evidencias de persistencia en el host aislado."
+    },
+    {
+      "id": "b04-pp-008",
+      "topic": "Present perfect · Status change",
+      "question": "The incident ___ to the monitoring phase.",
+      "options": [
+        "have moved",
+        "has move",
+        "is move",
+        "has moved"
+      ],
+      "correct": 3,
+      "explanation": "El cambio de estado tiene relevancia ahora. Con “incident” usamos has moved.",
+      "translation": "El incidente ha pasado a la fase de monitorización."
+    },
+    {
+      "id": "b04-pp-009",
+      "topic": "Present perfect · Just",
+      "question": "I ___ the updated timeline to everyone on the call.",
+      "options": [
+        "have just sent",
+        "have just send",
+        "has just sent",
+        "am just sending"
+      ],
+      "correct": 0,
+      "explanation": "“Just” expresa una acción muy reciente; con I usamos have just sent.",
+      "translation": "Acabo de enviar la cronología actualizada a todos los participantes de la llamada."
+    },
+    {
+      "id": "b04-pp-010",
+      "topic": "Present perfect · Already",
+      "question": "We ___ the compromised endpoint, so no further action is required from your team right now.",
+      "options": [
+        "already isolated",
+        "have already isolated",
+        "has already isolate",
+        "are already isolate"
+      ],
+      "correct": 1,
+      "explanation": "“Already” indica que la acción se completó antes de lo esperado y el resultado importa ahora: have already isolated.",
+      "translation": "Ya hemos aislado el endpoint comprometido, así que ahora mismo vuestro equipo no tiene que realizar ninguna otra acción."
+    },
+    {
+      "id": "b04-pp-011",
+      "topic": "Present perfect · Yet question",
+      "question": "___ your team ___ the proposed firewall change yet?",
+      "options": [
+        "Did / approved",
+        "Have / approve",
+        "Has / approved",
+        "Does / approved"
+      ],
+      "correct": 2,
+      "explanation": "En preguntas con present perfect usamos Has + sujeto singular + V3: Has your team approved... yet?",
+      "translation": "¿Ha aprobado ya vuestro equipo el cambio propuesto en el firewall?"
+    },
+    {
+      "id": "b04-pp-012",
+      "topic": "Present perfect · Yet negative",
+      "question": "The vendor ___ a security patch yet.",
+      "options": [
+        "didn't release",
+        "doesn't released",
+        "hasn't release",
+        "hasn't released"
+      ],
+      "correct": 3,
+      "explanation": "“Yet” en una negativa significa “todavía”. Usamos has not + V3: hasn’t released.",
+      "translation": "El proveedor todavía no ha publicado un parche de seguridad."
+    },
+    {
+      "id": "b04-pp-013",
+      "topic": "Present perfect · Since",
+      "question": "Since the last update, we ___ additional endpoint logs.",
+      "options": [
+        "have collected",
+        "have collect",
+        "collecting",
+        "has collected"
+      ],
+      "correct": 0,
+      "explanation": "“Since the last update” define un periodo que llega hasta ahora; usamos have collected.",
+      "translation": "Desde la última actualización, hemos recopilado registros adicionales de los endpoints."
+    },
+    {
+      "id": "b04-pp-014",
+      "topic": "Present perfect · So far",
+      "question": "So far, we ___ responses from six of the eight affected users.",
+      "options": [
+        "received",
+        "have received",
+        "are received",
+        "has received"
+      ],
+      "correct": 1,
+      "explanation": "“So far” exige normalmente present perfect porque el recuento puede seguir aumentando.",
+      "translation": "Hasta ahora, hemos recibido respuestas de seis de los ocho usuarios afectados."
+    },
+    {
+      "id": "b04-pp-015",
+      "topic": "Present perfect · Recent events",
+      "question": "Several users ___ similar phishing messages recently.",
+      "options": [
+        "have report",
+        "has reported",
+        "have reported",
+        "reporting"
+      ],
+      "correct": 2,
+      "explanation": "“Recently” presenta hechos recientes sin un momento pasado cerrado; usamos have reported.",
+      "translation": "Varios usuarios han informado recientemente de mensajes de phishing similares."
+    },
+    {
+      "id": "b04-pp-016",
+      "topic": "Present perfect · Unfinished period",
+      "question": "Over the past 24 hours, the platform ___ twelve high-severity alerts.",
+      "options": [
+        "has generate",
+        "have generated",
+        "is generated",
+        "has generated"
+      ],
+      "correct": 3,
+      "explanation": "El periodo “over the past 24 hours” llega hasta el presente; con sujeto singular usamos has generated.",
+      "translation": "Durante las últimas 24 horas, la plataforma ha generado doce alertas de severidad alta."
+    },
+    {
+      "id": "b04-pp-017",
+      "topic": "Present perfect · Since",
+      "question": "We ___ aware of the issue since the customer contacted us.",
+      "options": [
+        "have been",
+        "were",
+        "are being",
+        "has been"
+      ],
+      "correct": 0,
+      "explanation": "Con el estado “be aware” y un punto inicial introducido por since usamos have been.",
+      "translation": "Somos conscientes del problema desde que el cliente se puso en contacto con nosotros."
+    },
+    {
+      "id": "b04-pp-018",
+      "topic": "Present perfect · For",
+      "question": "The case ___ open for three days.",
+      "options": [
+        "remained",
+        "has remained",
+        "is remaining",
+        "have remained"
+      ],
+      "correct": 1,
+      "explanation": "“For three days” expresa una duración que continúa hasta ahora; usamos has remained.",
+      "translation": "El caso lleva abierto tres días."
+    },
+    {
+      "id": "b04-pp-019",
+      "topic": "Present perfect · Since",
+      "question": "The customer ___ multifactor authentication enabled since January.",
+      "options": [
+        "had",
+        "have had",
+        "has had",
+        "is having"
+      ],
+      "correct": 2,
+      "explanation": "La situación empezó en enero y sigue vigente. Con sujeto singular usamos has had.",
+      "translation": "El cliente tiene habilitada la autenticación multifactor desde enero."
+    },
+    {
+      "id": "b04-pp-020",
+      "topic": "Present perfect · For",
+      "question": "Our SOC ___ this environment for five years.",
+      "options": [
+        "monitored",
+        "have monitor",
+        "is monitored",
+        "has monitored"
+      ],
+      "correct": 3,
+      "explanation": "“For five years” expresa una duración hasta el presente. Con “our SOC” usamos has monitored.",
+      "translation": "Nuestro SOC monitoriza este entorno desde hace cinco años."
+    },
+    {
+      "id": "b04-pp-021",
+      "topic": "Present perfect · Experience",
+      "question": "___ you ever ___ an incident involving this type of malware?",
+      "options": [
+        "Have / handled",
+        "Did / handled",
+        "Has / handle",
+        "Do / handled"
+      ],
+      "correct": 0,
+      "explanation": "Para preguntar por experiencias hasta ahora usamos Have + sujeto + V3: Have you ever handled... ?",
+      "translation": "¿Has gestionado alguna vez un incidente relacionado con este tipo de malware?"
+    },
+    {
+      "id": "b04-pp-022",
+      "topic": "Present perfect · Never",
+      "question": "We ___ this indicator in the customer's environment before.",
+      "options": [
+        "never saw",
+        "have never seen",
+        "has never saw",
+        "didn't never see"
+      ],
+      "correct": 1,
+      "explanation": "“Never ... before” habla de experiencia hasta el presente. Usamos have never seen; seen es V3 de see.",
+      "translation": "Nunca hemos visto antes este indicador en el entorno del cliente."
+    },
+    {
+      "id": "b04-pp-023",
+      "topic": "Present perfect · Experience",
+      "question": "This is the most complex identity incident we ___.",
+      "options": [
+        "ever handled",
+        "has ever handle",
+        "have ever handled",
+        "are ever handling"
+      ],
+      "correct": 2,
+      "explanation": "Después de un superlativo usamos a menudo present perfect para hablar de la experiencia acumulada: have ever handled.",
+      "translation": "Este es el incidente de identidad más complejo que hemos gestionado."
+    },
+    {
+      "id": "b04-pp-024",
+      "topic": "Present perfect · Question",
+      "question": "How many endpoints ___ you ___ so far?",
+      "options": [
+        "did / isolated",
+        "has / isolate",
+        "do / isolated",
+        "have / isolated"
+      ],
+      "correct": 3,
+      "explanation": "El recuento “so far” llega hasta ahora; usamos have + V3: have you isolated.",
+      "translation": "¿Cuántos endpoints habéis aislado hasta ahora?"
+    },
+    {
+      "id": "b04-pp-025",
+      "topic": "Present perfect · Question",
+      "question": "Why ___ the detection rule ___ generating alerts?",
+      "options": [
+        "has / stopped",
+        "did / stopped",
+        "have / stop",
+        "does / stopped"
+      ],
+      "correct": 0,
+      "explanation": "Preguntamos por un cambio reciente con efecto actual. La estructura es has + sujeto + V3: has ... stopped.",
+      "translation": "¿Por qué ha dejado de generar alertas la regla de detección?"
+    },
+    {
+      "id": "b04-pp-026",
+      "topic": "Present perfect · Negative",
+      "question": "We ___ final approval from the system owner yet.",
+      "options": [
+        "didn't receive",
+        "haven't received",
+        "hasn't receive",
+        "don't received"
+      ],
+      "correct": 1,
+      "explanation": "La aprobación sigue pendiente ahora. Con “yet” usamos haven’t received.",
+      "translation": "Todavía no hemos recibido la aprobación final del propietario del sistema."
+    },
+    {
+      "id": "b04-pp-027",
+      "topic": "Present perfect · Negative",
+      "question": "The team ___ any additional compromised accounts so far.",
+      "options": [
+        "didn't found",
+        "haven't find",
+        "hasn't found",
+        "doesn't found"
+      ],
+      "correct": 2,
+      "explanation": "“So far” conecta con el presente. Con “the team” usamos has not + V3: hasn’t found.",
+      "translation": "Hasta ahora, el equipo no ha encontrado ninguna otra cuenta comprometida."
+    },
+    {
+      "id": "b04-pp-028",
+      "topic": "Past simple vs present perfect",
+      "question": "Choose the correct sentence for an action at a finished, specific time.",
+      "options": [
+        "We have blocked the IP address at 10:30 yesterday.",
+        "We have block the IP address at 10:30 yesterday.",
+        "We did blocked the IP address at 10:30 yesterday.",
+        "We blocked the IP address at 10:30 yesterday."
+      ],
+      "correct": 3,
+      "explanation": "Un momento pasado específico y terminado (“at 10:30 yesterday”) exige past simple: blocked.",
+      "translation": "Bloqueamos la dirección IP ayer a las 10:30."
+    },
+    {
+      "id": "b04-pp-029",
+      "topic": "Past simple vs present perfect",
+      "question": "Choose the best sentence for a result during the current, unfinished week.",
+      "options": [
+        "We have blocked three malicious domains this week.",
+        "We blocked three malicious domains last week.",
+        "We have block three malicious domains this week.",
+        "We did blocked three malicious domains this week."
+      ],
+      "correct": 0,
+      "explanation": "“This week” puede ser un periodo aún abierto; usamos have blocked para destacar el resultado acumulado hasta ahora.",
+      "translation": "Esta semana hemos bloqueado tres dominios maliciosos."
+    },
+    {
+      "id": "b04-pp-030",
+      "topic": "Past simple vs present perfect · Client update",
+      "question": "Choose the best client update.",
+      "options": [
+        "The customer has reported the issue at 08:00, and we sent three updates since then.",
+        "The customer reported the issue at 08:00, and we have sent three updates since then.",
+        "The customer did reported the issue at 08:00, and we have send three updates since then.",
+        "The customer reported the issue at 08:00, and we are sent three updates since then."
+      ],
+      "correct": 1,
+      "explanation": "Usamos past simple para la hora concreta (reported at 08:00) y present perfect para el periodo desde entonces hasta ahora (have sent ... since then).",
+      "translation": "El cliente informó del problema a las 08:00 y, desde entonces, hemos enviado tres actualizaciones."
+    }
+  ],
+  "category": "normal"
+}

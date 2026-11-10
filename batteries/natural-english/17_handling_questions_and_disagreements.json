@@ -1,0 +1,1408 @@
+{
+  "name": "17 · Handling questions and disagreements · Natural English",
+  "description": "100 microescenarios revisados para aclarar preguntas ambiguas, cuestionar supuestos, expresar desacuerdo con prudencia, negociar alcance y prioridades, responder con incertidumbre honesta, rebajar tensión y cerrar decisiones con clientes.",
+  "version": 2,
+  "questions": [
+    {
+      "id": "b17v2-questions-disagreements-001",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "A customer asks whether the incident is 'contained', but different teams use that term differently. What should you ask first?",
+      "options": [
+        "Can we agree that containment means the attacker has been removed, even though eradication work is still under way, for this customer review?",
+        "When you say contained, do you mean the affected host is isolated, the account is disabled, or all observed access paths are blocked?",
+        "Should we use the SOC definition of containment, since applying one standard will make the status easier to report?",
+        "Would you like us to mark the incident as contained now and refine the definition after the technical review?"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta aclara el significado operativo antes de confirmar el estado. Las alternativas imponen una definición o cierran el debate sin alinear criterios.",
+      "translation": "Cuando dices contenido, ¿te refieres a que el host afectado está aislado, la cuenta está deshabilitada o todas las vías de acceso observadas están bloqueadas?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-002",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "The client says, 'Check all privileged activity.' The environment contains several identity platforms. Which follow-up question best defines the request?",
+      "options": [
+        "Which platforms, account types, and time period should the review cover, and what outcome would make the activity relevant?",
+        "Would it be acceptable to use the SIEM's privileged-account list as the scope and review the previous thirty days?",
+        "Should we start with domain administrators and expand to other privileged identities if the first review finds anything unusual?",
+        "Do you want a complete export of privileged events, followed by a separate discussion about what should count as suspicious?"
+      ],
+      "correct": 0,
+      "explanation": "La respuesta concreta plataformas, identidades, periodo y criterio de relevancia. Las demás empiezan a ejecutar o presuponen el alcance.",
+      "translation": "¿Qué plataformas, tipos de cuenta y periodo debe cubrir la revisión, y qué resultado haría relevante la actividad?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-003",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "The report says 'critical servers', but the count is disputed. Complete the clarification that should appear in the review notes.",
+      "options": [
+        "Which business or technical criteria determine that a server is critical in your asset inventory?",
+        "Which servers would you prefer us to remove from the critical category for this reporting cycle?",
+        "Can we keep the current count while your team decides which systems should be treated as critical?",
+        "Does critical mean internet-facing in this report, even if the asset inventory uses a broader classification?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta busca el criterio de clasificación en la fuente autorizada. No negocia el número ni sustituye la definición del cliente.",
+      "translation": "¿Qué criterios de negocio o técnicos determinan que un servidor sea crítico en vuestro inventario de activos?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-004",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "The customer requests an 'immediate' response to medium-severity alerts. Which question turns that word into an actionable expectation?",
+      "options": [
+        "Can we interpret immediate as the fastest response the current queue allows without changing the agreed service levels, for now?",
+        "Should medium alerts receive the same response target as high alerts until we collect enough performance data?",
+        "Would a fifteen-minute acknowledgement satisfy the request, provided the investigation starts during the next available shift?",
+        "What acknowledgement and investigation times do you expect, and should they apply around the clock or only during service hours?"
+      ],
+      "correct": 3,
+      "explanation": "La opción correcta convierte un término ambiguo en tiempos y cobertura medibles. Las otras sugieren objetivos antes de conocer la expectativa.",
+      "translation": "¿Qué tiempos de acuse e investigación esperáis, y deben aplicarse las veinticuatro horas o solo durante el horario de servicio?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-005",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "Evidence shows a connection to the database, but query logs are unavailable. Which question prevents 'database access' from being overstated?",
+      "options": [
+        "Are you asking whether a session reached the database service, or whether data was actually queried, changed, or extracted?",
+        "Can we state that the database was accessed, then qualify the wording by noting that the exact queries are unknown?",
+        "Would you consider the connection itself sufficient to report database access while query-level evidence remains unavailable?",
+        "Should we answer at host level now and treat any successful network connection as confirmed access to the stored data?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta separa conectividad técnica de acceso a datos. Esa distinción evita responder con una certeza que la telemetría no permite.",
+      "translation": "¿Preguntas si una sesión llegó al servicio de base de datos o si realmente se consultaron, modificaron o extrajeron datos?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-006",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "A stakeholder asks for 'the root cause' two hours into an investigation. How should you clarify the expected deliverable?",
+      "options": [
+        "Would an initial hypothesis about the phishing email be enough to label the root cause in today's executive update?",
+        "Should we identify the earliest confirmed event as the root cause and document contributing factors in the final report?",
+        "Do you need the initial access method, the control failure that enabled it, or a broader causal analysis after the incident is closed?",
+        "Can we provide the most likely technical cause now, as long as we state that the investigation is still in progress, at present?"
+      ],
+      "correct": 2,
+      "explanation": "La respuesta distingue varios significados de causa raíz y los vincula al momento de la investigación. Las demás adelantan una conclusión.",
+      "translation": "¿Necesitas el método de acceso inicial, el fallo de control que lo permitió o un análisis causal más amplio cuando se cierre el incidente?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-007",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "The customer says a detection rule is 'too noisy'. Which question produces the most useful tuning requirement?",
+      "options": [
+        "Should we raise the threshold until the volume matches the team's current investigation capacity?",
+        "Would you prefer the rule to remain enabled only for privileged users and internet-facing systems?",
+        "Which alert patterns are not actionable, and what true activity must the rule continue to detect after tuning?",
+        "How many alerts would you like the rule to generate each week once the noisiest condition has been removed?"
+      ],
+      "correct": 2,
+      "explanation": "La pregunta identifica falsos positivos concretos y cobertura que debe conservarse. Las demás optimizan por volumen o capacidad sin criterio de riesgo.",
+      "translation": "¿Qué patrones de alerta no son accionables y qué actividad real debe seguir detectando la regla después del ajuste?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-008",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "A client asks the SOC to 'monitor the new application'. Before agreeing, what scope question is essential?",
+      "options": [
+        "Would coverage of production authentication and administrator events meet the request for initial monitoring?",
+        "Which logs, threats, user populations, environments, and escalation contacts should the monitoring service cover?",
+        "Can the application team send every available log first, so the SOC can determine the scope after ingestion?",
+        "Should we apply the standard monitoring package and add application-specific detections during the first service review?"
+      ],
+      "correct": 1,
+      "explanation": "La respuesta define fuentes, riesgos, población, entornos y escalado. Las alternativas convierten supuestos razonables en alcance acordado.",
+      "translation": "¿Qué registros, amenazas, poblaciones de usuarios, entornos y contactos de escalado debe cubrir el servicio de monitorización?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-009",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "A slide uses 'affected users' for alerted, compromised, and notified people. Pick the question that forces a precise definition.",
+      "options": [
+        "Can we use affected for every user in the incident scope and explain the different categories in the appendix?",
+        "In this slide, does affected mean users linked to alerts, users with confirmed compromise, or users who required notification?",
+        "Should we replace affected with impacted, since that term is broader and may avoid disagreement over the exact count?",
+        "Would you like the slide to show only confirmed users, even if the investigation has identified additional suspected accounts?"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta expone categorías posibles y obliga a elegir una definición. Cambiar de palabra o de recuento no resuelve la ambigüedad.",
+      "translation": "En esta diapositiva, ¿afectados significa usuarios vinculados a alertas, usuarios con compromiso confirmado o usuarios que necesitaron notificación?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-010",
+      "topic": "Questions and disagreements · Clarifying scope and definitions",
+      "question": "A manager says, 'We need a full investigation by tomorrow.' Which response clarifies both depth and deadline without sounding obstructive?",
+      "options": [
+        "To meet tomorrow's deadline, which questions must the review answer, and which deeper checks can follow in a second phase?",
+        "A full investigation normally takes longer, so we should move the deadline before discussing which questions matter most.",
+        "We will provide all confirmed findings tomorrow and describe the work as complete unless new evidence appears later.",
+        "We can deliver a full investigation tomorrow if the scope is limited to the evidence already available in the SIEM."
+      ],
+      "correct": 0,
+      "explanation": "La formulación negocia un resultado por fases y prioriza las preguntas esenciales. No promete una investigación completa con alcance artificial.",
+      "translation": "Para cumplir el plazo de mañana, ¿qué preguntas debe responder la revisión y qué comprobaciones más profundas pueden pasar a una segunda fase?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-011",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "Rare PowerShell activity came from a known administrator account. Select the answer that calibrates confidence without dismissing the alert.",
+      "options": [
+        "We cannot form any view until the administrator responds, because technical evidence alone cannot distinguish legitimate activity.",
+        "Yes. Rare PowerShell from a privileged account is enough to classify the activity as malicious while validation continues, while the administrator's explanation is still pending.",
+        "Not yet. The behavior is suspicious, but we need the command context and the administrator's change record before confirming intent.",
+        "Probably not. Known administrators commonly use PowerShell, so the alert should remain informational unless malware is found."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta separa sospecha de confirmación e identifica la evidencia que falta. Las demás afirman, descartan o suspenden el juicio en exceso.",
+      "translation": "Todavía no. El comportamiento es sospechoso, pero necesitamos el contexto del comando y el registro de cambios del administrador antes de confirmar la intención."
+    },
+    {
+      "id": "b17v2-questions-disagreements-012",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "A customer claims that an IP address on a threat feed proves compromise. How should you challenge the conclusion?",
+      "options": [
+        "Threat-intelligence matches are reliable indicators, so we should treat the endpoint as compromised until the customer disproves it.",
+        "The feed only proves that the address was risky at some point, so the network connection can be excluded from this incident.",
+        "We should wait for a second intelligence provider to list the same address before reviewing endpoint or network evidence.",
+        "The match increases suspicion, but we still need to confirm the connection context, timing, direction, and activity on the endpoint."
+      ],
+      "correct": 3,
+      "explanation": "Una coincidencia aporta contexto, no prueba por sí sola el compromiso. La respuesta pide correlación temporal, direccional y de endpoint.",
+      "translation": "La coincidencia aumenta la sospecha, pero aún debemos confirmar el contexto, el momento, la dirección de la conexión y la actividad del endpoint."
+    },
+    {
+      "id": "b17v2-questions-disagreements-013",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "Logs stop shortly before the suspected data transfer. The client asks you to confirm that no data left the network. What should you say?",
+      "options": [
+        "Because logging failed, we should assume that data was transferred and report the worst-case outcome to leadership.",
+        "The missing period makes the network evidence unusable, so no conclusion should be recorded about possible data movement.",
+        "We found no transfer in the available logs, but the coverage gap means we cannot confirm that no transfer occurred.",
+        "No transfer appears in the available logs, so the report should conclude that data did not leave the monitored network."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta distingue ausencia de evidencia de evidencia de ausencia y mantiene una conclusión útil con una limitación explícita.",
+      "translation": "No encontramos una transferencia en los registros disponibles, pero la brecha de cobertura impide confirmar que no se produjera ninguna."
+    },
+    {
+      "id": "b17v2-questions-disagreements-014",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "An executive asks whether the same actor is behind two incidents because both used scheduled tasks. Choose the most defensible reply.",
+      "options": [
+        "Attribute both incidents to the same actor provisionally, unless later evidence identifies different tooling or infrastructure.",
+        "Using the same persistence method makes a common actor likely, but it should remain an internal hypothesis pending comparison of infrastructure and tooling.",
+        "The shared technique is relevant, but it is too common for attribution without stronger overlaps in infrastructure, tooling, timing, or victimology.",
+        "Scheduled tasks are widely used, so the similarity has no investigative value and should not influence the comparison, unless another distinctive overlap emerges."
+      ],
+      "correct": 2,
+      "explanation": "La técnica común justifica comparar, pero no atribuir. La respuesta señala qué coincidencias adicionales aumentarían la confianza.",
+      "translation": "La técnica compartida es relevante, pero resulta demasiado común para atribuir sin coincidencias más sólidas en infraestructura, herramientas, tiempos o victimología."
+    },
+    {
+      "id": "b17v2-questions-disagreements-015",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "Complete the confidence assessment: an impossible-travel alert is accompanied by a successful MFA challenge.",
+      "options": [
+        "Confidence is moderate: the travel pattern is suspicious, but the MFA event may reflect legitimate approval, MFA fatigue, or a hijacked session.",
+        "Confidence is high because impossible travel and successful MFA together confirm that an attacker controlled the account.",
+        "Confidence is low because a successful MFA challenge normally shows that the legitimate user approved the access.",
+        "Confidence cannot be estimated until the user is interviewed, even if sign-in, device, and session evidence is already available, from the identity and device owners."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta expresa confianza moderada y explica alternativas compatibles con el MFA. Evita convertirlo en prueba de legitimidad o de compromiso.",
+      "translation": "La confianza es moderada: el patrón de viaje es sospechoso, pero el evento MFA puede reflejar una aprobación legítima, fatiga de MFA o una sesión secuestrada."
+    },
+    {
+      "id": "b17v2-questions-disagreements-016",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "The customer says, 'Your alert missed the attack because it fired after the file was executed.' Which question tests that assumption fairly?",
+      "options": [
+        "Was the rule designed to detect delivery, execution, or post-execution behavior, and when did each required data source become available?",
+        "Would you accept the alert as timely if the analyst started investigating within the contractual response target?",
+        "Should we compare the firing time with similar rules before deciding whether this particular detection actually missed the attack, today?, across the same required data sources.",
+        "Can we agree that any alert after execution is late, regardless of the detection objective or telemetry latency?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta contrasta el objetivo de detección y la disponibilidad de datos. Una alerta posterior a la ejecución no implica por sí sola un fallo.",
+      "translation": "¿La regla estaba diseñada para detectar la entrega, la ejecución o el comportamiento posterior, y cuándo estuvo disponible cada fuente de datos necesaria?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-017",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "A malware sandbox returns 'clean', and the client wants to close the case. How should you express the limitation?",
+      "options": [
+        "The file is probably benign because a controlled execution is more reliable than the contextual endpoint evidence around it.",
+        "The sandbox found no malicious behavior in that run, but evasion, missing dependencies, or different execution conditions could still affect the result.",
+        "The clean verdict lowers the risk enough to close the case, provided the file hash is retained for future comparison, in the current investigation record.",
+        "Sandbox evasion is common enough that a clean run should not influence closure unless several engines agree."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta usa el resultado como evidencia, pero acota lo que demuestra una sola ejecución. Las alternativas lo absolutizan o lo descartan.",
+      "translation": "El sandbox no observó comportamiento malicioso en esa ejecución, pero la evasión, dependencias ausentes u otras condiciones aún podrían afectar al resultado."
+    },
+    {
+      "id": "b17v2-questions-disagreements-018",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "The EDR and network tools show conflicting isolation statuses. Which verification question belongs in the incident record?",
+      "options": [
+        "Should we report isolation because the EDR console records the requested action, even though the network tool disagrees?",
+        "Can we use the newest timestamp as the current state without checking whether both systems measure the same control or enforcement mechanism?",
+        "Would it be safer to report isolation as failed until both tools display exactly the same status and time?",
+        "Which system is the source of truth for isolation status, and what timestamp or connectivity test confirms the host's current state?"
+      ],
+      "correct": 3,
+      "explanation": "La pregunta identifica la fuente autorizada y pide verificación directa. No confunde una solicitud, una lectura reciente o una discrepancia con el estado real.",
+      "translation": "¿Qué sistema es la fuente de referencia para el estado del aislamiento y qué marca de tiempo o prueba de conectividad confirma el estado actual del host?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-019",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "The client asks you to remove 'likely' from a finding because it sounds weak. Which response protects accuracy while addressing the concern?",
+      "options": [
+        "We should keep 'likely' without further explanation, since confidence language must not be adapted for executive audiences.",
+        "Remove the confidence term and present only the evidence, allowing readers to decide how certain the finding is, from the same evidence set.",
+        "We can replace 'likely' with 'confirmed' because the body of the report already describes the remaining uncertainty.",
+        "We can explain the supporting evidence more clearly, but 'likely' should remain unless we obtain evidence that justifies a confirmed conclusion."
+      ],
+      "correct": 3,
+      "explanation": "La formulación conserva la confianza calibrada y ofrece mejorar la explicación. Cambiar u ocultar la etiqueta distorsionaría la evidencia.",
+      "translation": "Podemos explicar con más claridad la evidencia de apoyo, pero debe mantenerse «probable» salvo que obtengamos pruebas que justifiquen una conclusión confirmada."
+    },
+    {
+      "id": "b17v2-questions-disagreements-020",
+      "topic": "Questions and disagreements · Evidence, assumptions, and confidence",
+      "question": "A client says, 'No antivirus alert means the endpoint was clean.' Identify the most useful challenge.",
+      "options": [
+        "Which behaviors and artifacts were covered by the antivirus, and what independent evidence have we checked for activity outside that coverage?",
+        "Should we run a second antivirus product and accept the endpoint as clean if both tools return the same result, currently?",
+        "Can we describe the endpoint as clean for malware while leaving identity and network activity outside the conclusion?",
+        "Would you agree that modern antivirus should detect the most relevant threats when signatures and engines are fully updated?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta examina cobertura y evidencia independiente. No convierte la ausencia de una alerta en una conclusión general sobre el endpoint.",
+      "translation": "¿Qué comportamientos y artefactos cubría el antivirus y qué evidencia independiente hemos revisado para detectar actividad fuera de esa cobertura?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-021",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "A global domain block is being discussed, but business dependencies are unknown. Choose the sentence to use before approval.",
+      "options": [
+        "Block the domain at the perimeter now and investigate business dependencies only if disruption is reported.",
+        "Should we start with a DNS block through the emergency change process because it is easier to reverse than coordinated email, proxy, and endpoint changes?",
+        "Monitor the domain until every application owner confirms that no business process depends on it.",
+        "Before the global block, check current dependencies and define an emergency exception with an owner, approval route, and expiry."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta conserva urgencia y añade una excepción gobernada con propietario y caducidad. No bloquea a ciegas ni retrasa toda medida.",
+      "translation": "Antes del bloqueo global, comprobemos las dependencias actuales y definamos una excepción urgente con responsable, ruta de aprobación y caducidad."
+    },
+    {
+      "id": "b17v2-questions-disagreements-022",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "A customer asks for 'more detail' in the daily update. Which follow-up question is most likely to improve the next report?",
+      "options": [
+        "Should we expand each section by one paragraph while keeping the current audience and report structure unchanged?",
+        "Can you identify which statements felt too brief, so we can add technical evidence without changing the summary?",
+        "Which decisions should the added detail support: technical investigation, business impact, recovery planning, or executive oversight?",
+        "Would adding the complete event timeline and all observed indicators provide the level of detail you need?"
+      ],
+      "correct": 2,
+      "explanation": "La pregunta vincula el detalle a una decisión y audiencia. Añadir volumen o pedir ejemplos aislados puede no resolver la necesidad.",
+      "translation": "¿Qué decisiones debe apoyar el detalle añadido: investigación técnica, impacto de negocio, planificación de recuperación o supervisión ejecutiva?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-023",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "The customer says, 'Escalate anything unusual.' What should you establish before operationalizing the request?",
+      "options": [
+        "Can we use the existing anomaly score as the threshold and escalate only events rated high by the analytics platform?",
+        "Which deviations matter, who should receive them, and what urgency and evidence threshold should trigger an escalation?",
+        "Should analysts escalate every event outside the thirty-day baseline and let the customer decide which deviations matter?",
+        "Would a daily digest of uncommon events meet the request without changing the current incident escalation process?"
+      ],
+      "correct": 1,
+      "explanation": "La respuesta define relevancia, destinatario, urgencia y umbral. Las alternativas delegan el filtrado o convierten una puntuación en criterio suficiente.",
+      "translation": "¿Qué desviaciones importan, quién debe recibirlas y qué urgencia y umbral de evidencia deben activar un escalado?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-024",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "Logging design is incomplete, yet the project needs initial monitoring. Which proposed first step is proportionate?",
+      "options": [
+        "Send the available logs now, and the SOC will create detections after observing the data for several weeks.",
+        "Delay monitoring until logging design is complete, because partial telemetry could create an inaccurate view of risk.",
+        "We can apply generic authentication rules first and treat application-specific threats as a later enhancement outside the launch scope, until tailored use cases are approved.",
+        "We can start by mapping the priority threats and decisions, then identify the minimum logs needed for initial coverage and the gaps that remain."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta propone cobertura mínima basada en amenazas y documenta carencias. Evita tanto esperar como ingerir datos sin propósito.",
+      "translation": "Podemos empezar trazando las amenazas y decisiones prioritarias, identificar los registros mínimos para la cobertura inicial y documentar las carencias restantes."
+    },
+    {
+      "id": "b17v2-questions-disagreements-025",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "The client asks for a 'simple yes-or-no answer' on whether recovery is safe. What should you say?",
+      "options": [
+        "No, recovery cannot be called safe until every uncertainty has been eliminated across the affected environment.",
+        "The decision belongs to the business, so the SOC should present the evidence and residual uncertainty without giving a yes-or-no recommendation itself.",
+        "I can give a recommendation, but first we should agree which safety conditions must be true and which residual uncertainties the business can accept.",
+        "Recovery is safe because malware scans passed and the latest backups are available for the affected systems."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta ofrece una conclusión condicionada a criterios y riesgo residual. No promete certeza absoluta ni evita la responsabilidad técnica.",
+      "translation": "Puedo dar una recomendación, pero antes debemos acordar qué condiciones de seguridad deben cumplirse y qué incertidumbres residuales puede aceptar el negocio."
+    },
+    {
+      "id": "b17v2-questions-disagreements-026",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "A stakeholder requests an hourly incident call but cannot say what should change between calls. Which question is most constructive?",
+      "options": [
+        "Should the SOC send a standard status deck before each call so that every workstream remains visible to stakeholders?",
+        "Would a two-hourly call be a better compromise, given that forensic work may not produce meaningful changes every hour?",
+        "Can we keep the hourly schedule and cancel individual calls whenever the incident commander has nothing new to report?",
+        "What decision or new information should each call support, and could written updates cover intervals with no material change?"
+      ],
+      "correct": 3,
+      "explanation": "La pregunta alinea la cadencia con decisiones y propone un canal alternativo. Las otras negocian frecuencia sin aclarar el propósito.",
+      "translation": "¿Qué decisión o información nueva debe apoyar cada llamada, y podrían las actualizaciones escritas cubrir los intervalos sin cambios relevantes?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-027",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "Complete the validation brief for the request 'prove the control works'.",
+      "options": [
+        "Which control objective, threat scenario, success criteria, environment, and observation period should the test cover?",
+        "Would one successful simulation in production be sufficient evidence that the control works as designed?",
+        "Should we test the most common attack path and treat any detected step as proof of effective control?",
+        "Can we provide the latest control-health dashboard instead of designing a separate validation exercise?"
+      ],
+      "correct": 0,
+      "explanation": "La respuesta convierte «probar» en un plan verificable. Una simulación, una detección parcial o un panel de salud no demuestran todo el objetivo.",
+      "translation": "¿Qué objetivo de control, escenario de amenaza, criterios de éxito, entorno y periodo de observación debe cubrir la prueba?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-028",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "A client asks for 'all relevant logs' for an investigation. Choose the question that best controls scope without withholding evidence.",
+      "options": [
+        "Would the alerts and correlated events already attached to the case be enough for the requested review?",
+        "Should we limit the export to sources that contributed directly to a confirmed finding in the current report?",
+        "Which investigative questions and time window should the export support, and are there privacy or volume constraints we must preserve?",
+        "Can we export every event for the affected assets and let the receiving team filter the data it considers relevant?"
+      ],
+      "correct": 2,
+      "explanation": "La pregunta define finalidad, periodo y restricciones antes de seleccionar datos. Las demás sobreincluyen o excluyen evidencia por adelantado.",
+      "translation": "¿Qué preguntas de investigación y periodo debe apoyar la exportación, y qué restricciones de privacidad o volumen debemos respetar?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-029",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "The phrase 'monitor closely' appears in the action plan. What is the strongest replacement question?",
+      "options": [
+        "What signal will be monitored, by whom, how often, and what threshold will trigger further action?",
+        "Can we state that enhanced monitoring will continue until no related alert has appeared for one week?",
+        "How many days should the SOC keep the asset on a watchlist before returning it to normal monitoring?",
+        "Would daily analyst review be close enough monitoring for the risk described in the action plan?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta transforma una intención vaga en señal, responsable, frecuencia y disparador. Las demás inventan plazos o mecanismos.",
+      "translation": "¿Qué señal se monitorizará, quién lo hará, con qué frecuencia y qué umbral activará nuevas medidas?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-030",
+      "topic": "Questions and disagreements · Ambiguous requests and competing expectations",
+      "question": "The client wants the SOC to 'own the risk' until a vulnerability is fixed. How should you clarify responsibilities?",
+      "options": [
+        "The SOC can own the risk temporarily if the infrastructure team remains responsible for deploying the corrective patch.",
+        "Would you like the SOC manager to accept the risk on behalf of the service until the next vulnerability review?",
+        "Can we record joint ownership between the SOC and system owner so that neither team is solely accountable for the delay, today?",
+        "The SOC can track and escalate the exposure, but who owns the remediation decision and any acceptance of the residual business risk?"
+      ],
+      "correct": 3,
+      "explanation": "La respuesta separa seguimiento operativo, remediación y aceptación de riesgo. El SOC no debe asumir autoridad de negocio por conveniencia.",
+      "translation": "El SOC puede seguir y escalar la exposición, pero ¿quién es responsable de remediarla y de aceptar cualquier riesgo residual para el negocio?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-031",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "The new control produced no alerts. Select the challenge that tests whether zero alerts really indicate effectiveness.",
+      "options": [
+        "A control cannot be considered effective without alerts, so run a production-safe test that forces at least one expected detection and validates delivery reliably.",
+        "The absence of alerts may be positive, but can we also verify that relevant activity occurred and the control had sufficient coverage to observe it?",
+        "We should compare alert volumes before and after deployment and accept the control if the later period remains lower.",
+        "No alerts usually indicate success, although we should wait another month before describing the control as fully effective."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta examina exposición y cobertura antes de interpretar cero alertas. Un periodo tranquilo no valida por sí solo la eficacia.",
+      "translation": "La ausencia de alertas puede ser positiva, pero ¿podemos verificar también que hubo actividad relevante y que el control tenía cobertura suficiente para observarla?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-032",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "A client concludes that analysts became slower because mean response time increased. A few complex cases dominated the month. How should you respond?",
+      "options": [
+        "Compare only high-severity cases across the same regions and analyst cohorts, because simpler alerts and assignment changes make the mean too sensitive to workload composition.",
+        "The mean increased, but the median and case mix will show whether typical analyst performance changed or a few complex cases drove the result.",
+        "The increase reflects several complex cases, so it should be removed from the performance report as an unrepresentative exception.",
+        "Analyst performance probably remained stable because unusual cases should not influence a fair monthly response metric."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta cuestiona la inferencia con mediana y mezcla de casos sin ocultar el aumento. Las demás excluyen datos o anticipan la conclusión.",
+      "translation": "La media aumentó, pero la mediana y la mezcla de casos mostrarán si cambió el rendimiento habitual o si el resultado se debe a unos pocos casos complejos."
+    },
+    {
+      "id": "b17v2-questions-disagreements-033",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "A user recognizes the alerted activity. Which reply treats that statement as evidence without making it conclusive?",
+      "options": [
+        "If the user recognizes the action, the alert can be closed as expected behavior without further technical checks.",
+        "Users may approve malicious activity unknowingly, so their statements should not affect the technical disposition of the alert.",
+        "Keep the alert open until the user's manager confirms that the activity was authorized for a valid business purpose, and confirms the stated business purpose.",
+        "The user's confirmation is important, but we should still verify that the activity, device, time, and method match the user's explanation."
+      ],
+      "correct": 3,
+      "explanation": "La confirmación del usuario es evidencia relevante, no suficiente por sí sola. La respuesta pide coherencia con datos técnicos y contexto.",
+      "translation": "La confirmación del usuario es importante, pero debemos verificar que la actividad, el dispositivo, la hora y el método coinciden con su explicación."
+    },
+    {
+      "id": "b17v2-questions-disagreements-034",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "Complete the polite correction: 'The attacker only had access for ten minutes, so the impact is minimal.'",
+      "options": [
+        "Duration is not useful for impact assessment; focus instead on privilege level and the sensitivity of reachable systems.",
+        "We should use the worst plausible impact until a complete event timeline proves what the attacker did during the session, within the confirmed access window.",
+        "The short duration limits opportunity, but impact depends on the privileges, actions completed, systems reached, and data available during those ten minutes.",
+        "Ten minutes is normally too short for material impact, although automated tools could have increased the attacker's speed."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta reconoce que la duración importa, pero no la confunde con impacto. Introduce los factores que permiten evaluarlo.",
+      "translation": "La corta duración limita la oportunidad, pero el impacto depende de los privilegios, las acciones realizadas, los sistemas alcanzados y los datos disponibles en esos diez minutos."
+    },
+    {
+      "id": "b17v2-questions-disagreements-035",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "The client believes a blocked login means the account is safe. Which statement best introduces the missing risk?",
+      "options": [
+        "Reset the password because a blocked login demonstrates that an attacker possesses the current credentials.",
+        "The account is safe from that source address, although other login attempts should remain under routine monitoring.",
+        "A blocked login shows the identity controls worked, so additional account action would be disproportionate without another alert, or evidence of successful follow-on access.",
+        "That login was blocked, but we should check for other sessions, tokens, devices, and authentication paths before declaring the account safe."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta reconoce el control exitoso y amplía la revisión a otras vías de acceso. No declara seguridad ni compromiso automáticamente.",
+      "translation": "Ese inicio de sesión fue bloqueado, pero debemos comprobar otras sesiones, tokens, dispositivos y vías de autenticación antes de declarar segura la cuenta."
+    },
+    {
+      "id": "b17v2-questions-disagreements-036",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "A customer argues that a vulnerability is low risk because it has no public exploit. What is the best counterpoint?",
+      "options": [
+        "Keep the rating low until intelligence confirms public exploitation against organizations with a comparable environment.",
+        "Public exploit availability matters, but exposure, required access, asset value, compensating controls, and credible private exploitation also affect risk.",
+        "Any vulnerability on an internet-facing system should be high risk, regardless of exploitability, environmental exposure, asset context, or compensating controls.",
+        "The vendor severity should decide the risk because it already incorporates exploit maturity and technical impact consistently."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta integra disponibilidad de exploit con contexto y controles. Las alternativas subordinan todo a un único factor.",
+      "translation": "La existencia de un exploit público importa, pero la exposición, el acceso requerido, el valor del activo, los controles compensatorios y la explotación privada creíble también afectan al riesgo."
+    },
+    {
+      "id": "b17v2-questions-disagreements-037",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "Incidents rose from one to two, and the draft says 'the threat doubled'. Which edit preserves the statistic without overstating it?",
+      "options": [
+        "The percentage is mathematically correct, but the base is too small to infer that the underlying threat level doubled from this change alone.",
+        "Describe an increase, but wait for at least three consecutive months before calling the higher count a trend.",
+        "Two incidents are insufficient for any interpretation, so the report should state that no month-on-month comparison is possible, for a defensible executive comparison.",
+        "The increase is only one incident, so the percentage should be removed because it is statistically misleading for executive reporting."
+      ],
+      "correct": 0,
+      "explanation": "La formulación conserva el dato y limita la inferencia. Un cambio de uno a dos no demuestra por sí solo que se duplique la amenaza.",
+      "translation": "El porcentaje es matemáticamente correcto, pero la base es demasiado pequeña para inferir solo con este cambio que el nivel de amenaza se duplicó."
+    },
+    {
+      "id": "b17v2-questions-disagreements-038",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "A client says, 'If the rule can miss anything, it is not useful.' What is the strongest response?",
+      "options": [
+        "Detection gaps are acceptable when the rule has a low false-positive rate and does not create excessive analyst workload, under the agreed operating threshold.",
+        "A useful rule can reduce risk without detecting every variant; we should measure its defined coverage, reliability, and role alongside other controls.",
+        "No rule can detect everything, so usefulness should be judged mainly by the number of confirmed alerts it produces.",
+        "The rule remains useful if analysts understand the gaps and hunting covers variants the detection cannot observe."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta rechaza la perfección como criterio y propone evaluar cobertura, fiabilidad y defensa en profundidad. Las otras sustituyen el objetivo por volumen o carga.",
+      "translation": "Una regla útil puede reducir el riesgo sin detectar todas las variantes; debemos medir su cobertura definida, su fiabilidad y su función junto a otros controles."
+    },
+    {
+      "id": "b17v2-questions-disagreements-039",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "The customer concludes that a patch caused an outage because the outage followed deployment. Which question tests causation without dismissing the concern?",
+      "options": [
+        "Can the application team confirm that no other change occurred, so we can record the patch as the most likely cause, currently?",
+        "What changed at the same time, and do the system logs, rollback result, or reproduction test link the patch to the failure?",
+        "Should we roll back the patch first and investigate only if the service does not recover after the rollback?",
+        "Would you agree that timing alone is insufficient, unless the vendor has documented the same outage after this patch?"
+      ],
+      "correct": 1,
+      "explanation": "La pregunta busca mecanismos y pruebas discriminantes. No niega la secuencia temporal, pero tampoco la convierte en causalidad.",
+      "translation": "¿Qué cambió al mismo tiempo y vinculan el parche con el fallo los registros del sistema, el resultado de la reversión o una prueba de reproducción?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-040",
+      "topic": "Questions and disagreements · Challenging conclusions constructively",
+      "question": "The organization passed its audit, and a stakeholder says the current finding therefore cannot be serious. Which disagreement is most professional?",
+      "options": [
+        "The audit result is relevant, but this finding concerns current evidence and may involve a scope, timing, or control objective the audit did not test.",
+        "A passed audit confirms compliance rather than security, so the technical finding should retain its original severity.",
+        "We should ask the auditor to reassess the control before presenting the finding as serious to business leadership.",
+        "Audits provide only point-in-time assurance, so their results should never influence a technical finding, even when the tested scope directly covers the current condition and period."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta respeta la auditoría y explica por qué puede no cubrir el hallazgo actual. No enfrenta cumplimiento y seguridad de forma absoluta.",
+      "translation": "El resultado de la auditoría es relevante, pero este hallazgo se basa en evidencia actual y puede afectar a un alcance, momento u objetivo de control que la auditoría no probó."
+    },
+    {
+      "id": "b17v2-questions-disagreements-041",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "No outage occurred, so a high-to-medium downgrade is proposed. Which question brings the discussion back to the agreed severity model?",
+      "options": [
+        "How are confidentiality, integrity, privilege, affected assets, and potential business impact weighted in the agreed severity model?",
+        "Should availability be the deciding factor for this customer because service interruption is the most visible business consequence?",
+        "Would medium be acceptable if we note that the incident remained high from a technical perspective but caused no operational disruption?",
+        "Can we keep the high severity until the investigation proves that no sensitive data was accessed or changed?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta vuelve al modelo acordado y considera varias dimensiones del impacto. Las demás negocian una etiqueta o privilegian un criterio.",
+      "translation": "¿Cómo pondera el modelo de severidad acordado la confidencialidad, la integridad, los privilegios, los activos afectados y el posible impacto de negocio?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-042",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "A customer says a critical vulnerability must be the SOC's top priority. A live identity incident is also under investigation. Give the best response.",
+      "options": [
+        "The critical rating should take precedence because standardized severity scores are more objective than an evolving incident assessment.",
+        "The vulnerability is important, but priority should compare current exploitation, business exposure, time sensitivity, and available containment across both issues.",
+        "The live incident should always come first because active threats create more immediate risk than unexploited vulnerabilities.",
+        "Give both issues the same priority and split analysts evenly until one workstream produces a decisive change in risk, and reassess allocation at each incident checkpoint."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta compara riesgo y urgencia reales sin convertir la categoría de vulnerabilidad o el carácter activo en regla absoluta.",
+      "translation": "La vulnerabilidad es importante, pero la prioridad debe comparar explotación actual, exposición del negocio, urgencia y contención disponible en ambos asuntos."
+    },
+    {
+      "id": "b17v2-questions-disagreements-043",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "The client disputes a high severity because the affected server is non-production. What context matters most?",
+      "options": [
+        "Does the asset owner consider the server important enough to justify a high rating in the current incident report?",
+        "What access, data, trust relationships, and paths into production does the server provide despite its non-production label?",
+        "Can we classify the server as medium value unless evidence shows that it directly processed production data?",
+        "Is the server excluded from production service levels, so we can reduce severity while keeping the same investigation depth?"
+      ],
+      "correct": 1,
+      "explanation": "La respuesta examina función y conectividad reales, no solo la etiqueta del entorno. Un sistema no productivo puede ser una vía relevante.",
+      "translation": "¿Qué accesos, datos, relaciones de confianza y vías hacia producción proporciona el servidor pese a su etiqueta de no productivo?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-044",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "Complete the policy discussion: an executive wants every incident involving an administrator account labelled critical.",
+      "options": [
+        "Would it be better to reserve critical for global administrators and classify all other privileged accounts as high by default?",
+        "We can classify all administrator incidents as critical and lower them later if the investigation confirms legitimate use.",
+        "Administrator accounts are high value, so a critical label is appropriate whenever a detection mentions one, regardless of outcome.",
+        "Privileged access raises potential impact, but should severity also reflect confirmed use, control effectiveness, scope, and the affected business service?"
+      ],
+      "correct": 3,
+      "explanation": "La respuesta reconoce el mayor riesgo y pide más dimensiones antes de fijar severidad. Las alternativas sustituyen evaluación por categorías automáticas.",
+      "translation": "El acceso privilegiado aumenta el impacto potencial, pero ¿debe la severidad reflejar también el uso confirmado, la eficacia de los controles, el alcance y el servicio afectado?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-045",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "The customer says a low-volume alert should be low priority. Which reply makes the key distinction?",
+      "options": [
+        "Low-volume alerts are often more valuable, so they should receive higher priority than frequent detections by default.",
+        "Alert frequency affects workload, but priority depends on the risk and time sensitivity of the behavior each alert represents.",
+        "Priority should follow the rule's configured severity, because volume is already considered during detection engineering.",
+        "Keep the alert low priority until it contributes to a confirmed incident or affects an asset classified as critical."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta separa frecuencia de riesgo y urgencia. Ni la rareza, ni la severidad configurada, ni la confirmación tardía deciden por sí solas.",
+      "translation": "La frecuencia de alertas afecta a la carga, pero la prioridad depende del riesgo y la urgencia del comportamiento que representa cada alerta."
+    },
+    {
+      "id": "b17v2-questions-disagreements-046",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "The SOC rates the event high; the business owner rates the impact low. Which question identifies the actual point of disagreement?",
+      "options": [
+        "Are we disagreeing about the likelihood, the technical consequence, the business consequence, or the thresholds in the rating model?",
+        "Should the SOC rating prevail because the analysts have more direct access to the incident evidence?",
+        "Would a medium rating be an acceptable compromise until both teams agree on the final business impact?",
+        "Can the business owner accept the low impact in writing while the SOC retains a high technical severity for its records?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta localiza la dimensión del desacuerdo. Mantener dos etiquetas o negociar una media no resuelve el razonamiento subyacente.",
+      "translation": "¿Discrepamos sobre la probabilidad, la consecuencia técnica, la consecuencia para el negocio o los umbrales del modelo de valoración?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-047",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "A client asks why an old unresolved finding is now a higher priority. Which explanation is best?",
+      "options": [
+        "Older findings receive higher priority when repeated deferrals make remediation governance more urgent, even if technical risk is unchanged.",
+        "Unresolved findings become more severe over time because delayed remediation steadily increases their technical impact.",
+        "The priority rose because the action is overdue, regardless of whether exposure, threat, or controls changed.",
+        "Age alone did not raise the priority; it rose because exposure, threat activity, asset use, or compensating controls changed."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta atribuye el cambio a factores de riesgo, no a la antigüedad. El retraso puede exigir gobierno sin alterar por sí solo la prioridad técnica.",
+      "translation": "La antigüedad por sí sola no elevó la prioridad; esta aumentó porque cambiaron la exposición, la actividad de amenaza, el uso del activo o los controles compensatorios."
+    },
+    {
+      "id": "b17v2-questions-disagreements-048",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "The customer wants a phishing incident rated low because the message was deleted. What should you establish before agreeing?",
+      "options": [
+        "If the message was removed before the user reported it, can we treat the deletion as successful containment and lower the rating?",
+        "Deletion reduces the likelihood of impact, so the incident can be low unless endpoint malware is later confirmed.",
+        "Should severity reflect the final outcome only, rather than the potential impact at the time the message was delivered?",
+        "Was the message opened, were credentials or tokens exposed, did deletion reach every mailbox, and is any related activity still present?"
+      ],
+      "correct": 3,
+      "explanation": "La respuesta verifica exposición, alcance y persistencia antes de rebajar. Eliminar el correo no demuestra que no hubiera interacción o actividad posterior.",
+      "translation": "¿Se abrió el mensaje, quedaron expuestos credenciales o tokens, llegó la eliminación a todos los buzones y sigue presente alguna actividad relacionada?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-049",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "Complete the explanation for handling a medium incident before a high one.",
+      "options": [
+        "Severity labels guide reporting rather than response order, so analysts may work incidents in whichever sequence is most efficient.",
+        "The high incident is already understood, whereas uncertainty in the medium incident justifies giving it immediate attention.",
+        "Severity describes impact, while operational priority also considers active progression, containment windows, dependencies, and the effort needed to reduce risk now.",
+        "The medium incident is easier to close, so completing it first will reduce the queue before work resumes on the high incident."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta distingue severidad de prioridad operativa y aporta criterios legítimos. No prioriza por facilidad, comodidad o mera incertidumbre.",
+      "translation": "La severidad describe el impacto, mientras que la prioridad operativa también considera la progresión activa, las ventanas de contención, las dependencias y el esfuerzo para reducir el riesgo ahora."
+    },
+    {
+      "id": "b17v2-questions-disagreements-050",
+      "topic": "Questions and disagreements · Severity, priority, and business impact",
+      "question": "A client proposes lowering severity because cyber insurance will cover the loss. How should you respond?",
+      "options": [
+        "Insurance transfers most business impact, so the SOC should focus severity on technical scope and service disruption.",
+        "Insurance should be considered only after technical severity is fixed, because financial controls belong outside incident impact analysis.",
+        "Reduce the rating if the policy clearly covers recovery costs and the estimated loss remains below the deductible, with documented confirmation from the insurer.",
+        "Insurance may reduce financial exposure, but it does not remove operational, legal, data, safety, or reputational consequences in the severity assessment."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta trata el seguro como mitigación parcial y conserva otras consecuencias. No lo excluye ni lo convierte en eliminación del impacto.",
+      "translation": "El seguro puede reducir la exposición financiera, pero no elimina las consecuencias operativas, legales, de privacidad o protección de datos, de seguridad y reputacionales en la evaluación de severidad."
+    },
+    {
+      "id": "b17v2-questions-disagreements-051",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "The client refuses to isolate a production host because of downtime. What is the best next question?",
+      "options": [
+        "What business function prevents isolation, and which alternative controls can reduce access while we define a safe containment window?",
+        "Can the business accept the incident risk in writing so the SOC can continue monitoring without changing the host?",
+        "Would network isolation be acceptable if the application team confirms that failover will preserve the service?",
+        "Should we delay containment until a maintenance window and increase alerting on the host in the meantime?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta identifica la restricción y busca controles alternativos y ventana segura. Las otras saltan a aceptación o a una única solución.",
+      "translation": "¿Qué función de negocio impide el aislamiento y qué controles alternativos pueden reducir el acceso mientras definimos una ventana de contención segura?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-052",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "A draft response opposes an organization-wide password reset after one account compromise. Which version is best supported?",
+      "options": [
+        "A broader reset is justified only by evidence of wider credential exposure; otherwise, target affected identities and remediate the exposure or compromise path they share.",
+        "Resetting only the confirmed account is proportionate because no other identity has yet been confirmed as compromised.",
+        "Reset all privileged accounts first, then use later evidence to decide whether standard user passwords require the same action, after the first reset results are reviewed.",
+        "Schedule the organization-wide reset outside business hours so disruption is controlled while the broad precaution is preserved."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta exige evidencia para ampliar el alcance y trata la vía común. Evita tanto el cambio masivo automático como el alcance demasiado estrecho.",
+      "translation": "Un restablecimiento más amplio solo se justifica si hay evidencia de una exposición generalizada; de lo contrario, hay que centrarse en las identidades afectadas y corregir la vía común de exposición o compromiso."
+    },
+    {
+      "id": "b17v2-questions-disagreements-053",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "The client asks to delete a suspicious file before collecting evidence. Which response balances containment and investigation?",
+      "options": [
+        "Disconnect the host, collect a full forensic image, and remove the file only after the image has been validated.",
+        "Evidence collection should come first because deleting the file could prevent us from identifying the malware family and initial access path.",
+        "We should prevent execution immediately, then capture the file and relevant context if doing so does not materially delay containment.",
+        "Delete the file now; endpoint telemetry and the hash will provide enough evidence for any later investigation."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta prioriza impedir ejecución y conserva evidencia cuando es compatible con la urgencia. Las otras absolutizan investigación o eliminación.",
+      "translation": "Debemos impedir la ejecución de inmediato y después capturar el archivo y su contexto si eso no retrasa de forma relevante la contención."
+    },
+    {
+      "id": "b17v2-questions-disagreements-054",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "Malicious traffic is linked to a cloud IP shared by several tenants. Which technical challenge should precede a block?",
+      "options": [
+        "Which legitimate services share the address, and can we block the malicious tenant, domain, path, or indicator more precisely?",
+        "Can we block the address for one hour and withdraw the rule if service monitoring detects disruption?, through the emergency firewall workflow.",
+        "Should we restrict the block to outbound traffic from the affected subnet to reduce collateral impact?",
+        "Does the intelligence confidence exceed the emergency threshold for blocking shared infrastructure?"
+      ],
+      "correct": 0,
+      "explanation": "La respuesta busca dependencias y un indicador más preciso. Los bloqueos temporales o parciales aún pueden afectar servicios compartidos.",
+      "translation": "¿Qué servicios legítimos comparten la dirección y podemos bloquear con más precisión el tenant, dominio, ruta o indicador malicioso?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-055",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "The application owner says patching is impossible this quarter. Which question opens a proportionate alternative?",
+      "options": [
+        "Would a web application firewall rule justify deferring the patch while leaving the current risk rating unchanged?",
+        "Should we disable the vulnerable feature, record the residual exposure separately, and consider the finding remediated until the vendor provides a safer update?",
+        "Which exploit paths can we remove or monitor now, and what date or trigger will require patching or a formal risk review?",
+        "Can the owner accept the vulnerability until next quarter if the SOC increases monitoring of the affected application?"
+      ],
+      "correct": 2,
+      "explanation": "La pregunta combina mitigación inmediata con compromiso fechado y gobierno. Las demás confunden un control provisional con cierre o aceptación válida.",
+      "translation": "¿Qué vías de explotación podemos eliminar o monitorizar ahora y qué fecha o desencadenante exigirá parchear o realizar una revisión formal del riesgo?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-056",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "A client wants to reimage a server immediately, but the intrusion path is unknown. Give the best advice.",
+      "options": [
+        "Capture a complete forensic image before containment, then rebuild only after analysis identifies every persistence mechanism.",
+        "Rebuilding from a clean image may remove artifacts, so first capture the evidence needed to understand entry and persistence unless active harm requires faster action.",
+        "Rebuild immediately because restoring a trusted system is more important than preserving evidence about the intrusion path.",
+        "Do not rebuild until the full intrusion path is proven, because an earlier rebuild could leave the underlying cause unresolved, and allow the same compromise to recur after restoration."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta condiciona la secuencia al daño activo y a la evidencia necesaria. No sacrifica seguridad por investigación ni exige certeza completa.",
+      "translation": "Reinstalar el servidor desde una imagen limpia puede eliminar artefactos; por eso, primero debemos capturar la evidencia necesaria para entender la entrada y la persistencia, salvo que el daño activo exija actuar antes."
+    },
+    {
+      "id": "b17v2-questions-disagreements-057",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "The customer prefers monitoring to disabling a compromised service account. Which question makes the operational trade-off explicit without accepting the risk by default?",
+      "options": [
+        "What process depends on the account, what actions can it perform, and can we restrict or rotate it while preserving the essential service?",
+        "How long is the business willing to accept monitoring as a substitute for disabling the compromised account?",
+        "Would high-fidelity alerting on every account action provide enough assurance to keep the service running unchanged?",
+        "Ask the application team to create a replacement account before the SOC confirms misuse, limiting the period of exposure, while preserving a rollback option."
+      ],
+      "correct": 0,
+      "explanation": "La pregunta estudia dependencia, privilegios y alternativas de reducción. Monitorizar no elimina la capacidad del atacante ni equivale a aceptación.",
+      "translation": "¿Qué proceso depende de la cuenta, qué acciones puede realizar y podemos restringirla o rotarla manteniendo el servicio esencial?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-058",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "Before accepting an IP block as proof of containment, which question should the incident lead ask?",
+      "options": [
+        "Has the firewall rule propagated to every enforcement point, and do packet or connection tests confirm the intended traffic is actually blocked?",
+        "Did alert volume fall after the change, and is that reduction enough to show the attacker lost access?",
+        "How long should the IP stay blocked before the incident moves from containment to recovery?",
+        "The block must be verified, but what other infrastructure, credentials, sessions, or protocols could bypass it?"
+      ],
+      "correct": 3,
+      "explanation": "La respuesta exige verificar el bloqueo y, sobre todo, buscar vías alternativas. Así separa la eficacia técnica de una regla de la contención completa.",
+      "translation": "Hay que verificar el bloqueo, pero ¿qué otra infraestructura, credenciales, sesiones o protocolos podrían eludirlo?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-059",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "The business proposes restoration before every persistence check is complete. Select the safest proportionate response.",
+      "options": [
+        "We can assess phased restoration if critical checks pass, enhanced monitoring is active, and rollback criteria are agreed for unresolved persistence risk.",
+        "The business may restore the system if it accepts the risk, while the SOC continues the remaining checks after service resumes.",
+        "Restoration should wait until every persistence mechanism has been ruled out, regardless of the service impact caused by continued downtime.",
+        "Restore from the latest clean backup now, because a trusted image removes the need to complete persistence checks on the old system."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta permite recuperación condicionada con comprobaciones, vigilancia y reversión. No exige certeza absoluta ni delega una decisión técnica sin salvaguardas.",
+      "translation": "Podemos evaluar una restauración por fases si se superan las comprobaciones críticas, se activa monitorización reforzada y se acuerdan criterios de reversión para el riesgo de persistencia pendiente."
+    },
+    {
+      "id": "b17v2-questions-disagreements-060",
+      "topic": "Questions and disagreements · Containment and remediation choices",
+      "question": "All known indicators are blocked, and the draft marks containment complete. Which edit distinguishes containment from eradication?",
+      "options": [
+        "Known indicators are blocked, so initial containment is complete; remaining access checks belong only to eradication, under the initial response checklist.",
+        "Containment remains incomplete until every compromised system is rebuilt and every credential is rotated.",
+        "Indicator blocking supports containment, but we must still limit attacker access and persistence; removing every root cause belongs to eradication.",
+        "Behavior-based monitoring should replace indicator blocking because historical artifacts do not contribute to containment."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta reconoce el bloqueo, exige limitar acceso y persistencia, y reserva la eliminación completa de causas para la erradicación.",
+      "translation": "El bloqueo de indicadores contribuye a la contención, pero aún debemos limitar el acceso y la persistencia del atacante; eliminar todas las causas raíz corresponde a la erradicación."
+    },
+    {
+      "id": "b17v2-questions-disagreements-061",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "The SOC provides monitoring and response, yet the client says it should have prevented the incident. Which reply is accountable without accepting an impossible guarantee?",
+      "options": [
+        "The SOC cannot guarantee prevention, but the incident timeline should determine whether stronger monitoring would probably have stopped the attack before impact occurred.",
+        "Let's separate the monitoring and response outcomes from preventive controls, then identify whether any detection or escalation commitment was missed.",
+        "We should review preventive controls only after confirming that every SOC process operated within the agreed service levels.",
+        "Prevention sits outside the SOC contract, so review only whether the monitoring and response service met its commitments."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta aclara alcance sin usarlo para evitar la revisión. Distingue prevención y compromisos reales de detección y respuesta.",
+      "translation": "Separemos los resultados de monitorización y respuesta de los controles preventivos e identifiquemos después si se incumplió algún compromiso de detección o escalado."
+    },
+    {
+      "id": "b17v2-questions-disagreements-062",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "A customer asks analysts to approve a business exception. How should the SOC respond?",
+      "options": [
+        "We can recommend approval when the residual technical risk is medium or lower under the standard scoring model.",
+        "The SOC can approve a temporary exception if compensating alerts are enabled and the expiry date is recorded in the case.",
+        "The system owner should approve it alone because the SOC has no role in decisions about operational risk acceptance.",
+        "We can provide the threat evidence and monitoring implications, but the authorized business owner must decide and document the exception."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta define el papel consultivo del SOC y conserva la autoridad del propietario. Tampoco excluye al SOC del análisis técnico.",
+      "translation": "Podemos aportar evidencia de amenaza e implicaciones para la monitorización, pero el responsable de negocio autorizado debe decidir y documentar la excepción."
+    },
+    {
+      "id": "b17v2-questions-disagreements-063",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "The client challenges an SLA breach because the source system delivered the alert late. What must be established?",
+      "options": [
+        "The service clock should start when the alert reaches the SIEM because analysts cannot respond to data they have not received.",
+        "Which timestamp starts the agreed clock, and should source delay be reported separately from SOC processing and response time?",
+        "End-to-end delay belongs to the source owner and should therefore be excluded from SOC service reporting.",
+        "Measure from event time in the customer report and from ingestion time in the internal SOC scorecard."
+      ],
+      "correct": 1,
+      "explanation": "La pregunta vuelve a la definición contractual y separa componentes del retraso. No cambia unilateralmente el reloj ni oculta latencia extremo a extremo.",
+      "translation": "¿Qué marca de tiempo inicia el reloj acordado y debemos informar el retraso de la fuente por separado del tiempo de procesamiento y respuesta del SOC?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-064",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "The statement 'the SOC owns log quality once data reaches the SIEM' needs a RACI-style clarification. Choose the best prompt.",
+      "options": [
+        "Can we map who owns log generation, transport, processing or parsing, field quality, use in detections, and remediation for each source?",
+        "Log quality needs one accountable owner, so assigning it to the SIEM team would avoid fragmented responsibility.",
+        "The source owner should own every quality issue because defects originate before data reaches the SOC platform.",
+        "The SOC owns parsing and detection, while the application team is responsible only for generating and transmitting events, and resolving field-quality defects it identifies."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta descompone la cadena de datos y asigna responsabilidades por etapa. Un único propietario simplificado dejaría huecos.",
+      "translation": "¿Podemos definir quién es responsable de la generación, el transporte, el procesamiento o parseo, la calidad de campos, el uso en detecciones y la corrección para cada fuente?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-065",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "The customer wants analysts to call the CEO for every critical alert. What should you ask before changing the process?",
+      "options": [
+        "Which confirmed conditions require executive notification, who validates them, and what backup route applies if the primary contact is unavailable?",
+        "Should only confirmed critical incidents trigger the call, while unvalidated critical alerts remain within the SOC escalation chain, for now?",
+        "Can we add the CEO to the critical-alert distribution list and continue using the existing validation process?",
+        "Would notification through the incident commander meet the requirement without giving analysts direct executive contact details?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta define condición, validación y ruta de respaldo. Las otras diseñan el proceso antes de acordar la necesidad de negocio.",
+      "translation": "¿Qué condiciones confirmadas requieren notificación ejecutiva, quién las valida y qué ruta alternativa se aplica si el contacto principal no está disponible?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-066",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "A client asks why the SOC did not investigate a log source that was never onboarded. Choose the most accountable answer.",
+      "options": [
+        "The source was not contracted, so the SOC could not reasonably be expected to investigate events that were never ingested, or represented as available in service reporting.",
+        "Coverage decisions belong to the customer, although the SOC can now onboard the source to prevent the same problem recurring.",
+        "That source was outside current coverage; we should confirm whether the gap was documented, communicated, and prioritized appropriately rather than implying it was monitored.",
+        "Record the missing log as a customer dependency because the investigation used every source available to the SOC."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta reconoce el límite y revisa si fue gobernado correctamente. No usa contrato o dependencia para eludir comunicación y priorización.",
+      "translation": "Esa fuente estaba fuera de la cobertura actual; debemos confirmar si la carencia estaba documentada, comunicada y priorizada correctamente, en lugar de dar a entender que se monitorizaba."
+    },
+    {
+      "id": "b17v2-questions-disagreements-067",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "The customer wants the SOC to close a finding that another team has marked complete. What verification question should come first?",
+      "options": [
+        "Should the SOC close the finding now and reopen it only if later monitoring shows the issue has returned?",
+        "Would confirmation from the control owner be sufficient when direct technical validation is unavailable?",
+        "What evidence shows the control is deployed in scope and effective against the condition that created the finding?",
+        "Can the remediation team provide a completion ticket so the SOC can align its status with the system of record?"
+      ],
+      "correct": 2,
+      "explanation": "La pregunta pide evidencia de despliegue y eficacia sobre el alcance. Un ticket o una declaración confirma actividad, no necesariamente remediación.",
+      "translation": "¿Qué evidencia demuestra que el control está desplegado en el alcance y es eficaz frente a la condición que originó el hallazgo?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-068",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "A manager asks analysts to bypass the ticketing process during a crisis. What is the safest constructive response?",
+      "options": [
+        "Analysts can use the incident chat as the official record and create tickets only for actions that remain open after the crisis.",
+        "During a crisis, speed takes priority over documentation, so analysts can reconstruct the record after containment is complete.",
+        "We should keep the full ticketing workflow because process exceptions create more risk than the time they save.",
+        "We can streamline approvals, but we still need a minimal record of decisions, owners, times, and actions for coordination and later review."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta reduce fricción sin perder trazabilidad mínima. Ni eliminar registros ni mantener toda la burocracia es proporcional.",
+      "translation": "Podemos simplificar las aprobaciones, pero seguimos necesitando un registro mínimo de decisiones, responsables, horarios y acciones para coordinarnos y revisar después."
+    },
+    {
+      "id": "b17v2-questions-disagreements-069",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "The phrase 'threat hunting will guarantee that no attacker remains' appears in a recovery plan. Which revision is accurate?",
+      "options": [
+        "A comprehensive hunt can provide reasonable assurance if it covers all critical systems, identities, and relevant techniques.",
+        "Threat hunting cannot prove absence, so it should not be used to support recovery or closure decisions.",
+        "We can guarantee that no known indicator remains after the hunt, while novel or unknown attacker behaviors remain outside that assurance.",
+        "Hunting can increase confidence by testing defined hypotheses, but its conclusion is limited by scope, telemetry, time, and the behaviors examined."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta explica el valor y los límites de la caza. No promete ausencia total ni invalida su contribución a decisiones.",
+      "translation": "La caza puede aumentar la confianza al probar hipótesis definidas, pero su conclusión está limitada por el alcance, la telemetría, el tiempo y los comportamientos examinados."
+    },
+    {
+      "id": "b17v2-questions-disagreements-070",
+      "topic": "Questions and disagreements · Service scope, process, and accountability",
+      "question": "For a formal post-incident review, which question evaluates accountability for a cross-functional delay fairly?",
+      "options": [
+        "Can we assign overall accountability to the incident manager while recording the contributing teams separately?",
+        "Which decision, dependency, handoff, or missing information caused each delay, and who had authority to remove each blocker at that time?",
+        "Should the service owner assign responsibility after comparing the timeline with each team's contractual obligations?",
+        "Which team missed the first deadline, and how much of the later delay can be traced to that missed handoff?, including any compounded waiting time."
+      ],
+      "correct": 1,
+      "explanation": "La pregunta analiza causas y autoridad por momento, evitando buscar un culpable único antes de revisar dependencias.",
+      "translation": "¿Qué decisión, dependencia, transferencia o información ausente causó cada retraso y quién tenía autoridad para eliminar cada bloqueo en ese momento?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-071",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "An executive asks, 'Could this happen again tomorrow?' Select the answer that states residual risk and the conditions that would reduce it.",
+      "options": [
+        "The same incident could always happen again, so the useful question is whether the organization can detect and contain it faster.",
+        "It is unlikely to recur tomorrow because the known indicators are blocked and the affected systems are under enhanced monitoring.",
+        "We cannot answer until remediation is complete, since any estimate now would be speculative and could mislead leadership.",
+        "Yes, some risk remains; the likelihood depends on whether the access path, exposed credentials, and control gaps are closed before then."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta reconoce posibilidad, identifica condiciones que cambian el riesgo y evita falsa tranquilidad o evasión.",
+      "translation": "Sí, sigue existiendo cierto riesgo; la probabilidad depende de que se cierren antes la vía de acceso, las credenciales expuestas y las carencias de control."
+    },
+    {
+      "id": "b17v2-questions-disagreements-072",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "Technical evidence does not support reliable attribution. Which analytical statement is most useful for the written assessment?",
+      "options": [
+        "The behavior resembles a known group, so name it as a low-confidence hypothesis and revise the report if evidence changes.",
+        "Attribution is unnecessary for containment, so omit actor analysis until law enforcement requests it.",
+        "The actor is unknown, and further technical work is unlikely to produce information that changes the response.",
+        "We cannot attribute reliably; document observed objectives, capabilities, infrastructure, and the evidence that would change the assessment."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta mantiene honestidad y aporta un perfil útil y criterios de actualización. No fuerza una etiqueta ni cierra la investigación.",
+      "translation": "Todavía no podemos atribuir al actor de forma fiable; sí podemos describir los objetivos, capacidades e infraestructura observados y la evidencia que cambiaría esa valoración."
+    },
+    {
+      "id": "b17v2-questions-disagreements-073",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "The available telemetry supports only a range of 8,000–12,000 exposed records. Choose the wording for the customer update.",
+      "options": [
+        "Report the 10,000-record midpoint in the executive summary as the fairest estimate, while retaining the full range in the technical appendix.",
+        "The evidence supports 8,000 to 12,000 records; an exact figure would imply precision that the available logs do not provide.",
+        "We cannot provide any record count until database reconstruction produces a precise and defensible figure.",
+        "Report the upper bound because a conservative estimate is safer for legal notification and executive risk decisions."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta conserva el rango sustentado y explica su límite. Un máximo o punto medio no se convierte en cifra exacta por conveniencia.",
+      "translation": "La evidencia respalda un rango de 8.000 a 12.000 registros; una cifra exacta implicaría una precisión que los registros disponibles no ofrecen."
+    },
+    {
+      "id": "b17v2-questions-disagreements-074",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "The board asks whether the organization is 'safe now'. Choose the status statement that answers directly without promising absolute safety.",
+      "options": [
+        "State that the environment is stable and let the business decide whether the current conditions qualify as safe, against the stated business risk tolerance.",
+        "The immediate threat is contained based on current evidence, but residual risk remains in the unresolved access path and pending control improvements.",
+        "Yes, the organization is safe now because active malicious connections have stopped and affected accounts were disabled.",
+        "No organization is ever completely safe, so the board should focus on whether current risk is within tolerance."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta da estado, fundamento y riesgo residual. Evita tanto una garantía absoluta como una generalidad que no responde.",
+      "translation": "La amenaza inmediata está contenida según la evidencia actual, pero persiste riesgo residual en la vía de acceso no resuelta y las mejoras de control pendientes."
+    },
+    {
+      "id": "b17v2-questions-disagreements-075",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "The customer asks why the SOC did not notice the activity earlier. The timeline is incomplete. What is the best initial answer?",
+      "options": [
+        "We are still reconstructing the timeline; current possibilities include missing telemetry, rule coverage, processing delay, or activity below the detection threshold.",
+        "The activity was not visible to the SOC because the relevant source was unavailable during the earliest stage of the incident.",
+        "The attacker used a technique that bypassed existing rules, although we are still confirming exactly when the behavior began.",
+        "We should wait for the final review before discussing possible causes, because preliminary explanations may later prove incorrect."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta admite investigación abierta y presenta hipótesis diferenciadas como tales. No elige una causa sin evidencia ni evita contestar.",
+      "translation": "Seguimos reconstruyendo la cronología; las posibilidades actuales incluyen telemetría ausente, cobertura de reglas, retraso de procesamiento o actividad por debajo del umbral de detección."
+    },
+    {
+      "id": "b17v2-questions-disagreements-076",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "A stolen token has been revoked. Which answer explains what can and cannot be guaranteed about its earlier use?",
+      "options": [
+        "Token use cannot be ruled out reliably, so treat the account as compromised even if the available logs show no use, until independent evidence narrows the uncertainty.",
+        "We can provide reasonable assurance once the token is revoked and no related alerts appear during the next monitoring period.",
+        "We cannot guarantee that; we can state which uses we checked, where visibility is complete, and what gaps remain before and after revocation.",
+        "Yes, if identity logs show no token use between issuance and revocation across the monitored tenant."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta rechaza la garantía y sustituye certeza por cobertura verificable y carencias. Las otras absolutizan registros o ausencia de alertas.",
+      "translation": "No podemos garantizarlo; podemos indicar qué usos comprobamos, dónde es completa la visibilidad y qué carencias quedan antes y después de la revocación."
+    },
+    {
+      "id": "b17v2-questions-disagreements-077",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "The customer asks when the investigation will finish, but a third party controls key evidence. What should you say?",
+      "options": [
+        "We can finish the current report on schedule and open a separate investigation if the third-party evidence changes the findings, for this incident under agreed response procedures.",
+        "We should provide the requested date and treat any third-party delay as a documented reason for extending it later.",
+        "We can commit to the work under our control and give a forecast with assumptions, but the final date depends on receiving and validating the third-party evidence.",
+        "The investigation has no reliable end date until the third party delivers the evidence, so we should avoid a forecast."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta ofrece planificación condicionada y separa dependencias. No promete una fecha falsa ni renuncia a prever lo controlable.",
+      "translation": "Podemos comprometernos con el trabajo bajo nuestro control y dar una previsión con supuestos, pero la fecha final depende de recibir y validar la evidencia del tercero."
+    },
+    {
+      "id": "b17v2-questions-disagreements-078",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "An executive asks for the 'worst case'. Which question prevents an implausible scenario from dominating the discussion?",
+      "options": [
+        "Should we describe the maximum possible impact first and then explain why several assumptions may make it unlikely, for now?",
+        "Can we use the highest impact in the risk register as the worst case for this incident?",
+        "Would the most likely impact be more useful than a worst case while the investigation remains incomplete?",
+        "Do you need the maximum technically possible outcome or the most severe credible outcome supported by current access and evidence?"
+      ],
+      "correct": 3,
+      "explanation": "La pregunta distingue posibilidad extrema de escenario grave creíble. Así evita confundir capacidad teórica con exposición sustentada.",
+      "translation": "¿Necesitas el resultado máximo técnicamente posible o el resultado grave más creíble respaldado por el acceso y la evidencia actuales?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-079",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "The customer asks whether a deleted log was intentional tampering or a system fault. Evidence is inconclusive. Complete the answer.",
+      "options": [
+        "A system fault is more likely because the deletion affected a narrow retention window rather than clearing the whole log as an attacker normally would.",
+        "Both explanations remain possible; the timing raises concern, but we need administrative activity, system health, and retention evidence to distinguish them.",
+        "We should classify the cause as unknown and avoid discussing competing explanations until conclusive evidence appears.",
+        "Intentional tampering is more likely because the deletion occurred during the incident window and removed useful evidence."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta mantiene hipótesis, indica qué evidencia discrimina y no convierte coincidencia temporal en intención confirmada.",
+      "translation": "Ambas explicaciones siguen siendo posibles; el momento resulta preocupante, pero necesitamos actividad administrativa, estado del sistema y evidencia de retención para distinguirlas."
+    },
+    {
+      "id": "b17v2-questions-disagreements-080",
+      "topic": "Questions and disagreements · Difficult questions and honest uncertainty",
+      "question": "After one incident was detected quickly, complete the executive note on whether the control investment paid off.",
+      "options": [
+        "The investment paid off if estimated avoided loss exceeds the combined annual cost of the control and response team, using the same risk assumptions.",
+        "The rapid detection demonstrates that the investment achieved its primary purpose during a real incident.",
+        "One successful incident is too small a sample to provide any useful evidence about the control's value.",
+        "This incident shows a useful outcome, but assess the control against its objectives, coverage, reliability, avoided impact, and operating cost using broader evidence."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta usa el caso como evidencia positiva sin convertirlo en una evaluación completa. Propone contrastar objetivos, cobertura, fiabilidad, impacto evitado y coste con una base más amplia.",
+      "translation": "Este incidente muestra un resultado útil, pero debemos evaluar el control frente a sus objetivos, cobertura, fiabilidad, impacto evitado y coste operativo usando una base de evidencia más amplia."
+    },
+    {
+      "id": "b17v2-questions-disagreements-081",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "'Your team has failed us,' says a frustrated client. Which opening acknowledges the outcome without accepting unverified blame?",
+      "options": [
+        "I am sorry the outcome was disappointing, but the team followed the documented process and met the response target, for the response activities within its control.",
+        "I understand why the outcome is frustrating. Can we review the expected outcome, what happened, and where the response diverged from it?",
+        "We take the concern seriously and will investigate the team's performance before discussing the technical incident further.",
+        "The incident involved several teams, so it would be unfair to conclude that the SOC alone failed the organization."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta reconoce impacto sin admitir hechos no revisados y propone comparar expectativa y resultado. Las otras se defienden o desvían demasiado pronto.",
+      "translation": "Entiendo por qué el resultado resulta frustrante. ¿Podemos revisar el resultado esperado, lo que ocurrió y dónde se apartó la respuesta de esa expectativa?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-082",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "During a call, the customer says, 'You are not answering my question.' What should you say next?",
+      "options": [
+        "The question combines status, cause, and decision; let us finish the timeline first, then separate those issues before giving a direct answer in this call.",
+        "Please restate the question in one sentence so I can address exactly the point you consider unanswered.",
+        "Let me check that I understood it: are you asking what we know now, why it happened, or what decision you need to make next?",
+        "I answered from the evidence available; I can repeat the conclusion without the technical background."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta verifica la intención y ofrece tres marcos útiles sin culpar al interlocutor. Repetir, posponer o exigir reformulación puede aumentar tensión.",
+      "translation": "Permíteme comprobar que lo he entendido: ¿preguntas qué sabemos ahora, por qué ocurrió o qué decisión necesitas tomar a continuación?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-083",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "A demand for immediate attribution keeps interrupting the meeting. Which first sentence answers the concern and regains structure?",
+      "options": [
+        "I will answer attribution first: we cannot name an actor reliably; I will give the two missing evidence points, then the actions that do not depend on attribution.",
+        "We can name the leading hypothesis now if everyone accepts that the assessment may change after further analysis.",
+        "Attribution is not possible at this stage, so let us move to containment and revisit identity in the final report, after immediate response actions and owners have been confirmed.",
+        "Please let me finish the timeline; the attribution answer will be clearer once all evidence has been presented."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta contesta primero, limita la explicación y devuelve la reunión a decisiones. No evita la pregunta ni fuerza una atribución débil.",
+      "translation": "Responderé primero sobre la atribución: no podemos nombrar a un actor de forma fiable; explicaré las dos evidencias que faltan y después las acciones que no dependen de atribuir."
+    },
+    {
+      "id": "b17v2-questions-disagreements-084",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "The customer calls an analyst's conclusion 'obviously wrong'. What is the best professional reply?",
+      "options": [
+        "The conclusion follows the available evidence, so please provide new data before asking the analyst to change it.",
+        "We may be using different definitions, but calling the analysis wrong does not help us resolve the technical disagreement.",
+        "I will ask another analyst to review the case independently and decide which conclusion is better supported.",
+        "Let's compare the evidence and assumptions behind each view; which specific fact do you believe changes the conclusion?"
+      ],
+      "correct": 3,
+      "explanation": "La respuesta despersonaliza el desacuerdo y busca el hecho decisivo. No se pone a la defensiva ni delega antes de entender la objeción.",
+      "translation": "Comparemos la evidencia y los supuestos de cada postura; ¿qué hecho concreto crees que cambia la conclusión?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-085",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "The stakeholder says, 'I do not care about the technical details; just fix it.' Choose the first line that preserves urgency and alignment.",
+      "options": [
+        "We need the technical details to avoid causing more damage, so the team cannot act until the options are fully explained.",
+        "Understood. The immediate decision is whether to isolate the service now; the trade-off is brief downtime versus continued attacker access.",
+        "The fastest fix is isolation, but the business must accept any outage before the SOC can implement it.",
+        "We will proceed with the technically safest action and provide the details later in the incident report."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta reduce el detalle a decisión y compromiso esenciales. Mantiene al negocio informado sin descargarle toda la complejidad.",
+      "translation": "Entendido. La decisión inmediata es si aislamos el servicio ahora; la disyuntiva es una interrupción breve frente a mantener el acceso del atacante."
+    },
+    {
+      "id": "b17v2-questions-disagreements-086",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "During a recovery call, the client says, 'The SOC caused this delay,' although an application-owner decision was also pending. Which reply de-escalates the accusation?",
+      "options": [
+        "Let's defer responsibility to the post-incident review and keep this call limited to recovery tasks.",
+        "The SOC escalated within target; the record shows that another team was unavailable during the decision window.",
+        "I hear the concern. The delay had several contributors; for this call, let's confirm the next decision and owner, then review causes against the timeline.",
+        "We accept responsibility for the delay, although another team controlled the isolation approval; the shared timeline can be reviewed later with all decision owners formally."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta reconoce la preocupación, recupera el foco operativo y reserva el análisis causal para la cronología. Evita tanto culpar como admitir hechos no establecidos.",
+      "translation": "Entiendo la preocupación. El retraso tuvo varios factores; en esta llamada confirmemos la siguiente decisión y su responsable y después revisemos las causas con la cronología."
+    },
+    {
+      "id": "b17v2-questions-disagreements-087",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "A customer rejects your recommendation with, 'That will never work here.' What is the best follow-up?",
+      "options": [
+        "Which operational constraint makes it unworkable, and what outcome must an alternative still achieve?",
+        "Would you consider a pilot in one environment before ruling out the recommendation across the organization?",
+        "Can you suggest a workable alternative that provides an equivalent reduction in the identified risk?",
+        "Should we document the rejection and escalate the residual risk to the accountable business owner?"
+      ],
+      "correct": 0,
+      "explanation": "La pregunta explora la restricción y conserva el objetivo. Un piloto, una alternativa o un escalado pueden venir después de entender el impedimento.",
+      "translation": "¿Qué restricción operativa la hace inviable y qué resultado debe seguir consiguiendo una alternativa?"
+    },
+    {
+      "id": "b17v2-questions-disagreements-088",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "The customer says the report language is 'alarmist'. Which response is most likely to rebuild trust?",
+      "options": [
+        "Let's identify the phrases that overstate certainty or impact, then align them with the evidence and your agreed risk terminology.",
+        "The language reflects the severity of the evidence, although we can add more context to make the conclusions feel balanced.",
+        "Would you prefer neutral wording throughout, leaving severity labels to communicate the level of concern?",
+        "We can soften the wording while preserving the high rating and all technical conclusions in the current report."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta pide ejemplos y vuelve a evidencia y taxonomía. No promete suavizar, defender o neutralizar todo el informe de antemano.",
+      "translation": "Identifiquemos las frases que exageran la certeza o el impacto y alineémoslas con la evidencia y vuestra terminología de riesgo acordada."
+    },
+    {
+      "id": "b17v2-questions-disagreements-089",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "A severity-label dispute is consuming the call. Which intervention lets the chair progress without hiding the disagreement?",
+      "options": [
+        "The incident owner should choose one label now so the meeting can continue with a single reporting position, using the escalation route already defined for unresolved ratings.",
+        "Settle severity before any further action because escalation authority depends entirely on the final label.",
+        "Let's record the disputed rating, agree the immediate actions common to both levels, and send the threshold question to the defined owner.",
+        "Use critical temporarily so no action is delayed, then lower the rating if the later review supports it."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta evita que la etiqueta bloquee acciones coincidentes y conserva una vía de gobierno. No impone la categoría más alta por defecto.",
+      "translation": "Registremos la valoración en disputa, acordemos las acciones inmediatas comunes a ambos niveles y resolvamos después el umbral con el responsable definido."
+    },
+    {
+      "id": "b17v2-questions-disagreements-090",
+      "topic": "Questions and disagreements · De-escalating tense conversations",
+      "question": "A client says, 'I have heard enough caveats.' Which concise response keeps the conclusion accurate?",
+      "options": [
+        "The account was compromised, although device evidence is unavailable and could still change that conclusion.",
+        "The conclusion is that the account was probably compromised; the single material limitation is that device evidence is unavailable.",
+        "We cannot remove the caveats because they are necessary to prevent the conclusion from being misunderstood.",
+        "Our best view is compromise, and the detailed limitations can remain in the written report rather than the meeting."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta conduce con conclusión calibrada y conserva solo la limitación material. No transforma probabilidad en certeza ni oculta el límite.",
+      "translation": "La conclusión es que la cuenta probablemente fue comprometida; la única limitación relevante es que no se dispone de evidencia del dispositivo."
+    },
+    {
+      "id": "b17v2-questions-disagreements-091",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Monitoring is chosen instead of isolation. Complete the decision record so that authority, residual risk, and a reconsideration trigger are explicit.",
+      "options": [
+        "The customer has declined isolation, so the SOC will document the decision and continue the standard investigation process, with the residual risk and review trigger recorded in the case.",
+        "Enhanced monitoring is the agreed compromise until the next review, when the team will reconsider stronger containment.",
+        "To confirm: the business owner selects enhanced monitoring, accepts the stated residual risk, and will reconsider isolation if the agreed trigger occurs.",
+        "We will monitor the host closely and escalate again if analysts see any additional suspicious activity."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta registra decisión, autoridad, riesgo residual y disparador. Las demás omiten criterios, propietario o condiciones de revisión.",
+      "translation": "Para confirmar: el responsable de negocio elige monitorización reforzada, acepta el riesgo residual indicado y reconsiderará el aislamiento si se produce el desencadenante acordado."
+    },
+    {
+      "id": "b17v2-questions-disagreements-092",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Complete the meeting summary when participants agree on containment but not on closing the incident.",
+      "options": [
+        "We agree containment is complete and will revisit closure at Friday's full-team review, with the missing evidence and owner listed in the action log.",
+        "The incident will remain open because the participants did not reach unanimous agreement on closure.",
+        "We agree the immediate threat is contained; the decision to close remains pending until the owner reviews the missing endpoint evidence by Friday.",
+        "Most participants support closure, but the SOC will keep the case active until the remaining objection is withdrawn."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta separa acuerdo, desacuerdo, responsable y plazo. No convierte falta de unanimidad en criterio ni deja la revisión indefinida.",
+      "translation": "Acordamos que la amenaza inmediata está contenida; la decisión de cierre queda pendiente hasta que el responsable revise el viernes la evidencia ausente del endpoint."
+    },
+    {
+      "id": "b17v2-questions-disagreements-093",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Complete the commitment for a temporary firewall rule so that deployment, validation, review, and expiry are governed.",
+      "options": [
+        "The network team will add the temporary rule today under an emergency approval and keep it until the permanent architecture change is delivered and verified successfully.",
+        "The SOC will verify reduced alerts, and the service owner will decide when the temporary rule is no longer needed.",
+        "The rule is approved for immediate deployment, with its expiry and validation method to be agreed after implementation.",
+        "The network team will deploy the rule today, the SOC will validate the blocked behavior, and both teams will remove or renew it at Friday's review."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta concreta propietario, acción, validación y revisión. Las alternativas dejan duración, criterio de eficacia o retirada sin gobernar.",
+      "translation": "El equipo de red desplegará la regla hoy, el SOC validará el comportamiento bloqueado y ambos equipos la retirarán o renovarán en la revisión del viernes."
+    },
+    {
+      "id": "b17v2-questions-disagreements-094",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "The meeting ends without agreement on severity. Which governance statement assigns a decision, deadline, and evidence standard?",
+      "options": [
+        "The SOC and business owner will retain separate ratings and reconcile the reports after the incident is closed, and record the reporting difference in both governance views.",
+        "Pause non-essential actions until the severity model produces a rating accepted by both teams.",
+        "Keep the current operational response; the incident owner will decide the rating tomorrow using agreed impact criteria and new evidence.",
+        "Use the higher rating until consensus is reached so that no escalation requirement can be missed."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta mantiene acciones, asigna autoridad, fija plazo y criterio. No usa la categoría máxima o dos verdades como solución permanente.",
+      "translation": "Mantendremos la respuesta operativa actual y el responsable del incidente decidirá mañana la valoración usando los criterios de impacto acordados y la nueva evidencia."
+    },
+    {
+      "id": "b17v2-questions-disagreements-095",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Write the evidence triggers that would change the current account-compromise assessment. Which option is specific enough?",
+      "options": [
+        "User confirmation would lower the rating, while any additional alert linked to the account would raise it.",
+        "Additional logs may change the assessment; the SOC will update the customer if the investigation reveals a material finding, and explain the evidence threshold used for that update.",
+        "The assessment will change only if we confirm malicious activity or prove that the administrator performed the action.",
+        "Evidence of token use from a second device would raise confidence, while a verified change record matching the activity would lower it."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta define evidencia concreta y efecto en ambas direcciones. Las demás usan umbrales vagos, binarios o indicadores demasiado generales.",
+      "translation": "La evidencia de uso del token desde un segundo dispositivo aumentaría la confianza, mientras que un cambio verificado que coincidiera con la actividad la reduciría."
+    },
+    {
+      "id": "b17v2-questions-disagreements-096",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Complete the handoff for missing application logs.",
+      "options": [
+        "The application team will provide the missing logs today; after checking completeness, the SOC will analyze them and keep the current estimate unless a major gap appears.",
+        "The application owner will send the 3–5 November logs by 14:00; the SOC will confirm receipt and update the completion estimate by 16:00.",
+        "The customer will export the relevant period, and the analyst will review the files before the next incident call.",
+        "The application owner will prioritize the request while the SOC keeps the current completion estimate under review."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta fija contenido, periodo, responsable, horas, confirmación y actualización de la previsión. Las otras contienen compromisos vagos o difíciles de verificar.",
+      "translation": "El responsable de la aplicación enviará los registros del 3 al 5 de noviembre antes de las 14:00; el SOC confirmará la recepción y actualizará la previsión de finalización antes de las 16:00."
+    },
+    {
+      "id": "b17v2-questions-disagreements-097",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Cost prevents approval of the proposed control. Which summary preserves the risk-reduction objective rather than only the rejected solution?",
+      "options": [
+        "The team will seek a cheaper control, accepting a smaller risk reduction if it fits the available budget.",
+        "The business accepts the risk for this quarter and will reconsider the original recommendation during the next budget cycle, with the acceptance owner and review date recorded.",
+        "The proposed control is not approved; the owner will assess two lower-cost alternatives against the same risk-reduction requirement by month-end.",
+        "The recommendation is rejected on cost grounds, and the residual risk will remain open until budget becomes available."
+      ],
+      "correct": 2,
+      "explanation": "La respuesta no confunde rechazo de una solución con rechazo del objetivo. Asigna evaluación, equivalencia y plazo.",
+      "translation": "El control propuesto no se aprueba; el responsable evaluará antes de fin de mes dos alternativas de menor coste frente al mismo requisito de reducción del riesgo."
+    },
+    {
+      "id": "b17v2-questions-disagreements-098",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Choose the minutes entry after the meeting agrees that evidence is insufficient to determine data access.",
+      "options": [
+        "Data access is unconfirmed; the database owner will check audit records, and the conclusion will be updated when that evidence is reviewed.",
+        "Possible data access remains an open risk, with further investigation to continue before the final report is issued.",
+        "No data access is confirmed; the database owner will review audit records to validate that conclusion.",
+        "The team could not prove data access, so the report will retain no impact unless later evidence shows otherwise, and changes the documented impact assessment."
+      ],
+      "correct": 0,
+      "explanation": "La respuesta conserva estado epistemológico, acción, responsable y condición de actualización. «No confirmado» no significa «no ocurrió».",
+      "translation": "El acceso a datos no está confirmado; el responsable de la base de datos revisará los registros de auditoría y la conclusión se actualizará cuando se evalúe esa evidencia."
+    },
+    {
+      "id": "b17v2-questions-disagreements-099",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Two action trackers name different owners for the same evidence request. Which recap prevents the task from becoming orphaned?",
+      "options": [
+        "Both teams will keep the request open and coordinate ownership after the evidence has been delivered.",
+        "The application owner will export the evidence by Tuesday; the SOC analyst will validate it, and the incident manager will escalate any missed handoff that day.",
+        "The incident manager owns the request overall, while the application and SOC teams decide privately how to divide the work, before either tracker is closed or reassigned.",
+        "The application team will provide the evidence when available, and the SOC will update the tracker after reviewing it."
+      ],
+      "correct": 1,
+      "explanation": "La respuesta elimina la doble asignación con responsables distintos para entrega, validación y escalado, además de un plazo verificable.",
+      "translation": "El responsable de la aplicación exportará la evidencia antes del martes; el analista del SOC la validará y el responsable del incidente escalará ese mismo día cualquier transferencia incumplida."
+    },
+    {
+      "id": "b17v2-questions-disagreements-100",
+      "topic": "Questions and disagreements · Decisions, commitments, and next steps",
+      "question": "Choose the closing check that confirms shared understanding after a tense review.",
+      "options": [
+        "Let's reread the action list and ask whether anyone objects to the decisions and responsibilities recorded there.",
+        "Can the incident manager summarize the agreed position so all participants leave with one authoritative interpretation?",
+        "Before we close, can each owner confirm the decision, their action, the deadline, and the condition that would bring the issue back for review?",
+        "I will send minutes after the meeting; please reply if any decision or action does not match your understanding, with all owners copied on the follow-up message."
+      ],
+      "correct": 2,
+      "explanation": "La pregunta valida comprensión con los responsables en tiempo real e incluye condición de reapertura. Las actas posteriores no sustituyen esa comprobación.",
+      "translation": "Antes de cerrar, ¿puede cada responsable confirmar la decisión, su acción, el plazo y la condición que haría que el asunto volviera a revisión?"
+    }
+  ],
+  "category": "natural"
+}
